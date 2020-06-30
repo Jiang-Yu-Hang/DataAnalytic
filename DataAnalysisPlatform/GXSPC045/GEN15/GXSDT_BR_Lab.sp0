@@ -1,0 +1,308 @@
+ 
+spec_i([ sdt,[ 0,16,0 ],'BR_Lab','BR_Lab',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,16,0 ],name,'BR_Lab').
+struct_dt_i([ 0,16,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,16,0 ],significantName,'BR_Lab').
+struct_dt_i([ 0,16,0 ],'ObjName','BR_Lab').
+struct_dt_i([ 0,16,0 ],'ObjDesc','Data Mgmt Portal - RAAP').
+struct_dt_i([ 0,16,0 ],'ExternalName','BR_Lab').
+struct_dt_i([ 0,16,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,16,0 ],key,[ 101 ]).
+struct_dt_i([ 0,16,0 ],lvl,17).
+struct_dt_i([ 0,16,0 ],fullname,'BR_Lab').
+ 
+struct_dt_elem_i([ 0,16,0 ],1,name,'Br_labid').
+struct_dt_elem_i([ 0,16,0 ],1,camelname,'BR_LabID').
+struct_dt_elem_i([ 0,16,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,16,0 ],1,length,18).
+struct_dt_elem_i([ 0,16,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],1,sign,0).
+struct_dt_elem_i([ 0,16,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,16,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,16,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],1,attributeid,'101').
+struct_dt_elem_i([ 0,16,0 ],1,'ExternalName','BR_LabID').
+struct_dt_elem_i([ 0,16,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],2,name,'Br_encounterid').
+struct_dt_elem_i([ 0,16,0 ],2,camelname,'BR_EncounterID').
+struct_dt_elem_i([ 0,16,0 ],2,basedon,69).
+struct_dt_elem_i([ 0,16,0 ],2,length,18).
+struct_dt_elem_i([ 0,16,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],2,sign,0).
+struct_dt_elem_i([ 0,16,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,16,0 ],2,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,16,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],2,attributeid,'19').
+struct_dt_elem_i([ 0,16,0 ],2,'ExternalName','BR_EncounterID').
+struct_dt_elem_i([ 0,16,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],3,name,'Br_information_patientno').
+struct_dt_elem_i([ 0,16,0 ],3,camelname,'BR_Information_PatientNo').
+struct_dt_elem_i([ 0,16,0 ],3,length,2000).
+struct_dt_elem_i([ 0,16,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],3,type,[ 13,2000,0 ]).
+struct_dt_elem_i([ 0,16,0 ],3,pic,'').
+struct_dt_elem_i([ 0,16,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],3,attributeid,'36').
+struct_dt_elem_i([ 0,16,0 ],3,'ExternalName','BR_Information_PatientNo').
+struct_dt_elem_i([ 0,16,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],4,name,'Br_lab_sampleid').
+struct_dt_elem_i([ 0,16,0 ],4,camelname,'BR_Lab_SampleID').
+struct_dt_elem_i([ 0,16,0 ],4,length,100).
+struct_dt_elem_i([ 0,16,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,16,0 ],4,pic,'').
+struct_dt_elem_i([ 0,16,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],4,attributeid,'224').
+struct_dt_elem_i([ 0,16,0 ],4,'ExternalName','BR_Lab_SampleID').
+struct_dt_elem_i([ 0,16,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],5,name,'Br_lab_testid').
+struct_dt_elem_i([ 0,16,0 ],5,camelname,'BR_Lab_TestID').
+struct_dt_elem_i([ 0,16,0 ],5,length,10).
+struct_dt_elem_i([ 0,16,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],5,sign,0).
+struct_dt_elem_i([ 0,16,0 ],5,type,[ 4,10,0 ]).
+struct_dt_elem_i([ 0,16,0 ],5,pic,'ZZZZZZZZZZ').
+struct_dt_elem_i([ 0,16,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],5,attributeid,'102').
+struct_dt_elem_i([ 0,16,0 ],5,'ExternalName','BR_Lab_TestID').
+struct_dt_elem_i([ 0,16,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],6,name,'Br_lab_testcode').
+struct_dt_elem_i([ 0,16,0 ],6,camelname,'BR_Lab_TestCode').
+struct_dt_elem_i([ 0,16,0 ],6,length,40).
+struct_dt_elem_i([ 0,16,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],6,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,16,0 ],6,pic,'').
+struct_dt_elem_i([ 0,16,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],6,attributeid,'103').
+struct_dt_elem_i([ 0,16,0 ],6,'ExternalName','BR_Lab_TestCode').
+struct_dt_elem_i([ 0,16,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],7,name,'Br_lab_testname').
+struct_dt_elem_i([ 0,16,0 ],7,camelname,'BR_Lab_TestName').
+struct_dt_elem_i([ 0,16,0 ],7,length,40).
+struct_dt_elem_i([ 0,16,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],7,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,16,0 ],7,pic,'').
+struct_dt_elem_i([ 0,16,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],7,attributeid,'104').
+struct_dt_elem_i([ 0,16,0 ],7,'ExternalName','BR_Lab_TestName').
+struct_dt_elem_i([ 0,16,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],8,name,'Br_lab_testengname').
+struct_dt_elem_i([ 0,16,0 ],8,camelname,'BR_Lab_TestEngName').
+struct_dt_elem_i([ 0,16,0 ],8,length,100).
+struct_dt_elem_i([ 0,16,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],8,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,16,0 ],8,pic,'').
+struct_dt_elem_i([ 0,16,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],8,attributeid,'261').
+struct_dt_elem_i([ 0,16,0 ],8,'ExternalName','BR_Lab_TestEngName').
+struct_dt_elem_i([ 0,16,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],9,name,'Br_lab_age').
+struct_dt_elem_i([ 0,16,0 ],9,camelname,'BR_Lab_Age').
+struct_dt_elem_i([ 0,16,0 ],9,length,3).
+struct_dt_elem_i([ 0,16,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],9,sign,0).
+struct_dt_elem_i([ 0,16,0 ],9,type,[ 4,3,0 ]).
+struct_dt_elem_i([ 0,16,0 ],9,pic,'ZZZ').
+struct_dt_elem_i([ 0,16,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],9,attributeid,'262').
+struct_dt_elem_i([ 0,16,0 ],9,'ExternalName','BR_Lab_Age').
+struct_dt_elem_i([ 0,16,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],10,name,'Br_lab_diag').
+struct_dt_elem_i([ 0,16,0 ],10,camelname,'BR_Lab_Diag').
+struct_dt_elem_i([ 0,16,0 ],10,length,100).
+struct_dt_elem_i([ 0,16,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],10,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,16,0 ],10,pic,'').
+struct_dt_elem_i([ 0,16,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],10,attributeid,'263').
+struct_dt_elem_i([ 0,16,0 ],10,'ExternalName','BR_Lab_Diag').
+struct_dt_elem_i([ 0,16,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],11,name,'Br_lab_specimendate').
+struct_dt_elem_i([ 0,16,0 ],11,camelname,'BR_Lab_SpecimenDate').
+struct_dt_elem_i([ 0,16,0 ],11,basedon,102).
+struct_dt_elem_i([ 0,16,0 ],11,length,10).
+struct_dt_elem_i([ 0,16,0 ],11,decimals,8).
+struct_dt_elem_i([ 0,16,0 ],11,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,16,0 ],11,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,16,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],11,attributeid,'105').
+struct_dt_elem_i([ 0,16,0 ],11,'ExternalName','BR_Lab_SpecimenDate').
+struct_dt_elem_i([ 0,16,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],12,name,'Br_lab_receivingtime').
+struct_dt_elem_i([ 0,16,0 ],12,camelname,'BR_Lab_ReceivingTime').
+struct_dt_elem_i([ 0,16,0 ],12,basedon,102).
+struct_dt_elem_i([ 0,16,0 ],12,length,10).
+struct_dt_elem_i([ 0,16,0 ],12,decimals,8).
+struct_dt_elem_i([ 0,16,0 ],12,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,16,0 ],12,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,16,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],12,attributeid,'264').
+struct_dt_elem_i([ 0,16,0 ],12,'ExternalName','BR_Lab_ReceivingTime').
+struct_dt_elem_i([ 0,16,0 ],12,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],13,name,'Br_lab_reporttime').
+struct_dt_elem_i([ 0,16,0 ],13,camelname,'BR_Lab_ReportTime').
+struct_dt_elem_i([ 0,16,0 ],13,basedon,102).
+struct_dt_elem_i([ 0,16,0 ],13,length,10).
+struct_dt_elem_i([ 0,16,0 ],13,decimals,8).
+struct_dt_elem_i([ 0,16,0 ],13,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,16,0 ],13,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,16,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],13,attributeid,'265').
+struct_dt_elem_i([ 0,16,0 ],13,'ExternalName','BR_Lab_ReportTime').
+struct_dt_elem_i([ 0,16,0 ],13,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],14,name,'Br_lab_specimensource').
+struct_dt_elem_i([ 0,16,0 ],14,camelname,'BR_Lab_SpecimenSource').
+struct_dt_elem_i([ 0,16,0 ],14,length,100).
+struct_dt_elem_i([ 0,16,0 ],14,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],14,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,16,0 ],14,pic,'').
+struct_dt_elem_i([ 0,16,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],14,attributeid,'106').
+struct_dt_elem_i([ 0,16,0 ],14,'ExternalName','BR_Lab_SpecimenSource').
+struct_dt_elem_i([ 0,16,0 ],14,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],15,name,'Br_lab_specimensource_code').
+struct_dt_elem_i([ 0,16,0 ],15,camelname,'BR_Lab_SpecimenSource_Code').
+struct_dt_elem_i([ 0,16,0 ],15,length,40).
+struct_dt_elem_i([ 0,16,0 ],15,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],15,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,16,0 ],15,pic,'').
+struct_dt_elem_i([ 0,16,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],15,attributeid,'474').
+struct_dt_elem_i([ 0,16,0 ],15,'ExternalName','BR_Lab_SpecimenSource_Code').
+struct_dt_elem_i([ 0,16,0 ],15,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],16,name,'Br_lab_resultqual').
+struct_dt_elem_i([ 0,16,0 ],16,camelname,'BR_Lab_ResultQual').
+struct_dt_elem_i([ 0,16,0 ],16,length,500).
+struct_dt_elem_i([ 0,16,0 ],16,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],16,type,[ 13,500,0 ]).
+struct_dt_elem_i([ 0,16,0 ],16,pic,'').
+struct_dt_elem_i([ 0,16,0 ],16,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],16,attributeid,'109').
+struct_dt_elem_i([ 0,16,0 ],16,'ExternalName','BR_Lab_ResultQual').
+struct_dt_elem_i([ 0,16,0 ],16,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],17,name,'Br_lab_resultqual_code').
+struct_dt_elem_i([ 0,16,0 ],17,camelname,'BR_Lab_ResultQual_Code').
+struct_dt_elem_i([ 0,16,0 ],17,length,40).
+struct_dt_elem_i([ 0,16,0 ],17,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],17,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,16,0 ],17,pic,'').
+struct_dt_elem_i([ 0,16,0 ],17,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],17,attributeid,'475').
+struct_dt_elem_i([ 0,16,0 ],17,'ExternalName','BR_Lab_ResultQual_Code').
+struct_dt_elem_i([ 0,16,0 ],17,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],18,name,'Br_lab_resultnum').
+struct_dt_elem_i([ 0,16,0 ],18,camelname,'BR_Lab_ResultNum').
+struct_dt_elem_i([ 0,16,0 ],18,length,500).
+struct_dt_elem_i([ 0,16,0 ],18,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],18,type,[ 13,500,0 ]).
+struct_dt_elem_i([ 0,16,0 ],18,pic,'').
+struct_dt_elem_i([ 0,16,0 ],18,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],18,attributeid,'110').
+struct_dt_elem_i([ 0,16,0 ],18,'ExternalName','BR_Lab_ResultNum').
+struct_dt_elem_i([ 0,16,0 ],18,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],19,name,'Br_lab_resultunit').
+struct_dt_elem_i([ 0,16,0 ],19,camelname,'BR_Lab_ResultUnit').
+struct_dt_elem_i([ 0,16,0 ],19,length,40).
+struct_dt_elem_i([ 0,16,0 ],19,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],19,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,16,0 ],19,pic,'').
+struct_dt_elem_i([ 0,16,0 ],19,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],19,attributeid,'111').
+struct_dt_elem_i([ 0,16,0 ],19,'ExternalName','BR_Lab_ResultUnit').
+struct_dt_elem_i([ 0,16,0 ],19,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],20,name,'Br_lab_abnind').
+struct_dt_elem_i([ 0,16,0 ],20,camelname,'BR_Lab_AbnInd').
+struct_dt_elem_i([ 0,16,0 ],20,length,100).
+struct_dt_elem_i([ 0,16,0 ],20,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],20,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,16,0 ],20,pic,'').
+struct_dt_elem_i([ 0,16,0 ],20,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],20,attributeid,'112').
+struct_dt_elem_i([ 0,16,0 ],20,'ExternalName','BR_Lab_AbnInd').
+struct_dt_elem_i([ 0,16,0 ],20,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],21,name,'Br_lab_abnind_code').
+struct_dt_elem_i([ 0,16,0 ],21,camelname,'BR_Lab_AbnInd_Code').
+struct_dt_elem_i([ 0,16,0 ],21,length,40).
+struct_dt_elem_i([ 0,16,0 ],21,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],21,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,16,0 ],21,pic,'').
+struct_dt_elem_i([ 0,16,0 ],21,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],21,attributeid,'476').
+struct_dt_elem_i([ 0,16,0 ],21,'ExternalName','BR_Lab_AbnInd_Code').
+struct_dt_elem_i([ 0,16,0 ],21,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],22,name,'Br_lab_normrangelow').
+struct_dt_elem_i([ 0,16,0 ],22,camelname,'BR_Lab_NormRangeLow').
+struct_dt_elem_i([ 0,16,0 ],22,length,100).
+struct_dt_elem_i([ 0,16,0 ],22,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],22,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,16,0 ],22,pic,'').
+struct_dt_elem_i([ 0,16,0 ],22,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],22,attributeid,'113').
+struct_dt_elem_i([ 0,16,0 ],22,'ExternalName','BR_Lab_NormRangeLow').
+struct_dt_elem_i([ 0,16,0 ],22,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],23,name,'Br_lab_normrangehigh').
+struct_dt_elem_i([ 0,16,0 ],23,camelname,'BR_Lab_NormRangeHigh').
+struct_dt_elem_i([ 0,16,0 ],23,length,100).
+struct_dt_elem_i([ 0,16,0 ],23,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],23,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,16,0 ],23,pic,'').
+struct_dt_elem_i([ 0,16,0 ],23,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],23,attributeid,'114').
+struct_dt_elem_i([ 0,16,0 ],23,'ExternalName','BR_Lab_NormRangeHigh').
+struct_dt_elem_i([ 0,16,0 ],23,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],24,name,'Br_lab_testmethod').
+struct_dt_elem_i([ 0,16,0 ],24,camelname,'BR_Lab_TestMethod').
+struct_dt_elem_i([ 0,16,0 ],24,length,40).
+struct_dt_elem_i([ 0,16,0 ],24,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],24,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,16,0 ],24,pic,'').
+struct_dt_elem_i([ 0,16,0 ],24,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],24,attributeid,'115').
+struct_dt_elem_i([ 0,16,0 ],24,'ExternalName','BR_Lab_TestMethod').
+struct_dt_elem_i([ 0,16,0 ],24,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],25,name,'Br_lab_instrumentname').
+struct_dt_elem_i([ 0,16,0 ],25,camelname,'BR_Lab_InstrumentName').
+struct_dt_elem_i([ 0,16,0 ],25,length,200).
+struct_dt_elem_i([ 0,16,0 ],25,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],25,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,16,0 ],25,pic,'').
+struct_dt_elem_i([ 0,16,0 ],25,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],25,attributeid,'117').
+struct_dt_elem_i([ 0,16,0 ],25,'ExternalName','BR_Lab_InstrumentName').
+struct_dt_elem_i([ 0,16,0 ],25,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],26,name,'Br_lab_instrumentcode').
+struct_dt_elem_i([ 0,16,0 ],26,camelname,'BR_Lab_InstrumentCode').
+struct_dt_elem_i([ 0,16,0 ],26,length,100).
+struct_dt_elem_i([ 0,16,0 ],26,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],26,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,16,0 ],26,pic,'').
+struct_dt_elem_i([ 0,16,0 ],26,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],26,attributeid,'118').
+struct_dt_elem_i([ 0,16,0 ],26,'ExternalName','BR_Lab_InstrumentCode').
+struct_dt_elem_i([ 0,16,0 ],26,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],27,name,'Br_sampleid').
+struct_dt_elem_i([ 0,16,0 ],27,camelname,'BR_SampleId').
+struct_dt_elem_i([ 0,16,0 ],27,basedon,69).
+struct_dt_elem_i([ 0,16,0 ],27,length,18).
+struct_dt_elem_i([ 0,16,0 ],27,decimals,0).
+struct_dt_elem_i([ 0,16,0 ],27,sign,0).
+struct_dt_elem_i([ 0,16,0 ],27,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,16,0 ],27,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,16,0 ],27,collection,'False').
+struct_dt_elem_i([ 0,16,0 ],27,attributeid,'430').
+struct_dt_elem_i([ 0,16,0 ],27,'ExternalName','BR_SampleId').
+struct_dt_elem_i([ 0,16,0 ],27,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,16,0 ],11,pic,'ZZZZZZZZZZ').
+struct_dt_elem_i([ 0,16,0 ],12,pic,'ZZZZZZZZZZ').
+struct_dt_elem_i([ 0,16,0 ],13,pic,'ZZZZZZZZZZ').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

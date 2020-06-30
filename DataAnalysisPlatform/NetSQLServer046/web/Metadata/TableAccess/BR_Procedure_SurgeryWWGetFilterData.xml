@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="cdd3eae9-3099-4709-a1b3-2daa0b8c599f">
+  <Table name="BR_Procedure_Surgery" />
+  <Table name="UserCustomizations" />
+</Dependencies>

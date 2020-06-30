@@ -1,0 +1,6 @@
+bc_dt_elem_i([ 0,39,0 ],'Br_scheme_medicationid',allownulls,no).
+bc_dt_elem_i([ 0,39,0 ],'Br_scheme_chem_regimens',readonly,yes).
+bc_dt_elem_i([ 0,39,0 ],'Br_medication_rxname',readonly,yes).
+bc_dt_elem_i([ 0,39,0 ],'Br_medication_rxdose',readonly,yes).
+bc_dt_elem_i([ 0,39,0 ],'Br_medication_rxunit',readonly,yes).
+ 

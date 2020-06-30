@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="fe39e2e5-4b38-46ad-b4e3-fb06c74270ea">
+  <Table name="BR_Behavior" />
+  <Table name="BR_Comorbidity" />
+  <Table name="BR_Death" />
+  <Table name="BR_Demographics" />
+  <Table name="BR_Diagnosis" />
+  <Table name="BR_Encounter" />
+  <Table name="BR_Lab" />
+  <Table name="BR_Medication" />
+  <Table name="BR_Procedure" />
+  <Table name="BR_Vital" />
+  <Table name="BR_MedicalImaging_Diag" />
+  <Table name="BR_MedicalImaging" />
+  <Table name="BR_Medication_Scheme" />
+  <Table name="BR_Pathology_Specimen" />
+  <Table name="BR_Pathology_Diag" />
+  <Table name="BR_Pathology_Other" />
+  <Table name="BR_Pathology" />
+  <Table name="BR_Procedure_Surgery" />
+  <Table name="BR_Procedure_Radio" />
+  <Table name="BR_Scheme" />
+  <Table name="BR_Scheme_Medication" />
+  <Table name="BR_Encounter_RefuseReason" />
+  <Table name="XT_Log" />
+  <Table name="SYS_Log" />
+  <Table name="BR_Medication_Detail" />
+</Dependencies>

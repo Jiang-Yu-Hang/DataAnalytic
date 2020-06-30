@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="3efa4f10-da3d-4802-a599-e9ad2a49f769">
+  <Table name="SecRole" />
+  <Table name="SecUser" />
+  <Table name="SecUserRole" />
+</Dependencies>

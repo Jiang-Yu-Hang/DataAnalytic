@@ -1,0 +1,659 @@
+spec_i([ proc,146,检查患者是否能够显示在当前租户中,'ZBR_CheckInfoIfInCode',78,chs,'16_0_0-127771' ]).
+ 
+struct_i(3,1,[],[]).
+struct_i(2,1,[],[]).
+ 
+level_i(3,[ 63,[ [ 63,many ] ],[],[],[ [ [ 63 ],[ 366,85 ] ] ],[ [ [ 63 ],[] ] ],[ 85,366 ],'IBR_PATIENTREENTITY',[],[] ]).
+level_i(2,[ 64,[ [ 64,many ] ],[],[],[ [ [ 64 ],[ 360,85 ] ] ],[ [ [ 64 ],[] ] ],[ 360 ],'IBR_PATIENTRETENANT1',[ 64,[ [ [],'Ibas_tenanttenantcode',360 ] ] ],[] ]).
+ 
+tw_i(3,[]).
+tw_i(2,[]).
+ 
+lwi_i(3,[ [ c([ t([ t(85,2),v(t('Ofirstbr_information_id',23)) ],49) ],[ 85 ]),c([ t([ t(366,2),v(t('Tdatapackage',23)) ],49) ],[ 366 ]) ] ]).
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+level_option_i(2,usr_condition,y).
+level_option_i(3,usr_condition,y).
+ 
+ta_i(3,[ [ [ 63,366 ],[ 63,85 ] ] ]).
+ta_i(2,[ [ [ 64,360 ],[ 64,85 ] ] ]).
+ 
+las_i(3,[ [ 366,85 ] ]).
+las_i(2,[ [ 360,85 ] ]).
+ 
+lac_i(3,[ [] ]).
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','商?')).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','商?')).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','ZBR_CheckInfoIfInCode')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'BR'))).
+rule_i(0,prop('ObjDesc',检查患者是否能够显示在当前租户中)).
+rule_i(0,prop('ObjName','ZBR_CheckInfoIfInCode')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Ibas_tenanttenantcode','Ismanager','Obr_information_id' ],[])).
+rule_i(0,parmio([ [ 'Ibas_tenanttenantcode',in ],[ 'Ismanager',in ],[ 'Obr_information_id',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,64,[],[ [ [ [],'Ibas_tenanttenantcode',360 ] ],'IBR_PATIENTRETENANT1',[] ]).
+a_i(3,3,t,63,[],[ [],'IBR_PATIENTREENTITY',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,'Ibas_tenanttenantcode').
+v_i(t,o,2,360).
+v_i(t,o,2,85).
+v_i(t,i,3,[]).
+v_i(t,o,3,366).
+v_i(t,o,3,85).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',23 ]).
+attri_i(360,[ 'BAS_TenantTenantCode',svchar,20,0,'',0,'BAS_Tenant Tenant Code','',0 ]).
+attri_i(366,[ 'DataPackage',svchar,50,0,'',0,'Data Package','',0 ]).
+attri_i(85,[ 'BR_Information_ID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,患者基本信息主键ID,'',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',20 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',19 ]).
+attri_i('Ismanager',[ 'IsManager',boolean,4,0,'',0,'Is Manager','',18 ]).
+attri_i('Tnum',[ tNum,int,10,0,'ZZZZZZZZZ9',0,'t Num','',17 ]).
+attri_i('Tdatapackage',[ tDataPackage,o(objectcollection(svchar)),50,0,'',0,病种研究方向,'',16 ]).
+attri_i('Tsdt_microuserinfo',[ tSDT_MicroUserInfo,o('SDT_MicroUserInfo'),0,0,'',0,'t SDT_Micro User Info','',15 ]).
+attri_i('Tresult',[ tResult,svchar,4000,0,'',0,'t Result','',14 ]).
+attri_i('Websession',[ websession,o(websession),4,0,'',0,websession,'',13 ]).
+attri_i('Ofirstbr_information_id',[ oFirstBR_Information_ID,o(objectcollection(int)),18,0,'ZZZZZZZZZZZZZZZZZZ',0,患者基本信息主键ID,'',12 ]).
+attri_i('Obr_information_id',[ oBR_Information_ID,o(objectcollection(int)),18,0,'ZZZZZZZZZZZZZZZZZZ',0,患者基本信息主键ID,'',11 ]).
+attri_i('Tflag',[ tFlag,boolean,4,0,'',0,'t Flag','',10 ]).
+attri_i('Ibas_tenanttenantcode',[ iBAS_TenantTenantCode,svchar,20,0,'',0,租户编号,'',9 ]).
+attri_i('Ibr_information_id',[ iBR_Information_ID,int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,患者基本信息主键ID,'',8 ]).
+ 
+table_i(64,[ 'BR_PatientReTenant',[ 85,360 ],' T64','BR_PatientReTenant' ]).
+table_i(63,[ 'BR_PatientReEntity',[ 85,366 ],' T63','BR_PatientReEntity' ]).
+ 
+index_i(64,[ 'IBR_PATIENTRETENANT',u,[ 85,360 ],'IBR_PatientReTenant' ]).
+index_i(64,[ 'IBR_PATIENTRETENANT1',d,[ 360 ],'IBR_PatientReTenant1' ]).
+index_i(63,[ 'IBR_PATIENTREENTITY',u,[ 85,366 ],'IBR_PatientReEntity' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+start_i(2,0,0,[ [ [ 360,23,'Ibas_tenanttenantcode',= ] ],many ]).
+ 
+end_i(2,0,0,[ [ [ t(360,2),t(=,10),t('Ibas_tenanttenantcode',23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(69,[ 'ID' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 85 ],[ 360 ],[] ]).
+break_i(3,nvg,1,[],[ [ 85 ],[ 85,366 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,3,3).
+b_group_i(2,1,lit,0,4,4).
+b_group_i(1,3,lit,0,7,4).
+b_group_i(1,4,nvg,3,23,23).
+b_group_i(3,1,lit,0,24,24).
+b_group_i(1,5,lit,0,28,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[ t('',107,0,0),t([ t('Ofirstbr_information_id',23,1,1),t('clear(',1,1,26) ],31,1,1),t(')',4,0,33) ]).
+b_line_i(2,1,1,cmd,0,[]).
+b_line_i(3,2,1,cmd,4,[ t('',121,3,0),t(table,3,3,10),t(64,3,3,10) ]).
+b_line_i(5,2,1,cmd,4,[ t('',107,4,0),t([ t('Ofirstbr_information_id',23,5,2),t('add(',1,5,27) ],31,5,2),t(85,2,4,32),t(')',4,4,49) ]).
+b_line_i(6,2,1,cmd,4,[ t('',128,4,0) ]).
+b_line_i(7,1,3,cmd,4,[]).
+b_line_i(8,1,3,cmd,4,[]).
+b_line_i(9,1,3,cmd,4,[ t('',107,4,0),t([ t('Obr_information_id',23,9,1),t('clear(',1,9,21) ],31,9,1),t(')',4,4,28) ]).
+b_line_i(10,1,3,cmd,4,[ t('',109,4,0),t('Ismanager',23,4,4),t(=,10,4,14),t('TRUE',40,4,15) ]).
+b_line_i(11,1,3,cmd,4,[ t('',107,4,0),t('Obr_information_id',23,4,0),t(=,10,4,0),t('Ofirstbr_information_id',23,4,0) ]).
+b_line_i(12,1,3,cmd,4,[ t('',110,4,0) ]).
+b_line_i(13,1,3,cmd,4,[]).
+b_line_i(14,1,3,cmd,4,[ t('',107,4,0),t('Tresult',23,4,0),t(=,10,4,0),t([ t('Websession',23,4,0),t('get(',1,4,0) ],31,4,0),t('''DAS_UserPermission''',3,4,0),t(')',4,4,0) ]).
+b_line_i(15,1,3,cmd,4,[ t('',107,4,0),t([ t('Tsdt_microuserinfo',23,15,2),t('fromjson(',1,15,22) ],31,15,2),t('Tresult',23,4,32),t(')',4,4,40) ]).
+b_line_i(16,1,3,cmd,4,[]).
+b_line_i(17,1,3,cmd,4,[ t('',107,4,0),t([ t('Tdatapackage',23,17,2),t('clear(',1,17,16) ],31,17,2),t(')',4,4,23) ]).
+b_line_i([ 18,0 ],1,3,cmd,4,[ t('',107,4,0),t('Tnum',23,4,0),t(=,10,4,0),t('1',3,4,0) ]).
+b_line_i(18,1,3,cmd,4,[ t('',114,4,0),t('Tnum',23,4,6),t(<=,10,4,2),t([ t('Tsdt_microuserinfo',23,18,17),t('Tenants',3,18,37),[ t('item(',1,0,45),t('1',3,0,51),t(')',4,0,52) ],t('Datascoptes',3,18,54),t('Count',3,18,66) ],29,18,66) ]).
+b_line_i(19,1,3,cmd,4,[ t('',107,4,0),t([ t('Tdatapackage',23,19,3),t('add(',1,19,17) ],31,19,3),t('trim(',1,19,84),t([ t([ t('Tsdt_microuserinfo',23,19,22),t('Tenants',3,19,42),[ t('item(',1,19,50),t('1',3,19,56),t(')',4,19,57) ],t('Datascoptes',3,19,59) ],29,19,22),t('item(',1,19,71) ],31,4,71),t('Tnum',23,4,77),t(')',4,4,82),t(')',4,4,90),t(')',4,4,91) ]).
+b_line_i([ 20,0 ],1,3,cmd,4,[ t('',107,4,0),t('Tnum',23,4,0),t(=,10,4,0),t('Tnum',23,4,0),t(+,5,4,0),t('1',3,4,0) ]).
+b_line_i(20,1,3,cmd,4,[ t('',115,4,0) ]).
+b_line_i(21,1,3,cmd,4,[]).
+b_line_i(22,1,3,cmd,4,[]).
+b_line_i(23,3,1,cmd,24,[ t('',121,23,0),t(table,3,23,11),t(63,3,23,11) ]).
+b_line_i(26,3,1,cmd,24,[ t('',107,24,0),t([ t('Obr_information_id',23,26,3),t('add(',1,26,23) ],31,26,3),t(85,2,24,28),t(')',4,24,45) ]).
+b_line_i(27,3,1,cmd,24,[ t('',128,24,0) ]).
+b_line_i(28,1,5,cmd,9,[ t('',111,9,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(45,85,'ExternalName','BR_Information_ID',d).
+att_prop_i(45,85,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,85,'EmptyAsNull','Yes',d).
+att_prop_i(45,85,idBasedOn,69,v).
+att_prop_i(45,85,'AUTONUMBER','-1',d).
+att_prop_i(45,85,'AUTONUMBER_START','1',d).
+att_prop_i(45,85,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,85,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,85,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,85,'AttRegEx','',d).
+att_prop_i(45,85,'AttValidationFailedMsg','',d).
+att_prop_i(45,85,'FullName','BR_Information_ID',v).
+att_prop_i(45,366,'ExternalName','DataPackage',d).
+att_prop_i(45,366,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,366,'EmptyAsNull','Yes',d).
+att_prop_i(45,366,idBasedOn,'',d).
+att_prop_i(45,366,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,366,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,366,'AttRegEx','',d).
+att_prop_i(45,366,'AttValidationFailedMsg','',d).
+att_prop_i(45,366,'FullName','DataPackage',v).
+att_prop_i(45,360,'ExternalName','BAS_TenantTenantCode',d).
+att_prop_i(45,360,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,360,'EmptyAsNull','Yes',d).
+att_prop_i(45,360,idBasedOn,'',d).
+att_prop_i(45,360,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,360,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,360,'AttRegEx','',d).
+att_prop_i(45,360,'AttValidationFailedMsg','',d).
+att_prop_i(45,360,'FullName','BAS_TenantTenantCode',v).
+ 
+ 
+tbl_att_prop_i(45,64,85,'AllowNulls',n).
+tbl_att_prop_i(45,64,360,'AllowNulls',n).
+tbl_att_prop_i(45,63,85,'AllowNulls',n).
+tbl_att_prop_i(45,63,366,'AllowNulls',n).
+ 
+var_prop_i(45,'Ibr_information_id',idBasedOn,'',v).
+var_prop_i(45,'Ibas_tenanttenantcode',idBasedOn,'',v).
+var_prop_i(45,'Obr_information_id',idBasedOn,'',v).
+var_prop_i(45,'Ofirstbr_information_id',idBasedOn,'',v).
+var_prop_i(45,'Tdatapackage',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,83,0 ],name,'SDT_MicroUserInfo').
+struct_dt_i([ 26,83,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 26,83,0 ],'ObjName','SDT_MicroUserInfo').
+struct_dt_i([ 26,83,0 ],'ObjDesc',微软的用户信息).
+struct_dt_i([ 26,83,0 ],'ExternalName','SDT_MicroUserInfo').
+struct_dt_i([ 26,83,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 26,83,138 ],name,'Institutes').
+struct_dt_i([ 26,83,138 ],namespace,'DataAnalysisPlatform.SDT_MicroUserInfo').
+struct_dt_i([ 26,83,139 ],name,'Tenants').
+struct_dt_i([ 26,83,139 ],namespace,'DataAnalysisPlatform.SDT_MicroUserInfo').
+struct_dt_i([ 26,83,0 ],fullname,'SDT_MicroUserInfo').
+struct_dt_i([ 26,83,138 ],fullname,'SDT_MicroUserInfo.Institutes').
+struct_dt_i([ 26,83,139 ],fullname,'SDT_MicroUserInfo.Tenants').
+struct_dt_i([ 26,83,0 ],modified,yes).
+struct_dt_i([ 26,83,138 ],modified,yes).
+struct_dt_i([ 26,83,139 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,83,0 ],1,name,'Userid').
+struct_dt_elem_i([ 26,83,0 ],1,camelname,'UserID').
+struct_dt_elem_i([ 26,83,0 ],1,length,4).
+struct_dt_elem_i([ 26,83,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,83,0 ],1,type,[ 45,4,0 ]).
+struct_dt_elem_i([ 26,83,0 ],1,pic,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX').
+struct_dt_elem_i([ 26,83,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,83,0 ],1,'ExternalName','UserID').
+struct_dt_elem_i([ 26,83,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,83,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,83,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,83,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,83,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,83,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,83,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,83,0 ],2,name,'Displayname').
+struct_dt_elem_i([ 26,83,0 ],2,camelname,'DisplayName').
+struct_dt_elem_i([ 26,83,0 ],2,length,100).
+struct_dt_elem_i([ 26,83,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,83,0 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,83,0 ],2,pic,'').
+struct_dt_elem_i([ 26,83,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,83,0 ],2,'ExternalName','DisplayName').
+struct_dt_elem_i([ 26,83,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,83,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,83,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,83,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,83,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,83,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,83,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,83,0 ],3,name,'Account').
+struct_dt_elem_i([ 26,83,0 ],3,camelname,'Account').
+struct_dt_elem_i([ 26,83,0 ],3,length,100).
+struct_dt_elem_i([ 26,83,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,83,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,83,0 ],3,pic,'').
+struct_dt_elem_i([ 26,83,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,83,0 ],3,'ExternalName','Account').
+struct_dt_elem_i([ 26,83,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,83,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,83,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,83,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,83,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,83,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,83,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,83,0 ],4,name,'Usertype').
+struct_dt_elem_i([ 26,83,0 ],4,camelname,'UserType').
+struct_dt_elem_i([ 26,83,0 ],4,length,4).
+struct_dt_elem_i([ 26,83,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,83,0 ],4,sign,0).
+struct_dt_elem_i([ 26,83,0 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,83,0 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,83,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,83,0 ],4,'ExternalName','UserType').
+struct_dt_elem_i([ 26,83,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,83,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,83,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,83,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,83,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,83,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,83,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,83,0 ],5,name,'Permissions').
+struct_dt_elem_i([ 26,83,0 ],5,camelname,'Permissions').
+struct_dt_elem_i([ 26,83,0 ],5,length,100).
+struct_dt_elem_i([ 26,83,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,83,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,83,0 ],5,pic,'').
+struct_dt_elem_i([ 26,83,0 ],5,collection,'True').
+struct_dt_elem_i([ 26,83,0 ],5,'ExternalName','Permissions').
+struct_dt_elem_i([ 26,83,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,83,0 ],5,'CollectionItemName','Item').
+struct_dt_elem_i([ 26,83,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,83,0 ],5,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,83,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,83,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,83,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,83,0 ],5,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,83,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,83,0 ],5,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,83,0 ],6,name,'Institutes').
+struct_dt_elem_i([ 26,83,0 ],6,camelname,'Institutes').
+struct_dt_elem_i([ 26,83,0 ],6,type,[ [ 26,83,138 ],0,0 ]).
+struct_dt_elem_i([ 26,83,0 ],6,pic,'').
+struct_dt_elem_i([ 26,83,0 ],6,collection,'True').
+struct_dt_elem_i([ 26,83,0 ],6,'ObjName','Institutes').
+struct_dt_elem_i([ 26,83,0 ],6,'ObjDesc','Institutes').
+struct_dt_elem_i([ 26,83,0 ],6,'CollectionItemName','Institutes').
+struct_dt_elem_i([ 26,83,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,83,0 ],6,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,83,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,83,0 ],6,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,83,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,83,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,83,0 ],6,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,83,138 ],1,name,'Code').
+struct_dt_elem_i([ 26,83,138 ],1,camelname,'Code').
+struct_dt_elem_i([ 26,83,138 ],1,length,100).
+struct_dt_elem_i([ 26,83,138 ],1,decimals,0).
+struct_dt_elem_i([ 26,83,138 ],1,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,83,138 ],1,pic,'').
+struct_dt_elem_i([ 26,83,138 ],1,collection,'False').
+struct_dt_elem_i([ 26,83,138 ],1,'ExternalName','Code').
+struct_dt_elem_i([ 26,83,138 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,83,138 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,83,138 ],1,'XmlName','').
+struct_dt_elem_i([ 26,83,138 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,83,138 ],1,soaptype,'').
+struct_dt_elem_i([ 26,83,138 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,83,138 ],1,'JsonName','').
+struct_dt_elem_i([ 26,83,138 ],2,name,'Name').
+struct_dt_elem_i([ 26,83,138 ],2,camelname,'Name').
+struct_dt_elem_i([ 26,83,138 ],2,length,100).
+struct_dt_elem_i([ 26,83,138 ],2,decimals,0).
+struct_dt_elem_i([ 26,83,138 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,83,138 ],2,pic,'').
+struct_dt_elem_i([ 26,83,138 ],2,collection,'False').
+struct_dt_elem_i([ 26,83,138 ],2,'ExternalName','Name').
+struct_dt_elem_i([ 26,83,138 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,83,138 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,83,138 ],2,'XmlName','').
+struct_dt_elem_i([ 26,83,138 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,83,138 ],2,soaptype,'').
+struct_dt_elem_i([ 26,83,138 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,83,138 ],2,'JsonName','').
+struct_dt_elem_i([ 26,83,138 ],3,name,'Permissions').
+struct_dt_elem_i([ 26,83,138 ],3,camelname,'Permissions').
+struct_dt_elem_i([ 26,83,138 ],3,length,100).
+struct_dt_elem_i([ 26,83,138 ],3,decimals,0).
+struct_dt_elem_i([ 26,83,138 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,83,138 ],3,pic,'').
+struct_dt_elem_i([ 26,83,138 ],3,collection,'True').
+struct_dt_elem_i([ 26,83,138 ],3,'ExternalName','Permissions').
+struct_dt_elem_i([ 26,83,138 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,83,138 ],3,'CollectionItemName','Item').
+struct_dt_elem_i([ 26,83,138 ],3,'XmlName','').
+struct_dt_elem_i([ 26,83,138 ],3,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,83,138 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,83,138 ],3,soaptype,'').
+struct_dt_elem_i([ 26,83,138 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,83,138 ],3,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,83,138 ],3,'JsonName','').
+struct_dt_elem_i([ 26,83,138 ],3,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,83,138 ],4,name,'Tenants').
+struct_dt_elem_i([ 26,83,138 ],4,camelname,'Tenants').
+struct_dt_elem_i([ 26,83,138 ],4,length,100).
+struct_dt_elem_i([ 26,83,138 ],4,decimals,0).
+struct_dt_elem_i([ 26,83,138 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,83,138 ],4,pic,'').
+struct_dt_elem_i([ 26,83,138 ],4,collection,'True').
+struct_dt_elem_i([ 26,83,138 ],4,'ExternalName','Tenants').
+struct_dt_elem_i([ 26,83,138 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,83,138 ],4,'CollectionItemName','Item').
+struct_dt_elem_i([ 26,83,138 ],4,'XmlName','').
+struct_dt_elem_i([ 26,83,138 ],4,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,83,138 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,83,138 ],4,soaptype,'').
+struct_dt_elem_i([ 26,83,138 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,83,138 ],4,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,83,138 ],4,'JsonName','').
+struct_dt_elem_i([ 26,83,138 ],4,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,83,0 ],7,name,'Tenants').
+struct_dt_elem_i([ 26,83,0 ],7,camelname,'Tenants').
+struct_dt_elem_i([ 26,83,0 ],7,type,[ [ 26,83,139 ],0,0 ]).
+struct_dt_elem_i([ 26,83,0 ],7,pic,'').
+struct_dt_elem_i([ 26,83,0 ],7,collection,'True').
+struct_dt_elem_i([ 26,83,0 ],7,'ObjName','Tenants').
+struct_dt_elem_i([ 26,83,0 ],7,'ObjDesc','Tenants').
+struct_dt_elem_i([ 26,83,0 ],7,'CollectionItemName','Tenants').
+struct_dt_elem_i([ 26,83,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,83,0 ],7,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,83,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,83,0 ],7,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,83,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,83,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,83,0 ],7,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,83,139 ],1,name,'Code').
+struct_dt_elem_i([ 26,83,139 ],1,camelname,'Code').
+struct_dt_elem_i([ 26,83,139 ],1,length,100).
+struct_dt_elem_i([ 26,83,139 ],1,decimals,0).
+struct_dt_elem_i([ 26,83,139 ],1,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,83,139 ],1,pic,'').
+struct_dt_elem_i([ 26,83,139 ],1,collection,'False').
+struct_dt_elem_i([ 26,83,139 ],1,'ExternalName','Code').
+struct_dt_elem_i([ 26,83,139 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,83,139 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,83,139 ],1,'XmlName','').
+struct_dt_elem_i([ 26,83,139 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,83,139 ],1,soaptype,'').
+struct_dt_elem_i([ 26,83,139 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,83,139 ],1,'JsonName','').
+struct_dt_elem_i([ 26,83,139 ],2,name,'Name').
+struct_dt_elem_i([ 26,83,139 ],2,camelname,'Name').
+struct_dt_elem_i([ 26,83,139 ],2,length,100).
+struct_dt_elem_i([ 26,83,139 ],2,decimals,0).
+struct_dt_elem_i([ 26,83,139 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,83,139 ],2,pic,'').
+struct_dt_elem_i([ 26,83,139 ],2,collection,'False').
+struct_dt_elem_i([ 26,83,139 ],2,'ExternalName','Name').
+struct_dt_elem_i([ 26,83,139 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,83,139 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,83,139 ],2,'XmlName','').
+struct_dt_elem_i([ 26,83,139 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,83,139 ],2,soaptype,'').
+struct_dt_elem_i([ 26,83,139 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,83,139 ],2,'JsonName','').
+struct_dt_elem_i([ 26,83,139 ],3,name,'Permissions').
+struct_dt_elem_i([ 26,83,139 ],3,camelname,'Permissions').
+struct_dt_elem_i([ 26,83,139 ],3,length,100).
+struct_dt_elem_i([ 26,83,139 ],3,decimals,0).
+struct_dt_elem_i([ 26,83,139 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,83,139 ],3,pic,'').
+struct_dt_elem_i([ 26,83,139 ],3,collection,'True').
+struct_dt_elem_i([ 26,83,139 ],3,'ExternalName','Permissions').
+struct_dt_elem_i([ 26,83,139 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,83,139 ],3,'CollectionItemName','Item').
+struct_dt_elem_i([ 26,83,139 ],3,'XmlName','').
+struct_dt_elem_i([ 26,83,139 ],3,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,83,139 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,83,139 ],3,soaptype,'').
+struct_dt_elem_i([ 26,83,139 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,83,139 ],3,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,83,139 ],3,'JsonName','').
+struct_dt_elem_i([ 26,83,139 ],3,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,83,139 ],4,name,'Datascoptes').
+struct_dt_elem_i([ 26,83,139 ],4,camelname,'DataScoptes').
+struct_dt_elem_i([ 26,83,139 ],4,length,100).
+struct_dt_elem_i([ 26,83,139 ],4,decimals,0).
+struct_dt_elem_i([ 26,83,139 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,83,139 ],4,pic,'').
+struct_dt_elem_i([ 26,83,139 ],4,collection,'True').
+struct_dt_elem_i([ 26,83,139 ],4,'ExternalName','DataScoptes').
+struct_dt_elem_i([ 26,83,139 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,83,139 ],4,'CollectionItemName','Item').
+struct_dt_elem_i([ 26,83,139 ],4,'XmlName','').
+struct_dt_elem_i([ 26,83,139 ],4,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,83,139 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,83,139 ],4,soaptype,'').
+struct_dt_elem_i([ 26,83,139 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,83,139 ],4,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,83,139 ],4,'JsonName','').
+struct_dt_elem_i([ 26,83,139 ],4,'JsonInclude',idJsonNoProperty).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,146,'ZBR_CHECKINFOIFINCODE','INTERNAL').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

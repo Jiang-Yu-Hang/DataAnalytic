@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="2bfd4c62-528b-40fc-9460-ef5b7ae3a04f">
+  <Table name="BR_Encounter_RefuseReason" />
+  <Table name="UserCustomizations" />
+</Dependencies>

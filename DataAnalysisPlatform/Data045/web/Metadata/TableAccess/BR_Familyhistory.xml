@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="a9a93d9e-6a91-4413-98cb-e0e5e1e517fa">
+  <Table name="BR_Encounter" />
+  <Table name="BR_Information" />
+  <Table name="BR_Familyhistory" />
+</Dependencies>

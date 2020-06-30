@@ -1,0 +1,164 @@
+ 
+spec_i([ sdt,[ 0,34,0 ],'BR_Pathology_Other','BR_Pathology_Other',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,34,0 ],name,'BR_Pathology_Other').
+struct_dt_i([ 0,34,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,34,0 ],significantName,'BR_Pathology_Other').
+struct_dt_i([ 0,34,0 ],'ObjName','BR_Pathology_Other').
+struct_dt_i([ 0,34,0 ],'ObjDesc','Data Mgmt Portal - RAAP').
+struct_dt_i([ 0,34,0 ],'ExternalName','BR_Pathology_Other').
+struct_dt_i([ 0,34,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,34,0 ],key,[ 288 ]).
+struct_dt_i([ 0,34,0 ],lvl,35).
+struct_dt_i([ 0,34,0 ],fullname,'BR_Pathology_Other').
+ 
+struct_dt_elem_i([ 0,34,0 ],1,name,'Br_pathology_otherid').
+struct_dt_elem_i([ 0,34,0 ],1,camelname,'BR_Pathology_OtherID').
+struct_dt_elem_i([ 0,34,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,34,0 ],1,length,18).
+struct_dt_elem_i([ 0,34,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,34,0 ],1,sign,0).
+struct_dt_elem_i([ 0,34,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,34,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,34,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,34,0 ],1,attributeid,'288').
+struct_dt_elem_i([ 0,34,0 ],1,'ExternalName','BR_Pathology_OtherID').
+struct_dt_elem_i([ 0,34,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,34,0 ],2,name,'Br_pathologyid').
+struct_dt_elem_i([ 0,34,0 ],2,camelname,'BR_PathologyID').
+struct_dt_elem_i([ 0,34,0 ],2,basedon,69).
+struct_dt_elem_i([ 0,34,0 ],2,length,18).
+struct_dt_elem_i([ 0,34,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,34,0 ],2,sign,0).
+struct_dt_elem_i([ 0,34,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,34,0 ],2,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,34,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,34,0 ],2,attributeid,'226').
+struct_dt_elem_i([ 0,34,0 ],2,'ExternalName','BR_PathologyID').
+struct_dt_elem_i([ 0,34,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,34,0 ],3,name,'Br_pathology_other_bio').
+struct_dt_elem_i([ 0,34,0 ],3,camelname,'BR_Pathology_Other_Bio').
+struct_dt_elem_i([ 0,34,0 ],3,length,40).
+struct_dt_elem_i([ 0,34,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,34,0 ],3,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,34,0 ],3,pic,'').
+struct_dt_elem_i([ 0,34,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,34,0 ],3,attributeid,'289').
+struct_dt_elem_i([ 0,34,0 ],3,'ExternalName','BR_Pathology_Other_Bio').
+struct_dt_elem_i([ 0,34,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,34,0 ],4,name,'Br_pathology_other_bio_code').
+struct_dt_elem_i([ 0,34,0 ],4,camelname,'BR_Pathology_Other_Bio_Code').
+struct_dt_elem_i([ 0,34,0 ],4,length,40).
+struct_dt_elem_i([ 0,34,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,34,0 ],4,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,34,0 ],4,pic,'').
+struct_dt_elem_i([ 0,34,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,34,0 ],4,attributeid,'480').
+struct_dt_elem_i([ 0,34,0 ],4,'ExternalName','BR_Pathology_Other_Bio_Code').
+struct_dt_elem_i([ 0,34,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,34,0 ],5,name,'Br_pathology_other_bionum').
+struct_dt_elem_i([ 0,34,0 ],5,camelname,'BR_Pathology_Other_BioNum').
+struct_dt_elem_i([ 0,34,0 ],5,basedon,103).
+struct_dt_elem_i([ 0,34,0 ],5,length,15).
+struct_dt_elem_i([ 0,34,0 ],5,decimals,5).
+struct_dt_elem_i([ 0,34,0 ],5,sign,0).
+struct_dt_elem_i([ 0,34,0 ],5,type,[ 4,15,5 ]).
+struct_dt_elem_i([ 0,34,0 ],5,pic,'ZZZZZZZZZ.ZZZZZ').
+struct_dt_elem_i([ 0,34,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,34,0 ],5,attributeid,'290').
+struct_dt_elem_i([ 0,34,0 ],5,'ExternalName','BR_Pathology_Other_BioNum').
+struct_dt_elem_i([ 0,34,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,34,0 ],6,name,'Br_pathology_other_bionum_code').
+struct_dt_elem_i([ 0,34,0 ],6,camelname,'BR_Pathology_Other_BioNum_Code').
+struct_dt_elem_i([ 0,34,0 ],6,length,40).
+struct_dt_elem_i([ 0,34,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,34,0 ],6,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,34,0 ],6,pic,'').
+struct_dt_elem_i([ 0,34,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,34,0 ],6,attributeid,'481').
+struct_dt_elem_i([ 0,34,0 ],6,'ExternalName','BR_Pathology_Other_BioNum_Code').
+struct_dt_elem_i([ 0,34,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,34,0 ],7,name,'Br_pathology_other_bionumunit').
+struct_dt_elem_i([ 0,34,0 ],7,camelname,'BR_Pathology_Other_BioNumUnit').
+struct_dt_elem_i([ 0,34,0 ],7,length,40).
+struct_dt_elem_i([ 0,34,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,34,0 ],7,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,34,0 ],7,pic,'').
+struct_dt_elem_i([ 0,34,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,34,0 ],7,attributeid,'291').
+struct_dt_elem_i([ 0,34,0 ],7,'ExternalName','BR_Pathology_Other_BioNumUnit').
+struct_dt_elem_i([ 0,34,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,34,0 ],8,name,'Br_pathology_other_bioqual').
+struct_dt_elem_i([ 0,34,0 ],8,camelname,'BR_Pathology_Other_BioQual').
+struct_dt_elem_i([ 0,34,0 ],8,length,40).
+struct_dt_elem_i([ 0,34,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,34,0 ],8,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,34,0 ],8,pic,'').
+struct_dt_elem_i([ 0,34,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,34,0 ],8,attributeid,'292').
+struct_dt_elem_i([ 0,34,0 ],8,'ExternalName','BR_Pathology_Other_BioQual').
+struct_dt_elem_i([ 0,34,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,34,0 ],9,name,'Br_pathology_other_bioqual_code').
+struct_dt_elem_i([ 0,34,0 ],9,camelname,'BR_Pathology_Other_BioQual_Code').
+struct_dt_elem_i([ 0,34,0 ],9,length,40).
+struct_dt_elem_i([ 0,34,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,34,0 ],9,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,34,0 ],9,pic,'').
+struct_dt_elem_i([ 0,34,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,34,0 ],9,attributeid,'482').
+struct_dt_elem_i([ 0,34,0 ],9,'ExternalName','BR_Pathology_Other_BioQual_Code').
+struct_dt_elem_i([ 0,34,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,34,0 ],10,name,'Br_pathology_other_low').
+struct_dt_elem_i([ 0,34,0 ],10,camelname,'BR_Pathology_Other_Low').
+struct_dt_elem_i([ 0,34,0 ],10,basedon,103).
+struct_dt_elem_i([ 0,34,0 ],10,length,15).
+struct_dt_elem_i([ 0,34,0 ],10,decimals,5).
+struct_dt_elem_i([ 0,34,0 ],10,sign,0).
+struct_dt_elem_i([ 0,34,0 ],10,type,[ 4,15,5 ]).
+struct_dt_elem_i([ 0,34,0 ],10,pic,'ZZZZZZZZZ.ZZZZZ').
+struct_dt_elem_i([ 0,34,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,34,0 ],10,attributeid,'293').
+struct_dt_elem_i([ 0,34,0 ],10,'ExternalName','BR_Pathology_Other_Low').
+struct_dt_elem_i([ 0,34,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,34,0 ],11,name,'Br_pathology_other_high').
+struct_dt_elem_i([ 0,34,0 ],11,camelname,'BR_Pathology_Other_High').
+struct_dt_elem_i([ 0,34,0 ],11,basedon,103).
+struct_dt_elem_i([ 0,34,0 ],11,length,15).
+struct_dt_elem_i([ 0,34,0 ],11,decimals,5).
+struct_dt_elem_i([ 0,34,0 ],11,sign,0).
+struct_dt_elem_i([ 0,34,0 ],11,type,[ 4,15,5 ]).
+struct_dt_elem_i([ 0,34,0 ],11,pic,'ZZZZZZZZZ.ZZZZZ').
+struct_dt_elem_i([ 0,34,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,34,0 ],11,attributeid,'294').
+struct_dt_elem_i([ 0,34,0 ],11,'ExternalName','BR_Pathology_Other_High').
+struct_dt_elem_i([ 0,34,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,34,0 ],12,name,'Br_pathology_other_abnind').
+struct_dt_elem_i([ 0,34,0 ],12,camelname,'BR_Pathology_Other_AbnInd').
+struct_dt_elem_i([ 0,34,0 ],12,length,40).
+struct_dt_elem_i([ 0,34,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,34,0 ],12,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,34,0 ],12,pic,'').
+struct_dt_elem_i([ 0,34,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,34,0 ],12,attributeid,'295').
+struct_dt_elem_i([ 0,34,0 ],12,'ExternalName','BR_Pathology_Other_AbnInd').
+struct_dt_elem_i([ 0,34,0 ],12,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,34,0 ],13,name,'Br_pathology_other_abnind_code').
+struct_dt_elem_i([ 0,34,0 ],13,camelname,'BR_Pathology_Other_AbnInd_Code').
+struct_dt_elem_i([ 0,34,0 ],13,length,40).
+struct_dt_elem_i([ 0,34,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,34,0 ],13,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,34,0 ],13,pic,'').
+struct_dt_elem_i([ 0,34,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,34,0 ],13,attributeid,'509').
+struct_dt_elem_i([ 0,34,0 ],13,'ExternalName','BR_Pathology_Other_AbnInd_Code').
+struct_dt_elem_i([ 0,34,0 ],13,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

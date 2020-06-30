@@ -1,0 +1,84 @@
+ 
+spec_i([ sdt,[ 0,45,0 ],'SYS_Permission','SYS_Permission',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,45,0 ],name,'SYS_Permission').
+struct_dt_i([ 0,45,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,45,0 ],significantName,'SYS_Permission').
+struct_dt_i([ 0,45,0 ],'ObjName','SYS_Permission').
+struct_dt_i([ 0,45,0 ],'ObjDesc','SYS_Permission').
+struct_dt_i([ 0,45,0 ],'ExternalName','SYS_Permission').
+struct_dt_i([ 0,45,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,45,0 ],key,[ 362 ]).
+struct_dt_i([ 0,45,0 ],lvl,46).
+struct_dt_i([ 0,45,0 ],fullname,'SYS_Permission').
+ 
+struct_dt_elem_i([ 0,45,0 ],1,name,'Permissioncode').
+struct_dt_elem_i([ 0,45,0 ],1,camelname,'PermissionCode').
+struct_dt_elem_i([ 0,45,0 ],1,length,64).
+struct_dt_elem_i([ 0,45,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,45,0 ],1,type,[ 13,64,0 ]).
+struct_dt_elem_i([ 0,45,0 ],1,pic,'').
+struct_dt_elem_i([ 0,45,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,45,0 ],1,attributeid,'362').
+struct_dt_elem_i([ 0,45,0 ],1,'ExternalName','PermissionCode').
+struct_dt_elem_i([ 0,45,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,45,0 ],2,name,'Permissionname').
+struct_dt_elem_i([ 0,45,0 ],2,camelname,'PermissionName').
+struct_dt_elem_i([ 0,45,0 ],2,length,64).
+struct_dt_elem_i([ 0,45,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,45,0 ],2,type,[ 13,64,0 ]).
+struct_dt_elem_i([ 0,45,0 ],2,pic,'').
+struct_dt_elem_i([ 0,45,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,45,0 ],2,attributeid,'403').
+struct_dt_elem_i([ 0,45,0 ],2,'ExternalName','PermissionName').
+struct_dt_elem_i([ 0,45,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,45,0 ],3,name,'Orderindex').
+struct_dt_elem_i([ 0,45,0 ],3,camelname,'OrderIndex').
+struct_dt_elem_i([ 0,45,0 ],3,length,9).
+struct_dt_elem_i([ 0,45,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,45,0 ],3,sign,0).
+struct_dt_elem_i([ 0,45,0 ],3,type,[ 4,9,0 ]).
+struct_dt_elem_i([ 0,45,0 ],3,pic,'ZZZZZZZZ9').
+struct_dt_elem_i([ 0,45,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,45,0 ],3,attributeid,'404').
+struct_dt_elem_i([ 0,45,0 ],3,'ExternalName','OrderIndex').
+struct_dt_elem_i([ 0,45,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,45,0 ],4,name,'Sys_permissiondescription').
+struct_dt_elem_i([ 0,45,0 ],4,camelname,'SYS_PermissionDescription').
+struct_dt_elem_i([ 0,45,0 ],4,length,2048).
+struct_dt_elem_i([ 0,45,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,45,0 ],4,type,[ 8,2048,0 ]).
+struct_dt_elem_i([ 0,45,0 ],4,pic,'').
+struct_dt_elem_i([ 0,45,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,45,0 ],4,attributeid,'405').
+struct_dt_elem_i([ 0,45,0 ],4,'ExternalName','SYS_PermissionDescription').
+struct_dt_elem_i([ 0,45,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,45,0 ],5,name,'Sys_permissionmodulecode').
+struct_dt_elem_i([ 0,45,0 ],5,camelname,'SYS_PermissionModuleCode').
+struct_dt_elem_i([ 0,45,0 ],5,length,32).
+struct_dt_elem_i([ 0,45,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,45,0 ],5,type,[ 13,32,0 ]).
+struct_dt_elem_i([ 0,45,0 ],5,pic,'').
+struct_dt_elem_i([ 0,45,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,45,0 ],5,attributeid,'406').
+struct_dt_elem_i([ 0,45,0 ],5,'ExternalName','SYS_PermissionModuleCode').
+struct_dt_elem_i([ 0,45,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,45,0 ],6,name,'Sys_permissionisdeleted').
+struct_dt_elem_i([ 0,45,0 ],6,camelname,'SYS_PermissionIsDeleted').
+struct_dt_elem_i([ 0,45,0 ],6,length,1).
+struct_dt_elem_i([ 0,45,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,45,0 ],6,sign,0).
+struct_dt_elem_i([ 0,45,0 ],6,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 0,45,0 ],6,pic,'9').
+struct_dt_elem_i([ 0,45,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,45,0 ],6,attributeid,'407').
+struct_dt_elem_i([ 0,45,0 ],6,'ExternalName','SYS_PermissionIsDeleted').
+struct_dt_elem_i([ 0,45,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

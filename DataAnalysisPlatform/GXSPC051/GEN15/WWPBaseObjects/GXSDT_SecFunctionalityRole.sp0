@@ -1,0 +1,54 @@
+ 
+spec_i([ sdt,[ 0,2,0 ],'WWPBaseObjects\SecFunctionalityRole','WWPBaseObjects\SecFunctionalityRole',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,2,0 ],name,'WWPBaseObjects\SecFunctionalityRole').
+struct_dt_i([ 0,2,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,2,0 ],significantName,'WWPBaseObjects\SecFunctionalityRole').
+struct_dt_i([ 0,2,0 ],'ObjName','SecFunctionalityRole').
+struct_dt_i([ 0,2,0 ],'ObjDesc','权限-角色表').
+struct_dt_i([ 0,2,0 ],'ExternalName','SecFunctionalityRole').
+struct_dt_i([ 0,2,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,2,0 ],key,[ 1,4 ]).
+struct_dt_i([ 0,2,0 ],lvl,2).
+struct_dt_i([ 0,2,0 ],fullname,'WWPBaseObjects\SecFunctionalityRole').
+ 
+struct_dt_elem_i([ 0,2,0 ],1,name,'Secfunctionalityid').
+struct_dt_elem_i([ 0,2,0 ],1,camelname,'SecFunctionalityId').
+struct_dt_elem_i([ 0,2,0 ],1,length,10).
+struct_dt_elem_i([ 0,2,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],1,sign,0).
+struct_dt_elem_i([ 0,2,0 ],1,type,[ 4,10,0 ]).
+struct_dt_elem_i([ 0,2,0 ],1,pic,'ZZZZZZZZZ9').
+struct_dt_elem_i([ 0,2,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],1,attributeid,'1').
+struct_dt_elem_i([ 0,2,0 ],1,'ExternalName','SecFunctionalityId').
+struct_dt_elem_i([ 0,2,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,2,0 ],2,name,'Secfunctionalitydescription').
+struct_dt_elem_i([ 0,2,0 ],2,camelname,'SecFunctionalityDescription').
+struct_dt_elem_i([ 0,2,0 ],2,length,100).
+struct_dt_elem_i([ 0,2,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,2,0 ],2,pic,'').
+struct_dt_elem_i([ 0,2,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],2,attributeid,'8').
+struct_dt_elem_i([ 0,2,0 ],2,'ExternalName','SecFunctionalityDescription').
+struct_dt_elem_i([ 0,2,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,2,0 ],3,name,'Secroleid').
+struct_dt_elem_i([ 0,2,0 ],3,camelname,'SecRoleId').
+struct_dt_elem_i([ 0,2,0 ],3,length,4).
+struct_dt_elem_i([ 0,2,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],3,sign,0).
+struct_dt_elem_i([ 0,2,0 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,2,0 ],3,pic,'ZZZ9').
+struct_dt_elem_i([ 0,2,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],3,attributeid,'4').
+struct_dt_elem_i([ 0,2,0 ],3,'ExternalName','SecRoleId').
+struct_dt_elem_i([ 0,2,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

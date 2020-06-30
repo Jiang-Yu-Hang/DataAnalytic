@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="dfa909b2-b67c-e9c6-c053-33193ead81e3">
+  <Table name="SYS_Log" />
+</Dependencies>

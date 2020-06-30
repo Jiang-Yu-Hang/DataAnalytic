@@ -1,0 +1,163 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>65</ObjId>
+<ObjName>View_New_Encounter2</ObjName>
+<ObjDesc>View_New_Encounter2</ObjDesc>
+<ObjPgmName>View_New_Encounter2</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>75</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>75</TableId>
+<TableName>View_New_Encounter</TableName>
+<Description>View_New_Encounter</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>75</TableId>
+<TableName>View_New_Encounter</TableName>
+<Description>View_New_Encounter</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>591</AttriId>
+<AttriName>View_New_Encounter2view_NE_EncounterID</AttriName>
+<Description>View_New_Encounter2view_NE_Encounter ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>75</TableId>
+<TableName>View_New_Encounter</TableName>
+<Description>View_New_Encounter</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>591</AttriId>
+<AttriName>View_New_Encounter2view_NE_EncounterID</AttriName>
+<Description>View_New_Encounter2view_NE_Encounter ID</Description></Attribute>
+<Attribute>
+<AttriId>592</AttriId>
+<AttriName>View_New_Encounter2view_NE_ENCType</AttriName>
+<Description>View_New_Encounter2view_NE_ENCType</Description></Attribute>
+<Attribute>
+<AttriId>593</AttriId>
+<AttriName>View_New_Encounter2view_NE_Departmentadm</AttriName>
+<Description>View_New_Encounter2view_NE_Departmentadm</Description></Attribute>
+<Attribute>
+<AttriId>594</AttriId>
+<AttriName>View_New_Encounter2view_NE_AdmitDate</AttriName>
+<Description>View_New_Encounter2view_NE_Admit Date</Description></Attribute>
+<Attribute>
+<AttriId>595</AttriId>
+<AttriName>View_New_Encounter2view_NE_Status</AttriName>
+<Description>View_New_Encounter2view_NE_Status</Description></Attribute>
+<Attribute>
+<AttriId>596</AttriId>
+<AttriName>View_New_Encounter2view_NE_IsRandRecheck</AttriName>
+<Description>View_New_Encounter2view_NE_Is Rand Recheck</Description></Attribute>
+<Attribute>
+<AttriId>597</AttriId>
+<AttriName>View_New_Encounter2view_NE_IsRandApprove</AttriName>
+<Description>View_New_Encounter2view_NE_Is Rand Approve</Description></Attribute>
+<Attribute>
+<AttriId>598</AttriId>
+<AttriName>View_New_Encounter2view_NE_IsUpdate</AttriName>
+<Description>View_New_Encounter2view_NE_Is Update</Description></Attribute>
+<Attribute>
+<AttriId>599</AttriId>
+<AttriName>View_New_Encounter2view_NE_TenantTenantCode</AttriName>
+<Description>View_New_Encounter2view_NE_Tenant Tenant Code</Description></Attribute>
+<Attribute>
+<AttriId>600</AttriId>
+<AttriName>View_New_Encounter2view_NE_Information_ID</AttriName>
+<Description>View_New_Encounter2view_NE_Information_ID</Description></Attribute>
+<Attribute>
+<AttriId>601</AttriId>
+<AttriName>View_New_Encounter2view_NE_Information_PatientNo</AttriName>
+<Description>View_New_Encounter2view_NE_Information_Patient No</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>75</TableId>
+<TableName>View_New_Encounter</TableName>
+<Description>View_New_Encounter</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>592</AttriId>
+<AttriName>View_New_Encounter2view_NE_ENCType</AttriName>
+<Description>View_New_Encounter2view_NE_ENCType</Description></Attribute>
+<Attribute>
+<AttriId>593</AttriId>
+<AttriName>View_New_Encounter2view_NE_Departmentadm</AttriName>
+<Description>View_New_Encounter2view_NE_Departmentadm</Description></Attribute>
+<Attribute>
+<AttriId>594</AttriId>
+<AttriName>View_New_Encounter2view_NE_AdmitDate</AttriName>
+<Description>View_New_Encounter2view_NE_Admit Date</Description></Attribute>
+<Attribute>
+<AttriId>595</AttriId>
+<AttriName>View_New_Encounter2view_NE_Status</AttriName>
+<Description>View_New_Encounter2view_NE_Status</Description></Attribute>
+<Attribute>
+<AttriId>596</AttriId>
+<AttriName>View_New_Encounter2view_NE_IsRandRecheck</AttriName>
+<Description>View_New_Encounter2view_NE_Is Rand Recheck</Description></Attribute>
+<Attribute>
+<AttriId>597</AttriId>
+<AttriName>View_New_Encounter2view_NE_IsRandApprove</AttriName>
+<Description>View_New_Encounter2view_NE_Is Rand Approve</Description></Attribute>
+<Attribute>
+<AttriId>598</AttriId>
+<AttriName>View_New_Encounter2view_NE_IsUpdate</AttriName>
+<Description>View_New_Encounter2view_NE_Is Update</Description></Attribute>
+<Attribute>
+<AttriId>599</AttriId>
+<AttriName>View_New_Encounter2view_NE_TenantTenantCode</AttriName>
+<Description>View_New_Encounter2view_NE_Tenant Tenant Code</Description></Attribute>
+<Attribute>
+<AttriId>600</AttriId>
+<AttriName>View_New_Encounter2view_NE_Information_ID</AttriName>
+<Description>View_New_Encounter2view_NE_Information_ID</Description></Attribute>
+<Attribute>
+<AttriId>601</AttriId>
+<AttriName>View_New_Encounter2view_NE_Information_PatientNo</AttriName>
+<Description>View_New_Encounter2view_NE_Information_Patient No</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>75</TableId>
+<TableName>View_New_Encounter</TableName>
+<Description>View_New_Encounter</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts></Prompts>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f81a7323-3ace-ad9f-d99e-849017946782">
+  <Table name="SYS_UserRole" />
+  <Table name="SYS_TenantUser" />
+  <Table name="SYS_InstituteUser" />
+  <Table name="SYS_User" />
+</Dependencies>

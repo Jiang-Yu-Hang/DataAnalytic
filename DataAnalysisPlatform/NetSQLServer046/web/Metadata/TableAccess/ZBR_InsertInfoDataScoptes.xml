@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b07e13b1-c904-4d03-87f0-4161360705f9">
+  <Table name="BR_Information" />
+  <Table name="BAS_DataPackage" />
+  <Table name="BR_PatientReEntity" />
+</Dependencies>

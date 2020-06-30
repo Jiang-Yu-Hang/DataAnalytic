@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="13f55a08-1713-4ebf-8ad6-1413da602ea9">
+  <Table name="XT_DefindcodeType" />
+  <Table name="XT_DefineCode" />
+</Dependencies>

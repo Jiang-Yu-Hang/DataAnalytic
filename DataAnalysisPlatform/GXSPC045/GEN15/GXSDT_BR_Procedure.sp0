@@ -1,0 +1,149 @@
+ 
+spec_i([ sdt,[ 0,18,0 ],'BR_Procedure','BR_Procedure',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,18,0 ],name,'BR_Procedure').
+struct_dt_i([ 0,18,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,18,0 ],significantName,'BR_Procedure').
+struct_dt_i([ 0,18,0 ],'ObjName','BR_Procedure').
+struct_dt_i([ 0,18,0 ],'ObjDesc','Data Mgmt Portal - RAAP').
+struct_dt_i([ 0,18,0 ],'ExternalName','BR_Procedure').
+struct_dt_i([ 0,18,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,18,0 ],key,[ 139 ]).
+struct_dt_i([ 0,18,0 ],lvl,19).
+struct_dt_i([ 0,18,0 ],fullname,'BR_Procedure').
+ 
+struct_dt_elem_i([ 0,18,0 ],1,name,'Br_procedureid').
+struct_dt_elem_i([ 0,18,0 ],1,camelname,'BR_ProcedureID').
+struct_dt_elem_i([ 0,18,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,18,0 ],1,length,18).
+struct_dt_elem_i([ 0,18,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,18,0 ],1,sign,0).
+struct_dt_elem_i([ 0,18,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,18,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,18,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,18,0 ],1,attributeid,'139').
+struct_dt_elem_i([ 0,18,0 ],1,'ExternalName','BR_ProcedureID').
+struct_dt_elem_i([ 0,18,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,18,0 ],2,name,'Br_encounterid').
+struct_dt_elem_i([ 0,18,0 ],2,camelname,'BR_EncounterID').
+struct_dt_elem_i([ 0,18,0 ],2,basedon,69).
+struct_dt_elem_i([ 0,18,0 ],2,length,18).
+struct_dt_elem_i([ 0,18,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,18,0 ],2,sign,0).
+struct_dt_elem_i([ 0,18,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,18,0 ],2,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,18,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,18,0 ],2,attributeid,'19').
+struct_dt_elem_i([ 0,18,0 ],2,'ExternalName','BR_EncounterID').
+struct_dt_elem_i([ 0,18,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,18,0 ],3,name,'Br_information_patientno').
+struct_dt_elem_i([ 0,18,0 ],3,camelname,'BR_Information_PatientNo').
+struct_dt_elem_i([ 0,18,0 ],3,length,2000).
+struct_dt_elem_i([ 0,18,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,18,0 ],3,type,[ 13,2000,0 ]).
+struct_dt_elem_i([ 0,18,0 ],3,pic,'').
+struct_dt_elem_i([ 0,18,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,18,0 ],3,attributeid,'36').
+struct_dt_elem_i([ 0,18,0 ],3,'ExternalName','BR_Information_PatientNo').
+struct_dt_elem_i([ 0,18,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,18,0 ],4,name,'Br_procedure_pxid').
+struct_dt_elem_i([ 0,18,0 ],4,camelname,'BR_Procedure_PXID').
+struct_dt_elem_i([ 0,18,0 ],4,length,10).
+struct_dt_elem_i([ 0,18,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,18,0 ],4,sign,0).
+struct_dt_elem_i([ 0,18,0 ],4,type,[ 4,10,0 ]).
+struct_dt_elem_i([ 0,18,0 ],4,pic,'ZZZZZZZZZZ').
+struct_dt_elem_i([ 0,18,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,18,0 ],4,attributeid,'140').
+struct_dt_elem_i([ 0,18,0 ],4,'ExternalName','BR_Procedure_PXID').
+struct_dt_elem_i([ 0,18,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,18,0 ],5,name,'Br_procedure_pxsurgery').
+struct_dt_elem_i([ 0,18,0 ],5,camelname,'BR_Procedure_PXSurgery').
+struct_dt_elem_i([ 0,18,0 ],5,basedon,93).
+struct_dt_elem_i([ 0,18,0 ],5,length,40).
+struct_dt_elem_i([ 0,18,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,18,0 ],5,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,18,0 ],5,pic,'').
+struct_dt_elem_i([ 0,18,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,18,0 ],5,attributeid,'141').
+struct_dt_elem_i([ 0,18,0 ],5,'ExternalName','BR_Procedure_PXSurgery').
+struct_dt_elem_i([ 0,18,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,18,0 ],6,name,'Br_procedure_pxsurgery_code').
+struct_dt_elem_i([ 0,18,0 ],6,camelname,'BR_Procedure_PXSurgery_Code').
+struct_dt_elem_i([ 0,18,0 ],6,length,40).
+struct_dt_elem_i([ 0,18,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,18,0 ],6,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,18,0 ],6,pic,'').
+struct_dt_elem_i([ 0,18,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,18,0 ],6,attributeid,'497').
+struct_dt_elem_i([ 0,18,0 ],6,'ExternalName','BR_Procedure_PXSurgery_Code').
+struct_dt_elem_i([ 0,18,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,18,0 ],7,name,'Br_procedure_date').
+struct_dt_elem_i([ 0,18,0 ],7,camelname,'BR_Procedure_Date').
+struct_dt_elem_i([ 0,18,0 ],7,basedon,64).
+struct_dt_elem_i([ 0,18,0 ],7,length,8).
+struct_dt_elem_i([ 0,18,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,18,0 ],7,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,18,0 ],7,pic,'99/99/9999').
+struct_dt_elem_i([ 0,18,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,18,0 ],7,attributeid,'266').
+struct_dt_elem_i([ 0,18,0 ],7,'ExternalName','BR_Procedure_Date').
+struct_dt_elem_i([ 0,18,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,18,0 ],8,name,'Br_procedure_pxradiotherapy').
+struct_dt_elem_i([ 0,18,0 ],8,camelname,'BR_Procedure_PXRadiotherapy').
+struct_dt_elem_i([ 0,18,0 ],8,basedon,93).
+struct_dt_elem_i([ 0,18,0 ],8,length,40).
+struct_dt_elem_i([ 0,18,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,18,0 ],8,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,18,0 ],8,pic,'').
+struct_dt_elem_i([ 0,18,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,18,0 ],8,attributeid,'143').
+struct_dt_elem_i([ 0,18,0 ],8,'ExternalName','BR_Procedure_PXRadiotherapy').
+struct_dt_elem_i([ 0,18,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,18,0 ],9,name,'Br_procedure_pxradiotherapy_code').
+struct_dt_elem_i([ 0,18,0 ],9,camelname,'BR_Procedure_PXRadiotherapy_Code').
+struct_dt_elem_i([ 0,18,0 ],9,length,40).
+struct_dt_elem_i([ 0,18,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,18,0 ],9,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,18,0 ],9,pic,'').
+struct_dt_elem_i([ 0,18,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,18,0 ],9,attributeid,'498').
+struct_dt_elem_i([ 0,18,0 ],9,'ExternalName','BR_Procedure_PXRadiotherapy_Code').
+struct_dt_elem_i([ 0,18,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,18,0 ],10,name,'Br_procedure_radiodate').
+struct_dt_elem_i([ 0,18,0 ],10,camelname,'BR_Procedure_RadioDate').
+struct_dt_elem_i([ 0,18,0 ],10,basedon,64).
+struct_dt_elem_i([ 0,18,0 ],10,length,8).
+struct_dt_elem_i([ 0,18,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,18,0 ],10,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,18,0 ],10,pic,'99/99/9999').
+struct_dt_elem_i([ 0,18,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,18,0 ],10,attributeid,'268').
+struct_dt_elem_i([ 0,18,0 ],10,'ExternalName','BR_Procedure_RadioDate').
+struct_dt_elem_i([ 0,18,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,18,0 ],11,name,'Br_procedure_radiotime').
+struct_dt_elem_i([ 0,18,0 ],11,camelname,'BR_Procedure_RadioTime').
+struct_dt_elem_i([ 0,18,0 ],11,basedon,103).
+struct_dt_elem_i([ 0,18,0 ],11,length,15).
+struct_dt_elem_i([ 0,18,0 ],11,decimals,5).
+struct_dt_elem_i([ 0,18,0 ],11,sign,0).
+struct_dt_elem_i([ 0,18,0 ],11,type,[ 4,15,5 ]).
+struct_dt_elem_i([ 0,18,0 ],11,pic,'ZZZZZZZZZ.ZZZZZ').
+struct_dt_elem_i([ 0,18,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,18,0 ],11,attributeid,'269').
+struct_dt_elem_i([ 0,18,0 ],11,'ExternalName','BR_Procedure_RadioTime').
+struct_dt_elem_i([ 0,18,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,18,0 ],5,pic,'99/99/9999').
+struct_dt_elem_i([ 0,18,0 ],7,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,18,0 ],8,pic,'99/99/9999').
+struct_dt_elem_i([ 0,18,0 ],10,pic,'ZZZZZZZZZZZZZZZZZZ').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

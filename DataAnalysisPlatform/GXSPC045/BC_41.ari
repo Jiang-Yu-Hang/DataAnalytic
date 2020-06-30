@@ -1,0 +1,4 @@
+bc_dt_elem_i([ 0,41,0 ],'Br_encounter_refusereasonid',allownulls,no).
+bc_dt_elem_i([ 0,41,0 ],'Br_encounterid',allownulls,no).
+bc_dt_elem_i([ 0,41,0 ],'Br_information_id',readonly,yes).
+ 

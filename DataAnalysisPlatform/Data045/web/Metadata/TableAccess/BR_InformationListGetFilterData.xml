@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="16ae6813-23ff-4fd7-873c-d0dd3e4f6bea">
+  <Table name="view_lastest_patient_info" />
+  <Table name="UserCustomizations" />
+</Dependencies>

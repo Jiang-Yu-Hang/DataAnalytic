@@ -1,0 +1,42 @@
+ 
+spec_i([ sdt,[ 0,44,0 ],'SYS_TenantUser','SYS_TenantUser',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,44,0 ],name,'SYS_TenantUser').
+struct_dt_i([ 0,44,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,44,0 ],significantName,'SYS_TenantUser').
+struct_dt_i([ 0,44,0 ],'ObjName','SYS_TenantUser').
+struct_dt_i([ 0,44,0 ],'ObjDesc','SYS_Tenant User').
+struct_dt_i([ 0,44,0 ],'ExternalName','SYS_TenantUser').
+struct_dt_i([ 0,44,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,44,0 ],key,[ 360,359 ]).
+struct_dt_i([ 0,44,0 ],lvl,45).
+struct_dt_i([ 0,44,0 ],fullname,'SYS_TenantUser').
+ 
+struct_dt_elem_i([ 0,44,0 ],1,name,'Bas_tenanttenantcode').
+struct_dt_elem_i([ 0,44,0 ],1,camelname,'BAS_TenantTenantCode').
+struct_dt_elem_i([ 0,44,0 ],1,length,20).
+struct_dt_elem_i([ 0,44,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,44,0 ],1,type,[ 13,20,0 ]).
+struct_dt_elem_i([ 0,44,0 ],1,pic,'').
+struct_dt_elem_i([ 0,44,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,44,0 ],1,attributeid,'360').
+struct_dt_elem_i([ 0,44,0 ],1,'ExternalName','BAS_TenantTenantCode').
+struct_dt_elem_i([ 0,44,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,44,0 ],2,name,'Userid').
+struct_dt_elem_i([ 0,44,0 ],2,camelname,'UserID').
+struct_dt_elem_i([ 0,44,0 ],2,length,16).
+struct_dt_elem_i([ 0,44,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,44,0 ],2,type,[ 45,16,0 ]).
+struct_dt_elem_i([ 0,44,0 ],2,pic,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX').
+struct_dt_elem_i([ 0,44,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,44,0 ],2,attributeid,'359').
+struct_dt_elem_i([ 0,44,0 ],2,'ExternalName','UserID').
+struct_dt_elem_i([ 0,44,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

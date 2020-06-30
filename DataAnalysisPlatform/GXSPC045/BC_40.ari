@@ -1,0 +1,3 @@
+bc_dt_elem_i([ 0,40,0 ],'Br_encounter_id',allownulls,no).
+bc_dt_elem_i([ 0,40,0 ],'Br_encounterid',allownulls,no).
+ 

@@ -1,0 +1,733 @@
+spec_i([ web,294,jwtTokem接口测试,'Test_GetJWTNewToken',0,chs,'16_0_0-127771' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Testcontent','Tcookiecontent' ] ]).
+ 
+lac_i(2,[ [ 'Testcontent','Tcookiecontent' ] ]).
+ 
+ 
+lits_i('Content',5,10).
+ 
+cls_i([ 0,0 ],[ 5,5999 ]).
+ 
+pos_i('Testcontent',[ 0,0,0 ]).
+pos_i('Tcookiecontent',[ 0,0,0 ]).
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS',���)).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',���)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','Test_GetJWTNewToken')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('Folder',o(8,nouse))).
+rule_i(0,prop('ObjDesc',jwtTokem接口测试)).
+rule_i(0,prop('ObjName','Test_GetJWTNewToken')).
+rule_i(0,maingen(15)).
+rule_i(0,rule([ a(22,[ '''test1''','''test1''','' ]) ],[],[],[])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',23 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',22 ]).
+attri_i('Tallcookiecontent',[ tAllCookieContent,svchar,4000,0,'',0,'Content','',21 ]).
+attri_i('Xt_config',[ 'XT_Config',o('XT_Config'),0,0,'',0,'XT_Config','',20 ]).
+attri_i('Tsetflag',[ tSetFlag,int,4,0,'ZZZ9',0,'t Set Flag','',18 ]).
+attri_i('Tgxcookie',[ tGxCookie,svchar,4000,0,'',0,'t Gx Cookie','',16 ]).
+attri_i('Tjwttokencontent',[ tJWTTokenContent,vchar,2048,0,'',0,'Content','',15 ]).
+attri_i('Tcookiecontent',[ tCookieContent,svchar,6000,0,'',0,'Content','',14 ]).
+attri_i('Httprequest',[ 'Httprequest',o(httprequest),4,0,'',0,'Httprequest','',13 ]).
+attri_i('Context',[ 'Context',o('WWPBaseObjects\WWPContext'),0,0,'',0,'Context','',12 ]).
+attri_i('Testcontent',[ testContent,svchar,4000,0,'',0,'Content','',11 ]).
+attri_i('Testttt',[ testttt,svchar,3000,0,'',0,testttt,'',10 ]).
+attri_i('Test',[ test,svchar,400,0,'',0,test,'',9 ]).
+attri_i('Ok',[ 'OK',int,4,0,'ZZZ9',0,'OK','',8 ]).
+attri_i('Httpresponse',[ httpresponse,o(httpresponse),4,0,'',0,httpresponse,'',7 ]).
+attri_i('Httpclient',[ httpclient,o(httpclient),4,0,'',0,httpclient,'',6 ]).
+attri_i('Cookie',[ cookie,o(cookie),4,0,'',0,cookie,'',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('''test1''',3,1,7) ]).
+b_line_i(2,2,2,cmd,1,[ t('',107,1,0),t([ t('Xt_config',23,2,2),t('load(',1,2,13) ],31,2,2),t('6',3,1,19),t(')',4,1,20) ]).
+b_line_i(5,2,2,cmd,1,[ t('',107,1,0),t([ t('Httpclient',23,1,0),t('Host',3,1,0) ],29,1,0),t(=,10,1,0),t('trim(',1,1,0),t([ t('Xt_config',23,1,0),t('Xt_configvalue1',3,1,0) ],29,1,0),t(')',4,1,0) ]).
+b_line_i(6,2,2,cmd,1,[ t('',107,1,0),t([ t('Httpclient',23,6,2),t('addheader(',1,6,14) ],31,6,14),t('"Connection"',3,6,25),t(',',7,1,37),t('"keep-alive"',3,6,39),t(')',4,1,51) ]).
+b_line_i(7,2,2,cmd,1,[ t('',107,1,0),t([ t('Httpclient',23,7,2),t('addheader(',1,7,14) ],31,7,14),t('''Content-Type''',3,7,25),t(',',7,1,39),t('''application/json; charset=utf-8''',3,7,40),t(')',4,1,73) ]).
+b_line_i(10,2,2,cmd,1,[ t('',107,1,0),t('Tjwttokencontent',23,1,0),t(=,10,1,0),t('getcookie(',1,1,0),t('''DAS_LoginUser''',3,1,0),t(')',4,1,0) ]).
+b_line_i(11,2,2,cmd,1,[ t('',107,1,0),t('Tgxcookie',23,1,0),t(=,10,1,0),t('getcookie(',1,1,0),t('''GX_Cookie''',3,1,0),t(')',4,1,0) ]).
+b_line_i(13,2,2,cmd,1,[ t('',107,1,0),t('Tcookiecontent',23,1,0),t(=,10,1,0),t('"DAS_LoginUser="',3,1,0),t(+,5,1,0),t('trim(',1,1,0),t('Tjwttokencontent',23,1,0),t(')',4,1,0),t(+,5,1,0),t('";"',3,1,0) ]).
+b_line_i(14,2,2,cmd,1,[ t('',107,1,0),t('Tcookiecontent',23,1,0),t(=,10,1,0),t('Tcookiecontent',23,1,0),t(+,5,1,0),t('"GX_Cookie="',3,1,0),t(+,5,1,0),t('trim(',1,1,0),t('Tgxcookie',23,1,0),t(')',4,1,0) ]).
+b_line_i(15,2,2,cmd,1,[ t('',107,1,0),t('Tcookiecontent',23,1,0),t(=,10,1,0),t('Tcookiecontent',23,1,0),t(+,5,1,0),t('"YYY;"',3,1,0) ]).
+b_line_i(18,2,2,cmd,1,[ t('',107,1,0),t([ t('Httpclient',23,18,2),t('addheader(',1,18,14) ],31,18,14),t('''Cookie''',3,18,25),t(',',7,1,33),t('Tcookiecontent',23,1,34),t(')',4,1,49) ]).
+b_line_i(20,2,2,cmd,1,[ t('',107,1,0),t([ t('Httpclient',23,20,2),t('execute(',1,20,14) ],31,20,14),t('''Post''',3,20,23),t(',',7,1,29),t('trim(',1,20,57),t([ t('Xt_config',23,20,30),t('Xt_configvalue2',3,20,41) ],29,20,41),t(')',4,1,63),t(')',4,1,64) ]).
+b_line_i(21,2,2,cmd,1,[ t('',107,1,0),t('Testcontent',23,1,0),t(=,10,1,0),t('trim(',1,1,0),t([ t('Httpclient',23,1,0),t('tostring(',1,1,0) ],31,1,0),t(')',4,1,0),t(')',4,1,0) ]).
+b_line_i(30,2,2,cmd,1,[ t('',147,1,0) ]).
+b_line_i(1000,2,2,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,2,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,2,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,t('Testcontent',23)).
+html_i(3,button('''test1''')).
+html_i(4,table(4)).
+ 
+html_sub_i(4,0,html_i(0,html('<tbody>'))).
+html_sub_i(4,5,html_i(1,row(5))).
+html_sub_i(5,6,html_i(0,cell(6))).
+html_sub_i(6,7,html_i(0,t('Content',3))).
+html_sub_i(5,8,html_i(1,cell(8))).
+html_sub_i(8,9,html_i(0,t('Tcookiecontent',23))).
+html_sub_i(4,0,html_i(2,html('</tbody>'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Colcount',80,d,[ num ]).
+html_comp_i(2,'Attid',-11,v,[ num ]).
+html_comp_i(2,'Class','Attribute',d,[ str ]).
+html_comp_i(2,'Controlname','&Testcontent',d,[ str ]).
+html_comp_i(2,'Returnonclick',0,d,[ bool ]).
+html_comp_i(2,'Captionclass','',d,[ str ]).
+html_comp_i(2,'Captionposition','',d,[ str ]).
+html_comp_i(2,'Captionvalue','',d,[ str ]).
+html_comp_i(2,'Layoutclass','',d,[ str ]).
+html_comp_i(2,'Controltype',2,d,[ num ]).
+html_comp_i(2,'Inputtype',0,d,[ num ]).
+html_comp_i(2,'Editautocomplete',0,d,[ num ]).
+html_comp_i(2,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(2,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(2,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(2,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(2,'Readonly',0,d,[ bool ]).
+html_comp_i(2,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(2,'Ispassword',0,d,[ bool ]).
+html_comp_i(2,'Autoresize',-1,d,[ bool ]).
+html_comp_i(2,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(2,'Gxheight',measure(10,row),d,[ measure ]).
+html_comp_i(2,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(2,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(2,'Fill',-1,d,[ bool ]).
+html_comp_i(2,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(2,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(2,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(2,'Gxformat',0,d,[ num ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Invitemsg','',d,[ str ]).
+html_comp_i(3,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(3,'Controlname','Button2',v,[ str ]).
+html_comp_i(3,'Class','Button',d,[ str ]).
+html_comp_i(3,'Event','''test1''',v,[ str ]).
+html_comp_i(3,'Caption',获取新jwtToken,d,[ str ]).
+html_comp_i(3,'Title',获取新jwtToken,d,[ str ]).
+html_comp_i(3,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(3,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(3,'Backcolor',rgb(240,240,240),d,[ color ]).
+html_comp_i(3,'Border','1',d,[ str ]).
+html_comp_i(3,'Bordercolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(3,'Buttonborderstyle',standard,d,[ str ]).
+html_comp_i(4,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(4,'Id','Table1',v,[ str ]).
+html_comp_i(4,'Class','Table',v,[ str ]).
+html_comp_i(4,'Title','',d,[ str ]).
+html_comp_i(4,'Header','',d,[ str ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Backgroundgx','',d,[ str ]).
+html_comp_i(4,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(4,'Border','0',d,[ str ]).
+html_comp_i(4,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(4,'Cellpadding','1',d,[ str ]).
+html_comp_i(4,'Cellspacing','2',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Rules',none,d,[ str ]).
+html_comp_i(7,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(7,'Caption','Content',d,[ str ]).
+html_comp_i(7,'Id','Textblock1',v,[ str ]).
+html_comp_i(7,'Class','TextBlock',d,[ str ]).
+html_comp_i(7,'Event','',d,[ str ]).
+html_comp_i(7,'Returnonclick',0,d,[ bool ]).
+html_comp_i(7,'Gxformat',0,d,[ num ]).
+html_comp_i(7,'Title','',d,[ str ]).
+html_comp_i(7,'Fill',-1,d,[ bool ]).
+html_comp_i(7,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(7,'Forecolor',rgb(0,4,68),d,[ color ]).
+html_comp_i(7,'Font',font('Trebuchet MS',9,[]),d,[ font ]).
+html_comp_i(9,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(9,'Colcount',80,d,[ num ]).
+html_comp_i(9,'Attid',-14,v,[ num ]).
+html_comp_i(9,'Class','Attribute',d,[ str ]).
+html_comp_i(9,'Controlname','&Tcookiecontent',d,[ str ]).
+html_comp_i(9,'Returnonclick',0,d,[ bool ]).
+html_comp_i(9,'Captionclass','',d,[ str ]).
+html_comp_i(9,'Captionposition','',d,[ str ]).
+html_comp_i(9,'Captionvalue','',d,[ str ]).
+html_comp_i(9,'Layoutclass','',d,[ str ]).
+html_comp_i(9,'Controltype',2,d,[ num ]).
+html_comp_i(9,'Inputtype',0,d,[ num ]).
+html_comp_i(9,'Editautocomplete',0,d,[ num ]).
+html_comp_i(9,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(9,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(9,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(9,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(9,'Readonly',0,d,[ bool ]).
+html_comp_i(9,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(9,'Ispassword',0,d,[ bool ]).
+html_comp_i(9,'Autoresize',-1,d,[ bool ]).
+html_comp_i(9,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(9,'Gxheight',measure(10,row),d,[ measure ]).
+html_comp_i(9,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(9,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(9,'Fill',-1,d,[ bool ]).
+html_comp_i(9,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(9,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(9,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(9,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(9,'Gxformat',0,d,[ num ]).
+html_comp_i(9,'Title','',d,[ str ]).
+html_comp_i(9,'Invitemsg','',d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(2,1,t('Testcontent',23),[ ctlname('&Testcontent'),ctrltype(edit,2),pos(2),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(3,1,button('''test1'''),[ ctlname('Button2'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(7,1,t('Content',3),[ ctlname('Textblock1') ]).
+lit_i(9,1,t('Tcookiecontent',23),[ ctlname('&Tcookiecontent'),ctrltype(edit,9),pos(9),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(4,1,table(4),[ ctlname('Table1') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+var_prop_i(51,'Tjwttokencontent',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,43,0 ],name,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,43,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 26,43,0 ],'ObjName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ObjDesc','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,26,0 ],name,'XT_Config').
+struct_dt_i([ 0,26,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,26,0 ],significantName,'XT_Config').
+struct_dt_i([ 0,26,0 ],'ObjName','XT_Config').
+struct_dt_i([ 0,26,0 ],'ObjDesc',系统配置表).
+struct_dt_i([ 0,26,0 ],'ExternalName','XT_Config').
+struct_dt_i([ 0,26,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,26,0 ],key,[ 195 ]).
+struct_dt_i([ 0,26,0 ],lvl,27).
+struct_dt_i([ 26,8,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,8,0 ],'ObjName','Messages').
+struct_dt_i([ 26,8,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,8,0 ],collection,'True').
+struct_dt_i([ 26,8,0 ],datatype,[ 26,8,25 ]).
+struct_dt_i([ 26,8,0 ],isexternal,'True').
+struct_dt_i([ 26,8,25 ],name,'Message').
+struct_dt_i([ 26,8,25 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 26,43,0 ],fullname,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 0,26,0 ],fullname,'XT_Config').
+struct_dt_i([ 26,8,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,25 ],fullname,'GeneXus\Common\Messages.Message').
+struct_dt_i([ 26,43,0 ],modified,yes).
+struct_dt_i([ 26,8,0 ],modified,yes).
+struct_dt_i([ 26,8,25 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,43,0 ],1,name,'Userid').
+struct_dt_elem_i([ 26,43,0 ],1,camelname,'UserId').
+struct_dt_elem_i([ 26,43,0 ],1,length,4).
+struct_dt_elem_i([ 26,43,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],1,sign,0).
+struct_dt_elem_i([ 26,43,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalName','UserId').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],2,name,'Userguid').
+struct_dt_elem_i([ 26,43,0 ],2,camelname,'UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,length,500).
+struct_dt_elem_i([ 26,43,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],2,type,[ 13,500,0 ]).
+struct_dt_elem_i([ 26,43,0 ],2,pic,'').
+struct_dt_elem_i([ 26,43,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalName','UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],3,name,'Username').
+struct_dt_elem_i([ 26,43,0 ],3,camelname,'UserName').
+struct_dt_elem_i([ 26,43,0 ],3,length,100).
+struct_dt_elem_i([ 26,43,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],3,pic,'').
+struct_dt_elem_i([ 26,43,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalName','UserName').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],4,name,'Usertype').
+struct_dt_elem_i([ 26,43,0 ],4,camelname,'UserType').
+struct_dt_elem_i([ 26,43,0 ],4,length,4).
+struct_dt_elem_i([ 26,43,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],4,sign,0).
+struct_dt_elem_i([ 26,43,0 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalName','UserType').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],5,name,'Userdisplayname').
+struct_dt_elem_i([ 26,43,0 ],5,camelname,'UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,length,100).
+struct_dt_elem_i([ 26,43,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],5,pic,'').
+struct_dt_elem_i([ 26,43,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalName','UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],6,name,'Userproviderid').
+struct_dt_elem_i([ 26,43,0 ],6,camelname,'UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,basedon,69).
+struct_dt_elem_i([ 26,43,0 ],6,length,18).
+struct_dt_elem_i([ 26,43,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],6,sign,0).
+struct_dt_elem_i([ 26,43,0 ],6,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,43,0 ],6,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 26,43,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalName','UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],7,name,'Userprovidername').
+struct_dt_elem_i([ 26,43,0 ],7,camelname,'UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,length,100).
+struct_dt_elem_i([ 26,43,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],7,pic,'').
+struct_dt_elem_i([ 26,43,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalName','UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],8,name,'Currenttnum').
+struct_dt_elem_i([ 26,43,0 ],8,camelname,currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,length,4).
+struct_dt_elem_i([ 26,43,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],8,sign,0).
+struct_dt_elem_i([ 26,43,0 ],8,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],8,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalName',currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],8,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],8,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],9,name,'Clientip').
+struct_dt_elem_i([ 26,43,0 ],9,camelname,'ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,length,40).
+struct_dt_elem_i([ 26,43,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],9,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,43,0 ],9,pic,'').
+struct_dt_elem_i([ 26,43,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalName','ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],9,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],9,'JsonName','').
+struct_dt_elem_i([ 0,26,0 ],1,name,'Xt_configid').
+struct_dt_elem_i([ 0,26,0 ],1,camelname,'XT_ConfigID').
+struct_dt_elem_i([ 0,26,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,26,0 ],1,length,18).
+struct_dt_elem_i([ 0,26,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,26,0 ],1,sign,0).
+struct_dt_elem_i([ 0,26,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,26,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,26,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,26,0 ],1,attributeid,'195').
+struct_dt_elem_i([ 0,26,0 ],1,'ExternalName','XT_ConfigID').
+struct_dt_elem_i([ 0,26,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,26,0 ],2,name,'Xt_configkey').
+struct_dt_elem_i([ 0,26,0 ],2,camelname,'XT_ConfigKey').
+struct_dt_elem_i([ 0,26,0 ],2,length,40).
+struct_dt_elem_i([ 0,26,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,26,0 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,26,0 ],2,pic,'').
+struct_dt_elem_i([ 0,26,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,26,0 ],2,attributeid,'196').
+struct_dt_elem_i([ 0,26,0 ],2,'ExternalName','XT_ConfigKey').
+struct_dt_elem_i([ 0,26,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,26,0 ],3,name,'Xt_configvalue1').
+struct_dt_elem_i([ 0,26,0 ],3,camelname,'XT_ConfigValue1').
+struct_dt_elem_i([ 0,26,0 ],3,length,200).
+struct_dt_elem_i([ 0,26,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,26,0 ],3,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,26,0 ],3,pic,'').
+struct_dt_elem_i([ 0,26,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,26,0 ],3,attributeid,'197').
+struct_dt_elem_i([ 0,26,0 ],3,'ExternalName','XT_ConfigValue1').
+struct_dt_elem_i([ 0,26,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,26,0 ],4,name,'Xt_configvalue2').
+struct_dt_elem_i([ 0,26,0 ],4,camelname,'XT_ConfigValue2').
+struct_dt_elem_i([ 0,26,0 ],4,length,200).
+struct_dt_elem_i([ 0,26,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,26,0 ],4,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,26,0 ],4,pic,'').
+struct_dt_elem_i([ 0,26,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,26,0 ],4,attributeid,'198').
+struct_dt_elem_i([ 0,26,0 ],4,'ExternalName','XT_ConfigValue2').
+struct_dt_elem_i([ 0,26,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,26,0 ],5,name,'Xt_configvalue3').
+struct_dt_elem_i([ 0,26,0 ],5,camelname,'XT_ConfigValue3').
+struct_dt_elem_i([ 0,26,0 ],5,length,200).
+struct_dt_elem_i([ 0,26,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,26,0 ],5,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,26,0 ],5,pic,'').
+struct_dt_elem_i([ 0,26,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,26,0 ],5,attributeid,'199').
+struct_dt_elem_i([ 0,26,0 ],5,'ExternalName','XT_ConfigValue3').
+struct_dt_elem_i([ 0,26,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,26,0 ],6,name,'Xt_configvalue4').
+struct_dt_elem_i([ 0,26,0 ],6,camelname,'XT_ConfigValue4').
+struct_dt_elem_i([ 0,26,0 ],6,length,200).
+struct_dt_elem_i([ 0,26,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,26,0 ],6,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,26,0 ],6,pic,'').
+struct_dt_elem_i([ 0,26,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,26,0 ],6,attributeid,'200').
+struct_dt_elem_i([ 0,26,0 ],6,'ExternalName','XT_ConfigValue4').
+struct_dt_elem_i([ 0,26,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,26,0 ],7,name,'Xt_configvalue5').
+struct_dt_elem_i([ 0,26,0 ],7,camelname,'XT_ConfigValue5').
+struct_dt_elem_i([ 0,26,0 ],7,length,200).
+struct_dt_elem_i([ 0,26,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,26,0 ],7,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,26,0 ],7,pic,'').
+struct_dt_elem_i([ 0,26,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,26,0 ],7,attributeid,'201').
+struct_dt_elem_i([ 0,26,0 ],7,'ExternalName','XT_ConfigValue5').
+struct_dt_elem_i([ 0,26,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,name,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,length,128).
+struct_dt_elem_i([ 26,8,25 ],1,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,8,25 ],1,pic,'').
+struct_dt_elem_i([ 26,8,25 ],1,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],1,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],1,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],2,name,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,basedon,30).
+struct_dt_elem_i([ 26,8,25 ],2,length,2).
+struct_dt_elem_i([ 26,8,25 ],2,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],2,sign,0).
+struct_dt_elem_i([ 26,8,25 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,8,25 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,8,25 ],2,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],2,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],2,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],3,name,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,length,256).
+struct_dt_elem_i([ 26,8,25 ],3,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,8,25 ],3,pic,'').
+struct_dt_elem_i([ 26,8,25 ],3,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],3,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],3,'JsonName','').
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'''test1''',1,30,[ [ 'Httpclient' ],[ 'Httpclient','Tcookiecontent','Testcontent' ] ]).
+ 
+ 
+pgm_callprotocol_i(web,294,'TEST_GETJWTNEWTOKEN','INTERNAL').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,138 @@
+ 
+spec_i([ sdt,[ 0,62,0 ],'View_New_Encounter','View_New_Encounter',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,62,0 ],name,'View_New_Encounter').
+struct_dt_i([ 0,62,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,62,0 ],significantName,'View_New_Encounter').
+struct_dt_i([ 0,62,0 ],'ObjName','View_New_Encounter').
+struct_dt_i([ 0,62,0 ],'ObjDesc','View_New_Encounter').
+struct_dt_i([ 0,62,0 ],'ExternalName','View_New_Encounter').
+struct_dt_i([ 0,62,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,62,0 ],key,[ 549 ]).
+struct_dt_i([ 0,62,0 ],lvl,72).
+struct_dt_i([ 0,62,0 ],fullname,'View_New_Encounter').
+ 
+struct_dt_elem_i([ 0,62,0 ],1,name,'View_ne_encounterid').
+struct_dt_elem_i([ 0,62,0 ],1,camelname,view_NE_EncounterID).
+struct_dt_elem_i([ 0,62,0 ],1,length,18).
+struct_dt_elem_i([ 0,62,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],1,sign,0).
+struct_dt_elem_i([ 0,62,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,62,0 ],1,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,62,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],1,attributeid,'549').
+struct_dt_elem_i([ 0,62,0 ],1,'ExternalName',view_NE_EncounterID).
+struct_dt_elem_i([ 0,62,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],2,name,'View_ne_department').
+struct_dt_elem_i([ 0,62,0 ],2,camelname,view_NE_Department).
+struct_dt_elem_i([ 0,62,0 ],2,length,4000).
+struct_dt_elem_i([ 0,62,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],2,type,[ 13,4000,0 ]).
+struct_dt_elem_i([ 0,62,0 ],2,pic,'').
+struct_dt_elem_i([ 0,62,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],2,attributeid,'550').
+struct_dt_elem_i([ 0,62,0 ],2,'ExternalName',view_NE_Department).
+struct_dt_elem_i([ 0,62,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],3,name,'View_ne_enctype').
+struct_dt_elem_i([ 0,62,0 ],3,camelname,view_NE_ENCType).
+struct_dt_elem_i([ 0,62,0 ],3,length,4000).
+struct_dt_elem_i([ 0,62,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],3,type,[ 13,4000,0 ]).
+struct_dt_elem_i([ 0,62,0 ],3,pic,'').
+struct_dt_elem_i([ 0,62,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],3,attributeid,'551').
+struct_dt_elem_i([ 0,62,0 ],3,'ExternalName',view_NE_ENCType).
+struct_dt_elem_i([ 0,62,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],4,name,'View_ne_admitdate').
+struct_dt_elem_i([ 0,62,0 ],4,camelname,view_NE_AdmitDate).
+struct_dt_elem_i([ 0,62,0 ],4,length,10).
+struct_dt_elem_i([ 0,62,0 ],4,decimals,8).
+struct_dt_elem_i([ 0,62,0 ],4,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,62,0 ],4,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,62,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],4,attributeid,'552').
+struct_dt_elem_i([ 0,62,0 ],4,'ExternalName',view_NE_AdmitDate).
+struct_dt_elem_i([ 0,62,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],5,name,'View_ne_status').
+struct_dt_elem_i([ 0,62,0 ],5,camelname,view_NE_Status).
+struct_dt_elem_i([ 0,62,0 ],5,length,4).
+struct_dt_elem_i([ 0,62,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],5,sign,0).
+struct_dt_elem_i([ 0,62,0 ],5,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,62,0 ],5,pic,'ZZZ9').
+struct_dt_elem_i([ 0,62,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],5,attributeid,'553').
+struct_dt_elem_i([ 0,62,0 ],5,'ExternalName',view_NE_Status).
+struct_dt_elem_i([ 0,62,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],6,name,'View_ne_israndrecheck').
+struct_dt_elem_i([ 0,62,0 ],6,camelname,view_NE_IsRandRecheck).
+struct_dt_elem_i([ 0,62,0 ],6,length,1).
+struct_dt_elem_i([ 0,62,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],6,sign,0).
+struct_dt_elem_i([ 0,62,0 ],6,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 0,62,0 ],6,pic,'9').
+struct_dt_elem_i([ 0,62,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],6,attributeid,'554').
+struct_dt_elem_i([ 0,62,0 ],6,'ExternalName',view_NE_IsRandRecheck).
+struct_dt_elem_i([ 0,62,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],7,name,'View_ne_israndapprove').
+struct_dt_elem_i([ 0,62,0 ],7,camelname,view_NE_IsRandApprove).
+struct_dt_elem_i([ 0,62,0 ],7,length,1).
+struct_dt_elem_i([ 0,62,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],7,sign,0).
+struct_dt_elem_i([ 0,62,0 ],7,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 0,62,0 ],7,pic,'9').
+struct_dt_elem_i([ 0,62,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],7,attributeid,'555').
+struct_dt_elem_i([ 0,62,0 ],7,'ExternalName',view_NE_IsRandApprove).
+struct_dt_elem_i([ 0,62,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],8,name,'View_ne_isupdate').
+struct_dt_elem_i([ 0,62,0 ],8,camelname,view_NE_IsUpdate).
+struct_dt_elem_i([ 0,62,0 ],8,length,1).
+struct_dt_elem_i([ 0,62,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],8,sign,0).
+struct_dt_elem_i([ 0,62,0 ],8,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 0,62,0 ],8,pic,'9').
+struct_dt_elem_i([ 0,62,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],8,attributeid,'556').
+struct_dt_elem_i([ 0,62,0 ],8,'ExternalName',view_NE_IsUpdate).
+struct_dt_elem_i([ 0,62,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],9,name,'View_ne_tenanttenantcode').
+struct_dt_elem_i([ 0,62,0 ],9,camelname,view_NE_TenantTenantCode).
+struct_dt_elem_i([ 0,62,0 ],9,length,20).
+struct_dt_elem_i([ 0,62,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],9,type,[ 13,20,0 ]).
+struct_dt_elem_i([ 0,62,0 ],9,pic,'').
+struct_dt_elem_i([ 0,62,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],9,attributeid,'557').
+struct_dt_elem_i([ 0,62,0 ],9,'ExternalName',view_NE_TenantTenantCode).
+struct_dt_elem_i([ 0,62,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],10,name,'View_ne_information_id').
+struct_dt_elem_i([ 0,62,0 ],10,camelname,view_NE_Information_ID).
+struct_dt_elem_i([ 0,62,0 ],10,length,18).
+struct_dt_elem_i([ 0,62,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],10,sign,0).
+struct_dt_elem_i([ 0,62,0 ],10,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,62,0 ],10,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,62,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],10,attributeid,'558').
+struct_dt_elem_i([ 0,62,0 ],10,'ExternalName',view_NE_Information_ID).
+struct_dt_elem_i([ 0,62,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],11,name,'View_ne_information_patientno').
+struct_dt_elem_i([ 0,62,0 ],11,camelname,view_NE_Information_PatientNo).
+struct_dt_elem_i([ 0,62,0 ],11,length,4000).
+struct_dt_elem_i([ 0,62,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],11,type,[ 13,4000,0 ]).
+struct_dt_elem_i([ 0,62,0 ],11,pic,'').
+struct_dt_elem_i([ 0,62,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],11,attributeid,'559').
+struct_dt_elem_i([ 0,62,0 ],11,'ExternalName',view_NE_Information_PatientNo).
+struct_dt_elem_i([ 0,62,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

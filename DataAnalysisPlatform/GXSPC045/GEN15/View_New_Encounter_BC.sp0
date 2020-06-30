@@ -1,0 +1,672 @@
+spec_i([ trn,62,'View_New_Encounter','View_New_Encounter_BC',[],chs,'16_0_0-127771' ]).
+ 
+struct_i(72,0,[],[]).
+ 
+level_i(72,[ 72,[ [ 72,many ] ],[ 549 ],[],[],[],[ 549 ],'IVIEW_NEW_ENCOUNTER',[ 72,[] ],[] ]).
+ 
+tw_i(72,[]).
+ 
+lwi_i(72,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(72,[ [ [ 72,549 ],[ 72,550 ],[ 72,551 ],[ 72,552 ],[ 72,553 ],[ 72,554 ],[ 72,555 ],[ 72,556 ],[ 72,557 ],[ 72,558 ],[ 72,559 ] ] ]).
+ 
+las_i(72,[ [ 549,550,551,552,553,554,555,556,557,558,559 ] ]).
+ 
+lac_i(72,[ [ 549,550,551,552,553,554,555,556,557,558,559 ] ]).
+ 
+ 
+ 
+cls_i([ 25,80 ],[ 0,0 ]).
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','ÉÌ?')).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',¿¿¿¿¿¿)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','ÉÌ?')).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',¿¿¿¿¿¿)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PKSupFKs',[])).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','View_New_Encounter')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SEARCH_VIEWER','')).
+rule_i(0,prop('SEARCHABLE','UMPV')).
+rule_i(0,prop('MTIER_OPT','Yes')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('AUTOENTER','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('BEEPONERROR','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WBCHAR','')).
+rule_i(0,prop('WBATTR',none)).
+rule_i(0,prop('WBCOLOR',none)).
+rule_i(0,prop('WNDPOP','NO')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('DLT_BUTTON','')).
+rule_i(0,prop('CNF_BUTTON','')).
+rule_i(0,prop('UPD_BUTTON','')).
+rule_i(0,prop('ADD_BUTTON','')).
+rule_i(0,prop('AUTOSCROLL_FORM','UMPV')).
+rule_i(0,prop('SHOW_FRM','UMPV')).
+rule_i(0,prop('MODAL','PARM')).
+rule_i(0,prop('CTRBOX','YES')).
+rule_i(0,prop('ICON','')).
+rule_i(0,prop('S_TASK','YES')).
+rule_i(0,prop('MINBUT','YES')).
+rule_i(0,prop('MAXBUT','YES')).
+rule_i(0,prop('BORSTY','2')).
+rule_i(0,prop('KEY_MOREKEYS','UMPV')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_LAST','UMPV')).
+rule_i(0,prop('KEY_FIRST','UMPV')).
+rule_i(0,prop('KEY_SELECT','UMPV')).
+rule_i(0,prop('KEY_DISPLAY','UMPV')).
+rule_i(0,prop('KEY_DELETE','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_UPDATE','UMPV')).
+rule_i(0,prop('KEY_MENU','UMPV')).
+rule_i(0,prop('KEY_RETRIEVE','UMPV')).
+rule_i(0,prop('KEY_NEXT','UMPV')).
+rule_i(0,prop('KEY_PREVIOUS','UMPV')).
+rule_i(0,prop('KEY_INSERT','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_PROMPT','UMPV')).
+rule_i(0,prop('KEY_EXIT','UMPV')).
+rule_i(0,prop('KEY_CHECK','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebFormDefaults','0')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('FIELD_TO_FIELD','UMPV')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('CFMTRN','No')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('IsDwhTrn','0')).
+rule_i(0,prop(idDynTrnUpdatePolicy,idDynTrnUpdatePolicy_UPDATABLE)).
+rule_i(0,prop(idIsDynTrn,'0')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'WWPBaseObjects.WorkWithPlusMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('WS_Delete','-1')).
+rule_i(0,prop('WS_Update','-1')).
+rule_i(0,prop('WS_Insert','-1')).
+rule_i(0,prop('WS_View','-1')).
+rule_i(0,prop(idISBCWEBSERVICE,'0')).
+rule_i(0,prop('ExternalNamespace','DataAnalysisPlatform')).
+rule_i(0,prop('ExternalName','View_New_Encounter')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop(idISBUSINESSCOMPONENT,'-1')).
+rule_i(0,prop('Folder',o(8,'Trn'))).
+rule_i(0,prop('ObjDesc','View_New_Encounter')).
+rule_i(0,prop('ObjName','View_New_Encounter')).
+rule_i(0,rule([ a(22,[ 'Dlt','"É¾³ý"','' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(72,rule([ a(1,msg([ t('"Óòview_NE_Admit Date³¬½ç"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(552,2),t(')',4),t('.OR.',9),t(552,2),t(>=,10),t('ymdhmstot(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(',',7),t('00',3),t(',',7),t('00',3),t(',',7),t('00',3),t(')',4),t(')',4) ],[ insert,update ],[ 552 ])).
+ 
+a_i(1,72,b,0,[],[ [],[ a(1,msg([ t('"Óòview_NE_Admit Date³¬½ç"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(552,2),t(')',4),t('.OR.',9),t(552,2),t(>=,10),t('ymdhmstot(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(',',7),t('00',3),t(',',7),t('00',3),t(',',7),t('00',3),t(')',4),t(')',4) ] ]).
+a_i(2,72,t,72,[],[ [ [ [],549,549 ] ],'IVIEW_NEW_ENCOUNTER',[] ]).
+ 
+v_i(b,i,1,552).
+v_i(b,o,1,[]).
+v_i(t,i,2,549).
+v_i(t,o,2,550).
+v_i(t,o,2,551).
+v_i(t,o,2,552).
+v_i(t,o,2,553).
+v_i(t,o,2,554).
+v_i(t,o,2,555).
+v_i(t,o,2,556).
+v_i(t,o,2,557).
+v_i(t,o,2,558).
+v_i(t,o,2,559).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(559,[ view_NE_Information_PatientNo,svchar,4000,0,'',0,'view_NE_Information_Patient No','',0 ]).
+attri_i(558,[ view_NE_Information_ID,int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,view_NE_Information_ID,'',0 ]).
+attri_i(557,[ view_NE_TenantTenantCode,svchar,20,0,'',0,'view_NE_Tenant Tenant Code','',0 ]).
+attri_i(556,[ view_NE_IsUpdate,int,1,0,'9',0,'view_NE_Is Update','',0 ]).
+attri_i(555,[ view_NE_IsRandApprove,int,1,0,'9',0,'view_NE_Is Rand Approve','',0 ]).
+attri_i(554,[ view_NE_IsRandRecheck,int,1,0,'9',0,'view_NE_Is Rand Recheck','',0 ]).
+attri_i(553,[ view_NE_Status,int,4,0,'ZZZ9',0,view_NE_Status,'',0 ]).
+attri_i(552,[ view_NE_AdmitDate,dtime,10,8,'99/99/9999 99:99:99',0,'view_NE_Admit Date','',0 ]).
+attri_i(551,[ view_NE_ENCType,svchar,4000,0,'',0,view_NE_ENCType,'',0 ]).
+attri_i(550,[ view_NE_Department,svchar,4000,0,'',0,view_NE_Department,'',0 ]).
+attri_i(549,[ view_NE_EncounterID,int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'view_NE_Encounter ID','',0 ]).
+attri_i('Gxremove',[ 'GxRemove',int,1,0,'9',0,'Gx Remove','',5 ]).
+attri_i('Mode',[ 'Gx_mode',char,3,0,'@!',1,'','',2 ]).
+ 
+table_i(72,[ 'View_New_Encounter1',[ 549,551,552,553,554,555,556,557,558,559,550 ],'View_New_Encounter1','View_New_Encounter1' ]).
+ 
+index_i(72,[ 'IVIEW_NEW_ENCOUNTER',u,[ 549 ],'IView_New_Encounter' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(72,72,i,[ [ 549,550,551,552,553,554,555,556,557,558,559 ],[],'IVIEW_NEW_ENCOUNTER',[ [ [],549,549 ] ] ]).
+upd_i(72,72,u,[ [ 550,551,552,553,554,555,556,557,558,559 ],[],'IVIEW_NEW_ENCOUNTER',[] ]).
+upd_i(72,72,d,[ [],[],'IVIEW_NEW_ENCOUNTER',[] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,0).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(45,549,'HORIZONTAL_DESCRIPTION','view_NE_Encounter ID',v).
+att_prop_i(45,549,'ExternalName',view_NE_EncounterID,d).
+att_prop_i(45,549,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,549,'EmptyAsNull','Yes',d).
+att_prop_i(45,549,idBasedOn,'',d).
+att_prop_i(45,549,'AUTONUMBER','0',d).
+att_prop_i(45,549,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,549,'AttRegEx','',d).
+att_prop_i(45,549,'AttValidationFailedMsg','',d).
+att_prop_i(45,549,'FullName',view_NE_EncounterID,v).
+att_prop_i(45,550,'HORIZONTAL_DESCRIPTION',view_NE_Department,v).
+att_prop_i(45,550,'ExternalName',view_NE_Department,d).
+att_prop_i(45,550,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,550,'EmptyAsNull','Yes',d).
+att_prop_i(45,550,idBasedOn,'',d).
+att_prop_i(45,550,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,550,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,550,'AttRegEx','',d).
+att_prop_i(45,550,'AttValidationFailedMsg','',d).
+att_prop_i(45,550,'FullName',view_NE_Department,v).
+att_prop_i(45,551,'HORIZONTAL_DESCRIPTION',view_NE_ENCType,v).
+att_prop_i(45,551,'ExternalName',view_NE_ENCType,d).
+att_prop_i(45,551,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,551,'EmptyAsNull','Yes',d).
+att_prop_i(45,551,idBasedOn,'',d).
+att_prop_i(45,551,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,551,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,551,'AttRegEx','',d).
+att_prop_i(45,551,'AttValidationFailedMsg','',d).
+att_prop_i(45,551,'FullName',view_NE_ENCType,v).
+att_prop_i(45,552,'HORIZONTAL_DESCRIPTION','view_NE_Admit Date',v).
+att_prop_i(45,552,'ExternalName',view_NE_AdmitDate,d).
+att_prop_i(45,552,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,552,'EmptyAsNull','Yes',d).
+att_prop_i(45,552,idBasedOn,'',d).
+att_prop_i(45,552,idDATEPRECISION,idDATEPRECISION_SECONDS,d).
+att_prop_i(45,552,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,552,'AttRegEx','',d).
+att_prop_i(45,552,'AttValidationFailedMsg','',d).
+att_prop_i(45,552,idDATEFORMAT,idDATEFORMAT_LONG,v).
+att_prop_i(45,552,idHOURFORMAT,idHOURFORMAT_HOURMINSEC,v).
+att_prop_i(45,552,'FullName',view_NE_AdmitDate,v).
+att_prop_i(45,553,'HORIZONTAL_DESCRIPTION',view_NE_Status,v).
+att_prop_i(45,553,'ExternalName',view_NE_Status,d).
+att_prop_i(45,553,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,553,'EmptyAsNull','Yes',d).
+att_prop_i(45,553,idBasedOn,'',d).
+att_prop_i(45,553,'AUTONUMBER','0',d).
+att_prop_i(45,553,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,553,'AttRegEx','',d).
+att_prop_i(45,553,'AttValidationFailedMsg','',d).
+att_prop_i(45,553,'FullName',view_NE_Status,v).
+att_prop_i(45,554,'HORIZONTAL_DESCRIPTION','view_NE_Is Rand Recheck',v).
+att_prop_i(45,554,'ExternalName',view_NE_IsRandRecheck,d).
+att_prop_i(45,554,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,554,'EmptyAsNull','Yes',d).
+att_prop_i(45,554,idBasedOn,'',d).
+att_prop_i(45,554,'AUTONUMBER','0',d).
+att_prop_i(45,554,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,554,'AttRegEx','',d).
+att_prop_i(45,554,'AttValidationFailedMsg','',d).
+att_prop_i(45,554,'FullName',view_NE_IsRandRecheck,v).
+att_prop_i(45,555,'HORIZONTAL_DESCRIPTION','view_NE_Is Rand Approve',v).
+att_prop_i(45,555,'ExternalName',view_NE_IsRandApprove,d).
+att_prop_i(45,555,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,555,'EmptyAsNull','Yes',d).
+att_prop_i(45,555,idBasedOn,'',d).
+att_prop_i(45,555,'AUTONUMBER','0',d).
+att_prop_i(45,555,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,555,'AttRegEx','',d).
+att_prop_i(45,555,'AttValidationFailedMsg','',d).
+att_prop_i(45,555,'FullName',view_NE_IsRandApprove,v).
+att_prop_i(45,556,'HORIZONTAL_DESCRIPTION','view_NE_Is Update',v).
+att_prop_i(45,556,'ExternalName',view_NE_IsUpdate,d).
+att_prop_i(45,556,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,556,'EmptyAsNull','Yes',d).
+att_prop_i(45,556,idBasedOn,'',d).
+att_prop_i(45,556,'AUTONUMBER','0',d).
+att_prop_i(45,556,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,556,'AttRegEx','',d).
+att_prop_i(45,556,'AttValidationFailedMsg','',d).
+att_prop_i(45,556,'FullName',view_NE_IsUpdate,v).
+att_prop_i(45,557,'HORIZONTAL_DESCRIPTION','view_NE_Tenant Tenant Code',v).
+att_prop_i(45,557,'ExternalName',view_NE_TenantTenantCode,d).
+att_prop_i(45,557,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,557,'EmptyAsNull','Yes',d).
+att_prop_i(45,557,idBasedOn,'',d).
+att_prop_i(45,557,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,557,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,557,'AttRegEx','',d).
+att_prop_i(45,557,'AttValidationFailedMsg','',d).
+att_prop_i(45,557,'FullName',view_NE_TenantTenantCode,v).
+att_prop_i(45,558,'HORIZONTAL_DESCRIPTION',view_NE_Information_ID,v).
+att_prop_i(45,558,'ExternalName',view_NE_Information_ID,d).
+att_prop_i(45,558,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,558,'EmptyAsNull','Yes',d).
+att_prop_i(45,558,idBasedOn,'',d).
+att_prop_i(45,558,'AUTONUMBER','0',d).
+att_prop_i(45,558,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,558,'AttRegEx','',d).
+att_prop_i(45,558,'AttValidationFailedMsg','',d).
+att_prop_i(45,558,'FullName',view_NE_Information_ID,v).
+att_prop_i(45,559,'HORIZONTAL_DESCRIPTION','view_NE_Information_Patient No',v).
+att_prop_i(45,559,'ExternalName',view_NE_Information_PatientNo,d).
+att_prop_i(45,559,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,559,'EmptyAsNull','Yes',d).
+att_prop_i(45,559,idBasedOn,'',d).
+att_prop_i(45,559,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,559,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,559,'AttRegEx','',d).
+att_prop_i(45,559,'AttValidationFailedMsg','',d).
+att_prop_i(45,559,'FullName',view_NE_Information_PatientNo,v).
+ 
+tbl_prop_i(45,72,'CLUSTERIDX',0,v).
+ 
+tbl_att_prop_i(45,72,549,'AllowNulls',n).
+ 
+ 
+i_tbl_best_trn(72,[ 62,1,'View_New_Encounter','View_New_Encounter',[] ]).
+ 
+ 
+ 
+trn_level_i(72,[ [ 549,550,551,552,553,554,555,556,557,558,559 ],'View_New_Encounter','View_New_Encounter','View_New_Encounter','',550 ]).
+ 
+struct_dt_i([ 0,62,0 ],name,'View_New_Encounter').
+struct_dt_i([ 0,62,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,62,0 ],significantName,'View_New_Encounter').
+struct_dt_i([ 0,62,0 ],'ObjName','View_New_Encounter').
+struct_dt_i([ 0,62,0 ],'ObjDesc','View_New_Encounter').
+struct_dt_i([ 0,62,0 ],'ExternalName','View_New_Encounter').
+struct_dt_i([ 0,62,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,62,0 ],key,[ 549 ]).
+struct_dt_i([ 0,62,0 ],lvl,72).
+struct_dt_i([ 26,8,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,8,0 ],'ObjName','Messages').
+struct_dt_i([ 26,8,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,8,0 ],collection,'True').
+struct_dt_i([ 26,8,0 ],datatype,[ 26,8,25 ]).
+struct_dt_i([ 26,8,0 ],isexternal,'True').
+struct_dt_i([ 26,8,25 ],name,'Message').
+struct_dt_i([ 26,8,25 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 0,62,0 ],fullname,'View_New_Encounter').
+struct_dt_i([ 26,8,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,25 ],fullname,'GeneXus\Common\Messages.Message').
+struct_dt_i([ 26,8,0 ],modified,yes).
+struct_dt_i([ 26,8,25 ],modified,yes).
+ 
+struct_dt_elem_i([ 0,62,0 ],1,name,'View_ne_encounterid').
+struct_dt_elem_i([ 0,62,0 ],1,camelname,view_NE_EncounterID).
+struct_dt_elem_i([ 0,62,0 ],1,length,18).
+struct_dt_elem_i([ 0,62,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],1,sign,0).
+struct_dt_elem_i([ 0,62,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,62,0 ],1,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,62,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],1,attributeid,'549').
+struct_dt_elem_i([ 0,62,0 ],1,'ExternalName',view_NE_EncounterID).
+struct_dt_elem_i([ 0,62,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],2,name,'View_ne_department').
+struct_dt_elem_i([ 0,62,0 ],2,camelname,view_NE_Department).
+struct_dt_elem_i([ 0,62,0 ],2,length,4000).
+struct_dt_elem_i([ 0,62,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],2,type,[ 13,4000,0 ]).
+struct_dt_elem_i([ 0,62,0 ],2,pic,'').
+struct_dt_elem_i([ 0,62,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],2,attributeid,'550').
+struct_dt_elem_i([ 0,62,0 ],2,'ExternalName',view_NE_Department).
+struct_dt_elem_i([ 0,62,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],3,name,'View_ne_enctype').
+struct_dt_elem_i([ 0,62,0 ],3,camelname,view_NE_ENCType).
+struct_dt_elem_i([ 0,62,0 ],3,length,4000).
+struct_dt_elem_i([ 0,62,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],3,type,[ 13,4000,0 ]).
+struct_dt_elem_i([ 0,62,0 ],3,pic,'').
+struct_dt_elem_i([ 0,62,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],3,attributeid,'551').
+struct_dt_elem_i([ 0,62,0 ],3,'ExternalName',view_NE_ENCType).
+struct_dt_elem_i([ 0,62,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],4,name,'View_ne_admitdate').
+struct_dt_elem_i([ 0,62,0 ],4,camelname,view_NE_AdmitDate).
+struct_dt_elem_i([ 0,62,0 ],4,length,10).
+struct_dt_elem_i([ 0,62,0 ],4,decimals,8).
+struct_dt_elem_i([ 0,62,0 ],4,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,62,0 ],4,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,62,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],4,attributeid,'552').
+struct_dt_elem_i([ 0,62,0 ],4,'ExternalName',view_NE_AdmitDate).
+struct_dt_elem_i([ 0,62,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],5,name,'View_ne_status').
+struct_dt_elem_i([ 0,62,0 ],5,camelname,view_NE_Status).
+struct_dt_elem_i([ 0,62,0 ],5,length,4).
+struct_dt_elem_i([ 0,62,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],5,sign,0).
+struct_dt_elem_i([ 0,62,0 ],5,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,62,0 ],5,pic,'ZZZ9').
+struct_dt_elem_i([ 0,62,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],5,attributeid,'553').
+struct_dt_elem_i([ 0,62,0 ],5,'ExternalName',view_NE_Status).
+struct_dt_elem_i([ 0,62,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],6,name,'View_ne_israndrecheck').
+struct_dt_elem_i([ 0,62,0 ],6,camelname,view_NE_IsRandRecheck).
+struct_dt_elem_i([ 0,62,0 ],6,length,1).
+struct_dt_elem_i([ 0,62,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],6,sign,0).
+struct_dt_elem_i([ 0,62,0 ],6,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 0,62,0 ],6,pic,'9').
+struct_dt_elem_i([ 0,62,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],6,attributeid,'554').
+struct_dt_elem_i([ 0,62,0 ],6,'ExternalName',view_NE_IsRandRecheck).
+struct_dt_elem_i([ 0,62,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],7,name,'View_ne_israndapprove').
+struct_dt_elem_i([ 0,62,0 ],7,camelname,view_NE_IsRandApprove).
+struct_dt_elem_i([ 0,62,0 ],7,length,1).
+struct_dt_elem_i([ 0,62,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],7,sign,0).
+struct_dt_elem_i([ 0,62,0 ],7,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 0,62,0 ],7,pic,'9').
+struct_dt_elem_i([ 0,62,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],7,attributeid,'555').
+struct_dt_elem_i([ 0,62,0 ],7,'ExternalName',view_NE_IsRandApprove).
+struct_dt_elem_i([ 0,62,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],8,name,'View_ne_isupdate').
+struct_dt_elem_i([ 0,62,0 ],8,camelname,view_NE_IsUpdate).
+struct_dt_elem_i([ 0,62,0 ],8,length,1).
+struct_dt_elem_i([ 0,62,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],8,sign,0).
+struct_dt_elem_i([ 0,62,0 ],8,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 0,62,0 ],8,pic,'9').
+struct_dt_elem_i([ 0,62,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],8,attributeid,'556').
+struct_dt_elem_i([ 0,62,0 ],8,'ExternalName',view_NE_IsUpdate).
+struct_dt_elem_i([ 0,62,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],9,name,'View_ne_tenanttenantcode').
+struct_dt_elem_i([ 0,62,0 ],9,camelname,view_NE_TenantTenantCode).
+struct_dt_elem_i([ 0,62,0 ],9,length,20).
+struct_dt_elem_i([ 0,62,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],9,type,[ 13,20,0 ]).
+struct_dt_elem_i([ 0,62,0 ],9,pic,'').
+struct_dt_elem_i([ 0,62,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],9,attributeid,'557').
+struct_dt_elem_i([ 0,62,0 ],9,'ExternalName',view_NE_TenantTenantCode).
+struct_dt_elem_i([ 0,62,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],10,name,'View_ne_information_id').
+struct_dt_elem_i([ 0,62,0 ],10,camelname,view_NE_Information_ID).
+struct_dt_elem_i([ 0,62,0 ],10,length,18).
+struct_dt_elem_i([ 0,62,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],10,sign,0).
+struct_dt_elem_i([ 0,62,0 ],10,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,62,0 ],10,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,62,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],10,attributeid,'558').
+struct_dt_elem_i([ 0,62,0 ],10,'ExternalName',view_NE_Information_ID).
+struct_dt_elem_i([ 0,62,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,62,0 ],11,name,'View_ne_information_patientno').
+struct_dt_elem_i([ 0,62,0 ],11,camelname,view_NE_Information_PatientNo).
+struct_dt_elem_i([ 0,62,0 ],11,length,4000).
+struct_dt_elem_i([ 0,62,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,62,0 ],11,type,[ 13,4000,0 ]).
+struct_dt_elem_i([ 0,62,0 ],11,pic,'').
+struct_dt_elem_i([ 0,62,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,62,0 ],11,attributeid,'559').
+struct_dt_elem_i([ 0,62,0 ],11,'ExternalName',view_NE_Information_PatientNo).
+struct_dt_elem_i([ 0,62,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,name,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,length,128).
+struct_dt_elem_i([ 26,8,25 ],1,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,8,25 ],1,pic,'').
+struct_dt_elem_i([ 26,8,25 ],1,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],1,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],1,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],2,name,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,basedon,30).
+struct_dt_elem_i([ 26,8,25 ],2,length,2).
+struct_dt_elem_i([ 26,8,25 ],2,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],2,sign,0).
+struct_dt_elem_i([ 26,8,25 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,8,25 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,8,25 ],2,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],2,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],2,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],3,name,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,length,256).
+struct_dt_elem_i([ 26,8,25 ],3,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,8,25 ],3,pic,'').
+struct_dt_elem_i([ 26,8,25 ],3,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],3,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],3,'JsonName','').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(trn,62,'VIEW_NEW_ENCOUNTER_BC','INTERNAL').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

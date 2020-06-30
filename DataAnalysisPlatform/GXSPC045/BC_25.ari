@@ -1,0 +1,6 @@
+bc_dt_elem_i([ 0,25,0 ],'Secuserid',allownulls,no).
+bc_dt_elem_i([ 0,25,0 ],'Jc_providerid',allownulls,no).
+bc_dt_elem_i([ 0,25,0 ],'Secusername',readonly,yes).
+bc_dt_elem_i([ 0,25,0 ],'Secusername',allownulls,no).
+bc_dt_elem_i([ 0,25,0 ],'Jc_providername',readonly,yes).
+ 

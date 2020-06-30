@@ -1,0 +1,62 @@
+ 
+spec_i([ sdt,[ 0,50,0 ],'SYS_InstituteUserRole','SYS_InstituteUserRole',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,50,0 ],name,'SYS_InstituteUserRole').
+struct_dt_i([ 0,50,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,50,0 ],significantName,'SYS_InstituteUserRole').
+struct_dt_i([ 0,50,0 ],'ObjName','SYS_InstituteUserRole').
+struct_dt_i([ 0,50,0 ],'ObjDesc','SYS_Institute User Role').
+struct_dt_i([ 0,50,0 ],'ExternalName','SYS_InstituteUserRole').
+struct_dt_i([ 0,50,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,50,0 ],key,[ 363 ]).
+struct_dt_i([ 0,50,0 ],lvl,51).
+struct_dt_i([ 0,50,0 ],fullname,'SYS_InstituteUserRole').
+ 
+struct_dt_elem_i([ 0,50,0 ],1,name,'Sys_instituteuserroleuserroleid').
+struct_dt_elem_i([ 0,50,0 ],1,camelname,'SYS_InstituteUserRoleUserRoleID').
+struct_dt_elem_i([ 0,50,0 ],1,length,16).
+struct_dt_elem_i([ 0,50,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,50,0 ],1,type,[ 45,16,0 ]).
+struct_dt_elem_i([ 0,50,0 ],1,pic,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX').
+struct_dt_elem_i([ 0,50,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,50,0 ],1,attributeid,'363').
+struct_dt_elem_i([ 0,50,0 ],1,'ExternalName','SYS_InstituteUserRoleUserRoleID').
+struct_dt_elem_i([ 0,50,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,50,0 ],2,name,'Sys_instituteuserroleroleid').
+struct_dt_elem_i([ 0,50,0 ],2,camelname,'SYS_InstituteUserRoleRoleID').
+struct_dt_elem_i([ 0,50,0 ],2,length,16).
+struct_dt_elem_i([ 0,50,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,50,0 ],2,type,[ 45,16,0 ]).
+struct_dt_elem_i([ 0,50,0 ],2,pic,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX').
+struct_dt_elem_i([ 0,50,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,50,0 ],2,attributeid,'436').
+struct_dt_elem_i([ 0,50,0 ],2,'ExternalName','SYS_InstituteUserRoleRoleID').
+struct_dt_elem_i([ 0,50,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,50,0 ],3,name,'Sys_instituteuserroleinstitutecode').
+struct_dt_elem_i([ 0,50,0 ],3,camelname,'SYS_InstituteUserRoleInstituteCode').
+struct_dt_elem_i([ 0,50,0 ],3,length,20).
+struct_dt_elem_i([ 0,50,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,50,0 ],3,type,[ 13,20,0 ]).
+struct_dt_elem_i([ 0,50,0 ],3,pic,'').
+struct_dt_elem_i([ 0,50,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,50,0 ],3,attributeid,'443').
+struct_dt_elem_i([ 0,50,0 ],3,'ExternalName','SYS_InstituteUserRoleInstituteCode').
+struct_dt_elem_i([ 0,50,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,50,0 ],4,name,'Sys_instituteuserroleuserid').
+struct_dt_elem_i([ 0,50,0 ],4,camelname,'SYS_InstituteUserRoleUserID').
+struct_dt_elem_i([ 0,50,0 ],4,length,16).
+struct_dt_elem_i([ 0,50,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,50,0 ],4,type,[ 45,16,0 ]).
+struct_dt_elem_i([ 0,50,0 ],4,pic,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX').
+struct_dt_elem_i([ 0,50,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,50,0 ],4,attributeid,'435').
+struct_dt_elem_i([ 0,50,0 ],4,'ExternalName','SYS_InstituteUserRoleUserID').
+struct_dt_elem_i([ 0,50,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

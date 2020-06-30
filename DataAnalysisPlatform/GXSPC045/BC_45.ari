@@ -1,0 +1,5 @@
+bc_dt_elem_i([ 0,45,0 ],'Permissioncode',allownulls,no).
+bc_dt_elem_i([ 0,45,0 ],'Permissionname',allownulls,no).
+bc_dt_elem_i([ 0,45,0 ],'Orderindex',allownulls,no).
+bc_dt_elem_i([ 0,45,0 ],'Sys_permissionisdeleted',allownulls,no).
+ 

@@ -1,0 +1,127 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>58</ObjId>
+<ObjName>BR_PatientReTenant</ObjName>
+<ObjDesc>患者租户关系表</ObjDesc>
+<ObjPgmName>BR_PatientReTenant</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>64</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>64</TableId>
+<TableName>BR_PatientReTenant</TableName>
+<Description> T64</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>64</TableId>
+<TableName>BR_PatientReTenant</TableName>
+<Description> T64</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>85</AttriId>
+<AttriName>BR_Information_ID</AttriName>
+<Description>患者基本信息主键ID</Description></Attribute>
+<Attribute>
+<AttriId>360</AttriId>
+<AttriName>BAS_TenantTenantCode</AttriName>
+<Description>BAS_Tenant Tenant Code</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>16</TableId>
+<TableName>BR_Information</TableName>
+<Description> T16</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>85</AttriId>
+<AttriName>BR_Information_ID</AttriName>
+<Description>患者基本信息主键ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>52</TableId>
+<TableName>BAS_TENANT</TableName>
+<Description>BAS_Tenant</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>360</AttriId>
+<AttriName>BAS_TenantTenantCode</AttriName>
+<Description>BAS_Tenant Tenant Code</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>64</TableId>
+<TableName>BR_PatientReTenant</TableName>
+<Description> T64</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>85</AttriId>
+<AttriName>BR_Information_ID</AttriName>
+<Description>患者基本信息主键ID</Description></Attribute>
+<Attribute>
+<AttriId>360</AttriId>
+<AttriName>BAS_TenantTenantCode</AttriName>
+<Description>BAS_Tenant Tenant Code</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>64</TableId>
+<TableName>BR_PatientReTenant</TableName>
+<Description> T64</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>64</TableId>
+<TableName>BR_PatientReTenant</TableName>
+<Description> T64</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>15</TableId>
+<TableName>BR_Encounter</TableName>
+<Description> T15</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>85</AttriId>
+<AttriName>BR_Information_ID</AttriName>
+<Description>患者基本信息主键ID</Description></Attribute>
+<Attribute>
+<AttriId>360</AttriId>
+<AttriName>BAS_TenantTenantCode</AttriName>
+<Description>BAS_Tenant Tenant Code</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts></Prompts>
+<Suggests></Suggests></ObjectSpec>

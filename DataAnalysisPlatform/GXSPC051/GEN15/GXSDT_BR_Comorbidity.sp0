@@ -1,0 +1,374 @@
+ 
+spec_i([ sdt,[ 0,9,0 ],'BR_Comorbidity','BR_Comorbidity',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,9,0 ],name,'BR_Comorbidity').
+struct_dt_i([ 0,9,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,9,0 ],significantName,'BR_Comorbidity').
+struct_dt_i([ 0,9,0 ],'ObjName','BR_Comorbidity').
+struct_dt_i([ 0,9,0 ],'ObjDesc',既往病史).
+struct_dt_i([ 0,9,0 ],'ExternalName','BR_Comorbidity').
+struct_dt_i([ 0,9,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,9,0 ],key,[ 37 ]).
+struct_dt_i([ 0,9,0 ],lvl,10).
+struct_dt_i([ 0,9,0 ],fullname,'BR_Comorbidity').
+ 
+struct_dt_elem_i([ 0,9,0 ],1,name,'Br_comorbidityid').
+struct_dt_elem_i([ 0,9,0 ],1,camelname,'BR_ComorbidityID').
+struct_dt_elem_i([ 0,9,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,9,0 ],1,length,18).
+struct_dt_elem_i([ 0,9,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],1,sign,0).
+struct_dt_elem_i([ 0,9,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,9,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,9,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],1,attributeid,'37').
+struct_dt_elem_i([ 0,9,0 ],1,'ExternalName','BR_ComorbidityID').
+struct_dt_elem_i([ 0,9,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],2,name,'Br_encounterid').
+struct_dt_elem_i([ 0,9,0 ],2,camelname,'BR_EncounterID').
+struct_dt_elem_i([ 0,9,0 ],2,basedon,69).
+struct_dt_elem_i([ 0,9,0 ],2,length,18).
+struct_dt_elem_i([ 0,9,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],2,sign,0).
+struct_dt_elem_i([ 0,9,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,9,0 ],2,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,9,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],2,attributeid,'19').
+struct_dt_elem_i([ 0,9,0 ],2,'ExternalName','BR_EncounterID').
+struct_dt_elem_i([ 0,9,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],3,name,'Br_information_patientno').
+struct_dt_elem_i([ 0,9,0 ],3,camelname,'BR_Information_PatientNo').
+struct_dt_elem_i([ 0,9,0 ],3,length,2000).
+struct_dt_elem_i([ 0,9,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],3,type,[ 13,2000,0 ]).
+struct_dt_elem_i([ 0,9,0 ],3,pic,'').
+struct_dt_elem_i([ 0,9,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],3,attributeid,'36').
+struct_dt_elem_i([ 0,9,0 ],3,'ExternalName','BR_Information_PatientNo').
+struct_dt_elem_i([ 0,9,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],4,name,'Br_comorbidity_hypertension').
+struct_dt_elem_i([ 0,9,0 ],4,camelname,'BR_Comorbidity_Hypertension').
+struct_dt_elem_i([ 0,9,0 ],4,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],4,length,40).
+struct_dt_elem_i([ 0,9,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],4,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],4,pic,'').
+struct_dt_elem_i([ 0,9,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],4,attributeid,'38').
+struct_dt_elem_i([ 0,9,0 ],4,'ExternalName','BR_Comorbidity_Hypertension').
+struct_dt_elem_i([ 0,9,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],5,name,'Br_comorbidity_hypertension_code').
+struct_dt_elem_i([ 0,9,0 ],5,camelname,'BR_Comorbidity_Hypertension_Code').
+struct_dt_elem_i([ 0,9,0 ],5,length,40).
+struct_dt_elem_i([ 0,9,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],5,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],5,pic,'').
+struct_dt_elem_i([ 0,9,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],5,attributeid,'487').
+struct_dt_elem_i([ 0,9,0 ],5,'ExternalName','BR_Comorbidity_Hypertension_Code').
+struct_dt_elem_i([ 0,9,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],6,name,'Br_comorbidity_diabetes').
+struct_dt_elem_i([ 0,9,0 ],6,camelname,'BR_Comorbidity_Diabetes').
+struct_dt_elem_i([ 0,9,0 ],6,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],6,length,40).
+struct_dt_elem_i([ 0,9,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],6,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],6,pic,'').
+struct_dt_elem_i([ 0,9,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],6,attributeid,'39').
+struct_dt_elem_i([ 0,9,0 ],6,'ExternalName','BR_Comorbidity_Diabetes').
+struct_dt_elem_i([ 0,9,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],7,name,'Br_comorbidity_diabetes_code').
+struct_dt_elem_i([ 0,9,0 ],7,camelname,'BR_Comorbidity_Diabetes_Code').
+struct_dt_elem_i([ 0,9,0 ],7,length,40).
+struct_dt_elem_i([ 0,9,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],7,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],7,pic,'').
+struct_dt_elem_i([ 0,9,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],7,attributeid,'488').
+struct_dt_elem_i([ 0,9,0 ],7,'ExternalName','BR_Comorbidity_Diabetes_Code').
+struct_dt_elem_i([ 0,9,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],8,name,'Br_comorbidity_chd').
+struct_dt_elem_i([ 0,9,0 ],8,camelname,'BR_Comorbidity_CHD').
+struct_dt_elem_i([ 0,9,0 ],8,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],8,length,40).
+struct_dt_elem_i([ 0,9,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],8,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],8,pic,'').
+struct_dt_elem_i([ 0,9,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],8,attributeid,'40').
+struct_dt_elem_i([ 0,9,0 ],8,'ExternalName','BR_Comorbidity_CHD').
+struct_dt_elem_i([ 0,9,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],9,name,'Br_comorbidity_chd_code').
+struct_dt_elem_i([ 0,9,0 ],9,camelname,'BR_Comorbidity_CHD_Code').
+struct_dt_elem_i([ 0,9,0 ],9,length,40).
+struct_dt_elem_i([ 0,9,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],9,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],9,pic,'').
+struct_dt_elem_i([ 0,9,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],9,attributeid,'489').
+struct_dt_elem_i([ 0,9,0 ],9,'ExternalName','BR_Comorbidity_CHD_Code').
+struct_dt_elem_i([ 0,9,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],10,name,'Br_comorbidity_hapetitis').
+struct_dt_elem_i([ 0,9,0 ],10,camelname,'BR_Comorbidity_Hapetitis').
+struct_dt_elem_i([ 0,9,0 ],10,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],10,length,40).
+struct_dt_elem_i([ 0,9,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],10,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],10,pic,'').
+struct_dt_elem_i([ 0,9,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],10,attributeid,'41').
+struct_dt_elem_i([ 0,9,0 ],10,'ExternalName','BR_Comorbidity_Hapetitis').
+struct_dt_elem_i([ 0,9,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],11,name,'Br_comorbidity_hapetitis_code').
+struct_dt_elem_i([ 0,9,0 ],11,camelname,'BR_Comorbidity_Hapetitis_Code').
+struct_dt_elem_i([ 0,9,0 ],11,length,40).
+struct_dt_elem_i([ 0,9,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],11,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],11,pic,'').
+struct_dt_elem_i([ 0,9,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],11,attributeid,'490').
+struct_dt_elem_i([ 0,9,0 ],11,'ExternalName','BR_Comorbidity_Hapetitis_Code').
+struct_dt_elem_i([ 0,9,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],12,name,'Br_comorbidity_tb').
+struct_dt_elem_i([ 0,9,0 ],12,camelname,'BR_Comorbidity_TB').
+struct_dt_elem_i([ 0,9,0 ],12,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],12,length,40).
+struct_dt_elem_i([ 0,9,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],12,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],12,pic,'').
+struct_dt_elem_i([ 0,9,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],12,attributeid,'42').
+struct_dt_elem_i([ 0,9,0 ],12,'ExternalName','BR_Comorbidity_TB').
+struct_dt_elem_i([ 0,9,0 ],12,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],13,name,'Br_comorbidity_tb_code').
+struct_dt_elem_i([ 0,9,0 ],13,camelname,'BR_Comorbidity_TB_Code').
+struct_dt_elem_i([ 0,9,0 ],13,length,40).
+struct_dt_elem_i([ 0,9,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],13,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],13,pic,'').
+struct_dt_elem_i([ 0,9,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],13,attributeid,'491').
+struct_dt_elem_i([ 0,9,0 ],13,'ExternalName','BR_Comorbidity_TB_Code').
+struct_dt_elem_i([ 0,9,0 ],13,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],14,name,'Br_comorbidity_kidneydisease').
+struct_dt_elem_i([ 0,9,0 ],14,camelname,'BR_Comorbidity_KidneyDisease').
+struct_dt_elem_i([ 0,9,0 ],14,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],14,length,40).
+struct_dt_elem_i([ 0,9,0 ],14,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],14,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],14,pic,'').
+struct_dt_elem_i([ 0,9,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],14,attributeid,'43').
+struct_dt_elem_i([ 0,9,0 ],14,'ExternalName','BR_Comorbidity_KidneyDisease').
+struct_dt_elem_i([ 0,9,0 ],14,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],15,name,'Br_comorbidity_kidneydisease_code').
+struct_dt_elem_i([ 0,9,0 ],15,camelname,'BR_Comorbidity_KidneyDisease_Code').
+struct_dt_elem_i([ 0,9,0 ],15,length,40).
+struct_dt_elem_i([ 0,9,0 ],15,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],15,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],15,pic,'').
+struct_dt_elem_i([ 0,9,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],15,attributeid,'492').
+struct_dt_elem_i([ 0,9,0 ],15,'ExternalName','BR_Comorbidity_KidneyDisease_Code').
+struct_dt_elem_i([ 0,9,0 ],15,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],16,name,'Br_comorbidity_surgeryhistory').
+struct_dt_elem_i([ 0,9,0 ],16,camelname,'BR_Comorbidity_SurgeryHistory').
+struct_dt_elem_i([ 0,9,0 ],16,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],16,length,40).
+struct_dt_elem_i([ 0,9,0 ],16,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],16,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],16,pic,'').
+struct_dt_elem_i([ 0,9,0 ],16,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],16,attributeid,'44').
+struct_dt_elem_i([ 0,9,0 ],16,'ExternalName','BR_Comorbidity_SurgeryHistory').
+struct_dt_elem_i([ 0,9,0 ],16,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],17,name,'Br_comorbidity_surgeryhistory_code').
+struct_dt_elem_i([ 0,9,0 ],17,camelname,'BR_Comorbidity_SurgeryHistory_Code').
+struct_dt_elem_i([ 0,9,0 ],17,length,40).
+struct_dt_elem_i([ 0,9,0 ],17,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],17,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],17,pic,'').
+struct_dt_elem_i([ 0,9,0 ],17,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],17,attributeid,'493').
+struct_dt_elem_i([ 0,9,0 ],17,'ExternalName','BR_Comorbidity_SurgeryHistory_Code').
+struct_dt_elem_i([ 0,9,0 ],17,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],18,name,'Br_comorbidity_injuryhistory').
+struct_dt_elem_i([ 0,9,0 ],18,camelname,'BR_Comorbidity_InjuryHistory').
+struct_dt_elem_i([ 0,9,0 ],18,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],18,length,40).
+struct_dt_elem_i([ 0,9,0 ],18,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],18,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],18,pic,'').
+struct_dt_elem_i([ 0,9,0 ],18,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],18,attributeid,'45').
+struct_dt_elem_i([ 0,9,0 ],18,'ExternalName','BR_Comorbidity_InjuryHistory').
+struct_dt_elem_i([ 0,9,0 ],18,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],19,name,'Br_comorbidity_injuryhistory_code').
+struct_dt_elem_i([ 0,9,0 ],19,camelname,'BR_Comorbidity_InjuryHistory_Code').
+struct_dt_elem_i([ 0,9,0 ],19,length,40).
+struct_dt_elem_i([ 0,9,0 ],19,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],19,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],19,pic,'').
+struct_dt_elem_i([ 0,9,0 ],19,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],19,attributeid,'494').
+struct_dt_elem_i([ 0,9,0 ],19,'ExternalName','BR_Comorbidity_InjuryHistory_Code').
+struct_dt_elem_i([ 0,9,0 ],19,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],20,name,'Br_comorbidity_bloodhistory').
+struct_dt_elem_i([ 0,9,0 ],20,camelname,'BR_Comorbidity_BloodHistory').
+struct_dt_elem_i([ 0,9,0 ],20,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],20,length,40).
+struct_dt_elem_i([ 0,9,0 ],20,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],20,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],20,pic,'').
+struct_dt_elem_i([ 0,9,0 ],20,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],20,attributeid,'46').
+struct_dt_elem_i([ 0,9,0 ],20,'ExternalName','BR_Comorbidity_BloodHistory').
+struct_dt_elem_i([ 0,9,0 ],20,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],21,name,'Br_comorbidity_bloodhistory_code').
+struct_dt_elem_i([ 0,9,0 ],21,camelname,'BR_Comorbidity_BloodHistory_Code').
+struct_dt_elem_i([ 0,9,0 ],21,length,40).
+struct_dt_elem_i([ 0,9,0 ],21,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],21,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],21,pic,'').
+struct_dt_elem_i([ 0,9,0 ],21,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],21,attributeid,'495').
+struct_dt_elem_i([ 0,9,0 ],21,'ExternalName','BR_Comorbidity_BloodHistory_Code').
+struct_dt_elem_i([ 0,9,0 ],21,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],22,name,'Br_comorbidity_allergy').
+struct_dt_elem_i([ 0,9,0 ],22,camelname,'BR_Comorbidity_allergy').
+struct_dt_elem_i([ 0,9,0 ],22,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],22,length,40).
+struct_dt_elem_i([ 0,9,0 ],22,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],22,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],22,pic,'').
+struct_dt_elem_i([ 0,9,0 ],22,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],22,attributeid,'47').
+struct_dt_elem_i([ 0,9,0 ],22,'ExternalName','BR_Comorbidity_allergy').
+struct_dt_elem_i([ 0,9,0 ],22,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],23,name,'Br_comorbidity_allergy_code').
+struct_dt_elem_i([ 0,9,0 ],23,camelname,'BR_Comorbidity_allergy_Code').
+struct_dt_elem_i([ 0,9,0 ],23,length,40).
+struct_dt_elem_i([ 0,9,0 ],23,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],23,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],23,pic,'').
+struct_dt_elem_i([ 0,9,0 ],23,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],23,attributeid,'496').
+struct_dt_elem_i([ 0,9,0 ],23,'ExternalName','BR_Comorbidity_allergy_Code').
+struct_dt_elem_i([ 0,9,0 ],23,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],24,name,'Br_comorbidity_others').
+struct_dt_elem_i([ 0,9,0 ],24,camelname,'BR_Comorbidity_Others').
+struct_dt_elem_i([ 0,9,0 ],24,length,255).
+struct_dt_elem_i([ 0,9,0 ],24,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],24,type,[ 13,255,0 ]).
+struct_dt_elem_i([ 0,9,0 ],24,pic,'').
+struct_dt_elem_i([ 0,9,0 ],24,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],24,attributeid,'259').
+struct_dt_elem_i([ 0,9,0 ],24,'ExternalName','BR_Comorbidity_Others').
+struct_dt_elem_i([ 0,9,0 ],24,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],25,name,'Br_comorbidity_hapetitisb').
+struct_dt_elem_i([ 0,9,0 ],25,camelname,'BR_Comorbidity_HapetitisB').
+struct_dt_elem_i([ 0,9,0 ],25,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],25,length,40).
+struct_dt_elem_i([ 0,9,0 ],25,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],25,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],25,pic,'').
+struct_dt_elem_i([ 0,9,0 ],25,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],25,attributeid,'561').
+struct_dt_elem_i([ 0,9,0 ],25,'ExternalName','BR_Comorbidity_HapetitisB').
+struct_dt_elem_i([ 0,9,0 ],25,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],26,name,'Br_comorbidity_hapetitisb_code').
+struct_dt_elem_i([ 0,9,0 ],26,camelname,'BR_Comorbidity_HapetitisB_Code').
+struct_dt_elem_i([ 0,9,0 ],26,length,40).
+struct_dt_elem_i([ 0,9,0 ],26,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],26,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],26,pic,'').
+struct_dt_elem_i([ 0,9,0 ],26,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],26,attributeid,'562').
+struct_dt_elem_i([ 0,9,0 ],26,'ExternalName','BR_Comorbidity_HapetitisB_Code').
+struct_dt_elem_i([ 0,9,0 ],26,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],27,name,'Br_comorbidity_hapetitisc').
+struct_dt_elem_i([ 0,9,0 ],27,camelname,'BR_Comorbidity_HapetitisC').
+struct_dt_elem_i([ 0,9,0 ],27,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],27,length,40).
+struct_dt_elem_i([ 0,9,0 ],27,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],27,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],27,pic,'').
+struct_dt_elem_i([ 0,9,0 ],27,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],27,attributeid,'563').
+struct_dt_elem_i([ 0,9,0 ],27,'ExternalName','BR_Comorbidity_HapetitisC').
+struct_dt_elem_i([ 0,9,0 ],27,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],28,name,'Br_comorbidity_hapetitisc_code').
+struct_dt_elem_i([ 0,9,0 ],28,camelname,'BR_Comorbidity_HapetitisC_Code').
+struct_dt_elem_i([ 0,9,0 ],28,length,40).
+struct_dt_elem_i([ 0,9,0 ],28,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],28,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],28,pic,'').
+struct_dt_elem_i([ 0,9,0 ],28,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],28,attributeid,'564').
+struct_dt_elem_i([ 0,9,0 ],28,'ExternalName','BR_Comorbidity_HapetitisC_Code').
+struct_dt_elem_i([ 0,9,0 ],28,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],29,name,'Br_comorbidity_livercirrhosis').
+struct_dt_elem_i([ 0,9,0 ],29,camelname,'BR_Comorbidity_LiverCirrhosis').
+struct_dt_elem_i([ 0,9,0 ],29,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],29,length,40).
+struct_dt_elem_i([ 0,9,0 ],29,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],29,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],29,pic,'').
+struct_dt_elem_i([ 0,9,0 ],29,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],29,attributeid,'565').
+struct_dt_elem_i([ 0,9,0 ],29,'ExternalName','BR_Comorbidity_LiverCirrhosis').
+struct_dt_elem_i([ 0,9,0 ],29,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],30,name,'Br_comorbidity_livercirrhosis_code').
+struct_dt_elem_i([ 0,9,0 ],30,camelname,'BR_Comorbidity_LiverCirrhosis_Code').
+struct_dt_elem_i([ 0,9,0 ],30,length,40).
+struct_dt_elem_i([ 0,9,0 ],30,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],30,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],30,pic,'').
+struct_dt_elem_i([ 0,9,0 ],30,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],30,attributeid,'566').
+struct_dt_elem_i([ 0,9,0 ],30,'ExternalName','BR_Comorbidity_LiverCirrhosis_Code').
+struct_dt_elem_i([ 0,9,0 ],30,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],31,name,'Br_comorbidity_druginducedliverinjury').
+struct_dt_elem_i([ 0,9,0 ],31,camelname,'BR_Comorbidity_Druginducedliverinjury').
+struct_dt_elem_i([ 0,9,0 ],31,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],31,length,40).
+struct_dt_elem_i([ 0,9,0 ],31,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],31,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],31,pic,'').
+struct_dt_elem_i([ 0,9,0 ],31,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],31,attributeid,'567').
+struct_dt_elem_i([ 0,9,0 ],31,'ExternalName','BR_Comorbidity_Druginducedliverinjury').
+struct_dt_elem_i([ 0,9,0 ],31,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],32,name,'Br_comorbidity_druginducedliverinjury_code').
+struct_dt_elem_i([ 0,9,0 ],32,camelname,'BR_Comorbidity_Druginducedliverinjury_Code').
+struct_dt_elem_i([ 0,9,0 ],32,length,40).
+struct_dt_elem_i([ 0,9,0 ],32,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],32,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],32,pic,'').
+struct_dt_elem_i([ 0,9,0 ],32,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],32,attributeid,'568').
+struct_dt_elem_i([ 0,9,0 ],32,'ExternalName','BR_Comorbidity_Druginducedliverinjury_Code').
+struct_dt_elem_i([ 0,9,0 ],32,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],4,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],6,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],8,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],10,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],12,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],14,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],16,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],18,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],20,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],22,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],25,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],27,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],29,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],31,pic,'99/99/9999').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

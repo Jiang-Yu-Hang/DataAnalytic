@@ -1,0 +1,563 @@
+spec_i([ trn,6,用户角色关系表,'WWPBaseObjects\SecUserRole_BC',[],chs,'16_0_0-127771' ]).
+ 
+struct_i(7,0,[],[]).
+ 
+level_i(7,[ 7,[ [ 7,many ],[ 6,one ],[ 5,one ] ],[ 6,4 ],[],[],[],[ 6,4 ],'ISECUSERROLE',[ 7,[] ],[] ]).
+ 
+tw_i(7,[ [ 6,[ [ 7,6,6 ] ] ],[ 5,[ [ 7,4,4 ] ] ] ]).
+ 
+lwi_i(7,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(7,[ [ [ 6,14 ],[ 5,13 ],[ 5,12 ],[ 7,6 ],[ 7,4 ] ] ]).
+ 
+las_i(7,[ [ 6,4,14,13,12 ] ]).
+ 
+lac_i(7,[ [ 6,4 ] ]).
+ 
+ 
+ 
+cls_i([ 25,80 ],[ 0,0 ]).
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS',���)).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',���)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PKSupFKs',[])).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','WWPBaseObjects.SecUserRole')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SEARCH_VIEWER','')).
+rule_i(0,prop('SEARCHABLE','UMPV')).
+rule_i(0,prop('MTIER_OPT','Yes')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('AUTOENTER','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('BEEPONERROR','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WBCHAR','')).
+rule_i(0,prop('WBATTR',none)).
+rule_i(0,prop('WBCOLOR',none)).
+rule_i(0,prop('WNDPOP','NO')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('DLT_BUTTON','')).
+rule_i(0,prop('CNF_BUTTON','')).
+rule_i(0,prop('UPD_BUTTON','')).
+rule_i(0,prop('ADD_BUTTON','')).
+rule_i(0,prop('AUTOSCROLL_FORM','UMPV')).
+rule_i(0,prop('SHOW_FRM','UMPV')).
+rule_i(0,prop('MODAL','PARM')).
+rule_i(0,prop('CTRBOX','YES')).
+rule_i(0,prop('ICON','')).
+rule_i(0,prop('S_TASK','YES')).
+rule_i(0,prop('MINBUT','YES')).
+rule_i(0,prop('MAXBUT','YES')).
+rule_i(0,prop('BORSTY','2')).
+rule_i(0,prop('KEY_MOREKEYS','UMPV')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_LAST','UMPV')).
+rule_i(0,prop('KEY_FIRST','UMPV')).
+rule_i(0,prop('KEY_SELECT','UMPV')).
+rule_i(0,prop('KEY_DISPLAY','UMPV')).
+rule_i(0,prop('KEY_DELETE','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_UPDATE','UMPV')).
+rule_i(0,prop('KEY_MENU','UMPV')).
+rule_i(0,prop('KEY_RETRIEVE','UMPV')).
+rule_i(0,prop('KEY_NEXT','UMPV')).
+rule_i(0,prop('KEY_PREVIOUS','UMPV')).
+rule_i(0,prop('KEY_INSERT','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_PROMPT','UMPV')).
+rule_i(0,prop('KEY_EXIT','UMPV')).
+rule_i(0,prop('KEY_CHECK','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebFormDefaults','0')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('FIELD_TO_FIELD','UMPV')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('CFMTRN','No')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('IsDwhTrn','0')).
+rule_i(0,prop(idDynTrnUpdatePolicy,idDynTrnUpdatePolicy_UPDATABLE)).
+rule_i(0,prop(idIsDynTrn,'0')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'WWPBaseObjects.WorkWithPlusMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('WS_Delete','-1')).
+rule_i(0,prop('WS_Update','-1')).
+rule_i(0,prop('WS_Insert','-1')).
+rule_i(0,prop('WS_View','-1')).
+rule_i(0,prop(idISBCWEBSERVICE,'0')).
+rule_i(0,prop('ExternalNamespace','DataAnalysisPlatform')).
+rule_i(0,prop('ExternalName','SecUserRole')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop(idISBUSINESSCOMPONENT,'-1')).
+rule_i(0,prop('Folder',o(8,'WWPBaseObjects\Security'))).
+rule_i(0,prop('ObjDesc',用户角色关系表)).
+rule_i(0,prop('ObjName','SecUserRole')).
+rule_i(0,rule([ a(22,[ 'Dlt','"删除"','' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(7,rule([ a(19,[ [ 6 ],msg([ t('"不匹配''User''"',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 6 ])).
+rule_i(7,rule([ a(19,[ [ 4 ],msg([ t('"不匹配''Role''"',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 4 ])).
+ 
+a_i(1,7,t,7,[],[ [ [ [],6,6 ],[ [],4,4 ] ],'ISECUSERROLE',[] ]).
+a_i(2,7,r,6,[],[ [ [ 7,6,6 ] ],'ISECUSER',[] ]).
+a_i(3,7,r,5,[],[ [ [ 7,4,4 ] ],'ISECROL',[] ]).
+ 
+v_i(t,i,1,6).
+v_i(t,i,1,4).
+v_i(t,o,1,[]).
+v_i(r,i,2,6).
+v_i(r,o,2,14).
+v_i(r,i,3,4).
+v_i(r,o,3,13).
+v_i(r,o,3,12).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(12,[ 'SecRoleDescription',svchar,120,0,'',0,角色描述,'',0 ]).
+attri_i(13,[ 'SecRoleName',svchar,40,0,'',0,角色名称,'',0 ]).
+attri_i(14,[ 'SecUserName',svchar,100,0,'',0,姓名,'',0 ]).
+attri_i(4,[ 'SecRoleId',int,4,0,'ZZZ9',0,角色编号,'',0 ]).
+attri_i(6,[ 'SecUserId',int,4,0,'ZZZ9',0,账号主键,'',0 ]).
+attri_i('Gxremove',[ 'GxRemove',int,1,0,'9',0,'Gx Remove','',5 ]).
+attri_i('Mode',[ 'Gx_mode',char,3,0,'@!',1,'','',2 ]).
+ 
+table_i(7,[ 'SecUserRole',[ 6,4 ],'Sec User Role','SecUserRole' ]).
+table_i(5,[ 'SecRole',[ 4,13,12 ],'Role','SecRole' ]).
+table_i(6,[ 'SecUser',[ 6,14 ],'User','SecUser' ]).
+ 
+index_i(7,[ 'ISECUSERROLE',u,[ 6,4 ],'ISecUserRole' ]).
+index_i(6,[ 'ISECUSER',u,[ 6 ],'ISecUser' ]).
+index_i(5,[ 'ISECROL',u,[ 4 ],'ISecRol' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(7,7,i,[ [ 6,4 ],[],'ISECUSERROLE',[ [ [],6,6 ],[ [],4,4 ] ] ]).
+upd_i(7,7,u,[ [],[],'ISECUSERROLE',[] ]).
+upd_i(7,7,d,[ [],[],'ISECUSERROLE',[] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(95,[ 'CrtUser' ]).
+dom_info_i(67,[ 'UpdUser' ]).
+dom_info_i(96,[ 'CrtDate' ]).
+dom_info_i(66,[ 'UpdDate' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,0).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(51,6,'HORIZONTAL_DESCRIPTION',账号主键,d).
+att_prop_i(51,6,'ExternalName','SecUserId',d).
+att_prop_i(51,6,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,6,'EmptyAsNull','Yes',d).
+att_prop_i(51,6,idBasedOn,'',d).
+att_prop_i(51,6,'AUTONUMBER','-1',v).
+att_prop_i(51,6,'AUTONUMBER_START','1',d).
+att_prop_i(51,6,'AUTONUMBER_STEP','1',d).
+att_prop_i(51,6,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(51,6,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,6,'AttRegEx','',d).
+att_prop_i(51,6,'AttValidationFailedMsg','',d).
+att_prop_i(51,6,'FullName','SecUserId',v).
+att_prop_i(51,4,'HORIZONTAL_DESCRIPTION',角色编号,d).
+att_prop_i(51,4,'ExternalName','SecRoleId',d).
+att_prop_i(51,4,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,4,'EmptyAsNull','Yes',d).
+att_prop_i(51,4,idBasedOn,'',d).
+att_prop_i(51,4,'AUTONUMBER','-1',v).
+att_prop_i(51,4,'AUTONUMBER_START','1',d).
+att_prop_i(51,4,'AUTONUMBER_STEP','1',d).
+att_prop_i(51,4,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(51,4,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,4,'AttRegEx','',d).
+att_prop_i(51,4,'AttValidationFailedMsg','',d).
+att_prop_i(51,4,'FullName','SecRoleId',v).
+att_prop_i(51,14,'HORIZONTAL_DESCRIPTION',姓名,d).
+att_prop_i(51,14,'ExternalName','SecUserName',d).
+att_prop_i(51,14,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,14,'EmptyAsNull','Yes',d).
+att_prop_i(51,14,idBasedOn,'',d).
+att_prop_i(51,14,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,14,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,14,'AttRegEx','',d).
+att_prop_i(51,14,'AttValidationFailedMsg','',d).
+att_prop_i(51,14,'FullName','SecUserName',v).
+att_prop_i(51,13,'HORIZONTAL_DESCRIPTION',角色名称,d).
+att_prop_i(51,13,'ExternalName','SecRoleName',d).
+att_prop_i(51,13,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,13,'EmptyAsNull','Yes',d).
+att_prop_i(51,13,idBasedOn,'',d).
+att_prop_i(51,13,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,13,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,13,'AttRegEx','',d).
+att_prop_i(51,13,'AttValidationFailedMsg','',d).
+att_prop_i(51,13,'FullName','SecRoleName',v).
+att_prop_i(51,12,'HORIZONTAL_DESCRIPTION',角色描述,d).
+att_prop_i(51,12,'ExternalName','SecRoleDescription',d).
+att_prop_i(51,12,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,12,'EmptyAsNull','Yes',d).
+att_prop_i(51,12,idBasedOn,'',d).
+att_prop_i(51,12,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,12,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,12,'AttRegEx','',d).
+att_prop_i(51,12,'AttValidationFailedMsg','',d).
+att_prop_i(51,12,'FullName','SecRoleDescription',v).
+ 
+tbl_prop_i(51,7,'AllDirSuper',[ [ 5,[ 4 ] ],[ 6,[ 6 ] ] ],v).
+tbl_prop_i(51,5,'DirSubor',[ [ 7,[ 4 ] ] ],v).
+tbl_prop_i(51,6,'DirSubor',[ [ 7,[ 6 ] ] ],v).
+tbl_prop_i(51,7,'DirSuper',[ [ 5,[ 4 ] ],[ 6,[ 6 ] ] ],v).
+ 
+tbl_att_prop_i(51,7,6,'AllowNulls',n).
+tbl_att_prop_i(51,7,4,'AllowNulls',n).
+tbl_att_prop_i(51,6,6,'AllowNulls',n).
+tbl_att_prop_i(51,6,6,'AUTONUMBER',y).
+tbl_att_prop_i(51,6,14,'AllowNulls',n).
+tbl_att_prop_i(51,5,4,'AllowNulls',n).
+tbl_att_prop_i(51,5,4,'AUTONUMBER',y).
+tbl_att_prop_i(51,5,13,'AllowNulls',n).
+tbl_att_prop_i(51,5,12,'AllowNulls',n).
+ 
+ 
+i_tbl_best_trn(7,[ 6,1,'WWPBaseObjects\SecUserRole',用户角色关系表,[] ]).
+i_tbl_best_trn(6,[ 5,1,'WWPBaseObjects\SecUser',账号,[] ]).
+ 
+ 
+ 
+trn_level_i(7,[ [ 6,4,14,13,12 ],'WWPBaseObjects\SecUserRole',用户角色关系表,'WWPBaseObjects\SecUserRole','',0 ]).
+ 
+struct_dt_i([ 0,6,0 ],name,'WWPBaseObjects\SecUserRole').
+struct_dt_i([ 0,6,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,6,0 ],significantName,'WWPBaseObjects\SecUserRole').
+struct_dt_i([ 0,6,0 ],'ObjName','SecUserRole').
+struct_dt_i([ 0,6,0 ],'ObjDesc',用户角色关系表).
+struct_dt_i([ 0,6,0 ],'ExternalName','SecUserRole').
+struct_dt_i([ 0,6,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,6,0 ],key,[ 6,4 ]).
+struct_dt_i([ 0,6,0 ],lvl,7).
+struct_dt_i([ 26,8,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,8,0 ],'ObjName','Messages').
+struct_dt_i([ 26,8,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,8,0 ],collection,'True').
+struct_dt_i([ 26,8,0 ],datatype,[ 26,8,25 ]).
+struct_dt_i([ 26,8,0 ],isexternal,'True').
+struct_dt_i([ 26,8,25 ],name,'Message').
+struct_dt_i([ 26,8,25 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 0,6,0 ],fullname,'WWPBaseObjects\SecUserRole').
+struct_dt_i([ 26,8,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,25 ],fullname,'GeneXus\Common\Messages.Message').
+struct_dt_i([ 26,8,0 ],modified,yes).
+struct_dt_i([ 26,8,25 ],modified,yes).
+ 
+struct_dt_elem_i([ 0,6,0 ],1,name,'Secuserid').
+struct_dt_elem_i([ 0,6,0 ],1,camelname,'SecUserId').
+struct_dt_elem_i([ 0,6,0 ],1,length,4).
+struct_dt_elem_i([ 0,6,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],1,sign,0).
+struct_dt_elem_i([ 0,6,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,6,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 0,6,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],1,attributeid,'6').
+struct_dt_elem_i([ 0,6,0 ],1,'ExternalName','SecUserId').
+struct_dt_elem_i([ 0,6,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,6,0 ],2,name,'Secroleid').
+struct_dt_elem_i([ 0,6,0 ],2,camelname,'SecRoleId').
+struct_dt_elem_i([ 0,6,0 ],2,length,4).
+struct_dt_elem_i([ 0,6,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],2,sign,0).
+struct_dt_elem_i([ 0,6,0 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,6,0 ],2,pic,'ZZZ9').
+struct_dt_elem_i([ 0,6,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],2,attributeid,'4').
+struct_dt_elem_i([ 0,6,0 ],2,'ExternalName','SecRoleId').
+struct_dt_elem_i([ 0,6,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,6,0 ],3,name,'Secusername').
+struct_dt_elem_i([ 0,6,0 ],3,camelname,'SecUserName').
+struct_dt_elem_i([ 0,6,0 ],3,length,100).
+struct_dt_elem_i([ 0,6,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,6,0 ],3,pic,'').
+struct_dt_elem_i([ 0,6,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],3,attributeid,'14').
+struct_dt_elem_i([ 0,6,0 ],3,'ExternalName','SecUserName').
+struct_dt_elem_i([ 0,6,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,6,0 ],4,name,'Secrolename').
+struct_dt_elem_i([ 0,6,0 ],4,camelname,'SecRoleName').
+struct_dt_elem_i([ 0,6,0 ],4,length,40).
+struct_dt_elem_i([ 0,6,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],4,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,6,0 ],4,pic,'').
+struct_dt_elem_i([ 0,6,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],4,attributeid,'13').
+struct_dt_elem_i([ 0,6,0 ],4,'ExternalName','SecRoleName').
+struct_dt_elem_i([ 0,6,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,6,0 ],5,name,'Secroledescription').
+struct_dt_elem_i([ 0,6,0 ],5,camelname,'SecRoleDescription').
+struct_dt_elem_i([ 0,6,0 ],5,length,120).
+struct_dt_elem_i([ 0,6,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],5,type,[ 13,120,0 ]).
+struct_dt_elem_i([ 0,6,0 ],5,pic,'').
+struct_dt_elem_i([ 0,6,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],5,attributeid,'12').
+struct_dt_elem_i([ 0,6,0 ],5,'ExternalName','SecRoleDescription').
+struct_dt_elem_i([ 0,6,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,name,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,length,128).
+struct_dt_elem_i([ 26,8,25 ],1,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,8,25 ],1,pic,'').
+struct_dt_elem_i([ 26,8,25 ],1,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],1,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],1,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],2,name,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,basedon,30).
+struct_dt_elem_i([ 26,8,25 ],2,length,2).
+struct_dt_elem_i([ 26,8,25 ],2,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],2,sign,0).
+struct_dt_elem_i([ 26,8,25 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,8,25 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,8,25 ],2,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],2,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],2,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],3,name,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,length,256).
+struct_dt_elem_i([ 26,8,25 ],3,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,8,25 ],3,pic,'').
+struct_dt_elem_i([ 26,8,25 ],3,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],3,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],3,'JsonName','').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(trn,6,'WWPBASEOBJECTS\SECUSERROLE_BC','INTERNAL').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

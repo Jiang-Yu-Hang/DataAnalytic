@@ -1,0 +1,230 @@
+ 
+spec_i([ sdt,[ 0,35,0 ],'BR_Pathology','BR_Pathology',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,35,0 ],name,'BR_Pathology').
+struct_dt_i([ 0,35,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,35,0 ],significantName,'BR_Pathology').
+struct_dt_i([ 0,35,0 ],'ObjName','BR_Pathology').
+struct_dt_i([ 0,35,0 ],'ObjDesc','Data Mgmt Portal - RAAP').
+struct_dt_i([ 0,35,0 ],'ExternalName','BR_Pathology').
+struct_dt_i([ 0,35,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,35,0 ],key,[ 226 ]).
+struct_dt_i([ 0,35,0 ],lvl,36).
+struct_dt_i([ 0,35,0 ],fullname,'BR_Pathology').
+ 
+struct_dt_elem_i([ 0,35,0 ],1,name,'Br_pathologyid').
+struct_dt_elem_i([ 0,35,0 ],1,camelname,'BR_PathologyID').
+struct_dt_elem_i([ 0,35,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,35,0 ],1,length,18).
+struct_dt_elem_i([ 0,35,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],1,sign,0).
+struct_dt_elem_i([ 0,35,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,35,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,35,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],1,attributeid,'226').
+struct_dt_elem_i([ 0,35,0 ],1,'ExternalName','BR_PathologyID').
+struct_dt_elem_i([ 0,35,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],2,name,'Br_encounterid').
+struct_dt_elem_i([ 0,35,0 ],2,camelname,'BR_EncounterID').
+struct_dt_elem_i([ 0,35,0 ],2,basedon,69).
+struct_dt_elem_i([ 0,35,0 ],2,length,18).
+struct_dt_elem_i([ 0,35,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],2,sign,0).
+struct_dt_elem_i([ 0,35,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,35,0 ],2,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,35,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],2,attributeid,'19').
+struct_dt_elem_i([ 0,35,0 ],2,'ExternalName','BR_EncounterID').
+struct_dt_elem_i([ 0,35,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],3,name,'Br_information_patientno').
+struct_dt_elem_i([ 0,35,0 ],3,camelname,'BR_Information_PatientNo').
+struct_dt_elem_i([ 0,35,0 ],3,length,2000).
+struct_dt_elem_i([ 0,35,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],3,type,[ 13,2000,0 ]).
+struct_dt_elem_i([ 0,35,0 ],3,pic,'').
+struct_dt_elem_i([ 0,35,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],3,attributeid,'36').
+struct_dt_elem_i([ 0,35,0 ],3,'ExternalName','BR_Information_PatientNo').
+struct_dt_elem_i([ 0,35,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],4,name,'Br_pathologyid_testid').
+struct_dt_elem_i([ 0,35,0 ],4,camelname,'BR_PathologyID_TestID').
+struct_dt_elem_i([ 0,35,0 ],4,length,10).
+struct_dt_elem_i([ 0,35,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],4,sign,0).
+struct_dt_elem_i([ 0,35,0 ],4,type,[ 4,10,0 ]).
+struct_dt_elem_i([ 0,35,0 ],4,pic,'ZZZZZZZZZZ').
+struct_dt_elem_i([ 0,35,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],4,attributeid,'237').
+struct_dt_elem_i([ 0,35,0 ],4,'ExternalName','BR_PathologyID_TestID').
+struct_dt_elem_i([ 0,35,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],5,name,'Br_pathologyid_padate').
+struct_dt_elem_i([ 0,35,0 ],5,camelname,'BR_PathologyID_PADate').
+struct_dt_elem_i([ 0,35,0 ],5,basedon,64).
+struct_dt_elem_i([ 0,35,0 ],5,length,8).
+struct_dt_elem_i([ 0,35,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],5,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,35,0 ],5,pic,'99/99/9999').
+struct_dt_elem_i([ 0,35,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],5,attributeid,'238').
+struct_dt_elem_i([ 0,35,0 ],5,'ExternalName','BR_PathologyID_PADate').
+struct_dt_elem_i([ 0,35,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],6,name,'Br_pathologyid_pahosp').
+struct_dt_elem_i([ 0,35,0 ],6,camelname,'BR_PathologyID_PAHosp').
+struct_dt_elem_i([ 0,35,0 ],6,length,40).
+struct_dt_elem_i([ 0,35,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],6,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,35,0 ],6,pic,'').
+struct_dt_elem_i([ 0,35,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],6,attributeid,'239').
+struct_dt_elem_i([ 0,35,0 ],6,'ExternalName','BR_PathologyID_PAHosp').
+struct_dt_elem_i([ 0,35,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],7,name,'Br_pathologyid_pahosp_code').
+struct_dt_elem_i([ 0,35,0 ],7,camelname,'BR_PathologyID_PAHosp_Code').
+struct_dt_elem_i([ 0,35,0 ],7,length,40).
+struct_dt_elem_i([ 0,35,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],7,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,35,0 ],7,pic,'').
+struct_dt_elem_i([ 0,35,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],7,attributeid,'508').
+struct_dt_elem_i([ 0,35,0 ],7,'ExternalName','BR_PathologyID_PAHosp_Code').
+struct_dt_elem_i([ 0,35,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],8,name,'Br_pathologyid_paage').
+struct_dt_elem_i([ 0,35,0 ],8,camelname,'BR_PathologyID_PAAge').
+struct_dt_elem_i([ 0,35,0 ],8,length,3).
+struct_dt_elem_i([ 0,35,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],8,sign,0).
+struct_dt_elem_i([ 0,35,0 ],8,type,[ 4,3,0 ]).
+struct_dt_elem_i([ 0,35,0 ],8,pic,'ZZZ').
+struct_dt_elem_i([ 0,35,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],8,attributeid,'240').
+struct_dt_elem_i([ 0,35,0 ],8,'ExternalName','BR_PathologyID_PAAge').
+struct_dt_elem_i([ 0,35,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],9,name,'Br_pathologyid_prepadia').
+struct_dt_elem_i([ 0,35,0 ],9,camelname,'BR_PathologyID_PrePaDia').
+struct_dt_elem_i([ 0,35,0 ],9,length,4000).
+struct_dt_elem_i([ 0,35,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],9,type,[ 13,4000,0 ]).
+struct_dt_elem_i([ 0,35,0 ],9,pic,'').
+struct_dt_elem_i([ 0,35,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],9,attributeid,'241').
+struct_dt_elem_i([ 0,35,0 ],9,'ExternalName','BR_PathologyID_PrePaDia').
+struct_dt_elem_i([ 0,35,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],10,name,'Br_pathologyid_paresult').
+struct_dt_elem_i([ 0,35,0 ],10,camelname,'BR_PathologyID_PAResult').
+struct_dt_elem_i([ 0,35,0 ],10,length,9999).
+struct_dt_elem_i([ 0,35,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],10,type,[ 13,9999,0 ]).
+struct_dt_elem_i([ 0,35,0 ],10,pic,'').
+struct_dt_elem_i([ 0,35,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],10,attributeid,'242').
+struct_dt_elem_i([ 0,35,0 ],10,'ExternalName','BR_PathologyID_PAResult').
+struct_dt_elem_i([ 0,35,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],11,name,'Br_pathology_dia_name').
+struct_dt_elem_i([ 0,35,0 ],11,camelname,'BR_Pathology_Dia_Name').
+struct_dt_elem_i([ 0,35,0 ],11,length,3000).
+struct_dt_elem_i([ 0,35,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],11,type,[ 13,3000,0 ]).
+struct_dt_elem_i([ 0,35,0 ],11,pic,'').
+struct_dt_elem_i([ 0,35,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],11,attributeid,'326').
+struct_dt_elem_i([ 0,35,0 ],11,'ExternalName','BR_Pathology_Dia_Name').
+struct_dt_elem_i([ 0,35,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],12,name,'Br_pathology_t').
+struct_dt_elem_i([ 0,35,0 ],12,camelname,'BR_Pathology_T').
+struct_dt_elem_i([ 0,35,0 ],12,basedon,103).
+struct_dt_elem_i([ 0,35,0 ],12,length,15).
+struct_dt_elem_i([ 0,35,0 ],12,decimals,5).
+struct_dt_elem_i([ 0,35,0 ],12,sign,0).
+struct_dt_elem_i([ 0,35,0 ],12,type,[ 4,15,5 ]).
+struct_dt_elem_i([ 0,35,0 ],12,pic,'ZZZZZZZZZ.ZZZZZ').
+struct_dt_elem_i([ 0,35,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],12,attributeid,'314').
+struct_dt_elem_i([ 0,35,0 ],12,'ExternalName','BR_Pathology_T').
+struct_dt_elem_i([ 0,35,0 ],12,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],13,name,'Br_pathology_n').
+struct_dt_elem_i([ 0,35,0 ],13,camelname,'BR_Pathology_N').
+struct_dt_elem_i([ 0,35,0 ],13,basedon,93).
+struct_dt_elem_i([ 0,35,0 ],13,length,40).
+struct_dt_elem_i([ 0,35,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],13,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,35,0 ],13,pic,'').
+struct_dt_elem_i([ 0,35,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],13,attributeid,'315').
+struct_dt_elem_i([ 0,35,0 ],13,'ExternalName','BR_Pathology_N').
+struct_dt_elem_i([ 0,35,0 ],13,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],14,name,'Br_pathology_n_code').
+struct_dt_elem_i([ 0,35,0 ],14,camelname,'BR_Pathology_N_Code').
+struct_dt_elem_i([ 0,35,0 ],14,length,40).
+struct_dt_elem_i([ 0,35,0 ],14,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],14,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,35,0 ],14,pic,'').
+struct_dt_elem_i([ 0,35,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],14,attributeid,'505').
+struct_dt_elem_i([ 0,35,0 ],14,'ExternalName','BR_Pathology_N_Code').
+struct_dt_elem_i([ 0,35,0 ],14,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],15,name,'Br_pathology_lymphnum').
+struct_dt_elem_i([ 0,35,0 ],15,camelname,'BR_Pathology_LymphNum').
+struct_dt_elem_i([ 0,35,0 ],15,basedon,103).
+struct_dt_elem_i([ 0,35,0 ],15,length,15).
+struct_dt_elem_i([ 0,35,0 ],15,decimals,5).
+struct_dt_elem_i([ 0,35,0 ],15,sign,0).
+struct_dt_elem_i([ 0,35,0 ],15,type,[ 4,15,5 ]).
+struct_dt_elem_i([ 0,35,0 ],15,pic,'ZZZZZZZZZ.ZZZZZ').
+struct_dt_elem_i([ 0,35,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],15,attributeid,'316').
+struct_dt_elem_i([ 0,35,0 ],15,'ExternalName','BR_Pathology_LymphNum').
+struct_dt_elem_i([ 0,35,0 ],15,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],16,name,'Br_pathology_lymphrate').
+struct_dt_elem_i([ 0,35,0 ],16,camelname,'BR_Pathology_LymphRate').
+struct_dt_elem_i([ 0,35,0 ],16,length,40).
+struct_dt_elem_i([ 0,35,0 ],16,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],16,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,35,0 ],16,pic,'').
+struct_dt_elem_i([ 0,35,0 ],16,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],16,attributeid,'317').
+struct_dt_elem_i([ 0,35,0 ],16,'ExternalName','BR_Pathology_LymphRate').
+struct_dt_elem_i([ 0,35,0 ],16,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],17,name,'Br_pathology_m').
+struct_dt_elem_i([ 0,35,0 ],17,camelname,'BR_Pathology_M').
+struct_dt_elem_i([ 0,35,0 ],17,basedon,93).
+struct_dt_elem_i([ 0,35,0 ],17,length,40).
+struct_dt_elem_i([ 0,35,0 ],17,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],17,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,35,0 ],17,pic,'').
+struct_dt_elem_i([ 0,35,0 ],17,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],17,attributeid,'318').
+struct_dt_elem_i([ 0,35,0 ],17,'ExternalName','BR_Pathology_M').
+struct_dt_elem_i([ 0,35,0 ],17,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],18,name,'Br_pathology_m_code').
+struct_dt_elem_i([ 0,35,0 ],18,camelname,'BR_Pathology_M_Code').
+struct_dt_elem_i([ 0,35,0 ],18,length,40).
+struct_dt_elem_i([ 0,35,0 ],18,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],18,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,35,0 ],18,pic,'').
+struct_dt_elem_i([ 0,35,0 ],18,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],18,attributeid,'506').
+struct_dt_elem_i([ 0,35,0 ],18,'ExternalName','BR_Pathology_M_Code').
+struct_dt_elem_i([ 0,35,0 ],18,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],19,name,'Br_pathology_metaloc').
+struct_dt_elem_i([ 0,35,0 ],19,camelname,'BR_Pathology_MetaLoc').
+struct_dt_elem_i([ 0,35,0 ],19,length,100).
+struct_dt_elem_i([ 0,35,0 ],19,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],19,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,35,0 ],19,pic,'').
+struct_dt_elem_i([ 0,35,0 ],19,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],19,attributeid,'319').
+struct_dt_elem_i([ 0,35,0 ],19,'ExternalName','BR_Pathology_MetaLoc').
+struct_dt_elem_i([ 0,35,0 ],19,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,35,0 ],5,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,35,0 ],13,pic,'99/99/9999').
+struct_dt_elem_i([ 0,35,0 ],17,pic,'99/99/9999').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

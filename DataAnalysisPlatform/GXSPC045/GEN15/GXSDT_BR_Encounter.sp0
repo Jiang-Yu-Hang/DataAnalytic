@@ -1,0 +1,546 @@
+ 
+spec_i([ sdt,[ 0,14,0 ],'BR_Encounter','BR_Encounter',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,14,0 ],name,'BR_Encounter').
+struct_dt_i([ 0,14,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,14,0 ],significantName,'BR_Encounter').
+struct_dt_i([ 0,14,0 ],'ObjName','BR_Encounter').
+struct_dt_i([ 0,14,0 ],'ObjDesc',æÕ’Ô–≈œ¢).
+struct_dt_i([ 0,14,0 ],'ExternalName','BR_Encounter').
+struct_dt_i([ 0,14,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,14,0 ],key,[ 19 ]).
+struct_dt_i([ 0,14,0 ],lvl,15).
+struct_dt_i([ 0,14,0 ],fullname,'BR_Encounter').
+ 
+struct_dt_elem_i([ 0,14,0 ],1,name,'Br_encounterid').
+struct_dt_elem_i([ 0,14,0 ],1,camelname,'BR_EncounterID').
+struct_dt_elem_i([ 0,14,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,14,0 ],1,length,18).
+struct_dt_elem_i([ 0,14,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],1,sign,0).
+struct_dt_elem_i([ 0,14,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,14,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,14,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],1,attributeid,'19').
+struct_dt_elem_i([ 0,14,0 ],1,'ExternalName','BR_EncounterID').
+struct_dt_elem_i([ 0,14,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],2,name,'Br_encounter_encid').
+struct_dt_elem_i([ 0,14,0 ],2,camelname,'BR_Encounter_EncID').
+struct_dt_elem_i([ 0,14,0 ],2,length,10).
+struct_dt_elem_i([ 0,14,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],2,sign,0).
+struct_dt_elem_i([ 0,14,0 ],2,type,[ 4,10,0 ]).
+struct_dt_elem_i([ 0,14,0 ],2,pic,'ZZZZZZZZZZ').
+struct_dt_elem_i([ 0,14,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],2,attributeid,'35').
+struct_dt_elem_i([ 0,14,0 ],2,'ExternalName','BR_Encounter_EncID').
+struct_dt_elem_i([ 0,14,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],3,name,'Br_encounter_department').
+struct_dt_elem_i([ 0,14,0 ],3,camelname,'BR_Encounter_Department').
+struct_dt_elem_i([ 0,14,0 ],3,length,100).
+struct_dt_elem_i([ 0,14,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,14,0 ],3,pic,'').
+struct_dt_elem_i([ 0,14,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],3,attributeid,'84').
+struct_dt_elem_i([ 0,14,0 ],3,'ExternalName','BR_Encounter_Department').
+struct_dt_elem_i([ 0,14,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],4,name,'Br_encounter_department_code').
+struct_dt_elem_i([ 0,14,0 ],4,camelname,'BR_Encounter_Department_Code').
+struct_dt_elem_i([ 0,14,0 ],4,length,40).
+struct_dt_elem_i([ 0,14,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],4,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],4,pic,'').
+struct_dt_elem_i([ 0,14,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],4,attributeid,'470').
+struct_dt_elem_i([ 0,14,0 ],4,'ExternalName','BR_Encounter_Department_Code').
+struct_dt_elem_i([ 0,14,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],5,name,'Br_encounter_departmentadm').
+struct_dt_elem_i([ 0,14,0 ],5,camelname,'BR_Encounter_Departmentadm').
+struct_dt_elem_i([ 0,14,0 ],5,length,100).
+struct_dt_elem_i([ 0,14,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,14,0 ],5,pic,'').
+struct_dt_elem_i([ 0,14,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],5,attributeid,'570').
+struct_dt_elem_i([ 0,14,0 ],5,'ExternalName','BR_Encounter_Departmentadm').
+struct_dt_elem_i([ 0,14,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],6,name,'Br_encounter_departmentadm_code').
+struct_dt_elem_i([ 0,14,0 ],6,camelname,'BR_Encounter_Departmentadm_Code').
+struct_dt_elem_i([ 0,14,0 ],6,length,40).
+struct_dt_elem_i([ 0,14,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],6,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],6,pic,'').
+struct_dt_elem_i([ 0,14,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],6,attributeid,'571').
+struct_dt_elem_i([ 0,14,0 ],6,'ExternalName','BR_Encounter_Departmentadm_Code').
+struct_dt_elem_i([ 0,14,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],7,name,'Br_encounter_departmentdisch').
+struct_dt_elem_i([ 0,14,0 ],7,camelname,'BR_Encounter_Departmentdisch').
+struct_dt_elem_i([ 0,14,0 ],7,length,100).
+struct_dt_elem_i([ 0,14,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,14,0 ],7,pic,'').
+struct_dt_elem_i([ 0,14,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],7,attributeid,'572').
+struct_dt_elem_i([ 0,14,0 ],7,'ExternalName','BR_Encounter_Departmentdisch').
+struct_dt_elem_i([ 0,14,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],8,name,'Br_encounter_departmentdisch_code').
+struct_dt_elem_i([ 0,14,0 ],8,camelname,'BR_Encounter_Departmentdisch_Code').
+struct_dt_elem_i([ 0,14,0 ],8,length,40).
+struct_dt_elem_i([ 0,14,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],8,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],8,pic,'').
+struct_dt_elem_i([ 0,14,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],8,attributeid,'573').
+struct_dt_elem_i([ 0,14,0 ],8,'ExternalName','BR_Encounter_Departmentdisch_Code').
+struct_dt_elem_i([ 0,14,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],9,name,'Br_encounter_enctype').
+struct_dt_elem_i([ 0,14,0 ],9,camelname,'BR_Encounter_ENCType').
+struct_dt_elem_i([ 0,14,0 ],9,length,100).
+struct_dt_elem_i([ 0,14,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],9,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,14,0 ],9,pic,'').
+struct_dt_elem_i([ 0,14,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],9,attributeid,'90').
+struct_dt_elem_i([ 0,14,0 ],9,'ExternalName','BR_Encounter_ENCType').
+struct_dt_elem_i([ 0,14,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],10,name,'Br_encounter_enctype_code').
+struct_dt_elem_i([ 0,14,0 ],10,camelname,'BR_Encounter_ENCType_Code').
+struct_dt_elem_i([ 0,14,0 ],10,length,40).
+struct_dt_elem_i([ 0,14,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],10,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],10,pic,'').
+struct_dt_elem_i([ 0,14,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],10,attributeid,'471').
+struct_dt_elem_i([ 0,14,0 ],10,'ExternalName','BR_Encounter_ENCType_Code').
+struct_dt_elem_i([ 0,14,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],11,name,'Br_encounter_admitdate').
+struct_dt_elem_i([ 0,14,0 ],11,camelname,'BR_Encounter_AdmitDate').
+struct_dt_elem_i([ 0,14,0 ],11,basedon,64).
+struct_dt_elem_i([ 0,14,0 ],11,length,8).
+struct_dt_elem_i([ 0,14,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],11,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,14,0 ],11,pic,'99/99/9999').
+struct_dt_elem_i([ 0,14,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],11,attributeid,'91').
+struct_dt_elem_i([ 0,14,0 ],11,'ExternalName','BR_Encounter_AdmitDate').
+struct_dt_elem_i([ 0,14,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],12,name,'Br_encounter_admitsource').
+struct_dt_elem_i([ 0,14,0 ],12,camelname,'BR_Encounter_AdmitSource').
+struct_dt_elem_i([ 0,14,0 ],12,length,100).
+struct_dt_elem_i([ 0,14,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],12,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,14,0 ],12,pic,'').
+struct_dt_elem_i([ 0,14,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],12,attributeid,'92').
+struct_dt_elem_i([ 0,14,0 ],12,'ExternalName','BR_Encounter_AdmitSource').
+struct_dt_elem_i([ 0,14,0 ],12,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],13,name,'Br_encounter_admitsource_code').
+struct_dt_elem_i([ 0,14,0 ],13,camelname,'BR_Encounter_AdmitSource_Code').
+struct_dt_elem_i([ 0,14,0 ],13,length,40).
+struct_dt_elem_i([ 0,14,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],13,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],13,pic,'').
+struct_dt_elem_i([ 0,14,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],13,attributeid,'472').
+struct_dt_elem_i([ 0,14,0 ],13,'ExternalName','BR_Encounter_AdmitSource_Code').
+struct_dt_elem_i([ 0,14,0 ],13,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],14,name,'Br_encounter_dischargedate').
+struct_dt_elem_i([ 0,14,0 ],14,camelname,'BR_Encounter_DischargeDate').
+struct_dt_elem_i([ 0,14,0 ],14,basedon,64).
+struct_dt_elem_i([ 0,14,0 ],14,length,8).
+struct_dt_elem_i([ 0,14,0 ],14,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],14,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,14,0 ],14,pic,'99/99/9999').
+struct_dt_elem_i([ 0,14,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],14,attributeid,'93').
+struct_dt_elem_i([ 0,14,0 ],14,'ExternalName','BR_Encounter_DischargeDate').
+struct_dt_elem_i([ 0,14,0 ],14,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],15,name,'Br_encounter_dischargestatus').
+struct_dt_elem_i([ 0,14,0 ],15,camelname,'BR_Encounter_DischargeStatus').
+struct_dt_elem_i([ 0,14,0 ],15,length,100).
+struct_dt_elem_i([ 0,14,0 ],15,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],15,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,14,0 ],15,pic,'').
+struct_dt_elem_i([ 0,14,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],15,attributeid,'94').
+struct_dt_elem_i([ 0,14,0 ],15,'ExternalName','BR_Encounter_DischargeStatus').
+struct_dt_elem_i([ 0,14,0 ],15,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],16,name,'Br_encounter_dischargestatus_code').
+struct_dt_elem_i([ 0,14,0 ],16,camelname,'BR_Encounter_DischargeStatus_Code').
+struct_dt_elem_i([ 0,14,0 ],16,length,40).
+struct_dt_elem_i([ 0,14,0 ],16,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],16,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],16,pic,'').
+struct_dt_elem_i([ 0,14,0 ],16,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],16,attributeid,'473').
+struct_dt_elem_i([ 0,14,0 ],16,'ExternalName','BR_Encounter_DischargeStatus_Code').
+struct_dt_elem_i([ 0,14,0 ],16,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],17,name,'Br_encounter_insurance').
+struct_dt_elem_i([ 0,14,0 ],17,camelname,'BR_Encounter_Insurance').
+struct_dt_elem_i([ 0,14,0 ],17,length,100).
+struct_dt_elem_i([ 0,14,0 ],17,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],17,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,14,0 ],17,pic,'').
+struct_dt_elem_i([ 0,14,0 ],17,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],17,attributeid,'574').
+struct_dt_elem_i([ 0,14,0 ],17,'ExternalName','BR_Encounter_Insurance').
+struct_dt_elem_i([ 0,14,0 ],17,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],18,name,'Br_encounter_insurance_code').
+struct_dt_elem_i([ 0,14,0 ],18,camelname,'BR_Encounter_Insurance_Code').
+struct_dt_elem_i([ 0,14,0 ],18,length,40).
+struct_dt_elem_i([ 0,14,0 ],18,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],18,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],18,pic,'').
+struct_dt_elem_i([ 0,14,0 ],18,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],18,attributeid,'575').
+struct_dt_elem_i([ 0,14,0 ],18,'ExternalName','BR_Encounter_Insurance_Code').
+struct_dt_elem_i([ 0,14,0 ],18,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],19,name,'Br_encounter_status').
+struct_dt_elem_i([ 0,14,0 ],19,camelname,'BR_Encounter_Status').
+struct_dt_elem_i([ 0,14,0 ],19,basedon,94).
+struct_dt_elem_i([ 0,14,0 ],19,length,4).
+struct_dt_elem_i([ 0,14,0 ],19,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],19,sign,0).
+struct_dt_elem_i([ 0,14,0 ],19,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,14,0 ],19,pic,'ZZZ9').
+struct_dt_elem_i([ 0,14,0 ],19,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],19,attributeid,'172').
+struct_dt_elem_i([ 0,14,0 ],19,'ExternalName','BR_Encounter_Status').
+struct_dt_elem_i([ 0,14,0 ],19,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],20,name,'Br_information_id').
+struct_dt_elem_i([ 0,14,0 ],20,camelname,'BR_Information_ID').
+struct_dt_elem_i([ 0,14,0 ],20,basedon,69).
+struct_dt_elem_i([ 0,14,0 ],20,length,18).
+struct_dt_elem_i([ 0,14,0 ],20,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],20,sign,0).
+struct_dt_elem_i([ 0,14,0 ],20,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,14,0 ],20,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,14,0 ],20,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],20,attributeid,'85').
+struct_dt_elem_i([ 0,14,0 ],20,'ExternalName','BR_Information_ID').
+struct_dt_elem_i([ 0,14,0 ],20,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],21,name,'Br_information_patientno').
+struct_dt_elem_i([ 0,14,0 ],21,camelname,'BR_Information_PatientNo').
+struct_dt_elem_i([ 0,14,0 ],21,length,2000).
+struct_dt_elem_i([ 0,14,0 ],21,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],21,type,[ 13,2000,0 ]).
+struct_dt_elem_i([ 0,14,0 ],21,pic,'').
+struct_dt_elem_i([ 0,14,0 ],21,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],21,attributeid,'36').
+struct_dt_elem_i([ 0,14,0 ],21,'ExternalName','BR_Information_PatientNo').
+struct_dt_elem_i([ 0,14,0 ],21,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],22,name,'Bas_tenanttenantcode').
+struct_dt_elem_i([ 0,14,0 ],22,camelname,'BAS_TenantTenantCode').
+struct_dt_elem_i([ 0,14,0 ],22,length,20).
+struct_dt_elem_i([ 0,14,0 ],22,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],22,type,[ 13,20,0 ]).
+struct_dt_elem_i([ 0,14,0 ],22,pic,'').
+struct_dt_elem_i([ 0,14,0 ],22,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],22,attributeid,'360').
+struct_dt_elem_i([ 0,14,0 ],22,'ExternalName','BAS_TenantTenantCode').
+struct_dt_elem_i([ 0,14,0 ],22,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],23,name,'Br_encounter_crtdate').
+struct_dt_elem_i([ 0,14,0 ],23,camelname,'BR_Encounter_CrtDate').
+struct_dt_elem_i([ 0,14,0 ],23,basedon,66).
+struct_dt_elem_i([ 0,14,0 ],23,length,10).
+struct_dt_elem_i([ 0,14,0 ],23,decimals,8).
+struct_dt_elem_i([ 0,14,0 ],23,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,14,0 ],23,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,14,0 ],23,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],23,attributeid,'182').
+struct_dt_elem_i([ 0,14,0 ],23,'ExternalName','BR_Encounter_CrtDate').
+struct_dt_elem_i([ 0,14,0 ],23,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],24,name,'Br_encounter_upddate').
+struct_dt_elem_i([ 0,14,0 ],24,camelname,'BR_Encounter_UpdDate').
+struct_dt_elem_i([ 0,14,0 ],24,basedon,66).
+struct_dt_elem_i([ 0,14,0 ],24,length,10).
+struct_dt_elem_i([ 0,14,0 ],24,decimals,8).
+struct_dt_elem_i([ 0,14,0 ],24,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,14,0 ],24,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,14,0 ],24,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],24,attributeid,'187').
+struct_dt_elem_i([ 0,14,0 ],24,'ExternalName','BR_Encounter_UpdDate').
+struct_dt_elem_i([ 0,14,0 ],24,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],25,name,'Br_encounter_crtuser').
+struct_dt_elem_i([ 0,14,0 ],25,camelname,'BR_Encounter_CrtUser').
+struct_dt_elem_i([ 0,14,0 ],25,basedon,95).
+struct_dt_elem_i([ 0,14,0 ],25,length,100).
+struct_dt_elem_i([ 0,14,0 ],25,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],25,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,14,0 ],25,pic,'').
+struct_dt_elem_i([ 0,14,0 ],25,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],25,attributeid,'183').
+struct_dt_elem_i([ 0,14,0 ],25,'ExternalName','BR_Encounter_CrtUser').
+struct_dt_elem_i([ 0,14,0 ],25,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],26,name,'Br_encounter_crtdisplayname').
+struct_dt_elem_i([ 0,14,0 ],26,camelname,'BR_Encounter_CrtDisplayName').
+struct_dt_elem_i([ 0,14,0 ],26,length,100).
+struct_dt_elem_i([ 0,14,0 ],26,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],26,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,14,0 ],26,pic,'').
+struct_dt_elem_i([ 0,14,0 ],26,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],26,attributeid,'512').
+struct_dt_elem_i([ 0,14,0 ],26,'ExternalName','BR_Encounter_CrtDisplayName').
+struct_dt_elem_i([ 0,14,0 ],26,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],27,name,'Br_encounter_upduser').
+struct_dt_elem_i([ 0,14,0 ],27,camelname,'BR_Encounter_UpdUser').
+struct_dt_elem_i([ 0,14,0 ],27,basedon,67).
+struct_dt_elem_i([ 0,14,0 ],27,length,40).
+struct_dt_elem_i([ 0,14,0 ],27,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],27,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],27,pic,'').
+struct_dt_elem_i([ 0,14,0 ],27,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],27,attributeid,'186').
+struct_dt_elem_i([ 0,14,0 ],27,'ExternalName','BR_Encounter_UpdUser').
+struct_dt_elem_i([ 0,14,0 ],27,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],28,name,'Br_encounter_isdlt').
+struct_dt_elem_i([ 0,14,0 ],28,camelname,'BR_Encounter_IsDLT').
+struct_dt_elem_i([ 0,14,0 ],28,length,4).
+struct_dt_elem_i([ 0,14,0 ],28,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],28,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,14,0 ],28,pic,'').
+struct_dt_elem_i([ 0,14,0 ],28,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],28,attributeid,'333').
+struct_dt_elem_i([ 0,14,0 ],28,'ExternalName','BR_Encounter_IsDLT').
+struct_dt_elem_i([ 0,14,0 ],28,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],29,name,'Br_encounter_submituser').
+struct_dt_elem_i([ 0,14,0 ],29,camelname,'BR_Encounter_SubmitUser').
+struct_dt_elem_i([ 0,14,0 ],29,basedon,67).
+struct_dt_elem_i([ 0,14,0 ],29,length,40).
+struct_dt_elem_i([ 0,14,0 ],29,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],29,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],29,pic,'').
+struct_dt_elem_i([ 0,14,0 ],29,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],29,attributeid,'184').
+struct_dt_elem_i([ 0,14,0 ],29,'ExternalName','BR_Encounter_SubmitUser').
+struct_dt_elem_i([ 0,14,0 ],29,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],30,name,'Br_encounter_reason').
+struct_dt_elem_i([ 0,14,0 ],30,camelname,'BR_Encounter_Reason').
+struct_dt_elem_i([ 0,14,0 ],30,length,300).
+struct_dt_elem_i([ 0,14,0 ],30,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],30,type,[ 13,300,0 ]).
+struct_dt_elem_i([ 0,14,0 ],30,pic,'').
+struct_dt_elem_i([ 0,14,0 ],30,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],30,attributeid,'335').
+struct_dt_elem_i([ 0,14,0 ],30,'ExternalName','BR_Encounter_Reason').
+struct_dt_elem_i([ 0,14,0 ],30,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],31,name,'Br_encounter_submitdate').
+struct_dt_elem_i([ 0,14,0 ],31,camelname,'BR_Encounter_SubmitDate').
+struct_dt_elem_i([ 0,14,0 ],31,basedon,66).
+struct_dt_elem_i([ 0,14,0 ],31,length,10).
+struct_dt_elem_i([ 0,14,0 ],31,decimals,8).
+struct_dt_elem_i([ 0,14,0 ],31,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,14,0 ],31,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,14,0 ],31,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],31,attributeid,'185').
+struct_dt_elem_i([ 0,14,0 ],31,'ExternalName','BR_Encounter_SubmitDate').
+struct_dt_elem_i([ 0,14,0 ],31,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],32,name,'Br_encounter_recheckuser').
+struct_dt_elem_i([ 0,14,0 ],32,camelname,'BR_Encounter_RecheckUser').
+struct_dt_elem_i([ 0,14,0 ],32,basedon,67).
+struct_dt_elem_i([ 0,14,0 ],32,length,40).
+struct_dt_elem_i([ 0,14,0 ],32,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],32,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],32,pic,'').
+struct_dt_elem_i([ 0,14,0 ],32,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],32,attributeid,'188').
+struct_dt_elem_i([ 0,14,0 ],32,'ExternalName','BR_Encounter_RecheckUser').
+struct_dt_elem_i([ 0,14,0 ],32,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],33,name,'Br_encounter_freason').
+struct_dt_elem_i([ 0,14,0 ],33,camelname,'BR_Encounter_FReason').
+struct_dt_elem_i([ 0,14,0 ],33,length,300).
+struct_dt_elem_i([ 0,14,0 ],33,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],33,type,[ 13,300,0 ]).
+struct_dt_elem_i([ 0,14,0 ],33,pic,'').
+struct_dt_elem_i([ 0,14,0 ],33,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],33,attributeid,'336').
+struct_dt_elem_i([ 0,14,0 ],33,'ExternalName','BR_Encounter_FReason').
+struct_dt_elem_i([ 0,14,0 ],33,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],34,name,'Br_encounter_recheckdate').
+struct_dt_elem_i([ 0,14,0 ],34,camelname,'BR_Encounter_RecheckDate').
+struct_dt_elem_i([ 0,14,0 ],34,basedon,66).
+struct_dt_elem_i([ 0,14,0 ],34,length,10).
+struct_dt_elem_i([ 0,14,0 ],34,decimals,8).
+struct_dt_elem_i([ 0,14,0 ],34,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,14,0 ],34,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,14,0 ],34,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],34,attributeid,'189').
+struct_dt_elem_i([ 0,14,0 ],34,'ExternalName','BR_Encounter_RecheckDate').
+struct_dt_elem_i([ 0,14,0 ],34,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],35,name,'Br_encounter_approver').
+struct_dt_elem_i([ 0,14,0 ],35,camelname,'BR_Encounter_Approver').
+struct_dt_elem_i([ 0,14,0 ],35,basedon,67).
+struct_dt_elem_i([ 0,14,0 ],35,length,40).
+struct_dt_elem_i([ 0,14,0 ],35,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],35,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],35,pic,'').
+struct_dt_elem_i([ 0,14,0 ],35,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],35,attributeid,'190').
+struct_dt_elem_i([ 0,14,0 ],35,'ExternalName','BR_Encounter_Approver').
+struct_dt_elem_i([ 0,14,0 ],35,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],36,name,'Br_encounter_approvedate').
+struct_dt_elem_i([ 0,14,0 ],36,camelname,'BR_Encounter_ApproveDate').
+struct_dt_elem_i([ 0,14,0 ],36,basedon,66).
+struct_dt_elem_i([ 0,14,0 ],36,length,10).
+struct_dt_elem_i([ 0,14,0 ],36,decimals,8).
+struct_dt_elem_i([ 0,14,0 ],36,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,14,0 ],36,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,14,0 ],36,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],36,attributeid,'191').
+struct_dt_elem_i([ 0,14,0 ],36,'ExternalName','BR_Encounter_ApproveDate').
+struct_dt_elem_i([ 0,14,0 ],36,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],37,name,'Br_encounter_israndapprove').
+struct_dt_elem_i([ 0,14,0 ],37,camelname,'BR_Encounter_IsRandApprove').
+struct_dt_elem_i([ 0,14,0 ],37,length,4).
+struct_dt_elem_i([ 0,14,0 ],37,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],37,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,14,0 ],37,pic,'').
+struct_dt_elem_i([ 0,14,0 ],37,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],37,attributeid,'192').
+struct_dt_elem_i([ 0,14,0 ],37,'ExternalName','BR_Encounter_IsRandApprove').
+struct_dt_elem_i([ 0,14,0 ],37,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],38,name,'Br_encounter_israndapprover').
+struct_dt_elem_i([ 0,14,0 ],38,camelname,'BR_Encounter_IsRandApprover').
+struct_dt_elem_i([ 0,14,0 ],38,basedon,67).
+struct_dt_elem_i([ 0,14,0 ],38,length,40).
+struct_dt_elem_i([ 0,14,0 ],38,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],38,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],38,pic,'').
+struct_dt_elem_i([ 0,14,0 ],38,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],38,attributeid,'203').
+struct_dt_elem_i([ 0,14,0 ],38,'ExternalName','BR_Encounter_IsRandApprover').
+struct_dt_elem_i([ 0,14,0 ],38,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],39,name,'Br_encounter_israndnoapprover').
+struct_dt_elem_i([ 0,14,0 ],39,camelname,'BR_Encounter_IsRandNoApprover').
+struct_dt_elem_i([ 0,14,0 ],39,basedon,67).
+struct_dt_elem_i([ 0,14,0 ],39,length,40).
+struct_dt_elem_i([ 0,14,0 ],39,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],39,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],39,pic,'').
+struct_dt_elem_i([ 0,14,0 ],39,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],39,attributeid,'204').
+struct_dt_elem_i([ 0,14,0 ],39,'ExternalName','BR_Encounter_IsRandNoApprover').
+struct_dt_elem_i([ 0,14,0 ],39,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],40,name,'Br_encounter_israndapprovedate').
+struct_dt_elem_i([ 0,14,0 ],40,camelname,'BR_Encounter_IsRandApproveDate').
+struct_dt_elem_i([ 0,14,0 ],40,basedon,66).
+struct_dt_elem_i([ 0,14,0 ],40,length,10).
+struct_dt_elem_i([ 0,14,0 ],40,decimals,8).
+struct_dt_elem_i([ 0,14,0 ],40,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,14,0 ],40,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,14,0 ],40,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],40,attributeid,'205').
+struct_dt_elem_i([ 0,14,0 ],40,'ExternalName','BR_Encounter_IsRandApproveDate').
+struct_dt_elem_i([ 0,14,0 ],40,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],41,name,'Br_encounter_israndnoapprovedate').
+struct_dt_elem_i([ 0,14,0 ],41,camelname,'BR_Encounter_IsRandNoApproveDate').
+struct_dt_elem_i([ 0,14,0 ],41,basedon,66).
+struct_dt_elem_i([ 0,14,0 ],41,length,10).
+struct_dt_elem_i([ 0,14,0 ],41,decimals,8).
+struct_dt_elem_i([ 0,14,0 ],41,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,14,0 ],41,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,14,0 ],41,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],41,attributeid,'206').
+struct_dt_elem_i([ 0,14,0 ],41,'ExternalName','BR_Encounter_IsRandNoApproveDate').
+struct_dt_elem_i([ 0,14,0 ],41,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],42,name,'Br_encounter_israndrecheck').
+struct_dt_elem_i([ 0,14,0 ],42,camelname,'BR_Encounter_IsRandRecheck').
+struct_dt_elem_i([ 0,14,0 ],42,length,4).
+struct_dt_elem_i([ 0,14,0 ],42,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],42,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,14,0 ],42,pic,'').
+struct_dt_elem_i([ 0,14,0 ],42,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],42,attributeid,'193').
+struct_dt_elem_i([ 0,14,0 ],42,'ExternalName','BR_Encounter_IsRandRecheck').
+struct_dt_elem_i([ 0,14,0 ],42,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],43,name,'Br_encounter_israndrecheckr').
+struct_dt_elem_i([ 0,14,0 ],43,camelname,'BR_Encounter_IsRandRecheckr').
+struct_dt_elem_i([ 0,14,0 ],43,basedon,67).
+struct_dt_elem_i([ 0,14,0 ],43,length,40).
+struct_dt_elem_i([ 0,14,0 ],43,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],43,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],43,pic,'').
+struct_dt_elem_i([ 0,14,0 ],43,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],43,attributeid,'207').
+struct_dt_elem_i([ 0,14,0 ],43,'ExternalName','BR_Encounter_IsRandRecheckr').
+struct_dt_elem_i([ 0,14,0 ],43,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],44,name,'Br_encounter_israndnorecheckr').
+struct_dt_elem_i([ 0,14,0 ],44,camelname,'BR_Encounter_IsRandNoRecheckr').
+struct_dt_elem_i([ 0,14,0 ],44,basedon,67).
+struct_dt_elem_i([ 0,14,0 ],44,length,40).
+struct_dt_elem_i([ 0,14,0 ],44,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],44,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],44,pic,'').
+struct_dt_elem_i([ 0,14,0 ],44,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],44,attributeid,'208').
+struct_dt_elem_i([ 0,14,0 ],44,'ExternalName','BR_Encounter_IsRandNoRecheckr').
+struct_dt_elem_i([ 0,14,0 ],44,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],45,name,'Br_encounter_israndrecheckdate').
+struct_dt_elem_i([ 0,14,0 ],45,camelname,'BR_Encounter_IsRandRecheckDate').
+struct_dt_elem_i([ 0,14,0 ],45,basedon,66).
+struct_dt_elem_i([ 0,14,0 ],45,length,10).
+struct_dt_elem_i([ 0,14,0 ],45,decimals,8).
+struct_dt_elem_i([ 0,14,0 ],45,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,14,0 ],45,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,14,0 ],45,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],45,attributeid,'209').
+struct_dt_elem_i([ 0,14,0 ],45,'ExternalName','BR_Encounter_IsRandRecheckDate').
+struct_dt_elem_i([ 0,14,0 ],45,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],46,name,'Br_encounter_israndnorecheckdate').
+struct_dt_elem_i([ 0,14,0 ],46,camelname,'BR_Encounter_IsRandNoRecheckDate').
+struct_dt_elem_i([ 0,14,0 ],46,basedon,66).
+struct_dt_elem_i([ 0,14,0 ],46,length,10).
+struct_dt_elem_i([ 0,14,0 ],46,decimals,8).
+struct_dt_elem_i([ 0,14,0 ],46,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,14,0 ],46,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,14,0 ],46,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],46,attributeid,'210').
+struct_dt_elem_i([ 0,14,0 ],46,'ExternalName','BR_Encounter_IsRandNoRecheckDate').
+struct_dt_elem_i([ 0,14,0 ],46,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],47,name,'Br_encounter_isupdate').
+struct_dt_elem_i([ 0,14,0 ],47,camelname,'BR_Encounter_IsUpdate').
+struct_dt_elem_i([ 0,14,0 ],47,length,4).
+struct_dt_elem_i([ 0,14,0 ],47,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],47,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,14,0 ],47,pic,'').
+struct_dt_elem_i([ 0,14,0 ],47,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],47,attributeid,'202').
+struct_dt_elem_i([ 0,14,0 ],47,'ExternalName','BR_Encounter_IsUpdate').
+struct_dt_elem_i([ 0,14,0 ],47,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],48,name,'Br_encounter_datasource').
+struct_dt_elem_i([ 0,14,0 ],48,camelname,'BR_Encounter_Datasource').
+struct_dt_elem_i([ 0,14,0 ],48,basedon,117).
+struct_dt_elem_i([ 0,14,0 ],48,length,4).
+struct_dt_elem_i([ 0,14,0 ],48,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],48,sign,0).
+struct_dt_elem_i([ 0,14,0 ],48,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,14,0 ],48,pic,'ZZZ9').
+struct_dt_elem_i([ 0,14,0 ],48,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],48,attributeid,'537').
+struct_dt_elem_i([ 0,14,0 ],48,'ExternalName','BR_Encounter_Datasource').
+struct_dt_elem_i([ 0,14,0 ],48,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],49,name,'Encounteridencrypt').
+struct_dt_elem_i([ 0,14,0 ],49,camelname,'EncounterIDEncrypt').
+struct_dt_elem_i([ 0,14,0 ],49,length,500).
+struct_dt_elem_i([ 0,14,0 ],49,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],49,type,[ 13,500,0 ]).
+struct_dt_elem_i([ 0,14,0 ],49,pic,'').
+struct_dt_elem_i([ 0,14,0 ],49,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],49,attributeid,'560').
+struct_dt_elem_i([ 0,14,0 ],49,'ExternalName','EncounterIDEncrypt').
+struct_dt_elem_i([ 0,14,0 ],49,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],11,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,14,0 ],14,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,14,0 ],25,pic,'99/99/9999 99:99:99').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

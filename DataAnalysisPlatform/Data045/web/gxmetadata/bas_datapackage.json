@@ -1,0 +1,4 @@
+{
+
+"GxObject":{"ObjectType":"BusinessComponent","Name":"BAS_DataPackage","idConnectivitySupport":"idInherit","Structure":{"Levels":[{"Name":"Bas_datapackage","ParentLevel":"","LevelName":"BAS_DataPackage","Description":"BAS_Data Package","Attributes":[{"Name":"DataPackage","Caption":"Data Package","default":"","IsKey":"true","ReadOnly":"false","AttributeType":"svchar","Description":"Data Package","Length":"50","Decimals":"0","Signed":"false","AllowDBNulls":"false","InternalName":"DataPackage","DescriptionAtt":"true","InputPicture":"","Type":"xs:string"}]}]},"Relations":{"ManyToOne":{"references":[]}}}
+}

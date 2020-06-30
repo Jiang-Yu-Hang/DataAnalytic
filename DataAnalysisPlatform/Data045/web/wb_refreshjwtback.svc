@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.wb_refreshjwtback_services,wb_refreshjwtback" %>

@@ -1,0 +1,5 @@
+bc_dt_elem_i([ 0,55,0 ],'Sys_tenantuserroleuserroleid',allownulls,no).
+bc_dt_elem_i([ 0,55,0 ],'Sys_tenantuserroleuserid',allownulls,no).
+bc_dt_elem_i([ 0,55,0 ],'Sys_tenantuserroletenantcode',allownulls,no).
+bc_dt_elem_i([ 0,55,0 ],'Sys_tenantuserroleroleid',allownulls,no).
+ 

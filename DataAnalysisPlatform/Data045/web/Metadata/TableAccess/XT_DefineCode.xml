@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="0a5c9e7b-c5ad-48c8-bbf7-6b55d0ae3c25">
+  <Table name="XT_DefindcodeType" />
+  <Table name="XT_DefineCode" />
+  <Table name="XT_Log" />
+  <Table name="SYS_Log" />
+</Dependencies>

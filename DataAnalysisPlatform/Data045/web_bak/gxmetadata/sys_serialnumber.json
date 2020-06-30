@@ -1,0 +1,4 @@
+{
+
+"GxObject":{"ObjectType":"BusinessComponent","Name":"SYS_SerialNumber","idConnectivitySupport":"idInherit","Structure":{"Levels":[{"Name":"Sys_serialnumber","ParentLevel":"","LevelName":"SYS_SerialNumber","Description":"SYS_Serial Number","Attributes":[{"Name":"SerialKey","Caption":"Serial Key","default":"","IsKey":"true","ReadOnly":"false","AttributeType":"svchar","Description":"Serial Key","Length":"64","Decimals":"0","Signed":"false","AllowDBNulls":"false","InternalName":"SerialKey","InputPicture":"","Type":"xs:string"},{"Name":"CurrentValue","Caption":"Current Value","default":"0","IsKey":"false","ReadOnly":"false","AttributeType":"int","Description":"Current Value","Length":"18","Decimals":"0","Signed":"false","AllowDBNulls":"false","InternalName":"CurrentValue","DescriptionAtt":"true","InputPicture":"ZZZZZZZZZZZZZZZZZ9","Type":"xs:int"}]}]},"Relations":{"ManyToOne":{"references":[]}}}
+}

@@ -1,0 +1,88 @@
+ 
+spec_i([ sdt,[ 0,20,0 ],'JC_Provider','JC_Provider',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,20,0 ],name,'JC_Provider').
+struct_dt_i([ 0,20,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,20,0 ],significantName,'JC_Provider').
+struct_dt_i([ 0,20,0 ],'ObjName','JC_Provider').
+struct_dt_i([ 0,20,0 ],'ObjDesc',医院).
+struct_dt_i([ 0,20,0 ],'ExternalName','JC_Provider').
+struct_dt_i([ 0,20,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,20,0 ],key,[ 87 ]).
+struct_dt_i([ 0,20,0 ],lvl,21).
+struct_dt_i([ 0,20,0 ],fullname,'JC_Provider').
+ 
+struct_dt_elem_i([ 0,20,0 ],1,name,'Jc_providerid').
+struct_dt_elem_i([ 0,20,0 ],1,camelname,'JC_ProviderID').
+struct_dt_elem_i([ 0,20,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,20,0 ],1,length,18).
+struct_dt_elem_i([ 0,20,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,20,0 ],1,sign,0).
+struct_dt_elem_i([ 0,20,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,20,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,20,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,20,0 ],1,attributeid,'87').
+struct_dt_elem_i([ 0,20,0 ],1,'ExternalName','JC_ProviderID').
+struct_dt_elem_i([ 0,20,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,20,0 ],2,name,'Jc_providername').
+struct_dt_elem_i([ 0,20,0 ],2,camelname,'JC_ProviderName').
+struct_dt_elem_i([ 0,20,0 ],2,length,200).
+struct_dt_elem_i([ 0,20,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,20,0 ],2,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,20,0 ],2,pic,'').
+struct_dt_elem_i([ 0,20,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,20,0 ],2,attributeid,'89').
+struct_dt_elem_i([ 0,20,0 ],2,'ExternalName','JC_ProviderName').
+struct_dt_elem_i([ 0,20,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,20,0 ],3,name,'Jc_providershortname').
+struct_dt_elem_i([ 0,20,0 ],3,camelname,'JC_ProviderShortName').
+struct_dt_elem_i([ 0,20,0 ],3,length,100).
+struct_dt_elem_i([ 0,20,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,20,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,20,0 ],3,pic,'').
+struct_dt_elem_i([ 0,20,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,20,0 ],3,attributeid,'160').
+struct_dt_elem_i([ 0,20,0 ],3,'ExternalName','JC_ProviderShortName').
+struct_dt_elem_i([ 0,20,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,20,0 ],4,name,'Jc_provideraddresss').
+struct_dt_elem_i([ 0,20,0 ],4,camelname,'JC_ProviderAddresss').
+struct_dt_elem_i([ 0,20,0 ],4,basedon,23).
+struct_dt_elem_i([ 0,20,0 ],4,length,1024).
+struct_dt_elem_i([ 0,20,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,20,0 ],4,type,[ 13,1024,0 ]).
+struct_dt_elem_i([ 0,20,0 ],4,pic,'').
+struct_dt_elem_i([ 0,20,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,20,0 ],4,attributeid,'161').
+struct_dt_elem_i([ 0,20,0 ],4,'ExternalName','JC_ProviderAddresss').
+struct_dt_elem_i([ 0,20,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,20,0 ],5,name,'Jc_providerphone').
+struct_dt_elem_i([ 0,20,0 ],5,camelname,'JC_ProviderPhone').
+struct_dt_elem_i([ 0,20,0 ],5,basedon,28).
+struct_dt_elem_i([ 0,20,0 ],5,length,20).
+struct_dt_elem_i([ 0,20,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,20,0 ],5,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,20,0 ],5,pic,'').
+struct_dt_elem_i([ 0,20,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,20,0 ],5,attributeid,'162').
+struct_dt_elem_i([ 0,20,0 ],5,'ExternalName','JC_ProviderPhone').
+struct_dt_elem_i([ 0,20,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,20,0 ],6,name,'Jc_provideruser').
+struct_dt_elem_i([ 0,20,0 ],6,camelname,'JC_ProviderUser').
+struct_dt_elem_i([ 0,20,0 ],6,length,40).
+struct_dt_elem_i([ 0,20,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,20,0 ],6,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,20,0 ],6,pic,'').
+struct_dt_elem_i([ 0,20,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,20,0 ],6,attributeid,'163').
+struct_dt_elem_i([ 0,20,0 ],6,'ExternalName','JC_ProviderUser').
+struct_dt_elem_i([ 0,20,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

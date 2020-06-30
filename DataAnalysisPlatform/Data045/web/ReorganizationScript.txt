@@ -1,0 +1,10 @@
+ALTER TABLE [BR_Familyhistory] ADD [BR_EncounterID]  decimal( 18) NOT NULL CONSTRAINT BR_EncounterIDBR_Familyhistory_DEFAULT DEFAULT convert(int, 0)
+UPDATE [BR_Familyhistory] SET [BR_EncounterID]=T.[BR_EncounterID] FROM (SELECT T1.[BR_FamilyhistoryID], T2.[BR_EncounterID] FROM ([BR_Familyhistory] T1 INNER JOIN [BR_EncounterReason] T2 ON T2.[BR_Encounter_ID] = T1.[BR_Encounter_ID])) T WHERE [BR_Familyhistory].BR_FamilyhistoryID= T.BR_FamilyhistoryID
+ALTER TABLE [BR_Familyhistory] DROP CONSTRAINT BR_EncounterIDBR_Familyhistory_DEFAULT
+DROP INDEX [IBR_FAMILYHISTORY1] ON [BR_Familyhistory]
+CREATE NONCLUSTERED INDEX [IBR_FAMILYHISTORY1] ON [BR_Familyhistory] ([BR_EncounterID] )
+ALTER TABLE [BR_Familyhistory] DROP CONSTRAINT [IBR_FAMILYHISTORY1]
+ALTER TABLE [BR_Familyhistory] DROP COLUMN [BR_Encounter_ID]
+
+ALTER TABLE [BR_Familyhistory] ADD CONSTRAINT [IBR_FAMILYHISTORY1] FOREIGN KEY ([BR_EncounterID]) REFERENCES [BR_Encounter] ([BR_EncounterID])
+

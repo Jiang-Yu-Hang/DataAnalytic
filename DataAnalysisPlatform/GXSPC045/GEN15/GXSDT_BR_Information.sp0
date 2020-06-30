@@ -1,0 +1,79 @@
+ 
+spec_i([ sdt,[ 0,15,0 ],'BR_Information','BR_Information',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,15,0 ],name,'BR_Information').
+struct_dt_i([ 0,15,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,15,0 ],significantName,'BR_Information').
+struct_dt_i([ 0,15,0 ],'ObjName','BR_Information').
+struct_dt_i([ 0,15,0 ],'ObjDesc','Data Mgmt Portal - RAAP').
+struct_dt_i([ 0,15,0 ],'ExternalName','BR_Information').
+struct_dt_i([ 0,15,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,15,0 ],key,[ 85 ]).
+struct_dt_i([ 0,15,0 ],lvl,16).
+struct_dt_i([ 0,15,0 ],fullname,'BR_Information').
+ 
+struct_dt_elem_i([ 0,15,0 ],1,name,'Br_information_id').
+struct_dt_elem_i([ 0,15,0 ],1,camelname,'BR_Information_ID').
+struct_dt_elem_i([ 0,15,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,15,0 ],1,length,18).
+struct_dt_elem_i([ 0,15,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,15,0 ],1,sign,0).
+struct_dt_elem_i([ 0,15,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,15,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,15,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,15,0 ],1,attributeid,'85').
+struct_dt_elem_i([ 0,15,0 ],1,'ExternalName','BR_Information_ID').
+struct_dt_elem_i([ 0,15,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,15,0 ],2,name,'Br_information_patientno').
+struct_dt_elem_i([ 0,15,0 ],2,camelname,'BR_Information_PatientNo').
+struct_dt_elem_i([ 0,15,0 ],2,length,2000).
+struct_dt_elem_i([ 0,15,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,15,0 ],2,type,[ 13,2000,0 ]).
+struct_dt_elem_i([ 0,15,0 ],2,pic,'').
+struct_dt_elem_i([ 0,15,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,15,0 ],2,attributeid,'36').
+struct_dt_elem_i([ 0,15,0 ],2,'ExternalName','BR_Information_PatientNo').
+struct_dt_elem_i([ 0,15,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,15,0 ],3,name,'Br_information_birthdate').
+struct_dt_elem_i([ 0,15,0 ],3,camelname,'BR_Information_BirthDate').
+struct_dt_elem_i([ 0,15,0 ],3,length,8).
+struct_dt_elem_i([ 0,15,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,15,0 ],3,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,15,0 ],3,pic,'99/99/9999').
+struct_dt_elem_i([ 0,15,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,15,0 ],3,attributeid,'100').
+struct_dt_elem_i([ 0,15,0 ],3,'ExternalName','BR_Information_BirthDate').
+struct_dt_elem_i([ 0,15,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,15,0 ],4,name,'Br_information_crtuser').
+struct_dt_elem_i([ 0,15,0 ],4,camelname,'BR_Information_CrtUser').
+struct_dt_elem_i([ 0,15,0 ],4,basedon,95).
+struct_dt_elem_i([ 0,15,0 ],4,length,100).
+struct_dt_elem_i([ 0,15,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,15,0 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,15,0 ],4,pic,'').
+struct_dt_elem_i([ 0,15,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,15,0 ],4,attributeid,'96').
+struct_dt_elem_i([ 0,15,0 ],4,'ExternalName','BR_Information_CrtUser').
+struct_dt_elem_i([ 0,15,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,15,0 ],5,name,'Br_information_crtdate').
+struct_dt_elem_i([ 0,15,0 ],5,camelname,'BR_Information_CrtDate').
+struct_dt_elem_i([ 0,15,0 ],5,basedon,66).
+struct_dt_elem_i([ 0,15,0 ],5,length,10).
+struct_dt_elem_i([ 0,15,0 ],5,decimals,8).
+struct_dt_elem_i([ 0,15,0 ],5,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,15,0 ],5,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,15,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,15,0 ],5,attributeid,'95').
+struct_dt_elem_i([ 0,15,0 ],5,'ExternalName','BR_Information_CrtDate').
+struct_dt_elem_i([ 0,15,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,15,0 ],4,pic,'99/99/9999 99:99:99').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

@@ -1,0 +1,143 @@
+ 
+spec_i([ sdt,[ 14,53,0 ],'Encrypt_Method','Encrypt_Method',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 14,53,0 ],name,'Encrypt_Method').
+struct_dt_i([ 14,53,0 ],'ObjName','Encrypt_Method').
+struct_dt_i([ 14,53,0 ],'ObjDesc','').
+struct_dt_i([ 14,53,0 ],'ExoType','0').
+struct_dt_i([ 14,53,0 ],'ObjNamespace','GX_Method.Utils').
+struct_dt_i([ 14,53,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,53,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,53,0 ],'ExoNameCSHARP','Encrypt_Method').
+struct_dt_i([ 14,53,0 ],'AssemblyName','GX_Method.dll').
+struct_dt_i([ 14,53,0 ],'ExoConstructorParametersCSHARP','').
+struct_dt_i([ 14,53,0 ],'ExoNameNETCORE','Encrypt_Method').
+struct_dt_i([ 14,53,0 ],'NetCoreAssemblyName','GX_Method.dll').
+struct_dt_i([ 14,53,0 ],'ExoConstructorParametersNETCORE','').
+struct_dt_i([ 14,53,0 ],'PackageName','').
+struct_dt_i([ 14,53,0 ],'RequireName','').
+struct_dt_i([ 14,53,0 ],'ExoNameJS','').
+struct_dt_i([ 14,53,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,53,0 ],'Folder',o(8,externalObject)).
+struct_dt_i([ 14,53,0 ],'FullyQualifiedName','Encrypt_Method').
+struct_dt_i([ 14,53,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,53,0 ],fullname,'Encrypt_Method').
+struct_dt_i([ 14,53,0 ],modified,yes).
+ 
+ 
+struct_dt_method_i([ 14,53,0 ],1,name,des_encode).
+struct_dt_method_i([ 14,53,0 ],1,camelname,'DES_Encode').
+struct_dt_method_i([ 14,53,0 ],1,externalType,'').
+struct_dt_method_i([ 14,53,0 ],1,length,9999).
+struct_dt_method_i([ 14,53,0 ],1,decimals,0).
+struct_dt_method_i([ 14,53,0 ],1,type,[ 5,9999,0 ]).
+struct_dt_method_i([ 14,53,0 ],1,'IntName','DES_Encode').
+struct_dt_method_i([ 14,53,0 ],1,'ExoItemDesc','').
+struct_dt_method_i([ 14,53,0 ],1,'ExoItemType','Character').
+struct_dt_method_i([ 14,53,0 ],1,basedon,'').
+struct_dt_method_i([ 14,53,0 ],1,'XmlName','DES_Encode').
+struct_dt_method_i([ 14,53,0 ],1,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,53,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,53,0 ],1,'ExoNameCSHARP','DES_Encode').
+struct_dt_method_i([ 14,53,0 ],1,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_method_i([ 14,53,0 ],1,'ExoNameNETCORE','DES_Encode').
+struct_dt_method_i([ 14,53,0 ],1,'ExoItemExtTypeNETCORE','System.String').
+struct_dt_method_i([ 14,53,0 ],1,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,53,0 ],1,'ExoNameJS','').
+struct_dt_method_i([ 14,53,0 ],2,name,des_decode).
+struct_dt_method_i([ 14,53,0 ],2,camelname,'DES_Decode').
+struct_dt_method_i([ 14,53,0 ],2,externalType,'').
+struct_dt_method_i([ 14,53,0 ],2,length,9999).
+struct_dt_method_i([ 14,53,0 ],2,decimals,0).
+struct_dt_method_i([ 14,53,0 ],2,type,[ 5,9999,0 ]).
+struct_dt_method_i([ 14,53,0 ],2,'IntName','DES_Decode').
+struct_dt_method_i([ 14,53,0 ],2,'ExoItemDesc','').
+struct_dt_method_i([ 14,53,0 ],2,'ExoItemType','Character').
+struct_dt_method_i([ 14,53,0 ],2,basedon,'').
+struct_dt_method_i([ 14,53,0 ],2,'XmlName','DES_Decode').
+struct_dt_method_i([ 14,53,0 ],2,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,53,0 ],2,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,53,0 ],2,'ExoNameCSHARP','DES_Decode').
+struct_dt_method_i([ 14,53,0 ],2,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_method_i([ 14,53,0 ],2,'ExoNameNETCORE','DES_Decode').
+struct_dt_method_i([ 14,53,0 ],2,'ExoItemExtTypeNETCORE','System.String').
+struct_dt_method_i([ 14,53,0 ],2,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,53,0 ],2,'ExoNameJS','').
+struct_dt_method_i([ 14,53,0 ],3,name,genarate_key).
+struct_dt_method_i([ 14,53,0 ],3,camelname,'Genarate_Key').
+struct_dt_method_i([ 14,53,0 ],3,externalType,'').
+struct_dt_method_i([ 14,53,0 ],3,length,9999).
+struct_dt_method_i([ 14,53,0 ],3,decimals,0).
+struct_dt_method_i([ 14,53,0 ],3,type,[ 5,9999,0 ]).
+struct_dt_method_i([ 14,53,0 ],3,'IntName','Genarate_Key').
+struct_dt_method_i([ 14,53,0 ],3,'ExoItemDesc','').
+struct_dt_method_i([ 14,53,0 ],3,'ExoItemType','Character').
+struct_dt_method_i([ 14,53,0 ],3,basedon,'').
+struct_dt_method_i([ 14,53,0 ],3,'XmlName','Genarate_Key').
+struct_dt_method_i([ 14,53,0 ],3,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,53,0 ],3,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,53,0 ],3,'ExoNameCSHARP','Genarate_Key').
+struct_dt_method_i([ 14,53,0 ],3,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_method_i([ 14,53,0 ],3,'ExoNameNETCORE','Genarate_Key').
+struct_dt_method_i([ 14,53,0 ],3,'ExoItemExtTypeNETCORE','System.String').
+struct_dt_method_i([ 14,53,0 ],3,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,53,0 ],3,'ExoNameJS','').
+ 
+struct_dt_param_i([ 14,53,1 ],1,name,password).
+struct_dt_param_i([ 14,53,1 ],1,camelname,password).
+struct_dt_param_i([ 14,53,1 ],1,externalType,'').
+struct_dt_param_i([ 14,53,1 ],1,length,9999).
+struct_dt_param_i([ 14,53,1 ],1,decimals,0).
+struct_dt_param_i([ 14,53,1 ],1,type,[ 5,9999,0 ]).
+struct_dt_param_i([ 14,53,1 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,53,1 ],1,'IntName',password).
+struct_dt_param_i([ 14,53,1 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,53,1 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,53,1 ],1,basedon,'').
+struct_dt_param_i([ 14,53,1 ],1,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_param_i([ 14,53,1 ],1,'ExoItemExtTypeNETCORE','System.String').
+struct_dt_param_i([ 14,53,1 ],2,name,key).
+struct_dt_param_i([ 14,53,1 ],2,camelname,key).
+struct_dt_param_i([ 14,53,1 ],2,externalType,'').
+struct_dt_param_i([ 14,53,1 ],2,length,9999).
+struct_dt_param_i([ 14,53,1 ],2,decimals,0).
+struct_dt_param_i([ 14,53,1 ],2,type,[ 5,9999,0 ]).
+struct_dt_param_i([ 14,53,1 ],2,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,53,1 ],2,'IntName',key).
+struct_dt_param_i([ 14,53,1 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,53,1 ],2,'ExoItemType','Character').
+struct_dt_param_i([ 14,53,1 ],2,basedon,'').
+struct_dt_param_i([ 14,53,1 ],2,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_param_i([ 14,53,1 ],2,'ExoItemExtTypeNETCORE','System.String').
+struct_dt_param_i([ 14,53,2 ],1,name,password).
+struct_dt_param_i([ 14,53,2 ],1,camelname,password).
+struct_dt_param_i([ 14,53,2 ],1,externalType,'').
+struct_dt_param_i([ 14,53,2 ],1,length,9999).
+struct_dt_param_i([ 14,53,2 ],1,decimals,0).
+struct_dt_param_i([ 14,53,2 ],1,type,[ 5,9999,0 ]).
+struct_dt_param_i([ 14,53,2 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,53,2 ],1,'IntName',password).
+struct_dt_param_i([ 14,53,2 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,53,2 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,53,2 ],1,basedon,'').
+struct_dt_param_i([ 14,53,2 ],1,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_param_i([ 14,53,2 ],1,'ExoItemExtTypeNETCORE','System.String').
+struct_dt_param_i([ 14,53,2 ],2,name,key).
+struct_dt_param_i([ 14,53,2 ],2,camelname,key).
+struct_dt_param_i([ 14,53,2 ],2,externalType,'').
+struct_dt_param_i([ 14,53,2 ],2,length,9999).
+struct_dt_param_i([ 14,53,2 ],2,decimals,0).
+struct_dt_param_i([ 14,53,2 ],2,type,[ 5,9999,0 ]).
+struct_dt_param_i([ 14,53,2 ],2,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,53,2 ],2,'IntName',key).
+struct_dt_param_i([ 14,53,2 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,53,2 ],2,'ExoItemType','Character').
+struct_dt_param_i([ 14,53,2 ],2,basedon,'').
+struct_dt_param_i([ 14,53,2 ],2,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_param_i([ 14,53,2 ],2,'ExoItemExtTypeNETCORE','System.String').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

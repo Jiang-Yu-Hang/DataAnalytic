@@ -1,0 +1,152 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>47</ObjId>
+<ObjName>SYS_Database_BC</ObjName>
+<ObjDesc>SYS_Database</ObjDesc>
+<ObjPgmName>SYS_Database_BC</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0134</MsgCode>
+<Message>
+<Token>Poor performance may be noticed</Token>
+<Token></Token>
+<Token> as </Token>
+<Token>Duplicate</Token>
+<Token> index </Token>
+<Token>IBAS_TENANT</Token>
+<Token> is not defined in Data view </Token>
+<Token>BAS_Tenant</Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>48</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>48</TableId>
+<TableName>SYS_DATABASE</TableName>
+<Description>SYS_Database</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>48</TableId>
+<TableName>SYS_DATABASE</TableName>
+<Description>SYS_Database</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>365</AttriId>
+<AttriName>DatabaseID</AttriName>
+<Description>Database ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>48</TableId>
+<TableName>SYS_DATABASE</TableName>
+<Description>SYS_Database</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>365</AttriId>
+<AttriName>DatabaseID</AttriName>
+<Description>Database ID</Description></Attribute>
+<Attribute>
+<AttriId>380</AttriId>
+<AttriName>DatabaseName</AttriName>
+<Description>Database Name</Description></Attribute>
+<Attribute>
+<AttriId>381</AttriId>
+<AttriName>ConnectionString</AttriName>
+<Description>Connection String</Description></Attribute>
+<Attribute>
+<AttriId>382</AttriId>
+<AttriName>SYS_DatabaseCreator</AttriName>
+<Description>SYS_Database Creator</Description></Attribute>
+<Attribute>
+<AttriId>383</AttriId>
+<AttriName>SYS_DatabaseCreateTime</AttriName>
+<Description>SYS_Database Create Time</Description></Attribute>
+<Attribute>
+<AttriId>384</AttriId>
+<AttriName>SYS_DatabaseModifier</AttriName>
+<Description>SYS_Database Modifier</Description></Attribute>
+<Attribute>
+<AttriId>385</AttriId>
+<AttriName>SYS_DatabaseModifyTime</AttriName>
+<Description>SYS_Database Modify Time</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>48</TableId>
+<TableName>SYS_DATABASE</TableName>
+<Description>SYS_Database</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>380</AttriId>
+<AttriName>DatabaseName</AttriName>
+<Description>Database Name</Description></Attribute>
+<Attribute>
+<AttriId>381</AttriId>
+<AttriName>ConnectionString</AttriName>
+<Description>Connection String</Description></Attribute>
+<Attribute>
+<AttriId>382</AttriId>
+<AttriName>SYS_DatabaseCreator</AttriName>
+<Description>SYS_Database Creator</Description></Attribute>
+<Attribute>
+<AttriId>383</AttriId>
+<AttriName>SYS_DatabaseCreateTime</AttriName>
+<Description>SYS_Database Create Time</Description></Attribute>
+<Attribute>
+<AttriId>384</AttriId>
+<AttriName>SYS_DatabaseModifier</AttriName>
+<Description>SYS_Database Modifier</Description></Attribute>
+<Attribute>
+<AttriId>385</AttriId>
+<AttriName>SYS_DatabaseModifyTime</AttriName>
+<Description>SYS_Database Modify Time</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>48</TableId>
+<TableName>SYS_DATABASE</TableName>
+<Description>SYS_Database</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>52</TableId>
+<TableName>BAS_TENANT</TableName>
+<Description>BAS_Tenant</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>365</AttriId>
+<AttriName>DatabaseID</AttriName>
+<Description>Database ID</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

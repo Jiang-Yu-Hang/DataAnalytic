@@ -1,0 +1,4 @@
+bc_dt_elem_i([ 0,23,0 ],'Xt_definecodeid',allownulls,no).
+bc_dt_elem_i([ 0,23,0 ],'Xt_defindcodetypeid',allownulls,no).
+bc_dt_elem_i([ 0,23,0 ],'Xt_defindcodetypename',readonly,yes).
+ 

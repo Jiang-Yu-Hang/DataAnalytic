@@ -1,0 +1,3 @@
+bc_dt_elem_i([ 0,52,0 ],'Sys_rolepermissionroleid',allownulls,no).
+bc_dt_elem_i([ 0,52,0 ],'Sys_rolepermissionpermissioncode',allownulls,no).
+ 

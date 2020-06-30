@@ -1,0 +1,248 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>49</ObjId>
+<ObjName>SYS_User_BC</ObjName>
+<ObjDesc>SYS_User</ObjDesc>
+<ObjPgmName>SYS_User_BC</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0134</MsgCode>
+<Message>
+<Token>Poor performance may be noticed</Token>
+<Token></Token>
+<Token> as </Token>
+<Token>Duplicate</Token>
+<Token> index </Token>
+<Token>ISYS_TENANTUSER</Token>
+<Token> is not defined in Data view </Token>
+<Token>SYS_TenantUser</Token>
+<Token>.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0134</MsgCode>
+<Message>
+<Token>Poor performance may be noticed</Token>
+<Token></Token>
+<Token> as </Token>
+<Token>Duplicate</Token>
+<Token> index </Token>
+<Token>ISYS_INSTITUTEUSER</Token>
+<Token> is not defined in Data view </Token>
+<Token>SYS_InstituteUser</Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>50</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>50</TableId>
+<TableName>SYS_USER</TableName>
+<Description>SYS_User</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>50</TableId>
+<TableName>SYS_USER</TableName>
+<Description>SYS_User</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>359</AttriId>
+<AttriName>UserID</AttriName>
+<Description>User ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>50</TableId>
+<TableName>SYS_USER</TableName>
+<Description>SYS_User</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>359</AttriId>
+<AttriName>UserID</AttriName>
+<Description>User ID</Description></Attribute>
+<Attribute>
+<AttriId>416</AttriId>
+<AttriName>DisplayName</AttriName>
+<Description>Display Name</Description></Attribute>
+<Attribute>
+<AttriId>417</AttriId>
+<AttriName>UserType</AttriName>
+<Description>User Type</Description></Attribute>
+<Attribute>
+<AttriId>364</AttriId>
+<AttriName>Account</AttriName>
+<Description>Account</Description></Attribute>
+<Attribute>
+<AttriId>418</AttriId>
+<AttriName>PasswordHash</AttriName>
+<Description>Password Hash</Description></Attribute>
+<Attribute>
+<AttriId>419</AttriId>
+<AttriName>LoginIP</AttriName>
+<Description>Login IP</Description></Attribute>
+<Attribute>
+<AttriId>420</AttriId>
+<AttriName>LoginTime</AttriName>
+<Description>Login Time</Description></Attribute>
+<Attribute>
+<AttriId>421</AttriId>
+<AttriName>SYS_UserCreator</AttriName>
+<Description>SYS_User Creator</Description></Attribute>
+<Attribute>
+<AttriId>422</AttriId>
+<AttriName>SYS_UserCreateTime</AttriName>
+<Description>SYS_User Create Time</Description></Attribute>
+<Attribute>
+<AttriId>423</AttriId>
+<AttriName>SYS_UserModifier</AttriName>
+<Description>SYS_User Modifier</Description></Attribute>
+<Attribute>
+<AttriId>424</AttriId>
+<AttriName>SYS_UserModifyTime</AttriName>
+<Description>SYS_User Modify Time</Description></Attribute>
+<Attribute>
+<AttriId>425</AttriId>
+<AttriName>SYS_UserIsDeleted</AttriName>
+<Description>SYS_User Is Deleted</Description></Attribute>
+<Attribute>
+<AttriId>426</AttriId>
+<AttriName>Email</AttriName>
+<Description>Email</Description></Attribute>
+<Attribute>
+<AttriId>427</AttriId>
+<AttriName>SYS_UserDescription</AttriName>
+<Description>SYS_User Description</Description></Attribute>
+<Attribute>
+<AttriId>428</AttriId>
+<AttriName>RocheAccount</AttriName>
+<Description>Roche Account</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>50</TableId>
+<TableName>SYS_USER</TableName>
+<Description>SYS_User</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>416</AttriId>
+<AttriName>DisplayName</AttriName>
+<Description>Display Name</Description></Attribute>
+<Attribute>
+<AttriId>417</AttriId>
+<AttriName>UserType</AttriName>
+<Description>User Type</Description></Attribute>
+<Attribute>
+<AttriId>364</AttriId>
+<AttriName>Account</AttriName>
+<Description>Account</Description></Attribute>
+<Attribute>
+<AttriId>418</AttriId>
+<AttriName>PasswordHash</AttriName>
+<Description>Password Hash</Description></Attribute>
+<Attribute>
+<AttriId>419</AttriId>
+<AttriName>LoginIP</AttriName>
+<Description>Login IP</Description></Attribute>
+<Attribute>
+<AttriId>420</AttriId>
+<AttriName>LoginTime</AttriName>
+<Description>Login Time</Description></Attribute>
+<Attribute>
+<AttriId>421</AttriId>
+<AttriName>SYS_UserCreator</AttriName>
+<Description>SYS_User Creator</Description></Attribute>
+<Attribute>
+<AttriId>422</AttriId>
+<AttriName>SYS_UserCreateTime</AttriName>
+<Description>SYS_User Create Time</Description></Attribute>
+<Attribute>
+<AttriId>423</AttriId>
+<AttriName>SYS_UserModifier</AttriName>
+<Description>SYS_User Modifier</Description></Attribute>
+<Attribute>
+<AttriId>424</AttriId>
+<AttriName>SYS_UserModifyTime</AttriName>
+<Description>SYS_User Modify Time</Description></Attribute>
+<Attribute>
+<AttriId>425</AttriId>
+<AttriName>SYS_UserIsDeleted</AttriName>
+<Description>SYS_User Is Deleted</Description></Attribute>
+<Attribute>
+<AttriId>426</AttriId>
+<AttriName>Email</AttriName>
+<Description>Email</Description></Attribute>
+<Attribute>
+<AttriId>427</AttriId>
+<AttriName>SYS_UserDescription</AttriName>
+<Description>SYS_User Description</Description></Attribute>
+<Attribute>
+<AttriId>428</AttriId>
+<AttriName>RocheAccount</AttriName>
+<Description>Roche Account</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>50</TableId>
+<TableName>SYS_USER</TableName>
+<Description>SYS_User</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>49</TableId>
+<TableName>SYS_INSTITUTEUSER</TableName>
+<Description>SYS_Institute User</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>359</AttriId>
+<AttriName>UserID</AttriName>
+<Description>User ID</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>45</TableId>
+<TableName>SYS_TENANTUSER</TableName>
+<Description>SYS_Tenant User</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>359</AttriId>
+<AttriName>UserID</AttriName>
+<Description>User ID</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>43</TableId>
+<TableName>SYS_USERROLE</TableName>
+<Description>SYS_User Role</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>359</AttriId>
+<AttriName>UserID</AttriName>
+<Description>User ID</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

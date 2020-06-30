@@ -1,0 +1,697 @@
+spec_i([ web,244,'Data Mgmt Portal -RAAP','BR_MedicalShowUpoloadImage',0,chs,'16_0_0-127771' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Ibr_medicalimagingid','Vfckeditor' ] ]).
+ 
+lac_i(2,[ [ 'Vfckeditor' ] ]).
+ 
+ 
+ 
+cls_i([ 0,0 ],[ 0,1 ]).
+ 
+pos_i('Vfckeditor',[ 0,0,0 ]).
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS',���)).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',���)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','BR_MedicalShowUpoloadImage')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('URLAccess','No')).
+rule_i(0,prop('WEB_COMP','Yes')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('Folder',o(8,'MYWeb'))).
+rule_i(0,prop('ObjDesc','Data Mgmt Portal -RAAP')).
+rule_i(0,prop('ObjName','BR_MedicalShowUpoloadImage')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Ibr_medicalimagingid' ],[])).
+rule_i(0,parmio([ [ 'Ibr_medicalimagingid',in ] ])).
+rule_i(0,rule([ a(22,[ '''save''','''save''','' ]) ],[],[],[])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',12 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',11 ]).
+attri_i('Tcheckflag',[ tCheckFlag,boolean,4,0,'',0,'t Check Flag','',10 ]).
+attri_i('Websession',[ 'WebSession',o(websession),4,0,'',0,'Web Session','',9 ]).
+attri_i('Tencountertype',[ tEncounterType,svchar,100,0,'',0,'t Encounter Type','',8 ]).
+attri_i('Br_medicalimaging',[ 'BR_MedicalImaging',o('BR_MedicalImaging'),0,0,'',0,'BR_Medical Imaging','',7 ]).
+attri_i('Ibr_medicalimagingid',[ iBR_MedicalImagingID,int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,影像学主键,'',6 ]).
+attri_i('Vfckeditor',[ vFckEditor,vchar,2097152,0,'',0,'v Fck Editor','',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(27,[ 'GeneXus\Html' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,14).
+b_group_i(2,3,lit,0,15,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Refresh',3,1,7) ]).
+b_line_i(3,2,2,cmd,1,[ t('',107,1,0),t('Tencountertype',23,1,0),t(=,10,1,0),t('trim(',1,1,0),t([ t('Websession',23,1,0),t('get(',1,1,0) ],31,1,0),t('''Br_EncounterType''',3,1,0),t(')',4,1,0),t(')',4,1,0) ]).
+b_line_i(6,2,2,cmd,1,[ t('',109,1,0),t('Tencountertype',23,1,5),t(=,10,1,20),t('''check''',3,6,21) ]).
+b_line_i(7,2,2,cmd,1,[ t('',107,1,0),t([ t('Button1',3,1,0),t('Visible',3,1,0) ],29,1,0),t(=,10,1,0),t('FALSE',41,1,0) ]).
+b_line_i(8,2,2,cmd,1,[ t('',111,1,0) ]).
+b_line_i(10,2,2,cmd,1,[ t('',107,1,0),t([ t('Br_medicalimaging',23,10,2),t('load(',1,10,21) ],31,10,2),t('Ibr_medicalimagingid',23,1,27),t(')',4,1,48) ]).
+b_line_i(11,2,2,cmd,1,[ t('',107,1,0),t('Vfckeditor',23,1,0),t(=,10,1,0),t([ t('Br_medicalimaging',23,1,0),t('Br_medicalimaging_imagehtml',3,1,0) ],29,1,0) ]).
+b_line_i(12,2,2,cmd,1,[ t('',147,1,0) ]).
+b_line_i(14,2,2,cmd,1,[ t('',146,1,0),t('''save''',3,14,7) ]).
+b_line_i(16,2,3,cmd,1,[ t('',104,1,0),t(o(1,'ZUtil_CheckSession'),28,1,2),t('Tcheckflag',23,1,27) ]).
+b_line_i(17,2,3,cmd,1,[ t('',109,1,0),t('Tcheckflag',23,1,5),t(=,10,1,16),t('FALSE',41,1,17) ]).
+b_line_i(18,2,3,cmd,1,[ t('',107,1,0),t([ t('Br_medicalimaging',23,1,0),t('Br_medicalimaging_imagehtml',3,1,0) ],29,1,0),t(=,10,1,0),t('Vfckeditor',23,1,0) ]).
+b_line_i(19,2,3,cmd,1,[ t('',107,1,0),t([ t('Br_medicalimaging',23,19,3),t('save(',1,19,22) ],31,19,22),t(')',4,1,28) ]).
+b_line_i(20,2,3,cmd,1,[ t('',132,1,0) ]).
+b_line_i(21,2,3,cmd,1,[ t('',141,1,0),t('''保存成功''',3,21,7),t(')',4,1,13) ]).
+b_line_i(22,2,3,cmd,1,[ t('',111,1,0) ]).
+b_line_i(24,2,3,cmd,1,[ t('',147,1,0) ]).
+b_line_i(1000,2,3,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,3,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,3,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+ 
+html_sub_i(2,0,html_i(0,html('<tbody>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(4,5,html_i(0,comp(errview))).
+html_sub_i(4,6,html_i(1,usercontrol(6))).
+html_sub_i(2,7,html_i(2,row(7))).
+html_sub_i(7,8,html_i(0,cell(8))).
+html_sub_i(8,9,html_i(0,button('''save'''))).
+html_sub_i(2,0,html_i(3,html('</tbody>'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(5,'Backcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Id','Table1',v,[ str ]).
+html_comp_i(2,'Class','Table',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Header','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Backgroundgx','',d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Border','0',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Cellpadding','0',v,[ str ]).
+html_comp_i(2,'Cellspacing','0',v,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Controlname','Errviewer1',v,[ str ]).
+html_comp_i(5,'Class','ErrorViewer',d,[ str ]).
+html_comp_i(5,'Displaymode',1,d,[ num ]).
+html_comp_i(5,'Forecolor',rgb(243,156,18),v,[ color ]).
+html_comp_i(5,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(5,'Fill',-1,d,[ bool ]).
+html_comp_i(6,'Usercontroltype','FCKEditor',d,[ str ]).
+html_comp_i(6,'Constructorname','CKEditorControl',d,[ str ]).
+html_comp_i(6,'Showmethodname',show,d,[ str ]).
+html_comp_i(6,'Width','800px',v,[ str ]).
+html_comp_i(6,'Height','400px',v,[ str ]).
+html_comp_i(6,'Attid',[ t('Vfckeditor',23) ],v,[ params ]).
+html_comp_i(6,'Skin',silver,d,[ str ]).
+html_comp_i(6,'Toolbar','Default',d,[ str ]).
+html_comp_i(6,'Customtoolbar','',d,[ str ]).
+html_comp_i(6,'Customconfiguration','',d,[ str ]).
+html_comp_i(6,'Toolbarcancollapse',-1,d,[ bool ]).
+html_comp_i(6,'Toolbarexpanded',-1,d,[ bool ]).
+html_comp_i(6,'Color',rgb(211,211,211),d,[ color ]).
+html_comp_i(6,'Setattid','SetAttribute',d,[ str ]).
+html_comp_i(6,'Getattid','GetAttribute',d,[ str ]).
+html_comp_i(6,'Controlname','&Vfckeditor',d,[ str ]).
+html_comp_i(6,'Captionvalue','',d,[ str ]).
+html_comp_i(6,'Captionclass','',d,[ str ]).
+html_comp_i(6,'Captionposition','',d,[ str ]).
+html_comp_i(6,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(6,'Visible',-1,d,[ bool ]).
+html_comp_i(6,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(6,'Jssupportfiles',[ [ t('''CKEditor\ckeditor\ckeditor.js''',3) ],[ t('''CKEditor\CKEditorRender.js''',3) ] ],d,[ params ]).
+html_comp_i(6,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(6,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(8,'Align',left,v,[ str ]).
+html_comp_i(8,'Height',measure(40,px),v,[ measure ]).
+html_comp_i(9,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(9,'Controlname','Button1',v,[ str ]).
+html_comp_i(9,'Class','ButtonMaterial',v,[ str ]).
+html_comp_i(9,'Event','''save''',v,[ str ]).
+html_comp_i(9,'Caption',保存,d,[ str ]).
+html_comp_i(9,'Title',保存,d,[ str ]).
+html_comp_i(9,'Font',font('Microsoft Sans Serif',9,[]),d,[ font ]).
+html_comp_i(9,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(9,'Backcolor',rgb(240,240,240),d,[ color ]).
+html_comp_i(9,'Border','1',d,[ str ]).
+html_comp_i(9,'Bordercolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(9,'Buttonborderstyle',standard,d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(5,1,comp(errview),[ ctlname('Errviewer1'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(6,1,usercontrol(6),[ ctlname('&Vfckeditor'),ctrltype(fckeditor),el([ t('Vfckeditor',23) ]),containers([]) ]).
+lit_i(9,1,button('''save'''),[ ctlname('Button1'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(2,1,table(2),[ ctlname('Table1') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+var_prop_i(51,'Vfckeditor',idBasedOn,27,v).
+var_prop_i(51,'Ibr_medicalimagingid',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 0,29,0 ],name,'BR_MedicalImaging').
+struct_dt_i([ 0,29,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,29,0 ],significantName,'BR_MedicalImaging').
+struct_dt_i([ 0,29,0 ],'ObjName','BR_MedicalImaging').
+struct_dt_i([ 0,29,0 ],'ObjDesc','Data Mgmt Portal - RAAP').
+struct_dt_i([ 0,29,0 ],'ExternalName','BR_MedicalImaging').
+struct_dt_i([ 0,29,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,29,0 ],key,[ 225 ]).
+struct_dt_i([ 0,29,0 ],lvl,30).
+struct_dt_i([ 26,8,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,8,0 ],'ObjName','Messages').
+struct_dt_i([ 26,8,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,8,0 ],collection,'True').
+struct_dt_i([ 26,8,0 ],datatype,[ 26,8,25 ]).
+struct_dt_i([ 26,8,0 ],isexternal,'True').
+struct_dt_i([ 26,8,25 ],name,'Message').
+struct_dt_i([ 26,8,25 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 0,29,0 ],fullname,'BR_MedicalImaging').
+struct_dt_i([ 26,8,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,25 ],fullname,'GeneXus\Common\Messages.Message').
+struct_dt_i([ 26,8,0 ],modified,yes).
+struct_dt_i([ 26,8,25 ],modified,yes).
+ 
+struct_dt_elem_i([ 0,29,0 ],1,name,'Br_medicalimagingid').
+struct_dt_elem_i([ 0,29,0 ],1,camelname,'BR_MedicalImagingID').
+struct_dt_elem_i([ 0,29,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,29,0 ],1,length,18).
+struct_dt_elem_i([ 0,29,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],1,sign,0).
+struct_dt_elem_i([ 0,29,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,29,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,29,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],1,attributeid,'225').
+struct_dt_elem_i([ 0,29,0 ],1,'ExternalName','BR_MedicalImagingID').
+struct_dt_elem_i([ 0,29,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],2,name,'Br_encounterid').
+struct_dt_elem_i([ 0,29,0 ],2,camelname,'BR_EncounterID').
+struct_dt_elem_i([ 0,29,0 ],2,basedon,69).
+struct_dt_elem_i([ 0,29,0 ],2,length,18).
+struct_dt_elem_i([ 0,29,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],2,sign,0).
+struct_dt_elem_i([ 0,29,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,29,0 ],2,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,29,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],2,attributeid,'19').
+struct_dt_elem_i([ 0,29,0 ],2,'ExternalName','BR_EncounterID').
+struct_dt_elem_i([ 0,29,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],3,name,'Br_information_patientno').
+struct_dt_elem_i([ 0,29,0 ],3,camelname,'BR_Information_PatientNo').
+struct_dt_elem_i([ 0,29,0 ],3,length,2000).
+struct_dt_elem_i([ 0,29,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],3,type,[ 13,2000,0 ]).
+struct_dt_elem_i([ 0,29,0 ],3,pic,'').
+struct_dt_elem_i([ 0,29,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],3,attributeid,'36').
+struct_dt_elem_i([ 0,29,0 ],3,'ExternalName','BR_Information_PatientNo').
+struct_dt_elem_i([ 0,29,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],4,name,'Br_medicalimaging_id').
+struct_dt_elem_i([ 0,29,0 ],4,camelname,'BR_MedicalImaging_ID').
+struct_dt_elem_i([ 0,29,0 ],4,length,10).
+struct_dt_elem_i([ 0,29,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],4,sign,0).
+struct_dt_elem_i([ 0,29,0 ],4,type,[ 4,10,0 ]).
+struct_dt_elem_i([ 0,29,0 ],4,pic,'ZZZZZZZZZZ').
+struct_dt_elem_i([ 0,29,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],4,attributeid,'227').
+struct_dt_elem_i([ 0,29,0 ],4,'ExternalName','BR_MedicalImaging_ID').
+struct_dt_elem_i([ 0,29,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],5,name,'Br_medicalimaging_no').
+struct_dt_elem_i([ 0,29,0 ],5,camelname,'BR_MedicalImaging_No').
+struct_dt_elem_i([ 0,29,0 ],5,length,18).
+struct_dt_elem_i([ 0,29,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],5,sign,0).
+struct_dt_elem_i([ 0,29,0 ],5,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,29,0 ],5,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,29,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],5,attributeid,'518').
+struct_dt_elem_i([ 0,29,0 ],5,'ExternalName','BR_MedicalImaging_No').
+struct_dt_elem_i([ 0,29,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],6,name,'Br_medicalimaging_imagename').
+struct_dt_elem_i([ 0,29,0 ],6,camelname,'BR_MedicalImaging_ImageName').
+struct_dt_elem_i([ 0,29,0 ],6,length,100).
+struct_dt_elem_i([ 0,29,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],6,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,29,0 ],6,pic,'').
+struct_dt_elem_i([ 0,29,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],6,attributeid,'228').
+struct_dt_elem_i([ 0,29,0 ],6,'ExternalName','BR_MedicalImaging_ImageName').
+struct_dt_elem_i([ 0,29,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],7,name,'Br_medicalimaging_imagename_code').
+struct_dt_elem_i([ 0,29,0 ],7,camelname,'BR_MedicalImaging_ImageName_Code').
+struct_dt_elem_i([ 0,29,0 ],7,length,40).
+struct_dt_elem_i([ 0,29,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],7,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,29,0 ],7,pic,'').
+struct_dt_elem_i([ 0,29,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],7,attributeid,'484').
+struct_dt_elem_i([ 0,29,0 ],7,'ExternalName','BR_MedicalImaging_ImageName_Code').
+struct_dt_elem_i([ 0,29,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],8,name,'Br_medicalimaging_imagedate').
+struct_dt_elem_i([ 0,29,0 ],8,camelname,'BR_MedicalImaging_ImageDate').
+struct_dt_elem_i([ 0,29,0 ],8,basedon,64).
+struct_dt_elem_i([ 0,29,0 ],8,length,8).
+struct_dt_elem_i([ 0,29,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],8,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,29,0 ],8,pic,'99/99/9999').
+struct_dt_elem_i([ 0,29,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],8,attributeid,'229').
+struct_dt_elem_i([ 0,29,0 ],8,'ExternalName','BR_MedicalImaging_ImageDate').
+struct_dt_elem_i([ 0,29,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],9,name,'Br_medicalimaging_imagehosp').
+struct_dt_elem_i([ 0,29,0 ],9,camelname,'BR_MedicalImaging_ImageHosp').
+struct_dt_elem_i([ 0,29,0 ],9,length,40).
+struct_dt_elem_i([ 0,29,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],9,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,29,0 ],9,pic,'').
+struct_dt_elem_i([ 0,29,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],9,attributeid,'230').
+struct_dt_elem_i([ 0,29,0 ],9,'ExternalName','BR_MedicalImaging_ImageHosp').
+struct_dt_elem_i([ 0,29,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],10,name,'Br_medicalimaging_imagehosp_code').
+struct_dt_elem_i([ 0,29,0 ],10,camelname,'BR_MedicalImaging_ImageHosp_Code').
+struct_dt_elem_i([ 0,29,0 ],10,length,40).
+struct_dt_elem_i([ 0,29,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],10,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,29,0 ],10,pic,'').
+struct_dt_elem_i([ 0,29,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],10,attributeid,'485').
+struct_dt_elem_i([ 0,29,0 ],10,'ExternalName','BR_MedicalImaging_ImageHosp_Code').
+struct_dt_elem_i([ 0,29,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],11,name,'Br_medicalimaging_imageage').
+struct_dt_elem_i([ 0,29,0 ],11,camelname,'BR_MedicalImaging_ImageAge').
+struct_dt_elem_i([ 0,29,0 ],11,length,3).
+struct_dt_elem_i([ 0,29,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],11,sign,0).
+struct_dt_elem_i([ 0,29,0 ],11,type,[ 4,3,0 ]).
+struct_dt_elem_i([ 0,29,0 ],11,pic,'ZZZ').
+struct_dt_elem_i([ 0,29,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],11,attributeid,'231').
+struct_dt_elem_i([ 0,29,0 ],11,'ExternalName','BR_MedicalImaging_ImageAge').
+struct_dt_elem_i([ 0,29,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],12,name,'Br_medicalimaging_imageloc').
+struct_dt_elem_i([ 0,29,0 ],12,camelname,'BR_MedicalImaging_ImageLoc').
+struct_dt_elem_i([ 0,29,0 ],12,length,5000).
+struct_dt_elem_i([ 0,29,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],12,type,[ 13,5000,0 ]).
+struct_dt_elem_i([ 0,29,0 ],12,pic,'').
+struct_dt_elem_i([ 0,29,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],12,attributeid,'232').
+struct_dt_elem_i([ 0,29,0 ],12,'ExternalName','BR_MedicalImaging_ImageLoc').
+struct_dt_elem_i([ 0,29,0 ],12,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],13,name,'Br_medicalimaging_imageloc_code').
+struct_dt_elem_i([ 0,29,0 ],13,camelname,'BR_MedicalImaging_ImageLoc_Code').
+struct_dt_elem_i([ 0,29,0 ],13,length,40).
+struct_dt_elem_i([ 0,29,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],13,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,29,0 ],13,pic,'').
+struct_dt_elem_i([ 0,29,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],13,attributeid,'486').
+struct_dt_elem_i([ 0,29,0 ],13,'ExternalName','BR_MedicalImaging_ImageLoc_Code').
+struct_dt_elem_i([ 0,29,0 ],13,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],14,name,'Br_medicalimaging_imageorgan').
+struct_dt_elem_i([ 0,29,0 ],14,camelname,'BR_MedicalImaging_ImageOrgan').
+struct_dt_elem_i([ 0,29,0 ],14,length,5000).
+struct_dt_elem_i([ 0,29,0 ],14,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],14,type,[ 13,5000,0 ]).
+struct_dt_elem_i([ 0,29,0 ],14,pic,'').
+struct_dt_elem_i([ 0,29,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],14,attributeid,'233').
+struct_dt_elem_i([ 0,29,0 ],14,'ExternalName','BR_MedicalImaging_ImageOrgan').
+struct_dt_elem_i([ 0,29,0 ],14,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],15,name,'Br_medicalimaging_preimagediag').
+struct_dt_elem_i([ 0,29,0 ],15,camelname,'BR_MedicalImaging_PreImageDiag').
+struct_dt_elem_i([ 0,29,0 ],15,length,4000).
+struct_dt_elem_i([ 0,29,0 ],15,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],15,type,[ 13,4000,0 ]).
+struct_dt_elem_i([ 0,29,0 ],15,pic,'').
+struct_dt_elem_i([ 0,29,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],15,attributeid,'234').
+struct_dt_elem_i([ 0,29,0 ],15,'ExternalName','BR_MedicalImaging_PreImageDiag').
+struct_dt_elem_i([ 0,29,0 ],15,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],16,name,'Br_medicalimaging_imagedes').
+struct_dt_elem_i([ 0,29,0 ],16,camelname,'BR_MedicalImaging_ImageDes').
+struct_dt_elem_i([ 0,29,0 ],16,length,9999).
+struct_dt_elem_i([ 0,29,0 ],16,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],16,type,[ 13,9999,0 ]).
+struct_dt_elem_i([ 0,29,0 ],16,pic,'').
+struct_dt_elem_i([ 0,29,0 ],16,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],16,attributeid,'235').
+struct_dt_elem_i([ 0,29,0 ],16,'ExternalName','BR_MedicalImaging_ImageDes').
+struct_dt_elem_i([ 0,29,0 ],16,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],17,name,'Br_medicalimaging_tumorsize').
+struct_dt_elem_i([ 0,29,0 ],17,camelname,'BR_MedicalImaging_TumorSize').
+struct_dt_elem_i([ 0,29,0 ],17,length,40).
+struct_dt_elem_i([ 0,29,0 ],17,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],17,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,29,0 ],17,pic,'').
+struct_dt_elem_i([ 0,29,0 ],17,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],17,attributeid,'236').
+struct_dt_elem_i([ 0,29,0 ],17,'ExternalName','BR_MedicalImaging_TumorSize').
+struct_dt_elem_i([ 0,29,0 ],17,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],18,name,'Br_medicalimaging_imagehtml').
+struct_dt_elem_i([ 0,29,0 ],18,camelname,'BR_MedicalImaging_ImageHtml').
+struct_dt_elem_i([ 0,29,0 ],18,basedon,27).
+struct_dt_elem_i([ 0,29,0 ],18,length,2097152).
+struct_dt_elem_i([ 0,29,0 ],18,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],18,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 0,29,0 ],18,pic,'').
+struct_dt_elem_i([ 0,29,0 ],18,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],18,attributeid,'334').
+struct_dt_elem_i([ 0,29,0 ],18,'ExternalName','BR_MedicalImaging_ImageHtml').
+struct_dt_elem_i([ 0,29,0 ],18,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],19,name,'Br_medicalimaging_metastasesdx').
+struct_dt_elem_i([ 0,29,0 ],19,camelname,'BR_MedicalImaging_MetastasesDX').
+struct_dt_elem_i([ 0,29,0 ],19,basedon,93).
+struct_dt_elem_i([ 0,29,0 ],19,length,40).
+struct_dt_elem_i([ 0,29,0 ],19,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],19,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,29,0 ],19,pic,'').
+struct_dt_elem_i([ 0,29,0 ],19,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],19,attributeid,'514').
+struct_dt_elem_i([ 0,29,0 ],19,'ExternalName','BR_MedicalImaging_MetastasesDX').
+struct_dt_elem_i([ 0,29,0 ],19,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],20,name,'Br_medicalimaging_metaloc').
+struct_dt_elem_i([ 0,29,0 ],20,camelname,'BR_MedicalImaging_MetaLoc').
+struct_dt_elem_i([ 0,29,0 ],20,length,100).
+struct_dt_elem_i([ 0,29,0 ],20,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],20,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,29,0 ],20,pic,'').
+struct_dt_elem_i([ 0,29,0 ],20,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],20,attributeid,'515').
+struct_dt_elem_i([ 0,29,0 ],20,'ExternalName','BR_MedicalImaging_MetaLoc').
+struct_dt_elem_i([ 0,29,0 ],20,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,29,0 ],21,name,'Br_medicalimaging_metadate').
+struct_dt_elem_i([ 0,29,0 ],21,camelname,'BR_MedicalImaging_MetaDate').
+struct_dt_elem_i([ 0,29,0 ],21,basedon,64).
+struct_dt_elem_i([ 0,29,0 ],21,length,8).
+struct_dt_elem_i([ 0,29,0 ],21,decimals,0).
+struct_dt_elem_i([ 0,29,0 ],21,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,29,0 ],21,pic,'99/99/9999').
+struct_dt_elem_i([ 0,29,0 ],21,collection,'False').
+struct_dt_elem_i([ 0,29,0 ],21,attributeid,'516').
+struct_dt_elem_i([ 0,29,0 ],21,'ExternalName','BR_MedicalImaging_MetaDate').
+struct_dt_elem_i([ 0,29,0 ],21,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,name,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,length,128).
+struct_dt_elem_i([ 26,8,25 ],1,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,8,25 ],1,pic,'').
+struct_dt_elem_i([ 26,8,25 ],1,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],1,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],1,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],2,name,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,basedon,30).
+struct_dt_elem_i([ 26,8,25 ],2,length,2).
+struct_dt_elem_i([ 26,8,25 ],2,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],2,sign,0).
+struct_dt_elem_i([ 26,8,25 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,8,25 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,8,25 ],2,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],2,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],2,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],3,name,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,length,256).
+struct_dt_elem_i([ 26,8,25 ],3,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,8,25 ],3,pic,'').
+struct_dt_elem_i([ 26,8,25 ],3,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],3,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],3,'JsonName','').
+struct_dt_elem_i([ 0,29,0 ],8,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,29,0 ],19,pic,'99/99/9999').
+struct_dt_elem_i([ 0,29,0 ],21,pic,'ZZZZZZZZZZZZZZZZZZ').
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'Refresh',1,12,[ [ 'Ibr_medicalimagingid' ],[ [ t('Button1',3),t('Visible',3) ],'Br_medicalimaging','Vfckeditor' ] ]).
+sub_info_i(146,'''save''',14,24,[ [ 'Vfckeditor','Br_medicalimaging' ],[ 'Br_medicalimaging' ] ]).
+ 
+pgm_parm_i(proc,142,'ZUTIL_CHECKSESSION',[ [ boolean,4,0,0 ] ],[ [ tCheckFlag,out,[] ] ]).
+ 
+pgm_callprotocol_i(web,244,'BR_MEDICALSHOWUPOLOADIMAGE','INTERNAL').
+pgm_callprotocol_i(proc,142,'ZUTIL_CHECKSESSION','INTERNAL').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

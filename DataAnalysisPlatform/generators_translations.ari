@@ -1,0 +1,12 @@
+lng_i(1,[ 'SimplifiedChinese','Simplified Chinese',chs ]).
+ 
+lng_prop_i(1,'ISOLangCode','ZH',v).
+lng_prop_i(1,'ISOCountryCode','CN',v).
+lng_prop_i(1,'Codepage','936',v).
+lng_prop_i(1,'LanguageLocalization','',d).
+lng_prop_i(1,'LangDateFormat','ANSI',v).
+lng_prop_i(1,'LangTimeFormat','24',v).
+lng_prop_i(1,'LangDecimalPoint','.',v).
+lng_prop_i(1,'FullyQualifiedName','SimplifiedChinese',d).
+ 
+ 

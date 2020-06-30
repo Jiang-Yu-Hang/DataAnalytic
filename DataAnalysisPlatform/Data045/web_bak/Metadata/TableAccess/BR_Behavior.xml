@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4b58d818-b2b7-4ad4-8e3d-f81920acbcd2">
+  <Table name="BR_Behavior" />
+  <Table name="BR_Encounter" />
+  <Table name="BR_Information" />
+  <Table name="XT_DefineCode" />
+</Dependencies>

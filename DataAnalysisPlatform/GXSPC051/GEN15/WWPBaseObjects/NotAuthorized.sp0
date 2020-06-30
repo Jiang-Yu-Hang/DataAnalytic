@@ -1,0 +1,841 @@
+spec_i([ web,16,'Data Mangement Platform','WWPBaseObjects\NotAuthorized',0,chs,'16_0_0-127771' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Gxobject' ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+lits_i('Sorry,you are not authorized to see the page.',5,10).
+lits_i('Please contact the platform administrator if you need access to the page.',5,10).
+lits_i(很抱歉，您无权访问该页面,5,10).
+lits_i('如需访问,请联系您所在机构的平台管理员为您开通权限',5,10).
+ 
+cls_i([ 5,10 ],[ 5,82 ]).
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS',���)).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',���)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','WWPBaseObjects.NotAuthorized')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'WWPBaseObjects.WorkWithPlusMasterPageAP'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('Folder',o(8,'WWPBaseObjects\Security'))).
+rule_i(0,prop('ObjDesc','Data Mangement Platform')).
+rule_i(0,prop('ObjName','NotAuthorized')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Gxobject' ],[])).
+rule_i(0,parmio([ [ 'Gxobject',in ] ])).
+rule_i(0,rule([ a(22,[ '''Doback''','''Doback''','' ]) ],[],[],[])).
+rule_i(0,rule([ a(22,[ '''Doindex''','''Doindex''','' ]) ],[],[],[])).
+rule_i(0,rule([ a(22,[ '''Dologout''','''Dologout''','' ]) ],[],[],[])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',12 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',11 ]).
+attri_i('Ttargeturl',[ tTargetUrl,svchar,1000,0,'',0,'t Target Url','',10 ]).
+attri_i('Bcxt_config',[ 'BCXT_Config',o('XT_Config'),0,0,'',0,'BCXT_Config','',9 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,'Security Functionality Keys','',7 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,'Is Authorized','',6 ]).
+attri_i('Gxobject',[ 'GxObject',svchar,256,0,'',0,'Gx Object','',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(33,[ 'GeneXus\ObjectName' ]).
+dom_info_i(90,[ 'WWPSecFunctionalityKey' ]).
+dom_info_i(12,[ 'GeneXus\Url' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,2).
+b_group_i(2,2,lit,0,3,12).
+b_group_i(2,3,lit,0,13,26).
+b_group_i(2,4,lit,0,27,40).
+b_group_i(2,5,lit,0,41,0).
+ 
+b_line_i(2,2,1,cmd,2,[ t('',146,2,0),t('Start',3,2,7) ]).
+b_line_i(10,2,2,cmd,2,[ t('',147,2,0) ]).
+b_line_i(12,2,2,cmd,2,[ t('',146,2,0),t('''Doback''',3,12,7) ]).
+b_line_i(14,2,3,cmd,2,[ t('',107,2,0),t([ t('Bcxt_config',23,14,2),t('load(',1,14,15) ],31,14,2),t('3',3,2,21),t(')',4,2,22) ]).
+b_line_i(15,2,3,cmd,2,[ t('',107,2,0),t('Ttargeturl',23,2,0),t(=,10,2,0),t('trim(',1,2,0),t([ t('Bcxt_config',23,2,0),t('Xt_configvalue2',3,2,0) ],29,2,0),t(')',4,2,0) ]).
+b_line_i(16,2,3,cmd,2,[ t('',171,2,0),t('Ttargeturl',23,2,7) ]).
+b_line_i(24,2,3,cmd,2,[ t('',147,2,0) ]).
+b_line_i(26,2,3,cmd,2,[ t('',146,2,0),t('''Doindex''',3,26,7) ]).
+b_line_i(28,2,4,cmd,2,[ t('',107,2,0),t([ t('Bcxt_config',23,28,2),t('load(',1,28,15) ],31,28,2),t('4',3,2,21),t(')',4,2,22) ]).
+b_line_i(29,2,4,cmd,2,[ t('',107,2,0),t('Ttargeturl',23,2,0),t(=,10,2,0),t('trim(',1,2,0),t([ t('Bcxt_config',23,2,0),t('Xt_configvalue3',3,2,0) ],29,2,0),t(')',4,2,0) ]).
+b_line_i(30,2,4,cmd,2,[ t('',171,2,0),t('Ttargeturl',23,2,7) ]).
+b_line_i(38,2,4,cmd,2,[ t('',147,2,0) ]).
+b_line_i(40,2,4,cmd,2,[ t('',146,2,0),t('''Dologout''',3,40,7) ]).
+b_line_i(42,2,5,cmd,2,[ t('',107,2,0),t([ t('Bcxt_config',23,42,2),t('load(',1,42,15) ],31,42,2),t('4',3,2,21),t(')',4,2,22) ]).
+b_line_i(43,2,5,cmd,2,[ t('',107,2,0),t('Ttargeturl',23,2,0),t(=,10,2,0),t('trim(',1,2,0),t([ t('Bcxt_config',23,2,0),t('Xt_configvalue1',3,2,0) ],29,2,0),t(')',4,2,0) ]).
+b_line_i(44,2,5,cmd,2,[ t('',171,2,0),t('Ttargeturl',23,2,7) ]).
+b_line_i(52,2,5,cmd,2,[ t('',147,2,0) ]).
+b_line_i(1000,2,5,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,5,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,5,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,div(2)).
+ 
+html_sub_i(2,3,html_i(0,div(3))).
+html_sub_i(3,4,html_i(0,div(4))).
+html_sub_i(4,5,html_i(0,div(5))).
+html_sub_i(5,6,html_i(0,div(6))).
+html_sub_i(6,7,html_i(0,div(7))).
+html_sub_i(7,8,html_i(0,div(8))).
+html_sub_i(8,9,html_i(0,div(9))).
+html_sub_i(9,10,html_i(0,div(10))).
+html_sub_i(10,11,html_i(0,div(11))).
+html_sub_i(11,12,html_i(0,div(12))).
+html_sub_i(12,13,html_i(0,div(13))).
+html_sub_i(13,14,html_i(0,div(14))).
+html_sub_i(14,15,html_i(0,t('Sorry,you are not authorized to see the page.',3))).
+html_sub_i(12,16,html_i(1,div(16))).
+html_sub_i(16,17,html_i(0,div(17))).
+html_sub_i(17,18,html_i(0,t('Please contact the platform administrator if you need access to the page.',3))).
+html_sub_i(9,19,html_i(1,div(19))).
+html_sub_i(19,20,html_i(0,div(20))).
+html_sub_i(20,21,html_i(0,div(21))).
+html_sub_i(21,22,html_i(0,div(22))).
+html_sub_i(22,23,html_i(0,div(23))).
+html_sub_i(23,24,html_i(0,t(很抱歉，您无权访问该页面,3))).
+html_sub_i(21,25,html_i(1,div(25))).
+html_sub_i(25,26,html_i(0,div(26))).
+html_sub_i(26,27,html_i(0,t('如需访问,请联系您所在机构的平台管理员为您开通权限',3))).
+html_sub_i(9,28,html_i(2,div(28))).
+html_sub_i(28,29,html_i(0,div(29))).
+html_sub_i(29,30,html_i(0,table(30))).
+html_sub_i(30,31,html_i(0,row(31))).
+html_sub_i(31,32,html_i(0,cell(32))).
+html_sub_i(32,33,html_i(0,button('''Doback'''))).
+html_sub_i(31,34,html_i(1,cell(34))).
+html_sub_i(34,35,html_i(0,button('''Doindex'''))).
+html_sub_i(31,36,html_i(2,cell(36))).
+html_sub_i(36,37,html_i(0,button('''Dologout'''))).
+ 
+html_tags_i(1,'Class','form-horizontal Form').
+html_tags_i(2,'data-gx-base-lib',bootstrapv3).
+html_tags_i(2,'data-abstract-form','').
+ 
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Class','Section',d,[ str ]).
+html_comp_i(2,'Id','',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Semanticcontent',div,d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Valign',top,d,[ str ]).
+html_comp_i(3,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(3,'Class','Table',v,[ str ]).
+html_comp_i(3,'Id','Layoutmaintable',v,[ str ]).
+html_comp_i(3,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Semanticcontent',div,d,[ str ]).
+html_comp_i(3,'Align',left,d,[ str ]).
+html_comp_i(3,'Valign',top,d,[ str ]).
+html_comp_i(4,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(4,'Class',row,v,[ str ]).
+html_comp_i(4,'Id','',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Semanticcontent',div,d,[ str ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Valign',top,d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Class','col-xs-12',v,[ str ]).
+html_comp_i(5,'Id','',d,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Semanticcontent',div,d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Valign',top,d,[ str ]).
+html_comp_i(6,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(6,'Class','',v,[ str ]).
+html_comp_i(6,'Id','Tablemain',v,[ str ]).
+html_comp_i(6,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Semanticcontent',div,d,[ str ]).
+html_comp_i(6,'Align',left,d,[ str ]).
+html_comp_i(6,'Valign',top,d,[ str ]).
+html_comp_i(7,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(7,'Class',row,v,[ str ]).
+html_comp_i(7,'Id','',d,[ str ]).
+html_comp_i(7,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Semanticcontent',div,d,[ str ]).
+html_comp_i(7,'Align',left,d,[ str ]).
+html_comp_i(7,'Valign',top,d,[ str ]).
+html_comp_i(8,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(8,'Class','col-xs-12 CellMarginLogin',v,[ str ]).
+html_comp_i(8,'Id','',d,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Semanticcontent',div,d,[ str ]).
+html_comp_i(8,'Align','Center',v,[ str ]).
+html_comp_i(8,'Valign',top,d,[ str ]).
+html_comp_i(9,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(9,'Class','CellMarginTop',v,[ str ]).
+html_comp_i(9,'Id','Unnamedtable1',v,[ str ]).
+html_comp_i(9,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Semanticcontent',div,d,[ str ]).
+html_comp_i(9,'Align',left,d,[ str ]).
+html_comp_i(9,'Valign',top,d,[ str ]).
+html_comp_i(10,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(10,'Class',row,v,[ str ]).
+html_comp_i(10,'Id','',d,[ str ]).
+html_comp_i(10,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Semanticcontent',div,d,[ str ]).
+html_comp_i(10,'Align',left,d,[ str ]).
+html_comp_i(10,'Valign',top,d,[ str ]).
+html_comp_i(11,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(11,'Class','col-xs-12',v,[ str ]).
+html_comp_i(11,'Id','',d,[ str ]).
+html_comp_i(11,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Semanticcontent',div,d,[ str ]).
+html_comp_i(11,'Align','Center',v,[ str ]).
+html_comp_i(11,'Valign',top,d,[ str ]).
+html_comp_i(12,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(12,'Class','',v,[ str ]).
+html_comp_i(12,'Id','Englisedesc',v,[ str ]).
+html_comp_i(12,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Semanticcontent',div,d,[ str ]).
+html_comp_i(12,'Align',left,d,[ str ]).
+html_comp_i(12,'Valign',top,d,[ str ]).
+html_comp_i(13,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(13,'Class',row,v,[ str ]).
+html_comp_i(13,'Id','',d,[ str ]).
+html_comp_i(13,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Semanticcontent',div,d,[ str ]).
+html_comp_i(13,'Align',left,d,[ str ]).
+html_comp_i(13,'Valign',top,d,[ str ]).
+html_comp_i(14,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(14,'Class','col-xs-12',v,[ str ]).
+html_comp_i(14,'Id','',d,[ str ]).
+html_comp_i(14,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Semanticcontent',div,d,[ str ]).
+html_comp_i(14,'Align','Center',v,[ str ]).
+html_comp_i(14,'Valign',top,d,[ str ]).
+html_comp_i(15,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(15,'Caption','Sorry,you are not authorized to see the page.',d,[ str ]).
+html_comp_i(15,'Id','Unauthorizedaccess',v,[ str ]).
+html_comp_i(15,'Class','TextBlock_NABoldFont',v,[ str ]).
+html_comp_i(15,'Event','',d,[ str ]).
+html_comp_i(15,'Returnonclick',0,d,[ bool ]).
+html_comp_i(15,'Gxformat',0,d,[ num ]).
+html_comp_i(15,'Title','',d,[ str ]).
+html_comp_i(15,'Fill',-1,d,[ bool ]).
+html_comp_i(15,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(15,'Forecolor',rgb(0,4,68),d,[ color ]).
+html_comp_i(15,'Font',font(微软雅黑,30,[]),d,[ font ]).
+html_comp_i(16,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(16,'Class',row,v,[ str ]).
+html_comp_i(16,'Id','',d,[ str ]).
+html_comp_i(16,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Semanticcontent',div,d,[ str ]).
+html_comp_i(16,'Align',left,d,[ str ]).
+html_comp_i(16,'Valign',top,d,[ str ]).
+html_comp_i(17,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(17,'Class','col-xs-12',v,[ str ]).
+html_comp_i(17,'Id','',d,[ str ]).
+html_comp_i(17,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(17,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(17,'Semanticcontent',div,d,[ str ]).
+html_comp_i(17,'Align','Center',v,[ str ]).
+html_comp_i(17,'Valign',top,d,[ str ]).
+html_comp_i(18,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(18,'Caption','Please contact the platform administrator if you need access to the page.',d,[ str ]).
+html_comp_i(18,'Id','Unauthorizedaccess1',v,[ str ]).
+html_comp_i(18,'Class','TextBlock_NAFontDesc',v,[ str ]).
+html_comp_i(18,'Event','',d,[ str ]).
+html_comp_i(18,'Returnonclick',0,d,[ bool ]).
+html_comp_i(18,'Gxformat',0,d,[ num ]).
+html_comp_i(18,'Title','',d,[ str ]).
+html_comp_i(18,'Fill',-1,d,[ bool ]).
+html_comp_i(18,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(18,'Forecolor',rgb(0,4,68),d,[ color ]).
+html_comp_i(18,'Font',font(微软雅黑,24,[]),d,[ font ]).
+html_comp_i(19,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(19,'Class',row,v,[ str ]).
+html_comp_i(19,'Id','',d,[ str ]).
+html_comp_i(19,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Semanticcontent',div,d,[ str ]).
+html_comp_i(19,'Align',left,d,[ str ]).
+html_comp_i(19,'Valign',top,d,[ str ]).
+html_comp_i(20,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(20,'Class','col-xs-12',v,[ str ]).
+html_comp_i(20,'Id','',d,[ str ]).
+html_comp_i(20,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Semanticcontent',div,d,[ str ]).
+html_comp_i(20,'Align','Center',v,[ str ]).
+html_comp_i(20,'Valign',top,d,[ str ]).
+html_comp_i(21,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(21,'Class','Table_ChineseDesc',v,[ str ]).
+html_comp_i(21,'Id','Chinesedesc',v,[ str ]).
+html_comp_i(21,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Semanticcontent',div,d,[ str ]).
+html_comp_i(21,'Align',left,d,[ str ]).
+html_comp_i(21,'Valign',top,d,[ str ]).
+html_comp_i(22,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(22,'Class',row,v,[ str ]).
+html_comp_i(22,'Id','',d,[ str ]).
+html_comp_i(22,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(22,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(22,'Semanticcontent',div,d,[ str ]).
+html_comp_i(22,'Align',left,d,[ str ]).
+html_comp_i(22,'Valign',top,d,[ str ]).
+html_comp_i(23,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(23,'Class','col-xs-12',v,[ str ]).
+html_comp_i(23,'Id','',d,[ str ]).
+html_comp_i(23,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Semanticcontent',div,d,[ str ]).
+html_comp_i(23,'Align','Center',v,[ str ]).
+html_comp_i(23,'Valign',top,d,[ str ]).
+html_comp_i(24,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(24,'Caption',很抱歉，您无权访问该页面,d,[ str ]).
+html_comp_i(24,'Id','Unauthorizedaccess2',v,[ str ]).
+html_comp_i(24,'Class','TextBlock_NABoldFont',v,[ str ]).
+html_comp_i(24,'Event','',d,[ str ]).
+html_comp_i(24,'Returnonclick',0,d,[ bool ]).
+html_comp_i(24,'Gxformat',0,d,[ num ]).
+html_comp_i(24,'Title','',d,[ str ]).
+html_comp_i(24,'Fill',-1,d,[ bool ]).
+html_comp_i(24,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(24,'Forecolor',rgb(0,4,68),d,[ color ]).
+html_comp_i(24,'Font',font(微软雅黑,30,[]),d,[ font ]).
+html_comp_i(25,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(25,'Class',row,v,[ str ]).
+html_comp_i(25,'Id','',d,[ str ]).
+html_comp_i(25,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Semanticcontent',div,d,[ str ]).
+html_comp_i(25,'Align',left,d,[ str ]).
+html_comp_i(25,'Valign',top,d,[ str ]).
+html_comp_i(26,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(26,'Class','col-xs-12',v,[ str ]).
+html_comp_i(26,'Id','',d,[ str ]).
+html_comp_i(26,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Semanticcontent',div,d,[ str ]).
+html_comp_i(26,'Align','Center',v,[ str ]).
+html_comp_i(26,'Valign',top,d,[ str ]).
+html_comp_i(27,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(27,'Caption','如需访问,请联系您所在机构的平台管理员为您开通权限',d,[ str ]).
+html_comp_i(27,'Id','Unauthorizedaccess3',v,[ str ]).
+html_comp_i(27,'Class','TextBlock_NAFontDesc',v,[ str ]).
+html_comp_i(27,'Event','',d,[ str ]).
+html_comp_i(27,'Returnonclick',0,d,[ bool ]).
+html_comp_i(27,'Gxformat',0,d,[ num ]).
+html_comp_i(27,'Title','',d,[ str ]).
+html_comp_i(27,'Fill',-1,d,[ bool ]).
+html_comp_i(27,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(27,'Forecolor',rgb(0,4,68),d,[ color ]).
+html_comp_i(27,'Font',font(微软雅黑,24,[]),d,[ font ]).
+html_comp_i(28,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(28,'Class',row,v,[ str ]).
+html_comp_i(28,'Id','',d,[ str ]).
+html_comp_i(28,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(28,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(28,'Semanticcontent',div,d,[ str ]).
+html_comp_i(28,'Align',left,d,[ str ]).
+html_comp_i(28,'Valign',top,d,[ str ]).
+html_comp_i(29,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(29,'Class','col-xs-12',v,[ str ]).
+html_comp_i(29,'Id','',d,[ str ]).
+html_comp_i(29,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(29,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(29,'Semanticcontent',div,d,[ str ]).
+html_comp_i(29,'Align','Center',v,[ str ]).
+html_comp_i(29,'Valign',top,d,[ str ]).
+html_comp_i(30,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(30,'Id','Buttondesc',v,[ str ]).
+html_comp_i(30,'Class','',v,[ str ]).
+html_comp_i(30,'Title','',d,[ str ]).
+html_comp_i(30,'Header','',d,[ str ]).
+html_comp_i(30,'Align',left,d,[ str ]).
+html_comp_i(30,'Backgroundgx','',d,[ str ]).
+html_comp_i(30,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(30,'Border','0',d,[ str ]).
+html_comp_i(30,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(30,'Cellpadding','1',d,[ str ]).
+html_comp_i(30,'Cellspacing','2',d,[ str ]).
+html_comp_i(30,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(30,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(30,'Rules',none,d,[ str ]).
+html_comp_i(33,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(33,'Controlname','Btnback',v,[ str ]).
+html_comp_i(33,'Class','Button_NotAU',v,[ str ]).
+html_comp_i(33,'Event','''Doback''',v,[ str ]).
+html_comp_i(33,'Caption',返回,d,[ str ]).
+html_comp_i(33,'Title',返回,d,[ str ]).
+html_comp_i(33,'Font',font('Microsoft Sans Serif',15,[]),d,[ font ]).
+html_comp_i(33,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(33,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(33,'Border','2',d,[ str ]).
+html_comp_i(33,'Bordercolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(33,'Buttonborderstyle',standard,d,[ str ]).
+html_comp_i(35,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(35,'Controlname','Btnindex',v,[ str ]).
+html_comp_i(35,'Class','Button_NotAU',v,[ str ]).
+html_comp_i(35,'Event','''Doindex''',v,[ str ]).
+html_comp_i(35,'Caption',首页,d,[ str ]).
+html_comp_i(35,'Title',首页,d,[ str ]).
+html_comp_i(35,'Font',font('Microsoft Sans Serif',15,[]),d,[ font ]).
+html_comp_i(35,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(35,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(35,'Border','2',d,[ str ]).
+html_comp_i(35,'Bordercolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(35,'Buttonborderstyle',standard,d,[ str ]).
+html_comp_i(37,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(37,'Controlname','Btnlogout',v,[ str ]).
+html_comp_i(37,'Class','Button_NotAU',v,[ str ]).
+html_comp_i(37,'Event','''Dologout''',v,[ str ]).
+html_comp_i(37,'Caption',退出登录,d,[ str ]).
+html_comp_i(37,'Title',退出登录,d,[ str ]).
+html_comp_i(37,'Font',font('Microsoft Sans Serif',15,[]),d,[ font ]).
+html_comp_i(37,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(37,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(37,'Border','2',d,[ str ]).
+html_comp_i(37,'Bordercolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(37,'Buttonborderstyle',standard,d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(15,1,t('Sorry,you are not authorized to see the page.',3),[ ctlname('Unauthorizedaccess') ]).
+lit_i(14,1,div(14),[ ctlname('') ]).
+lit_i(13,1,div(13),[ ctlname('') ]).
+lit_i(18,1,t('Please contact the platform administrator if you need access to the page.',3),[ ctlname('Unauthorizedaccess1') ]).
+lit_i(17,1,div(17),[ ctlname('') ]).
+lit_i(16,1,div(16),[ ctlname('') ]).
+lit_i(12,1,div(12),[ ctlname('Englisedesc') ]).
+lit_i(11,1,div(11),[ ctlname('') ]).
+lit_i(10,1,div(10),[ ctlname('') ]).
+lit_i(24,1,t(很抱歉，您无权访问该页面,3),[ ctlname('Unauthorizedaccess2') ]).
+lit_i(23,1,div(23),[ ctlname('') ]).
+lit_i(22,1,div(22),[ ctlname('') ]).
+lit_i(27,1,t('如需访问,请联系您所在机构的平台管理员为您开通权限',3),[ ctlname('Unauthorizedaccess3') ]).
+lit_i(26,1,div(26),[ ctlname('') ]).
+lit_i(25,1,div(25),[ ctlname('') ]).
+lit_i(21,1,div(21),[ ctlname('Chinesedesc') ]).
+lit_i(20,1,div(20),[ ctlname('') ]).
+lit_i(19,1,div(19),[ ctlname('') ]).
+lit_i(33,1,button('''Doback'''),[ ctlname('Btnback'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(35,1,button('''Doindex'''),[ ctlname('Btnindex'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(37,1,button('''Dologout'''),[ ctlname('Btnlogout'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(30,1,table(30),[ ctlname('Buttondesc') ]).
+lit_i(29,1,div(29),[ ctlname('') ]).
+lit_i(28,1,div(28),[ ctlname('') ]).
+lit_i(9,1,div(9),[ ctlname('Unnamedtable1') ]).
+lit_i(8,1,div(8),[ ctlname('') ]).
+lit_i(7,1,div(7),[ ctlname('') ]).
+lit_i(6,1,div(6),[ ctlname('Tablemain') ]).
+lit_i(5,1,div(5),[ ctlname('') ]).
+lit_i(4,1,div(4),[ ctlname('') ]).
+lit_i(3,1,div(3),[ ctlname('Layoutmaintable') ]).
+lit_i(2,1,div(2),[ ctlname('') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+var_prop_i(51,'Gxobject',idBasedOn,33,v).
+var_prop_i(51,'Securityfunctionalitykeys',idBasedOn,90,v).
+var_prop_i(51,'Ttargeturl',idBasedOn,12,v).
+var_prop_i(51,'Ttargeturl','AttRegEx','^((?:[a-zA-Z]+:(//)?)?((?:(?:[a-zA-Z]([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*)(?:\.(?:([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*))*)|(?:(\d{1,3}\.){3}\d{1,3}))(?::\d+)?(?:/([a-zA-Z0-9$\-_@.&+!*"''(),=;: ]|%[0-9a-fA-F]{2})+)*/?(?:[#?](?:[a-zA-Z0-9$\-_@.&+!*"''(),=;: /]|%[0-9a-fA-F]{2})*)?)?\s*$',d).
+var_prop_i(51,'Ttargeturl','AttValidationFailedMsg','GXM_DoesNotMatchRegExp',d).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 0,26,0 ],name,'XT_Config').
+struct_dt_i([ 0,26,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,26,0 ],significantName,'XT_Config').
+struct_dt_i([ 0,26,0 ],'ObjName','XT_Config').
+struct_dt_i([ 0,26,0 ],'ObjDesc',系统配置表).
+struct_dt_i([ 0,26,0 ],'ExternalName','XT_Config').
+struct_dt_i([ 0,26,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,26,0 ],key,[ 195 ]).
+struct_dt_i([ 0,26,0 ],lvl,27).
+struct_dt_i([ 26,8,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,8,0 ],'ObjName','Messages').
+struct_dt_i([ 26,8,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,8,0 ],collection,'True').
+struct_dt_i([ 26,8,0 ],datatype,[ 26,8,25 ]).
+struct_dt_i([ 26,8,0 ],isexternal,'True').
+struct_dt_i([ 26,8,25 ],name,'Message').
+struct_dt_i([ 26,8,25 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 0,26,0 ],fullname,'XT_Config').
+struct_dt_i([ 26,8,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,25 ],fullname,'GeneXus\Common\Messages.Message').
+struct_dt_i([ 26,8,0 ],modified,yes).
+struct_dt_i([ 26,8,25 ],modified,yes).
+ 
+struct_dt_elem_i([ 0,26,0 ],1,name,'Xt_configid').
+struct_dt_elem_i([ 0,26,0 ],1,camelname,'XT_ConfigID').
+struct_dt_elem_i([ 0,26,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,26,0 ],1,length,18).
+struct_dt_elem_i([ 0,26,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,26,0 ],1,sign,0).
+struct_dt_elem_i([ 0,26,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,26,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,26,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,26,0 ],1,attributeid,'195').
+struct_dt_elem_i([ 0,26,0 ],1,'ExternalName','XT_ConfigID').
+struct_dt_elem_i([ 0,26,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,26,0 ],2,name,'Xt_configkey').
+struct_dt_elem_i([ 0,26,0 ],2,camelname,'XT_ConfigKey').
+struct_dt_elem_i([ 0,26,0 ],2,length,40).
+struct_dt_elem_i([ 0,26,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,26,0 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,26,0 ],2,pic,'').
+struct_dt_elem_i([ 0,26,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,26,0 ],2,attributeid,'196').
+struct_dt_elem_i([ 0,26,0 ],2,'ExternalName','XT_ConfigKey').
+struct_dt_elem_i([ 0,26,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,26,0 ],3,name,'Xt_configvalue1').
+struct_dt_elem_i([ 0,26,0 ],3,camelname,'XT_ConfigValue1').
+struct_dt_elem_i([ 0,26,0 ],3,length,200).
+struct_dt_elem_i([ 0,26,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,26,0 ],3,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,26,0 ],3,pic,'').
+struct_dt_elem_i([ 0,26,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,26,0 ],3,attributeid,'197').
+struct_dt_elem_i([ 0,26,0 ],3,'ExternalName','XT_ConfigValue1').
+struct_dt_elem_i([ 0,26,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,26,0 ],4,name,'Xt_configvalue2').
+struct_dt_elem_i([ 0,26,0 ],4,camelname,'XT_ConfigValue2').
+struct_dt_elem_i([ 0,26,0 ],4,length,200).
+struct_dt_elem_i([ 0,26,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,26,0 ],4,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,26,0 ],4,pic,'').
+struct_dt_elem_i([ 0,26,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,26,0 ],4,attributeid,'198').
+struct_dt_elem_i([ 0,26,0 ],4,'ExternalName','XT_ConfigValue2').
+struct_dt_elem_i([ 0,26,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,26,0 ],5,name,'Xt_configvalue3').
+struct_dt_elem_i([ 0,26,0 ],5,camelname,'XT_ConfigValue3').
+struct_dt_elem_i([ 0,26,0 ],5,length,200).
+struct_dt_elem_i([ 0,26,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,26,0 ],5,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,26,0 ],5,pic,'').
+struct_dt_elem_i([ 0,26,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,26,0 ],5,attributeid,'199').
+struct_dt_elem_i([ 0,26,0 ],5,'ExternalName','XT_ConfigValue3').
+struct_dt_elem_i([ 0,26,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,26,0 ],6,name,'Xt_configvalue4').
+struct_dt_elem_i([ 0,26,0 ],6,camelname,'XT_ConfigValue4').
+struct_dt_elem_i([ 0,26,0 ],6,length,200).
+struct_dt_elem_i([ 0,26,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,26,0 ],6,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,26,0 ],6,pic,'').
+struct_dt_elem_i([ 0,26,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,26,0 ],6,attributeid,'200').
+struct_dt_elem_i([ 0,26,0 ],6,'ExternalName','XT_ConfigValue4').
+struct_dt_elem_i([ 0,26,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,26,0 ],7,name,'Xt_configvalue5').
+struct_dt_elem_i([ 0,26,0 ],7,camelname,'XT_ConfigValue5').
+struct_dt_elem_i([ 0,26,0 ],7,length,200).
+struct_dt_elem_i([ 0,26,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,26,0 ],7,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,26,0 ],7,pic,'').
+struct_dt_elem_i([ 0,26,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,26,0 ],7,attributeid,'201').
+struct_dt_elem_i([ 0,26,0 ],7,'ExternalName','XT_ConfigValue5').
+struct_dt_elem_i([ 0,26,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,name,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,length,128).
+struct_dt_elem_i([ 26,8,25 ],1,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,8,25 ],1,pic,'').
+struct_dt_elem_i([ 26,8,25 ],1,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],1,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],1,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],2,name,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,basedon,30).
+struct_dt_elem_i([ 26,8,25 ],2,length,2).
+struct_dt_elem_i([ 26,8,25 ],2,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],2,sign,0).
+struct_dt_elem_i([ 26,8,25 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,8,25 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,8,25 ],2,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],2,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],2,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],3,name,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,length,256).
+struct_dt_elem_i([ 26,8,25 ],3,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,8,25 ],3,pic,'').
+struct_dt_elem_i([ 26,8,25 ],3,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],3,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],3,'JsonName','').
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'Start',2,10,[ [],[] ]).
+sub_info_i(146,'''Doback''',12,24,[ [],[] ]).
+sub_info_i(146,'''Doindex''',26,38,[ [],[] ]).
+sub_info_i(146,'''Dologout''',40,52,[ [],[] ]).
+ 
+ 
+pgm_callprotocol_i(web,16,'WWPBASEOBJECTS\NOTAUTHORIZED','INTERNAL').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

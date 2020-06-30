@@ -1,0 +1,68 @@
+ 
+spec_i([ sdt,[ 14,43,0 ],'Md5','Md5',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 14,43,0 ],name,'Md5').
+struct_dt_i([ 14,43,0 ],'ObjName','Md5').
+struct_dt_i([ 14,43,0 ],'ObjDesc',md5º”√‹).
+struct_dt_i([ 14,43,0 ],'ExoType','0').
+struct_dt_i([ 14,43,0 ],'ObjNamespace','Md5Library').
+struct_dt_i([ 14,43,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,43,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,43,0 ],'ExoNameCSHARP','Md5').
+struct_dt_i([ 14,43,0 ],'AssemblyName','Md5Library.dll').
+struct_dt_i([ 14,43,0 ],'ExoConstructorParametersCSHARP','').
+struct_dt_i([ 14,43,0 ],'ExoNameNETCORE','Md5').
+struct_dt_i([ 14,43,0 ],'NetCoreAssemblyName','Md5Library.dll').
+struct_dt_i([ 14,43,0 ],'ExoConstructorParametersNETCORE','').
+struct_dt_i([ 14,43,0 ],'PackageName','').
+struct_dt_i([ 14,43,0 ],'RequireName','').
+struct_dt_i([ 14,43,0 ],'ExoNameJS','').
+struct_dt_i([ 14,43,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,43,0 ],'Folder',o(8,externalObject)).
+struct_dt_i([ 14,43,0 ],'FullyQualifiedName','Md5').
+struct_dt_i([ 14,43,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,43,0 ],fullname,'Md5').
+struct_dt_i([ 14,43,0 ],modified,yes).
+ 
+ 
+struct_dt_method_i([ 14,43,0 ],1,name,getstringmd5).
+struct_dt_method_i([ 14,43,0 ],1,camelname,getStringMd5).
+struct_dt_method_i([ 14,43,0 ],1,externalType,'').
+struct_dt_method_i([ 14,43,0 ],1,length,9999).
+struct_dt_method_i([ 14,43,0 ],1,decimals,0).
+struct_dt_method_i([ 14,43,0 ],1,type,[ 5,9999,0 ]).
+struct_dt_method_i([ 14,43,0 ],1,'IntName',getStringMd5).
+struct_dt_method_i([ 14,43,0 ],1,'ExoItemDesc','').
+struct_dt_method_i([ 14,43,0 ],1,'ExoItemType','Character').
+struct_dt_method_i([ 14,43,0 ],1,basedon,'').
+struct_dt_method_i([ 14,43,0 ],1,'XmlName',getStringMd5).
+struct_dt_method_i([ 14,43,0 ],1,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,43,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,43,0 ],1,'ExoNameCSHARP',getStringMd5).
+struct_dt_method_i([ 14,43,0 ],1,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_method_i([ 14,43,0 ],1,'ExoNameNETCORE',getStringMd5).
+struct_dt_method_i([ 14,43,0 ],1,'ExoItemExtTypeNETCORE','System.String').
+struct_dt_method_i([ 14,43,0 ],1,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,43,0 ],1,'ExoNameJS','').
+ 
+struct_dt_param_i([ 14,43,1 ],1,name,textoorig).
+struct_dt_param_i([ 14,43,1 ],1,camelname,textoOrig).
+struct_dt_param_i([ 14,43,1 ],1,externalType,'').
+struct_dt_param_i([ 14,43,1 ],1,length,9999).
+struct_dt_param_i([ 14,43,1 ],1,decimals,0).
+struct_dt_param_i([ 14,43,1 ],1,type,[ 5,9999,0 ]).
+struct_dt_param_i([ 14,43,1 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,43,1 ],1,'IntName',textoOrig).
+struct_dt_param_i([ 14,43,1 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,43,1 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,43,1 ],1,basedon,'').
+struct_dt_param_i([ 14,43,1 ],1,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_param_i([ 14,43,1 ],1,'ExoItemExtTypeNETCORE','System.String').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

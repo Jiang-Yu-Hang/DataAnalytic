@@ -1,0 +1,91 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>43</ObjId>
+<ObjName>SYS_SerialNumber</ObjName>
+<ObjDesc>SYS_Serial Number</ObjDesc>
+<ObjPgmName>SYS_SerialNumber</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>44</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>44</TableId>
+<TableName>SYS_SERIALNUMBER</TableName>
+<Description>SYS_Serial Number</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>44</TableId>
+<TableName>SYS_SERIALNUMBER</TableName>
+<Description>SYS_Serial Number</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>357</AttriId>
+<AttriName>SerialKey</AttriName>
+<Description>Serial Key</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>44</TableId>
+<TableName>SYS_SERIALNUMBER</TableName>
+<Description>SYS_Serial Number</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>357</AttriId>
+<AttriName>SerialKey</AttriName>
+<Description>Serial Key</Description></Attribute>
+<Attribute>
+<AttriId>415</AttriId>
+<AttriName>CurrentValue</AttriName>
+<Description>Current Value</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>44</TableId>
+<TableName>SYS_SERIALNUMBER</TableName>
+<Description>SYS_Serial Number</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>415</AttriId>
+<AttriName>CurrentValue</AttriName>
+<Description>Current Value</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>44</TableId>
+<TableName>SYS_SERIALNUMBER</TableName>
+<Description>SYS_Serial Number</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts></Prompts>
+<Suggests></Suggests></ObjectSpec>

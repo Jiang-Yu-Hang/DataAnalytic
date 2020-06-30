@@ -1,0 +1,6 @@
+bc_dt_elem_i([ 0,56,0 ],'Institutecode',allownulls,no).
+bc_dt_elem_i([ 0,56,0 ],'Institutename',allownulls,no).
+bc_dt_elem_i([ 0,56,0 ],'Bas_institutecreator',allownulls,no).
+bc_dt_elem_i([ 0,56,0 ],'Bas_institutecreatetime',allownulls,no).
+bc_dt_elem_i([ 0,56,0 ],'Bas_instituteisdeleted',allownulls,no).
+ 

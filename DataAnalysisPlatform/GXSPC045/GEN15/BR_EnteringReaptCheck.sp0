@@ -1,0 +1,1642 @@
+spec_i([ web,268,'Data Mgmt Portal - RAAP','BR_EnteringReaptCheck',0,chs,'16_0_0-127771' ]).
+ 
+struct_i(2,1,[ 'Br_encounter' ],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Br_encounter_refusereasonid','Tvflag','GXV1','GXV2' ] ]).
+ 
+lac_i(2,[ [ 'GXV1','GXV2' ] ]).
+ 
+ 
+ 
+cls_i([ 0,0 ],[ 0,299 ]).
+ 
+pos_i('GXV1',[ 0,0,0 ]).
+pos_i('GXV2',[ 0,0,0 ]).
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','商?')).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','商?')).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','BR_EnteringReaptCheck')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'WWPBaseObjects.WorkWithPlusMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('Folder',o(8,'MYWeb'))).
+rule_i(0,prop('ObjDesc','Data Mgmt Portal - RAAP')).
+rule_i(0,prop('ObjName','BR_EnteringReaptCheck')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Br_encounter_refusereasonid','Tvflag' ],[])).
+rule_i(0,parmio([ [ 'Br_encounter_refusereasonid',in ],[ 'Tvflag',out ] ])).
+ 
+a_i(3,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,3,[]).
+v_i(f,o,3,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('GXV5',[ 'GXV5',int,8,0,'',0,'','',22 ]).
+attri_i('GXV4',[ 'GXV4',int,8,0,'',0,'','',21 ]).
+attri_i('GXV3',[ 'GXV3',o(objectcollection('GeneXus\Common\Messages.Message')),0,0,'',0,'','',20 ]).
+attri_i('GXV2',[ 'GXV2',dtime,10,8,'99/99/9999 99:99:99',0,复审不通过时间,'',19 ]).
+attri_i('GXV1',[ 'GXV1',svchar,300,0,'',0,复审不通过原因,'',18 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',17 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',16 ]).
+attri_i('Tvflag',[ tvflag,svchar,40,0,'',0,tvflag,'',15 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,'Security Functionality Keys','',14 ]).
+attri_i('Messages',[ 'Messages',o(objectcollection('GeneXus\Common\Messages.Message')),0,0,'',0,'Messages','',13 ]).
+attri_i('Message',[ 'Message',o('GeneXus\Common\Messages.Message'),0,0,'',0,'Message','',12 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,'Is Authorized','',11 ]).
+attri_i('Errormsg',[ errormsg,svchar,40,0,'',0,errormsg,'',10 ]).
+attri_i('Context',[ 'Context',o('WWPBaseObjects\WWPContext'),0,0,'',0,'Context','',9 ]).
+attri_i('Br_encounter_refusereasonid',[ 'BR_Encounter_RefuseReasonID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'BR_Encounter_Refuse Reason ID','',8 ]).
+attri_i('Br_encounter_refusereason',[ 'BR_Encounter_RefuseReason',o('BR_Encounter_RefuseReason'),0,0,'',0,'BR_Encounter_Refuse Reason','',7 ]).
+attri_i('Br_encounter',[ 'BR_Encounter',o('BR_Encounter'),0,0,'',0,'BR_Encounter','',6 ]).
+attri_i('Wwpcontext',[ 'WWPContext',o('WWPBaseObjects\WWPContext'),0,0,'',0,'WWPContext','',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+is_i('GXV1',t([ t('Br_encounter_refusereason',23),t('Br_encounter_refusereason_freason',3) ],29)).
+is_i('GXV2',t([ t('Br_encounter_refusereason',23),t('Br_encounter_refusereason_fapprovedate',3) ],29)).
+ 
+ 
+ 
+ 
+enum_value_i(45,106,'1',untreated,'"未处理"',[ none ]).
+enum_value_i(45,106,'2',treated,'"已处理"',[ none ]).
+enum_value_i(45,107,'1',chushen,'"初审"',[ none ]).
+enum_value_i(45,107,'2',fushen,'"复审"',[ none ]).
+enum_value_i(45,94,'1',entering,'"录入中"',[ none ]).
+enum_value_i(45,94,'2',waitCheck,'"待初审"',[ none ]).
+enum_value_i(45,94,'3',denyCheck,'"初审不通过"',[ none ]).
+enum_value_i(45,94,'4',waitApprove,'"待复审"',[ none ]).
+enum_value_i(45,94,'5',denyApprove,'"复审不通过"',[ none ]).
+enum_value_i(45,94,'6',complete,'"完成"',[ none ]).
+ 
+enum_value_info_i(45,106,'DM_ApproveReasonStatus').
+enum_value_info_i(45,107,'DM_EncounterReason_vStatus').
+enum_value_info_i(45,94,'DM_ApproveStatus').
+ 
+enum_type_i(45,106,int,4,0).
+enum_type_i(45,107,int,4,0).
+enum_type_i(45,94,int,4,0).
+ 
+dom_info_i(90,[ 'WWPSecFunctionalityKey' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,2).
+b_group_i(2,2,lit,0,3,14).
+b_group_i(2,3,lit,0,15,64).
+b_group_i(2,4,lit,0,65,77).
+b_group_i(2,5,lit,0,78,0).
+ 
+b_line_i(2,2,1,cmd,2,[ t('',146,2,0),t('Start',3,2,7) ]).
+b_line_i(6,2,2,cmd,2,[ t('',107,2,0),t([ t('Br_encounter_refusereason_br_encounter_refusereason_fapprovedate',3,2,0),t('Visible',3,2,0) ],29,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(10,2,2,cmd,2,[ t('',107,2,0),t([ t('Br_encounter',23,10,1),t('load(',1,10,15) ],31,10,1),t('Br_encounter_refusereasonid',23,2,21),t(')',4,2,49) ]).
+b_line_i(12,2,2,cmd,2,[ t('',147,2,0) ]).
+b_line_i(14,2,2,cmd,2,[ t('',146,2,0),t('Enter',3,14,7) ]).
+b_line_i(17,2,3,cmd,2,[ t('',107,2,0),t([ t('Br_encounter_refusereason',23,2,0),t('Br_encounterid',3,2,0) ],29,2,0),t(=,10,2,0),t('Br_encounter_refusereasonid',23,2,0) ]).
+b_line_i(20,2,3,cmd,2,[ t('',107,2,0),t([ t('Br_encounter_refusereason',23,2,0),t('Br_encounter_refusereason_status',3,2,0) ],29,2,0),t(=,10,2,0),t([ 106,untreated ],44,2,0) ]).
+b_line_i(23,2,3,cmd,2,[ t('',107,2,0),t([ t('Br_encounter_refusereason',23,2,0),t('Br_encounter_refusereason_fapprovedate',3,2,0) ],29,2,0),t(=,10,2,0),t('servernow(',1,2,0),t(')',4,2,0) ]).
+b_line_i(24,2,3,cmd,2,[ t('',107,2,0),t([ t('Br_encounter_refusereason',23,2,0),t('Br_encounterreason_vstatus',3,2,0) ],29,2,0),t(=,10,2,0),t([ 107,fushen ],44,2,0) ]).
+b_line_i(25,2,3,cmd,2,[ t('',107,2,0),t([ t('Br_encounter_refusereason',23,25,2),t('save(',1,25,29) ],31,25,29),t(')',4,2,35) ]).
+b_line_i(27,2,3,cmd,2,[ t('',109,2,0),t([ t('Br_encounter_refusereason',23,27,5),t('success(',1,27,32) ],31,27,32),t(')',4,2,41) ]).
+b_line_i(29,2,3,cmd,2,[ t('',107,2,0),t([ t('Br_encounter',23,2,0),t('Br_encounter_israndrecheck',3,2,0) ],29,2,0),t(=,10,2,0),t('TRUE',40,2,0) ]).
+b_line_i(31,2,3,cmd,2,[ t('',107,2,0),t([ t('Br_encounter',23,2,0),t('Br_encounter_status',3,2,0) ],29,2,0),t(=,10,2,0),t([ 94,denyApprove ],44,2,0) ]).
+b_line_i(33,2,3,cmd,2,[ t('',107,2,0),t([ t('Br_encounter',23,2,0),t('Br_encounter_israndnorecheckr',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Context',23,2,0),t('Userdisplayname',3,2,0) ],29,2,0) ]).
+b_line_i(34,2,3,cmd,2,[ t('',107,2,0),t([ t('Br_encounter',23,2,0),t('Br_encounter_israndnorecheckdate',3,2,0) ],29,2,0),t(=,10,2,0),t('servernow(',1,2,0),t(')',4,2,0) ]).
+b_line_i(36,2,3,cmd,2,[ t('',107,2,0),t([ t('Br_encounter',23,36,3),t('save(',1,36,17) ],31,36,17),t(')',4,2,23) ]).
+b_line_i(37,2,3,cmd,2,[ t('',107,2,0),t('Tvflag',23,2,0),t(=,10,2,0),t('''hao''',3,2,0) ]).
+b_line_i(38,2,3,cmd,2,[ t('',109,2,0),t('Tvflag',23,2,6),t(=,10,2,13),t('''hao''',3,38,14) ]).
+b_line_i(39,2,3,cmd,2,[ t('',141,2,0),t('Tvflag',23,2,8),t(')',4,2,15) ]).
+b_line_i(40,2,3,cmd,2,[ t('',110,2,0) ]).
+b_line_i(41,2,3,cmd,2,[ t('',141,2,0),t('''null''',3,41,8),t(')',4,2,14) ]).
+b_line_i(43,2,3,cmd,2,[ t('',111,2,0) ]).
+b_line_i(44,2,3,cmd,2,[ t('',132,2,0) ]).
+b_line_i(46,2,3,cmd,2,[ t('',118,2,0) ]).
+b_line_i(48,2,3,cmd,2,[ t('',110,2,0) ]).
+b_line_i(49,2,3,cmd,2,[ t('',107,2,0),t([ t('Errormsg',23,49,3),t('setempty(',1,49,13) ],31,49,3),t(')',4,2,23) ]).
+b_line_i(50,2,3,cmd,2,[ t('',107,2,0),t('GXV4',23,2,0),t(=,10,2,0),t(1,3,2,0) ]).
+b_line_i([ 50,1 ],2,3,cmd,2,[ t('',107,2,0),t('GXV3',23,2,0),t(=,10,2,0),t([ t('Br_encounter_refusereason',23,2,0),t('getmessages(',1,2,0) ],31,2,0),t(')',4,2,0) ]).
+b_line_i([ 50,2 ],2,3,cmd,2,[ t('',114,2,0),t('GXV4',23,2,0),t(<=,10,2,0),t([ t('GXV3',23,50,46),t('Count',3,50,0) ],29,50,0) ]).
+b_line_i([ 50,3 ],2,3,cmd,2,[ t('',107,2,0),t('Message',23,2,0),t(=,10,2,0),t([ t('GXV3',23,2,0),t('item(',1,2,0) ],31,2,0),t('GXV4',23,2,0),t(')',4,2,0) ]).
+b_line_i(51,2,3,cmd,3,[ t('',107,3,0),t('Errormsg',23,3,0),t(=,10,3,0),t('Errormsg',23,3,0),t(+,5,3,0),t('trim(',1,3,0),t([ t('Message',23,3,0),t('Description',3,3,0) ],29,3,0),t(')',4,3,0) ]).
+b_line_i([ 52,1 ],2,3,cmd,3,[ t('',107,3,0),t('GXV4',23,3,0),t(=,10,3,0),t('GXV4',23,3,0),t(+,5,3,0),t(1,3,3,0) ]).
+b_line_i([ 52,2 ],2,3,cmd,3,[ t('',115,3,0) ]).
+b_line_i(53,2,3,cmd,4,[ t('',141,4,0),t('Errormsg',23,4,7),t(')',4,4,16) ]).
+b_line_i(54,2,3,cmd,4,[ t('',111,4,0) ]).
+b_line_i(62,2,3,cmd,4,[ t('',147,4,0) ]).
+b_line_i(64,2,3,cmd,4,[ t('',143,4,0),t('''SHOW MESSAGES''',3,64,5) ]).
+b_line_i(69,2,4,cmd,4,[ t('',107,4,0),t('GXV5',23,4,0),t(=,10,4,0),t(1,3,4,0) ]).
+b_line_i([ 69,2 ],2,4,cmd,4,[ t('',114,4,0),t('GXV5',23,4,0),t(<=,10,4,0),t([ t('Messages',23,69,18),t('Count',3,69,0) ],29,69,0) ]).
+b_line_i([ 69,3 ],2,4,cmd,4,[ t('',107,4,0),t('Message',23,4,0),t(=,10,4,0),t([ t('Messages',23,4,0),t('item(',1,4,0) ],31,4,0),t('GXV5',23,4,0),t(')',4,4,0) ]).
+b_line_i(70,2,4,cmd,5,[ t('',141,5,0),t([ t('Message',23,70,7),t('Description',3,70,16) ],29,70,16),t(')',4,5,27) ]).
+b_line_i([ 71,1 ],2,4,cmd,5,[ t('',107,5,0),t('GXV5',23,5,0),t(=,10,5,0),t('GXV5',23,5,0),t(+,5,5,0),t(1,3,5,0) ]).
+b_line_i([ 71,2 ],2,4,cmd,5,[ t('',115,5,0) ]).
+b_line_i(75,2,4,cmd,9,[ t('',144,9,0) ]).
+b_line_i(77,2,4,cmd,9,[ t('',146,9,0),t('Refresh',3,77,7) ]).
+b_line_i(82,2,5,cmd,9,[ t('',104,9,0),t(o(1,'WWPBaseObjects\LoadWWPContext'),28,9,2),t('Context',23,9,23) ]).
+b_line_i(86,2,5,cmd,9,[ t('',147,9,0) ]).
+b_line_i(1000,2,5,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,5,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,5,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,div(2)).
+ 
+html_sub_i(2,3,html_i(0,div(3))).
+html_sub_i(3,4,html_i(0,div(4))).
+html_sub_i(4,5,html_i(0,div(5))).
+html_sub_i(5,6,html_i(0,div(6))).
+html_sub_i(6,7,html_i(0,div(7))).
+html_sub_i(7,8,html_i(0,div(8))).
+html_sub_i(8,9,html_i(0,div(9))).
+html_sub_i(9,10,html_i(0,usercontrol(10))).
+html_sub_i(10,11,html_i(0,container(11))).
+html_sub_i(11,12,html_i(0,div(12))).
+html_sub_i(12,13,html_i(0,div(13))).
+html_sub_i(13,14,html_i(0,div(14))).
+html_sub_i(14,15,html_i(0,div(15))).
+html_sub_i(15,16,html_i(0,div(16))).
+html_sub_i(16,17,html_i(0,div(17))).
+html_sub_i(17,18,html_i(0,div(18))).
+html_sub_i(18,19,html_i(0,div(19))).
+html_sub_i(19,20,html_i(0,div(20))).
+html_sub_i(20,21,html_i(0,div(21))).
+html_sub_i(21,22,html_i(0,t('GXV1',23))).
+html_sub_i(14,23,html_i(1,div(23))).
+html_sub_i(23,24,html_i(0,div(24))).
+html_sub_i(24,25,html_i(0,table(25))).
+html_sub_i(25,26,html_i(0,row(26))).
+html_sub_i(26,27,html_i(0,cell(27))).
+html_sub_i(27,28,html_i(0,button('Enter'))).
+html_sub_i(26,29,html_i(1,cell(29))).
+html_sub_i(29,30,html_i(0,button('Cancel'))).
+html_sub_i(3,31,html_i(1,div(31))).
+html_sub_i(31,32,html_i(0,div(32))).
+html_sub_i(32,33,html_i(0,div(33))).
+html_sub_i(33,34,html_i(0,t('GXV2',23))).
+ 
+html_tags_i(1,'Class','form-horizontal Form').
+html_tags_i(2,'data-gx-base-lib',bootstrapv3).
+html_tags_i(2,'data-abstract-form','').
+html_tags_i(13,'data-gx-base-lib',bootstrapv3).
+html_tags_i(13,'data-abstract-form','').
+html_tags_i(20,'data-gx-att','var:7-BR_Encounter_RefuseReason_BR_Encounter_RefuseReason_FReason').
+html_tags_i(22,'data-gx-att','var:7-BR_Encounter_RefuseReason_BR_Encounter_RefuseReason_FReason').
+ 
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Class','Section',d,[ str ]).
+html_comp_i(2,'Id','',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Semanticcontent',div,d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Valign',top,d,[ str ]).
+html_comp_i(3,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(3,'Class','Table',v,[ str ]).
+html_comp_i(3,'Id','Layoutmaintable',v,[ str ]).
+html_comp_i(3,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Semanticcontent',div,d,[ str ]).
+html_comp_i(3,'Align',left,d,[ str ]).
+html_comp_i(3,'Valign',top,d,[ str ]).
+html_comp_i(4,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(4,'Class',row,v,[ str ]).
+html_comp_i(4,'Id','',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Semanticcontent',div,d,[ str ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Valign',top,d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Class','col-xs-12',v,[ str ]).
+html_comp_i(5,'Id','',d,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Semanticcontent',div,d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Valign',top,d,[ str ]).
+html_comp_i(6,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(6,'Class','TableMainTransaction',v,[ str ]).
+html_comp_i(6,'Id','Tablemain',v,[ str ]).
+html_comp_i(6,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Semanticcontent',div,d,[ str ]).
+html_comp_i(6,'Align',left,d,[ str ]).
+html_comp_i(6,'Valign',top,d,[ str ]).
+html_comp_i(7,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(7,'Class',row,v,[ str ]).
+html_comp_i(7,'Id','',d,[ str ]).
+html_comp_i(7,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Semanticcontent',div,d,[ str ]).
+html_comp_i(7,'Align',left,d,[ str ]).
+html_comp_i(7,'Valign',top,d,[ str ]).
+html_comp_i(8,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(8,'Class','col-xs-12',v,[ str ]).
+html_comp_i(8,'Id','',d,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Semanticcontent',div,d,[ str ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Valign',top,d,[ str ]).
+html_comp_i(9,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(9,'Class','Section',d,[ str ]).
+html_comp_i(9,'Id','Html_dvpanel_tableattributes',v,[ str ]).
+html_comp_i(9,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Semanticcontent',div,d,[ str ]).
+html_comp_i(9,'Align',left,d,[ str ]).
+html_comp_i(9,'Valign',top,d,[ str ]).
+html_comp_i(10,'Usercontroltype','DVelop.GXBootstrap.Panel',d,[ str ]).
+html_comp_i(10,'Constructorname','BootstrapPanel',d,[ str ]).
+html_comp_i(10,'Showmethodname',show,d,[ str ]).
+html_comp_i(10,'Controlname','DVPanel_TableAttributes',v,[ str ]).
+html_comp_i(10,'Width','100%',v,[ str ]).
+html_comp_i(10,'Height','100',d,[ str ]).
+html_comp_i(10,'Autowidth',0,v,[ bool ]).
+html_comp_i(10,'Autoheight',-1,v,[ bool ]).
+html_comp_i(10,'Cls','PanelCard_BaseColor',v,[ str ]).
+html_comp_i(10,'Showheader',-1,d,[ bool ]).
+html_comp_i(10,'Title',复审不通过,v,[ str ]).
+html_comp_i(10,'Collapsible',-1,v,[ bool ]).
+html_comp_i(10,'Collapsed',0,v,[ bool ]).
+html_comp_i(10,'Showcollapseicon',0,v,[ bool ]).
+html_comp_i(10,'Iconposition',left,v,[ str ]).
+html_comp_i(10,'Autoscroll',0,v,[ bool ]).
+html_comp_i(10,'Visible',-1,d,[ bool ]).
+html_comp_i(10,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(10,'Jssupportfiles',[ [ t('''DVelop\Bootstrap\Shared\DVelopBootstrap.js''',3) ],[ t('''DVelop\Bootstrap/Panel/BootstrapPanelRender.js''',3) ] ],d,[ params ]).
+html_comp_i(10,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(10,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(11,'Containerid','Body',v,[ str ]).
+html_comp_i(12,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(12,'Class','Section',d,[ str ]).
+html_comp_i(12,'Id','Layout_tableattributes',v,[ str ]).
+html_comp_i(12,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Semanticcontent',div,d,[ str ]).
+html_comp_i(12,'Align',left,d,[ str ]).
+html_comp_i(12,'Valign',top,d,[ str ]).
+html_comp_i(13,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(13,'Class','Section',d,[ str ]).
+html_comp_i(13,'Id','',d,[ str ]).
+html_comp_i(13,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Semanticcontent',div,d,[ str ]).
+html_comp_i(13,'Align',left,d,[ str ]).
+html_comp_i(13,'Valign',top,d,[ str ]).
+html_comp_i(14,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(14,'Class','TableData',v,[ str ]).
+html_comp_i(14,'Id','Tableattributes',v,[ str ]).
+html_comp_i(14,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Semanticcontent',div,d,[ str ]).
+html_comp_i(14,'Align',left,d,[ str ]).
+html_comp_i(14,'Valign',top,d,[ str ]).
+html_comp_i(15,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(15,'Class',row,v,[ str ]).
+html_comp_i(15,'Id','',d,[ str ]).
+html_comp_i(15,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Semanticcontent',div,d,[ str ]).
+html_comp_i(15,'Align',left,d,[ str ]).
+html_comp_i(15,'Valign',top,d,[ str ]).
+html_comp_i(16,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(16,'Class','col-xs-12',v,[ str ]).
+html_comp_i(16,'Id','',d,[ str ]).
+html_comp_i(16,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Semanticcontent',div,d,[ str ]).
+html_comp_i(16,'Align',left,d,[ str ]).
+html_comp_i(16,'Valign',top,d,[ str ]).
+html_comp_i(17,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(17,'Class','',v,[ str ]).
+html_comp_i(17,'Id','Unnamedtable1',v,[ str ]).
+html_comp_i(17,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(17,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(17,'Semanticcontent',div,d,[ str ]).
+html_comp_i(17,'Align',left,d,[ str ]).
+html_comp_i(17,'Valign',top,d,[ str ]).
+html_comp_i(18,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(18,'Class',row,v,[ str ]).
+html_comp_i(18,'Id','',d,[ str ]).
+html_comp_i(18,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(18,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(18,'Semanticcontent',div,d,[ str ]).
+html_comp_i(18,'Align',left,d,[ str ]).
+html_comp_i(18,'Valign',top,d,[ str ]).
+html_comp_i(19,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(19,'Class','col-xs-12 DataContentCell',v,[ str ]).
+html_comp_i(19,'Id','',d,[ str ]).
+html_comp_i(19,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Semanticcontent',div,d,[ str ]).
+html_comp_i(19,'Align',left,d,[ str ]).
+html_comp_i(19,'Valign',top,d,[ str ]).
+html_comp_i(20,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(20,'Class','form-group gx-form-group',v,[ str ]).
+html_comp_i(20,'Id','',d,[ str ]).
+html_comp_i(20,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Semanticcontent',div,d,[ str ]).
+html_comp_i(20,'Align',left,d,[ str ]).
+html_comp_i(20,'Valign',top,d,[ str ]).
+html_comp_i(21,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(21,'Class','col-sm-9 gx-attribute',v,[ str ]).
+html_comp_i(21,'Id','',d,[ str ]).
+html_comp_i(21,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Semanticcontent',div,d,[ str ]).
+html_comp_i(21,'Align',left,d,[ str ]).
+html_comp_i(21,'Valign',top,d,[ str ]).
+html_comp_i(22,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(22,'Colcount',80,d,[ num ]).
+html_comp_i(22,'Attid',-7,v,[ num ]).
+html_comp_i(22,'Class','Attribute',v,[ str ]).
+html_comp_i(22,'Controlname','Br_encounter_refusereason_br_encounter_refusereason_freason',v,[ str ]).
+html_comp_i(22,'Fieldspecifier',[ t([ t('Br_encounter_refusereason',23),t('Br_encounter_refusereason_freason',3) ],29) ],v,[ str ]).
+html_comp_i(22,'Returnonclick',0,v,[ bool ]).
+html_comp_i(22,'Captionclass','col-sm-3 AttributeLabel',v,[ str ]).
+html_comp_i(22,'Captionposition','Left',v,[ str ]).
+html_comp_i(22,'Captionvalue',复审不通过原因,d,[ str ]).
+html_comp_i(22,'Layoutclass','col-sm-9',v,[ str ]).
+html_comp_i(22,'Controltype',2,d,[ num ]).
+html_comp_i(22,'Inputtype',0,d,[ num ]).
+html_comp_i(22,'Editautocomplete',0,d,[ num ]).
+html_comp_i(22,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(22,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(22,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(22,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(22,'Readonly',0,v,[ bool ]).
+html_comp_i(22,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(22,'Ispassword',0,d,[ bool ]).
+html_comp_i(22,'Autoresize',-1,d,[ bool ]).
+html_comp_i(22,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(22,'Gxheight',measure(4,row),d,[ measure ]).
+html_comp_i(22,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(22,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(22,'Fill',-1,d,[ bool ]).
+html_comp_i(22,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(22,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(22,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(22,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(22,'Gxformat',0,d,[ num ]).
+html_comp_i(22,'Title','',d,[ str ]).
+html_comp_i(22,'Invitemsg','',v,[ str ]).
+html_comp_i(23,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(23,'Class',row,v,[ str ]).
+html_comp_i(23,'Id','',d,[ str ]).
+html_comp_i(23,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Semanticcontent',div,d,[ str ]).
+html_comp_i(23,'Align',left,d,[ str ]).
+html_comp_i(23,'Valign',top,d,[ str ]).
+html_comp_i(24,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(24,'Class','col-xs-12',v,[ str ]).
+html_comp_i(24,'Id','',d,[ str ]).
+html_comp_i(24,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Semanticcontent',div,d,[ str ]).
+html_comp_i(24,'Align','Center',v,[ str ]).
+html_comp_i(24,'Valign',top,d,[ str ]).
+html_comp_i(25,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(25,'Id','Tablemergedenter',v,[ str ]).
+html_comp_i(25,'Class','TableMerged',v,[ str ]).
+html_comp_i(25,'Title','',d,[ str ]).
+html_comp_i(25,'Header','',d,[ str ]).
+html_comp_i(25,'Align',left,d,[ str ]).
+html_comp_i(25,'Backgroundgx','',d,[ str ]).
+html_comp_i(25,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(25,'Border','0',d,[ str ]).
+html_comp_i(25,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(25,'Cellpadding','0',v,[ str ]).
+html_comp_i(25,'Cellspacing','0',v,[ str ]).
+html_comp_i(25,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Rules',none,d,[ str ]).
+html_comp_i(27,'Class','MergeDataCell',v,[ str ]).
+html_comp_i(28,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(28,'Controlname','Btnenter',v,[ str ]).
+html_comp_i(28,'Class','ButtonMaterial',v,[ str ]).
+html_comp_i(28,'Event','Enter',v,[ str ]).
+html_comp_i(28,'Caption',确认,d,[ str ]).
+html_comp_i(28,'Title',确认,d,[ str ]).
+html_comp_i(28,'Font',font('Microsoft Sans Serif',9,[]),d,[ font ]).
+html_comp_i(28,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(28,'Backcolor',rgb(240,240,240),d,[ color ]).
+html_comp_i(28,'Border','1',d,[ str ]).
+html_comp_i(28,'Bordercolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(28,'Buttonborderstyle',standard,d,[ str ]).
+html_comp_i(29,'Align','Center',v,[ str ]).
+html_comp_i(30,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(30,'Controlname','Btn_cancel',v,[ str ]).
+html_comp_i(30,'Class','ButtonMaterialDefault',v,[ str ]).
+html_comp_i(30,'Event','Cancel',v,[ str ]).
+html_comp_i(30,'Caption',取消,d,[ str ]).
+html_comp_i(30,'Title',取消,d,[ str ]).
+html_comp_i(30,'Font',font('Microsoft Sans Serif',9,[]),d,[ font ]).
+html_comp_i(30,'Forecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(30,'Backcolor',rgb(0,9,153),d,[ color ]).
+html_comp_i(30,'Border','1',d,[ str ]).
+html_comp_i(30,'Bordercolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(30,'Buttonborderstyle',standard,d,[ str ]).
+html_comp_i(31,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(31,'Class',row,v,[ str ]).
+html_comp_i(31,'Id','',d,[ str ]).
+html_comp_i(31,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(31,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(31,'Semanticcontent',div,d,[ str ]).
+html_comp_i(31,'Align',left,d,[ str ]).
+html_comp_i(31,'Valign',top,d,[ str ]).
+html_comp_i(32,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(32,'Class','col-xs-12',v,[ str ]).
+html_comp_i(32,'Id','',d,[ str ]).
+html_comp_i(32,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(32,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(32,'Semanticcontent',div,d,[ str ]).
+html_comp_i(32,'Align',left,d,[ str ]).
+html_comp_i(32,'Valign',top,d,[ str ]).
+html_comp_i(33,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(33,'Class','Section',d,[ str ]).
+html_comp_i(33,'Id','Html_bottomauxiliarcontrols',v,[ str ]).
+html_comp_i(33,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(33,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(33,'Semanticcontent',div,d,[ str ]).
+html_comp_i(33,'Align',left,d,[ str ]).
+html_comp_i(33,'Valign',top,d,[ str ]).
+html_comp_i(34,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(34,'Colcount',19,d,[ num ]).
+html_comp_i(34,'Attid',-7,v,[ num ]).
+html_comp_i(34,'Class','Attribute',d,[ str ]).
+html_comp_i(34,'Controlname','Br_encounter_refusereason_br_encounter_refusereason_fapprovedate',v,[ str ]).
+html_comp_i(34,'Fieldspecifier',[ t([ t('Br_encounter_refusereason',23),t('Br_encounter_refusereason_fapprovedate',3) ],29) ],v,[ str ]).
+html_comp_i(34,'Returnonclick',0,d,[ bool ]).
+html_comp_i(34,'Captionclass','',d,[ str ]).
+html_comp_i(34,'Captionposition','',d,[ str ]).
+html_comp_i(34,'Captionvalue','',d,[ str ]).
+html_comp_i(34,'Layoutclass','',d,[ str ]).
+html_comp_i(34,'Controltype',2,d,[ num ]).
+html_comp_i(34,'Inputtype',0,d,[ num ]).
+html_comp_i(34,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(34,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(34,'Readonly',0,d,[ bool ]).
+html_comp_i(34,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(34,'Ispassword',0,d,[ bool ]).
+html_comp_i(34,'Autoresize',-1,d,[ bool ]).
+html_comp_i(34,'Gxwidth',measure(19,chr),d,[ measure ]).
+html_comp_i(34,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(34,'Ismultiline',0,d,[ bool ]).
+html_comp_i(34,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(34,'Fill',-1,d,[ bool ]).
+html_comp_i(34,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(34,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(34,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(34,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(34,'Gxformat',0,d,[ num ]).
+html_comp_i(34,'Title','',d,[ str ]).
+html_comp_i(34,'Invitemsg','',d,[ str ]).
+html_comp_i(34,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(34,'Flat_datepicker',0,d,[ bool ]).
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg(events(64,[]),src0306,[ 'Subroutine ''''Show Messages'''' is defined but never used.' ])).
+ 
+lit_i(22,1,t('GXV1',23),[ ctlname('Br_encounter_refusereason_br_encounter_refusereason_freason'),ctrltype(edit,22),pos(22),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(21,1,div(21),[ ctlname('') ]).
+lit_i(20,1,div(20),[ ctlname('') ]).
+lit_i(19,1,div(19),[ ctlname('') ]).
+lit_i(18,1,div(18),[ ctlname('') ]).
+lit_i(17,1,div(17),[ ctlname('Unnamedtable1') ]).
+lit_i(16,1,div(16),[ ctlname('') ]).
+lit_i(15,1,div(15),[ ctlname('') ]).
+lit_i(28,1,button('Enter'),[ ctlname('Btnenter'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(30,1,button('Cancel'),[ ctlname('Btn_cancel'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(25,1,table(25),[ ctlname('Tablemergedenter') ]).
+lit_i(24,1,div(24),[ ctlname('') ]).
+lit_i(23,1,div(23),[ ctlname('') ]).
+lit_i(14,1,div(14),[ ctlname('Tableattributes') ]).
+lit_i(13,1,div(13),[ ctlname('') ]).
+lit_i(12,1,div(12),[ ctlname('Layout_tableattributes') ]).
+lit_i(10,1,usercontrol(10),[ ctlname('Dvpanel_tableattributes'),ctrltype('dvelop.gxbootstrap.panel'),el([]),containers([ container(11) ]) ]).
+lit_i(9,1,div(9),[ ctlname('Html_dvpanel_tableattributes') ]).
+lit_i(8,1,div(8),[ ctlname('') ]).
+lit_i(7,1,div(7),[ ctlname('') ]).
+lit_i(6,1,div(6),[ ctlname('Tablemain') ]).
+lit_i(5,1,div(5),[ ctlname('') ]).
+lit_i(4,1,div(4),[ ctlname('') ]).
+lit_i(34,1,t('GXV2',23),[ ctlname('Br_encounter_refusereason_br_encounter_refusereason_fapprovedate'),ctrltype(edit,34),pos(34),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(33,1,div(33),[ ctlname('Html_bottomauxiliarcontrols') ]).
+lit_i(32,1,div(32),[ ctlname('') ]).
+lit_i(31,1,div(31),[ ctlname('') ]).
+lit_i(3,1,div(3),[ ctlname('Layoutmaintable') ]).
+lit_i(2,1,div(2),[ ctlname('') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+var_prop_i(45,'Br_encounter_refusereasonid',idBasedOn,'',v).
+var_prop_i(45,'Securityfunctionalitykeys',idBasedOn,90,v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,43,0 ],name,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,43,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 26,43,0 ],'ObjName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ObjDesc','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,14,0 ],name,'BR_Encounter').
+struct_dt_i([ 0,14,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,14,0 ],significantName,'BR_Encounter').
+struct_dt_i([ 0,14,0 ],'ObjName','BR_Encounter').
+struct_dt_i([ 0,14,0 ],'ObjDesc',就诊信息).
+struct_dt_i([ 0,14,0 ],'ExternalName','BR_Encounter').
+struct_dt_i([ 0,14,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,14,0 ],key,[ 19 ]).
+struct_dt_i([ 0,14,0 ],lvl,15).
+struct_dt_i([ 26,8,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,8,0 ],'ObjName','Messages').
+struct_dt_i([ 26,8,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,8,0 ],collection,'True').
+struct_dt_i([ 26,8,0 ],datatype,[ 26,8,25 ]).
+struct_dt_i([ 26,8,0 ],isexternal,'True').
+struct_dt_i([ 26,8,25 ],name,'Message').
+struct_dt_i([ 26,8,25 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 0,41,0 ],name,'BR_Encounter_RefuseReason').
+struct_dt_i([ 0,41,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,41,0 ],significantName,'BR_Encounter_RefuseReason').
+struct_dt_i([ 0,41,0 ],'ObjName','BR_Encounter_RefuseReason').
+struct_dt_i([ 0,41,0 ],'ObjDesc',就诊信息驳回原因).
+struct_dt_i([ 0,41,0 ],'ExternalName','BR_Encounter_RefuseReason').
+struct_dt_i([ 0,41,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,41,0 ],key,[ 348 ]).
+struct_dt_i([ 0,41,0 ],lvl,42).
+struct_dt_i([ 26,43,0 ],fullname,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 0,14,0 ],fullname,'BR_Encounter').
+struct_dt_i([ 26,8,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,25 ],fullname,'GeneXus\Common\Messages.Message').
+struct_dt_i([ 0,41,0 ],fullname,'BR_Encounter_RefuseReason').
+struct_dt_i([ 26,43,0 ],modified,yes).
+struct_dt_i([ 26,8,0 ],modified,yes).
+struct_dt_i([ 26,8,25 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,43,0 ],1,name,'Userid').
+struct_dt_elem_i([ 26,43,0 ],1,camelname,'UserId').
+struct_dt_elem_i([ 26,43,0 ],1,length,4).
+struct_dt_elem_i([ 26,43,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],1,sign,0).
+struct_dt_elem_i([ 26,43,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalName','UserId').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],2,name,'Userguid').
+struct_dt_elem_i([ 26,43,0 ],2,camelname,'UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,length,500).
+struct_dt_elem_i([ 26,43,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],2,type,[ 13,500,0 ]).
+struct_dt_elem_i([ 26,43,0 ],2,pic,'').
+struct_dt_elem_i([ 26,43,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalName','UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],3,name,'Username').
+struct_dt_elem_i([ 26,43,0 ],3,camelname,'UserName').
+struct_dt_elem_i([ 26,43,0 ],3,length,100).
+struct_dt_elem_i([ 26,43,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],3,pic,'').
+struct_dt_elem_i([ 26,43,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalName','UserName').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],4,name,'Usertype').
+struct_dt_elem_i([ 26,43,0 ],4,camelname,'UserType').
+struct_dt_elem_i([ 26,43,0 ],4,length,4).
+struct_dt_elem_i([ 26,43,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],4,sign,0).
+struct_dt_elem_i([ 26,43,0 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalName','UserType').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],5,name,'Userdisplayname').
+struct_dt_elem_i([ 26,43,0 ],5,camelname,'UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,length,100).
+struct_dt_elem_i([ 26,43,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],5,pic,'').
+struct_dt_elem_i([ 26,43,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalName','UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],6,name,'Userproviderid').
+struct_dt_elem_i([ 26,43,0 ],6,camelname,'UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,basedon,69).
+struct_dt_elem_i([ 26,43,0 ],6,length,18).
+struct_dt_elem_i([ 26,43,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],6,sign,0).
+struct_dt_elem_i([ 26,43,0 ],6,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,43,0 ],6,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 26,43,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalName','UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],7,name,'Userprovidername').
+struct_dt_elem_i([ 26,43,0 ],7,camelname,'UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,length,100).
+struct_dt_elem_i([ 26,43,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],7,pic,'').
+struct_dt_elem_i([ 26,43,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalName','UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],8,name,'Currenttnum').
+struct_dt_elem_i([ 26,43,0 ],8,camelname,currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,length,4).
+struct_dt_elem_i([ 26,43,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],8,sign,0).
+struct_dt_elem_i([ 26,43,0 ],8,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],8,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalName',currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],8,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],8,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],9,name,'Clientip').
+struct_dt_elem_i([ 26,43,0 ],9,camelname,'ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,length,40).
+struct_dt_elem_i([ 26,43,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],9,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,43,0 ],9,pic,'').
+struct_dt_elem_i([ 26,43,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalName','ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],9,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],9,'JsonName','').
+struct_dt_elem_i([ 0,14,0 ],1,name,'Br_encounterid').
+struct_dt_elem_i([ 0,14,0 ],1,camelname,'BR_EncounterID').
+struct_dt_elem_i([ 0,14,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,14,0 ],1,length,18).
+struct_dt_elem_i([ 0,14,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],1,sign,0).
+struct_dt_elem_i([ 0,14,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,14,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,14,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],1,attributeid,'19').
+struct_dt_elem_i([ 0,14,0 ],1,'ExternalName','BR_EncounterID').
+struct_dt_elem_i([ 0,14,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],2,name,'Br_encounter_encid').
+struct_dt_elem_i([ 0,14,0 ],2,camelname,'BR_Encounter_EncID').
+struct_dt_elem_i([ 0,14,0 ],2,length,10).
+struct_dt_elem_i([ 0,14,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],2,sign,0).
+struct_dt_elem_i([ 0,14,0 ],2,type,[ 4,10,0 ]).
+struct_dt_elem_i([ 0,14,0 ],2,pic,'ZZZZZZZZZZ').
+struct_dt_elem_i([ 0,14,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],2,attributeid,'35').
+struct_dt_elem_i([ 0,14,0 ],2,'ExternalName','BR_Encounter_EncID').
+struct_dt_elem_i([ 0,14,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],3,name,'Br_encounter_department').
+struct_dt_elem_i([ 0,14,0 ],3,camelname,'BR_Encounter_Department').
+struct_dt_elem_i([ 0,14,0 ],3,length,100).
+struct_dt_elem_i([ 0,14,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,14,0 ],3,pic,'').
+struct_dt_elem_i([ 0,14,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],3,attributeid,'84').
+struct_dt_elem_i([ 0,14,0 ],3,'ExternalName','BR_Encounter_Department').
+struct_dt_elem_i([ 0,14,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],4,name,'Br_encounter_department_code').
+struct_dt_elem_i([ 0,14,0 ],4,camelname,'BR_Encounter_Department_Code').
+struct_dt_elem_i([ 0,14,0 ],4,length,40).
+struct_dt_elem_i([ 0,14,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],4,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],4,pic,'').
+struct_dt_elem_i([ 0,14,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],4,attributeid,'470').
+struct_dt_elem_i([ 0,14,0 ],4,'ExternalName','BR_Encounter_Department_Code').
+struct_dt_elem_i([ 0,14,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],5,name,'Br_encounter_departmentadm').
+struct_dt_elem_i([ 0,14,0 ],5,camelname,'BR_Encounter_Departmentadm').
+struct_dt_elem_i([ 0,14,0 ],5,length,100).
+struct_dt_elem_i([ 0,14,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,14,0 ],5,pic,'').
+struct_dt_elem_i([ 0,14,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],5,attributeid,'570').
+struct_dt_elem_i([ 0,14,0 ],5,'ExternalName','BR_Encounter_Departmentadm').
+struct_dt_elem_i([ 0,14,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],6,name,'Br_encounter_departmentadm_code').
+struct_dt_elem_i([ 0,14,0 ],6,camelname,'BR_Encounter_Departmentadm_Code').
+struct_dt_elem_i([ 0,14,0 ],6,length,40).
+struct_dt_elem_i([ 0,14,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],6,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],6,pic,'').
+struct_dt_elem_i([ 0,14,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],6,attributeid,'571').
+struct_dt_elem_i([ 0,14,0 ],6,'ExternalName','BR_Encounter_Departmentadm_Code').
+struct_dt_elem_i([ 0,14,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],7,name,'Br_encounter_departmentdisch').
+struct_dt_elem_i([ 0,14,0 ],7,camelname,'BR_Encounter_Departmentdisch').
+struct_dt_elem_i([ 0,14,0 ],7,length,100).
+struct_dt_elem_i([ 0,14,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,14,0 ],7,pic,'').
+struct_dt_elem_i([ 0,14,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],7,attributeid,'572').
+struct_dt_elem_i([ 0,14,0 ],7,'ExternalName','BR_Encounter_Departmentdisch').
+struct_dt_elem_i([ 0,14,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],8,name,'Br_encounter_departmentdisch_code').
+struct_dt_elem_i([ 0,14,0 ],8,camelname,'BR_Encounter_Departmentdisch_Code').
+struct_dt_elem_i([ 0,14,0 ],8,length,40).
+struct_dt_elem_i([ 0,14,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],8,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],8,pic,'').
+struct_dt_elem_i([ 0,14,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],8,attributeid,'573').
+struct_dt_elem_i([ 0,14,0 ],8,'ExternalName','BR_Encounter_Departmentdisch_Code').
+struct_dt_elem_i([ 0,14,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],9,name,'Br_encounter_enctype').
+struct_dt_elem_i([ 0,14,0 ],9,camelname,'BR_Encounter_ENCType').
+struct_dt_elem_i([ 0,14,0 ],9,length,100).
+struct_dt_elem_i([ 0,14,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],9,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,14,0 ],9,pic,'').
+struct_dt_elem_i([ 0,14,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],9,attributeid,'90').
+struct_dt_elem_i([ 0,14,0 ],9,'ExternalName','BR_Encounter_ENCType').
+struct_dt_elem_i([ 0,14,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],10,name,'Br_encounter_enctype_code').
+struct_dt_elem_i([ 0,14,0 ],10,camelname,'BR_Encounter_ENCType_Code').
+struct_dt_elem_i([ 0,14,0 ],10,length,40).
+struct_dt_elem_i([ 0,14,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],10,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],10,pic,'').
+struct_dt_elem_i([ 0,14,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],10,attributeid,'471').
+struct_dt_elem_i([ 0,14,0 ],10,'ExternalName','BR_Encounter_ENCType_Code').
+struct_dt_elem_i([ 0,14,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],11,name,'Br_encounter_admitdate').
+struct_dt_elem_i([ 0,14,0 ],11,camelname,'BR_Encounter_AdmitDate').
+struct_dt_elem_i([ 0,14,0 ],11,basedon,64).
+struct_dt_elem_i([ 0,14,0 ],11,length,8).
+struct_dt_elem_i([ 0,14,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],11,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,14,0 ],11,pic,'99/99/9999').
+struct_dt_elem_i([ 0,14,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],11,attributeid,'91').
+struct_dt_elem_i([ 0,14,0 ],11,'ExternalName','BR_Encounter_AdmitDate').
+struct_dt_elem_i([ 0,14,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],12,name,'Br_encounter_admitsource').
+struct_dt_elem_i([ 0,14,0 ],12,camelname,'BR_Encounter_AdmitSource').
+struct_dt_elem_i([ 0,14,0 ],12,length,100).
+struct_dt_elem_i([ 0,14,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],12,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,14,0 ],12,pic,'').
+struct_dt_elem_i([ 0,14,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],12,attributeid,'92').
+struct_dt_elem_i([ 0,14,0 ],12,'ExternalName','BR_Encounter_AdmitSource').
+struct_dt_elem_i([ 0,14,0 ],12,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],13,name,'Br_encounter_admitsource_code').
+struct_dt_elem_i([ 0,14,0 ],13,camelname,'BR_Encounter_AdmitSource_Code').
+struct_dt_elem_i([ 0,14,0 ],13,length,40).
+struct_dt_elem_i([ 0,14,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],13,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],13,pic,'').
+struct_dt_elem_i([ 0,14,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],13,attributeid,'472').
+struct_dt_elem_i([ 0,14,0 ],13,'ExternalName','BR_Encounter_AdmitSource_Code').
+struct_dt_elem_i([ 0,14,0 ],13,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],14,name,'Br_encounter_dischargedate').
+struct_dt_elem_i([ 0,14,0 ],14,camelname,'BR_Encounter_DischargeDate').
+struct_dt_elem_i([ 0,14,0 ],14,basedon,64).
+struct_dt_elem_i([ 0,14,0 ],14,length,8).
+struct_dt_elem_i([ 0,14,0 ],14,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],14,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,14,0 ],14,pic,'99/99/9999').
+struct_dt_elem_i([ 0,14,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],14,attributeid,'93').
+struct_dt_elem_i([ 0,14,0 ],14,'ExternalName','BR_Encounter_DischargeDate').
+struct_dt_elem_i([ 0,14,0 ],14,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],15,name,'Br_encounter_dischargestatus').
+struct_dt_elem_i([ 0,14,0 ],15,camelname,'BR_Encounter_DischargeStatus').
+struct_dt_elem_i([ 0,14,0 ],15,length,100).
+struct_dt_elem_i([ 0,14,0 ],15,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],15,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,14,0 ],15,pic,'').
+struct_dt_elem_i([ 0,14,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],15,attributeid,'94').
+struct_dt_elem_i([ 0,14,0 ],15,'ExternalName','BR_Encounter_DischargeStatus').
+struct_dt_elem_i([ 0,14,0 ],15,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],16,name,'Br_encounter_dischargestatus_code').
+struct_dt_elem_i([ 0,14,0 ],16,camelname,'BR_Encounter_DischargeStatus_Code').
+struct_dt_elem_i([ 0,14,0 ],16,length,40).
+struct_dt_elem_i([ 0,14,0 ],16,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],16,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],16,pic,'').
+struct_dt_elem_i([ 0,14,0 ],16,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],16,attributeid,'473').
+struct_dt_elem_i([ 0,14,0 ],16,'ExternalName','BR_Encounter_DischargeStatus_Code').
+struct_dt_elem_i([ 0,14,0 ],16,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],17,name,'Br_encounter_insurance').
+struct_dt_elem_i([ 0,14,0 ],17,camelname,'BR_Encounter_Insurance').
+struct_dt_elem_i([ 0,14,0 ],17,length,100).
+struct_dt_elem_i([ 0,14,0 ],17,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],17,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,14,0 ],17,pic,'').
+struct_dt_elem_i([ 0,14,0 ],17,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],17,attributeid,'574').
+struct_dt_elem_i([ 0,14,0 ],17,'ExternalName','BR_Encounter_Insurance').
+struct_dt_elem_i([ 0,14,0 ],17,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],18,name,'Br_encounter_insurance_code').
+struct_dt_elem_i([ 0,14,0 ],18,camelname,'BR_Encounter_Insurance_Code').
+struct_dt_elem_i([ 0,14,0 ],18,length,40).
+struct_dt_elem_i([ 0,14,0 ],18,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],18,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],18,pic,'').
+struct_dt_elem_i([ 0,14,0 ],18,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],18,attributeid,'575').
+struct_dt_elem_i([ 0,14,0 ],18,'ExternalName','BR_Encounter_Insurance_Code').
+struct_dt_elem_i([ 0,14,0 ],18,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],19,name,'Br_encounter_status').
+struct_dt_elem_i([ 0,14,0 ],19,camelname,'BR_Encounter_Status').
+struct_dt_elem_i([ 0,14,0 ],19,basedon,94).
+struct_dt_elem_i([ 0,14,0 ],19,length,4).
+struct_dt_elem_i([ 0,14,0 ],19,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],19,sign,0).
+struct_dt_elem_i([ 0,14,0 ],19,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,14,0 ],19,pic,'ZZZ9').
+struct_dt_elem_i([ 0,14,0 ],19,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],19,attributeid,'172').
+struct_dt_elem_i([ 0,14,0 ],19,'ExternalName','BR_Encounter_Status').
+struct_dt_elem_i([ 0,14,0 ],19,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],20,name,'Br_information_id').
+struct_dt_elem_i([ 0,14,0 ],20,camelname,'BR_Information_ID').
+struct_dt_elem_i([ 0,14,0 ],20,basedon,69).
+struct_dt_elem_i([ 0,14,0 ],20,length,18).
+struct_dt_elem_i([ 0,14,0 ],20,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],20,sign,0).
+struct_dt_elem_i([ 0,14,0 ],20,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,14,0 ],20,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,14,0 ],20,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],20,attributeid,'85').
+struct_dt_elem_i([ 0,14,0 ],20,'ExternalName','BR_Information_ID').
+struct_dt_elem_i([ 0,14,0 ],20,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],21,name,'Br_information_patientno').
+struct_dt_elem_i([ 0,14,0 ],21,camelname,'BR_Information_PatientNo').
+struct_dt_elem_i([ 0,14,0 ],21,length,2000).
+struct_dt_elem_i([ 0,14,0 ],21,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],21,type,[ 13,2000,0 ]).
+struct_dt_elem_i([ 0,14,0 ],21,pic,'').
+struct_dt_elem_i([ 0,14,0 ],21,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],21,attributeid,'36').
+struct_dt_elem_i([ 0,14,0 ],21,'ExternalName','BR_Information_PatientNo').
+struct_dt_elem_i([ 0,14,0 ],21,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],22,name,'Bas_tenanttenantcode').
+struct_dt_elem_i([ 0,14,0 ],22,camelname,'BAS_TenantTenantCode').
+struct_dt_elem_i([ 0,14,0 ],22,length,20).
+struct_dt_elem_i([ 0,14,0 ],22,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],22,type,[ 13,20,0 ]).
+struct_dt_elem_i([ 0,14,0 ],22,pic,'').
+struct_dt_elem_i([ 0,14,0 ],22,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],22,attributeid,'360').
+struct_dt_elem_i([ 0,14,0 ],22,'ExternalName','BAS_TenantTenantCode').
+struct_dt_elem_i([ 0,14,0 ],22,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],23,name,'Br_encounter_crtdate').
+struct_dt_elem_i([ 0,14,0 ],23,camelname,'BR_Encounter_CrtDate').
+struct_dt_elem_i([ 0,14,0 ],23,basedon,66).
+struct_dt_elem_i([ 0,14,0 ],23,length,10).
+struct_dt_elem_i([ 0,14,0 ],23,decimals,8).
+struct_dt_elem_i([ 0,14,0 ],23,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,14,0 ],23,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,14,0 ],23,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],23,attributeid,'182').
+struct_dt_elem_i([ 0,14,0 ],23,'ExternalName','BR_Encounter_CrtDate').
+struct_dt_elem_i([ 0,14,0 ],23,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],24,name,'Br_encounter_upddate').
+struct_dt_elem_i([ 0,14,0 ],24,camelname,'BR_Encounter_UpdDate').
+struct_dt_elem_i([ 0,14,0 ],24,basedon,66).
+struct_dt_elem_i([ 0,14,0 ],24,length,10).
+struct_dt_elem_i([ 0,14,0 ],24,decimals,8).
+struct_dt_elem_i([ 0,14,0 ],24,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,14,0 ],24,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,14,0 ],24,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],24,attributeid,'187').
+struct_dt_elem_i([ 0,14,0 ],24,'ExternalName','BR_Encounter_UpdDate').
+struct_dt_elem_i([ 0,14,0 ],24,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],25,name,'Br_encounter_crtuser').
+struct_dt_elem_i([ 0,14,0 ],25,camelname,'BR_Encounter_CrtUser').
+struct_dt_elem_i([ 0,14,0 ],25,basedon,95).
+struct_dt_elem_i([ 0,14,0 ],25,length,100).
+struct_dt_elem_i([ 0,14,0 ],25,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],25,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,14,0 ],25,pic,'').
+struct_dt_elem_i([ 0,14,0 ],25,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],25,attributeid,'183').
+struct_dt_elem_i([ 0,14,0 ],25,'ExternalName','BR_Encounter_CrtUser').
+struct_dt_elem_i([ 0,14,0 ],25,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],26,name,'Br_encounter_crtdisplayname').
+struct_dt_elem_i([ 0,14,0 ],26,camelname,'BR_Encounter_CrtDisplayName').
+struct_dt_elem_i([ 0,14,0 ],26,length,100).
+struct_dt_elem_i([ 0,14,0 ],26,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],26,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,14,0 ],26,pic,'').
+struct_dt_elem_i([ 0,14,0 ],26,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],26,attributeid,'512').
+struct_dt_elem_i([ 0,14,0 ],26,'ExternalName','BR_Encounter_CrtDisplayName').
+struct_dt_elem_i([ 0,14,0 ],26,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],27,name,'Br_encounter_upduser').
+struct_dt_elem_i([ 0,14,0 ],27,camelname,'BR_Encounter_UpdUser').
+struct_dt_elem_i([ 0,14,0 ],27,basedon,67).
+struct_dt_elem_i([ 0,14,0 ],27,length,40).
+struct_dt_elem_i([ 0,14,0 ],27,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],27,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],27,pic,'').
+struct_dt_elem_i([ 0,14,0 ],27,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],27,attributeid,'186').
+struct_dt_elem_i([ 0,14,0 ],27,'ExternalName','BR_Encounter_UpdUser').
+struct_dt_elem_i([ 0,14,0 ],27,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],28,name,'Br_encounter_isdlt').
+struct_dt_elem_i([ 0,14,0 ],28,camelname,'BR_Encounter_IsDLT').
+struct_dt_elem_i([ 0,14,0 ],28,length,4).
+struct_dt_elem_i([ 0,14,0 ],28,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],28,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,14,0 ],28,pic,'').
+struct_dt_elem_i([ 0,14,0 ],28,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],28,attributeid,'333').
+struct_dt_elem_i([ 0,14,0 ],28,'ExternalName','BR_Encounter_IsDLT').
+struct_dt_elem_i([ 0,14,0 ],28,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],29,name,'Br_encounter_submituser').
+struct_dt_elem_i([ 0,14,0 ],29,camelname,'BR_Encounter_SubmitUser').
+struct_dt_elem_i([ 0,14,0 ],29,basedon,67).
+struct_dt_elem_i([ 0,14,0 ],29,length,40).
+struct_dt_elem_i([ 0,14,0 ],29,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],29,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],29,pic,'').
+struct_dt_elem_i([ 0,14,0 ],29,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],29,attributeid,'184').
+struct_dt_elem_i([ 0,14,0 ],29,'ExternalName','BR_Encounter_SubmitUser').
+struct_dt_elem_i([ 0,14,0 ],29,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],30,name,'Br_encounter_reason').
+struct_dt_elem_i([ 0,14,0 ],30,camelname,'BR_Encounter_Reason').
+struct_dt_elem_i([ 0,14,0 ],30,length,300).
+struct_dt_elem_i([ 0,14,0 ],30,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],30,type,[ 13,300,0 ]).
+struct_dt_elem_i([ 0,14,0 ],30,pic,'').
+struct_dt_elem_i([ 0,14,0 ],30,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],30,attributeid,'335').
+struct_dt_elem_i([ 0,14,0 ],30,'ExternalName','BR_Encounter_Reason').
+struct_dt_elem_i([ 0,14,0 ],30,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],31,name,'Br_encounter_submitdate').
+struct_dt_elem_i([ 0,14,0 ],31,camelname,'BR_Encounter_SubmitDate').
+struct_dt_elem_i([ 0,14,0 ],31,basedon,66).
+struct_dt_elem_i([ 0,14,0 ],31,length,10).
+struct_dt_elem_i([ 0,14,0 ],31,decimals,8).
+struct_dt_elem_i([ 0,14,0 ],31,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,14,0 ],31,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,14,0 ],31,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],31,attributeid,'185').
+struct_dt_elem_i([ 0,14,0 ],31,'ExternalName','BR_Encounter_SubmitDate').
+struct_dt_elem_i([ 0,14,0 ],31,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],32,name,'Br_encounter_recheckuser').
+struct_dt_elem_i([ 0,14,0 ],32,camelname,'BR_Encounter_RecheckUser').
+struct_dt_elem_i([ 0,14,0 ],32,basedon,67).
+struct_dt_elem_i([ 0,14,0 ],32,length,40).
+struct_dt_elem_i([ 0,14,0 ],32,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],32,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],32,pic,'').
+struct_dt_elem_i([ 0,14,0 ],32,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],32,attributeid,'188').
+struct_dt_elem_i([ 0,14,0 ],32,'ExternalName','BR_Encounter_RecheckUser').
+struct_dt_elem_i([ 0,14,0 ],32,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],33,name,'Br_encounter_freason').
+struct_dt_elem_i([ 0,14,0 ],33,camelname,'BR_Encounter_FReason').
+struct_dt_elem_i([ 0,14,0 ],33,length,300).
+struct_dt_elem_i([ 0,14,0 ],33,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],33,type,[ 13,300,0 ]).
+struct_dt_elem_i([ 0,14,0 ],33,pic,'').
+struct_dt_elem_i([ 0,14,0 ],33,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],33,attributeid,'336').
+struct_dt_elem_i([ 0,14,0 ],33,'ExternalName','BR_Encounter_FReason').
+struct_dt_elem_i([ 0,14,0 ],33,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],34,name,'Br_encounter_recheckdate').
+struct_dt_elem_i([ 0,14,0 ],34,camelname,'BR_Encounter_RecheckDate').
+struct_dt_elem_i([ 0,14,0 ],34,basedon,66).
+struct_dt_elem_i([ 0,14,0 ],34,length,10).
+struct_dt_elem_i([ 0,14,0 ],34,decimals,8).
+struct_dt_elem_i([ 0,14,0 ],34,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,14,0 ],34,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,14,0 ],34,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],34,attributeid,'189').
+struct_dt_elem_i([ 0,14,0 ],34,'ExternalName','BR_Encounter_RecheckDate').
+struct_dt_elem_i([ 0,14,0 ],34,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],35,name,'Br_encounter_approver').
+struct_dt_elem_i([ 0,14,0 ],35,camelname,'BR_Encounter_Approver').
+struct_dt_elem_i([ 0,14,0 ],35,basedon,67).
+struct_dt_elem_i([ 0,14,0 ],35,length,40).
+struct_dt_elem_i([ 0,14,0 ],35,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],35,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],35,pic,'').
+struct_dt_elem_i([ 0,14,0 ],35,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],35,attributeid,'190').
+struct_dt_elem_i([ 0,14,0 ],35,'ExternalName','BR_Encounter_Approver').
+struct_dt_elem_i([ 0,14,0 ],35,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],36,name,'Br_encounter_approvedate').
+struct_dt_elem_i([ 0,14,0 ],36,camelname,'BR_Encounter_ApproveDate').
+struct_dt_elem_i([ 0,14,0 ],36,basedon,66).
+struct_dt_elem_i([ 0,14,0 ],36,length,10).
+struct_dt_elem_i([ 0,14,0 ],36,decimals,8).
+struct_dt_elem_i([ 0,14,0 ],36,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,14,0 ],36,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,14,0 ],36,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],36,attributeid,'191').
+struct_dt_elem_i([ 0,14,0 ],36,'ExternalName','BR_Encounter_ApproveDate').
+struct_dt_elem_i([ 0,14,0 ],36,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],37,name,'Br_encounter_israndapprove').
+struct_dt_elem_i([ 0,14,0 ],37,camelname,'BR_Encounter_IsRandApprove').
+struct_dt_elem_i([ 0,14,0 ],37,length,4).
+struct_dt_elem_i([ 0,14,0 ],37,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],37,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,14,0 ],37,pic,'').
+struct_dt_elem_i([ 0,14,0 ],37,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],37,attributeid,'192').
+struct_dt_elem_i([ 0,14,0 ],37,'ExternalName','BR_Encounter_IsRandApprove').
+struct_dt_elem_i([ 0,14,0 ],37,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],38,name,'Br_encounter_israndapprover').
+struct_dt_elem_i([ 0,14,0 ],38,camelname,'BR_Encounter_IsRandApprover').
+struct_dt_elem_i([ 0,14,0 ],38,basedon,67).
+struct_dt_elem_i([ 0,14,0 ],38,length,40).
+struct_dt_elem_i([ 0,14,0 ],38,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],38,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],38,pic,'').
+struct_dt_elem_i([ 0,14,0 ],38,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],38,attributeid,'203').
+struct_dt_elem_i([ 0,14,0 ],38,'ExternalName','BR_Encounter_IsRandApprover').
+struct_dt_elem_i([ 0,14,0 ],38,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],39,name,'Br_encounter_israndnoapprover').
+struct_dt_elem_i([ 0,14,0 ],39,camelname,'BR_Encounter_IsRandNoApprover').
+struct_dt_elem_i([ 0,14,0 ],39,basedon,67).
+struct_dt_elem_i([ 0,14,0 ],39,length,40).
+struct_dt_elem_i([ 0,14,0 ],39,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],39,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],39,pic,'').
+struct_dt_elem_i([ 0,14,0 ],39,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],39,attributeid,'204').
+struct_dt_elem_i([ 0,14,0 ],39,'ExternalName','BR_Encounter_IsRandNoApprover').
+struct_dt_elem_i([ 0,14,0 ],39,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],40,name,'Br_encounter_israndapprovedate').
+struct_dt_elem_i([ 0,14,0 ],40,camelname,'BR_Encounter_IsRandApproveDate').
+struct_dt_elem_i([ 0,14,0 ],40,basedon,66).
+struct_dt_elem_i([ 0,14,0 ],40,length,10).
+struct_dt_elem_i([ 0,14,0 ],40,decimals,8).
+struct_dt_elem_i([ 0,14,0 ],40,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,14,0 ],40,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,14,0 ],40,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],40,attributeid,'205').
+struct_dt_elem_i([ 0,14,0 ],40,'ExternalName','BR_Encounter_IsRandApproveDate').
+struct_dt_elem_i([ 0,14,0 ],40,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],41,name,'Br_encounter_israndnoapprovedate').
+struct_dt_elem_i([ 0,14,0 ],41,camelname,'BR_Encounter_IsRandNoApproveDate').
+struct_dt_elem_i([ 0,14,0 ],41,basedon,66).
+struct_dt_elem_i([ 0,14,0 ],41,length,10).
+struct_dt_elem_i([ 0,14,0 ],41,decimals,8).
+struct_dt_elem_i([ 0,14,0 ],41,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,14,0 ],41,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,14,0 ],41,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],41,attributeid,'206').
+struct_dt_elem_i([ 0,14,0 ],41,'ExternalName','BR_Encounter_IsRandNoApproveDate').
+struct_dt_elem_i([ 0,14,0 ],41,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],42,name,'Br_encounter_israndrecheck').
+struct_dt_elem_i([ 0,14,0 ],42,camelname,'BR_Encounter_IsRandRecheck').
+struct_dt_elem_i([ 0,14,0 ],42,length,4).
+struct_dt_elem_i([ 0,14,0 ],42,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],42,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,14,0 ],42,pic,'').
+struct_dt_elem_i([ 0,14,0 ],42,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],42,attributeid,'193').
+struct_dt_elem_i([ 0,14,0 ],42,'ExternalName','BR_Encounter_IsRandRecheck').
+struct_dt_elem_i([ 0,14,0 ],42,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],43,name,'Br_encounter_israndrecheckr').
+struct_dt_elem_i([ 0,14,0 ],43,camelname,'BR_Encounter_IsRandRecheckr').
+struct_dt_elem_i([ 0,14,0 ],43,basedon,67).
+struct_dt_elem_i([ 0,14,0 ],43,length,40).
+struct_dt_elem_i([ 0,14,0 ],43,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],43,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],43,pic,'').
+struct_dt_elem_i([ 0,14,0 ],43,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],43,attributeid,'207').
+struct_dt_elem_i([ 0,14,0 ],43,'ExternalName','BR_Encounter_IsRandRecheckr').
+struct_dt_elem_i([ 0,14,0 ],43,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],44,name,'Br_encounter_israndnorecheckr').
+struct_dt_elem_i([ 0,14,0 ],44,camelname,'BR_Encounter_IsRandNoRecheckr').
+struct_dt_elem_i([ 0,14,0 ],44,basedon,67).
+struct_dt_elem_i([ 0,14,0 ],44,length,40).
+struct_dt_elem_i([ 0,14,0 ],44,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],44,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,14,0 ],44,pic,'').
+struct_dt_elem_i([ 0,14,0 ],44,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],44,attributeid,'208').
+struct_dt_elem_i([ 0,14,0 ],44,'ExternalName','BR_Encounter_IsRandNoRecheckr').
+struct_dt_elem_i([ 0,14,0 ],44,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],45,name,'Br_encounter_israndrecheckdate').
+struct_dt_elem_i([ 0,14,0 ],45,camelname,'BR_Encounter_IsRandRecheckDate').
+struct_dt_elem_i([ 0,14,0 ],45,basedon,66).
+struct_dt_elem_i([ 0,14,0 ],45,length,10).
+struct_dt_elem_i([ 0,14,0 ],45,decimals,8).
+struct_dt_elem_i([ 0,14,0 ],45,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,14,0 ],45,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,14,0 ],45,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],45,attributeid,'209').
+struct_dt_elem_i([ 0,14,0 ],45,'ExternalName','BR_Encounter_IsRandRecheckDate').
+struct_dt_elem_i([ 0,14,0 ],45,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],46,name,'Br_encounter_israndnorecheckdate').
+struct_dt_elem_i([ 0,14,0 ],46,camelname,'BR_Encounter_IsRandNoRecheckDate').
+struct_dt_elem_i([ 0,14,0 ],46,basedon,66).
+struct_dt_elem_i([ 0,14,0 ],46,length,10).
+struct_dt_elem_i([ 0,14,0 ],46,decimals,8).
+struct_dt_elem_i([ 0,14,0 ],46,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,14,0 ],46,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,14,0 ],46,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],46,attributeid,'210').
+struct_dt_elem_i([ 0,14,0 ],46,'ExternalName','BR_Encounter_IsRandNoRecheckDate').
+struct_dt_elem_i([ 0,14,0 ],46,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],47,name,'Br_encounter_isupdate').
+struct_dt_elem_i([ 0,14,0 ],47,camelname,'BR_Encounter_IsUpdate').
+struct_dt_elem_i([ 0,14,0 ],47,length,4).
+struct_dt_elem_i([ 0,14,0 ],47,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],47,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,14,0 ],47,pic,'').
+struct_dt_elem_i([ 0,14,0 ],47,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],47,attributeid,'202').
+struct_dt_elem_i([ 0,14,0 ],47,'ExternalName','BR_Encounter_IsUpdate').
+struct_dt_elem_i([ 0,14,0 ],47,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],48,name,'Br_encounter_datasource').
+struct_dt_elem_i([ 0,14,0 ],48,camelname,'BR_Encounter_Datasource').
+struct_dt_elem_i([ 0,14,0 ],48,basedon,117).
+struct_dt_elem_i([ 0,14,0 ],48,length,4).
+struct_dt_elem_i([ 0,14,0 ],48,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],48,sign,0).
+struct_dt_elem_i([ 0,14,0 ],48,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,14,0 ],48,pic,'ZZZ9').
+struct_dt_elem_i([ 0,14,0 ],48,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],48,attributeid,'537').
+struct_dt_elem_i([ 0,14,0 ],48,'ExternalName','BR_Encounter_Datasource').
+struct_dt_elem_i([ 0,14,0 ],48,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],49,name,'Encounteridencrypt').
+struct_dt_elem_i([ 0,14,0 ],49,camelname,'EncounterIDEncrypt').
+struct_dt_elem_i([ 0,14,0 ],49,length,500).
+struct_dt_elem_i([ 0,14,0 ],49,decimals,0).
+struct_dt_elem_i([ 0,14,0 ],49,type,[ 13,500,0 ]).
+struct_dt_elem_i([ 0,14,0 ],49,pic,'').
+struct_dt_elem_i([ 0,14,0 ],49,collection,'False').
+struct_dt_elem_i([ 0,14,0 ],49,attributeid,'560').
+struct_dt_elem_i([ 0,14,0 ],49,'ExternalName','EncounterIDEncrypt').
+struct_dt_elem_i([ 0,14,0 ],49,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,name,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,length,128).
+struct_dt_elem_i([ 26,8,25 ],1,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,8,25 ],1,pic,'').
+struct_dt_elem_i([ 26,8,25 ],1,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],1,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],1,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],2,name,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,basedon,30).
+struct_dt_elem_i([ 26,8,25 ],2,length,2).
+struct_dt_elem_i([ 26,8,25 ],2,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],2,sign,0).
+struct_dt_elem_i([ 26,8,25 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,8,25 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,8,25 ],2,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],2,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],2,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],3,name,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,length,256).
+struct_dt_elem_i([ 26,8,25 ],3,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,8,25 ],3,pic,'').
+struct_dt_elem_i([ 26,8,25 ],3,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],3,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],3,'JsonName','').
+struct_dt_elem_i([ 0,41,0 ],1,name,'Br_encounter_refusereasonid').
+struct_dt_elem_i([ 0,41,0 ],1,camelname,'BR_Encounter_RefuseReasonID').
+struct_dt_elem_i([ 0,41,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,41,0 ],1,length,18).
+struct_dt_elem_i([ 0,41,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,41,0 ],1,sign,0).
+struct_dt_elem_i([ 0,41,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,41,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,41,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,41,0 ],1,attributeid,'348').
+struct_dt_elem_i([ 0,41,0 ],1,'ExternalName','BR_Encounter_RefuseReasonID').
+struct_dt_elem_i([ 0,41,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,41,0 ],2,name,'Br_encounterid').
+struct_dt_elem_i([ 0,41,0 ],2,camelname,'BR_EncounterID').
+struct_dt_elem_i([ 0,41,0 ],2,basedon,69).
+struct_dt_elem_i([ 0,41,0 ],2,length,18).
+struct_dt_elem_i([ 0,41,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,41,0 ],2,sign,0).
+struct_dt_elem_i([ 0,41,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,41,0 ],2,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,41,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,41,0 ],2,attributeid,'19').
+struct_dt_elem_i([ 0,41,0 ],2,'ExternalName','BR_EncounterID').
+struct_dt_elem_i([ 0,41,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,41,0 ],3,name,'Br_encounter_refusereason_reason').
+struct_dt_elem_i([ 0,41,0 ],3,camelname,'BR_Encounter_RefuseReason_Reason').
+struct_dt_elem_i([ 0,41,0 ],3,length,300).
+struct_dt_elem_i([ 0,41,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,41,0 ],3,type,[ 13,300,0 ]).
+struct_dt_elem_i([ 0,41,0 ],3,pic,'').
+struct_dt_elem_i([ 0,41,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,41,0 ],3,attributeid,'349').
+struct_dt_elem_i([ 0,41,0 ],3,'ExternalName','BR_Encounter_RefuseReason_Reason').
+struct_dt_elem_i([ 0,41,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,41,0 ],4,name,'Br_encounter_refusereason_noapprovedate').
+struct_dt_elem_i([ 0,41,0 ],4,camelname,'BR_Encounter_RefuseReason_NoApproveDate').
+struct_dt_elem_i([ 0,41,0 ],4,basedon,66).
+struct_dt_elem_i([ 0,41,0 ],4,length,10).
+struct_dt_elem_i([ 0,41,0 ],4,decimals,8).
+struct_dt_elem_i([ 0,41,0 ],4,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,41,0 ],4,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,41,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,41,0 ],4,attributeid,'350').
+struct_dt_elem_i([ 0,41,0 ],4,'ExternalName','BR_Encounter_RefuseReason_NoApproveDate').
+struct_dt_elem_i([ 0,41,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,41,0 ],5,name,'Br_encounter_refusereason_status').
+struct_dt_elem_i([ 0,41,0 ],5,camelname,'BR_Encounter_RefuseReason_Status').
+struct_dt_elem_i([ 0,41,0 ],5,basedon,106).
+struct_dt_elem_i([ 0,41,0 ],5,length,4).
+struct_dt_elem_i([ 0,41,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,41,0 ],5,sign,0).
+struct_dt_elem_i([ 0,41,0 ],5,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,41,0 ],5,pic,'ZZZ9').
+struct_dt_elem_i([ 0,41,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,41,0 ],5,attributeid,'351').
+struct_dt_elem_i([ 0,41,0 ],5,'ExternalName','BR_Encounter_RefuseReason_Status').
+struct_dt_elem_i([ 0,41,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,41,0 ],6,name,'Br_encounter_refusereason_approver').
+struct_dt_elem_i([ 0,41,0 ],6,camelname,'BR_Encounter_RefuseReason_Approver').
+struct_dt_elem_i([ 0,41,0 ],6,basedon,67).
+struct_dt_elem_i([ 0,41,0 ],6,length,40).
+struct_dt_elem_i([ 0,41,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,41,0 ],6,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,41,0 ],6,pic,'').
+struct_dt_elem_i([ 0,41,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,41,0 ],6,attributeid,'352').
+struct_dt_elem_i([ 0,41,0 ],6,'ExternalName','BR_Encounter_RefuseReason_Approver').
+struct_dt_elem_i([ 0,41,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,41,0 ],7,name,'Br_encounterreason_isapprove').
+struct_dt_elem_i([ 0,41,0 ],7,camelname,'BR_EncounterReason_IsApprove').
+struct_dt_elem_i([ 0,41,0 ],7,length,4).
+struct_dt_elem_i([ 0,41,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,41,0 ],7,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,41,0 ],7,pic,'').
+struct_dt_elem_i([ 0,41,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,41,0 ],7,attributeid,'353').
+struct_dt_elem_i([ 0,41,0 ],7,'ExternalName','BR_EncounterReason_IsApprove').
+struct_dt_elem_i([ 0,41,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,41,0 ],8,name,'Br_information_id').
+struct_dt_elem_i([ 0,41,0 ],8,camelname,'BR_Information_ID').
+struct_dt_elem_i([ 0,41,0 ],8,basedon,69).
+struct_dt_elem_i([ 0,41,0 ],8,length,18).
+struct_dt_elem_i([ 0,41,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,41,0 ],8,sign,0).
+struct_dt_elem_i([ 0,41,0 ],8,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,41,0 ],8,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,41,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,41,0 ],8,attributeid,'85').
+struct_dt_elem_i([ 0,41,0 ],8,'ExternalName','BR_Information_ID').
+struct_dt_elem_i([ 0,41,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,41,0 ],9,name,'Br_encounterreason_vstatus').
+struct_dt_elem_i([ 0,41,0 ],9,camelname,'BR_EncounterReason_vStatus').
+struct_dt_elem_i([ 0,41,0 ],9,basedon,107).
+struct_dt_elem_i([ 0,41,0 ],9,length,4).
+struct_dt_elem_i([ 0,41,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,41,0 ],9,sign,0).
+struct_dt_elem_i([ 0,41,0 ],9,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,41,0 ],9,pic,'ZZZ9').
+struct_dt_elem_i([ 0,41,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,41,0 ],9,attributeid,'356').
+struct_dt_elem_i([ 0,41,0 ],9,'ExternalName','BR_EncounterReason_vStatus').
+struct_dt_elem_i([ 0,41,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,41,0 ],10,name,'Br_encounter_refusereason_freason').
+struct_dt_elem_i([ 0,41,0 ],10,camelname,'BR_Encounter_RefuseReason_FReason').
+struct_dt_elem_i([ 0,41,0 ],10,length,300).
+struct_dt_elem_i([ 0,41,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,41,0 ],10,type,[ 13,300,0 ]).
+struct_dt_elem_i([ 0,41,0 ],10,pic,'').
+struct_dt_elem_i([ 0,41,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,41,0 ],10,attributeid,'355').
+struct_dt_elem_i([ 0,41,0 ],10,'ExternalName','BR_Encounter_RefuseReason_FReason').
+struct_dt_elem_i([ 0,41,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,41,0 ],11,name,'Br_encounter_refusereason_fapprovedate').
+struct_dt_elem_i([ 0,41,0 ],11,camelname,'BR_Encounter_RefuseReason_FApproveDate').
+struct_dt_elem_i([ 0,41,0 ],11,basedon,66).
+struct_dt_elem_i([ 0,41,0 ],11,length,10).
+struct_dt_elem_i([ 0,41,0 ],11,decimals,8).
+struct_dt_elem_i([ 0,41,0 ],11,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,41,0 ],11,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,41,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,41,0 ],11,attributeid,'354').
+struct_dt_elem_i([ 0,41,0 ],11,'ExternalName','BR_Encounter_RefuseReason_FApproveDate').
+struct_dt_elem_i([ 0,41,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,14,0 ],11,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,14,0 ],14,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,14,0 ],25,pic,'99/99/9999 99:99:99').
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'Start',2,12,[ [ 'Br_encounter_refusereasonid' ],[ [ t('Br_encounter_refusereason_br_encounter_refusereason_fapprovedate',3),t('Visible',3) ],'Br_encounter' ] ]).
+sub_info_i(146,'Enter',14,62,[ [ 'Br_encounter_refusereasonid','Br_encounter_refusereason','Br_encounter','Context' ],[ 'Br_encounter_refusereason','Br_encounter','Tvflag' ] ]).
+sub_info_i(146,'Refresh',77,86,[ [],[ 'Context' ] ]).
+ 
+pgm_parm_i(proc,15,'WWPBASEOBJECTS\LOADWWPCONTEXT',[ [ o('WWPBaseObjects\WWPContext'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+ 
+pgm_callprotocol_i(web,268,'BR_ENTERINGREAPTCHECK','INTERNAL').
+pgm_callprotocol_i(proc,15,'WWPBASEOBJECTS\LOADWWPCONTEXT','INTERNAL').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

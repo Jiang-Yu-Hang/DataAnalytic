@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="0647a971-ca91-4efc-b3ee-6f00a3470b2b">
+  <Table name="BR_Scheme" />
+  <Table name="UserCustomizations" />
+</Dependencies>

@@ -1,0 +1,123 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>45</ObjId>
+<ObjName>SYS_Permission</ObjName>
+<ObjDesc>SYS_Permission</ObjDesc>
+<ObjPgmName>SYS_Permission</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>46</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>46</TableId>
+<TableName>SYS_PERMISSION</TableName>
+<Description>SYS_Permission</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>46</TableId>
+<TableName>SYS_PERMISSION</TableName>
+<Description>SYS_Permission</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>362</AttriId>
+<AttriName>PermissionCode</AttriName>
+<Description>Permission Code</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>46</TableId>
+<TableName>SYS_PERMISSION</TableName>
+<Description>SYS_Permission</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>362</AttriId>
+<AttriName>PermissionCode</AttriName>
+<Description>Permission Code</Description></Attribute>
+<Attribute>
+<AttriId>403</AttriId>
+<AttriName>PermissionName</AttriName>
+<Description>Permission Name</Description></Attribute>
+<Attribute>
+<AttriId>404</AttriId>
+<AttriName>OrderIndex</AttriName>
+<Description>Order Index</Description></Attribute>
+<Attribute>
+<AttriId>405</AttriId>
+<AttriName>SYS_PermissionDescription</AttriName>
+<Description>SYS_Permission Description</Description></Attribute>
+<Attribute>
+<AttriId>406</AttriId>
+<AttriName>SYS_PermissionModuleCode</AttriName>
+<Description>SYS_Permission Module Code</Description></Attribute>
+<Attribute>
+<AttriId>407</AttriId>
+<AttriName>SYS_PermissionIsDeleted</AttriName>
+<Description>SYS_Permission Is Deleted</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>46</TableId>
+<TableName>SYS_PERMISSION</TableName>
+<Description>SYS_Permission</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>403</AttriId>
+<AttriName>PermissionName</AttriName>
+<Description>Permission Name</Description></Attribute>
+<Attribute>
+<AttriId>404</AttriId>
+<AttriName>OrderIndex</AttriName>
+<Description>Order Index</Description></Attribute>
+<Attribute>
+<AttriId>405</AttriId>
+<AttriName>SYS_PermissionDescription</AttriName>
+<Description>SYS_Permission Description</Description></Attribute>
+<Attribute>
+<AttriId>406</AttriId>
+<AttriName>SYS_PermissionModuleCode</AttriName>
+<Description>SYS_Permission Module Code</Description></Attribute>
+<Attribute>
+<AttriId>407</AttriId>
+<AttriName>SYS_PermissionIsDeleted</AttriName>
+<Description>SYS_Permission Is Deleted</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>46</TableId>
+<TableName>SYS_PERMISSION</TableName>
+<Description>SYS_Permission</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts></Prompts>
+<Suggests></Suggests></ObjectSpec>

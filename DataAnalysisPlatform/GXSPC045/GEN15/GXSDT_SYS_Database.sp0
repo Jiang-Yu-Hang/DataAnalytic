@@ -1,0 +1,93 @@
+ 
+spec_i([ sdt,[ 0,47,0 ],'SYS_Database','SYS_Database',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,47,0 ],name,'SYS_Database').
+struct_dt_i([ 0,47,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,47,0 ],significantName,'SYS_Database').
+struct_dt_i([ 0,47,0 ],'ObjName','SYS_Database').
+struct_dt_i([ 0,47,0 ],'ObjDesc','SYS_Database').
+struct_dt_i([ 0,47,0 ],'ExternalName','SYS_Database').
+struct_dt_i([ 0,47,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,47,0 ],key,[ 365 ]).
+struct_dt_i([ 0,47,0 ],lvl,48).
+struct_dt_i([ 0,47,0 ],fullname,'SYS_Database').
+ 
+struct_dt_elem_i([ 0,47,0 ],1,name,'Databaseid').
+struct_dt_elem_i([ 0,47,0 ],1,camelname,'DatabaseID').
+struct_dt_elem_i([ 0,47,0 ],1,length,9).
+struct_dt_elem_i([ 0,47,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,47,0 ],1,sign,0).
+struct_dt_elem_i([ 0,47,0 ],1,type,[ 4,9,0 ]).
+struct_dt_elem_i([ 0,47,0 ],1,pic,'ZZZZZZZZ9').
+struct_dt_elem_i([ 0,47,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,47,0 ],1,attributeid,'365').
+struct_dt_elem_i([ 0,47,0 ],1,'ExternalName','DatabaseID').
+struct_dt_elem_i([ 0,47,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,47,0 ],2,name,'Databasename').
+struct_dt_elem_i([ 0,47,0 ],2,camelname,'DatabaseName').
+struct_dt_elem_i([ 0,47,0 ],2,length,100).
+struct_dt_elem_i([ 0,47,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,47,0 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,47,0 ],2,pic,'').
+struct_dt_elem_i([ 0,47,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,47,0 ],2,attributeid,'380').
+struct_dt_elem_i([ 0,47,0 ],2,'ExternalName','DatabaseName').
+struct_dt_elem_i([ 0,47,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,47,0 ],3,name,'Connectionstring').
+struct_dt_elem_i([ 0,47,0 ],3,camelname,'ConnectionString').
+struct_dt_elem_i([ 0,47,0 ],3,length,200).
+struct_dt_elem_i([ 0,47,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,47,0 ],3,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,47,0 ],3,pic,'').
+struct_dt_elem_i([ 0,47,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,47,0 ],3,attributeid,'381').
+struct_dt_elem_i([ 0,47,0 ],3,'ExternalName','ConnectionString').
+struct_dt_elem_i([ 0,47,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,47,0 ],4,name,'Sys_databasecreator').
+struct_dt_elem_i([ 0,47,0 ],4,camelname,'SYS_DatabaseCreator').
+struct_dt_elem_i([ 0,47,0 ],4,length,50).
+struct_dt_elem_i([ 0,47,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,47,0 ],4,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,47,0 ],4,pic,'').
+struct_dt_elem_i([ 0,47,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,47,0 ],4,attributeid,'382').
+struct_dt_elem_i([ 0,47,0 ],4,'ExternalName','SYS_DatabaseCreator').
+struct_dt_elem_i([ 0,47,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,47,0 ],5,name,'Sys_databasecreatetime').
+struct_dt_elem_i([ 0,47,0 ],5,camelname,'SYS_DatabaseCreateTime').
+struct_dt_elem_i([ 0,47,0 ],5,length,10).
+struct_dt_elem_i([ 0,47,0 ],5,decimals,8).
+struct_dt_elem_i([ 0,47,0 ],5,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,47,0 ],5,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,47,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,47,0 ],5,attributeid,'383').
+struct_dt_elem_i([ 0,47,0 ],5,'ExternalName','SYS_DatabaseCreateTime').
+struct_dt_elem_i([ 0,47,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,47,0 ],6,name,'Sys_databasemodifier').
+struct_dt_elem_i([ 0,47,0 ],6,camelname,'SYS_DatabaseModifier').
+struct_dt_elem_i([ 0,47,0 ],6,length,50).
+struct_dt_elem_i([ 0,47,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,47,0 ],6,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,47,0 ],6,pic,'').
+struct_dt_elem_i([ 0,47,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,47,0 ],6,attributeid,'384').
+struct_dt_elem_i([ 0,47,0 ],6,'ExternalName','SYS_DatabaseModifier').
+struct_dt_elem_i([ 0,47,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,47,0 ],7,name,'Sys_databasemodifytime').
+struct_dt_elem_i([ 0,47,0 ],7,camelname,'SYS_DatabaseModifyTime').
+struct_dt_elem_i([ 0,47,0 ],7,length,10).
+struct_dt_elem_i([ 0,47,0 ],7,decimals,8).
+struct_dt_elem_i([ 0,47,0 ],7,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,47,0 ],7,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,47,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,47,0 ],7,attributeid,'385').
+struct_dt_elem_i([ 0,47,0 ],7,'ExternalName','SYS_DatabaseModifyTime').
+struct_dt_elem_i([ 0,47,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

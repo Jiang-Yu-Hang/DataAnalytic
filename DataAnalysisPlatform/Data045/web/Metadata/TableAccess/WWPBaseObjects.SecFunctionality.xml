@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="226253c8-33c8-4da6-a81c-e11bf47521e4">
+  <Table name="SecFunctionality" />
+  <Table name="SecFunctionalityRole" />
+  <Table name="SecObjectFunctionalities" />
+</Dependencies>

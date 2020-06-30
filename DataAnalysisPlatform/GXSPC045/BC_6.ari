@@ -1,0 +1,9 @@
+bc_dt_elem_i([ 0,6,0 ],'Secuserid',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Secroleid',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Secusername',readonly,yes).
+bc_dt_elem_i([ 0,6,0 ],'Secusername',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Secrolename',readonly,yes).
+bc_dt_elem_i([ 0,6,0 ],'Secrolename',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Secroledescription',readonly,yes).
+bc_dt_elem_i([ 0,6,0 ],'Secroledescription',allownulls,no).
+ 

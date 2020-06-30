@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="60a17b32-0c3f-45be-a4bb-ee3a2123bd0f">
+  <Table name="BR_Information" />
+  <Table name="JC_Provider" />
+  <Table name="JC_Provider_Br_Information" />
+</Dependencies>

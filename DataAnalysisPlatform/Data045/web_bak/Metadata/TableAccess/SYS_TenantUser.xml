@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="16f853f9-b2f0-877e-626a-009210be7841">
+  <Table name="SYS_TenantUser" />
+  <Table name="SYS_User" />
+  <Table name="BAS_Tenant" />
+</Dependencies>

@@ -1,0 +1,92 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>54</ObjId>
+<ObjName>BAS_DataPackage_BC</ObjName>
+<ObjDesc>BAS_Data Package</ObjDesc>
+<ObjPgmName>BAS_DataPackage_BC</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>55</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>55</TableId>
+<TableName>BAS_DATAPACKAGE</TableName>
+<Description>BAS_Data Package</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>55</TableId>
+<TableName>BAS_DATAPACKAGE</TableName>
+<Description>BAS_Data Package</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>366</AttriId>
+<AttriName>DataPackage</AttriName>
+<Description>Data Package</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>55</TableId>
+<TableName>BAS_DATAPACKAGE</TableName>
+<Description>BAS_Data Package</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>366</AttriId>
+<AttriName>DataPackage</AttriName>
+<Description>Data Package</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>55</TableId>
+<TableName>BAS_DATAPACKAGE</TableName>
+<Description>BAS_Data Package</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>55</TableId>
+<TableName>BAS_DATAPACKAGE</TableName>
+<Description>BAS_Data Package</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>63</TableId>
+<TableName>BR_PatientReEntity</TableName>
+<Description> T63</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>366</AttriId>
+<AttriName>DataPackage</AttriName>
+<Description>Data Package</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

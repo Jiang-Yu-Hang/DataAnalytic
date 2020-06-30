@@ -1,0 +1,34 @@
+ 
+spec_i([ sdt,[ 14,42,0 ],'AnyObject','AnyObject',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 14,42,0 ],name,'AnyObject').
+struct_dt_i([ 14,42,0 ],'ObjName','AnyObject').
+struct_dt_i([ 14,42,0 ],'ObjDesc','Any Object').
+struct_dt_i([ 14,42,0 ],'ExoType','0').
+struct_dt_i([ 14,42,0 ],'ObjNamespace','GeneXus').
+struct_dt_i([ 14,42,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,42,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,42,0 ],'ExoNameCSHARP','AnyObject').
+struct_dt_i([ 14,42,0 ],'AssemblyName','').
+struct_dt_i([ 14,42,0 ],'ExoConstructorParametersCSHARP','').
+struct_dt_i([ 14,42,0 ],'ExoNameNETCORE','AnyObject').
+struct_dt_i([ 14,42,0 ],'NetCoreAssemblyName','').
+struct_dt_i([ 14,42,0 ],'ExoConstructorParametersNETCORE','').
+struct_dt_i([ 14,42,0 ],'PackageName','').
+struct_dt_i([ 14,42,0 ],'RequireName','').
+struct_dt_i([ 14,42,0 ],'ExoNameJS','').
+struct_dt_i([ 14,42,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,42,0 ],'Folder',o(8,externalObject)).
+struct_dt_i([ 14,42,0 ],'FullyQualifiedName','AnyObject').
+struct_dt_i([ 14,42,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,42,0 ],fullname,'AnyObject').
+struct_dt_i([ 14,42,0 ],modified,yes).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

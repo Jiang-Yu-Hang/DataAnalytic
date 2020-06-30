@@ -1,0 +1,44 @@
+ 
+spec_i([ sdt,[ 0,52,0 ],'SYS_RolePermission','SYS_RolePermission',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,52,0 ],name,'SYS_RolePermission').
+struct_dt_i([ 0,52,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,52,0 ],significantName,'SYS_RolePermission').
+struct_dt_i([ 0,52,0 ],'ObjName','SYS_RolePermission').
+struct_dt_i([ 0,52,0 ],'ObjDesc','SYS_Role Permission').
+struct_dt_i([ 0,52,0 ],'ExternalName','SYS_RolePermission').
+struct_dt_i([ 0,52,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,52,0 ],key,[ 444,445 ]).
+struct_dt_i([ 0,52,0 ],lvl,61).
+struct_dt_i([ 0,52,0 ],fullname,'SYS_RolePermission').
+ 
+struct_dt_elem_i([ 0,52,0 ],1,name,'Sys_rolepermissionroleid').
+struct_dt_elem_i([ 0,52,0 ],1,camelname,'SYS_RolePermissionRoleID').
+struct_dt_elem_i([ 0,52,0 ],1,length,16).
+struct_dt_elem_i([ 0,52,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,52,0 ],1,type,[ 45,16,0 ]).
+struct_dt_elem_i([ 0,52,0 ],1,pic,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX').
+struct_dt_elem_i([ 0,52,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,52,0 ],1,attributeid,'444').
+struct_dt_elem_i([ 0,52,0 ],1,'ExternalName','SYS_RolePermissionRoleID').
+struct_dt_elem_i([ 0,52,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,52,0 ],2,name,'Sys_rolepermissionpermissioncode').
+struct_dt_elem_i([ 0,52,0 ],2,camelname,'SYS_RolePermissionPermissionCode').
+struct_dt_elem_i([ 0,52,0 ],2,length,64).
+struct_dt_elem_i([ 0,52,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,52,0 ],2,type,[ 13,64,0 ]).
+struct_dt_elem_i([ 0,52,0 ],2,pic,'').
+struct_dt_elem_i([ 0,52,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,52,0 ],2,attributeid,'445').
+struct_dt_elem_i([ 0,52,0 ],2,'ExternalName','SYS_RolePermissionPermissionCode').
+struct_dt_elem_i([ 0,52,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

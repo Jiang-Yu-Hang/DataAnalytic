@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="fec63c74-519a-4396-a5f9-64453d2546f1">
+  <Table name="BR_Encounter" />
+  <Table name="BR_Information" />
+  <Table name="BR_Medication" />
+  <Table name="BR_Medication_Scheme" />
+  <Table name="BR_Scheme_Medication" />
+  <Table name="XT_Log" />
+  <Table name="SYS_Log" />
+  <Table name="XT_DefineCode" />
+</Dependencies>

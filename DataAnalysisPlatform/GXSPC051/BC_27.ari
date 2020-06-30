@@ -1,0 +1,5 @@
+bc_dt_elem_i([ 0,27,0 ],'Jc_providerid',allownulls,no).
+bc_dt_elem_i([ 0,27,0 ],'Br_information_id',allownulls,no).
+bc_dt_elem_i([ 0,27,0 ],'Jc_providername',readonly,yes).
+bc_dt_elem_i([ 0,27,0 ],'Br_information_patientno',readonly,yes).
+ 

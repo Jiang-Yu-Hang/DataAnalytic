@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="beaddb02-fa77-39d9-3b81-426061ece2c2">
+  <Table name="SYS_UserRole" />
+  <Table name="SYS_Role" />
+</Dependencies>

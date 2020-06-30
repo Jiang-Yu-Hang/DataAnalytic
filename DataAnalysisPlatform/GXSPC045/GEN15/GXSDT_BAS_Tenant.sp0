@@ -1,0 +1,144 @@
+ 
+spec_i([ sdt,[ 0,51,0 ],'BAS_Tenant','BAS_Tenant',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,51,0 ],name,'BAS_Tenant').
+struct_dt_i([ 0,51,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,51,0 ],significantName,'BAS_Tenant').
+struct_dt_i([ 0,51,0 ],'ObjName','BAS_Tenant').
+struct_dt_i([ 0,51,0 ],'ObjDesc','BAS_Tenant').
+struct_dt_i([ 0,51,0 ],'ExternalName','BAS_Tenant').
+struct_dt_i([ 0,51,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,51,0 ],key,[ 360 ]).
+struct_dt_i([ 0,51,0 ],lvl,52).
+struct_dt_i([ 0,51,0 ],fullname,'BAS_Tenant').
+ 
+struct_dt_elem_i([ 0,51,0 ],1,name,'Bas_tenanttenantcode').
+struct_dt_elem_i([ 0,51,0 ],1,camelname,'BAS_TenantTenantCode').
+struct_dt_elem_i([ 0,51,0 ],1,length,20).
+struct_dt_elem_i([ 0,51,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,51,0 ],1,type,[ 13,20,0 ]).
+struct_dt_elem_i([ 0,51,0 ],1,pic,'').
+struct_dt_elem_i([ 0,51,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,51,0 ],1,attributeid,'360').
+struct_dt_elem_i([ 0,51,0 ],1,'ExternalName','BAS_TenantTenantCode').
+struct_dt_elem_i([ 0,51,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,51,0 ],2,name,'Tenantname').
+struct_dt_elem_i([ 0,51,0 ],2,camelname,'TenantName').
+struct_dt_elem_i([ 0,51,0 ],2,length,200).
+struct_dt_elem_i([ 0,51,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,51,0 ],2,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,51,0 ],2,pic,'').
+struct_dt_elem_i([ 0,51,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,51,0 ],2,attributeid,'394').
+struct_dt_elem_i([ 0,51,0 ],2,'ExternalName','TenantName').
+struct_dt_elem_i([ 0,51,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,51,0 ],3,name,'Institutecode').
+struct_dt_elem_i([ 0,51,0 ],3,camelname,'InstituteCode').
+struct_dt_elem_i([ 0,51,0 ],3,length,20).
+struct_dt_elem_i([ 0,51,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,51,0 ],3,type,[ 13,20,0 ]).
+struct_dt_elem_i([ 0,51,0 ],3,pic,'').
+struct_dt_elem_i([ 0,51,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,51,0 ],3,attributeid,'358').
+struct_dt_elem_i([ 0,51,0 ],3,'ExternalName','InstituteCode').
+struct_dt_elem_i([ 0,51,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,51,0 ],4,name,'Hospitalname').
+struct_dt_elem_i([ 0,51,0 ],4,camelname,'HospitalName').
+struct_dt_elem_i([ 0,51,0 ],4,length,200).
+struct_dt_elem_i([ 0,51,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,51,0 ],4,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,51,0 ],4,pic,'').
+struct_dt_elem_i([ 0,51,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,51,0 ],4,attributeid,'395').
+struct_dt_elem_i([ 0,51,0 ],4,'ExternalName','HospitalName').
+struct_dt_elem_i([ 0,51,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,51,0 ],5,name,'Databaseid').
+struct_dt_elem_i([ 0,51,0 ],5,camelname,'DatabaseID').
+struct_dt_elem_i([ 0,51,0 ],5,length,9).
+struct_dt_elem_i([ 0,51,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,51,0 ],5,sign,0).
+struct_dt_elem_i([ 0,51,0 ],5,type,[ 4,9,0 ]).
+struct_dt_elem_i([ 0,51,0 ],5,pic,'ZZZZZZZZ9').
+struct_dt_elem_i([ 0,51,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,51,0 ],5,attributeid,'365').
+struct_dt_elem_i([ 0,51,0 ],5,'ExternalName','DatabaseID').
+struct_dt_elem_i([ 0,51,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,51,0 ],6,name,'Bas_tenantlogo').
+struct_dt_elem_i([ 0,51,0 ],6,camelname,'BAS_TenantLogo').
+struct_dt_elem_i([ 0,51,0 ],6,length,0).
+struct_dt_elem_i([ 0,51,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,51,0 ],6,type,[ 14,0,0 ]).
+struct_dt_elem_i([ 0,51,0 ],6,pic,'').
+struct_dt_elem_i([ 0,51,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,51,0 ],6,attributeid,'396').
+struct_dt_elem_i([ 0,51,0 ],6,'ExternalName','BAS_TenantLogo').
+struct_dt_elem_i([ 0,51,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,51,0 ],7,name,'Bas_tenantcreator').
+struct_dt_elem_i([ 0,51,0 ],7,camelname,'BAS_TenantCreator').
+struct_dt_elem_i([ 0,51,0 ],7,length,50).
+struct_dt_elem_i([ 0,51,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,51,0 ],7,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,51,0 ],7,pic,'').
+struct_dt_elem_i([ 0,51,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,51,0 ],7,attributeid,'397').
+struct_dt_elem_i([ 0,51,0 ],7,'ExternalName','BAS_TenantCreator').
+struct_dt_elem_i([ 0,51,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,51,0 ],8,name,'Bas_tenantcreatetime').
+struct_dt_elem_i([ 0,51,0 ],8,camelname,'BAS_TenantCreateTime').
+struct_dt_elem_i([ 0,51,0 ],8,length,10).
+struct_dt_elem_i([ 0,51,0 ],8,decimals,8).
+struct_dt_elem_i([ 0,51,0 ],8,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,51,0 ],8,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,51,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,51,0 ],8,attributeid,'398').
+struct_dt_elem_i([ 0,51,0 ],8,'ExternalName','BAS_TenantCreateTime').
+struct_dt_elem_i([ 0,51,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,51,0 ],9,name,'Bas_tenantmodifier').
+struct_dt_elem_i([ 0,51,0 ],9,camelname,'BAS_TenantModifier').
+struct_dt_elem_i([ 0,51,0 ],9,length,50).
+struct_dt_elem_i([ 0,51,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,51,0 ],9,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,51,0 ],9,pic,'').
+struct_dt_elem_i([ 0,51,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,51,0 ],9,attributeid,'399').
+struct_dt_elem_i([ 0,51,0 ],9,'ExternalName','BAS_TenantModifier').
+struct_dt_elem_i([ 0,51,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,51,0 ],10,name,'Bas_tenantmodifytime').
+struct_dt_elem_i([ 0,51,0 ],10,camelname,'BAS_TenantModifyTime').
+struct_dt_elem_i([ 0,51,0 ],10,length,10).
+struct_dt_elem_i([ 0,51,0 ],10,decimals,8).
+struct_dt_elem_i([ 0,51,0 ],10,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,51,0 ],10,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,51,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,51,0 ],10,attributeid,'400').
+struct_dt_elem_i([ 0,51,0 ],10,'ExternalName','BAS_TenantModifyTime').
+struct_dt_elem_i([ 0,51,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,51,0 ],11,name,'Bas_tenantisdeleted').
+struct_dt_elem_i([ 0,51,0 ],11,camelname,'BAS_TenantIsDeleted').
+struct_dt_elem_i([ 0,51,0 ],11,length,1).
+struct_dt_elem_i([ 0,51,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,51,0 ],11,sign,0).
+struct_dt_elem_i([ 0,51,0 ],11,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 0,51,0 ],11,pic,'9').
+struct_dt_elem_i([ 0,51,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,51,0 ],11,attributeid,'401').
+struct_dt_elem_i([ 0,51,0 ],11,'ExternalName','BAS_TenantIsDeleted').
+struct_dt_elem_i([ 0,51,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,51,0 ],12,name,'Bas_tenantdescription').
+struct_dt_elem_i([ 0,51,0 ],12,camelname,'BAS_TenantDescription').
+struct_dt_elem_i([ 0,51,0 ],12,length,2048).
+struct_dt_elem_i([ 0,51,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,51,0 ],12,type,[ 8,2048,0 ]).
+struct_dt_elem_i([ 0,51,0 ],12,pic,'').
+struct_dt_elem_i([ 0,51,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,51,0 ],12,attributeid,'402').
+struct_dt_elem_i([ 0,51,0 ],12,'ExternalName','BAS_TenantDescription').
+struct_dt_elem_i([ 0,51,0 ],12,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

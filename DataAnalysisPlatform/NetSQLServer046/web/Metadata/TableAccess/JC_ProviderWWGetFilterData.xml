@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9048d2b8-7db7-4347-883b-d75d64aa9126">
+  <Table name="JC_Provider" />
+  <Table name="UserCustomizations" />
+</Dependencies>

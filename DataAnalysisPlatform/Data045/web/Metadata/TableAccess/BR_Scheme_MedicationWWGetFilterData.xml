@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="13e00e49-afba-4239-ba0c-6f1c076b753c">
+  <Table name="BR_Medication" />
+  <Table name="BR_Scheme" />
+  <Table name="BR_Scheme_Medication" />
+  <Table name="UserCustomizations" />
+</Dependencies>

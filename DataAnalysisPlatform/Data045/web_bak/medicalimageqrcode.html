@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>影像学二维码</title>
+</head>
+<body>
+<script type="text/javascript" src="fileuploadbase\jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="fileuploadbase\jquery.qrcode.js"></script>
+<script type="text/javascript" src="fileuploadbase\qrcode.js"></script>
+<script type="text/javascript" src="fileuploadbase\jquery-params.js"></script>
+<div id="qrcodeCanvas"></div>
+<script>
+	var medical_ima_url = $.query.get("url");
+	var img_id = $.query.get("imageid");
+	var code_id=$.query.get("code");
+	var medical_ima_url=medical_ima_url+"?"+img_id+","+code_id
+	jQuery('#qrcodeCanvas').qrcode({
+		text	: medical_ima_url
+	});	
+
+</script>
+
+
+</body>
+</html>

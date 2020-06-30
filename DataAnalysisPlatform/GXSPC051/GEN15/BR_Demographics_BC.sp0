@@ -1,0 +1,1257 @@
+spec_i([ trn,11,人口信息学,'BR_Demographics_BC',[],chs,'16_0_0-127771' ]).
+ 
+struct_i(12,0,[ 'Wwpcontext','Isauthorized','Pgmname','Trncontext','GXV1','Insert_br_encounterid','Trncontextatt','Websession' ],[]).
+ 
+level_i(12,[ 12,[ [ 12,many ],[ 15,one ],[ 16,one ] ],[ 61 ],[],[],[],[ 61 ],'IBR_DEMOGRAPHICS',[ 12,[] ],[] ]).
+ 
+tw_i(12,[ [ 15,[ [ 12,19,19 ] ] ],[ 16,[ [ 15,85,85 ] ] ] ]).
+ 
+lwi_i(12,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(12,[ [ [ 15,85 ],[ 12,61 ],[ 12,455 ],[ 12,456 ],[ 12,457 ],[ 12,458 ],[ 12,459 ],[ 16,36 ],[ 12,53 ],[ 12,54 ],[ 12,63 ],[ 12,55 ],[ 12,56 ],[ 12,57 ],[ 12,58 ],[ 12,59 ],[ 12,60 ],[ 12,19 ] ] ]).
+ 
+las_i(12,[ [ 85,'Wwpcontext','Isauthorized','Pgmname','Trncontext','GXV1','Insert_br_encounterid','Trncontextatt','Websession',61,455,456,457,458,459,19,36,53,54,63,55,56,57,58,59,60 ] ]).
+ 
+lac_i(12,[ [ 61,19,53,54,455,63,456,55,457,56,458,57,58,459,59,60 ] ]).
+ 
+ 
+ 
+cls_i([ 25,80 ],[ 0,0 ]).
+ 
+ 
+ 
+default_i(e('Pgmname',2,2,'"BR_Demographics_BC"')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS',���)).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',���)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PKSupFKs',[])).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','BR_Demographics')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SEARCH_VIEWER',o(13,'BR_DemographicsView'))).
+rule_i(0,prop('SEARCHABLE','UMPV')).
+rule_i(0,prop('MTIER_OPT','Yes')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('AUTOENTER','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('BEEPONERROR','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WBCHAR','')).
+rule_i(0,prop('WBATTR',none)).
+rule_i(0,prop('WBCOLOR',none)).
+rule_i(0,prop('WNDPOP','NO')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('DLT_BUTTON','')).
+rule_i(0,prop('CNF_BUTTON','')).
+rule_i(0,prop('UPD_BUTTON','')).
+rule_i(0,prop('ADD_BUTTON','')).
+rule_i(0,prop('AUTOSCROLL_FORM','UMPV')).
+rule_i(0,prop('SHOW_FRM','UMPV')).
+rule_i(0,prop('MODAL','PARM')).
+rule_i(0,prop('CTRBOX','YES')).
+rule_i(0,prop('ICON','')).
+rule_i(0,prop('S_TASK','YES')).
+rule_i(0,prop('MINBUT','YES')).
+rule_i(0,prop('MAXBUT','YES')).
+rule_i(0,prop('BORSTY','2')).
+rule_i(0,prop('KEY_MOREKEYS','UMPV')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_LAST','UMPV')).
+rule_i(0,prop('KEY_FIRST','UMPV')).
+rule_i(0,prop('KEY_SELECT','UMPV')).
+rule_i(0,prop('KEY_DISPLAY','UMPV')).
+rule_i(0,prop('KEY_DELETE','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_UPDATE','UMPV')).
+rule_i(0,prop('KEY_MENU','UMPV')).
+rule_i(0,prop('KEY_RETRIEVE','UMPV')).
+rule_i(0,prop('KEY_NEXT','UMPV')).
+rule_i(0,prop('KEY_PREVIOUS','UMPV')).
+rule_i(0,prop('KEY_INSERT','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_PROMPT','UMPV')).
+rule_i(0,prop('KEY_EXIT','UMPV')).
+rule_i(0,prop('KEY_CHECK','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebFormDefaults','0')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('FIELD_TO_FIELD','UMPV')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('CFMTRN','No')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('IsDwhTrn','0')).
+rule_i(0,prop(idDynTrnUpdatePolicy,idDynTrnUpdatePolicy_UPDATABLE)).
+rule_i(0,prop(idIsDynTrn,'0')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'WWPBaseObjects.WorkWithPlusMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('WS_Delete','-1')).
+rule_i(0,prop('WS_Update','-1')).
+rule_i(0,prop('WS_Insert','-1')).
+rule_i(0,prop('WS_View','-1')).
+rule_i(0,prop(idISBCWEBSERVICE,'0')).
+rule_i(0,prop('ExternalNamespace','DataAnalysisPlatform')).
+rule_i(0,prop('ExternalName','BR_Demographics')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop(idISBUSINESSCOMPONENT,'-1')).
+rule_i(0,prop('Folder',o(8,'Trn'))).
+rule_i(0,prop('ObjDesc',人口信息学)).
+rule_i(0,prop('ObjName','BR_Demographics')).
+rule_i(0,rule([ a(22,[ 'Dlt','"删除"','' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(12,rule([ a(1,msg([ t('"域������������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(53,2),t(')',4),t('.OR.',9),t(53,2),t(>=,10),t('ymdtod(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(')',4),t(')',4) ],[ insert,update ],[ 53 ])).
+rule_i(12,rule([ a(18,[ [ 85 ] ]) ],[],[ insert,update,delete ],[ 85 ])).
+rule_i(12,rule([ a(1,[ t('''性别是必须选择的''',3) ]) ],[ t('null(',1),t(54,2),t(')',4) ],[ insert,update,delete,display ],[ 54 ])).
+rule_i(12,rule([ a(19,[ [ 19 ],msg([ t('"不匹配'' T15''"',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 19 ])).
+rule_i(12,rule([ a(19,[ [ 85 ],msg([ t('"不匹配'' T16''"',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 85 ])).
+ 
+a_i(3,12,b,0,[],[ [],[ a(1,msg([ t('"域������������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(53,2),t(')',4),t('.OR.',9),t(53,2),t(>=,10),t('ymdtod(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(')',4),t(')',4) ] ]).
+a_i(4,12,f,455,[ binsert ],[ [],[ t('udp(',1),t(455,3),t(0,3),t('7',3),t(',',7),t(54,2),t(')',4),t(';',18) ] ]).
+a_i(5,12,f,455,[ bupdate ],[ [],[ t('udp(',1),t(455,3),t(5,3),t('7',3),t(',',7),t(54,2),t(')',4),t(';',18) ] ]).
+a_i(6,12,f,456,[ binsert ],[ [],[ t('udp(',1),t(456,3),t(0,3),t('8',3),t(',',7),t(63,2),t(')',4),t(';',18) ] ]).
+a_i(7,12,f,456,[ bupdate ],[ [],[ t('udp(',1),t(456,3),t(5,3),t('8',3),t(',',7),t(63,2),t(')',4),t(';',18) ] ]).
+a_i(8,12,f,457,[ binsert ],[ [],[ t('udp(',1),t(457,3),t(0,3),t('9',3),t(',',7),t(55,2),t(')',4),t(';',18) ] ]).
+a_i(9,12,f,457,[ bupdate ],[ [],[ t('udp(',1),t(457,3),t(5,3),t('9',3),t(',',7),t(55,2),t(')',4),t(';',18) ] ]).
+a_i(10,12,f,458,[ binsert ],[ [],[ t('udp(',1),t(458,3),t(0,3),t('10',3),t(',',7),t(56,2),t(')',4),t(';',18) ] ]).
+a_i(11,12,f,458,[ bupdate ],[ [],[ t('udp(',1),t(458,3),t(5,3),t('10',3),t(',',7),t(56,2),t(')',4),t(';',18) ] ]).
+a_i(12,12,f,459,[ binsert ],[ [],[ t('udp(',1),t(459,3),t(0,3),t('11',3),t(',',7),t(58,2),t(')',4),t(';',18) ] ]).
+a_i(13,12,f,459,[ bupdate ],[ [],[ t('udp(',1),t(459,3),t(5,3),t('11',3),t(',',7),t(58,2),t(')',4),t(';',18) ] ]).
+a_i(14,12,b,1,[],[ [],[ a(1,[ t('''性别是必须选择的''',3) ]) ],[ t('null(',1),t(54,2),t(')',4) ] ]).
+a_i(15,12,t,12,[],[ [ [ [],61,61 ] ],'IBR_DEMOGRAPHICS',[] ]).
+a_i(16,12,r,15,[],[ [ [ 12,19,19 ] ],'IBR_ENCOUNTER',[] ]).
+a_i(17,12,r,16,[],[ [ [ 15,85,85 ] ],'IBR_INFORMATION',[] ]).
+a_i(18,12,f,'Pgmname',[],[ [],[ t('"BR_Demographics_BC"',3) ] ]).
+ 
+v_i(b,i,3,53).
+v_i(b,o,3,[]).
+v_i(f,i,4,54).
+v_i(f,o,4,455).
+v_i(f,i,5,54).
+v_i(f,o,5,455).
+v_i(f,i,6,63).
+v_i(f,o,6,456).
+v_i(f,i,7,63).
+v_i(f,o,7,456).
+v_i(f,i,8,55).
+v_i(f,o,8,457).
+v_i(f,i,9,55).
+v_i(f,o,9,457).
+v_i(f,i,10,56).
+v_i(f,o,10,458).
+v_i(f,i,11,56).
+v_i(f,o,11,458).
+v_i(f,i,12,58).
+v_i(f,o,12,459).
+v_i(f,i,13,58).
+v_i(f,o,13,459).
+v_i(b,i,14,54).
+v_i(b,o,14,[]).
+v_i(t,i,15,61).
+v_i(t,o,15,455).
+v_i(t,o,15,456).
+v_i(t,o,15,457).
+v_i(t,o,15,458).
+v_i(t,o,15,459).
+v_i(t,o,15,53).
+v_i(t,o,15,54).
+v_i(t,o,15,63).
+v_i(t,o,15,55).
+v_i(t,o,15,56).
+v_i(t,o,15,57).
+v_i(t,o,15,58).
+v_i(t,o,15,59).
+v_i(t,o,15,60).
+v_i(t,o,15,19).
+v_i(r,i,16,19).
+v_i(r,o,16,85).
+v_i(r,i,17,85).
+v_i(r,o,17,36).
+v_i(f,i,18,[]).
+v_i(f,o,18,'Pgmname').
+ 
+act_info_i(4,[ [ 455 ] ]).
+act_info_i(5,[ [ 455 ] ]).
+act_info_i(6,[ [ 456 ] ]).
+act_info_i(7,[ [ 456 ] ]).
+act_info_i(8,[ [ 457 ] ]).
+act_info_i(9,[ [ 457 ] ]).
+act_info_i(10,[ [ 458 ] ]).
+act_info_i(11,[ [ 458 ] ]).
+act_info_i(12,[ [ 459 ] ]).
+act_info_i(13,[ [ 459 ] ]).
+ 
+ 
+ 
+ 
+ 
+attri_i(60,[ 'BR_Demographics_City',svchar,40,0,'',0,市,'',0 ]).
+attri_i(59,[ 'BR_Demographics_Province',svchar,40,0,'',0,省,'',0 ]).
+attri_i(58,[ 'BR_Demographics_Insurance',svchar,100,0,'',0,保险类型,'',0 ]).
+attri_i(57,[ 'BR_Demographics_Occupation',svchar,40,0,'',0,职业,'',0 ]).
+attri_i(56,[ 'BR_Demographics_Education',svchar,100,0,'',0,学历,'',0 ]).
+attri_i(55,[ 'BR_Demographics_Ethnic',svchar,100,0,'',0,民族,'',0 ]).
+attri_i(63,[ 'BR_Demographics_MarritalStatus',svchar,100,0,'',0,婚姻状态,'',0 ]).
+attri_i(54,[ 'BR_Demographics_Sex',svchar,100,0,'',0,性别,'',0 ]).
+attri_i(53,[ 'BR_Demographics_BirthDate',date,8,0,'99/99/9999',0,出生日期,'',0 ]).
+attri_i(36,[ 'BR_Information_PatientNo',svchar,2000,0,'',0,患者编号,'',0 ]).
+attri_i(19,[ 'BR_EncounterID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,就诊信息主键,'',0 ]).
+attri_i(459,[ 'BR_Demographics_Insurance_Code',svchar,40,0,'',0,保险类型code,'',0 ]).
+attri_i(458,[ 'BR_Demographics_Education_Code',svchar,40,0,'',0,学历code,'',0 ]).
+attri_i(457,[ 'BR_Demographics_Ethnic_Code',svchar,40,0,'',0,民族code,'',0 ]).
+attri_i(456,[ 'BR_Demographics_MarritalStatus_Code',svchar,40,0,'',0,婚姻状态code,'',0 ]).
+attri_i(455,[ 'BR_Demographics_Sex_Code',svchar,40,0,'',0,性别code,'',0 ]).
+attri_i(61,[ 'BR_Demographics_ID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,人口信息学主键,'',0 ]).
+attri_i(85,[ 'BR_Information_ID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,患者基本信息主键ID,'',0 ]).
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'','',17 ]).
+attri_i('Pgmname',[ 'Pgmname',char,129,0,'',1,'Program name','',16 ]).
+attri_i('Gxremove',[ 'GxRemove',int,1,0,'9',0,'Gx Remove','',5 ]).
+attri_i('Tcurrentcode',[ tCurrentCode,svchar,40,0,'',0,'t Current Code','',15 ]).
+attri_i('Wwpcontext',[ 'WWPContext',o('WWPBaseObjects\WWPContext'),0,0,'',0,'WWPContext','',7 ]).
+attri_i('Websession',[ 'WebSession',o(websession),4,0,'',0,'Web Session','',9 ]).
+attri_i('Trncontextatt',[ 'TrnContextAtt',o('WWPBaseObjects\WWPTransactionContext.Attribute'),0,0,'',0,'Trn Context Att','',11 ]).
+attri_i('Trncontext',[ 'TrnContext',o('WWPBaseObjects\WWPTransactionContext'),0,0,'',0,'Trn Context','',8 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,'Security Functionality Keys','',14 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,'Is Authorized','',13 ]).
+attri_i('Insert_br_encounterid',[ 'Insert_BR_EncounterID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'Insert_BR_Encounter ID','',10 ]).
+attri_i('Br_demographics_id',[ 'BR_Demographics_ID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'BR_Demographics_ID','',12 ]).
+attri_i('Mode',[ 'Gx_mode',char,3,0,'@!',1,'','',2 ]).
+ 
+table_i(16,[ 'BR_Information',[ 85,36 ],' T16','BR_Information' ]).
+table_i(12,[ 'BR_Demographics',[ 61,19,53,54,63,55,56,57,58,59,60,455,456,457,458,459 ],' T12','BR_Demographics' ]).
+table_i(15,[ 'BR_Encounter',[ 19,85 ],' T15','BR_Encounter' ]).
+ 
+index_i(12,[ 'IBR_DEMOGRAPHICS',u,[ 61 ],'IBR_Demographics' ]).
+index_i(15,[ 'IBR_ENCOUNTER',u,[ 19 ],'IBR_Encounter' ]).
+index_i(16,[ 'IBR_INFORMATION',u,[ 85 ],'IBR_Information' ]).
+ 
+ 
+ 
+function_i(12,459,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 58 ],5,459,[ [ t('11',3),t(',',7),t(58,2) ] ]).
+function_i(12,459,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 58 ],0,459,[ [ t('11',3),t(',',7),t(58,2) ] ]).
+function_i(12,458,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 56 ],5,458,[ [ t('10',3),t(',',7),t(56,2) ] ]).
+function_i(12,458,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 56 ],0,458,[ [ t('10',3),t(',',7),t(56,2) ] ]).
+function_i(12,457,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 55 ],5,457,[ [ t('9',3),t(',',7),t(55,2) ] ]).
+function_i(12,457,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 55 ],0,457,[ [ t('9',3),t(',',7),t(55,2) ] ]).
+function_i(12,456,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 63 ],5,456,[ [ t('8',3),t(',',7),t(63,2) ] ]).
+function_i(12,456,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 63 ],0,456,[ [ t('8',3),t(',',7),t(63,2) ] ]).
+function_i(12,455,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 54 ],5,455,[ [ t('7',3),t(',',7),t(54,2) ] ]).
+function_i(12,455,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 54 ],0,455,[ [ t('7',3),t(',',7),t(54,2) ] ]).
+function_i(2,'Isauthorized',yes,udp,o(1,'WWPBaseObjects\SecIsAuthByFunctionalityKey'),[],22,'Isauthorized',[ [ t('''Manage_Demographics''',3) ] ]).
+function_i(2,'Isauthorized',yes,udp,o(1,'WWPBaseObjects\SecIsAuthByFunctionalityKey'),[],19,'Isauthorized',[ [ t('''Manage_Demographics''',3) ] ]).
+function_i(2,'Isauthorized',yes,udp,o(1,'WWPBaseObjects\SecIsAuthByFunctionalityKey'),[],16,'Isauthorized',[ [ t('''Manage_Demographics''',3) ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(12,12,i,[ [ 455,456,457,458,459,53,54,63,55,56,57,58,59,60,19 ],[],'IBR_DEMOGRAPHICS',[ [ [],61,61 ] ] ]).
+upd_i(12,12,u,[ [ 455,456,457,458,459,53,54,63,55,56,57,58,59,60,19 ],[],'IBR_DEMOGRAPHICS',[] ]).
+upd_i(12,12,d,[ [],[],'IBR_DEMOGRAPHICS',[] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enumerated_i(51,172,94).
+enumerated_i(51,537,117).
+ 
+enum_value_i(51,22,'"INS"','Insert','"Insert"',[ none ]).
+enum_value_i(51,22,'"UPD"','Update','"Update"',[ none ]).
+enum_value_i(51,22,'"DLT"','Delete','"Delete"',[ none ]).
+enum_value_i(51,22,'"DSP"','Display','"Display"',[ none ]).
+enum_value_i(51,94,'1',entering,'"录入中"',[ none ]).
+enum_value_i(51,94,'2',waitCheck,'"待初审"',[ none ]).
+enum_value_i(51,94,'3',denyCheck,'"初审不通过"',[ none ]).
+enum_value_i(51,94,'4',waitApprove,'"待复审"',[ none ]).
+enum_value_i(51,94,'5',denyApprove,'"复审不通过"',[ none ]).
+enum_value_i(51,94,'6',complete,'"完成"',[ none ]).
+enum_value_i(51,117,'1',lis,'"lis"',[ none ]).
+ 
+enum_value_info_i(51,22,'GeneXus\TrnMode').
+enum_value_info_i(51,94,'DM_ApproveStatus').
+enum_value_info_i(51,117,'DM_Datasource').
+ 
+enum_type_i(51,22,char,3,0).
+enum_type_i(51,94,int,4,0).
+enum_type_i(51,117,int,4,0).
+ 
+dom_info_i(69,[ 'ID' ]).
+dom_info_i(64,[ 'DM_Date' ]).
+dom_info_i(94,[ 'DM_ApproveStatus' ]).
+dom_info_i(66,[ 'UpdDate' ]).
+dom_info_i(95,[ 'CrtUser' ]).
+dom_info_i(67,[ 'UpdUser' ]).
+dom_info_i(117,[ 'DM_Datasource' ]).
+dom_info_i(90,[ 'WWPSecFunctionalityKey' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,2).
+b_group_i(2,2,lit,0,3,43).
+b_group_i(2,3,lit,0,44,0).
+ 
+b_line_i(2,2,1,cmd,2,[ t('',146,2,0),t('Start',3,2,7) ]).
+b_line_i(11,2,2,cmd,2,[ t('',104,2,0),t(o(1,'WWPBaseObjects\LoadWWPContext'),28,2,2),t('Wwpcontext',23,2,23) ]).
+b_line_i(14,2,2,cmd,2,[ t('',107,2,0),t('Isauthorized',23,2,0),t(=,10,2,0),t('TRUE',40,2,0) ]).
+b_line_i(15,2,2,cmd,2,[ t('',109,2,0),t('Mode',23,2,5),t(=,10,2,11),t([ 22,'Insert' ],44,15,13) ]).
+b_line_i(16,2,2,cmd,2,[ t('',107,2,0),t('Isauthorized',23,2,0),t(=,10,2,0),t('udp(',1,2,0),t('Isauthorized',3,2,0),t(16,3,2,0),t('''Manage_Demographics''',3,2,0),t(')',4,2,0) ]).
+b_line_i(17,2,2,cmd,2,[ t('',111,2,0) ]).
+b_line_i(18,2,2,cmd,2,[ t('',109,2,0),t('Mode',23,2,5),t(=,10,2,11),t([ 22,'Update' ],44,18,13) ]).
+b_line_i(19,2,2,cmd,2,[ t('',107,2,0),t('Isauthorized',23,2,0),t(=,10,2,0),t('udp(',1,2,0),t('Isauthorized',3,2,0),t(19,3,2,0),t('''Manage_Demographics''',3,2,0),t(')',4,2,0) ]).
+b_line_i(20,2,2,cmd,2,[ t('',111,2,0) ]).
+b_line_i(21,2,2,cmd,2,[ t('',109,2,0),t('Mode',23,2,5),t(=,10,2,11),t([ 22,'Delete' ],44,21,13) ]).
+b_line_i(22,2,2,cmd,2,[ t('',107,2,0),t('Isauthorized',23,2,0),t(=,10,2,0),t('udp(',1,2,0),t('Isauthorized',3,2,0),t(22,3,2,0),t('''Manage_Demographics''',3,2,0),t(')',4,2,0) ]).
+b_line_i(23,2,2,cmd,2,[ t('',111,2,0) ]).
+b_line_i(24,2,2,cmd,2,[ t('',109,2,0),t('(',0,2,5),t('.NOT.',8,2,6),t('Isauthorized',23,2,12),t(')',4,2,25) ]).
+b_line_i(25,2,2,cmd,2,[ t('',104,2,0),t(o(13,'WWPBaseObjects\NotAuthorized'),28,2,3),t('Pgmname',23,2,23) ]).
+b_line_i(26,2,2,cmd,2,[ t('',111,2,0) ]).
+b_line_i(28,2,2,cmd,2,[ t('',107,2,0),t([ t('Trncontext',23,28,2),t('fromxml(',1,28,14) ],31,28,2),t([ t('Websession',23,28,23),t('get(',1,28,35) ],31,28,35),t('"TrnContext"',3,28,40),t(')',4,2,53),t(')',4,2,54) ]).
+b_line_i(29,2,2,cmd,2,[ t('',109,2,0),t('(',0,2,5),t([ t('Trncontext',23,29,6),t('Transactionname',3,29,18) ],29,29,18),t(=,10,2,34),t('Pgmname',23,2,36),t('.AND.',9,2,45),t('Mode',23,2,51),t(=,10,2,57),t([ 22,'Insert' ],44,29,59),t(')',4,2,73) ]).
+b_line_i(30,2,2,cmd,2,[ t('',107,2,0),t('GXV1',23,2,0),t(=,10,2,0),t(1,3,2,0) ]).
+b_line_i([ 30,2 ],2,2,cmd,2,[ t('',114,2,0),t('GXV1',23,2,0),t(<=,10,2,0),t([ t('Trncontext',23,30,25),t('Attributes',3,30,37),t('Count',3,30,0) ],29,30,0) ]).
+b_line_i([ 30,3 ],2,2,cmd,2,[ t('',107,2,0),t('Trncontextatt',23,2,0),t(=,10,2,0),t([ t([ t('Trncontext',23,2,0),t('Attributes',3,2,0) ],29,2,0),t('item(',1,2,0) ],31,2,0),t('GXV1',23,2,0),t(')',4,2,0) ]).
+b_line_i(31,2,2,cmd,3,[ t('',152,3,0) ]).
+b_line_i(33,2,2,cmd,3,[ t('',153,3,0),t([ t('Trncontextatt',23,33,10),t('Attributename',3,33,25) ],29,33,25),t(=,10,3,39),t('"BR_EncounterID"',3,33,41) ]).
+b_line_i(34,2,2,cmd,3,[ t('',107,3,0),t('Insert_br_encounterid',23,34,6),t(=,10,34,6),t('val(',1,34,6),t([ t('Trncontextatt',23,34,41),t('Attributevalue',3,34,56) ],29,34,56),t(')',4,3,70) ]).
+b_line_i(35,2,2,cmd,3,[ t('',154,3,0) ]).
+b_line_i([ 36,1 ],2,2,cmd,3,[ t('',107,3,0),t('GXV1',23,3,0),t(=,10,3,0),t('GXV1',23,3,0),t(+,5,3,0),t(1,3,3,0) ]).
+b_line_i([ 36,2 ],2,2,cmd,3,[ t('',115,3,0) ]).
+b_line_i(37,2,2,cmd,4,[ t('',111,4,0) ]).
+b_line_i(41,2,2,cmd,4,[ t('',147,4,0) ]).
+b_line_i(43,2,2,cmd,4,[ t('',146,4,0),t('After Trn',3,43,7) ]).
+b_line_i(59,2,3,cmd,4,[ t('',147,4,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(51,61,'HORIZONTAL_DESCRIPTION',人口信息学主键,d).
+att_prop_i(51,61,'ExternalName','BR_Demographics_ID',d).
+att_prop_i(51,61,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,61,'EmptyAsNull','Yes',d).
+att_prop_i(51,61,idBasedOn,69,v).
+att_prop_i(51,61,'AUTONUMBER','-1',d).
+att_prop_i(51,61,'AUTONUMBER_START','1',d).
+att_prop_i(51,61,'AUTONUMBER_STEP','1',d).
+att_prop_i(51,61,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(51,61,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,61,'AttRegEx','',d).
+att_prop_i(51,61,'AttValidationFailedMsg','',d).
+att_prop_i(51,61,'FullName','BR_Demographics_ID',v).
+att_prop_i(51,19,'HORIZONTAL_DESCRIPTION',就诊信息主键,d).
+att_prop_i(51,19,'ExternalName','BR_EncounterID',d).
+att_prop_i(51,19,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,19,'EmptyAsNull','Yes',d).
+att_prop_i(51,19,idBasedOn,69,v).
+att_prop_i(51,19,'AUTONUMBER','-1',d).
+att_prop_i(51,19,'AUTONUMBER_START','1',d).
+att_prop_i(51,19,'AUTONUMBER_STEP','1',d).
+att_prop_i(51,19,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(51,19,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,19,'AttRegEx','',d).
+att_prop_i(51,19,'AttValidationFailedMsg','',d).
+att_prop_i(51,19,'FullName','BR_EncounterID',v).
+att_prop_i(51,36,'HORIZONTAL_DESCRIPTION',患者编号,d).
+att_prop_i(51,36,'ExternalName','BR_Information_PatientNo',d).
+att_prop_i(51,36,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,36,'EmptyAsNull','Yes',d).
+att_prop_i(51,36,idBasedOn,'',d).
+att_prop_i(51,36,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,36,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,36,'AttRegEx','',d).
+att_prop_i(51,36,'AttValidationFailedMsg','',d).
+att_prop_i(51,36,'FullName','BR_Information_PatientNo',v).
+att_prop_i(51,53,'HORIZONTAL_DESCRIPTION',出生日期,d).
+att_prop_i(51,53,'ExternalName','BR_Demographics_BirthDate',d).
+att_prop_i(51,53,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,53,'EmptyAsNull','Yes',d).
+att_prop_i(51,53,idBasedOn,64,v).
+att_prop_i(51,53,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,53,'AttRegEx','',d).
+att_prop_i(51,53,'AttValidationFailedMsg','',d).
+att_prop_i(51,53,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(51,53,'FullName','BR_Demographics_BirthDate',v).
+att_prop_i(51,54,'HORIZONTAL_DESCRIPTION',性别,d).
+att_prop_i(51,54,'ExternalName','BR_Demographics_Sex',d).
+att_prop_i(51,54,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,54,'EmptyAsNull','Yes',v).
+att_prop_i(51,54,idBasedOn,'',d).
+att_prop_i(51,54,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,54,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,54,'AttRegEx','',d).
+att_prop_i(51,54,'AttValidationFailedMsg','',d).
+att_prop_i(51,54,'FullName','BR_Demographics_Sex',v).
+att_prop_i(51,455,'HORIZONTAL_DESCRIPTION',性别code,d).
+att_prop_i(51,455,'ExternalName','BR_Demographics_Sex_Code',d).
+att_prop_i(51,455,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,455,'EmptyAsNull','Yes',d).
+att_prop_i(51,455,idBasedOn,'',d).
+att_prop_i(51,455,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,455,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,455,'AttRegEx','',d).
+att_prop_i(51,455,'AttValidationFailedMsg','',d).
+att_prop_i(51,455,'FullName','BR_Demographics_Sex_Code',v).
+att_prop_i(51,63,'HORIZONTAL_DESCRIPTION',婚姻状态,d).
+att_prop_i(51,63,'ExternalName','BR_Demographics_MarritalStatus',d).
+att_prop_i(51,63,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,63,'EmptyAsNull','Yes',v).
+att_prop_i(51,63,idBasedOn,'',d).
+att_prop_i(51,63,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,63,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,63,'AttRegEx','',d).
+att_prop_i(51,63,'AttValidationFailedMsg','',d).
+att_prop_i(51,63,'FullName','BR_Demographics_MarritalStatus',v).
+att_prop_i(51,456,'HORIZONTAL_DESCRIPTION',婚姻状态code,d).
+att_prop_i(51,456,'ExternalName','BR_Demographics_MarritalStatus_Code',d).
+att_prop_i(51,456,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,456,'EmptyAsNull','Yes',d).
+att_prop_i(51,456,idBasedOn,'',d).
+att_prop_i(51,456,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,456,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,456,'AttRegEx','',d).
+att_prop_i(51,456,'AttValidationFailedMsg','',d).
+att_prop_i(51,456,'FullName','BR_Demographics_MarritalStatus_Code',v).
+att_prop_i(51,55,'HORIZONTAL_DESCRIPTION',民族,d).
+att_prop_i(51,55,'ExternalName','BR_Demographics_Ethnic',d).
+att_prop_i(51,55,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,55,'EmptyAsNull','Yes',v).
+att_prop_i(51,55,idBasedOn,'',d).
+att_prop_i(51,55,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,55,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,55,'AttRegEx','',d).
+att_prop_i(51,55,'AttValidationFailedMsg','',d).
+att_prop_i(51,55,'FullName','BR_Demographics_Ethnic',v).
+att_prop_i(51,457,'HORIZONTAL_DESCRIPTION',民族code,d).
+att_prop_i(51,457,'ExternalName','BR_Demographics_Ethnic_Code',d).
+att_prop_i(51,457,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,457,'EmptyAsNull','Yes',d).
+att_prop_i(51,457,idBasedOn,'',d).
+att_prop_i(51,457,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,457,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,457,'AttRegEx','',d).
+att_prop_i(51,457,'AttValidationFailedMsg','',d).
+att_prop_i(51,457,'FullName','BR_Demographics_Ethnic_Code',v).
+att_prop_i(51,56,'HORIZONTAL_DESCRIPTION',学历,d).
+att_prop_i(51,56,'ExternalName','BR_Demographics_Education',d).
+att_prop_i(51,56,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,56,'EmptyAsNull','Yes',v).
+att_prop_i(51,56,idBasedOn,'',d).
+att_prop_i(51,56,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,56,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,56,'AttRegEx','',d).
+att_prop_i(51,56,'AttValidationFailedMsg','',d).
+att_prop_i(51,56,'FullName','BR_Demographics_Education',v).
+att_prop_i(51,458,'HORIZONTAL_DESCRIPTION',学历code,d).
+att_prop_i(51,458,'ExternalName','BR_Demographics_Education_Code',d).
+att_prop_i(51,458,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,458,'EmptyAsNull','Yes',d).
+att_prop_i(51,458,idBasedOn,'',d).
+att_prop_i(51,458,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,458,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,458,'AttRegEx','',d).
+att_prop_i(51,458,'AttValidationFailedMsg','',d).
+att_prop_i(51,458,'FullName','BR_Demographics_Education_Code',v).
+att_prop_i(51,57,'HORIZONTAL_DESCRIPTION',职业,d).
+att_prop_i(51,57,'ExternalName','BR_Demographics_Occupation',d).
+att_prop_i(51,57,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,57,'EmptyAsNull','Yes',d).
+att_prop_i(51,57,idBasedOn,'',d).
+att_prop_i(51,57,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,57,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,57,'AttRegEx','',d).
+att_prop_i(51,57,'AttValidationFailedMsg','',d).
+att_prop_i(51,57,'FullName','BR_Demographics_Occupation',v).
+att_prop_i(51,58,'HORIZONTAL_DESCRIPTION',保险类型,d).
+att_prop_i(51,58,'ExternalName','BR_Demographics_Insurance',d).
+att_prop_i(51,58,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,58,'EmptyAsNull','Yes',v).
+att_prop_i(51,58,idBasedOn,'',d).
+att_prop_i(51,58,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,58,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,58,'AttRegEx','',d).
+att_prop_i(51,58,'AttValidationFailedMsg','',d).
+att_prop_i(51,58,'FullName','BR_Demographics_Insurance',v).
+att_prop_i(51,459,'HORIZONTAL_DESCRIPTION',保险类型code,d).
+att_prop_i(51,459,'ExternalName','BR_Demographics_Insurance_Code',d).
+att_prop_i(51,459,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,459,'EmptyAsNull','Yes',d).
+att_prop_i(51,459,idBasedOn,'',d).
+att_prop_i(51,459,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,459,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,459,'AttRegEx','',d).
+att_prop_i(51,459,'AttValidationFailedMsg','',d).
+att_prop_i(51,459,'FullName','BR_Demographics_Insurance_Code',v).
+att_prop_i(51,59,'HORIZONTAL_DESCRIPTION',省,d).
+att_prop_i(51,59,'ExternalName','BR_Demographics_Province',d).
+att_prop_i(51,59,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,59,'EmptyAsNull','Yes',d).
+att_prop_i(51,59,idBasedOn,'',d).
+att_prop_i(51,59,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,59,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,59,'AttRegEx','',d).
+att_prop_i(51,59,'AttValidationFailedMsg','',d).
+att_prop_i(51,59,'FullName','BR_Demographics_Province',v).
+att_prop_i(51,60,'HORIZONTAL_DESCRIPTION',市,d).
+att_prop_i(51,60,'ExternalName','BR_Demographics_City',d).
+att_prop_i(51,60,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,60,'EmptyAsNull','Yes',d).
+att_prop_i(51,60,idBasedOn,'',d).
+att_prop_i(51,60,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,60,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,60,'AttRegEx','',d).
+att_prop_i(51,60,'AttValidationFailedMsg','',d).
+att_prop_i(51,60,'FullName','BR_Demographics_City',v).
+att_prop_i(51,85,'HORIZONTAL_DESCRIPTION',患者基本信息主键ID,d).
+att_prop_i(51,85,'ExternalName','BR_Information_ID',d).
+att_prop_i(51,85,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,85,'EmptyAsNull','Yes',d).
+att_prop_i(51,85,idBasedOn,69,v).
+att_prop_i(51,85,'AUTONUMBER','-1',d).
+att_prop_i(51,85,'AUTONUMBER_START','1',d).
+att_prop_i(51,85,'AUTONUMBER_STEP','1',d).
+att_prop_i(51,85,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(51,85,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,85,'AttRegEx','',d).
+att_prop_i(51,85,'AttValidationFailedMsg','',d).
+att_prop_i(51,85,'FullName','BR_Information_ID',v).
+ 
+tbl_prop_i(51,15,'AllDirSuper',[ [ 16,[ 85 ] ] ],v).
+tbl_prop_i(51,12,'AllDirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(51,15,'DirSuperNull',[ [ 16,[ 85 ] ] ],v).
+tbl_prop_i(51,15,'DirSubor',[ [ 12,[ 19 ] ] ],v).
+tbl_prop_i(51,12,'DirSuper',[ [ 15,[ 19 ] ] ],v).
+ 
+tbl_att_prop_i(51,12,61,'AllowNulls',n).
+tbl_att_prop_i(51,12,61,'AUTONUMBER',y).
+tbl_att_prop_i(51,12,19,'AllowNulls',n).
+tbl_att_prop_i(51,15,19,'AllowNulls',n).
+tbl_att_prop_i(51,15,19,'AUTONUMBER',y).
+tbl_att_prop_i(51,16,85,'AllowNulls',n).
+tbl_att_prop_i(51,16,85,'AUTONUMBER',y).
+ 
+var_prop_i(51,'Br_demographics_id',idBasedOn,'',v).
+var_prop_i(51,'Insert_br_encounterid',idBasedOn,'',v).
+var_prop_i(51,'Securityfunctionalitykeys',idBasedOn,90,v).
+ 
+i_tbl_best_trn(12,[ 11,1,'BR_Demographics',人口信息学,[] ]).
+i_tbl_best_trn(15,[ 14,1,'BR_Encounter',就诊信息,[] ]).
+i_tbl_best_trn(16,[ 15,1,'BR_Information','Data Mgmt Portal - RAAP',[] ]).
+ 
+ 
+ 
+trn_level_i(12,[ [ 61,19,36,53,54,455,63,456,55,457,56,458,57,58,459,59,60 ],'BR_Demographics',人口信息学,'BR_Demographics','',0 ]).
+ 
+struct_dt_i([ 26,49,0 ],name,'WWPBaseObjects\WWPTransactionContext').
+struct_dt_i([ 26,49,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 26,49,0 ],'ObjName','WWPTransactionContext').
+struct_dt_i([ 26,49,0 ],'ObjDesc','WWP Transaction Context').
+struct_dt_i([ 26,49,0 ],'ExternalName','WWPTransactionContext').
+struct_dt_i([ 26,49,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 26,49,83 ],name,'Attribute').
+struct_dt_i([ 26,49,83 ],namespace,'DataAnalysisPlatform.WWPTransactionContext').
+struct_dt_i([ 26,43,0 ],name,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,43,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 26,43,0 ],'ObjName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ObjDesc','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,11,0 ],name,'BR_Demographics').
+struct_dt_i([ 0,11,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,11,0 ],significantName,'BR_Demographics').
+struct_dt_i([ 0,11,0 ],'ObjName','BR_Demographics').
+struct_dt_i([ 0,11,0 ],'ObjDesc',人口信息学).
+struct_dt_i([ 0,11,0 ],'ExternalName','BR_Demographics').
+struct_dt_i([ 0,11,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,11,0 ],key,[ 61 ]).
+struct_dt_i([ 0,11,0 ],lvl,12).
+struct_dt_i([ 26,8,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,8,0 ],'ObjName','Messages').
+struct_dt_i([ 26,8,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,8,0 ],collection,'True').
+struct_dt_i([ 26,8,0 ],datatype,[ 26,8,25 ]).
+struct_dt_i([ 26,8,0 ],isexternal,'True').
+struct_dt_i([ 26,8,25 ],name,'Message').
+struct_dt_i([ 26,8,25 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 26,49,0 ],fullname,'WWPBaseObjects\WWPTransactionContext').
+struct_dt_i([ 26,49,83 ],fullname,'WWPBaseObjects\WWPTransactionContext.Attribute').
+struct_dt_i([ 26,43,0 ],fullname,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 0,11,0 ],fullname,'BR_Demographics').
+struct_dt_i([ 26,8,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,25 ],fullname,'GeneXus\Common\Messages.Message').
+struct_dt_i([ 26,8,0 ],modified,yes).
+struct_dt_i([ 26,8,25 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,49,0 ],1,name,'Callerobject').
+struct_dt_elem_i([ 26,49,0 ],1,camelname,'CallerObject').
+struct_dt_elem_i([ 26,49,0 ],1,basedon,33).
+struct_dt_elem_i([ 26,49,0 ],1,length,256).
+struct_dt_elem_i([ 26,49,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,49,0 ],1,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,49,0 ],1,pic,'').
+struct_dt_elem_i([ 26,49,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,49,0 ],1,'ExternalName','CallerObject').
+struct_dt_elem_i([ 26,49,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,49,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,49,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,49,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,49,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,49,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,49,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,49,0 ],2,name,'Callerondelete').
+struct_dt_elem_i([ 26,49,0 ],2,camelname,'CallerOnDelete').
+struct_dt_elem_i([ 26,49,0 ],2,length,4).
+struct_dt_elem_i([ 26,49,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,49,0 ],2,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,49,0 ],2,pic,'').
+struct_dt_elem_i([ 26,49,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,49,0 ],2,'ExternalName','CallerOnDelete').
+struct_dt_elem_i([ 26,49,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,49,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,49,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,49,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,49,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,49,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,49,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,49,0 ],3,name,'Callerurl').
+struct_dt_elem_i([ 26,49,0 ],3,camelname,'CallerURL').
+struct_dt_elem_i([ 26,49,0 ],3,basedon,12).
+struct_dt_elem_i([ 26,49,0 ],3,length,1000).
+struct_dt_elem_i([ 26,49,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,49,0 ],3,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,49,0 ],3,pic,'').
+struct_dt_elem_i([ 26,49,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,49,0 ],3,'ExternalName','CallerURL').
+struct_dt_elem_i([ 26,49,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,49,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,49,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,49,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,49,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,49,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,49,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,49,0 ],4,name,'Transactionname').
+struct_dt_elem_i([ 26,49,0 ],4,camelname,'TransactionName').
+struct_dt_elem_i([ 26,49,0 ],4,basedon,33).
+struct_dt_elem_i([ 26,49,0 ],4,length,256).
+struct_dt_elem_i([ 26,49,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,49,0 ],4,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,49,0 ],4,pic,'').
+struct_dt_elem_i([ 26,49,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,49,0 ],4,'ExternalName','TransactionName').
+struct_dt_elem_i([ 26,49,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,49,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,49,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,49,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,49,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,49,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,49,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,49,0 ],5,name,'Attributes').
+struct_dt_elem_i([ 26,49,0 ],5,camelname,'Attributes').
+struct_dt_elem_i([ 26,49,0 ],5,type,[ [ 26,49,83 ],0,0 ]).
+struct_dt_elem_i([ 26,49,0 ],5,pic,'').
+struct_dt_elem_i([ 26,49,0 ],5,collection,'True').
+struct_dt_elem_i([ 26,49,0 ],5,'ObjName','Attributes').
+struct_dt_elem_i([ 26,49,0 ],5,'ObjDesc','Attributes').
+struct_dt_elem_i([ 26,49,0 ],5,'CollectionItemName','Attribute').
+struct_dt_elem_i([ 26,49,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,49,0 ],5,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,49,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,49,0 ],5,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,49,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,49,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,49,0 ],5,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,49,83 ],1,name,'Attributename').
+struct_dt_elem_i([ 26,49,83 ],1,camelname,'AttributeName').
+struct_dt_elem_i([ 26,49,83 ],1,length,128).
+struct_dt_elem_i([ 26,49,83 ],1,decimals,0).
+struct_dt_elem_i([ 26,49,83 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,49,83 ],1,pic,'').
+struct_dt_elem_i([ 26,49,83 ],1,collection,'False').
+struct_dt_elem_i([ 26,49,83 ],1,'ExternalName','AttributeName').
+struct_dt_elem_i([ 26,49,83 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,49,83 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,49,83 ],1,'XmlName','').
+struct_dt_elem_i([ 26,49,83 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,49,83 ],1,soaptype,'').
+struct_dt_elem_i([ 26,49,83 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,49,83 ],1,'JsonName','').
+struct_dt_elem_i([ 26,49,83 ],2,name,'Attributevalue').
+struct_dt_elem_i([ 26,49,83 ],2,camelname,'AttributeValue').
+struct_dt_elem_i([ 26,49,83 ],2,length,1000).
+struct_dt_elem_i([ 26,49,83 ],2,decimals,0).
+struct_dt_elem_i([ 26,49,83 ],2,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,49,83 ],2,pic,'').
+struct_dt_elem_i([ 26,49,83 ],2,collection,'False').
+struct_dt_elem_i([ 26,49,83 ],2,'ExternalName','AttributeValue').
+struct_dt_elem_i([ 26,49,83 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,49,83 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,49,83 ],2,'XmlName','').
+struct_dt_elem_i([ 26,49,83 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,49,83 ],2,soaptype,'').
+struct_dt_elem_i([ 26,49,83 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,49,83 ],2,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],1,name,'Userid').
+struct_dt_elem_i([ 26,43,0 ],1,camelname,'UserId').
+struct_dt_elem_i([ 26,43,0 ],1,length,4).
+struct_dt_elem_i([ 26,43,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],1,sign,0).
+struct_dt_elem_i([ 26,43,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalName','UserId').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],2,name,'Userguid').
+struct_dt_elem_i([ 26,43,0 ],2,camelname,'UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,length,500).
+struct_dt_elem_i([ 26,43,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],2,type,[ 13,500,0 ]).
+struct_dt_elem_i([ 26,43,0 ],2,pic,'').
+struct_dt_elem_i([ 26,43,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalName','UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],3,name,'Username').
+struct_dt_elem_i([ 26,43,0 ],3,camelname,'UserName').
+struct_dt_elem_i([ 26,43,0 ],3,length,100).
+struct_dt_elem_i([ 26,43,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],3,pic,'').
+struct_dt_elem_i([ 26,43,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalName','UserName').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],4,name,'Usertype').
+struct_dt_elem_i([ 26,43,0 ],4,camelname,'UserType').
+struct_dt_elem_i([ 26,43,0 ],4,length,4).
+struct_dt_elem_i([ 26,43,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],4,sign,0).
+struct_dt_elem_i([ 26,43,0 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalName','UserType').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],5,name,'Userdisplayname').
+struct_dt_elem_i([ 26,43,0 ],5,camelname,'UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,length,100).
+struct_dt_elem_i([ 26,43,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],5,pic,'').
+struct_dt_elem_i([ 26,43,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalName','UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],6,name,'Userproviderid').
+struct_dt_elem_i([ 26,43,0 ],6,camelname,'UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,basedon,69).
+struct_dt_elem_i([ 26,43,0 ],6,length,18).
+struct_dt_elem_i([ 26,43,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],6,sign,0).
+struct_dt_elem_i([ 26,43,0 ],6,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,43,0 ],6,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 26,43,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalName','UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],7,name,'Userprovidername').
+struct_dt_elem_i([ 26,43,0 ],7,camelname,'UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,length,100).
+struct_dt_elem_i([ 26,43,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],7,pic,'').
+struct_dt_elem_i([ 26,43,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalName','UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],8,name,'Currenttnum').
+struct_dt_elem_i([ 26,43,0 ],8,camelname,currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,length,4).
+struct_dt_elem_i([ 26,43,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],8,sign,0).
+struct_dt_elem_i([ 26,43,0 ],8,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],8,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalName',currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],8,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],8,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],9,name,'Clientip').
+struct_dt_elem_i([ 26,43,0 ],9,camelname,'ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,length,40).
+struct_dt_elem_i([ 26,43,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],9,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,43,0 ],9,pic,'').
+struct_dt_elem_i([ 26,43,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalName','ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],9,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],9,'JsonName','').
+struct_dt_elem_i([ 0,11,0 ],1,name,'Br_demographics_id').
+struct_dt_elem_i([ 0,11,0 ],1,camelname,'BR_Demographics_ID').
+struct_dt_elem_i([ 0,11,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,11,0 ],1,length,18).
+struct_dt_elem_i([ 0,11,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],1,sign,0).
+struct_dt_elem_i([ 0,11,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,11,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,11,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],1,attributeid,'61').
+struct_dt_elem_i([ 0,11,0 ],1,'ExternalName','BR_Demographics_ID').
+struct_dt_elem_i([ 0,11,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],2,name,'Br_encounterid').
+struct_dt_elem_i([ 0,11,0 ],2,camelname,'BR_EncounterID').
+struct_dt_elem_i([ 0,11,0 ],2,basedon,69).
+struct_dt_elem_i([ 0,11,0 ],2,length,18).
+struct_dt_elem_i([ 0,11,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],2,sign,0).
+struct_dt_elem_i([ 0,11,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,11,0 ],2,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,11,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],2,attributeid,'19').
+struct_dt_elem_i([ 0,11,0 ],2,'ExternalName','BR_EncounterID').
+struct_dt_elem_i([ 0,11,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],3,name,'Br_information_patientno').
+struct_dt_elem_i([ 0,11,0 ],3,camelname,'BR_Information_PatientNo').
+struct_dt_elem_i([ 0,11,0 ],3,length,2000).
+struct_dt_elem_i([ 0,11,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],3,type,[ 13,2000,0 ]).
+struct_dt_elem_i([ 0,11,0 ],3,pic,'').
+struct_dt_elem_i([ 0,11,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],3,attributeid,'36').
+struct_dt_elem_i([ 0,11,0 ],3,'ExternalName','BR_Information_PatientNo').
+struct_dt_elem_i([ 0,11,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],4,name,'Br_demographics_birthdate').
+struct_dt_elem_i([ 0,11,0 ],4,camelname,'BR_Demographics_BirthDate').
+struct_dt_elem_i([ 0,11,0 ],4,basedon,64).
+struct_dt_elem_i([ 0,11,0 ],4,length,8).
+struct_dt_elem_i([ 0,11,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],4,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,11,0 ],4,pic,'99/99/9999').
+struct_dt_elem_i([ 0,11,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],4,attributeid,'53').
+struct_dt_elem_i([ 0,11,0 ],4,'ExternalName','BR_Demographics_BirthDate').
+struct_dt_elem_i([ 0,11,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],5,name,'Br_demographics_sex').
+struct_dt_elem_i([ 0,11,0 ],5,camelname,'BR_Demographics_Sex').
+struct_dt_elem_i([ 0,11,0 ],5,length,100).
+struct_dt_elem_i([ 0,11,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,11,0 ],5,pic,'').
+struct_dt_elem_i([ 0,11,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],5,attributeid,'54').
+struct_dt_elem_i([ 0,11,0 ],5,'ExternalName','BR_Demographics_Sex').
+struct_dt_elem_i([ 0,11,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],6,name,'Br_demographics_sex_code').
+struct_dt_elem_i([ 0,11,0 ],6,camelname,'BR_Demographics_Sex_Code').
+struct_dt_elem_i([ 0,11,0 ],6,length,40).
+struct_dt_elem_i([ 0,11,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],6,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,11,0 ],6,pic,'').
+struct_dt_elem_i([ 0,11,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],6,attributeid,'455').
+struct_dt_elem_i([ 0,11,0 ],6,'ExternalName','BR_Demographics_Sex_Code').
+struct_dt_elem_i([ 0,11,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],7,name,'Br_demographics_marritalstatus').
+struct_dt_elem_i([ 0,11,0 ],7,camelname,'BR_Demographics_MarritalStatus').
+struct_dt_elem_i([ 0,11,0 ],7,length,100).
+struct_dt_elem_i([ 0,11,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,11,0 ],7,pic,'').
+struct_dt_elem_i([ 0,11,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],7,attributeid,'63').
+struct_dt_elem_i([ 0,11,0 ],7,'ExternalName','BR_Demographics_MarritalStatus').
+struct_dt_elem_i([ 0,11,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],8,name,'Br_demographics_marritalstatus_code').
+struct_dt_elem_i([ 0,11,0 ],8,camelname,'BR_Demographics_MarritalStatus_Code').
+struct_dt_elem_i([ 0,11,0 ],8,length,40).
+struct_dt_elem_i([ 0,11,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],8,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,11,0 ],8,pic,'').
+struct_dt_elem_i([ 0,11,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],8,attributeid,'456').
+struct_dt_elem_i([ 0,11,0 ],8,'ExternalName','BR_Demographics_MarritalStatus_Code').
+struct_dt_elem_i([ 0,11,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],9,name,'Br_demographics_ethnic').
+struct_dt_elem_i([ 0,11,0 ],9,camelname,'BR_Demographics_Ethnic').
+struct_dt_elem_i([ 0,11,0 ],9,length,100).
+struct_dt_elem_i([ 0,11,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],9,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,11,0 ],9,pic,'').
+struct_dt_elem_i([ 0,11,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],9,attributeid,'55').
+struct_dt_elem_i([ 0,11,0 ],9,'ExternalName','BR_Demographics_Ethnic').
+struct_dt_elem_i([ 0,11,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],10,name,'Br_demographics_ethnic_code').
+struct_dt_elem_i([ 0,11,0 ],10,camelname,'BR_Demographics_Ethnic_Code').
+struct_dt_elem_i([ 0,11,0 ],10,length,40).
+struct_dt_elem_i([ 0,11,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],10,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,11,0 ],10,pic,'').
+struct_dt_elem_i([ 0,11,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],10,attributeid,'457').
+struct_dt_elem_i([ 0,11,0 ],10,'ExternalName','BR_Demographics_Ethnic_Code').
+struct_dt_elem_i([ 0,11,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],11,name,'Br_demographics_education').
+struct_dt_elem_i([ 0,11,0 ],11,camelname,'BR_Demographics_Education').
+struct_dt_elem_i([ 0,11,0 ],11,length,100).
+struct_dt_elem_i([ 0,11,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],11,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,11,0 ],11,pic,'').
+struct_dt_elem_i([ 0,11,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],11,attributeid,'56').
+struct_dt_elem_i([ 0,11,0 ],11,'ExternalName','BR_Demographics_Education').
+struct_dt_elem_i([ 0,11,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],12,name,'Br_demographics_education_code').
+struct_dt_elem_i([ 0,11,0 ],12,camelname,'BR_Demographics_Education_Code').
+struct_dt_elem_i([ 0,11,0 ],12,length,40).
+struct_dt_elem_i([ 0,11,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],12,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,11,0 ],12,pic,'').
+struct_dt_elem_i([ 0,11,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],12,attributeid,'458').
+struct_dt_elem_i([ 0,11,0 ],12,'ExternalName','BR_Demographics_Education_Code').
+struct_dt_elem_i([ 0,11,0 ],12,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],13,name,'Br_demographics_occupation').
+struct_dt_elem_i([ 0,11,0 ],13,camelname,'BR_Demographics_Occupation').
+struct_dt_elem_i([ 0,11,0 ],13,length,40).
+struct_dt_elem_i([ 0,11,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],13,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,11,0 ],13,pic,'').
+struct_dt_elem_i([ 0,11,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],13,attributeid,'57').
+struct_dt_elem_i([ 0,11,0 ],13,'ExternalName','BR_Demographics_Occupation').
+struct_dt_elem_i([ 0,11,0 ],13,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],14,name,'Br_demographics_insurance').
+struct_dt_elem_i([ 0,11,0 ],14,camelname,'BR_Demographics_Insurance').
+struct_dt_elem_i([ 0,11,0 ],14,length,100).
+struct_dt_elem_i([ 0,11,0 ],14,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],14,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,11,0 ],14,pic,'').
+struct_dt_elem_i([ 0,11,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],14,attributeid,'58').
+struct_dt_elem_i([ 0,11,0 ],14,'ExternalName','BR_Demographics_Insurance').
+struct_dt_elem_i([ 0,11,0 ],14,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],15,name,'Br_demographics_insurance_code').
+struct_dt_elem_i([ 0,11,0 ],15,camelname,'BR_Demographics_Insurance_Code').
+struct_dt_elem_i([ 0,11,0 ],15,length,40).
+struct_dt_elem_i([ 0,11,0 ],15,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],15,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,11,0 ],15,pic,'').
+struct_dt_elem_i([ 0,11,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],15,attributeid,'459').
+struct_dt_elem_i([ 0,11,0 ],15,'ExternalName','BR_Demographics_Insurance_Code').
+struct_dt_elem_i([ 0,11,0 ],15,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],16,name,'Br_demographics_province').
+struct_dt_elem_i([ 0,11,0 ],16,camelname,'BR_Demographics_Province').
+struct_dt_elem_i([ 0,11,0 ],16,length,40).
+struct_dt_elem_i([ 0,11,0 ],16,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],16,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,11,0 ],16,pic,'').
+struct_dt_elem_i([ 0,11,0 ],16,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],16,attributeid,'59').
+struct_dt_elem_i([ 0,11,0 ],16,'ExternalName','BR_Demographics_Province').
+struct_dt_elem_i([ 0,11,0 ],16,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],17,name,'Br_demographics_city').
+struct_dt_elem_i([ 0,11,0 ],17,camelname,'BR_Demographics_City').
+struct_dt_elem_i([ 0,11,0 ],17,length,40).
+struct_dt_elem_i([ 0,11,0 ],17,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],17,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,11,0 ],17,pic,'').
+struct_dt_elem_i([ 0,11,0 ],17,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],17,attributeid,'60').
+struct_dt_elem_i([ 0,11,0 ],17,'ExternalName','BR_Demographics_City').
+struct_dt_elem_i([ 0,11,0 ],17,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,name,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,length,128).
+struct_dt_elem_i([ 26,8,25 ],1,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,8,25 ],1,pic,'').
+struct_dt_elem_i([ 26,8,25 ],1,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],1,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],1,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],2,name,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,basedon,30).
+struct_dt_elem_i([ 26,8,25 ],2,length,2).
+struct_dt_elem_i([ 26,8,25 ],2,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],2,sign,0).
+struct_dt_elem_i([ 26,8,25 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,8,25 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,8,25 ],2,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],2,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],2,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],3,name,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,length,256).
+struct_dt_elem_i([ 26,8,25 ],3,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,8,25 ],3,pic,'').
+struct_dt_elem_i([ 26,8,25 ],3,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],3,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],3,'JsonName','').
+struct_dt_elem_i([ 0,11,0 ],4,pic,'ZZZZZZZZZZZZZZZZZZ').
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'Start',2,41,[ [ 'Mode','Pgmname','Websession' ],[ 'Wwpcontext','Isauthorized','Trncontext','GXV1','Trncontextatt','Insert_br_encounterid' ] ]).
+sub_info_i(146,'After Trn',43,59,[ [],[] ]).
+ 
+pgm_parm_i(web,16,'WWPBASEOBJECTS\NOTAUTHORIZED',[ [ svchar,256,0,0 ] ],[ [ 'GxObject',in,[] ] ]).
+pgm_parm_i(proc,15,'WWPBASEOBJECTS\LOADWWPCONTEXT',[ [ o('WWPBaseObjects\WWPContext'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+pgm_parm_i(proc,130,'ZUTIL_FINDTARGETCODE',[ [ int,18,0,0 ],[ svchar,100,0,0 ],[ svchar,40,0,0 ] ],[ [ iXT_DefindcodeTypeID,in,[] ],[ iXT_DefineCodeName,in,[] ],[ oXT_TypeCode,out,[] ] ]).
+pgm_parm_i(proc,25,'WWPBASEOBJECTS\SECISAUTHBYFUNCTIONALITYKEY',[ [ svchar,100,0,0 ],[ boolean,4,0,0 ] ],[ [ 'SecFunctionalityKey',in,[] ],[ 'IsAuthorized',out,[] ] ]).
+ 
+pgm_callprotocol_i(trn,11,'BR_DEMOGRAPHICS_BC','INTERNAL').
+pgm_callprotocol_i(web,16,'WWPBASEOBJECTS\NOTAUTHORIZED','INTERNAL').
+pgm_callprotocol_i(proc,15,'WWPBASEOBJECTS\LOADWWPCONTEXT','INTERNAL').
+pgm_callprotocol_i(proc,130,'ZUTIL_FINDTARGETCODE','INTERNAL').
+pgm_callprotocol_i(proc,25,'WWPBASEOBJECTS\SECISAUTHBYFUNCTIONALITYKEY','INTERNAL').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

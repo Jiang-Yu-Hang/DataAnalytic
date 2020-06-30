@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="96f80fe2-eb67-4493-956e-44ed90aa0337">
+  <Table name="BR_MedicalImaging_Diag" />
+  <Table name="UserCustomizations" />
+</Dependencies>

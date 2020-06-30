@@ -1,0 +1,500 @@
+spec_i([ proc,103,删除病理学的所有相关信息,'ZBR_DeletePathology',78,chs,'16_0_0-127771' ]).
+ 
+struct_i(2,1,[],[]).
+struct_i(5,2,[ 226 ],[]).
+struct_i(4,2,[ 226 ],[]).
+struct_i(3,2,[ 226 ],[]).
+ 
+level_i(2,[ 36,[ [ 36,many ] ],[],[],[ [ [ 36 ],[ 226 ] ] ],[ [ [ 36 ],[] ] ],[ 226 ],'IBR_PATHOLOGY',[ 36,[ [ [],'Ibr_pathologyid',226 ] ] ],[] ]).
+level_i(5,[ 33,[ [ 33,many ] ],[],[],[ [ [ 33 ],[ 226 ] ] ],[ [ [ 33 ],[] ] ],[ 226 ],'IBR_PATHOLOGY_SPECIMEN1',[ 33,[ [ [],226,226 ] ] ],[] ]).
+level_i(4,[ 35,[ [ 35,many ] ],[],[],[ [ [ 35 ],[ 226 ] ] ],[ [ [ 35 ],[] ] ],[ 226 ],'IBR_PATHOLOGY_OTHER1',[ 35,[ [ [],226,226 ] ] ],[] ]).
+level_i(3,[ 34,[ [ 34,many ] ],[],[],[ [ [ 34 ],[ 226 ] ] ],[ [ [ 34 ],[] ] ],[ 226 ],'IBR_PATHOLOGY_DIAG1',[ 34,[ [ [],226,226 ] ] ],[] ]).
+ 
+tw_i(2,[]).
+tw_i(5,[]).
+tw_i(4,[]).
+tw_i(3,[]).
+ 
+lwi_i(2,[ [] ]).
+lwi_i(5,[ [] ]).
+lwi_i(4,[ [] ]).
+lwi_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 36,226 ] ] ]).
+ta_i(5,[ [ [ 33,226 ] ] ]).
+ta_i(4,[ [ [ 35,226 ] ] ]).
+ta_i(3,[ [ [ 34,226 ] ] ]).
+ 
+las_i(2,[ [ 226 ] ]).
+las_i(5,[ [ 226 ] ]).
+las_i(4,[ [ 226 ] ]).
+las_i(3,[ [ 226 ] ]).
+ 
+lac_i(2,[ [] ]).
+lac_i(5,[ [] ]).
+lac_i(4,[ [] ]).
+lac_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','商?')).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','商?')).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','ZBR_DeletePathology')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'ZUtil'))).
+rule_i(0,prop('ObjDesc',删除病理学的所有相关信息)).
+rule_i(0,prop('ObjName','ZBR_DeletePathology')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Ibr_pathologyid' ],[])).
+rule_i(0,parmio([ [ 'Ibr_pathologyid',in ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,3,t,34,[],[ [ [ [],226,226 ] ],'IBR_PATHOLOGY_DIAG1',[] ]).
+a_i(3,4,t,35,[],[ [ [ [],226,226 ] ],'IBR_PATHOLOGY_OTHER1',[] ]).
+a_i(4,5,t,33,[],[ [ [ [],226,226 ] ],'IBR_PATHOLOGY_SPECIMEN1',[] ]).
+a_i(5,2,t,36,[],[ [ [ [],'Ibr_pathologyid',226 ] ],'IBR_PATHOLOGY',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,226).
+v_i(t,o,2,[]).
+v_i(t,i,3,226).
+v_i(t,o,3,[]).
+v_i(t,i,4,226).
+v_i(t,o,4,[]).
+v_i(t,i,5,'Ibr_pathologyid').
+v_i(t,o,5,226).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',16 ]).
+attri_i(274,[ 'BR_Pathology_SpecimenID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,病理学送检组织主键,'',0 ]).
+attri_i(288,[ 'BR_Pathology_OtherID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,病理学其他信息主键,'',0 ]).
+attri_i(276,[ 'BR_Pathology_DiagID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,病理学诊断主键,'',0 ]).
+attri_i(19,[ 'BR_EncounterID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,就诊信息主键,'',0 ]).
+attri_i(226,[ 'BR_PathologyID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,病理学主键,'',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',11 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',10 ]).
+attri_i('Tbr_pathologyid',[ tBR_PathologyID,int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,病理学主键,'',9 ]).
+attri_i('Ibr_pathologyid',[ iBR_PathologyID,int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,病理学主键,'',8 ]).
+ 
+table_i(34,[ 'BR_Pathology_Diag',[ 276,226 ],' T34','BR_Pathology_Diag' ]).
+table_i(35,[ 'BR_Pathology_Other',[ 288,226 ],' T35','BR_Pathology_Other' ]).
+table_i(33,[ 'BR_Pathology_Specimen',[ 274,226 ],' T33','BR_Pathology_Specimen' ]).
+table_i(36,[ 'BR_Pathology',[ 226 ],' T36','BR_Pathology' ]).
+ 
+index_i(34,[ 'IBR_PATHOLOGY_DIAG',u,[ 276 ],'IBR_Pathology_Diag' ]).
+index_i(34,[ 'IBR_PATHOLOGY_DIAG1',d,[ 226 ],'IBR_Pathology_Diag1' ]).
+index_i(35,[ 'IBR_PATHOLOGY_OTHER',u,[ 288 ],'IBR_Pathology_Other' ]).
+index_i(35,[ 'IBR_PATHOLOGY_OTHER1',d,[ 226 ],'IBR_Pathology_Other1' ]).
+index_i(33,[ 'IBR_PATHOLOGY_SPECIMEN',u,[ 274 ],'IBR_Pathology_Specimen' ]).
+index_i(33,[ 'IBR_PATHOLOGY_SPECIMEN1',d,[ 226 ],'IBR_Pathology_Specimen1' ]).
+index_i(36,[ 'IBR_PATHOLOGY',u,[ 226 ],'IBR_Pathology' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(3,34,d,[ [],[],'IBR_PATHOLOGY_DIAG1',[] ]).
+upd_i(4,35,d,[ [],[],'IBR_PATHOLOGY_OTHER1',[] ]).
+upd_i(5,33,d,[ [],[],'IBR_PATHOLOGY_SPECIMEN1',[] ]).
+upd_i(2,36,d,[ [],[],'IBR_PATHOLOGY',[] ]).
+ 
+ 
+ 
+start_i(2,0,0,[ [ [ 226,23,'Ibr_pathologyid',= ] ],one ]).
+start_i(5,0,0,[ [ [ 226,2,226,= ] ],many ]).
+start_i(4,0,0,[ [ [ 226,2,226,= ] ],many ]).
+start_i(3,0,0,[ [ [ 226,2,226,= ] ],many ]).
+ 
+end_i(2,0,0,[ [ [ t(226,2),t(=,10),t('Ibr_pathologyid',23) ] ] ]).
+end_i(5,0,0,[ [ [ t(226,2),t(=,10),t(226,23) ] ] ]).
+end_i(4,0,0,[ [ [ t(226,2),t(=,10),t(226,23) ] ] ]).
+end_i(3,0,0,[ [ [ t(226,2),t(=,10),t(226,23) ] ] ]).
+ 
+ 
+ 
+ 
+enumerated_i(45,315,93).
+enumerated_i(45,318,93).
+ 
+enum_value_i(45,98,'"Create"',insert,'"新增"',[ none ]).
+enum_value_i(45,98,'"Update"',update,'"编辑"',[ none ]).
+enum_value_i(45,98,'"Delete"',delete,'"删除"',[ none ]).
+enum_value_i(45,98,'"Create"',save,'"保存"',[ none ]).
+enum_value_i(45,98,'"Submit"',submit,'"提交审批"',[ none ]).
+enum_value_i(45,98,'"Batchcheck"',batchcheck,'"批量初审"',[ none ]).
+enum_value_i(45,98,'"Batchapprove"',batchapprove,'"批量复审"',[ none ]).
+enum_value_i(45,98,'"Randomcheckpass"',randomcheckpass,'"初审抽查通过"',[ none ]).
+enum_value_i(45,98,'"Randomcheckrefuse"',randomcheckrefuse,'"初审抽查不通过"',[ none ]).
+enum_value_i(45,98,'"Randomapprovepass"',randomapprovepass,'"复审抽查通过"',[ none ]).
+enum_value_i(45,98,'"Randomapproverefuse"',randomapproverefuse,'"复审抽查不通过"',[ none ]).
+enum_value_i(45,98,'"Check"',check,'"初审通过"',[ none ]).
+enum_value_i(45,98,'"Approve"',approve,'"复审通过"',[ none ]).
+enum_value_i(45,98,'"Reupdate"',reupdate,'"重新修改"',[ none ]).
+enum_value_i(45,98,'"Login"',login,'"登录"',[ none ]).
+enum_value_i(45,93,'"否"',no,'"否"',[ none ]).
+enum_value_i(45,93,'"是"',yes,'"是"',[ none ]).
+enum_value_i(45,93,'"不详"',notclear,'"不详"',[ none ]).
+ 
+enum_value_info_i(45,98,'DM_LogOperateType').
+enum_value_info_i(45,93,'DM_IsComorbidity').
+ 
+enum_type_i(45,98,svchar,40,0).
+enum_type_i(45,93,svchar,40,0).
+ 
+dom_info_i(69,[ 'ID' ]).
+dom_info_i(103,[ 'DM_Numeric' ]).
+dom_info_i(64,[ 'DM_Date' ]).
+dom_info_i(93,[ 'DM_IsComorbidity' ]).
+ 
+ 
+break_i(3,nvg,2,[],[ [],[],[] ]).
+break_i(4,nvg,2,[],[ [],[],[] ]).
+break_i(5,nvg,2,[],[ [],[],[] ]).
+break_i(2,nvg,1,[],[ [ 226 ],[],[] ]).
+break_i(1,rpt,0,[],[ [ 19 ],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,1,1).
+b_group_i(2,1,lit,0,2,2).
+b_group_i(2,2,nvg,3,3,3).
+b_group_i(3,1,lit,0,4,4).
+b_group_i(2,3,lit,0,6,5).
+b_group_i(2,4,nvg,4,8,8).
+b_group_i(4,1,lit,0,9,9).
+b_group_i(2,5,lit,0,11,8).
+b_group_i(2,6,nvg,5,13,13).
+b_group_i(5,1,lit,0,14,14).
+b_group_i(2,7,lit,0,16,11).
+b_group_i(1,3,lit,0,20,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,2,1,cmd,2,[ t('',121,1,0),t(table,3,1,10),t(36,3,1,10) ]).
+b_line_i(2,2,1,cmd,2,[]).
+b_line_i(3,3,1,cmd,4,[ t('',121,3,0),t(table,3,3,11),t(34,3,3,11) ]).
+b_line_i(4,3,1,cmd,4,[ t('',113,4,0) ]).
+b_line_i(5,3,1,cmd,4,[ t('',128,4,0) ]).
+b_line_i(6,2,3,cmd,5,[]).
+b_line_i(7,2,3,cmd,5,[]).
+b_line_i(8,4,1,cmd,9,[ t('',121,8,0),t(table,3,8,11),t(35,3,8,11) ]).
+b_line_i(9,4,1,cmd,9,[ t('',113,9,0) ]).
+b_line_i(10,4,1,cmd,9,[ t('',128,9,0) ]).
+b_line_i(11,2,5,cmd,8,[]).
+b_line_i(12,2,5,cmd,8,[]).
+b_line_i(13,5,1,cmd,14,[ t('',121,13,0),t(table,3,13,11),t(33,3,13,11) ]).
+b_line_i(14,5,1,cmd,14,[ t('',113,14,0) ]).
+b_line_i(15,5,1,cmd,14,[ t('',128,14,0) ]).
+b_line_i(16,2,7,cmd,11,[]).
+b_line_i(17,2,7,cmd,11,[ t('',107,11,0),t('Tbr_pathologyid',23,11,0),t(=,10,11,0),t(226,2,11,0) ]).
+b_line_i(18,2,7,cmd,11,[ t('',113,11,0) ]).
+b_line_i(19,2,7,cmd,11,[ t('',128,11,0) ]).
+b_line_i(20,1,3,cmd,19,[]).
+b_line_i(21,1,3,cmd,19,[ t('',104,19,0),t(o(1,'ZUtil_RecordSonLog'),28,19,1),t('trim(',1,21,53),t('str(',1,19,41),t(19,2,19,26),t(',',7,19,41),t(18,3,19,41),t(',',7,19,41),t(0,3,19,41),t(')',4,19,51),t(')',4,19,59),t(',',7,19,0),t('''就诊信息''',3,21,61),t(',',7,19,0),t('trim(',1,21,97),t('str(',1,19,85),t('Tbr_pathologyid',23,19,68),t(',',7,19,85),t(18,3,19,85),t(',',7,19,85),t(0,3,19,85),t(')',4,19,95),t(')',4,19,103),t(',',7,19,0),t('''病理学''',3,21,105),t(',',7,19,0),t([ 98,delete ],44,21,111),t(',',7,19,0),t('1',3,19,136) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0060,[ 'The program may be called by another program and the Commit on Exit property is set to YES' ])).
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(45,226,'ExternalName','BR_PathologyID',d).
+att_prop_i(45,226,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,226,'EmptyAsNull','Yes',d).
+att_prop_i(45,226,idBasedOn,69,v).
+att_prop_i(45,226,'AUTONUMBER','-1',d).
+att_prop_i(45,226,'AUTONUMBER_START','1',d).
+att_prop_i(45,226,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,226,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,226,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,226,'AttRegEx','',d).
+att_prop_i(45,226,'AttValidationFailedMsg','',d).
+att_prop_i(45,226,'FullName','BR_PathologyID',v).
+att_prop_i(45,19,'ExternalName','BR_EncounterID',d).
+att_prop_i(45,19,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,19,'EmptyAsNull','Yes',d).
+att_prop_i(45,19,idBasedOn,69,v).
+att_prop_i(45,19,'AUTONUMBER','-1',d).
+att_prop_i(45,19,'AUTONUMBER_START','1',d).
+att_prop_i(45,19,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,19,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,19,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,19,'AttRegEx','',d).
+att_prop_i(45,19,'AttValidationFailedMsg','',d).
+att_prop_i(45,19,'FullName','BR_EncounterID',v).
+att_prop_i(45,276,'ExternalName','BR_Pathology_DiagID',d).
+att_prop_i(45,276,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,276,'EmptyAsNull','Yes',d).
+att_prop_i(45,276,idBasedOn,69,v).
+att_prop_i(45,276,'AUTONUMBER','-1',d).
+att_prop_i(45,276,'AUTONUMBER_START','1',d).
+att_prop_i(45,276,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,276,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,276,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,276,'AttRegEx','',d).
+att_prop_i(45,276,'AttValidationFailedMsg','',d).
+att_prop_i(45,276,'FullName','BR_Pathology_DiagID',v).
+att_prop_i(45,288,'ExternalName','BR_Pathology_OtherID',d).
+att_prop_i(45,288,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,288,'EmptyAsNull','Yes',d).
+att_prop_i(45,288,idBasedOn,69,v).
+att_prop_i(45,288,'AUTONUMBER','-1',d).
+att_prop_i(45,288,'AUTONUMBER_START','1',d).
+att_prop_i(45,288,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,288,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,288,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,288,'AttRegEx','',d).
+att_prop_i(45,288,'AttValidationFailedMsg','',d).
+att_prop_i(45,288,'FullName','BR_Pathology_OtherID',v).
+att_prop_i(45,274,'ExternalName','BR_Pathology_SpecimenID',d).
+att_prop_i(45,274,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,274,'EmptyAsNull','Yes',d).
+att_prop_i(45,274,idBasedOn,69,v).
+att_prop_i(45,274,'AUTONUMBER','-1',d).
+att_prop_i(45,274,'AUTONUMBER_START','1',d).
+att_prop_i(45,274,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,274,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,274,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,274,'AttRegEx','',d).
+att_prop_i(45,274,'AttValidationFailedMsg','',d).
+att_prop_i(45,274,'FullName','BR_Pathology_SpecimenID',v).
+ 
+tbl_prop_i(45,34,'AllDirSuper',[ [ 36,[ 226 ] ] ],v).
+tbl_prop_i(45,35,'AllDirSuper',[ [ 36,[ 226 ] ] ],v).
+tbl_prop_i(45,33,'AllDirSuper',[ [ 36,[ 226 ] ] ],v).
+tbl_prop_i(45,34,'DirSuperNull',[ [ 36,[ 226 ] ] ],v).
+tbl_prop_i(45,35,'DirSuperNull',[ [ 36,[ 226 ] ] ],v).
+tbl_prop_i(45,33,'DirSuperNull',[ [ 36,[ 226 ] ] ],v).
+tbl_prop_i(45,36,'DirSubor',[ [ 33,[ 226 ] ],[ 34,[ 226 ] ],[ 35,[ 226 ] ] ],v).
+tbl_prop_i(45,34,'DirSuper',[ [ 36,[ 226 ] ] ],v).
+tbl_prop_i(45,35,'DirSuper',[ [ 36,[ 226 ] ] ],v).
+tbl_prop_i(45,33,'DirSuper',[ [ 36,[ 226 ] ] ],v).
+ 
+tbl_att_prop_i(45,34,276,'AllowNulls',n).
+tbl_att_prop_i(45,34,276,'AUTONUMBER',y).
+tbl_att_prop_i(45,35,288,'AllowNulls',n).
+tbl_att_prop_i(45,35,288,'AUTONUMBER',y).
+tbl_att_prop_i(45,33,274,'AllowNulls',n).
+tbl_att_prop_i(45,33,274,'AUTONUMBER',y).
+tbl_att_prop_i(45,36,226,'AllowNulls',n).
+tbl_att_prop_i(45,36,226,'AUTONUMBER',y).
+ 
+var_prop_i(45,'Ibr_pathologyid',idBasedOn,'',v).
+var_prop_i(45,'Tbr_pathologyid',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,86,'ZUTIL_RECORDSONLOG',[ [ svchar,5000,0,0 ],[ svchar,100,0,0 ],[ svchar,100,0,0 ],[ svchar,100,0,0 ],[ svchar,40,0,0 ],[ int,4,0,0 ] ],[ [ iXT_LogTarget,in,[] ],[ iXT_LogTargetModule,in,[] ],[ iXT_LogSonTarget,in,[] ],[ iXT_LogTargetSonModule,in,[] ],[ iXT_LogTargetOperate,in,[] ],[ tOperateType,in,[] ] ]).
+ 
+pgm_callprotocol_i(proc,103,'ZBR_DELETEPATHOLOGY','INTERNAL').
+pgm_callprotocol_i(proc,86,'ZUTIL_RECORDSONLOG','INTERNAL').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

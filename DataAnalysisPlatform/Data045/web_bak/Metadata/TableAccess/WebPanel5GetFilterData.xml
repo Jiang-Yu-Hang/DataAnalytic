@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b06b3773-0ffe-4c61-bba2-ebc10a91bb6b">
+  <Table name="View_New_Encounter" />
+  <Table name="UserCustomizations" />
+</Dependencies>

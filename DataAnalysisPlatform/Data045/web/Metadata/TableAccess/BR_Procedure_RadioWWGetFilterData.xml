@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c6a17b7a-28c3-41dd-9256-a66d406d0404">
+  <Table name="BR_Procedure_Radio" />
+  <Table name="UserCustomizations" />
+</Dependencies>

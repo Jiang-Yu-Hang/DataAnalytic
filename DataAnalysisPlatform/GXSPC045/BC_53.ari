@@ -1,0 +1,7 @@
+bc_dt_elem_i([ 0,53,0 ],'Roleid',allownulls,no).
+bc_dt_elem_i([ 0,53,0 ],'Rolename',allownulls,no).
+bc_dt_elem_i([ 0,53,0 ],'Roletype',allownulls,no).
+bc_dt_elem_i([ 0,53,0 ],'Sys_rolecreator',allownulls,no).
+bc_dt_elem_i([ 0,53,0 ],'Sys_rolecreatetime',allownulls,no).
+bc_dt_elem_i([ 0,53,0 ],'Sys_roleisdeleted',allownulls,no).
+ 

@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.wb_getusername_services,wb_getusername" %>

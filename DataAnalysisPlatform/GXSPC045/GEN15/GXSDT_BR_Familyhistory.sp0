@@ -1,0 +1,88 @@
+ 
+spec_i([ sdt,[ 0,64,0 ],'BR_Familyhistory','BR_Familyhistory',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,64,0 ],name,'BR_Familyhistory').
+struct_dt_i([ 0,64,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,64,0 ],significantName,'BR_Familyhistory').
+struct_dt_i([ 0,64,0 ],'ObjName','BR_Familyhistory').
+struct_dt_i([ 0,64,0 ],'ObjDesc',¼Ò×åÊ·).
+struct_dt_i([ 0,64,0 ],'ExternalName','BR_Familyhistory').
+struct_dt_i([ 0,64,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,64,0 ],key,[ 576 ]).
+struct_dt_i([ 0,64,0 ],lvl,74).
+struct_dt_i([ 0,64,0 ],fullname,'BR_Familyhistory').
+ 
+struct_dt_elem_i([ 0,64,0 ],1,name,'Br_familyhistoryid').
+struct_dt_elem_i([ 0,64,0 ],1,camelname,'BR_FamilyhistoryID').
+struct_dt_elem_i([ 0,64,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,64,0 ],1,length,18).
+struct_dt_elem_i([ 0,64,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,64,0 ],1,sign,0).
+struct_dt_elem_i([ 0,64,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,64,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,64,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,64,0 ],1,attributeid,'576').
+struct_dt_elem_i([ 0,64,0 ],1,'ExternalName','BR_FamilyhistoryID').
+struct_dt_elem_i([ 0,64,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,64,0 ],2,name,'Br_encounterid').
+struct_dt_elem_i([ 0,64,0 ],2,camelname,'BR_EncounterID').
+struct_dt_elem_i([ 0,64,0 ],2,basedon,69).
+struct_dt_elem_i([ 0,64,0 ],2,length,18).
+struct_dt_elem_i([ 0,64,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,64,0 ],2,sign,0).
+struct_dt_elem_i([ 0,64,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,64,0 ],2,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,64,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,64,0 ],2,attributeid,'19').
+struct_dt_elem_i([ 0,64,0 ],2,'ExternalName','BR_EncounterID').
+struct_dt_elem_i([ 0,64,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,64,0 ],3,name,'Br_information_patientno').
+struct_dt_elem_i([ 0,64,0 ],3,camelname,'BR_Information_PatientNo').
+struct_dt_elem_i([ 0,64,0 ],3,length,2000).
+struct_dt_elem_i([ 0,64,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,64,0 ],3,type,[ 13,2000,0 ]).
+struct_dt_elem_i([ 0,64,0 ],3,pic,'').
+struct_dt_elem_i([ 0,64,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,64,0 ],3,attributeid,'36').
+struct_dt_elem_i([ 0,64,0 ],3,'ExternalName','BR_Information_PatientNo').
+struct_dt_elem_i([ 0,64,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,64,0 ],4,name,'Br_familycahistory').
+struct_dt_elem_i([ 0,64,0 ],4,camelname,'BR_FamilyCaHistory').
+struct_dt_elem_i([ 0,64,0 ],4,basedon,93).
+struct_dt_elem_i([ 0,64,0 ],4,length,40).
+struct_dt_elem_i([ 0,64,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,64,0 ],4,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,64,0 ],4,pic,'').
+struct_dt_elem_i([ 0,64,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,64,0 ],4,attributeid,'577').
+struct_dt_elem_i([ 0,64,0 ],4,'ExternalName','BR_FamilyCaHistory').
+struct_dt_elem_i([ 0,64,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,64,0 ],5,name,'Br_familycahistory_code').
+struct_dt_elem_i([ 0,64,0 ],5,camelname,'BR_FamilyCaHistory_Code').
+struct_dt_elem_i([ 0,64,0 ],5,length,40).
+struct_dt_elem_i([ 0,64,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,64,0 ],5,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,64,0 ],5,pic,'').
+struct_dt_elem_i([ 0,64,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,64,0 ],5,attributeid,'578').
+struct_dt_elem_i([ 0,64,0 ],5,'ExternalName','BR_FamilyCaHistory_Code').
+struct_dt_elem_i([ 0,64,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,64,0 ],6,name,'Br_familycancer').
+struct_dt_elem_i([ 0,64,0 ],6,camelname,'BR_FamilyCancer').
+struct_dt_elem_i([ 0,64,0 ],6,length,200).
+struct_dt_elem_i([ 0,64,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,64,0 ],6,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,64,0 ],6,pic,'').
+struct_dt_elem_i([ 0,64,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,64,0 ],6,attributeid,'579').
+struct_dt_elem_i([ 0,64,0 ],6,'ExternalName','BR_FamilyCancer').
+struct_dt_elem_i([ 0,64,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,64,0 ],4,pic,'99/99/9999').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

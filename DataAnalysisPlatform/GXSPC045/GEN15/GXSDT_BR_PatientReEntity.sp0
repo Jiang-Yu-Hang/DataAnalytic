@@ -1,0 +1,44 @@
+ 
+spec_i([ sdt,[ 0,59,0 ],'BR_PatientReEntity','BR_PatientReEntity',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,59,0 ],name,'BR_PatientReEntity').
+struct_dt_i([ 0,59,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,59,0 ],significantName,'BR_PatientReEntity').
+struct_dt_i([ 0,59,0 ],'ObjName','BR_PatientReEntity').
+struct_dt_i([ 0,59,0 ],'ObjDesc',患者病种关系图).
+struct_dt_i([ 0,59,0 ],'ExternalName','BR_PatientReEntity').
+struct_dt_i([ 0,59,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,59,0 ],key,[ 85,366 ]).
+struct_dt_i([ 0,59,0 ],lvl,63).
+struct_dt_i([ 0,59,0 ],fullname,'BR_PatientReEntity').
+ 
+struct_dt_elem_i([ 0,59,0 ],1,name,'Br_information_id').
+struct_dt_elem_i([ 0,59,0 ],1,camelname,'BR_Information_ID').
+struct_dt_elem_i([ 0,59,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,59,0 ],1,length,18).
+struct_dt_elem_i([ 0,59,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,59,0 ],1,sign,0).
+struct_dt_elem_i([ 0,59,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,59,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,59,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,59,0 ],1,attributeid,'85').
+struct_dt_elem_i([ 0,59,0 ],1,'ExternalName','BR_Information_ID').
+struct_dt_elem_i([ 0,59,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,59,0 ],2,name,'Datapackage').
+struct_dt_elem_i([ 0,59,0 ],2,camelname,'DataPackage').
+struct_dt_elem_i([ 0,59,0 ],2,length,50).
+struct_dt_elem_i([ 0,59,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,59,0 ],2,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,59,0 ],2,pic,'').
+struct_dt_elem_i([ 0,59,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,59,0 ],2,attributeid,'366').
+struct_dt_elem_i([ 0,59,0 ],2,'ExternalName','DataPackage').
+struct_dt_elem_i([ 0,59,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

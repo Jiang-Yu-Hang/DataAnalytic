@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="2b4f9413-9b6f-43d4-8a63-f5e3bada895a">
+  <Table name="XT_Log" />
+  <Table name="SYS_Log" />
+</Dependencies>

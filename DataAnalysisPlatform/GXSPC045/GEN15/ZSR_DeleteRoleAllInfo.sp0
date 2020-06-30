@@ -1,0 +1,411 @@
+spec_i([ proc,79,删除该角色的所有信息的方法,'ZSR_DeleteRoleAllInfo',78,chs,'16_0_0-127771' ]).
+ 
+struct_i(4,1,[],[]).
+struct_i(3,1,[],[]).
+struct_i(2,1,[],[]).
+ 
+level_i(4,[ 5,[ [ 5,many ] ],[],[],[ [ [ 5 ],[ 4 ] ] ],[ [ [ 5 ],[] ] ],[ 4 ],'ISECROL',[ 5,[ [ [],'Isecroleid',4 ] ] ],[] ]).
+level_i(3,[ 7,[ [ 7,many ] ],[],[],[ [ [ 7 ],[ 4 ] ] ],[ [ [ 7 ],[] ] ],[ 4 ],'ISECUSERROLE1',[ 7,[ [ [],'Isecroleid',4 ] ] ],[] ]).
+level_i(2,[ 2,[ [ 2,many ] ],[],[],[ [ [ 2 ],[ 4 ] ] ],[ [ [ 2 ],[] ] ],[ 4 ],'ISECFUNCTIONALITYROL2',[ 2,[ [ [],'Isecroleid',4 ] ] ],[] ]).
+ 
+tw_i(4,[]).
+tw_i(3,[]).
+tw_i(2,[]).
+ 
+lwi_i(4,[ [] ]).
+lwi_i(3,[ [] ]).
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+level_option_i(2,usr_condition,y).
+level_option_i(3,usr_condition,y).
+level_option_i(4,usr_condition,y).
+ 
+ta_i(4,[ [ [ 5,4 ] ] ]).
+ta_i(3,[ [ [ 7,4 ] ] ]).
+ta_i(2,[ [ [ 2,4 ] ] ]).
+ 
+las_i(4,[ [ 4 ] ]).
+las_i(3,[ [ 4 ] ]).
+las_i(2,[ [ 4 ] ]).
+ 
+lac_i(4,[ [] ]).
+lac_i(3,[ [] ]).
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','商?')).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','商?')).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','ZSR_DeleteRoleAllInfo')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'ZUtil'))).
+rule_i(0,prop('ObjDesc',删除该角色的所有信息的方法)).
+rule_i(0,prop('ObjName','ZSR_DeleteRoleAllInfo')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Isecroleid' ],[])).
+rule_i(0,parmio([ [ 'Isecroleid',in ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,2,[],[ [ [ [],'Isecroleid',4 ] ],'ISECFUNCTIONALITYROL2',[] ]).
+a_i(3,3,t,7,[],[ [ [ [],'Isecroleid',4 ] ],'ISECUSERROLE1',[] ]).
+a_i(4,4,t,5,[],[ [ [ [],'Isecroleid',4 ] ],'ISECROL',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,'Isecroleid').
+v_i(t,o,2,4).
+v_i(t,i,3,'Isecroleid').
+v_i(t,o,3,4).
+v_i(t,i,4,'Isecroleid').
+v_i(t,o,4,4).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',14 ]).
+attri_i(6,[ 'SecUserId',int,4,0,'ZZZ9',0,账号主键,'',0 ]).
+attri_i(1,[ 'SecFunctionalityId',int,10,0,'ZZZZZZZZZ9',0,功能编号,'',0 ]).
+attri_i(4,[ 'SecRoleId',int,4,0,'ZZZ9',0,角色编号,'',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',10 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',9 ]).
+attri_i('Isecroleid',[ iSecRoleId,int,4,0,'ZZZ9',0,角色编号,'',8 ]).
+ 
+table_i(2,[ 'SecFunctionalityRole',[ 1,4 ],'Functionality Role','SecFunctionalityRole' ]).
+table_i(7,[ 'SecUserRole',[ 6,4 ],'Sec User Role','SecUserRole' ]).
+table_i(5,[ 'SecRole',[ 4 ],'Role','SecRole' ]).
+ 
+index_i(2,[ 'ISECFUNCTIONALITYROL',u,[ 1,4 ],'ISecFunctionalityRol' ]).
+index_i(2,[ 'ISECFUNCTIONALITYROL2',d,[ 4 ],'ISecFunctionalityRol2' ]).
+index_i(7,[ 'ISECUSERROLE',u,[ 6,4 ],'ISecUserRole' ]).
+index_i(7,[ 'ISECUSERROLE1',d,[ 4 ],'ISecUserRole1' ]).
+index_i(5,[ 'ISECROL',u,[ 4 ],'ISecRol' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(2,2,d,[ [],[],'ISECFUNCTIONALITYROL2',[] ]).
+upd_i(3,7,d,[ [],[],'ISECUSERROLE1',[] ]).
+upd_i(4,5,d,[ [],[],'ISECROL',[] ]).
+ 
+ 
+ 
+start_i(4,0,0,[ [ [ 4,23,'Isecroleid',= ] ],one ]).
+start_i(3,0,0,[ [ [ 4,23,'Isecroleid',= ] ],many ]).
+start_i(2,0,0,[ [ [ 4,23,'Isecroleid',= ] ],many ]).
+ 
+end_i(4,0,0,[ [ [ t(4,2),t(=,10),t('Isecroleid',23) ] ] ]).
+end_i(3,0,0,[ [ [ t(4,2),t(=,10),t('Isecroleid',23) ] ] ]).
+end_i(2,0,0,[ [ [ t(4,2),t(=,10),t('Isecroleid',23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [],[ 4 ],[] ]).
+break_i(3,nvg,1,[],[ [],[ 4 ],[] ]).
+break_i(4,nvg,1,[],[ [],[ 4 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,2,2).
+b_group_i(2,1,lit,0,3,3).
+b_group_i(1,3,lit,0,6,4).
+b_group_i(1,4,nvg,3,8,8).
+b_group_i(3,1,lit,0,9,9).
+b_group_i(1,5,lit,0,12,8).
+b_group_i(1,6,nvg,4,14,14).
+b_group_i(4,1,lit,0,15,15).
+b_group_i(1,7,lit,0,18,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,2,1,cmd,3,[ t('',121,2,0),t(table,3,2,10),t(2,3,2,10) ]).
+b_line_i(4,2,1,cmd,3,[ t('',113,3,0) ]).
+b_line_i(5,2,1,cmd,3,[ t('',128,3,0) ]).
+b_line_i(6,1,3,cmd,4,[]).
+b_line_i(7,1,3,cmd,4,[]).
+b_line_i(8,3,1,cmd,9,[ t('',121,8,0),t(table,3,8,10),t(7,3,8,10) ]).
+b_line_i(10,3,1,cmd,9,[ t('',113,9,0) ]).
+b_line_i(11,3,1,cmd,9,[ t('',128,9,0) ]).
+b_line_i(12,1,5,cmd,8,[]).
+b_line_i(13,1,5,cmd,8,[]).
+b_line_i(14,4,1,cmd,15,[ t('',121,14,0),t(table,3,14,10),t(5,3,14,10) ]).
+b_line_i(16,4,1,cmd,15,[ t('',113,15,0) ]).
+b_line_i(17,4,1,cmd,15,[ t('',128,15,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0060,[ 'The program may be called by another program and the Commit on Exit property is set to YES' ])).
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(45,4,'ExternalName','SecRoleId',d).
+att_prop_i(45,4,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,4,'EmptyAsNull','Yes',d).
+att_prop_i(45,4,idBasedOn,'',d).
+att_prop_i(45,4,'AUTONUMBER','-1',v).
+att_prop_i(45,4,'AUTONUMBER_START','1',d).
+att_prop_i(45,4,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,4,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,4,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,4,'AttRegEx','',d).
+att_prop_i(45,4,'AttValidationFailedMsg','',d).
+att_prop_i(45,4,'FullName','SecRoleId',v).
+att_prop_i(45,1,'ExternalName','SecFunctionalityId',d).
+att_prop_i(45,1,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,1,'EmptyAsNull','Yes',d).
+att_prop_i(45,1,idBasedOn,'',d).
+att_prop_i(45,1,'AUTONUMBER','-1',v).
+att_prop_i(45,1,'AUTONUMBER_START','1',d).
+att_prop_i(45,1,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,1,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,1,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,1,'AttRegEx','',d).
+att_prop_i(45,1,'AttValidationFailedMsg','',d).
+att_prop_i(45,1,'FullName','SecFunctionalityId',v).
+att_prop_i(45,6,'ExternalName','SecUserId',d).
+att_prop_i(45,6,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,6,'EmptyAsNull','Yes',d).
+att_prop_i(45,6,idBasedOn,'',d).
+att_prop_i(45,6,'AUTONUMBER','-1',v).
+att_prop_i(45,6,'AUTONUMBER_START','1',d).
+att_prop_i(45,6,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,6,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,6,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,6,'AttRegEx','',d).
+att_prop_i(45,6,'AttValidationFailedMsg','',d).
+att_prop_i(45,6,'FullName','SecUserId',v).
+ 
+tbl_prop_i(45,2,'AllDirSuper',[ [ 5,[ 4 ] ] ],v).
+tbl_prop_i(45,7,'AllDirSuper',[ [ 5,[ 4 ] ] ],v).
+tbl_prop_i(45,5,'DirSubor',[ [ 2,[ 4 ] ],[ 7,[ 4 ] ] ],v).
+tbl_prop_i(45,2,'DirSuper',[ [ 5,[ 4 ] ] ],v).
+tbl_prop_i(45,7,'DirSuper',[ [ 5,[ 4 ] ] ],v).
+ 
+tbl_att_prop_i(45,2,1,'AllowNulls',n).
+tbl_att_prop_i(45,2,4,'AllowNulls',n).
+tbl_att_prop_i(45,7,6,'AllowNulls',n).
+tbl_att_prop_i(45,7,4,'AllowNulls',n).
+tbl_att_prop_i(45,5,4,'AllowNulls',n).
+tbl_att_prop_i(45,5,4,'AUTONUMBER',y).
+ 
+var_prop_i(45,'Isecroleid',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,79,'ZSR_DELETEROLEALLINFO','INTERNAL').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

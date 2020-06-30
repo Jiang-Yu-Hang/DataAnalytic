@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="d94cad0c-47ea-41e8-8c19-f2b36687b19c">
+  <Table name="BR_Procedure" />
+  <Table name="BR_Procedure_Radio" />
+  <Table name="XT_Log" />
+  <Table name="SYS_Log" />
+</Dependencies>

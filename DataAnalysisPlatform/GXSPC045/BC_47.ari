@@ -1,0 +1,6 @@
+bc_dt_elem_i([ 0,47,0 ],'Databaseid',allownulls,no).
+bc_dt_elem_i([ 0,47,0 ],'Databasename',allownulls,no).
+bc_dt_elem_i([ 0,47,0 ],'Connectionstring',allownulls,no).
+bc_dt_elem_i([ 0,47,0 ],'Sys_databasecreator',allownulls,no).
+bc_dt_elem_i([ 0,47,0 ],'Sys_databasecreatetime',allownulls,no).
+ 

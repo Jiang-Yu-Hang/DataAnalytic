@@ -1,0 +1,42 @@
+ 
+spec_i([ sdt,[ 0,42,0 ],'SYS_UserRole','SYS_UserRole',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,42,0 ],name,'SYS_UserRole').
+struct_dt_i([ 0,42,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,42,0 ],significantName,'SYS_UserRole').
+struct_dt_i([ 0,42,0 ],'ObjName','SYS_UserRole').
+struct_dt_i([ 0,42,0 ],'ObjDesc','SYS_User Role').
+struct_dt_i([ 0,42,0 ],'ExternalName','SYS_UserRole').
+struct_dt_i([ 0,42,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,42,0 ],key,[ 359,361 ]).
+struct_dt_i([ 0,42,0 ],lvl,43).
+struct_dt_i([ 0,42,0 ],fullname,'SYS_UserRole').
+ 
+struct_dt_elem_i([ 0,42,0 ],1,name,'Userid').
+struct_dt_elem_i([ 0,42,0 ],1,camelname,'UserID').
+struct_dt_elem_i([ 0,42,0 ],1,length,16).
+struct_dt_elem_i([ 0,42,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,42,0 ],1,type,[ 45,16,0 ]).
+struct_dt_elem_i([ 0,42,0 ],1,pic,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX').
+struct_dt_elem_i([ 0,42,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,42,0 ],1,attributeid,'359').
+struct_dt_elem_i([ 0,42,0 ],1,'ExternalName','UserID').
+struct_dt_elem_i([ 0,42,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,42,0 ],2,name,'Roleid').
+struct_dt_elem_i([ 0,42,0 ],2,camelname,'RoleID').
+struct_dt_elem_i([ 0,42,0 ],2,length,16).
+struct_dt_elem_i([ 0,42,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,42,0 ],2,type,[ 45,16,0 ]).
+struct_dt_elem_i([ 0,42,0 ],2,pic,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX').
+struct_dt_elem_i([ 0,42,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,42,0 ],2,attributeid,'361').
+struct_dt_elem_i([ 0,42,0 ],2,'ExternalName','RoleID').
+struct_dt_elem_i([ 0,42,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

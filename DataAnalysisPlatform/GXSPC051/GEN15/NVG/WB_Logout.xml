@@ -1,0 +1,35 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>120</ObjId>
+<ObjName>WB_Logout</ObjName>
+<ObjDesc>退出的方法</ObjDesc>
+<ObjPgmName>WB_Logout</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0047</MsgCode>
+<Message>
+<Token>Variable </Token>
+<Token>I</Token>
+<Token> not defined; </Token>
+<Token>N(1.0)</Token>
+<Token> assumed.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Tsetflag</VarId>
+<VarName>&amp;tSetFlag</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

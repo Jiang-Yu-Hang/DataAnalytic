@@ -1,0 +1,4 @@
+bc_dt_elem_i([ 0,5,0 ],'Secuserid',allownulls,no).
+bc_dt_elem_i([ 0,5,0 ],'Secusername',allownulls,no).
+bc_dt_elem_i([ 0,5,0 ],'Secuserpassword',allownulls,no).
+ 

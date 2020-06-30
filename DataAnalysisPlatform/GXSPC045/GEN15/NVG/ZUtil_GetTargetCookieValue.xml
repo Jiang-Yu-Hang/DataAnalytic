@@ -1,0 +1,40 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>138</ObjId>
+<ObjName>ZUtil_GetTargetCookieValue</ObjName>
+<ObjDesc>获得指定的cookie内容</ObjDesc>
+<ObjPgmName>ZUtil_GetTargetCookieValue</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0047</MsgCode>
+<Message>
+<Token>Variable </Token>
+<Token>I</Token>
+<Token> not defined; </Token>
+<Token>N(1.0)</Token>
+<Token> assumed.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Itargetname</VarId>
+<VarName>&amp;iTargetName</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Tcookievalue</VarId>
+<VarName>&amp;tCookieValue</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

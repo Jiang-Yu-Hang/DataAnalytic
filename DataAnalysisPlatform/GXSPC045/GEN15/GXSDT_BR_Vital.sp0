@@ -1,0 +1,165 @@
+ 
+spec_i([ sdt,[ 0,19,0 ],'BR_Vital','BR_Vital',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,19,0 ],name,'BR_Vital').
+struct_dt_i([ 0,19,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,19,0 ],significantName,'BR_Vital').
+struct_dt_i([ 0,19,0 ],'ObjName','BR_Vital').
+struct_dt_i([ 0,19,0 ],'ObjDesc','Data Mgmt Portal - RAAP').
+struct_dt_i([ 0,19,0 ],'ExternalName','BR_Vital').
+struct_dt_i([ 0,19,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,19,0 ],key,[ 150 ]).
+struct_dt_i([ 0,19,0 ],lvl,20).
+struct_dt_i([ 0,19,0 ],fullname,'BR_Vital').
+ 
+struct_dt_elem_i([ 0,19,0 ],1,name,'Br_vitalid').
+struct_dt_elem_i([ 0,19,0 ],1,camelname,'BR_VitalID').
+struct_dt_elem_i([ 0,19,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,19,0 ],1,length,18).
+struct_dt_elem_i([ 0,19,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,19,0 ],1,sign,0).
+struct_dt_elem_i([ 0,19,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,19,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,19,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,19,0 ],1,attributeid,'150').
+struct_dt_elem_i([ 0,19,0 ],1,'ExternalName','BR_VitalID').
+struct_dt_elem_i([ 0,19,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,19,0 ],2,name,'Br_encounterid').
+struct_dt_elem_i([ 0,19,0 ],2,camelname,'BR_EncounterID').
+struct_dt_elem_i([ 0,19,0 ],2,basedon,69).
+struct_dt_elem_i([ 0,19,0 ],2,length,18).
+struct_dt_elem_i([ 0,19,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,19,0 ],2,sign,0).
+struct_dt_elem_i([ 0,19,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,19,0 ],2,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,19,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,19,0 ],2,attributeid,'19').
+struct_dt_elem_i([ 0,19,0 ],2,'ExternalName','BR_EncounterID').
+struct_dt_elem_i([ 0,19,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,19,0 ],3,name,'Br_information_patientno').
+struct_dt_elem_i([ 0,19,0 ],3,camelname,'BR_Information_PatientNo').
+struct_dt_elem_i([ 0,19,0 ],3,length,2000).
+struct_dt_elem_i([ 0,19,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,19,0 ],3,type,[ 13,2000,0 ]).
+struct_dt_elem_i([ 0,19,0 ],3,pic,'').
+struct_dt_elem_i([ 0,19,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,19,0 ],3,attributeid,'36').
+struct_dt_elem_i([ 0,19,0 ],3,'ExternalName','BR_Information_PatientNo').
+struct_dt_elem_i([ 0,19,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,19,0 ],4,name,'Br_vital_vitalid').
+struct_dt_elem_i([ 0,19,0 ],4,camelname,'BR_Vital_VitalID').
+struct_dt_elem_i([ 0,19,0 ],4,length,10).
+struct_dt_elem_i([ 0,19,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,19,0 ],4,sign,0).
+struct_dt_elem_i([ 0,19,0 ],4,type,[ 4,10,0 ]).
+struct_dt_elem_i([ 0,19,0 ],4,pic,'ZZZZZZZZZZ').
+struct_dt_elem_i([ 0,19,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,19,0 ],4,attributeid,'151').
+struct_dt_elem_i([ 0,19,0 ],4,'ExternalName','BR_Vital_VitalID').
+struct_dt_elem_i([ 0,19,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,19,0 ],5,name,'Br_vital_measuredate').
+struct_dt_elem_i([ 0,19,0 ],5,camelname,'BR_Vital_MeasureDate').
+struct_dt_elem_i([ 0,19,0 ],5,basedon,64).
+struct_dt_elem_i([ 0,19,0 ],5,length,8).
+struct_dt_elem_i([ 0,19,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,19,0 ],5,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,19,0 ],5,pic,'99/99/9999').
+struct_dt_elem_i([ 0,19,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,19,0 ],5,attributeid,'152').
+struct_dt_elem_i([ 0,19,0 ],5,'ExternalName','BR_Vital_MeasureDate').
+struct_dt_elem_i([ 0,19,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,19,0 ],6,name,'Br_vital_temperature').
+struct_dt_elem_i([ 0,19,0 ],6,camelname,'BR_Vital_Temperature').
+struct_dt_elem_i([ 0,19,0 ],6,basedon,103).
+struct_dt_elem_i([ 0,19,0 ],6,length,15).
+struct_dt_elem_i([ 0,19,0 ],6,decimals,5).
+struct_dt_elem_i([ 0,19,0 ],6,sign,0).
+struct_dt_elem_i([ 0,19,0 ],6,type,[ 4,15,5 ]).
+struct_dt_elem_i([ 0,19,0 ],6,pic,'ZZZZZZZZZ.ZZZZZ').
+struct_dt_elem_i([ 0,19,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,19,0 ],6,attributeid,'153').
+struct_dt_elem_i([ 0,19,0 ],6,'ExternalName','BR_Vital_Temperature').
+struct_dt_elem_i([ 0,19,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,19,0 ],7,name,'Br_vital_pulse').
+struct_dt_elem_i([ 0,19,0 ],7,camelname,'BR_Vital_Pulse').
+struct_dt_elem_i([ 0,19,0 ],7,basedon,103).
+struct_dt_elem_i([ 0,19,0 ],7,length,15).
+struct_dt_elem_i([ 0,19,0 ],7,decimals,5).
+struct_dt_elem_i([ 0,19,0 ],7,sign,0).
+struct_dt_elem_i([ 0,19,0 ],7,type,[ 4,15,5 ]).
+struct_dt_elem_i([ 0,19,0 ],7,pic,'ZZZZZZZZZ.ZZZZZ').
+struct_dt_elem_i([ 0,19,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,19,0 ],7,attributeid,'154').
+struct_dt_elem_i([ 0,19,0 ],7,'ExternalName','BR_Vital_Pulse').
+struct_dt_elem_i([ 0,19,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,19,0 ],8,name,'Br_vital_respiration').
+struct_dt_elem_i([ 0,19,0 ],8,camelname,'BR_Vital_Respiration').
+struct_dt_elem_i([ 0,19,0 ],8,basedon,103).
+struct_dt_elem_i([ 0,19,0 ],8,length,15).
+struct_dt_elem_i([ 0,19,0 ],8,decimals,5).
+struct_dt_elem_i([ 0,19,0 ],8,sign,0).
+struct_dt_elem_i([ 0,19,0 ],8,type,[ 4,15,5 ]).
+struct_dt_elem_i([ 0,19,0 ],8,pic,'ZZZZZZZZZ.ZZZZZ').
+struct_dt_elem_i([ 0,19,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,19,0 ],8,attributeid,'155').
+struct_dt_elem_i([ 0,19,0 ],8,'ExternalName','BR_Vital_Respiration').
+struct_dt_elem_i([ 0,19,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,19,0 ],9,name,'Br_vital_systolic').
+struct_dt_elem_i([ 0,19,0 ],9,camelname,'BR_Vital_Systolic').
+struct_dt_elem_i([ 0,19,0 ],9,basedon,103).
+struct_dt_elem_i([ 0,19,0 ],9,length,15).
+struct_dt_elem_i([ 0,19,0 ],9,decimals,5).
+struct_dt_elem_i([ 0,19,0 ],9,sign,0).
+struct_dt_elem_i([ 0,19,0 ],9,type,[ 4,15,5 ]).
+struct_dt_elem_i([ 0,19,0 ],9,pic,'ZZZZZZZZZ.ZZZZZ').
+struct_dt_elem_i([ 0,19,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,19,0 ],9,attributeid,'156').
+struct_dt_elem_i([ 0,19,0 ],9,'ExternalName','BR_Vital_Systolic').
+struct_dt_elem_i([ 0,19,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,19,0 ],10,name,'Br_vital_diastolic').
+struct_dt_elem_i([ 0,19,0 ],10,camelname,'BR_Vital_Diastolic').
+struct_dt_elem_i([ 0,19,0 ],10,basedon,103).
+struct_dt_elem_i([ 0,19,0 ],10,length,15).
+struct_dt_elem_i([ 0,19,0 ],10,decimals,5).
+struct_dt_elem_i([ 0,19,0 ],10,sign,0).
+struct_dt_elem_i([ 0,19,0 ],10,type,[ 4,15,5 ]).
+struct_dt_elem_i([ 0,19,0 ],10,pic,'ZZZZZZZZZ.ZZZZZ').
+struct_dt_elem_i([ 0,19,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,19,0 ],10,attributeid,'157').
+struct_dt_elem_i([ 0,19,0 ],10,'ExternalName','BR_Vital_Diastolic').
+struct_dt_elem_i([ 0,19,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,19,0 ],11,name,'Br_vital_height').
+struct_dt_elem_i([ 0,19,0 ],11,camelname,'BR_Vital_Height').
+struct_dt_elem_i([ 0,19,0 ],11,basedon,103).
+struct_dt_elem_i([ 0,19,0 ],11,length,15).
+struct_dt_elem_i([ 0,19,0 ],11,decimals,5).
+struct_dt_elem_i([ 0,19,0 ],11,sign,0).
+struct_dt_elem_i([ 0,19,0 ],11,type,[ 4,15,5 ]).
+struct_dt_elem_i([ 0,19,0 ],11,pic,'ZZZZZZZZZ.ZZZZZ').
+struct_dt_elem_i([ 0,19,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,19,0 ],11,attributeid,'158').
+struct_dt_elem_i([ 0,19,0 ],11,'ExternalName','BR_Vital_Height').
+struct_dt_elem_i([ 0,19,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,19,0 ],12,name,'Br_vital_weight').
+struct_dt_elem_i([ 0,19,0 ],12,camelname,'BR_Vital_Weight').
+struct_dt_elem_i([ 0,19,0 ],12,basedon,103).
+struct_dt_elem_i([ 0,19,0 ],12,length,15).
+struct_dt_elem_i([ 0,19,0 ],12,decimals,5).
+struct_dt_elem_i([ 0,19,0 ],12,sign,0).
+struct_dt_elem_i([ 0,19,0 ],12,type,[ 4,15,5 ]).
+struct_dt_elem_i([ 0,19,0 ],12,pic,'ZZZZZZZZZ.ZZZZZ').
+struct_dt_elem_i([ 0,19,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,19,0 ],12,attributeid,'159').
+struct_dt_elem_i([ 0,19,0 ],12,'ExternalName','BR_Vital_Weight').
+struct_dt_elem_i([ 0,19,0 ],12,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,19,0 ],5,pic,'ZZZZZZZZZZZZZZZZZZ').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

@@ -1,0 +1,9 @@
+bc_dt_elem_i([ 0,49,0 ],'Userid',allownulls,no).
+bc_dt_elem_i([ 0,49,0 ],'Displayname',allownulls,no).
+bc_dt_elem_i([ 0,49,0 ],'Usertype',allownulls,no).
+bc_dt_elem_i([ 0,49,0 ],'Account',allownulls,no).
+bc_dt_elem_i([ 0,49,0 ],'Passwordhash',allownulls,no).
+bc_dt_elem_i([ 0,49,0 ],'Sys_usercreator',allownulls,no).
+bc_dt_elem_i([ 0,49,0 ],'Sys_usercreatetime',allownulls,no).
+bc_dt_elem_i([ 0,49,0 ],'Sys_userisdeleted',allownulls,no).
+ 

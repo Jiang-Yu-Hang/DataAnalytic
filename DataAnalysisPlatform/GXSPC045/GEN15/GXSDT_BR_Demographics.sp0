@@ -1,0 +1,200 @@
+ 
+spec_i([ sdt,[ 0,11,0 ],'BR_Demographics','BR_Demographics',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,11,0 ],name,'BR_Demographics').
+struct_dt_i([ 0,11,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,11,0 ],significantName,'BR_Demographics').
+struct_dt_i([ 0,11,0 ],'ObjName','BR_Demographics').
+struct_dt_i([ 0,11,0 ],'ObjDesc',人口信息学).
+struct_dt_i([ 0,11,0 ],'ExternalName','BR_Demographics').
+struct_dt_i([ 0,11,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,11,0 ],key,[ 61 ]).
+struct_dt_i([ 0,11,0 ],lvl,12).
+struct_dt_i([ 0,11,0 ],fullname,'BR_Demographics').
+ 
+struct_dt_elem_i([ 0,11,0 ],1,name,'Br_demographics_id').
+struct_dt_elem_i([ 0,11,0 ],1,camelname,'BR_Demographics_ID').
+struct_dt_elem_i([ 0,11,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,11,0 ],1,length,18).
+struct_dt_elem_i([ 0,11,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],1,sign,0).
+struct_dt_elem_i([ 0,11,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,11,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,11,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],1,attributeid,'61').
+struct_dt_elem_i([ 0,11,0 ],1,'ExternalName','BR_Demographics_ID').
+struct_dt_elem_i([ 0,11,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],2,name,'Br_encounterid').
+struct_dt_elem_i([ 0,11,0 ],2,camelname,'BR_EncounterID').
+struct_dt_elem_i([ 0,11,0 ],2,basedon,69).
+struct_dt_elem_i([ 0,11,0 ],2,length,18).
+struct_dt_elem_i([ 0,11,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],2,sign,0).
+struct_dt_elem_i([ 0,11,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,11,0 ],2,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,11,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],2,attributeid,'19').
+struct_dt_elem_i([ 0,11,0 ],2,'ExternalName','BR_EncounterID').
+struct_dt_elem_i([ 0,11,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],3,name,'Br_information_patientno').
+struct_dt_elem_i([ 0,11,0 ],3,camelname,'BR_Information_PatientNo').
+struct_dt_elem_i([ 0,11,0 ],3,length,2000).
+struct_dt_elem_i([ 0,11,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],3,type,[ 13,2000,0 ]).
+struct_dt_elem_i([ 0,11,0 ],3,pic,'').
+struct_dt_elem_i([ 0,11,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],3,attributeid,'36').
+struct_dt_elem_i([ 0,11,0 ],3,'ExternalName','BR_Information_PatientNo').
+struct_dt_elem_i([ 0,11,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],4,name,'Br_demographics_birthdate').
+struct_dt_elem_i([ 0,11,0 ],4,camelname,'BR_Demographics_BirthDate').
+struct_dt_elem_i([ 0,11,0 ],4,basedon,64).
+struct_dt_elem_i([ 0,11,0 ],4,length,8).
+struct_dt_elem_i([ 0,11,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],4,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,11,0 ],4,pic,'99/99/9999').
+struct_dt_elem_i([ 0,11,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],4,attributeid,'53').
+struct_dt_elem_i([ 0,11,0 ],4,'ExternalName','BR_Demographics_BirthDate').
+struct_dt_elem_i([ 0,11,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],5,name,'Br_demographics_sex').
+struct_dt_elem_i([ 0,11,0 ],5,camelname,'BR_Demographics_Sex').
+struct_dt_elem_i([ 0,11,0 ],5,length,100).
+struct_dt_elem_i([ 0,11,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,11,0 ],5,pic,'').
+struct_dt_elem_i([ 0,11,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],5,attributeid,'54').
+struct_dt_elem_i([ 0,11,0 ],5,'ExternalName','BR_Demographics_Sex').
+struct_dt_elem_i([ 0,11,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],6,name,'Br_demographics_sex_code').
+struct_dt_elem_i([ 0,11,0 ],6,camelname,'BR_Demographics_Sex_Code').
+struct_dt_elem_i([ 0,11,0 ],6,length,40).
+struct_dt_elem_i([ 0,11,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],6,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,11,0 ],6,pic,'').
+struct_dt_elem_i([ 0,11,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],6,attributeid,'455').
+struct_dt_elem_i([ 0,11,0 ],6,'ExternalName','BR_Demographics_Sex_Code').
+struct_dt_elem_i([ 0,11,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],7,name,'Br_demographics_marritalstatus').
+struct_dt_elem_i([ 0,11,0 ],7,camelname,'BR_Demographics_MarritalStatus').
+struct_dt_elem_i([ 0,11,0 ],7,length,100).
+struct_dt_elem_i([ 0,11,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,11,0 ],7,pic,'').
+struct_dt_elem_i([ 0,11,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],7,attributeid,'63').
+struct_dt_elem_i([ 0,11,0 ],7,'ExternalName','BR_Demographics_MarritalStatus').
+struct_dt_elem_i([ 0,11,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],8,name,'Br_demographics_marritalstatus_code').
+struct_dt_elem_i([ 0,11,0 ],8,camelname,'BR_Demographics_MarritalStatus_Code').
+struct_dt_elem_i([ 0,11,0 ],8,length,40).
+struct_dt_elem_i([ 0,11,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],8,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,11,0 ],8,pic,'').
+struct_dt_elem_i([ 0,11,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],8,attributeid,'456').
+struct_dt_elem_i([ 0,11,0 ],8,'ExternalName','BR_Demographics_MarritalStatus_Code').
+struct_dt_elem_i([ 0,11,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],9,name,'Br_demographics_ethnic').
+struct_dt_elem_i([ 0,11,0 ],9,camelname,'BR_Demographics_Ethnic').
+struct_dt_elem_i([ 0,11,0 ],9,length,100).
+struct_dt_elem_i([ 0,11,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],9,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,11,0 ],9,pic,'').
+struct_dt_elem_i([ 0,11,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],9,attributeid,'55').
+struct_dt_elem_i([ 0,11,0 ],9,'ExternalName','BR_Demographics_Ethnic').
+struct_dt_elem_i([ 0,11,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],10,name,'Br_demographics_ethnic_code').
+struct_dt_elem_i([ 0,11,0 ],10,camelname,'BR_Demographics_Ethnic_Code').
+struct_dt_elem_i([ 0,11,0 ],10,length,40).
+struct_dt_elem_i([ 0,11,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],10,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,11,0 ],10,pic,'').
+struct_dt_elem_i([ 0,11,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],10,attributeid,'457').
+struct_dt_elem_i([ 0,11,0 ],10,'ExternalName','BR_Demographics_Ethnic_Code').
+struct_dt_elem_i([ 0,11,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],11,name,'Br_demographics_education').
+struct_dt_elem_i([ 0,11,0 ],11,camelname,'BR_Demographics_Education').
+struct_dt_elem_i([ 0,11,0 ],11,length,100).
+struct_dt_elem_i([ 0,11,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],11,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,11,0 ],11,pic,'').
+struct_dt_elem_i([ 0,11,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],11,attributeid,'56').
+struct_dt_elem_i([ 0,11,0 ],11,'ExternalName','BR_Demographics_Education').
+struct_dt_elem_i([ 0,11,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],12,name,'Br_demographics_education_code').
+struct_dt_elem_i([ 0,11,0 ],12,camelname,'BR_Demographics_Education_Code').
+struct_dt_elem_i([ 0,11,0 ],12,length,40).
+struct_dt_elem_i([ 0,11,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],12,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,11,0 ],12,pic,'').
+struct_dt_elem_i([ 0,11,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],12,attributeid,'458').
+struct_dt_elem_i([ 0,11,0 ],12,'ExternalName','BR_Demographics_Education_Code').
+struct_dt_elem_i([ 0,11,0 ],12,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],13,name,'Br_demographics_occupation').
+struct_dt_elem_i([ 0,11,0 ],13,camelname,'BR_Demographics_Occupation').
+struct_dt_elem_i([ 0,11,0 ],13,length,40).
+struct_dt_elem_i([ 0,11,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],13,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,11,0 ],13,pic,'').
+struct_dt_elem_i([ 0,11,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],13,attributeid,'57').
+struct_dt_elem_i([ 0,11,0 ],13,'ExternalName','BR_Demographics_Occupation').
+struct_dt_elem_i([ 0,11,0 ],13,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],14,name,'Br_demographics_insurance').
+struct_dt_elem_i([ 0,11,0 ],14,camelname,'BR_Demographics_Insurance').
+struct_dt_elem_i([ 0,11,0 ],14,length,100).
+struct_dt_elem_i([ 0,11,0 ],14,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],14,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,11,0 ],14,pic,'').
+struct_dt_elem_i([ 0,11,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],14,attributeid,'58').
+struct_dt_elem_i([ 0,11,0 ],14,'ExternalName','BR_Demographics_Insurance').
+struct_dt_elem_i([ 0,11,0 ],14,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],15,name,'Br_demographics_insurance_code').
+struct_dt_elem_i([ 0,11,0 ],15,camelname,'BR_Demographics_Insurance_Code').
+struct_dt_elem_i([ 0,11,0 ],15,length,40).
+struct_dt_elem_i([ 0,11,0 ],15,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],15,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,11,0 ],15,pic,'').
+struct_dt_elem_i([ 0,11,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],15,attributeid,'459').
+struct_dt_elem_i([ 0,11,0 ],15,'ExternalName','BR_Demographics_Insurance_Code').
+struct_dt_elem_i([ 0,11,0 ],15,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],16,name,'Br_demographics_province').
+struct_dt_elem_i([ 0,11,0 ],16,camelname,'BR_Demographics_Province').
+struct_dt_elem_i([ 0,11,0 ],16,length,40).
+struct_dt_elem_i([ 0,11,0 ],16,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],16,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,11,0 ],16,pic,'').
+struct_dt_elem_i([ 0,11,0 ],16,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],16,attributeid,'59').
+struct_dt_elem_i([ 0,11,0 ],16,'ExternalName','BR_Demographics_Province').
+struct_dt_elem_i([ 0,11,0 ],16,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],17,name,'Br_demographics_city').
+struct_dt_elem_i([ 0,11,0 ],17,camelname,'BR_Demographics_City').
+struct_dt_elem_i([ 0,11,0 ],17,length,40).
+struct_dt_elem_i([ 0,11,0 ],17,decimals,0).
+struct_dt_elem_i([ 0,11,0 ],17,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,11,0 ],17,pic,'').
+struct_dt_elem_i([ 0,11,0 ],17,collection,'False').
+struct_dt_elem_i([ 0,11,0 ],17,attributeid,'60').
+struct_dt_elem_i([ 0,11,0 ],17,'ExternalName','BR_Demographics_City').
+struct_dt_elem_i([ 0,11,0 ],17,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,11,0 ],4,pic,'ZZZZZZZZZZZZZZZZZZ').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

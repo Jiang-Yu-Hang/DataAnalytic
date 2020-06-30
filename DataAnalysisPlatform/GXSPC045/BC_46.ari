@@ -1,0 +1,5 @@
+bc_dt_elem_i([ 0,46,0 ],'Sys_tenantuseraccessuseraccessid',allownulls,no).
+bc_dt_elem_i([ 0,46,0 ],'Sys_tenantuseraccessuserid',allownulls,no).
+bc_dt_elem_i([ 0,46,0 ],'Sys_tenantuseraccesstenantcode',allownulls,no).
+bc_dt_elem_i([ 0,46,0 ],'Sys_tenantuseraccessdatapackage',allownulls,no).
+ 

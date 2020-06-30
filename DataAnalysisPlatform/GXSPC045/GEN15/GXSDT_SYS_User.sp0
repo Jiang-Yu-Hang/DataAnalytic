@@ -1,0 +1,174 @@
+ 
+spec_i([ sdt,[ 0,49,0 ],'SYS_User','SYS_User',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,49,0 ],name,'SYS_User').
+struct_dt_i([ 0,49,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,49,0 ],significantName,'SYS_User').
+struct_dt_i([ 0,49,0 ],'ObjName','SYS_User').
+struct_dt_i([ 0,49,0 ],'ObjDesc','SYS_User').
+struct_dt_i([ 0,49,0 ],'ExternalName','SYS_User').
+struct_dt_i([ 0,49,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,49,0 ],key,[ 359 ]).
+struct_dt_i([ 0,49,0 ],lvl,50).
+struct_dt_i([ 0,49,0 ],fullname,'SYS_User').
+ 
+struct_dt_elem_i([ 0,49,0 ],1,name,'Userid').
+struct_dt_elem_i([ 0,49,0 ],1,camelname,'UserID').
+struct_dt_elem_i([ 0,49,0 ],1,length,16).
+struct_dt_elem_i([ 0,49,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,49,0 ],1,type,[ 45,16,0 ]).
+struct_dt_elem_i([ 0,49,0 ],1,pic,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX').
+struct_dt_elem_i([ 0,49,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,49,0 ],1,attributeid,'359').
+struct_dt_elem_i([ 0,49,0 ],1,'ExternalName','UserID').
+struct_dt_elem_i([ 0,49,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,49,0 ],2,name,'Displayname').
+struct_dt_elem_i([ 0,49,0 ],2,camelname,'DisplayName').
+struct_dt_elem_i([ 0,49,0 ],2,length,50).
+struct_dt_elem_i([ 0,49,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,49,0 ],2,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,49,0 ],2,pic,'').
+struct_dt_elem_i([ 0,49,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,49,0 ],2,attributeid,'416').
+struct_dt_elem_i([ 0,49,0 ],2,'ExternalName','DisplayName').
+struct_dt_elem_i([ 0,49,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,49,0 ],3,name,'Usertype').
+struct_dt_elem_i([ 0,49,0 ],3,camelname,'UserType').
+struct_dt_elem_i([ 0,49,0 ],3,length,9).
+struct_dt_elem_i([ 0,49,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,49,0 ],3,sign,0).
+struct_dt_elem_i([ 0,49,0 ],3,type,[ 4,9,0 ]).
+struct_dt_elem_i([ 0,49,0 ],3,pic,'ZZZZZZZZ9').
+struct_dt_elem_i([ 0,49,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,49,0 ],3,attributeid,'417').
+struct_dt_elem_i([ 0,49,0 ],3,'ExternalName','UserType').
+struct_dt_elem_i([ 0,49,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,49,0 ],4,name,'Account').
+struct_dt_elem_i([ 0,49,0 ],4,camelname,'Account').
+struct_dt_elem_i([ 0,49,0 ],4,length,50).
+struct_dt_elem_i([ 0,49,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,49,0 ],4,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,49,0 ],4,pic,'').
+struct_dt_elem_i([ 0,49,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,49,0 ],4,attributeid,'364').
+struct_dt_elem_i([ 0,49,0 ],4,'ExternalName','Account').
+struct_dt_elem_i([ 0,49,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,49,0 ],5,name,'Passwordhash').
+struct_dt_elem_i([ 0,49,0 ],5,camelname,'PasswordHash').
+struct_dt_elem_i([ 0,49,0 ],5,length,50).
+struct_dt_elem_i([ 0,49,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,49,0 ],5,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,49,0 ],5,pic,'').
+struct_dt_elem_i([ 0,49,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,49,0 ],5,attributeid,'418').
+struct_dt_elem_i([ 0,49,0 ],5,'ExternalName','PasswordHash').
+struct_dt_elem_i([ 0,49,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,49,0 ],6,name,'Loginip').
+struct_dt_elem_i([ 0,49,0 ],6,camelname,'LoginIP').
+struct_dt_elem_i([ 0,49,0 ],6,length,20).
+struct_dt_elem_i([ 0,49,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,49,0 ],6,type,[ 13,20,0 ]).
+struct_dt_elem_i([ 0,49,0 ],6,pic,'').
+struct_dt_elem_i([ 0,49,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,49,0 ],6,attributeid,'419').
+struct_dt_elem_i([ 0,49,0 ],6,'ExternalName','LoginIP').
+struct_dt_elem_i([ 0,49,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,49,0 ],7,name,'Logintime').
+struct_dt_elem_i([ 0,49,0 ],7,camelname,'LoginTime').
+struct_dt_elem_i([ 0,49,0 ],7,length,10).
+struct_dt_elem_i([ 0,49,0 ],7,decimals,8).
+struct_dt_elem_i([ 0,49,0 ],7,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,49,0 ],7,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,49,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,49,0 ],7,attributeid,'420').
+struct_dt_elem_i([ 0,49,0 ],7,'ExternalName','LoginTime').
+struct_dt_elem_i([ 0,49,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,49,0 ],8,name,'Sys_usercreator').
+struct_dt_elem_i([ 0,49,0 ],8,camelname,'SYS_UserCreator').
+struct_dt_elem_i([ 0,49,0 ],8,length,50).
+struct_dt_elem_i([ 0,49,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,49,0 ],8,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,49,0 ],8,pic,'').
+struct_dt_elem_i([ 0,49,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,49,0 ],8,attributeid,'421').
+struct_dt_elem_i([ 0,49,0 ],8,'ExternalName','SYS_UserCreator').
+struct_dt_elem_i([ 0,49,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,49,0 ],9,name,'Sys_usercreatetime').
+struct_dt_elem_i([ 0,49,0 ],9,camelname,'SYS_UserCreateTime').
+struct_dt_elem_i([ 0,49,0 ],9,length,10).
+struct_dt_elem_i([ 0,49,0 ],9,decimals,8).
+struct_dt_elem_i([ 0,49,0 ],9,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,49,0 ],9,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,49,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,49,0 ],9,attributeid,'422').
+struct_dt_elem_i([ 0,49,0 ],9,'ExternalName','SYS_UserCreateTime').
+struct_dt_elem_i([ 0,49,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,49,0 ],10,name,'Sys_usermodifier').
+struct_dt_elem_i([ 0,49,0 ],10,camelname,'SYS_UserModifier').
+struct_dt_elem_i([ 0,49,0 ],10,length,50).
+struct_dt_elem_i([ 0,49,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,49,0 ],10,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,49,0 ],10,pic,'').
+struct_dt_elem_i([ 0,49,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,49,0 ],10,attributeid,'423').
+struct_dt_elem_i([ 0,49,0 ],10,'ExternalName','SYS_UserModifier').
+struct_dt_elem_i([ 0,49,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,49,0 ],11,name,'Sys_usermodifytime').
+struct_dt_elem_i([ 0,49,0 ],11,camelname,'SYS_UserModifyTime').
+struct_dt_elem_i([ 0,49,0 ],11,length,10).
+struct_dt_elem_i([ 0,49,0 ],11,decimals,8).
+struct_dt_elem_i([ 0,49,0 ],11,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,49,0 ],11,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,49,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,49,0 ],11,attributeid,'424').
+struct_dt_elem_i([ 0,49,0 ],11,'ExternalName','SYS_UserModifyTime').
+struct_dt_elem_i([ 0,49,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,49,0 ],12,name,'Sys_userisdeleted').
+struct_dt_elem_i([ 0,49,0 ],12,camelname,'SYS_UserIsDeleted').
+struct_dt_elem_i([ 0,49,0 ],12,length,1).
+struct_dt_elem_i([ 0,49,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,49,0 ],12,sign,0).
+struct_dt_elem_i([ 0,49,0 ],12,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 0,49,0 ],12,pic,'9').
+struct_dt_elem_i([ 0,49,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,49,0 ],12,attributeid,'425').
+struct_dt_elem_i([ 0,49,0 ],12,'ExternalName','SYS_UserIsDeleted').
+struct_dt_elem_i([ 0,49,0 ],12,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,49,0 ],13,name,'Email').
+struct_dt_elem_i([ 0,49,0 ],13,camelname,'Email').
+struct_dt_elem_i([ 0,49,0 ],13,length,100).
+struct_dt_elem_i([ 0,49,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,49,0 ],13,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,49,0 ],13,pic,'').
+struct_dt_elem_i([ 0,49,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,49,0 ],13,attributeid,'426').
+struct_dt_elem_i([ 0,49,0 ],13,'ExternalName','Email').
+struct_dt_elem_i([ 0,49,0 ],13,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,49,0 ],14,name,'Sys_userdescription').
+struct_dt_elem_i([ 0,49,0 ],14,camelname,'SYS_UserDescription').
+struct_dt_elem_i([ 0,49,0 ],14,length,2048).
+struct_dt_elem_i([ 0,49,0 ],14,decimals,0).
+struct_dt_elem_i([ 0,49,0 ],14,type,[ 8,2048,0 ]).
+struct_dt_elem_i([ 0,49,0 ],14,pic,'').
+struct_dt_elem_i([ 0,49,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,49,0 ],14,attributeid,'427').
+struct_dt_elem_i([ 0,49,0 ],14,'ExternalName','SYS_UserDescription').
+struct_dt_elem_i([ 0,49,0 ],14,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,49,0 ],15,name,'Rocheaccount').
+struct_dt_elem_i([ 0,49,0 ],15,camelname,'RocheAccount').
+struct_dt_elem_i([ 0,49,0 ],15,length,100).
+struct_dt_elem_i([ 0,49,0 ],15,decimals,0).
+struct_dt_elem_i([ 0,49,0 ],15,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,49,0 ],15,pic,'').
+struct_dt_elem_i([ 0,49,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,49,0 ],15,attributeid,'428').
+struct_dt_elem_i([ 0,49,0 ],15,'ExternalName','RocheAccount').
+struct_dt_elem_i([ 0,49,0 ],15,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

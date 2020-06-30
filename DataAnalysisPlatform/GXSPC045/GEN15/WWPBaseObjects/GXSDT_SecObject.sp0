@@ -1,0 +1,62 @@
+ 
+spec_i([ sdt,[ 0,3,0 ],'WWPBaseObjects\SecObject','WWPBaseObjects\SecObject',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,3,0 ],name,'WWPBaseObjects\SecObject').
+struct_dt_i([ 0,3,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,3,0 ],significantName,'WWPBaseObjects\SecObject').
+struct_dt_i([ 0,3,0 ],'ObjName','SecObject').
+struct_dt_i([ 0,3,0 ],'ObjDesc','Sec Object').
+struct_dt_i([ 0,3,0 ],'ExternalName','SecObject').
+struct_dt_i([ 0,3,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,3,0 ],key,[ 5 ]).
+struct_dt_i([ 0,3,0 ],lvl,3).
+struct_dt_i([ 0,3,[ 1,5 ] ],name,'Functionalities').
+struct_dt_i([ 0,3,[ 1,5 ] ],namespace,'DataAnalysisPlatform.SecObject').
+struct_dt_i([ 0,3,[ 1,5 ] ],lvl,4).
+struct_dt_i([ 0,3,0 ],fullname,'WWPBaseObjects\SecObject').
+struct_dt_i([ 0,3,[ 1,5 ] ],fullname,'WWPBaseObjects\SecObject.Functionalities').
+ 
+struct_dt_elem_i([ 0,3,0 ],1,name,'Secobjectname').
+struct_dt_elem_i([ 0,3,0 ],1,camelname,'SecObjectName').
+struct_dt_elem_i([ 0,3,0 ],1,length,120).
+struct_dt_elem_i([ 0,3,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],1,type,[ 13,120,0 ]).
+struct_dt_elem_i([ 0,3,0 ],1,pic,'').
+struct_dt_elem_i([ 0,3,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],1,attributeid,'5').
+struct_dt_elem_i([ 0,3,0 ],1,'ExternalName','SecObjectName').
+struct_dt_elem_i([ 0,3,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,3,0 ],2,name,'Functionalities').
+struct_dt_elem_i([ 0,3,0 ],2,camelname,'Functionalities').
+struct_dt_elem_i([ 0,3,0 ],2,type,[ [ 0,3,[ 1,5 ] ],0,0 ]).
+struct_dt_elem_i([ 0,3,0 ],2,pic,'').
+struct_dt_elem_i([ 0,3,0 ],2,collection,'True').
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],1,name,'Secfunctionalityid').
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],1,camelname,'SecFunctionalityId').
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],1,length,10).
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],1,decimals,0).
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],1,sign,0).
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],1,type,[ 4,10,0 ]).
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],1,pic,'ZZZZZZZZZ9').
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],1,collection,'False').
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],1,attributeid,'1').
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],1,'ExternalName','SecFunctionalityId').
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],2,name,'Secfunctionalitydescription').
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],2,camelname,'SecFunctionalityDescription').
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],2,length,100).
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],2,decimals,0).
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],2,pic,'').
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],2,collection,'False').
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],2,attributeid,'8').
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],2,'ExternalName','SecFunctionalityDescription').
+struct_dt_elem_i([ 0,3,[ 1,5 ] ],2,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="a63cf814-1a2a-4c20-be34-36d732fe39a3">
+  <Table name="SYS_RolePermission" />
+  <Table name="UserCustomizations" />
+</Dependencies>

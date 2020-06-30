@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.wb_checkjwtifcorrect_services,wb_checkjwtifcorrect" %>

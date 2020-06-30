@@ -1,0 +1,177 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>53</ObjId>
+<ObjName>SYS_Role</ObjName>
+<ObjDesc>SYS_Role</ObjDesc>
+<ObjPgmName>SYS_Role</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0134</MsgCode>
+<Message>
+<Token>Poor performance may be noticed</Token>
+<Token></Token>
+<Token> as </Token>
+<Token>Duplicate</Token>
+<Token> index </Token>
+<Token>ISYS_USERROLE</Token>
+<Token> is not defined in Data view </Token>
+<Token>SYS_UserRole</Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>54</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>54</TableId>
+<TableName>SYS_ROLE</TableName>
+<Description>SYS_Role</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>54</TableId>
+<TableName>SYS_ROLE</TableName>
+<Description>SYS_Role</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>361</AttriId>
+<AttriName>RoleID</AttriName>
+<Description>Role ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>54</TableId>
+<TableName>SYS_ROLE</TableName>
+<Description>SYS_Role</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>361</AttriId>
+<AttriName>RoleID</AttriName>
+<Description>Role ID</Description></Attribute>
+<Attribute>
+<AttriId>367</AttriId>
+<AttriName>SYS_RoleTenantCode</AttriName>
+<Description>SYS_Role Tenant Code</Description></Attribute>
+<Attribute>
+<AttriId>368</AttriId>
+<AttriName>RoleName</AttriName>
+<Description>Role Name</Description></Attribute>
+<Attribute>
+<AttriId>408</AttriId>
+<AttriName>RoleType</AttriName>
+<Description>Role Type</Description></Attribute>
+<Attribute>
+<AttriId>409</AttriId>
+<AttriName>SYS_RoleDescription</AttriName>
+<Description>SYS_Role Description</Description></Attribute>
+<Attribute>
+<AttriId>410</AttriId>
+<AttriName>SYS_RoleCreator</AttriName>
+<Description>SYS_Role Creator</Description></Attribute>
+<Attribute>
+<AttriId>411</AttriId>
+<AttriName>SYS_RoleCreateTime</AttriName>
+<Description>SYS_Role Create Time</Description></Attribute>
+<Attribute>
+<AttriId>412</AttriId>
+<AttriName>SYS_RoleModifier</AttriName>
+<Description>SYS_Role Modifier</Description></Attribute>
+<Attribute>
+<AttriId>413</AttriId>
+<AttriName>SYS_RoleModifyTime</AttriName>
+<Description>SYS_Role Modify Time</Description></Attribute>
+<Attribute>
+<AttriId>414</AttriId>
+<AttriName>SYS_RoleIsDeleted</AttriName>
+<Description>SYS_Role Is Deleted</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>54</TableId>
+<TableName>SYS_ROLE</TableName>
+<Description>SYS_Role</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>367</AttriId>
+<AttriName>SYS_RoleTenantCode</AttriName>
+<Description>SYS_Role Tenant Code</Description></Attribute>
+<Attribute>
+<AttriId>368</AttriId>
+<AttriName>RoleName</AttriName>
+<Description>Role Name</Description></Attribute>
+<Attribute>
+<AttriId>408</AttriId>
+<AttriName>RoleType</AttriName>
+<Description>Role Type</Description></Attribute>
+<Attribute>
+<AttriId>409</AttriId>
+<AttriName>SYS_RoleDescription</AttriName>
+<Description>SYS_Role Description</Description></Attribute>
+<Attribute>
+<AttriId>410</AttriId>
+<AttriName>SYS_RoleCreator</AttriName>
+<Description>SYS_Role Creator</Description></Attribute>
+<Attribute>
+<AttriId>411</AttriId>
+<AttriName>SYS_RoleCreateTime</AttriName>
+<Description>SYS_Role Create Time</Description></Attribute>
+<Attribute>
+<AttriId>412</AttriId>
+<AttriName>SYS_RoleModifier</AttriName>
+<Description>SYS_Role Modifier</Description></Attribute>
+<Attribute>
+<AttriId>413</AttriId>
+<AttriName>SYS_RoleModifyTime</AttriName>
+<Description>SYS_Role Modify Time</Description></Attribute>
+<Attribute>
+<AttriId>414</AttriId>
+<AttriName>SYS_RoleIsDeleted</AttriName>
+<Description>SYS_Role Is Deleted</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>54</TableId>
+<TableName>SYS_ROLE</TableName>
+<Description>SYS_Role</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>43</TableId>
+<TableName>SYS_USERROLE</TableName>
+<Description>SYS_User Role</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>361</AttriId>
+<AttriName>RoleID</AttriName>
+<Description>Role ID</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts></Prompts>
+<Suggests></Suggests></ObjectSpec>

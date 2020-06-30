@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.br_encountertabgetfilterdata_services,br_encountertabgetfilterdata" %>

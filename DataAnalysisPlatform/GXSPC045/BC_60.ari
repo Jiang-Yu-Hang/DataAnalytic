@@ -1,0 +1,7 @@
+bc_dt_elem_i([ 0,60,0 ],'View_lpi_br_information_id',allownulls,no).
+bc_dt_elem_i([ 0,60,0 ],'View_lpi_br_information_patientno',allownulls,no).
+bc_dt_elem_i([ 0,60,0 ],'View_lpi_br_encounter_admitdate',allownulls,no).
+bc_dt_elem_i([ 0,60,0 ],'View_lpi_br_demographics_sex',allownulls,no).
+bc_dt_elem_i([ 0,60,0 ],'View_lpi_br_demographics_birthdate',allownulls,no).
+bc_dt_elem_i([ 0,60,0 ],'View_lpi_br_demographics_ethnic',allownulls,no).
+ 

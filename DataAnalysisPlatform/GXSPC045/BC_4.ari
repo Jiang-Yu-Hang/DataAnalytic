@@ -1,0 +1,4 @@
+bc_dt_elem_i([ 0,4,0 ],'Secroleid',allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],'Secrolename',allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],'Secroledescription',allownulls,no).
+ 

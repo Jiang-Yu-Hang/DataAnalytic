@@ -1,0 +1,460 @@
+spec_i([ proc,136,获得抽查情况个数的方法,'ZUtil_GetRandomSituation',78,chs,'16_0_0-127771' ]).
+ 
+struct_i(5,1,[],[]).
+struct_i(4,1,[],[]).
+struct_i(3,1,[],[]).
+struct_i(2,1,[],[]).
+ 
+level_i(5,[ 15,[ [ 15,many ] ],[],[],[ [ [ 15 ],[ 172,193,360 ] ] ],[ [ [ 15 ],[] ] ],[ 19 ],'IBR_ENCOUNTER',[],[] ]).
+level_i(4,[ 15,[ [ 15,many ] ],[],[],[ [ [ 15 ],[ 193,360 ] ] ],[ [ [ 15 ],[] ] ],[ 19 ],'IBR_ENCOUNTER',[],[] ]).
+level_i(3,[ 15,[ [ 15,many ] ],[],[],[ [ [ 15 ],[ 172,192,360 ] ] ],[ [ [ 15 ],[] ] ],[ 19 ],'IBR_ENCOUNTER',[],[] ]).
+level_i(2,[ 15,[ [ 15,many ] ],[],[],[ [ [ 15 ],[ 192,360 ] ] ],[ [ [ 15 ],[] ] ],[ 19 ],'IBR_ENCOUNTER',[],[] ]).
+ 
+tw_i(5,[]).
+tw_i(4,[]).
+tw_i(3,[]).
+tw_i(2,[]).
+ 
+lwi_i(5,[ [ c([ t(360,2),t(=,10),t('trim(',1),t('Tcurrenttenantcode',23),t(')',4) ],[ 360 ]),c([ t('isnull(',1),t(193,2),t(')',4) ],[ 193 ]),c([ t(172,2),t(=,10),t([ 94,complete ],44) ],[ 172 ]) ] ]).
+lwi_i(4,[ [ c([ t(360,2),t(=,10),t('trim(',1),t('Tcurrenttenantcode',23),t(')',4) ],[ 360 ]),c([ t(193,2),t(=,10),t('TRUE',40) ],[ 193 ]) ] ]).
+lwi_i(3,[ [ c([ t(360,2),t(=,10),t('trim(',1),t('Tcurrenttenantcode',23),t(')',4) ],[ 360 ]),c([ t('isnull(',1),t(192,2),t(')',4) ],[ 192 ]),c([ t(172,2),t(<>,10),t([ 94,entering ],44),t('.AND.',9),t(172,2),t(<>,10),t([ 94,waitCheck ],44) ],[ 172 ]) ] ]).
+lwi_i(2,[ [ c([ t(360,2),t(=,10),t('trim(',1),t('Tcurrenttenantcode',23),t(')',4) ],[ 360 ]),c([ t(192,2),t(=,10),t('TRUE',40) ],[ 192 ]) ] ]).
+ 
+ 
+ 
+level_option_i(2,usr_condition,y).
+level_option_i(3,usr_condition,y).
+level_option_i(4,usr_condition,y).
+level_option_i(5,usr_condition,y).
+ 
+ta_i(5,[ [ [ 15,172 ],[ 15,193 ],[ 15,360 ] ] ]).
+ta_i(4,[ [ [ 15,193 ],[ 15,360 ] ] ]).
+ta_i(3,[ [ [ 15,172 ],[ 15,192 ],[ 15,360 ] ] ]).
+ta_i(2,[ [ [ 15,192 ],[ 15,360 ] ] ]).
+ 
+las_i(5,[ [ 172,193,360 ] ]).
+las_i(4,[ [ 193,360 ] ]).
+las_i(3,[ [ 172,192,360 ] ]).
+las_i(2,[ [ 192,360 ] ]).
+ 
+lac_i(5,[ [] ]).
+lac_i(4,[ [] ]).
+lac_i(3,[ [] ]).
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','商?')).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','商?')).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','ZUtil_GetRandomSituation')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'ZUtil'))).
+rule_i(0,prop('ObjDesc',获得抽查情况个数的方法)).
+rule_i(0,prop('ObjName','ZUtil_GetRandomSituation')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Tapproverandomnum','Tapprovenum','Trecheckrandomnum','Trechecknum' ],[])).
+rule_i(0,parmio([ [ 'Tapproverandomnum',out ],[ 'Tapprovenum',out ],[ 'Trecheckrandomnum',out ],[ 'Trechecknum',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,15,[],[ [],'IBR_ENCOUNTER',[] ]).
+a_i(3,3,t,15,[],[ [],'IBR_ENCOUNTER',[] ]).
+a_i(4,4,t,15,[],[ [],'IBR_ENCOUNTER',[] ]).
+a_i(5,5,t,15,[],[ [],'IBR_ENCOUNTER',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,192).
+v_i(t,o,2,360).
+v_i(t,i,3,[]).
+v_i(t,o,3,172).
+v_i(t,o,3,192).
+v_i(t,o,3,360).
+v_i(t,i,4,[]).
+v_i(t,o,4,193).
+v_i(t,o,4,360).
+v_i(t,i,5,[]).
+v_i(t,o,5,172).
+v_i(t,o,5,193).
+v_i(t,o,5,360).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',19 ]).
+attri_i(19,[ 'BR_EncounterID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,就诊信息主键,'',0 ]).
+attri_i(360,[ 'BAS_TenantTenantCode',svchar,20,0,'',0,'BAS_Tenant Tenant Code','',0 ]).
+attri_i(172,[ 'BR_Encounter_Status',int,4,0,'ZZZ9',0,审批状态,'',0 ]).
+attri_i(193,[ 'BR_Encounter_IsRandRecheck',boolean,4,0,'',0,是否复审抽查,'',0 ]).
+attri_i(192,[ 'BR_Encounter_IsRandApprove',boolean,4,0,'',0,是否初审抽查,'',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',14 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',13 ]).
+attri_i('Trecheckrandomnum',[ tRecheckRandomNum,int,10,0,'ZZZZZZZZZ9',0,'t Recheck Random Num','',12 ]).
+attri_i('Trechecknum',[ tRecheckNum,int,10,0,'ZZZZZZZZZ9',0,'t Recheck Num','',11 ]).
+attri_i('Tcurrenttenantcode',[ tCurrentTenantCode,svchar,40,0,'',0,'t Current Tenant Code','',10 ]).
+attri_i('Tapproverandomnum',[ tApproveRandomNum,int,10,0,'ZZZZZZZZZ9',0,'t Approve Random Num','',9 ]).
+attri_i('Tapprovenum',[ tApproveNum,int,10,0,'ZZZZZZZZZ9',0,'t Approve Num','',8 ]).
+ 
+table_i(15,[ 'BR_Encounter',[ 19,172,192,193,360 ],' T15','BR_Encounter' ]).
+ 
+index_i(15,[ 'IBR_ENCOUNTER',u,[ 19 ],'IBR_Encounter' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enumerated_i(45,172,94).
+enumerated_i(45,537,117).
+ 
+enum_value_i(45,94,'1',entering,'"录入中"',[ none ]).
+enum_value_i(45,94,'2',waitCheck,'"待初审"',[ none ]).
+enum_value_i(45,94,'3',denyCheck,'"初审不通过"',[ none ]).
+enum_value_i(45,94,'4',waitApprove,'"待复审"',[ none ]).
+enum_value_i(45,94,'5',denyApprove,'"复审不通过"',[ none ]).
+enum_value_i(45,94,'6',complete,'"完成"',[ none ]).
+enum_value_i(45,117,'1',lis,'"lis"',[ none ]).
+ 
+enum_value_info_i(45,94,'DM_ApproveStatus').
+enum_value_info_i(45,117,'DM_Datasource').
+ 
+enum_type_i(45,94,int,4,0).
+enum_type_i(45,117,int,4,0).
+ 
+dom_info_i(94,[ 'DM_ApproveStatus' ]).
+dom_info_i(69,[ 'ID' ]).
+dom_info_i(64,[ 'DM_Date' ]).
+dom_info_i(66,[ 'UpdDate' ]).
+dom_info_i(95,[ 'CrtUser' ]).
+dom_info_i(67,[ 'UpdUser' ]).
+dom_info_i(117,[ 'DM_Datasource' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [],[ 360,192 ],[] ]).
+break_i(3,nvg,1,[],[ [],[ 360,192,172 ],[] ]).
+break_i(4,nvg,1,[],[ [],[ 360,193 ],[] ]).
+break_i(5,nvg,1,[],[ [],[ 360,193,172 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,11,11).
+b_group_i(2,1,lit,0,12,12).
+b_group_i(1,3,lit,0,17,6).
+b_group_i(1,4,nvg,3,19,19).
+b_group_i(3,1,lit,0,20,20).
+b_group_i(1,5,lit,0,25,12).
+b_group_i(1,6,nvg,4,28,28).
+b_group_i(4,1,lit,0,29,29).
+b_group_i(1,7,lit,0,33,17).
+b_group_i(1,8,nvg,5,36,36).
+b_group_i(5,1,lit,0,37,37).
+b_group_i(1,9,lit,0,42,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[ t('',107,0,0),t('Tcurrenttenantcode',23,0,0),t(=,10,0,0),t('getcookie(',1,0,0),t('''DAS_UserTInfo''',3,0,0),t(')',4,0,0) ]).
+b_line_i(3,1,1,cmd,0,[]).
+b_line_i(4,1,1,cmd,0,[ t('',107,0,0),t('Tapproverandomnum',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(5,1,1,cmd,0,[ t('',107,0,0),t('Tapprovenum',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(6,1,1,cmd,0,[ t('',107,0,0),t('Trecheckrandomnum',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(7,1,1,cmd,0,[ t('',107,0,0),t('Trechecknum',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(8,1,1,cmd,0,[]).
+b_line_i(9,1,1,cmd,0,[]).
+b_line_i(10,1,1,cmd,0,[]).
+b_line_i(11,2,1,cmd,12,[ t('',121,11,0),t(table,3,11,10),t(15,3,11,10) ]).
+b_line_i(14,2,1,cmd,12,[ t('',107,12,0),t('Tapproverandomnum',23,12,0),t(=,10,12,0),t('Tapproverandomnum',23,12,0),t(+,5,12,0),t('1',3,12,0) ]).
+b_line_i(15,2,1,cmd,12,[]).
+b_line_i(16,2,1,cmd,12,[ t('',128,12,0) ]).
+b_line_i(17,1,3,cmd,6,[]).
+b_line_i(18,1,3,cmd,6,[]).
+b_line_i(19,3,1,cmd,20,[ t('',121,19,0),t(table,3,19,10),t(15,3,19,10) ]).
+b_line_i(23,3,1,cmd,20,[ t('',107,20,0),t('Tapprovenum',23,20,0),t(=,10,20,0),t('Tapprovenum',23,20,0),t(+,5,20,0),t('1',3,20,0) ]).
+b_line_i(24,3,1,cmd,20,[ t('',128,20,0) ]).
+b_line_i(25,1,5,cmd,12,[]).
+b_line_i(26,1,5,cmd,12,[]).
+b_line_i(27,1,5,cmd,12,[]).
+b_line_i(28,4,1,cmd,29,[ t('',121,28,0),t(table,3,28,10),t(15,3,28,10) ]).
+b_line_i(31,4,1,cmd,29,[ t('',107,29,0),t('Trecheckrandomnum',23,29,0),t(=,10,29,0),t('Trecheckrandomnum',23,29,0),t(+,5,29,0),t('1',3,29,0) ]).
+b_line_i(32,4,1,cmd,29,[ t('',128,29,0) ]).
+b_line_i(33,1,7,cmd,17,[]).
+b_line_i(34,1,7,cmd,17,[]).
+b_line_i(35,1,7,cmd,17,[]).
+b_line_i(36,5,1,cmd,37,[ t('',121,36,0),t(table,3,36,10),t(15,3,36,10) ]).
+b_line_i(40,5,1,cmd,37,[ t('',107,37,0),t('Trechecknum',23,37,0),t(=,10,37,0),t('Trechecknum',23,37,0),t(+,5,37,0),t('1',3,37,0) ]).
+b_line_i(41,5,1,cmd,37,[ t('',128,37,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(45,192,'ExternalName','BR_Encounter_IsRandApprove',d).
+att_prop_i(45,192,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,192,'EmptyAsNull','Yes',d).
+att_prop_i(45,192,'ExternalStorage','-1',d).
+att_prop_i(45,192,idBasedOn,'',d).
+att_prop_i(45,192,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,192,'AttRegEx','',d).
+att_prop_i(45,192,'AttValidationFailedMsg','',d).
+att_prop_i(45,192,'FullName','BR_Encounter_IsRandApprove',v).
+att_prop_i(45,193,'ExternalName','BR_Encounter_IsRandRecheck',d).
+att_prop_i(45,193,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,193,'EmptyAsNull','Yes',d).
+att_prop_i(45,193,'ExternalStorage','-1',d).
+att_prop_i(45,193,idBasedOn,'',d).
+att_prop_i(45,193,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,193,'AttRegEx','',d).
+att_prop_i(45,193,'AttValidationFailedMsg','',d).
+att_prop_i(45,193,'FullName','BR_Encounter_IsRandRecheck',v).
+att_prop_i(45,172,'ExternalName','BR_Encounter_Status',d).
+att_prop_i(45,172,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,172,'EmptyAsNull','Yes',d).
+att_prop_i(45,172,idBasedOn,94,v).
+att_prop_i(45,172,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,172,'AttRegEx','',d).
+att_prop_i(45,172,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(45,172,'FullName','BR_Encounter_Status',v).
+att_prop_i(45,360,'ExternalName','BAS_TenantTenantCode',d).
+att_prop_i(45,360,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,360,'EmptyAsNull','Yes',d).
+att_prop_i(45,360,idBasedOn,'',d).
+att_prop_i(45,360,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,360,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,360,'AttRegEx','',d).
+att_prop_i(45,360,'AttValidationFailedMsg','',d).
+att_prop_i(45,360,'FullName','BAS_TenantTenantCode',v).
+att_prop_i(45,19,'ExternalName','BR_EncounterID',d).
+att_prop_i(45,19,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,19,'EmptyAsNull','Yes',d).
+att_prop_i(45,19,idBasedOn,69,v).
+att_prop_i(45,19,'AUTONUMBER','-1',d).
+att_prop_i(45,19,'AUTONUMBER_START','1',d).
+att_prop_i(45,19,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,19,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,19,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,19,'AttRegEx','',d).
+att_prop_i(45,19,'AttValidationFailedMsg','',d).
+att_prop_i(45,19,'FullName','BR_EncounterID',v).
+ 
+ 
+tbl_att_prop_i(45,15,19,'AllowNulls',n).
+tbl_att_prop_i(45,15,19,'AUTONUMBER',y).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,136,'ZUTIL_GETRANDOMSITUATION','INTERNAL').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

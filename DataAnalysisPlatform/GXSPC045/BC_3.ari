@@ -1,0 +1,5 @@
+bc_dt_elem_i([ 0,3,0 ],'Secobjectname',allownulls,no).
+bc_dt_elem_i([ 0,3,[ 1,5 ] ],'Secfunctionalityid',allownulls,no).
+bc_dt_elem_i([ 0,3,[ 1,5 ] ],'Secfunctionalitydescription',readonly,yes).
+bc_dt_elem_i([ 0,3,[ 1,5 ] ],'Secfunctionalitydescription',allownulls,no).
+ 

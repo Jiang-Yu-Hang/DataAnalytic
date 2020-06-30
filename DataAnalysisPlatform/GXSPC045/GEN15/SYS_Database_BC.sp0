@@ -1,0 +1,673 @@
+spec_i([ trn,47,'SYS_Database','SYS_Database_BC',[],chs,'16_0_0-127771' ]).
+ 
+struct_i(48,0,[],[]).
+ 
+level_i(48,[ 48,[ [ 48,many ] ],[ 365 ],[],[],[],[ 365 ],'PK_SYS_DATABASE',[ 48,[] ],[] ]).
+ 
+tw_i(48,[]).
+ 
+lwi_i(48,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(48,[ [ [ 48,365 ],[ 48,380 ],[ 48,381 ],[ 48,382 ],[ 48,383 ],[ 48,384 ],[ 48,385 ] ] ]).
+ 
+las_i(48,[ [ 365,380,381,382,383,384,385 ] ]).
+ 
+lac_i(48,[ [ 365,380,381,382,383,384,385 ] ]).
+ 
+ 
+ 
+cls_i([ 25,80 ],[ 0,0 ]).
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','ÉÌ?')).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',¿¿¿¿¿¿)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','ÉÌ?')).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',¿¿¿¿¿¿)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PKSupFKs',[])).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','SYS_Database')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SEARCH_VIEWER','')).
+rule_i(0,prop('SEARCHABLE','UMPV')).
+rule_i(0,prop('MTIER_OPT','Yes')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('AUTOENTER','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('BEEPONERROR','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WBCHAR','')).
+rule_i(0,prop('WBATTR',none)).
+rule_i(0,prop('WBCOLOR',none)).
+rule_i(0,prop('WNDPOP','NO')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('DLT_BUTTON','')).
+rule_i(0,prop('CNF_BUTTON','')).
+rule_i(0,prop('UPD_BUTTON','')).
+rule_i(0,prop('ADD_BUTTON','')).
+rule_i(0,prop('AUTOSCROLL_FORM','UMPV')).
+rule_i(0,prop('SHOW_FRM','UMPV')).
+rule_i(0,prop('MODAL','PARM')).
+rule_i(0,prop('CTRBOX','YES')).
+rule_i(0,prop('ICON','')).
+rule_i(0,prop('S_TASK','YES')).
+rule_i(0,prop('MINBUT','YES')).
+rule_i(0,prop('MAXBUT','YES')).
+rule_i(0,prop('BORSTY','2')).
+rule_i(0,prop('KEY_MOREKEYS','UMPV')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_LAST','UMPV')).
+rule_i(0,prop('KEY_FIRST','UMPV')).
+rule_i(0,prop('KEY_SELECT','UMPV')).
+rule_i(0,prop('KEY_DISPLAY','UMPV')).
+rule_i(0,prop('KEY_DELETE','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_UPDATE','UMPV')).
+rule_i(0,prop('KEY_MENU','UMPV')).
+rule_i(0,prop('KEY_RETRIEVE','UMPV')).
+rule_i(0,prop('KEY_NEXT','UMPV')).
+rule_i(0,prop('KEY_PREVIOUS','UMPV')).
+rule_i(0,prop('KEY_INSERT','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_PROMPT','UMPV')).
+rule_i(0,prop('KEY_EXIT','UMPV')).
+rule_i(0,prop('KEY_CHECK','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebFormDefaults','0')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('FIELD_TO_FIELD','UMPV')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('CFMTRN','No')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('IsDwhTrn','0')).
+rule_i(0,prop(idDynTrnUpdatePolicy,idDynTrnUpdatePolicy_UPDATABLE)).
+rule_i(0,prop(idIsDynTrn,'0')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'WWPBaseObjects.WorkWithPlusMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('WS_Delete','-1')).
+rule_i(0,prop('WS_Update','-1')).
+rule_i(0,prop('WS_Insert','-1')).
+rule_i(0,prop('WS_View','-1')).
+rule_i(0,prop(idISBCWEBSERVICE,'0')).
+rule_i(0,prop('ExternalNamespace','DataAnalysisPlatform')).
+rule_i(0,prop('ExternalName','SYS_Database')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop(idISBUSINESSCOMPONENT,'-1')).
+rule_i(0,prop('Folder',o(8,'TrnMicro'))).
+rule_i(0,prop('ObjDesc','SYS_Database')).
+rule_i(0,prop('ObjName','SYS_Database')).
+rule_i(0,rule([ a(22,[ 'Dlt','"É¾³ý"','' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(48,rule([ a(1,msg([ t('"ÓòSYS_Database Create Time³¬½ç"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(383,2),t(')',4),t('.OR.',9),t(383,2),t(>=,10),t('ymdhmstot(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(',',7),t('00',3),t(',',7),t('00',3),t(',',7),t('00',3),t(')',4),t(')',4) ],[ insert,update ],[ 383 ])).
+rule_i(48,rule([ a(1,msg([ t('"ÓòSYS_Database Modify Time³¬½ç"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(385,2),t(')',4),t('.OR.',9),t(385,2),t(>=,10),t('ymdhmstot(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(',',7),t('00',3),t(',',7),t('00',3),t(',',7),t('00',3),t(')',4),t(')',4) ],[ insert,update ],[ 385 ])).
+rule_i(0,p(0,0,fv,10,[ intname,'SYS_DATABASE' ])).
+rule_i(0,p(0,0,fv,10,[ table,48 ])).
+rule_i(0,p(0,0,fv,10,[ datastore,2 ])).
+rule_i(0,p(0,12,fv,10,[])).
+rule_i(0,p(0,12,fv,10,[ 'NAME','SYS_Database' ])).
+rule_i(0,p(0,12,fv,10,[ 'LOC','' ])).
+rule_i(0,p(0,12,fv,10,[ 'SCHEMA',dbo ])).
+rule_i(0,p(0,12,fv,10,[ 'EXTNAM','YES' ])).
+rule_i(0,p(0,12,fvix,[ 10,11 ],[])).
+rule_i(0,p(0,12,fvix,[ 10,11 ],[ 'NAME','PK_SYS_DATABASE' ])).
+rule_i(0,p(0,12,fvix,[ 10,11 ],[ 'LOC','' ])).
+rule_i(0,p(0,12,fvix,[ 10,11 ],[ 'SCHEMA',dbo ])).
+rule_i(0,p(0,12,fvix,[ 10,11 ],[ 'EXTNAM','YES' ])).
+rule_i(0,file(48,'SYS_DATABASE',[ 365,380,381,382,383,384,385 ])).
+rule_i(0,loc([ 48 ],'SYS_DATABASE','','LAN')).
+rule_i(0,index(48,'PK_SYS_DATABASE',u,[ 365 ])).
+rule_i(0,loc([ 48,'PK_SYS_DATABASE' ],'PK_SYS_DATABASE','','LAN')).
+rule_i(0,p(0,0,fv,6,[ intname,'BAS_TENANT' ])).
+rule_i(0,p(0,0,fv,6,[ table,52 ])).
+rule_i(0,p(0,0,fv,6,[ datastore,2 ])).
+rule_i(0,p(0,12,fv,6,[])).
+rule_i(0,p(0,12,fv,6,[ 'NAME','BAS_Tenant' ])).
+rule_i(0,p(0,12,fv,6,[ 'LOC','' ])).
+rule_i(0,p(0,12,fv,6,[ 'SCHEMA',dbo ])).
+rule_i(0,p(0,12,fv,6,[ 'EXTNAM','YES' ])).
+rule_i(0,p(0,12,fvix,[ 6,6 ],[])).
+rule_i(0,p(0,12,fvix,[ 6,6 ],[ 'NAME','PK_BAS_TENANT' ])).
+rule_i(0,p(0,12,fvix,[ 6,6 ],[ 'LOC','' ])).
+rule_i(0,p(0,12,fvix,[ 6,6 ],[ 'SCHEMA',dbo ])).
+rule_i(0,p(0,12,fvix,[ 6,6 ],[ 'EXTNAM','YES' ])).
+rule_i(0,file(52,'BAS_TENANT',[ 360,394,358,395,365,396,397,398,399,400,401,402 ])).
+rule_i(0,loc([ 52 ],'BAS_TENANT','','LAN')).
+rule_i(0,index(52,'PK_BAS_TENANT',u,[ 360 ])).
+rule_i(0,loc([ 52,'PK_BAS_TENANT' ],'PK_BAS_TENANT','','LAN')).
+ 
+a_i(1,48,b,0,[],[ [],[ a(1,msg([ t('"ÓòSYS_Database Create Time³¬½ç"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(383,2),t(')',4),t('.OR.',9),t(383,2),t(>=,10),t('ymdhmstot(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(',',7),t('00',3),t(',',7),t('00',3),t(',',7),t('00',3),t(')',4),t(')',4) ] ]).
+a_i(2,48,b,0,[],[ [],[ a(1,msg([ t('"ÓòSYS_Database Modify Time³¬½ç"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(385,2),t(')',4),t('.OR.',9),t(385,2),t(>=,10),t('ymdhmstot(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(',',7),t('00',3),t(',',7),t('00',3),t(',',7),t('00',3),t(')',4),t(')',4) ] ]).
+a_i(3,48,t,48,[],[ [ [ [],365,365 ] ],'PK_SYS_DATABASE',[] ]).
+ 
+v_i(b,i,1,383).
+v_i(b,o,1,[]).
+v_i(b,i,2,385).
+v_i(b,o,2,[]).
+v_i(t,i,3,365).
+v_i(t,o,3,380).
+v_i(t,o,3,381).
+v_i(t,o,3,382).
+v_i(t,o,3,383).
+v_i(t,o,3,384).
+v_i(t,o,3,385).
+ 
+ 
+ 
+tbl_to_delete_i(48,[ 52,[ [ 48,365,365 ] ],c,'IBAS_TENANT',[ [ 52,365 ] ],[ 360 ],'' ]).
+ 
+ 
+ 
+attri_i(360,[ 'BAS_TenantTenantCode',svchar,20,0,'',0,'BAS_Tenant Tenant Code','',0 ]).
+attri_i(385,[ 'SYS_DatabaseModifyTime',dtime,10,8,'99/99/9999 99:99:99',0,'SYS_Database Modify Time','',0 ]).
+attri_i(384,[ 'SYS_DatabaseModifier',svchar,50,0,'',0,'SYS_Database Modifier','',0 ]).
+attri_i(383,[ 'SYS_DatabaseCreateTime',dtime,10,8,'99/99/9999 99:99:99',0,'SYS_Database Create Time','',0 ]).
+attri_i(382,[ 'SYS_DatabaseCreator',svchar,50,0,'',0,'SYS_Database Creator','',0 ]).
+attri_i(381,[ 'ConnectionString',svchar,200,0,'',0,'Connection String','',0 ]).
+attri_i(380,[ 'DatabaseName',svchar,100,0,'',0,'Database Name','',0 ]).
+attri_i(365,[ 'DatabaseID',int,9,0,'ZZZZZZZZ9',0,'Database ID','',0 ]).
+attri_i('Gxremove',[ 'GxRemove',int,1,0,'9',0,'Gx Remove','',5 ]).
+attri_i('Mode',[ 'Gx_mode',char,3,0,'@!',1,'','',2 ]).
+ 
+table_i(52,[ 'BAS_TENANT',[ 360,365 ],'BAS_Tenant','BAS_Tenant' ]).
+table_i(48,[ 'SYS_DATABASE',[ 365,380,381,382,383,384,385 ],'SYS_Database','SYS_Database' ]).
+ 
+index_i(48,[ 'PK_SYS_DATABASE',u,[ 365 ],'PK_SYS_DATABASE' ]).
+index_i(52,[ 'PK_BAS_TENANT',u,[ 360 ],'PK_BAS_TENANT' ]).
+index_i(52,[ 'IBAS_TENANT',d,[ 365 ],'IBAS_Tenant' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(48,48,i,[ [ 365,380,381,382,383,384,385 ],[],'PK_SYS_DATABASE',[ [ [],365,365 ] ] ]).
+upd_i(48,48,u,[ [ 380,381,382,383,384,385 ],[],'PK_SYS_DATABASE',[] ]).
+upd_i(48,48,d,[ [],[],'PK_SYS_DATABASE',[] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+map_i(52,i,'PK_BAS_TENANT',[ 'PK_BAS_TENANT' ]).
+map_i(52,a,402,[ 'Description' ]).
+map_i(52,a,401,[ 'IsDeleted' ]).
+map_i(52,a,400,[ 'ModifyTime' ]).
+map_i(52,a,399,[ 'Modifier' ]).
+map_i(52,a,398,[ 'CreateTime' ]).
+map_i(52,a,397,[ 'Creator' ]).
+map_i(52,a,396,[ 'Logo' ]).
+map_i(52,a,365,[ 'DatabaseID' ]).
+map_i(52,a,395,[ 'HospitalName' ]).
+map_i(52,a,358,[ 'InstituteCode' ]).
+map_i(52,a,394,[ 'TenantName' ]).
+map_i(52,a,360,[ 'TenantCode' ]).
+map_i(48,i,'PK_SYS_DATABASE',[ 'PK_SYS_DATABASE' ]).
+map_i(48,a,385,[ 'ModifyTime' ]).
+map_i(48,a,384,[ 'Modifier' ]).
+map_i(48,a,383,[ 'CreateTime' ]).
+map_i(48,a,382,[ 'Creator' ]).
+map_i(48,a,381,[ 'ConnectionString' ]).
+map_i(48,a,380,[ 'DatabaseName' ]).
+map_i(48,a,365,[ 'DatabaseID' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,0).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0134,[ 'Poor performance may be noticed','',' as ','Duplicate',' index ','IBAS_TENANT',' is not defined in Data view ','BAS_Tenant','.' ])).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(45,365,'HORIZONTAL_DESCRIPTION','Database ID',v).
+att_prop_i(45,365,'ExternalName','DatabaseID',d).
+att_prop_i(45,365,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,365,'EmptyAsNull','Yes',d).
+att_prop_i(45,365,idBasedOn,'',d).
+att_prop_i(45,365,'AUTONUMBER','0',d).
+att_prop_i(45,365,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,365,'AttRegEx','',d).
+att_prop_i(45,365,'AttValidationFailedMsg','',d).
+att_prop_i(45,365,'FullName','DatabaseID',v).
+att_prop_i(45,380,'HORIZONTAL_DESCRIPTION','Database Name',v).
+att_prop_i(45,380,'ExternalName','DatabaseName',d).
+att_prop_i(45,380,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,380,'EmptyAsNull','Yes',d).
+att_prop_i(45,380,idBasedOn,'',d).
+att_prop_i(45,380,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,380,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,380,'AttRegEx','',d).
+att_prop_i(45,380,'AttValidationFailedMsg','',d).
+att_prop_i(45,380,'FullName','DatabaseName',v).
+att_prop_i(45,381,'HORIZONTAL_DESCRIPTION','Connection String',v).
+att_prop_i(45,381,'ExternalName','ConnectionString',d).
+att_prop_i(45,381,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,381,'EmptyAsNull','Yes',d).
+att_prop_i(45,381,idBasedOn,'',d).
+att_prop_i(45,381,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,381,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,381,'AttRegEx','',d).
+att_prop_i(45,381,'AttValidationFailedMsg','',d).
+att_prop_i(45,381,'FullName','ConnectionString',v).
+att_prop_i(45,382,'HORIZONTAL_DESCRIPTION','SYS_Database Creator',v).
+att_prop_i(45,382,'ExternalName','SYS_DatabaseCreator',d).
+att_prop_i(45,382,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,382,'EmptyAsNull','Yes',d).
+att_prop_i(45,382,idBasedOn,'',d).
+att_prop_i(45,382,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,382,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,382,'AttRegEx','',d).
+att_prop_i(45,382,'AttValidationFailedMsg','',d).
+att_prop_i(45,382,'FullName','SYS_DatabaseCreator',v).
+att_prop_i(45,383,'HORIZONTAL_DESCRIPTION','SYS_Database Create Time',v).
+att_prop_i(45,383,'ExternalName','SYS_DatabaseCreateTime',d).
+att_prop_i(45,383,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,383,'EmptyAsNull','Yes',d).
+att_prop_i(45,383,idBasedOn,'',d).
+att_prop_i(45,383,idDATEPRECISION,idDATEPRECISION_SECONDS,d).
+att_prop_i(45,383,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,383,'AttRegEx','',d).
+att_prop_i(45,383,'AttValidationFailedMsg','',d).
+att_prop_i(45,383,idDATEFORMAT,idDATEFORMAT_LONG,v).
+att_prop_i(45,383,idHOURFORMAT,idHOURFORMAT_HOURMINSEC,v).
+att_prop_i(45,383,'FullName','SYS_DatabaseCreateTime',v).
+att_prop_i(45,384,'HORIZONTAL_DESCRIPTION','SYS_Database Modifier',v).
+att_prop_i(45,384,'ExternalName','SYS_DatabaseModifier',d).
+att_prop_i(45,384,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,384,'EmptyAsNull','Yes',d).
+att_prop_i(45,384,idBasedOn,'',d).
+att_prop_i(45,384,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,384,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,384,'AttRegEx','',d).
+att_prop_i(45,384,'AttValidationFailedMsg','',d).
+att_prop_i(45,384,'FullName','SYS_DatabaseModifier',v).
+att_prop_i(45,385,'HORIZONTAL_DESCRIPTION','SYS_Database Modify Time',v).
+att_prop_i(45,385,'ExternalName','SYS_DatabaseModifyTime',d).
+att_prop_i(45,385,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,385,'EmptyAsNull','Yes',d).
+att_prop_i(45,385,idBasedOn,'',d).
+att_prop_i(45,385,idDATEPRECISION,idDATEPRECISION_SECONDS,d).
+att_prop_i(45,385,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,385,'AttRegEx','',d).
+att_prop_i(45,385,'AttValidationFailedMsg','',d).
+att_prop_i(45,385,idDATEFORMAT,idDATEFORMAT_LONG,v).
+att_prop_i(45,385,idHOURFORMAT,idHOURFORMAT_HOURMINSEC,v).
+att_prop_i(45,385,'FullName','SYS_DatabaseModifyTime',v).
+att_prop_i(45,360,'HORIZONTAL_DESCRIPTION','BAS_Tenant Tenant Code',v).
+att_prop_i(45,360,'ExternalName','BAS_TenantTenantCode',d).
+att_prop_i(45,360,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,360,'EmptyAsNull','Yes',d).
+att_prop_i(45,360,idBasedOn,'',d).
+att_prop_i(45,360,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,360,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,360,'AttRegEx','',d).
+att_prop_i(45,360,'AttValidationFailedMsg','',d).
+att_prop_i(45,360,'FullName','BAS_TenantTenantCode',v).
+ 
+tbl_prop_i(45,52,'AllDirSuper',[ [ 48,[ 365 ] ] ],v).
+tbl_prop_i(45,48,'DirSubor',[ [ 52,[ 365 ] ] ],v).
+tbl_prop_i(45,52,'DirSuper',[ [ 48,[ 365 ] ] ],v).
+ 
+tbl_att_prop_i(45,48,365,'AllowNulls',n).
+tbl_att_prop_i(45,48,380,'AllowNulls',n).
+tbl_att_prop_i(45,48,381,'AllowNulls',n).
+tbl_att_prop_i(45,48,382,'AllowNulls',n).
+tbl_att_prop_i(45,48,383,'AllowNulls',n).
+tbl_att_prop_i(45,52,360,'AllowNulls',n).
+tbl_att_prop_i(45,52,365,'AllowNulls',n).
+ 
+ 
+i_tbl_best_trn(48,[ 47,1,'SYS_Database','SYS_Database',[] ]).
+i_tbl_best_trn(52,[ 51,1,'BAS_Tenant','BAS_Tenant',[] ]).
+ 
+ 
+a_alias_i(397,'BAS_TenantCreator').
+a_alias_i(382,'SYS_DatabaseCreator').
+a_alias_i(398,'BAS_TenantCreateTime').
+a_alias_i(383,'SYS_DatabaseCreateTime').
+a_alias_i(399,'BAS_TenantModifier').
+a_alias_i(384,'SYS_DatabaseModifier').
+a_alias_i(400,'BAS_TenantModifyTime').
+a_alias_i(385,'SYS_DatabaseModifyTime').
+ 
+trn_level_i(48,[ [ 365,380,381,382,383,384,385 ],'SYS_Database','SYS_Database','SYS_Database','',380 ]).
+ 
+struct_dt_i([ 0,47,0 ],name,'SYS_Database').
+struct_dt_i([ 0,47,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,47,0 ],significantName,'SYS_Database').
+struct_dt_i([ 0,47,0 ],'ObjName','SYS_Database').
+struct_dt_i([ 0,47,0 ],'ObjDesc','SYS_Database').
+struct_dt_i([ 0,47,0 ],'ExternalName','SYS_Database').
+struct_dt_i([ 0,47,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,47,0 ],key,[ 365 ]).
+struct_dt_i([ 0,47,0 ],lvl,48).
+struct_dt_i([ 26,8,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,8,0 ],'ObjName','Messages').
+struct_dt_i([ 26,8,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,8,0 ],collection,'True').
+struct_dt_i([ 26,8,0 ],datatype,[ 26,8,25 ]).
+struct_dt_i([ 26,8,0 ],isexternal,'True').
+struct_dt_i([ 26,8,25 ],name,'Message').
+struct_dt_i([ 26,8,25 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 0,47,0 ],fullname,'SYS_Database').
+struct_dt_i([ 26,8,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,25 ],fullname,'GeneXus\Common\Messages.Message').
+struct_dt_i([ 26,8,0 ],modified,yes).
+struct_dt_i([ 26,8,25 ],modified,yes).
+ 
+struct_dt_elem_i([ 0,47,0 ],1,name,'Databaseid').
+struct_dt_elem_i([ 0,47,0 ],1,camelname,'DatabaseID').
+struct_dt_elem_i([ 0,47,0 ],1,length,9).
+struct_dt_elem_i([ 0,47,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,47,0 ],1,sign,0).
+struct_dt_elem_i([ 0,47,0 ],1,type,[ 4,9,0 ]).
+struct_dt_elem_i([ 0,47,0 ],1,pic,'ZZZZZZZZ9').
+struct_dt_elem_i([ 0,47,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,47,0 ],1,attributeid,'365').
+struct_dt_elem_i([ 0,47,0 ],1,'ExternalName','DatabaseID').
+struct_dt_elem_i([ 0,47,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,47,0 ],2,name,'Databasename').
+struct_dt_elem_i([ 0,47,0 ],2,camelname,'DatabaseName').
+struct_dt_elem_i([ 0,47,0 ],2,length,100).
+struct_dt_elem_i([ 0,47,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,47,0 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,47,0 ],2,pic,'').
+struct_dt_elem_i([ 0,47,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,47,0 ],2,attributeid,'380').
+struct_dt_elem_i([ 0,47,0 ],2,'ExternalName','DatabaseName').
+struct_dt_elem_i([ 0,47,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,47,0 ],3,name,'Connectionstring').
+struct_dt_elem_i([ 0,47,0 ],3,camelname,'ConnectionString').
+struct_dt_elem_i([ 0,47,0 ],3,length,200).
+struct_dt_elem_i([ 0,47,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,47,0 ],3,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,47,0 ],3,pic,'').
+struct_dt_elem_i([ 0,47,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,47,0 ],3,attributeid,'381').
+struct_dt_elem_i([ 0,47,0 ],3,'ExternalName','ConnectionString').
+struct_dt_elem_i([ 0,47,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,47,0 ],4,name,'Sys_databasecreator').
+struct_dt_elem_i([ 0,47,0 ],4,camelname,'SYS_DatabaseCreator').
+struct_dt_elem_i([ 0,47,0 ],4,length,50).
+struct_dt_elem_i([ 0,47,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,47,0 ],4,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,47,0 ],4,pic,'').
+struct_dt_elem_i([ 0,47,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,47,0 ],4,attributeid,'382').
+struct_dt_elem_i([ 0,47,0 ],4,'ExternalName','SYS_DatabaseCreator').
+struct_dt_elem_i([ 0,47,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,47,0 ],5,name,'Sys_databasecreatetime').
+struct_dt_elem_i([ 0,47,0 ],5,camelname,'SYS_DatabaseCreateTime').
+struct_dt_elem_i([ 0,47,0 ],5,length,10).
+struct_dt_elem_i([ 0,47,0 ],5,decimals,8).
+struct_dt_elem_i([ 0,47,0 ],5,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,47,0 ],5,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,47,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,47,0 ],5,attributeid,'383').
+struct_dt_elem_i([ 0,47,0 ],5,'ExternalName','SYS_DatabaseCreateTime').
+struct_dt_elem_i([ 0,47,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,47,0 ],6,name,'Sys_databasemodifier').
+struct_dt_elem_i([ 0,47,0 ],6,camelname,'SYS_DatabaseModifier').
+struct_dt_elem_i([ 0,47,0 ],6,length,50).
+struct_dt_elem_i([ 0,47,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,47,0 ],6,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,47,0 ],6,pic,'').
+struct_dt_elem_i([ 0,47,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,47,0 ],6,attributeid,'384').
+struct_dt_elem_i([ 0,47,0 ],6,'ExternalName','SYS_DatabaseModifier').
+struct_dt_elem_i([ 0,47,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,47,0 ],7,name,'Sys_databasemodifytime').
+struct_dt_elem_i([ 0,47,0 ],7,camelname,'SYS_DatabaseModifyTime').
+struct_dt_elem_i([ 0,47,0 ],7,length,10).
+struct_dt_elem_i([ 0,47,0 ],7,decimals,8).
+struct_dt_elem_i([ 0,47,0 ],7,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,47,0 ],7,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,47,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,47,0 ],7,attributeid,'385').
+struct_dt_elem_i([ 0,47,0 ],7,'ExternalName','SYS_DatabaseModifyTime').
+struct_dt_elem_i([ 0,47,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,name,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,length,128).
+struct_dt_elem_i([ 26,8,25 ],1,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,8,25 ],1,pic,'').
+struct_dt_elem_i([ 26,8,25 ],1,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],1,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],1,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],2,name,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,basedon,30).
+struct_dt_elem_i([ 26,8,25 ],2,length,2).
+struct_dt_elem_i([ 26,8,25 ],2,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],2,sign,0).
+struct_dt_elem_i([ 26,8,25 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,8,25 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,8,25 ],2,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],2,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],2,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],3,name,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,length,256).
+struct_dt_elem_i([ 26,8,25 ],3,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,8,25 ],3,pic,'').
+struct_dt_elem_i([ 26,8,25 ],3,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],3,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],3,'JsonName','').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(trn,47,'SYS_DATABASE_BC','INTERNAL').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

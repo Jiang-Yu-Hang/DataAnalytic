@@ -1,0 +1,261 @@
+ 
+spec_i([ sdt,[ 0,8,0 ],'BR_Behavior','BR_Behavior',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,8,0 ],name,'BR_Behavior').
+struct_dt_i([ 0,8,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,8,0 ],significantName,'BR_Behavior').
+struct_dt_i([ 0,8,0 ],'ObjName','BR_Behavior').
+struct_dt_i([ 0,8,0 ],'ObjDesc',个人史).
+struct_dt_i([ 0,8,0 ],'ExternalName','BR_Behavior').
+struct_dt_i([ 0,8,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,8,0 ],key,[ 20 ]).
+struct_dt_i([ 0,8,0 ],lvl,9).
+struct_dt_i([ 0,8,0 ],fullname,'BR_Behavior').
+ 
+struct_dt_elem_i([ 0,8,0 ],1,name,'Br_behaviorid').
+struct_dt_elem_i([ 0,8,0 ],1,camelname,'BR_BehaviorID').
+struct_dt_elem_i([ 0,8,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,8,0 ],1,length,18).
+struct_dt_elem_i([ 0,8,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],1,sign,0).
+struct_dt_elem_i([ 0,8,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,8,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,8,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],1,attributeid,'20').
+struct_dt_elem_i([ 0,8,0 ],1,'ExternalName','BR_BehaviorID').
+struct_dt_elem_i([ 0,8,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],2,name,'Br_encounterid').
+struct_dt_elem_i([ 0,8,0 ],2,camelname,'BR_EncounterID').
+struct_dt_elem_i([ 0,8,0 ],2,basedon,69).
+struct_dt_elem_i([ 0,8,0 ],2,length,18).
+struct_dt_elem_i([ 0,8,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],2,sign,0).
+struct_dt_elem_i([ 0,8,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,8,0 ],2,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,8,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],2,attributeid,'19').
+struct_dt_elem_i([ 0,8,0 ],2,'ExternalName','BR_EncounterID').
+struct_dt_elem_i([ 0,8,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],3,name,'Br_information_patientno').
+struct_dt_elem_i([ 0,8,0 ],3,camelname,'BR_Information_PatientNo').
+struct_dt_elem_i([ 0,8,0 ],3,length,2000).
+struct_dt_elem_i([ 0,8,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],3,type,[ 13,2000,0 ]).
+struct_dt_elem_i([ 0,8,0 ],3,pic,'').
+struct_dt_elem_i([ 0,8,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],3,attributeid,'36').
+struct_dt_elem_i([ 0,8,0 ],3,'ExternalName','BR_Information_PatientNo').
+struct_dt_elem_i([ 0,8,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],4,name,'Br_behavior_smoking').
+struct_dt_elem_i([ 0,8,0 ],4,camelname,'BR_Behavior_Smoking').
+struct_dt_elem_i([ 0,8,0 ],4,length,100).
+struct_dt_elem_i([ 0,8,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,8,0 ],4,pic,'').
+struct_dt_elem_i([ 0,8,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],4,attributeid,'21').
+struct_dt_elem_i([ 0,8,0 ],4,'ExternalName','BR_Behavior_Smoking').
+struct_dt_elem_i([ 0,8,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],5,name,'Br_behavior_smoking_code').
+struct_dt_elem_i([ 0,8,0 ],5,camelname,'BR_Behavior_Smoking_Code').
+struct_dt_elem_i([ 0,8,0 ],5,length,40).
+struct_dt_elem_i([ 0,8,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],5,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,8,0 ],5,pic,'').
+struct_dt_elem_i([ 0,8,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],5,attributeid,'460').
+struct_dt_elem_i([ 0,8,0 ],5,'ExternalName','BR_Behavior_Smoking_Code').
+struct_dt_elem_i([ 0,8,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],6,name,'Br_behavior_smokingtime').
+struct_dt_elem_i([ 0,8,0 ],6,camelname,'BR_Behavior_SmokingTime').
+struct_dt_elem_i([ 0,8,0 ],6,length,40).
+struct_dt_elem_i([ 0,8,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],6,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,8,0 ],6,pic,'').
+struct_dt_elem_i([ 0,8,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],6,attributeid,'22').
+struct_dt_elem_i([ 0,8,0 ],6,'ExternalName','BR_Behavior_SmokingTime').
+struct_dt_elem_i([ 0,8,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],7,name,'Br_behavior_smokingamount').
+struct_dt_elem_i([ 0,8,0 ],7,camelname,'BR_Behavior_SmokingAmount').
+struct_dt_elem_i([ 0,8,0 ],7,length,100).
+struct_dt_elem_i([ 0,8,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,8,0 ],7,pic,'').
+struct_dt_elem_i([ 0,8,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],7,attributeid,'23').
+struct_dt_elem_i([ 0,8,0 ],7,'ExternalName','BR_Behavior_SmokingAmount').
+struct_dt_elem_i([ 0,8,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],8,name,'Br_behavior_rawsmokingamount').
+struct_dt_elem_i([ 0,8,0 ],8,camelname,'BR_Behavior_RawSmokingAmount').
+struct_dt_elem_i([ 0,8,0 ],8,length,100).
+struct_dt_elem_i([ 0,8,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],8,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,8,0 ],8,pic,'').
+struct_dt_elem_i([ 0,8,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],8,attributeid,'24').
+struct_dt_elem_i([ 0,8,0 ],8,'ExternalName','BR_Behavior_RawSmokingAmount').
+struct_dt_elem_i([ 0,8,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],9,name,'Br_behavior_rawsmokingamount_code').
+struct_dt_elem_i([ 0,8,0 ],9,camelname,'BR_Behavior_RawSmokingAmount_Code').
+struct_dt_elem_i([ 0,8,0 ],9,length,40).
+struct_dt_elem_i([ 0,8,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],9,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,8,0 ],9,pic,'').
+struct_dt_elem_i([ 0,8,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],9,attributeid,'461').
+struct_dt_elem_i([ 0,8,0 ],9,'ExternalName','BR_Behavior_RawSmokingAmount_Code').
+struct_dt_elem_i([ 0,8,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],10,name,'Br_behavior_achohol').
+struct_dt_elem_i([ 0,8,0 ],10,camelname,'BR_Behavior_Achohol').
+struct_dt_elem_i([ 0,8,0 ],10,length,100).
+struct_dt_elem_i([ 0,8,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],10,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,8,0 ],10,pic,'').
+struct_dt_elem_i([ 0,8,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],10,attributeid,'25').
+struct_dt_elem_i([ 0,8,0 ],10,'ExternalName','BR_Behavior_Achohol').
+struct_dt_elem_i([ 0,8,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],11,name,'Br_behavior_achohol_code').
+struct_dt_elem_i([ 0,8,0 ],11,camelname,'BR_Behavior_Achohol_Code').
+struct_dt_elem_i([ 0,8,0 ],11,length,40).
+struct_dt_elem_i([ 0,8,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],11,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,8,0 ],11,pic,'').
+struct_dt_elem_i([ 0,8,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],11,attributeid,'462').
+struct_dt_elem_i([ 0,8,0 ],11,'ExternalName','BR_Behavior_Achohol_Code').
+struct_dt_elem_i([ 0,8,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],12,name,'Br_behavior_achoholtime').
+struct_dt_elem_i([ 0,8,0 ],12,camelname,'BR_Behavior_AchoholTime').
+struct_dt_elem_i([ 0,8,0 ],12,length,40).
+struct_dt_elem_i([ 0,8,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],12,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,8,0 ],12,pic,'').
+struct_dt_elem_i([ 0,8,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],12,attributeid,'26').
+struct_dt_elem_i([ 0,8,0 ],12,'ExternalName','BR_Behavior_AchoholTime').
+struct_dt_elem_i([ 0,8,0 ],12,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],13,name,'Br_behavior_achoholamount').
+struct_dt_elem_i([ 0,8,0 ],13,camelname,'BR_Behavior_AchoholAmount').
+struct_dt_elem_i([ 0,8,0 ],13,length,40).
+struct_dt_elem_i([ 0,8,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],13,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,8,0 ],13,pic,'').
+struct_dt_elem_i([ 0,8,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],13,attributeid,'27').
+struct_dt_elem_i([ 0,8,0 ],13,'ExternalName','BR_Behavior_AchoholAmount').
+struct_dt_elem_i([ 0,8,0 ],13,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],14,name,'Br_behavior_rawachoholamount').
+struct_dt_elem_i([ 0,8,0 ],14,camelname,'BR_Behavior_RawAchoholAmount').
+struct_dt_elem_i([ 0,8,0 ],14,length,100).
+struct_dt_elem_i([ 0,8,0 ],14,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],14,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,8,0 ],14,pic,'').
+struct_dt_elem_i([ 0,8,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],14,attributeid,'28').
+struct_dt_elem_i([ 0,8,0 ],14,'ExternalName','BR_Behavior_RawAchoholAmount').
+struct_dt_elem_i([ 0,8,0 ],14,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],15,name,'Br_behavior_rawachoholamount_code').
+struct_dt_elem_i([ 0,8,0 ],15,camelname,'BR_Behavior_RawAchoholAmount_Code').
+struct_dt_elem_i([ 0,8,0 ],15,length,40).
+struct_dt_elem_i([ 0,8,0 ],15,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],15,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,8,0 ],15,pic,'').
+struct_dt_elem_i([ 0,8,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],15,attributeid,'463').
+struct_dt_elem_i([ 0,8,0 ],15,'ExternalName','BR_Behavior_RawAchoholAmount_Code').
+struct_dt_elem_i([ 0,8,0 ],15,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],16,name,'Br_behavior_familycahistory').
+struct_dt_elem_i([ 0,8,0 ],16,camelname,'BR_Behavior_FamilyCaHistory').
+struct_dt_elem_i([ 0,8,0 ],16,basedon,93).
+struct_dt_elem_i([ 0,8,0 ],16,length,40).
+struct_dt_elem_i([ 0,8,0 ],16,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],16,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,8,0 ],16,pic,'').
+struct_dt_elem_i([ 0,8,0 ],16,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],16,attributeid,'29').
+struct_dt_elem_i([ 0,8,0 ],16,'ExternalName','BR_Behavior_FamilyCaHistory').
+struct_dt_elem_i([ 0,8,0 ],16,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],17,name,'Br_behavior_familycahistory_code').
+struct_dt_elem_i([ 0,8,0 ],17,camelname,'BR_Behavior_FamilyCaHistory_Code').
+struct_dt_elem_i([ 0,8,0 ],17,length,40).
+struct_dt_elem_i([ 0,8,0 ],17,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],17,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,8,0 ],17,pic,'').
+struct_dt_elem_i([ 0,8,0 ],17,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],17,attributeid,'464').
+struct_dt_elem_i([ 0,8,0 ],17,'ExternalName','BR_Behavior_FamilyCaHistory_Code').
+struct_dt_elem_i([ 0,8,0 ],17,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],18,name,'Br_behavior_familycancer').
+struct_dt_elem_i([ 0,8,0 ],18,camelname,'BR_Behavior_FamilyCancer').
+struct_dt_elem_i([ 0,8,0 ],18,length,200).
+struct_dt_elem_i([ 0,8,0 ],18,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],18,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,8,0 ],18,pic,'').
+struct_dt_elem_i([ 0,8,0 ],18,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],18,attributeid,'30').
+struct_dt_elem_i([ 0,8,0 ],18,'ExternalName','BR_Behavior_FamilyCancer').
+struct_dt_elem_i([ 0,8,0 ],18,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],19,name,'Br_behavior_menopause').
+struct_dt_elem_i([ 0,8,0 ],19,camelname,'BR_Behavior_Menopause').
+struct_dt_elem_i([ 0,8,0 ],19,basedon,93).
+struct_dt_elem_i([ 0,8,0 ],19,length,40).
+struct_dt_elem_i([ 0,8,0 ],19,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],19,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,8,0 ],19,pic,'').
+struct_dt_elem_i([ 0,8,0 ],19,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],19,attributeid,'31').
+struct_dt_elem_i([ 0,8,0 ],19,'ExternalName','BR_Behavior_Menopause').
+struct_dt_elem_i([ 0,8,0 ],19,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],20,name,'Br_behavior_menopause_code').
+struct_dt_elem_i([ 0,8,0 ],20,camelname,'BR_Behavior_Menopause_Code').
+struct_dt_elem_i([ 0,8,0 ],20,length,40).
+struct_dt_elem_i([ 0,8,0 ],20,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],20,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,8,0 ],20,pic,'').
+struct_dt_elem_i([ 0,8,0 ],20,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],20,attributeid,'465').
+struct_dt_elem_i([ 0,8,0 ],20,'ExternalName','BR_Behavior_Menopause_Code').
+struct_dt_elem_i([ 0,8,0 ],20,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],21,name,'Br_behavior_menopauseage').
+struct_dt_elem_i([ 0,8,0 ],21,camelname,'BR_Behavior_MenopauseAge').
+struct_dt_elem_i([ 0,8,0 ],21,length,4).
+struct_dt_elem_i([ 0,8,0 ],21,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],21,sign,0).
+struct_dt_elem_i([ 0,8,0 ],21,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,8,0 ],21,pic,'ZZZZ').
+struct_dt_elem_i([ 0,8,0 ],21,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],21,attributeid,'32').
+struct_dt_elem_i([ 0,8,0 ],21,'ExternalName','BR_Behavior_MenopauseAge').
+struct_dt_elem_i([ 0,8,0 ],21,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],22,name,'Br_behavior_rawmenopauseage').
+struct_dt_elem_i([ 0,8,0 ],22,camelname,'BR_Behavior_RawMenopauseAge').
+struct_dt_elem_i([ 0,8,0 ],22,length,100).
+struct_dt_elem_i([ 0,8,0 ],22,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],22,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,8,0 ],22,pic,'').
+struct_dt_elem_i([ 0,8,0 ],22,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],22,attributeid,'33').
+struct_dt_elem_i([ 0,8,0 ],22,'ExternalName','BR_Behavior_RawMenopauseAge').
+struct_dt_elem_i([ 0,8,0 ],22,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],23,name,'Br_behavior_childnum').
+struct_dt_elem_i([ 0,8,0 ],23,camelname,'BR_Behavior_ChildNum').
+struct_dt_elem_i([ 0,8,0 ],23,length,40).
+struct_dt_elem_i([ 0,8,0 ],23,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],23,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,8,0 ],23,pic,'').
+struct_dt_elem_i([ 0,8,0 ],23,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],23,attributeid,'34').
+struct_dt_elem_i([ 0,8,0 ],23,'ExternalName','BR_Behavior_ChildNum').
+struct_dt_elem_i([ 0,8,0 ],23,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,8,0 ],16,pic,'99/99/9999').
+struct_dt_elem_i([ 0,8,0 ],19,pic,'99/99/9999').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

@@ -1,0 +1,163 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>62</ObjId>
+<ObjName>View_New_Encounter</ObjName>
+<ObjDesc>View_New_Encounter</ObjDesc>
+<ObjPgmName>View_New_Encounter</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>72</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>72</TableId>
+<TableName>VIEW_NEW_ENCOUNTER</TableName>
+<Description>View_New_Encounter</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>72</TableId>
+<TableName>VIEW_NEW_ENCOUNTER</TableName>
+<Description>View_New_Encounter</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>549</AttriId>
+<AttriName>view_NE_EncounterID</AttriName>
+<Description>view_NE_Encounter ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>72</TableId>
+<TableName>VIEW_NEW_ENCOUNTER</TableName>
+<Description>View_New_Encounter</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>549</AttriId>
+<AttriName>view_NE_EncounterID</AttriName>
+<Description>view_NE_Encounter ID</Description></Attribute>
+<Attribute>
+<AttriId>550</AttriId>
+<AttriName>view_NE_Department</AttriName>
+<Description>view_NE_Department</Description></Attribute>
+<Attribute>
+<AttriId>551</AttriId>
+<AttriName>view_NE_ENCType</AttriName>
+<Description>view_NE_ENCType</Description></Attribute>
+<Attribute>
+<AttriId>552</AttriId>
+<AttriName>view_NE_AdmitDate</AttriName>
+<Description>view_NE_Admit Date</Description></Attribute>
+<Attribute>
+<AttriId>553</AttriId>
+<AttriName>view_NE_Status</AttriName>
+<Description>view_NE_Status</Description></Attribute>
+<Attribute>
+<AttriId>554</AttriId>
+<AttriName>view_NE_IsRandRecheck</AttriName>
+<Description>view_NE_Is Rand Recheck</Description></Attribute>
+<Attribute>
+<AttriId>555</AttriId>
+<AttriName>view_NE_IsRandApprove</AttriName>
+<Description>view_NE_Is Rand Approve</Description></Attribute>
+<Attribute>
+<AttriId>556</AttriId>
+<AttriName>view_NE_IsUpdate</AttriName>
+<Description>view_NE_Is Update</Description></Attribute>
+<Attribute>
+<AttriId>557</AttriId>
+<AttriName>view_NE_TenantTenantCode</AttriName>
+<Description>view_NE_Tenant Tenant Code</Description></Attribute>
+<Attribute>
+<AttriId>558</AttriId>
+<AttriName>view_NE_Information_ID</AttriName>
+<Description>view_NE_Information_ID</Description></Attribute>
+<Attribute>
+<AttriId>559</AttriId>
+<AttriName>view_NE_Information_PatientNo</AttriName>
+<Description>view_NE_Information_Patient No</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>72</TableId>
+<TableName>VIEW_NEW_ENCOUNTER</TableName>
+<Description>View_New_Encounter</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>550</AttriId>
+<AttriName>view_NE_Department</AttriName>
+<Description>view_NE_Department</Description></Attribute>
+<Attribute>
+<AttriId>551</AttriId>
+<AttriName>view_NE_ENCType</AttriName>
+<Description>view_NE_ENCType</Description></Attribute>
+<Attribute>
+<AttriId>552</AttriId>
+<AttriName>view_NE_AdmitDate</AttriName>
+<Description>view_NE_Admit Date</Description></Attribute>
+<Attribute>
+<AttriId>553</AttriId>
+<AttriName>view_NE_Status</AttriName>
+<Description>view_NE_Status</Description></Attribute>
+<Attribute>
+<AttriId>554</AttriId>
+<AttriName>view_NE_IsRandRecheck</AttriName>
+<Description>view_NE_Is Rand Recheck</Description></Attribute>
+<Attribute>
+<AttriId>555</AttriId>
+<AttriName>view_NE_IsRandApprove</AttriName>
+<Description>view_NE_Is Rand Approve</Description></Attribute>
+<Attribute>
+<AttriId>556</AttriId>
+<AttriName>view_NE_IsUpdate</AttriName>
+<Description>view_NE_Is Update</Description></Attribute>
+<Attribute>
+<AttriId>557</AttriId>
+<AttriName>view_NE_TenantTenantCode</AttriName>
+<Description>view_NE_Tenant Tenant Code</Description></Attribute>
+<Attribute>
+<AttriId>558</AttriId>
+<AttriName>view_NE_Information_ID</AttriName>
+<Description>view_NE_Information_ID</Description></Attribute>
+<Attribute>
+<AttriId>559</AttriId>
+<AttriName>view_NE_Information_PatientNo</AttriName>
+<Description>view_NE_Information_Patient No</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>72</TableId>
+<TableName>VIEW_NEW_ENCOUNTER</TableName>
+<Description>View_New_Encounter</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts></Prompts>
+<Suggests></Suggests></ObjectSpec>

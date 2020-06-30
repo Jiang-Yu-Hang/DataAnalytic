@@ -1,0 +1,27 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>154</ObjId>
+<ObjName>ZXT_ChooseDatabase</ObjName>
+<ObjDesc>选择数据库</ObjDesc>
+<ObjPgmName>ZXT_ChooseDatabase</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Dbconnection</VarId>
+<VarName>&amp;DBConnection</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

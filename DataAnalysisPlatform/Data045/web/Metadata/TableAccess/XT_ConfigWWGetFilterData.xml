@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="95bd0b1b-073e-4ab2-ac01-1c7a6448eced">
+  <Table name="XT_Config" />
+  <Table name="UserCustomizations" />
+</Dependencies>

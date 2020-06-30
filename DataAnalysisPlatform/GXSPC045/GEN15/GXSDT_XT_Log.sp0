@@ -1,0 +1,183 @@
+ 
+spec_i([ sdt,[ 0,24,0 ],'XT_Log','XT_Log',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,24,0 ],name,'XT_Log').
+struct_dt_i([ 0,24,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,24,0 ],significantName,'XT_Log').
+struct_dt_i([ 0,24,0 ],'ObjName','XT_Log').
+struct_dt_i([ 0,24,0 ],'ObjDesc',系统日志).
+struct_dt_i([ 0,24,0 ],'ExternalName','XT_Log').
+struct_dt_i([ 0,24,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,24,0 ],key,[ 173 ]).
+struct_dt_i([ 0,24,0 ],lvl,25).
+struct_dt_i([ 0,24,0 ],fullname,'XT_Log').
+ 
+struct_dt_elem_i([ 0,24,0 ],1,name,'Xt_logid').
+struct_dt_elem_i([ 0,24,0 ],1,camelname,'XT_LogID').
+struct_dt_elem_i([ 0,24,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,24,0 ],1,length,18).
+struct_dt_elem_i([ 0,24,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,24,0 ],1,sign,0).
+struct_dt_elem_i([ 0,24,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,24,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,24,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,24,0 ],1,attributeid,'173').
+struct_dt_elem_i([ 0,24,0 ],1,'ExternalName','XT_LogID').
+struct_dt_elem_i([ 0,24,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,24,0 ],2,name,'Xt_loguserid').
+struct_dt_elem_i([ 0,24,0 ],2,camelname,'XT_LogUserID').
+struct_dt_elem_i([ 0,24,0 ],2,basedon,69).
+struct_dt_elem_i([ 0,24,0 ],2,length,18).
+struct_dt_elem_i([ 0,24,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,24,0 ],2,sign,0).
+struct_dt_elem_i([ 0,24,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,24,0 ],2,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,24,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,24,0 ],2,attributeid,'214').
+struct_dt_elem_i([ 0,24,0 ],2,'ExternalName','XT_LogUserID').
+struct_dt_elem_i([ 0,24,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,24,0 ],3,name,'Xt_logsecusername').
+struct_dt_elem_i([ 0,24,0 ],3,camelname,'XT_LogSecUserName').
+struct_dt_elem_i([ 0,24,0 ],3,length,100).
+struct_dt_elem_i([ 0,24,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,24,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,24,0 ],3,pic,'').
+struct_dt_elem_i([ 0,24,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,24,0 ],3,attributeid,'174').
+struct_dt_elem_i([ 0,24,0 ],3,'ExternalName','XT_LogSecUserName').
+struct_dt_elem_i([ 0,24,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,24,0 ],4,name,'Xt_logtime').
+struct_dt_elem_i([ 0,24,0 ],4,camelname,'XT_LogTime').
+struct_dt_elem_i([ 0,24,0 ],4,length,10).
+struct_dt_elem_i([ 0,24,0 ],4,decimals,8).
+struct_dt_elem_i([ 0,24,0 ],4,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,24,0 ],4,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,24,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,24,0 ],4,attributeid,'220').
+struct_dt_elem_i([ 0,24,0 ],4,'ExternalName','XT_LogTime').
+struct_dt_elem_i([ 0,24,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,24,0 ],5,name,'Xt_logpage').
+struct_dt_elem_i([ 0,24,0 ],5,camelname,'XT_LogPage').
+struct_dt_elem_i([ 0,24,0 ],5,length,100).
+struct_dt_elem_i([ 0,24,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,24,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,24,0 ],5,pic,'').
+struct_dt_elem_i([ 0,24,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,24,0 ],5,attributeid,'176').
+struct_dt_elem_i([ 0,24,0 ],5,'ExternalName','XT_LogPage').
+struct_dt_elem_i([ 0,24,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,24,0 ],6,name,'Xt_logbuttonname').
+struct_dt_elem_i([ 0,24,0 ],6,camelname,'XT_LogButtonName').
+struct_dt_elem_i([ 0,24,0 ],6,length,50).
+struct_dt_elem_i([ 0,24,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,24,0 ],6,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,24,0 ],6,pic,'').
+struct_dt_elem_i([ 0,24,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,24,0 ],6,attributeid,'177').
+struct_dt_elem_i([ 0,24,0 ],6,'ExternalName','XT_LogButtonName').
+struct_dt_elem_i([ 0,24,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,24,0 ],7,name,'Xt_logtype').
+struct_dt_elem_i([ 0,24,0 ],7,camelname,'XT_LogType').
+struct_dt_elem_i([ 0,24,0 ],7,basedon,97).
+struct_dt_elem_i([ 0,24,0 ],7,length,100).
+struct_dt_elem_i([ 0,24,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,24,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,24,0 ],7,pic,'').
+struct_dt_elem_i([ 0,24,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,24,0 ],7,attributeid,'213').
+struct_dt_elem_i([ 0,24,0 ],7,'ExternalName','XT_LogType').
+struct_dt_elem_i([ 0,24,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,24,0 ],8,name,'Xt_logproviderid').
+struct_dt_elem_i([ 0,24,0 ],8,camelname,'XT_LogProviderID').
+struct_dt_elem_i([ 0,24,0 ],8,basedon,69).
+struct_dt_elem_i([ 0,24,0 ],8,length,18).
+struct_dt_elem_i([ 0,24,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,24,0 ],8,sign,0).
+struct_dt_elem_i([ 0,24,0 ],8,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,24,0 ],8,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,24,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,24,0 ],8,attributeid,'215').
+struct_dt_elem_i([ 0,24,0 ],8,'ExternalName','XT_LogProviderID').
+struct_dt_elem_i([ 0,24,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,24,0 ],9,name,'Xt_logprovidername').
+struct_dt_elem_i([ 0,24,0 ],9,camelname,'XT_LogProviderName').
+struct_dt_elem_i([ 0,24,0 ],9,length,100).
+struct_dt_elem_i([ 0,24,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,24,0 ],9,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,24,0 ],9,pic,'').
+struct_dt_elem_i([ 0,24,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,24,0 ],9,attributeid,'219').
+struct_dt_elem_i([ 0,24,0 ],9,'ExternalName','XT_LogProviderName').
+struct_dt_elem_i([ 0,24,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,24,0 ],10,name,'Xt_logtarget').
+struct_dt_elem_i([ 0,24,0 ],10,camelname,'XT_LogTarget').
+struct_dt_elem_i([ 0,24,0 ],10,length,5000).
+struct_dt_elem_i([ 0,24,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,24,0 ],10,type,[ 13,5000,0 ]).
+struct_dt_elem_i([ 0,24,0 ],10,pic,'').
+struct_dt_elem_i([ 0,24,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,24,0 ],10,attributeid,'216').
+struct_dt_elem_i([ 0,24,0 ],10,'ExternalName','XT_LogTarget').
+struct_dt_elem_i([ 0,24,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,24,0 ],11,name,'Xt_logsontarget').
+struct_dt_elem_i([ 0,24,0 ],11,camelname,'XT_LogSonTarget').
+struct_dt_elem_i([ 0,24,0 ],11,length,100).
+struct_dt_elem_i([ 0,24,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,24,0 ],11,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,24,0 ],11,pic,'').
+struct_dt_elem_i([ 0,24,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,24,0 ],11,attributeid,'223').
+struct_dt_elem_i([ 0,24,0 ],11,'ExternalName','XT_LogSonTarget').
+struct_dt_elem_i([ 0,24,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,24,0 ],12,name,'Xt_logtargetmodule').
+struct_dt_elem_i([ 0,24,0 ],12,camelname,'XT_LogTargetModule').
+struct_dt_elem_i([ 0,24,0 ],12,length,100).
+struct_dt_elem_i([ 0,24,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,24,0 ],12,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,24,0 ],12,pic,'').
+struct_dt_elem_i([ 0,24,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,24,0 ],12,attributeid,'217').
+struct_dt_elem_i([ 0,24,0 ],12,'ExternalName','XT_LogTargetModule').
+struct_dt_elem_i([ 0,24,0 ],12,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,24,0 ],13,name,'Xt_logtargetsonmodule').
+struct_dt_elem_i([ 0,24,0 ],13,camelname,'XT_LogTargetSonModule').
+struct_dt_elem_i([ 0,24,0 ],13,length,100).
+struct_dt_elem_i([ 0,24,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,24,0 ],13,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,24,0 ],13,pic,'').
+struct_dt_elem_i([ 0,24,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,24,0 ],13,attributeid,'222').
+struct_dt_elem_i([ 0,24,0 ],13,'ExternalName','XT_LogTargetSonModule').
+struct_dt_elem_i([ 0,24,0 ],13,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,24,0 ],14,name,'Xt_logtargetoperate').
+struct_dt_elem_i([ 0,24,0 ],14,camelname,'XT_LogTargetOperate').
+struct_dt_elem_i([ 0,24,0 ],14,basedon,98).
+struct_dt_elem_i([ 0,24,0 ],14,length,40).
+struct_dt_elem_i([ 0,24,0 ],14,decimals,0).
+struct_dt_elem_i([ 0,24,0 ],14,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,24,0 ],14,pic,'').
+struct_dt_elem_i([ 0,24,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,24,0 ],14,attributeid,'218').
+struct_dt_elem_i([ 0,24,0 ],14,'ExternalName','XT_LogTargetOperate').
+struct_dt_elem_i([ 0,24,0 ],14,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,24,0 ],15,name,'Xt_logdescription').
+struct_dt_elem_i([ 0,24,0 ],15,camelname,'XT_LogDescription').
+struct_dt_elem_i([ 0,24,0 ],15,length,5000).
+struct_dt_elem_i([ 0,24,0 ],15,decimals,0).
+struct_dt_elem_i([ 0,24,0 ],15,type,[ 13,5000,0 ]).
+struct_dt_elem_i([ 0,24,0 ],15,pic,'').
+struct_dt_elem_i([ 0,24,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,24,0 ],15,attributeid,'221').
+struct_dt_elem_i([ 0,24,0 ],15,'ExternalName','XT_LogDescription').
+struct_dt_elem_i([ 0,24,0 ],15,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,24,0 ],7,pic,'99/99/99').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

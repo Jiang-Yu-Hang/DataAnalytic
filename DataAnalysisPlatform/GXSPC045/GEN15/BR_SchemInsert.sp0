@@ -1,0 +1,1721 @@
+spec_i([ web,344,'','BR_SchemInsert',0,chs,'16_0_0-127771' ]).
+ 
+struct_i(2,1,[ 'Tcurrentcode' ],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Br_encounterid','GXV1','Vline','Votherline','GXV2','GXV3','Br_schemeid','GXV4','GXV5' ] ]).
+ 
+lac_i(2,[ [ 'GXV1','Vline','Votherline','GXV2','GXV3','Br_schemeid','GXV4','GXV5' ] ]).
+ 
+ 
+lits_i(化疗方案,5,10).
+lits_i(方案线级,5,10).
+lits_i(化疗周期,5,10).
+lits_i(化疗方案描述,5,10).
+ 
+cls_i([ 0,0 ],[ 5,3999 ]).
+ 
+pos_i('GXV1',[ 0,0,0 ]).
+pos_i('Vline',[ 0,0,0 ]).
+pos_i('Votherline',[ 0,0,0 ]).
+pos_i('GXV2',[ 0,0,0 ]).
+pos_i('GXV3',[ 0,0,0 ]).
+pos_i('Br_schemeid',[ 0,0,0 ]).
+pos_i('GXV4',[ 0,0,0 ]).
+pos_i('GXV5',[ 0,0,0 ]).
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','商?')).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','商?')).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','BR_SchemInsert')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'WWPBaseObjects.WorkWithPlusMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('Folder',o(8,'BR_Scheme'))).
+rule_i(0,prop('ObjDesc','')).
+rule_i(0,prop('ObjName','BR_SchemInsert')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Br_encounterid' ],[])).
+rule_i(0,parmio([ [ 'Br_encounterid',in ] ])).
+ 
+a_i(3,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(4,2,d,t('Vline',23),[],[ 168,168,[ [ [ 24,168 ],[ 24,165 ],[ 24,432 ] ],n,[ [ 24,many ] ],[],[ c([ t(165,2),t(=,10),t('27',3) ],[ 165 ]),c([ t(432,2),t(=,10),t('Tcurrentcode',23) ],[ 432 ]) ],[ none ],[],[],[] ],empty,'(请选择)' ]).
+ 
+v_i(f,i,3,[]).
+v_i(f,o,3,'Err').
+v_i(d,i,4,'Tcurrentcode').
+v_i(d,o,4,'Vline').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(167,[ 'XT_DefineCodeID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,数据字典主键,'',0 ]).
+attri_i(432,[ 'XT_TenantCode',svchar,40,0,'',0,租户编号,'',0 ]).
+attri_i(165,[ 'XT_DefindcodeTypeID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,数据字典类型主键,'',0 ]).
+attri_i(168,[ 'XT_DefineCodeName',svchar,100,0,'',0,数据字典名称,'',0 ]).
+attri_i('GXV6',[ 'GXV6',int,8,0,'',0,'','',26 ]).
+attri_i('GXV5',[ 'GXV5',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,化疗方案主键,'',25 ]).
+attri_i('GXV4',[ 'GXV4',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,就诊信息主键,'',24 ]).
+attri_i('GXV3',[ 'GXV3',svchar,4000,0,'',0,化疗方案描述,'',23 ]).
+attri_i('GXV2',[ 'GXV2',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,化疗周期,'',22 ]).
+attri_i('GXV1',[ 'GXV1',svchar,100,0,'',0,化疗方案,'',21 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',20 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',19 ]).
+attri_i('Tcheckflag',[ tCheckFlag,boolean,4,0,'',0,'t Check Flag','',18 ]).
+attri_i('Br_schemeid',[ 'BR_SchemeID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,化疗方案主键,'',17 ]).
+attri_i('Tcurrentcode',[ tCurrentCode,svchar,40,0,'',0,'t Current Code','',16 ]).
+attri_i('Tflag',[ tFlag,boolean,4,0,'',0,'t Flag','',15 ]).
+attri_i('Br_encounterid',[ 'BR_EncounterID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,就诊信息主键,'',14 ]).
+attri_i('Checkrequiredfieldsresult',[ 'CheckRequiredFieldsResult',boolean,4,0,'',0,'Check Required Fields Result','',13 ]).
+attri_i('Votherline',[ vOtherLine,svchar,100,0,'',0,'v Other Line','',12 ]).
+attri_i('Vline',[ vLine,svchar,100,0,'',0,'v Line','',11 ]).
+attri_i('Br_scheme',[ 'BR_Scheme',o('BR_Scheme'),0,0,'',0,'BR_Scheme','',10 ]).
+attri_i('Context',[ 'Context',o('WWPBaseObjects\WWPContext'),0,0,'',0,'Context','',9 ]).
+attri_i('Messages',[ 'Messages',o(objectcollection('GeneXus\Common\Messages.Message')),0,0,'',0,'Messages','',8 ]).
+attri_i('Message',[ 'Message',o('GeneXus\Common\Messages.Message'),0,0,'',0,'Message','',7 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,'Security Functionality Keys','',6 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,'Is Authorized','',5 ]).
+ 
+table_i(24,[ 'XT_DefineCode',[ 167,168,165,432 ],数据字典数据,'XT_DefineCode' ]).
+ 
+index_i(24,[ 'IXT_DEFINECODE',u,[ 167 ],'IXT_DefineCode' ]).
+ 
+ 
+ 
+function_i(2,'Tcurrentcode',yes,udp,o(1,'ZBR_GetCurrentTCode'),[],4,'Tcurrentcode',[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+is_i('GXV1',t([ t('Br_scheme',23),t('Br_scheme_chem_regimens',3) ],29)).
+is_i('GXV2',t([ t('Br_scheme',23),t('Br_scheme_chem_cycle',3) ],29)).
+is_i('GXV3',t([ t('Br_scheme',23),t('Br_scheme_chem_detail',3) ],29)).
+is_i('GXV4',t([ t('Br_scheme',23),t('Br_encounterid',3) ],29)).
+is_i('GXV5',t([ t('Br_scheme',23),t('Br_schemeid',3) ],29)).
+ 
+ 
+ 
+enumerated_i(45,510,109).
+ 
+enum_value_i(45,109,'1',yes,'"yes"',[ none ]).
+enum_value_i(45,109,'2',no,'"no"',[ none ]).
+ 
+enum_value_info_i(45,109,'DM_IsIntialData').
+ 
+enum_type_i(45,109,int,4,0).
+ 
+dom_info_i(69,[ 'ID' ]).
+dom_info_i(109,[ 'DM_IsIntialData' ]).
+dom_info_i(90,[ 'WWPSecFunctionalityKey' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,2).
+b_group_i(2,2,lit,0,3,19).
+b_group_i(2,3,lit,0,20,37).
+b_group_i(2,4,lit,0,38,51).
+b_group_i(2,5,lit,0,52,64).
+b_group_i(2,6,lit,0,65,75).
+b_group_i(2,7,lit,0,76,85).
+b_group_i(2,8,lit,0,86,0).
+ 
+b_line_i(2,2,1,cmd,2,[ t('',146,2,0),t('Start',3,2,7) ]).
+b_line_i(4,2,2,cmd,2,[ t('',107,2,0),t('Tcurrentcode',23,2,0),t(=,10,2,0),t('udp(',1,2,0),t('Tcurrentcode',3,2,0),t(4,3,2,0),t(')',4,2,0) ]).
+b_line_i(8,2,2,cmd,2,[ t('',145,2,0),t('''ATTRIBUTESSECURITYCODE''',3,8,5) ]).
+b_line_i(9,2,2,cmd,2,[ t('',107,2,0),t([ t('Br_schemeid',23,2,0),t('Visible',3,2,0) ],29,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(10,2,2,cmd,2,[ t('',107,2,0),t([ t('Br_scheme_br_encounterid',3,2,0),t('Visible',3,2,0) ],29,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(11,2,2,cmd,2,[ t('',107,2,0),t([ t('Br_scheme_br_schemeid',3,2,0),t('Visible',3,2,0) ],29,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(15,2,2,cmd,2,[ t('',107,2,0),t([ t('Votherline',23,2,0),t('Visible',3,2,0) ],29,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(17,2,2,cmd,2,[ t('',147,2,0) ]).
+b_line_i(19,2,2,cmd,2,[ t('',143,2,0),t('''CHECKREQUIREDFIELDS''',3,19,5) ]).
+b_line_i(23,2,3,cmd,2,[ t('',107,2,0),t('Checkrequiredfieldsresult',23,2,0),t(=,10,2,0),t('TRUE',40,2,0) ]).
+b_line_i(24,2,3,cmd,2,[ t('',109,2,0),t('null(',1,24,40),t([ t('Br_scheme',23,24,5),t('Br_scheme_chem_regimens',3,24,16) ],29,24,16),t(')',4,2,49) ]).
+b_line_i(25,2,3,cmd,2,[ t('',141,2,0),t('''化疗方案是必须填写的。''',3,25,7),t(')',4,2,20) ]).
+b_line_i(26,2,3,cmd,2,[ t('',107,2,0),t('Checkrequiredfieldsresult',23,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(27,2,3,cmd,2,[ t('',111,2,0) ]).
+b_line_i(28,2,3,cmd,2,[ t('',109,2,0),t('(',0,2,5),t('Vline',23,2,6),t(=,10,2,12),t('''其它''',3,28,13),t(')',4,2,17),t('.AND.',9,2,19),t('null(',1,28,37),t('Votherline',23,2,25),t(')',4,2,46) ]).
+b_line_i(29,2,3,cmd,2,[ t('',141,2,0),t('''其它线级是必填的''',3,29,7),t(')',4,2,17) ]).
+b_line_i(30,2,3,cmd,2,[ t('',107,2,0),t('Checkrequiredfieldsresult',23,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(31,2,3,cmd,2,[ t('',111,2,0) ]).
+b_line_i(35,2,3,cmd,2,[ t('',144,2,0) ]).
+b_line_i(37,2,3,cmd,2,[ t('',143,2,0),t('''ATTRIBUTESSECURITYCODE''',3,37,5) ]).
+b_line_i(41,2,4,cmd,2,[ t('',109,2,0),t('Vline',23,2,5),t(=,10,2,11),t('''其它''',3,41,12) ]).
+b_line_i(42,2,4,cmd,2,[ t('',107,2,0),t([ t('Votherline_cell',3,2,0),t('Class',3,2,0) ],29,2,0),t(=,10,2,0),t('''RequiredDataContentCell''',3,2,0) ]).
+b_line_i(43,2,4,cmd,2,[ t('',110,2,0) ]).
+b_line_i(44,2,4,cmd,2,[ t('',107,2,0),t([ t('Votherline_cell',3,2,0),t('Class',3,2,0) ],29,2,0),t(=,10,2,0),t('''DataContentCell''',3,2,0) ]).
+b_line_i(45,2,4,cmd,2,[ t('',111,2,0) ]).
+b_line_i(49,2,4,cmd,2,[ t('',144,2,0) ]).
+b_line_i(51,2,4,cmd,2,[ t('',143,2,0),t('''SHOW MESSAGES''',3,51,5) ]).
+b_line_i(56,2,5,cmd,2,[ t('',107,2,0),t('GXV6',23,2,0),t(=,10,2,0),t(1,3,2,0) ]).
+b_line_i([ 56,2 ],2,5,cmd,2,[ t('',114,2,0),t('GXV6',23,2,0),t(<=,10,2,0),t([ t('Messages',23,56,18),t('Count',3,56,0) ],29,56,0) ]).
+b_line_i([ 56,3 ],2,5,cmd,2,[ t('',107,2,0),t('Message',23,2,0),t(=,10,2,0),t([ t('Messages',23,2,0),t('item(',1,2,0) ],31,2,0),t('GXV6',23,2,0),t(')',4,2,0) ]).
+b_line_i(57,2,5,cmd,3,[ t('',141,3,0),t([ t('Message',23,57,7),t('Description',3,57,16) ],29,57,16),t(')',4,3,27) ]).
+b_line_i([ 58,1 ],2,5,cmd,3,[ t('',107,3,0),t('GXV6',23,3,0),t(=,10,3,0),t('GXV6',23,3,0),t(+,5,3,0),t(1,3,3,0) ]).
+b_line_i([ 58,2 ],2,5,cmd,3,[ t('',115,3,0) ]).
+b_line_i(62,2,5,cmd,7,[ t('',144,7,0) ]).
+b_line_i(64,2,5,cmd,7,[ t('',146,7,0),t('Refresh',3,64,7) ]).
+b_line_i(69,2,6,cmd,7,[ t('',104,7,0),t(o(1,'WWPBaseObjects\LoadWWPContext'),28,7,2),t('Context',23,7,23) ]).
+b_line_i(73,2,6,cmd,7,[ t('',147,7,0) ]).
+b_line_i(75,2,6,cmd,7,[ t('',146,7,0),t([ t('Vline',23,75,7),t('Controlvaluechanged',3,75,14) ],29,75,14) ]).
+b_line_i(77,2,7,cmd,7,[ t('',109,7,0),t('Vline',23,7,5),t(=,10,7,11),t('''其它''',3,77,12) ]).
+b_line_i(78,2,7,cmd,7,[ t('',107,7,0),t([ t('Votherline',23,7,0),t('Visible',3,7,0) ],29,7,0),t(=,10,7,0),t('TRUE',40,7,0) ]).
+b_line_i(79,2,7,cmd,7,[ t('',110,7,0) ]).
+b_line_i(80,2,7,cmd,7,[ t('',107,7,0),t([ t('Votherline',23,7,0),t('Visible',3,7,0) ],29,7,0),t(=,10,7,0),t('FALSE',41,7,0) ]).
+b_line_i(81,2,7,cmd,7,[ t('',111,7,0) ]).
+b_line_i(83,2,7,cmd,7,[ t('',147,7,0) ]).
+b_line_i(85,2,7,cmd,7,[ t('',146,7,0),t('Enter',3,85,7) ]).
+b_line_i(88,2,8,cmd,7,[ t('',104,7,0),t(o(1,'ZUtil_CheckSession'),28,7,2),t('Tcheckflag',23,7,27) ]).
+b_line_i(89,2,8,cmd,7,[ t('',109,7,0),t('Tcheckflag',23,7,5),t(=,10,7,16),t('FALSE',41,7,17) ]).
+b_line_i(90,2,8,cmd,7,[ t('',107,7,0),t('Tflag',23,7,0),t(=,10,7,0),t('TRUE',40,7,0) ]).
+b_line_i(92,2,8,cmd,7,[ t('',109,7,0),t('Tflag',23,7,6),t(=,10,7,12),t('TRUE',40,7,13),t('.AND.',9,7,18),t('null(',1,92,59),t([ t('Br_scheme',23,92,24),t('Br_scheme_chem_regimens',3,92,35) ],29,92,35),t(')',4,7,68) ]).
+b_line_i(93,2,8,cmd,7,[ t('',141,7,0),t('''化疗方案是必填的''',3,93,8),t(')',4,7,18) ]).
+b_line_i(94,2,8,cmd,7,[ t('',107,7,0),t('Tflag',23,7,0),t(=,10,7,0),t('FALSE',41,7,0) ]).
+b_line_i(95,2,8,cmd,7,[ t('',111,7,0) ]).
+b_line_i(98,2,8,cmd,7,[ t('',109,7,0),t('Tflag',23,7,6),t(=,10,7,12),t('TRUE',40,7,13) ]).
+b_line_i(99,2,8,cmd,7,[ t('',109,7,0),t('Vline',23,7,7),t(=,10,7,13),t('''其它''',3,99,14) ]).
+b_line_i(100,2,8,cmd,7,[ t('',109,7,0),t('null(',1,100,20),t('Votherline',23,7,8),t(')',4,7,29) ]).
+b_line_i(101,2,8,cmd,7,[ t('',141,7,0),t('''其它线级是必填的''',3,101,10),t(')',4,7,20) ]).
+b_line_i(102,2,8,cmd,7,[ t('',107,7,0),t('Tflag',23,7,0),t(=,10,7,0),t('FALSE',41,7,0) ]).
+b_line_i(103,2,8,cmd,7,[ t('',110,7,0) ]).
+b_line_i(104,2,8,cmd,7,[ t('',107,7,0),t([ t('Br_scheme',23,7,0),t('Br_scheme_therapy_line',3,7,0) ],29,7,0),t(=,10,7,0),t('Votherline',23,7,0) ]).
+b_line_i(105,2,8,cmd,7,[ t('',111,7,0) ]).
+b_line_i(106,2,8,cmd,7,[ t('',110,7,0) ]).
+b_line_i(107,2,8,cmd,7,[ t('',107,7,0),t([ t('Br_scheme',23,7,0),t('Br_scheme_therapy_line',3,7,0) ],29,7,0),t(=,10,7,0),t('Vline',23,7,0) ]).
+b_line_i(108,2,8,cmd,7,[ t('',111,7,0) ]).
+b_line_i(109,2,8,cmd,7,[ t('',111,7,0) ]).
+b_line_i(112,2,8,cmd,7,[ t('',109,7,0),t('Tflag',23,7,6),t(=,10,7,12),t('TRUE',40,7,13) ]).
+b_line_i(113,2,8,cmd,7,[ t('',107,7,0),t([ t('Br_scheme',23,7,0),t('Br_encounterid',3,7,0) ],29,7,0),t(=,10,7,0),t('Br_encounterid',23,7,0) ]).
+b_line_i(114,2,8,cmd,7,[ t('',107,7,0),t([ t('Br_scheme',23,114,4),t('save(',1,114,15) ],31,114,15),t(')',4,7,21) ]).
+b_line_i(115,2,8,cmd,7,[ t('',109,7,0),t([ t('Br_scheme',23,115,7),t('success(',1,115,18) ],31,115,18),t(')',4,7,27) ]).
+b_line_i(117,2,8,cmd,7,[ t('',132,7,0) ]).
+b_line_i(118,2,8,cmd,7,[ t('',104,7,0),t(o(13,'BR_SchemeView'),28,7,5),t([ t('Br_scheme',23,118,25),t('Br_schemeid',3,118,36) ],29,118,36),t(',',7,7,0),t('''General''',3,118,48) ]).
+b_line_i(119,2,8,cmd,7,[ t('',110,7,0) ]).
+b_line_i(120,2,8,cmd,7,[ t('',141,7,0),t('''保存失败''',3,120,9),t(')',4,7,15) ]).
+b_line_i(121,2,8,cmd,7,[ t('',111,7,0) ]).
+b_line_i(122,2,8,cmd,7,[ t('',111,7,0) ]).
+b_line_i(123,2,8,cmd,7,[ t('',111,7,0) ]).
+b_line_i(125,2,8,cmd,7,[ t('',147,7,0) ]).
+b_line_i(1000,2,8,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,8,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,8,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,div(2)).
+ 
+html_sub_i(2,3,html_i(0,div(3))).
+html_sub_i(3,4,html_i(0,div(4))).
+html_sub_i(4,5,html_i(0,div(5))).
+html_sub_i(5,6,html_i(0,div(6))).
+html_sub_i(6,7,html_i(0,div(7))).
+html_sub_i(7,8,html_i(0,div(8))).
+html_sub_i(8,9,html_i(0,comp(errview))).
+html_sub_i(6,10,html_i(1,div(10))).
+html_sub_i(10,11,html_i(0,div(11))).
+html_sub_i(11,12,html_i(0,div(12))).
+html_sub_i(12,13,html_i(0,div(13))).
+html_sub_i(13,14,html_i(0,div(14))).
+html_sub_i(14,15,html_i(0,div(15))).
+html_sub_i(15,16,html_i(0,usercontrol(16))).
+html_sub_i(16,17,html_i(0,container(17))).
+html_sub_i(17,18,html_i(0,div(18))).
+html_sub_i(18,19,html_i(0,div(19))).
+html_sub_i(19,20,html_i(0,div(20))).
+html_sub_i(20,21,html_i(0,div(21))).
+html_sub_i(21,22,html_i(0,div(22))).
+html_sub_i(22,23,html_i(0,div(23))).
+html_sub_i(23,24,html_i(0,div(24))).
+html_sub_i(24,25,html_i(0,div(25))).
+html_sub_i(25,26,html_i(0,t(化疗方案,3))).
+html_sub_i(24,27,html_i(1,div(27))).
+html_sub_i(27,28,html_i(0,div(28))).
+html_sub_i(28,29,html_i(0,t('GXV1',23))).
+html_sub_i(21,30,html_i(1,div(30))).
+html_sub_i(30,31,html_i(0,div(31))).
+html_sub_i(31,32,html_i(0,div(32))).
+html_sub_i(32,33,html_i(0,div(33))).
+html_sub_i(33,34,html_i(0,t(方案线级,3))).
+html_sub_i(32,35,html_i(1,div(35))).
+html_sub_i(35,36,html_i(0,table(36))).
+html_sub_i(36,37,html_i(0,row(37))).
+html_sub_i(37,38,html_i(0,cell(38))).
+html_sub_i(38,39,html_i(0,div(39))).
+html_sub_i(39,40,html_i(0,t('Vline',23))).
+html_sub_i(37,41,html_i(1,cell(41))).
+html_sub_i(41,42,html_i(0,div(42))).
+html_sub_i(42,43,html_i(0,t('Votherline',23))).
+html_sub_i(20,44,html_i(1,div(44))).
+html_sub_i(44,45,html_i(0,div(45))).
+html_sub_i(45,46,html_i(0,div(46))).
+html_sub_i(46,47,html_i(0,div(47))).
+html_sub_i(47,48,html_i(0,div(48))).
+html_sub_i(48,49,html_i(0,t(化疗周期,3))).
+html_sub_i(47,50,html_i(1,div(50))).
+html_sub_i(50,51,html_i(0,div(51))).
+html_sub_i(51,52,html_i(0,t('GXV2',23))).
+html_sub_i(44,53,html_i(1,div(53))).
+html_sub_i(53,54,html_i(0,div(54))).
+html_sub_i(54,55,html_i(0,div(55))).
+html_sub_i(55,56,html_i(0,div(56))).
+html_sub_i(56,57,html_i(0,t(化疗方案描述,3))).
+html_sub_i(55,58,html_i(1,div(58))).
+html_sub_i(58,59,html_i(0,div(59))).
+html_sub_i(59,60,html_i(0,t('GXV3',23))).
+html_sub_i(6,61,html_i(2,div(61))).
+html_sub_i(61,62,html_i(0,div(62))).
+html_sub_i(62,63,html_i(0,div(63))).
+html_sub_i(63,64,html_i(0,div(64))).
+html_sub_i(64,65,html_i(0,button('Enter'))).
+html_sub_i(63,66,html_i(1,div(66))).
+html_sub_i(66,67,html_i(0,button('Cancel'))).
+html_sub_i(3,68,html_i(1,div(68))).
+html_sub_i(68,69,html_i(0,div(69))).
+html_sub_i(69,70,html_i(0,div(70))).
+html_sub_i(70,71,html_i(0,t('Br_schemeid',23))).
+html_sub_i(70,72,html_i(1,t('GXV4',23))).
+html_sub_i(70,73,html_i(2,t('GXV5',23))).
+ 
+html_tags_i(1,'Class','form-horizontal Form').
+html_tags_i(2,'data-gx-base-lib',bootstrapv3).
+html_tags_i(2,'data-abstract-form','').
+html_tags_i(19,'data-gx-base-lib',bootstrapv3).
+html_tags_i(19,'data-abstract-form','').
+html_tags_i(29,'data-gx-att','var:10-BR_Scheme_BR_Scheme_Chem_Regimens').
+html_tags_i(40,'data-gx-att','var:11').
+html_tags_i(43,'data-gx-att','var:12').
+html_tags_i(52,'data-gx-att','var:10-BR_Scheme_BR_Scheme_Chem_Cycle').
+html_tags_i(60,'data-gx-att','var:10-BR_Scheme_BR_Scheme_Chem_Detail').
+html_tags_i(63,'data-gx-actiongroup-type',toolbar).
+ 
+html_comp_i(9,'Backcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Class','Section',d,[ str ]).
+html_comp_i(2,'Id','',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Semanticcontent',div,d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Valign',top,d,[ str ]).
+html_comp_i(3,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(3,'Class','Table',v,[ str ]).
+html_comp_i(3,'Id','Layoutmaintable',v,[ str ]).
+html_comp_i(3,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Semanticcontent',div,d,[ str ]).
+html_comp_i(3,'Align',left,d,[ str ]).
+html_comp_i(3,'Valign',top,d,[ str ]).
+html_comp_i(4,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(4,'Class',row,v,[ str ]).
+html_comp_i(4,'Id','',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Semanticcontent',div,d,[ str ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Valign',top,d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Class','col-xs-12',v,[ str ]).
+html_comp_i(5,'Id','',d,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Semanticcontent',div,d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Valign',top,d,[ str ]).
+html_comp_i(6,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(6,'Class','TableMainTransaction',v,[ str ]).
+html_comp_i(6,'Id','Tablemain',v,[ str ]).
+html_comp_i(6,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Semanticcontent',div,d,[ str ]).
+html_comp_i(6,'Align',left,d,[ str ]).
+html_comp_i(6,'Valign',top,d,[ str ]).
+html_comp_i(7,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(7,'Class',row,v,[ str ]).
+html_comp_i(7,'Id','',d,[ str ]).
+html_comp_i(7,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Semanticcontent',div,d,[ str ]).
+html_comp_i(7,'Align',left,d,[ str ]).
+html_comp_i(7,'Valign',top,d,[ str ]).
+html_comp_i(8,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(8,'Class','col-xs-12',v,[ str ]).
+html_comp_i(8,'Id','',d,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Semanticcontent',div,d,[ str ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Valign',top,d,[ str ]).
+html_comp_i(9,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(9,'Controlname','Errorviewer',v,[ str ]).
+html_comp_i(9,'Class','ErrorViewer',v,[ str ]).
+html_comp_i(9,'Displaymode',1,d,[ num ]).
+html_comp_i(9,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(9,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(9,'Fill',-1,d,[ bool ]).
+html_comp_i(10,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(10,'Class',row,v,[ str ]).
+html_comp_i(10,'Id','',d,[ str ]).
+html_comp_i(10,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Semanticcontent',div,d,[ str ]).
+html_comp_i(10,'Align',left,d,[ str ]).
+html_comp_i(10,'Valign',top,d,[ str ]).
+html_comp_i(11,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(11,'Class','col-xs-12',v,[ str ]).
+html_comp_i(11,'Id','',d,[ str ]).
+html_comp_i(11,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Semanticcontent',div,d,[ str ]).
+html_comp_i(11,'Align',left,d,[ str ]).
+html_comp_i(11,'Valign',top,d,[ str ]).
+html_comp_i(12,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(12,'Class','TableContent',v,[ str ]).
+html_comp_i(12,'Id','Tablecontent',v,[ str ]).
+html_comp_i(12,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Semanticcontent',div,d,[ str ]).
+html_comp_i(12,'Align',left,d,[ str ]).
+html_comp_i(12,'Valign',top,d,[ str ]).
+html_comp_i(13,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(13,'Class',row,v,[ str ]).
+html_comp_i(13,'Id','',d,[ str ]).
+html_comp_i(13,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Semanticcontent',div,d,[ str ]).
+html_comp_i(13,'Align',left,d,[ str ]).
+html_comp_i(13,'Valign',top,d,[ str ]).
+html_comp_i(14,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(14,'Class','col-xs-12',v,[ str ]).
+html_comp_i(14,'Id','',d,[ str ]).
+html_comp_i(14,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Semanticcontent',div,d,[ str ]).
+html_comp_i(14,'Align',left,d,[ str ]).
+html_comp_i(14,'Valign',top,d,[ str ]).
+html_comp_i(15,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(15,'Class','Section',d,[ str ]).
+html_comp_i(15,'Id','Html_dvpanel_tableattributes',v,[ str ]).
+html_comp_i(15,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Semanticcontent',div,d,[ str ]).
+html_comp_i(15,'Align',left,d,[ str ]).
+html_comp_i(15,'Valign',top,d,[ str ]).
+html_comp_i(16,'Usercontroltype','DVelop.GXBootstrap.Panel',d,[ str ]).
+html_comp_i(16,'Constructorname','BootstrapPanel',d,[ str ]).
+html_comp_i(16,'Showmethodname',show,d,[ str ]).
+html_comp_i(16,'Controlname','DVPanel_TableAttributes',v,[ str ]).
+html_comp_i(16,'Width','100%',v,[ str ]).
+html_comp_i(16,'Height','100',d,[ str ]).
+html_comp_i(16,'Autowidth',0,v,[ bool ]).
+html_comp_i(16,'Autoheight',-1,v,[ bool ]).
+html_comp_i(16,'Cls','PanelCard_BaseColor',v,[ str ]).
+html_comp_i(16,'Showheader',-1,d,[ bool ]).
+html_comp_i(16,'Title',化疗方案,v,[ str ]).
+html_comp_i(16,'Collapsible',0,v,[ bool ]).
+html_comp_i(16,'Collapsed',0,v,[ bool ]).
+html_comp_i(16,'Showcollapseicon',0,v,[ bool ]).
+html_comp_i(16,'Iconposition',left,v,[ str ]).
+html_comp_i(16,'Autoscroll',0,v,[ bool ]).
+html_comp_i(16,'Visible',-1,d,[ bool ]).
+html_comp_i(16,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(16,'Jssupportfiles',[ [ t('''DVelop\Bootstrap\Shared\DVelopBootstrap.js''',3) ],[ t('''DVelop\Bootstrap/Panel/BootstrapPanelRender.js''',3) ] ],d,[ params ]).
+html_comp_i(16,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(16,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(17,'Containerid','Body',v,[ str ]).
+html_comp_i(18,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(18,'Class','Section',d,[ str ]).
+html_comp_i(18,'Id','Layout_tableattributes',v,[ str ]).
+html_comp_i(18,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(18,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(18,'Semanticcontent',div,d,[ str ]).
+html_comp_i(18,'Align',left,d,[ str ]).
+html_comp_i(18,'Valign',top,d,[ str ]).
+html_comp_i(19,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(19,'Class','Section',d,[ str ]).
+html_comp_i(19,'Id','',d,[ str ]).
+html_comp_i(19,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Semanticcontent',div,d,[ str ]).
+html_comp_i(19,'Align',left,d,[ str ]).
+html_comp_i(19,'Valign',top,d,[ str ]).
+html_comp_i(20,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(20,'Class','TableData',v,[ str ]).
+html_comp_i(20,'Id','Tableattributes',v,[ str ]).
+html_comp_i(20,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Semanticcontent',div,d,[ str ]).
+html_comp_i(20,'Align',left,d,[ str ]).
+html_comp_i(20,'Valign',top,d,[ str ]).
+html_comp_i(21,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(21,'Class',row,v,[ str ]).
+html_comp_i(21,'Id','',d,[ str ]).
+html_comp_i(21,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Semanticcontent',div,d,[ str ]).
+html_comp_i(21,'Align',left,d,[ str ]).
+html_comp_i(21,'Valign',top,d,[ str ]).
+html_comp_i(22,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(22,'Class','col-xs-12 col-md-6 RequiredDataContentCell',v,[ str ]).
+html_comp_i(22,'Id','',d,[ str ]).
+html_comp_i(22,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(22,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(22,'Semanticcontent',div,d,[ str ]).
+html_comp_i(22,'Align',left,d,[ str ]).
+html_comp_i(22,'Valign',top,d,[ str ]).
+html_comp_i(23,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(23,'Class','Table',v,[ str ]).
+html_comp_i(23,'Id','Unnamedtablebr_scheme_br_scheme_chem_regimens',v,[ str ]).
+html_comp_i(23,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Semanticcontent',div,d,[ str ]).
+html_comp_i(23,'Align',left,d,[ str ]).
+html_comp_i(23,'Valign',top,d,[ str ]).
+html_comp_i(24,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(24,'Class',row,v,[ str ]).
+html_comp_i(24,'Id','',d,[ str ]).
+html_comp_i(24,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Semanticcontent',div,d,[ str ]).
+html_comp_i(24,'Align',left,d,[ str ]).
+html_comp_i(24,'Valign',top,d,[ str ]).
+html_comp_i(25,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(25,'Class','col-xs-12 col-sm-4 MergeLabelCell',v,[ str ]).
+html_comp_i(25,'Id','',d,[ str ]).
+html_comp_i(25,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Semanticcontent',div,d,[ str ]).
+html_comp_i(25,'Align',left,d,[ str ]).
+html_comp_i(25,'Valign',top,d,[ str ]).
+html_comp_i(26,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(26,'Caption',化疗方案,d,[ str ]).
+html_comp_i(26,'Id','Textblockbr_scheme_br_scheme_chem_regimens',v,[ str ]).
+html_comp_i(26,'Class','Label',v,[ str ]).
+html_comp_i(26,'Event','',d,[ str ]).
+html_comp_i(26,'Returnonclick',0,d,[ bool ]).
+html_comp_i(26,'Gxformat',0,d,[ num ]).
+html_comp_i(26,'Title','',d,[ str ]).
+html_comp_i(26,'Fill',-1,d,[ bool ]).
+html_comp_i(26,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(26,'Forecolor',rgb(0,4,68),d,[ color ]).
+html_comp_i(26,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(27,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(27,'Class','col-xs-12 col-sm-8',v,[ str ]).
+html_comp_i(27,'Id','',d,[ str ]).
+html_comp_i(27,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(27,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(27,'Semanticcontent',div,d,[ str ]).
+html_comp_i(27,'Align',left,d,[ str ]).
+html_comp_i(27,'Valign',top,d,[ str ]).
+html_comp_i(28,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(28,'Class',' gx-attribute',v,[ str ]).
+html_comp_i(28,'Id','',d,[ str ]).
+html_comp_i(28,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(28,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(28,'Semanticcontent',div,d,[ str ]).
+html_comp_i(28,'Align',left,d,[ str ]).
+html_comp_i(28,'Valign',top,d,[ str ]).
+html_comp_i(29,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(29,'Colcount',80,d,[ num ]).
+html_comp_i(29,'Attid',-10,v,[ num ]).
+html_comp_i(29,'Class','Attribute',v,[ str ]).
+html_comp_i(29,'Controlname','Br_scheme_br_scheme_chem_regimens',v,[ str ]).
+html_comp_i(29,'Fieldspecifier',[ t([ t('Br_scheme',23),t('Br_scheme_chem_regimens',3) ],29) ],v,[ str ]).
+html_comp_i(29,'Returnonclick',0,v,[ bool ]).
+html_comp_i(29,'Captionclass','col-sm-3 AttributeLabel',v,[ str ]).
+html_comp_i(29,'Captionposition','None',v,[ str ]).
+html_comp_i(29,'Captionvalue',化疗方案,d,[ str ]).
+html_comp_i(29,'Layoutclass','',v,[ str ]).
+html_comp_i(29,'Controltype',2,d,[ num ]).
+html_comp_i(29,'Inputtype',0,d,[ num ]).
+html_comp_i(29,'Editautocomplete',0,d,[ num ]).
+html_comp_i(29,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(29,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(29,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(29,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(29,'Readonly',0,v,[ bool ]).
+html_comp_i(29,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(29,'Ispassword',0,d,[ bool ]).
+html_comp_i(29,'Autoresize',-1,d,[ bool ]).
+html_comp_i(29,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(29,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(29,'Ismultiline',0,d,[ bool ]).
+html_comp_i(29,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(29,'Fill',-1,d,[ bool ]).
+html_comp_i(29,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(29,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(29,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(29,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(29,'Gxformat',0,d,[ num ]).
+html_comp_i(29,'Title','',d,[ str ]).
+html_comp_i(29,'Invitemsg','',v,[ str ]).
+html_comp_i(30,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(30,'Class','col-xs-12 col-md-6 DataContentCell',v,[ str ]).
+html_comp_i(30,'Id','',d,[ str ]).
+html_comp_i(30,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(30,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(30,'Semanticcontent',div,d,[ str ]).
+html_comp_i(30,'Align',left,d,[ str ]).
+html_comp_i(30,'Valign',top,d,[ str ]).
+html_comp_i(31,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(31,'Class','Table',v,[ str ]).
+html_comp_i(31,'Id','Tablesplittedvline',v,[ str ]).
+html_comp_i(31,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(31,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(31,'Semanticcontent',div,d,[ str ]).
+html_comp_i(31,'Align',left,d,[ str ]).
+html_comp_i(31,'Valign',top,d,[ str ]).
+html_comp_i(32,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(32,'Class',row,v,[ str ]).
+html_comp_i(32,'Id','',d,[ str ]).
+html_comp_i(32,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(32,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(32,'Semanticcontent',div,d,[ str ]).
+html_comp_i(32,'Align',left,d,[ str ]).
+html_comp_i(32,'Valign',top,d,[ str ]).
+html_comp_i(33,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(33,'Class','col-xs-12 col-sm-4 MergeLabelCell',v,[ str ]).
+html_comp_i(33,'Id','',d,[ str ]).
+html_comp_i(33,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(33,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(33,'Semanticcontent',div,d,[ str ]).
+html_comp_i(33,'Align',left,d,[ str ]).
+html_comp_i(33,'Valign',top,d,[ str ]).
+html_comp_i(34,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(34,'Caption',方案线级,d,[ str ]).
+html_comp_i(34,'Id','Textblockvline',v,[ str ]).
+html_comp_i(34,'Class','Label',v,[ str ]).
+html_comp_i(34,'Event','',d,[ str ]).
+html_comp_i(34,'Returnonclick',0,d,[ bool ]).
+html_comp_i(34,'Gxformat',0,d,[ num ]).
+html_comp_i(34,'Title','',d,[ str ]).
+html_comp_i(34,'Fill',-1,d,[ bool ]).
+html_comp_i(34,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(34,'Forecolor',rgb(0,4,68),d,[ color ]).
+html_comp_i(34,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(35,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(35,'Class','col-xs-12 col-sm-8',v,[ str ]).
+html_comp_i(35,'Id','',d,[ str ]).
+html_comp_i(35,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(35,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(35,'Semanticcontent',div,d,[ str ]).
+html_comp_i(35,'Align',left,d,[ str ]).
+html_comp_i(35,'Valign',top,d,[ str ]).
+html_comp_i(36,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(36,'Id','Tablemergedvline',v,[ str ]).
+html_comp_i(36,'Class','TableMerged',v,[ str ]).
+html_comp_i(36,'Title','',d,[ str ]).
+html_comp_i(36,'Header','',d,[ str ]).
+html_comp_i(36,'Align',left,d,[ str ]).
+html_comp_i(36,'Backgroundgx','',d,[ str ]).
+html_comp_i(36,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(36,'Border','0',d,[ str ]).
+html_comp_i(36,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(36,'Cellpadding','0',v,[ str ]).
+html_comp_i(36,'Cellspacing','0',v,[ str ]).
+html_comp_i(36,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(36,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(36,'Rules',none,d,[ str ]).
+html_comp_i(38,'Class','MergeDataCell',v,[ str ]).
+html_comp_i(39,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(39,'Class',' gx-attribute',v,[ str ]).
+html_comp_i(39,'Id','',d,[ str ]).
+html_comp_i(39,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(39,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(39,'Semanticcontent',div,d,[ str ]).
+html_comp_i(39,'Align',left,d,[ str ]).
+html_comp_i(39,'Valign',top,d,[ str ]).
+html_comp_i(40,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(40,'Colcount',80,d,[ num ]).
+html_comp_i(40,'Attid',-11,v,[ num ]).
+html_comp_i(40,'Class','Attribute',v,[ str ]).
+html_comp_i(40,'Controlname','&Vline',d,[ str ]).
+html_comp_i(40,'Returnonclick',0,v,[ bool ]).
+html_comp_i(40,'Captionclass','col-sm-3 AttributeLabel',v,[ str ]).
+html_comp_i(40,'Captionposition','None',v,[ str ]).
+html_comp_i(40,'Captionvalue','v Line',d,[ str ]).
+html_comp_i(40,'Layoutclass','',v,[ str ]).
+html_comp_i(40,'Controltype',4,v,[ num ]).
+html_comp_i(40,'Datasourcefrom','Attributes',d,[ str ]).
+html_comp_i(40,'Controlitemvalues',168,v,[ num ]).
+html_comp_i(40,'Controlitemdescription',168,v,[ num ]).
+html_comp_i(40,'Controlsortdescription',0,v,[ bool ]).
+html_comp_i(40,'Controlwhere','''.''(''.''(t(165,2),''.''(t($=$,10),''.''(t($27$,3),''.''(t($;$,18),$[]$)))),''.''(''.''(t(432,2),''.''(t($=$,10),''.''(t($Tcurrentcode$,23),''.''(t($;$,18),$[]$)))),''.''($[]$,$[]$)))',v,[ str ]).
+html_comp_i(40,'Controlrestrictedby','',d,[ str ]).
+html_comp_i(40,'Addemptyitem',-1,v,[ bool ]).
+html_comp_i(40,'Emptyitemtext','(请选择)',v,[ str ]).
+html_comp_i(40,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(40,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(40,'Readonly',0,v,[ bool ]).
+html_comp_i(40,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(40,'Autoresize',-1,d,[ bool ]).
+html_comp_i(40,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(40,'Ismultiline',0,d,[ bool ]).
+html_comp_i(40,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(40,'Fill',-1,d,[ bool ]).
+html_comp_i(40,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(40,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(40,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(40,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(40,'Title','',d,[ str ]).
+html_comp_i(40,'Invitemsg','',v,[ str ]).
+html_comp_i(41,'Id','Votherline_cell',v,[ str ]).
+html_comp_i(42,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(42,'Class',' gx-attribute',v,[ str ]).
+html_comp_i(42,'Id','',d,[ str ]).
+html_comp_i(42,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(42,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(42,'Semanticcontent',div,d,[ str ]).
+html_comp_i(42,'Align',left,d,[ str ]).
+html_comp_i(42,'Valign',top,d,[ str ]).
+html_comp_i(43,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(43,'Colcount',80,d,[ num ]).
+html_comp_i(43,'Attid',-12,v,[ num ]).
+html_comp_i(43,'Class','Attribute',v,[ str ]).
+html_comp_i(43,'Controlname','&Votherline',d,[ str ]).
+html_comp_i(43,'Returnonclick',0,v,[ bool ]).
+html_comp_i(43,'Captionclass','col-sm-3 AttributeLabel',v,[ str ]).
+html_comp_i(43,'Captionposition','None',v,[ str ]).
+html_comp_i(43,'Captionvalue','v Other Line',d,[ str ]).
+html_comp_i(43,'Layoutclass','',v,[ str ]).
+html_comp_i(43,'Controltype',2,d,[ num ]).
+html_comp_i(43,'Inputtype',0,d,[ num ]).
+html_comp_i(43,'Editautocomplete',0,d,[ num ]).
+html_comp_i(43,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(43,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(43,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(43,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(43,'Readonly',0,v,[ bool ]).
+html_comp_i(43,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(43,'Ispassword',0,d,[ bool ]).
+html_comp_i(43,'Autoresize',-1,d,[ bool ]).
+html_comp_i(43,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(43,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(43,'Ismultiline',0,d,[ bool ]).
+html_comp_i(43,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(43,'Fill',-1,d,[ bool ]).
+html_comp_i(43,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(43,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(43,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(43,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(43,'Gxformat',0,d,[ num ]).
+html_comp_i(43,'Title','',d,[ str ]).
+html_comp_i(43,'Invitemsg',请填写其它线级,v,[ str ]).
+html_comp_i(44,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(44,'Class',row,v,[ str ]).
+html_comp_i(44,'Id','',d,[ str ]).
+html_comp_i(44,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(44,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(44,'Semanticcontent',div,d,[ str ]).
+html_comp_i(44,'Align',left,d,[ str ]).
+html_comp_i(44,'Valign',top,d,[ str ]).
+html_comp_i(45,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(45,'Class','col-xs-12 DataContentCell',v,[ str ]).
+html_comp_i(45,'Id','',d,[ str ]).
+html_comp_i(45,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(45,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(45,'Semanticcontent',div,d,[ str ]).
+html_comp_i(45,'Align',left,d,[ str ]).
+html_comp_i(45,'Valign',top,d,[ str ]).
+html_comp_i(46,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(46,'Class','Table',v,[ str ]).
+html_comp_i(46,'Id','Unnamedtablebr_scheme_br_scheme_chem_cycle',v,[ str ]).
+html_comp_i(46,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(46,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(46,'Semanticcontent',div,d,[ str ]).
+html_comp_i(46,'Align',left,d,[ str ]).
+html_comp_i(46,'Valign',top,d,[ str ]).
+html_comp_i(47,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(47,'Class',row,v,[ str ]).
+html_comp_i(47,'Id','',d,[ str ]).
+html_comp_i(47,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(47,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(47,'Semanticcontent',div,d,[ str ]).
+html_comp_i(47,'Align',left,d,[ str ]).
+html_comp_i(47,'Valign',top,d,[ str ]).
+html_comp_i(48,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(48,'Class','col-xs-12 col-sm-2 MergeLabelCell',v,[ str ]).
+html_comp_i(48,'Id','',d,[ str ]).
+html_comp_i(48,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(48,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(48,'Semanticcontent',div,d,[ str ]).
+html_comp_i(48,'Align',left,d,[ str ]).
+html_comp_i(48,'Valign',top,d,[ str ]).
+html_comp_i(49,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(49,'Caption',化疗周期,d,[ str ]).
+html_comp_i(49,'Id','Textblockbr_scheme_br_scheme_chem_cycle',v,[ str ]).
+html_comp_i(49,'Class','Label',v,[ str ]).
+html_comp_i(49,'Event','',d,[ str ]).
+html_comp_i(49,'Returnonclick',0,d,[ bool ]).
+html_comp_i(49,'Gxformat',0,d,[ num ]).
+html_comp_i(49,'Title','',d,[ str ]).
+html_comp_i(49,'Fill',-1,d,[ bool ]).
+html_comp_i(49,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(49,'Forecolor',rgb(0,4,68),d,[ color ]).
+html_comp_i(49,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(50,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(50,'Class','col-xs-12 col-sm-10',v,[ str ]).
+html_comp_i(50,'Id','',d,[ str ]).
+html_comp_i(50,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(50,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(50,'Semanticcontent',div,d,[ str ]).
+html_comp_i(50,'Align',left,d,[ str ]).
+html_comp_i(50,'Valign',top,d,[ str ]).
+html_comp_i(51,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(51,'Class',' gx-attribute',v,[ str ]).
+html_comp_i(51,'Id','',d,[ str ]).
+html_comp_i(51,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(51,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(51,'Semanticcontent',div,d,[ str ]).
+html_comp_i(51,'Align',left,d,[ str ]).
+html_comp_i(51,'Valign',top,d,[ str ]).
+html_comp_i(52,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(52,'Colcount',15,d,[ num ]).
+html_comp_i(52,'Attid',-10,v,[ num ]).
+html_comp_i(52,'Class','Attribute',v,[ str ]).
+html_comp_i(52,'Controlname','Br_scheme_br_scheme_chem_cycle',v,[ str ]).
+html_comp_i(52,'Fieldspecifier',[ t([ t('Br_scheme',23),t('Br_scheme_chem_cycle',3) ],29) ],v,[ str ]).
+html_comp_i(52,'Returnonclick',0,v,[ bool ]).
+html_comp_i(52,'Captionclass','col-sm-3 AttributeLabel',v,[ str ]).
+html_comp_i(52,'Captionposition','None',v,[ str ]).
+html_comp_i(52,'Captionvalue',化疗周期,d,[ str ]).
+html_comp_i(52,'Layoutclass','',v,[ str ]).
+html_comp_i(52,'Controltype',2,d,[ num ]).
+html_comp_i(52,'Inputtype',0,d,[ num ]).
+html_comp_i(52,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(52,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(52,'Readonly',0,v,[ bool ]).
+html_comp_i(52,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(52,'Ispassword',0,d,[ bool ]).
+html_comp_i(52,'Autoresize',-1,d,[ bool ]).
+html_comp_i(52,'Gxwidth',measure(15,chr),d,[ measure ]).
+html_comp_i(52,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(52,'Ismultiline',0,d,[ bool ]).
+html_comp_i(52,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(52,'Fill',-1,d,[ bool ]).
+html_comp_i(52,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(52,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(52,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(52,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(52,'Gxformat',0,d,[ num ]).
+html_comp_i(52,'Title','',d,[ str ]).
+html_comp_i(52,'Invitemsg','',v,[ str ]).
+html_comp_i(53,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(53,'Class','col-xs-12 DataContentCell',v,[ str ]).
+html_comp_i(53,'Id','',d,[ str ]).
+html_comp_i(53,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(53,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(53,'Semanticcontent',div,d,[ str ]).
+html_comp_i(53,'Align',left,d,[ str ]).
+html_comp_i(53,'Valign',top,d,[ str ]).
+html_comp_i(54,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(54,'Class','Table',v,[ str ]).
+html_comp_i(54,'Id','Unnamedtablebr_scheme_br_scheme_chem_detail',v,[ str ]).
+html_comp_i(54,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(54,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(54,'Semanticcontent',div,d,[ str ]).
+html_comp_i(54,'Align',left,d,[ str ]).
+html_comp_i(54,'Valign',top,d,[ str ]).
+html_comp_i(55,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(55,'Class',row,v,[ str ]).
+html_comp_i(55,'Id','',d,[ str ]).
+html_comp_i(55,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(55,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(55,'Semanticcontent',div,d,[ str ]).
+html_comp_i(55,'Align',left,d,[ str ]).
+html_comp_i(55,'Valign',top,d,[ str ]).
+html_comp_i(56,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(56,'Class','col-xs-12 col-sm-2 MergeLabelCell',v,[ str ]).
+html_comp_i(56,'Id','',d,[ str ]).
+html_comp_i(56,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(56,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(56,'Semanticcontent',div,d,[ str ]).
+html_comp_i(56,'Align',left,d,[ str ]).
+html_comp_i(56,'Valign',top,d,[ str ]).
+html_comp_i(57,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(57,'Caption',化疗方案描述,d,[ str ]).
+html_comp_i(57,'Id','Textblockbr_scheme_br_scheme_chem_detail',v,[ str ]).
+html_comp_i(57,'Class','Label',v,[ str ]).
+html_comp_i(57,'Event','',d,[ str ]).
+html_comp_i(57,'Returnonclick',0,d,[ bool ]).
+html_comp_i(57,'Gxformat',0,d,[ num ]).
+html_comp_i(57,'Title','',d,[ str ]).
+html_comp_i(57,'Fill',-1,d,[ bool ]).
+html_comp_i(57,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(57,'Forecolor',rgb(0,4,68),d,[ color ]).
+html_comp_i(57,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(58,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(58,'Class','col-xs-12 col-sm-10',v,[ str ]).
+html_comp_i(58,'Id','',d,[ str ]).
+html_comp_i(58,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(58,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(58,'Semanticcontent',div,d,[ str ]).
+html_comp_i(58,'Align',left,d,[ str ]).
+html_comp_i(58,'Valign',top,d,[ str ]).
+html_comp_i(59,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(59,'Class',' gx-attribute',v,[ str ]).
+html_comp_i(59,'Id','',d,[ str ]).
+html_comp_i(59,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(59,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(59,'Semanticcontent',div,d,[ str ]).
+html_comp_i(59,'Align',left,d,[ str ]).
+html_comp_i(59,'Valign',top,d,[ str ]).
+html_comp_i(60,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(60,'Colcount',80,d,[ num ]).
+html_comp_i(60,'Attid',-10,v,[ num ]).
+html_comp_i(60,'Class','Attribute',v,[ str ]).
+html_comp_i(60,'Controlname','Br_scheme_br_scheme_chem_detail',v,[ str ]).
+html_comp_i(60,'Fieldspecifier',[ t([ t('Br_scheme',23),t('Br_scheme_chem_detail',3) ],29) ],v,[ str ]).
+html_comp_i(60,'Returnonclick',0,v,[ bool ]).
+html_comp_i(60,'Captionclass','col-sm-3 AttributeLabel',v,[ str ]).
+html_comp_i(60,'Captionposition','None',v,[ str ]).
+html_comp_i(60,'Captionvalue',化疗方案描述,d,[ str ]).
+html_comp_i(60,'Layoutclass','',v,[ str ]).
+html_comp_i(60,'Controltype',2,d,[ num ]).
+html_comp_i(60,'Inputtype',0,d,[ num ]).
+html_comp_i(60,'Editautocomplete',0,d,[ num ]).
+html_comp_i(60,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(60,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(60,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(60,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(60,'Readonly',0,v,[ bool ]).
+html_comp_i(60,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(60,'Ispassword',0,d,[ bool ]).
+html_comp_i(60,'Autoresize',-1,d,[ bool ]).
+html_comp_i(60,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(60,'Gxheight',measure(10,row),d,[ measure ]).
+html_comp_i(60,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(60,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(60,'Fill',-1,d,[ bool ]).
+html_comp_i(60,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(60,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(60,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(60,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(60,'Gxformat',0,d,[ num ]).
+html_comp_i(60,'Title','',d,[ str ]).
+html_comp_i(60,'Invitemsg','',v,[ str ]).
+html_comp_i(61,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(61,'Class',row,v,[ str ]).
+html_comp_i(61,'Id','',d,[ str ]).
+html_comp_i(61,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(61,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(61,'Semanticcontent',div,d,[ str ]).
+html_comp_i(61,'Align',left,d,[ str ]).
+html_comp_i(61,'Valign',top,d,[ str ]).
+html_comp_i(62,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(62,'Class','col-xs-12',v,[ str ]).
+html_comp_i(62,'Id','',d,[ str ]).
+html_comp_i(62,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(62,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(62,'Semanticcontent',div,d,[ str ]).
+html_comp_i(62,'Align',left,d,[ str ]).
+html_comp_i(62,'Valign',top,d,[ str ]).
+html_comp_i(63,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(63,'Class','gx-action-group TrnActionGroup',v,[ str ]).
+html_comp_i(63,'Id','',d,[ str ]).
+html_comp_i(63,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(63,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(63,'Semanticcontent',div,d,[ str ]).
+html_comp_i(63,'Align',left,d,[ str ]).
+html_comp_i(63,'Valign',top,d,[ str ]).
+html_comp_i(64,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(64,'Class','gx-button',v,[ str ]).
+html_comp_i(64,'Id','',d,[ str ]).
+html_comp_i(64,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(64,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(64,'Semanticcontent',div,d,[ str ]).
+html_comp_i(64,'Align',left,d,[ str ]).
+html_comp_i(64,'Valign',top,d,[ str ]).
+html_comp_i(65,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(65,'Controlname','Btnenter',v,[ str ]).
+html_comp_i(65,'Class','ButtonMaterial',v,[ str ]).
+html_comp_i(65,'Event','Enter',v,[ str ]).
+html_comp_i(65,'Caption',保存,d,[ str ]).
+html_comp_i(65,'Title',确认,v,[ str ]).
+html_comp_i(65,'Font',font('Microsoft Sans Serif',9,[]),d,[ font ]).
+html_comp_i(65,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(65,'Backcolor',rgb(240,240,240),d,[ color ]).
+html_comp_i(65,'Border','1',d,[ str ]).
+html_comp_i(65,'Bordercolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(65,'Buttonborderstyle',standard,d,[ str ]).
+html_comp_i(66,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(66,'Class','gx-button',v,[ str ]).
+html_comp_i(66,'Id','',d,[ str ]).
+html_comp_i(66,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(66,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(66,'Semanticcontent',div,d,[ str ]).
+html_comp_i(66,'Align',left,d,[ str ]).
+html_comp_i(66,'Valign',top,d,[ str ]).
+html_comp_i(67,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(67,'Controlname','Btncancel',v,[ str ]).
+html_comp_i(67,'Class','ButtonMaterialDefault',v,[ str ]).
+html_comp_i(67,'Event','Cancel',v,[ str ]).
+html_comp_i(67,'Caption',取消,d,[ str ]).
+html_comp_i(67,'Title',取消,v,[ str ]).
+html_comp_i(67,'Font',font('Microsoft Sans Serif',9,[]),d,[ font ]).
+html_comp_i(67,'Forecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(67,'Backcolor',rgb(0,9,153),d,[ color ]).
+html_comp_i(67,'Border','1',d,[ str ]).
+html_comp_i(67,'Bordercolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(67,'Buttonborderstyle',standard,d,[ str ]).
+html_comp_i(68,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(68,'Class',row,v,[ str ]).
+html_comp_i(68,'Id','',d,[ str ]).
+html_comp_i(68,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(68,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(68,'Semanticcontent',div,d,[ str ]).
+html_comp_i(68,'Align',left,d,[ str ]).
+html_comp_i(68,'Valign',top,d,[ str ]).
+html_comp_i(69,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(69,'Class','col-xs-12',v,[ str ]).
+html_comp_i(69,'Id','',d,[ str ]).
+html_comp_i(69,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(69,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(69,'Semanticcontent',div,d,[ str ]).
+html_comp_i(69,'Align',left,d,[ str ]).
+html_comp_i(69,'Valign',top,d,[ str ]).
+html_comp_i(70,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(70,'Class','Section',d,[ str ]).
+html_comp_i(70,'Id','Html_bottomauxiliarcontrols',v,[ str ]).
+html_comp_i(70,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(70,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(70,'Semanticcontent',div,d,[ str ]).
+html_comp_i(70,'Align',left,d,[ str ]).
+html_comp_i(70,'Valign',top,d,[ str ]).
+html_comp_i(71,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(71,'Colcount',18,d,[ num ]).
+html_comp_i(71,'Attid',-17,v,[ num ]).
+html_comp_i(71,'Class','Attribute',d,[ str ]).
+html_comp_i(71,'Controlname','&Br_schemeid',d,[ str ]).
+html_comp_i(71,'Returnonclick',0,d,[ bool ]).
+html_comp_i(71,'Captionclass','',d,[ str ]).
+html_comp_i(71,'Captionposition','',d,[ str ]).
+html_comp_i(71,'Captionvalue','',d,[ str ]).
+html_comp_i(71,'Layoutclass','',d,[ str ]).
+html_comp_i(71,'Controltype',2,d,[ num ]).
+html_comp_i(71,'Inputtype',0,d,[ num ]).
+html_comp_i(71,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(71,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(71,'Readonly',0,d,[ bool ]).
+html_comp_i(71,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(71,'Ispassword',0,d,[ bool ]).
+html_comp_i(71,'Autoresize',-1,d,[ bool ]).
+html_comp_i(71,'Gxwidth',measure(18,chr),d,[ measure ]).
+html_comp_i(71,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(71,'Ismultiline',0,d,[ bool ]).
+html_comp_i(71,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(71,'Fill',-1,d,[ bool ]).
+html_comp_i(71,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(71,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(71,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(71,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(71,'Gxformat',0,d,[ num ]).
+html_comp_i(71,'Title','',d,[ str ]).
+html_comp_i(71,'Invitemsg','',d,[ str ]).
+html_comp_i(72,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(72,'Colcount',18,d,[ num ]).
+html_comp_i(72,'Attid',-10,v,[ num ]).
+html_comp_i(72,'Class','Attribute',d,[ str ]).
+html_comp_i(72,'Controlname','Br_scheme_br_encounterid',v,[ str ]).
+html_comp_i(72,'Fieldspecifier',[ t([ t('Br_scheme',23),t('Br_encounterid',3) ],29) ],v,[ str ]).
+html_comp_i(72,'Returnonclick',0,d,[ bool ]).
+html_comp_i(72,'Captionclass','',d,[ str ]).
+html_comp_i(72,'Captionposition','',d,[ str ]).
+html_comp_i(72,'Captionvalue','',d,[ str ]).
+html_comp_i(72,'Layoutclass','',d,[ str ]).
+html_comp_i(72,'Controltype',2,d,[ num ]).
+html_comp_i(72,'Inputtype',0,d,[ num ]).
+html_comp_i(72,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(72,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(72,'Readonly',0,d,[ bool ]).
+html_comp_i(72,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(72,'Ispassword',0,d,[ bool ]).
+html_comp_i(72,'Autoresize',-1,d,[ bool ]).
+html_comp_i(72,'Gxwidth',measure(18,chr),d,[ measure ]).
+html_comp_i(72,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(72,'Ismultiline',0,d,[ bool ]).
+html_comp_i(72,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(72,'Fill',-1,d,[ bool ]).
+html_comp_i(72,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(72,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(72,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(72,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(72,'Gxformat',0,d,[ num ]).
+html_comp_i(72,'Title','',d,[ str ]).
+html_comp_i(72,'Invitemsg','',d,[ str ]).
+html_comp_i(73,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(73,'Colcount',18,d,[ num ]).
+html_comp_i(73,'Attid',-10,v,[ num ]).
+html_comp_i(73,'Class','Attribute',d,[ str ]).
+html_comp_i(73,'Controlname','Br_scheme_br_schemeid',v,[ str ]).
+html_comp_i(73,'Fieldspecifier',[ t([ t('Br_scheme',23),t('Br_schemeid',3) ],29) ],v,[ str ]).
+html_comp_i(73,'Returnonclick',0,d,[ bool ]).
+html_comp_i(73,'Captionclass','',d,[ str ]).
+html_comp_i(73,'Captionposition','',d,[ str ]).
+html_comp_i(73,'Captionvalue','',d,[ str ]).
+html_comp_i(73,'Layoutclass','',d,[ str ]).
+html_comp_i(73,'Controltype',2,d,[ num ]).
+html_comp_i(73,'Inputtype',0,d,[ num ]).
+html_comp_i(73,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(73,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(73,'Readonly',0,d,[ bool ]).
+html_comp_i(73,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(73,'Ispassword',0,d,[ bool ]).
+html_comp_i(73,'Autoresize',-1,d,[ bool ]).
+html_comp_i(73,'Gxwidth',measure(18,chr),d,[ measure ]).
+html_comp_i(73,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(73,'Ismultiline',0,d,[ bool ]).
+html_comp_i(73,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(73,'Fill',-1,d,[ bool ]).
+html_comp_i(73,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(73,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(73,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(73,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(73,'Gxformat',0,d,[ num ]).
+html_comp_i(73,'Title','',d,[ str ]).
+html_comp_i(73,'Invitemsg','',d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg(events(19,[]),src0306,[ 'Subroutine ''''CheckRequiredFields'''' is defined but never used.' ])).
+warn_gen_i(msg(events(51,[]),src0306,[ 'Subroutine ''''Show Messages'''' is defined but never used.' ])).
+ 
+lit_i(9,1,comp(errview),[ ctlname('Errorviewer'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(8,1,div(8),[ ctlname('') ]).
+lit_i(7,1,div(7),[ ctlname('') ]).
+lit_i(26,1,t(化疗方案,3),[ ctlname('Textblockbr_scheme_br_scheme_chem_regimens') ]).
+lit_i(25,1,div(25),[ ctlname('') ]).
+lit_i(29,1,t('GXV1',23),[ ctlname('Br_scheme_br_scheme_chem_regimens'),ctrltype(edit,29),pos(29),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(28,1,div(28),[ ctlname('') ]).
+lit_i(27,1,div(27),[ ctlname('') ]).
+lit_i(24,1,div(24),[ ctlname('') ]).
+lit_i(23,1,div(23),[ ctlname('Unnamedtablebr_scheme_br_scheme_chem_regimens') ]).
+lit_i(22,1,div(22),[ ctlname('') ]).
+lit_i(34,1,t(方案线级,3),[ ctlname('Textblockvline') ]).
+lit_i(33,1,div(33),[ ctlname('') ]).
+lit_i(40,1,t('Vline',23),[ ctlname('&Vline'),ctrltype(dyncombo,40),pos(40),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(39,1,div(39),[ ctlname('') ]).
+lit_i(43,1,t('Votherline',23),[ ctlname('&Votherline'),ctrltype(edit,43),pos(43),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(42,1,div(42),[ ctlname('') ]).
+lit_i(41,1,cell(41),[ ctlname('Votherline_cell') ]).
+lit_i(36,1,table(36),[ ctlname('Tablemergedvline') ]).
+lit_i(35,1,div(35),[ ctlname('') ]).
+lit_i(32,1,div(32),[ ctlname('') ]).
+lit_i(31,1,div(31),[ ctlname('Tablesplittedvline') ]).
+lit_i(30,1,div(30),[ ctlname('') ]).
+lit_i(21,1,div(21),[ ctlname('') ]).
+lit_i(49,1,t(化疗周期,3),[ ctlname('Textblockbr_scheme_br_scheme_chem_cycle') ]).
+lit_i(48,1,div(48),[ ctlname('') ]).
+lit_i(52,1,t('GXV2',23),[ ctlname('Br_scheme_br_scheme_chem_cycle'),ctrltype(edit,52),pos(52),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(51,1,div(51),[ ctlname('') ]).
+lit_i(50,1,div(50),[ ctlname('') ]).
+lit_i(47,1,div(47),[ ctlname('') ]).
+lit_i(46,1,div(46),[ ctlname('Unnamedtablebr_scheme_br_scheme_chem_cycle') ]).
+lit_i(45,1,div(45),[ ctlname('') ]).
+lit_i(57,1,t(化疗方案描述,3),[ ctlname('Textblockbr_scheme_br_scheme_chem_detail') ]).
+lit_i(56,1,div(56),[ ctlname('') ]).
+lit_i(60,1,t('GXV3',23),[ ctlname('Br_scheme_br_scheme_chem_detail'),ctrltype(edit,60),pos(60),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(59,1,div(59),[ ctlname('') ]).
+lit_i(58,1,div(58),[ ctlname('') ]).
+lit_i(55,1,div(55),[ ctlname('') ]).
+lit_i(54,1,div(54),[ ctlname('Unnamedtablebr_scheme_br_scheme_chem_detail') ]).
+lit_i(53,1,div(53),[ ctlname('') ]).
+lit_i(44,1,div(44),[ ctlname('') ]).
+lit_i(20,1,div(20),[ ctlname('Tableattributes') ]).
+lit_i(19,1,div(19),[ ctlname('') ]).
+lit_i(18,1,div(18),[ ctlname('Layout_tableattributes') ]).
+lit_i(16,1,usercontrol(16),[ ctlname('Dvpanel_tableattributes'),ctrltype('dvelop.gxbootstrap.panel'),el([]),containers([ container(17) ]) ]).
+lit_i(15,1,div(15),[ ctlname('Html_dvpanel_tableattributes') ]).
+lit_i(14,1,div(14),[ ctlname('') ]).
+lit_i(13,1,div(13),[ ctlname('') ]).
+lit_i(12,1,div(12),[ ctlname('Tablecontent') ]).
+lit_i(11,1,div(11),[ ctlname('') ]).
+lit_i(10,1,div(10),[ ctlname('') ]).
+lit_i(65,1,button('Enter'),[ ctlname('Btnenter'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(64,1,div(64),[ ctlname('') ]).
+lit_i(67,1,button('Cancel'),[ ctlname('Btncancel'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(66,1,div(66),[ ctlname('') ]).
+lit_i(63,1,div(63),[ ctlname('') ]).
+lit_i(62,1,div(62),[ ctlname('') ]).
+lit_i(61,1,div(61),[ ctlname('') ]).
+lit_i(6,1,div(6),[ ctlname('Tablemain') ]).
+lit_i(5,1,div(5),[ ctlname('') ]).
+lit_i(4,1,div(4),[ ctlname('') ]).
+lit_i(71,1,t('Br_schemeid',23),[ ctlname('&Br_schemeid'),ctrltype(edit,71),pos(71),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(72,1,t('GXV4',23),[ ctlname('Br_scheme_br_encounterid'),ctrltype(edit,72),pos(72),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(73,1,t('GXV5',23),[ ctlname('Br_scheme_br_schemeid'),ctrltype(edit,73),pos(73),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(70,1,div(70),[ ctlname('Html_bottomauxiliarcontrols') ]).
+lit_i(69,1,div(69),[ ctlname('') ]).
+lit_i(68,1,div(68),[ ctlname('') ]).
+lit_i(3,1,div(3),[ ctlname('Layoutmaintable') ]).
+lit_i(2,1,div(2),[ ctlname('') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(45,168,'ExternalName','XT_DefineCodeName',d).
+att_prop_i(45,168,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,168,'EmptyAsNull','Yes',d).
+att_prop_i(45,168,idBasedOn,'',d).
+att_prop_i(45,168,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,168,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,168,'AttRegEx','',d).
+att_prop_i(45,168,'AttValidationFailedMsg','',d).
+att_prop_i(45,168,'FullName','XT_DefineCodeName',v).
+att_prop_i(45,165,'ExternalName','XT_DefindcodeTypeID',d).
+att_prop_i(45,165,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,165,'EmptyAsNull','Yes',d).
+att_prop_i(45,165,idBasedOn,69,v).
+att_prop_i(45,165,'AUTONUMBER','-1',d).
+att_prop_i(45,165,'AUTONUMBER_START','1',d).
+att_prop_i(45,165,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,165,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,165,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,165,'AttRegEx','',d).
+att_prop_i(45,165,'AttValidationFailedMsg','',d).
+att_prop_i(45,165,'FullName','XT_DefindcodeTypeID',v).
+att_prop_i(45,432,'ExternalName','XT_TenantCode',d).
+att_prop_i(45,432,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,432,'EmptyAsNull','Yes',d).
+att_prop_i(45,432,idBasedOn,'',d).
+att_prop_i(45,432,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,432,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,432,'AttRegEx','',d).
+att_prop_i(45,432,'AttValidationFailedMsg','',d).
+att_prop_i(45,432,'FullName','XT_TenantCode',v).
+att_prop_i(45,167,'ExternalName','XT_DefineCodeID',d).
+att_prop_i(45,167,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,167,'EmptyAsNull','Yes',d).
+att_prop_i(45,167,idBasedOn,69,v).
+att_prop_i(45,167,'AUTONUMBER','-1',d).
+att_prop_i(45,167,'AUTONUMBER_START','1',d).
+att_prop_i(45,167,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,167,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,167,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,167,'AttRegEx','',d).
+att_prop_i(45,167,'AttValidationFailedMsg','',d).
+att_prop_i(45,167,'FullName','XT_DefineCodeID',v).
+ 
+ 
+tbl_att_prop_i(45,24,167,'AllowNulls',n).
+tbl_att_prop_i(45,24,167,'AUTONUMBER',y).
+tbl_att_prop_i(45,24,165,'AllowNulls',n).
+ 
+var_prop_i(45,'Securityfunctionalitykeys',idBasedOn,90,v).
+var_prop_i(45,'Br_encounterid',idBasedOn,'',v).
+var_prop_i(45,'Br_schemeid',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,8,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,8,0 ],'ObjName','Messages').
+struct_dt_i([ 26,8,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,8,0 ],collection,'True').
+struct_dt_i([ 26,8,0 ],datatype,[ 26,8,25 ]).
+struct_dt_i([ 26,8,0 ],isexternal,'True').
+struct_dt_i([ 26,8,25 ],name,'Message').
+struct_dt_i([ 26,8,25 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 26,43,0 ],name,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,43,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 26,43,0 ],'ObjName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ObjDesc','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,38,0 ],name,'BR_Scheme').
+struct_dt_i([ 0,38,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,38,0 ],significantName,'BR_Scheme').
+struct_dt_i([ 0,38,0 ],'ObjName','BR_Scheme').
+struct_dt_i([ 0,38,0 ],'ObjDesc','Data Mgmt Portal - RAAP').
+struct_dt_i([ 0,38,0 ],'ExternalName','BR_Scheme').
+struct_dt_i([ 0,38,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,38,0 ],key,[ 327 ]).
+struct_dt_i([ 0,38,0 ],lvl,39).
+struct_dt_i([ 26,8,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,25 ],fullname,'GeneXus\Common\Messages.Message').
+struct_dt_i([ 26,43,0 ],fullname,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 0,38,0 ],fullname,'BR_Scheme').
+struct_dt_i([ 26,8,0 ],modified,yes).
+struct_dt_i([ 26,8,25 ],modified,yes).
+struct_dt_i([ 26,43,0 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,8,25 ],1,name,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,length,128).
+struct_dt_elem_i([ 26,8,25 ],1,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,8,25 ],1,pic,'').
+struct_dt_elem_i([ 26,8,25 ],1,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],1,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],1,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],2,name,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,basedon,30).
+struct_dt_elem_i([ 26,8,25 ],2,length,2).
+struct_dt_elem_i([ 26,8,25 ],2,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],2,sign,0).
+struct_dt_elem_i([ 26,8,25 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,8,25 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,8,25 ],2,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],2,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],2,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],3,name,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,length,256).
+struct_dt_elem_i([ 26,8,25 ],3,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,8,25 ],3,pic,'').
+struct_dt_elem_i([ 26,8,25 ],3,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],3,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],3,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],1,name,'Userid').
+struct_dt_elem_i([ 26,43,0 ],1,camelname,'UserId').
+struct_dt_elem_i([ 26,43,0 ],1,length,4).
+struct_dt_elem_i([ 26,43,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],1,sign,0).
+struct_dt_elem_i([ 26,43,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalName','UserId').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],2,name,'Userguid').
+struct_dt_elem_i([ 26,43,0 ],2,camelname,'UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,length,500).
+struct_dt_elem_i([ 26,43,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],2,type,[ 13,500,0 ]).
+struct_dt_elem_i([ 26,43,0 ],2,pic,'').
+struct_dt_elem_i([ 26,43,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalName','UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],3,name,'Username').
+struct_dt_elem_i([ 26,43,0 ],3,camelname,'UserName').
+struct_dt_elem_i([ 26,43,0 ],3,length,100).
+struct_dt_elem_i([ 26,43,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],3,pic,'').
+struct_dt_elem_i([ 26,43,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalName','UserName').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],4,name,'Usertype').
+struct_dt_elem_i([ 26,43,0 ],4,camelname,'UserType').
+struct_dt_elem_i([ 26,43,0 ],4,length,4).
+struct_dt_elem_i([ 26,43,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],4,sign,0).
+struct_dt_elem_i([ 26,43,0 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalName','UserType').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],5,name,'Userdisplayname').
+struct_dt_elem_i([ 26,43,0 ],5,camelname,'UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,length,100).
+struct_dt_elem_i([ 26,43,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],5,pic,'').
+struct_dt_elem_i([ 26,43,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalName','UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],6,name,'Userproviderid').
+struct_dt_elem_i([ 26,43,0 ],6,camelname,'UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,basedon,69).
+struct_dt_elem_i([ 26,43,0 ],6,length,18).
+struct_dt_elem_i([ 26,43,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],6,sign,0).
+struct_dt_elem_i([ 26,43,0 ],6,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,43,0 ],6,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 26,43,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalName','UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],7,name,'Userprovidername').
+struct_dt_elem_i([ 26,43,0 ],7,camelname,'UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,length,100).
+struct_dt_elem_i([ 26,43,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],7,pic,'').
+struct_dt_elem_i([ 26,43,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalName','UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],8,name,'Currenttnum').
+struct_dt_elem_i([ 26,43,0 ],8,camelname,currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,length,4).
+struct_dt_elem_i([ 26,43,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],8,sign,0).
+struct_dt_elem_i([ 26,43,0 ],8,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],8,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalName',currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],8,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],8,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],9,name,'Clientip').
+struct_dt_elem_i([ 26,43,0 ],9,camelname,'ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,length,40).
+struct_dt_elem_i([ 26,43,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],9,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,43,0 ],9,pic,'').
+struct_dt_elem_i([ 26,43,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalName','ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],9,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],9,'JsonName','').
+struct_dt_elem_i([ 0,38,0 ],1,name,'Br_schemeid').
+struct_dt_elem_i([ 0,38,0 ],1,camelname,'BR_SchemeID').
+struct_dt_elem_i([ 0,38,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,38,0 ],1,length,18).
+struct_dt_elem_i([ 0,38,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,38,0 ],1,sign,0).
+struct_dt_elem_i([ 0,38,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,38,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,38,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,38,0 ],1,attributeid,'327').
+struct_dt_elem_i([ 0,38,0 ],1,'ExternalName','BR_SchemeID').
+struct_dt_elem_i([ 0,38,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,38,0 ],2,name,'Br_encounterid').
+struct_dt_elem_i([ 0,38,0 ],2,camelname,'BR_EncounterID').
+struct_dt_elem_i([ 0,38,0 ],2,basedon,69).
+struct_dt_elem_i([ 0,38,0 ],2,length,18).
+struct_dt_elem_i([ 0,38,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,38,0 ],2,sign,0).
+struct_dt_elem_i([ 0,38,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,38,0 ],2,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,38,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,38,0 ],2,attributeid,'19').
+struct_dt_elem_i([ 0,38,0 ],2,'ExternalName','BR_EncounterID').
+struct_dt_elem_i([ 0,38,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,38,0 ],3,name,'Br_scheme_chem_regimens').
+struct_dt_elem_i([ 0,38,0 ],3,camelname,'BR_Scheme_Chem_Regimens').
+struct_dt_elem_i([ 0,38,0 ],3,length,100).
+struct_dt_elem_i([ 0,38,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,38,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,38,0 ],3,pic,'').
+struct_dt_elem_i([ 0,38,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,38,0 ],3,attributeid,'328').
+struct_dt_elem_i([ 0,38,0 ],3,'ExternalName','BR_Scheme_Chem_Regimens').
+struct_dt_elem_i([ 0,38,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,38,0 ],4,name,'Br_scheme_therapy_line').
+struct_dt_elem_i([ 0,38,0 ],4,camelname,'BR_Scheme_Therapy_Line').
+struct_dt_elem_i([ 0,38,0 ],4,length,40).
+struct_dt_elem_i([ 0,38,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,38,0 ],4,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,38,0 ],4,pic,'').
+struct_dt_elem_i([ 0,38,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,38,0 ],4,attributeid,'329').
+struct_dt_elem_i([ 0,38,0 ],4,'ExternalName','BR_Scheme_Therapy_Line').
+struct_dt_elem_i([ 0,38,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,38,0 ],5,name,'Br_scheme_therapy_line_code').
+struct_dt_elem_i([ 0,38,0 ],5,camelname,'BR_Scheme_Therapy_Line_Code').
+struct_dt_elem_i([ 0,38,0 ],5,length,40).
+struct_dt_elem_i([ 0,38,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,38,0 ],5,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,38,0 ],5,pic,'').
+struct_dt_elem_i([ 0,38,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,38,0 ],5,attributeid,'500').
+struct_dt_elem_i([ 0,38,0 ],5,'ExternalName','BR_Scheme_Therapy_Line_Code').
+struct_dt_elem_i([ 0,38,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,38,0 ],6,name,'Br_scheme_chem_cycle').
+struct_dt_elem_i([ 0,38,0 ],6,camelname,'BR_Scheme_Chem_Cycle').
+struct_dt_elem_i([ 0,38,0 ],6,basedon,103).
+struct_dt_elem_i([ 0,38,0 ],6,length,15).
+struct_dt_elem_i([ 0,38,0 ],6,decimals,5).
+struct_dt_elem_i([ 0,38,0 ],6,sign,0).
+struct_dt_elem_i([ 0,38,0 ],6,type,[ 4,15,5 ]).
+struct_dt_elem_i([ 0,38,0 ],6,pic,'ZZZZZZZZZ.ZZZZZ').
+struct_dt_elem_i([ 0,38,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,38,0 ],6,attributeid,'330').
+struct_dt_elem_i([ 0,38,0 ],6,'ExternalName','BR_Scheme_Chem_Cycle').
+struct_dt_elem_i([ 0,38,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,38,0 ],7,name,'Br_scheme_chem_detail').
+struct_dt_elem_i([ 0,38,0 ],7,camelname,'BR_Scheme_Chem_Detail').
+struct_dt_elem_i([ 0,38,0 ],7,length,4000).
+struct_dt_elem_i([ 0,38,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,38,0 ],7,type,[ 13,4000,0 ]).
+struct_dt_elem_i([ 0,38,0 ],7,pic,'').
+struct_dt_elem_i([ 0,38,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,38,0 ],7,attributeid,'331').
+struct_dt_elem_i([ 0,38,0 ],7,'ExternalName','BR_Scheme_Chem_Detail').
+struct_dt_elem_i([ 0,38,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'Start',2,17,[ [ 'Vline' ],[ [ t('Br_schemeid',23),t('Visible',3) ],[ t('Br_scheme_br_encounterid',3),t('Visible',3) ],[ t('Br_scheme_br_schemeid',3),t('Visible',3) ],[ t('Votherline',23),t('Visible',3) ],[ t('Votherline_cell',3),t('Class',3) ] ] ]).
+sub_info_i(146,'Refresh',64,73,[ [],[] ]).
+sub_info_i(146,[ t('Vline',23,75,7),t('Controlvaluechanged',3,75,14) ],75,83,[ [ 'Vline' ],[ [ t('Votherline',23),t('Visible',3) ] ] ]).
+sub_info_i(146,'Enter',85,125,[ [ 'Br_scheme','Vline','Votherline','Br_encounterid' ],[ 'Br_scheme','Br_scheme' ] ]).
+ 
+pgm_parm_i(web,229,'BR_SCHEMEVIEW',[ [ int,18,0,0 ],[ char,50,0,0 ] ],[ [ 'BR_SchemeID',in,[] ],[ 'TabCode',in,[] ] ]).
+pgm_parm_i(proc,142,'ZUTIL_CHECKSESSION',[ [ boolean,4,0,0 ] ],[ [ tCheckFlag,out,[] ] ]).
+pgm_parm_i(proc,15,'WWPBASEOBJECTS\LOADWWPCONTEXT',[ [ o('WWPBaseObjects\WWPContext'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+pgm_parm_i(proc,124,'ZBR_GETCURRENTTCODE',[ [ svchar,40,0,0 ] ],[ [ tCurrentCode,out,[] ] ]).
+ 
+pgm_callprotocol_i(web,344,'BR_SCHEMINSERT','INTERNAL').
+pgm_callprotocol_i(web,229,'BR_SCHEMEVIEW','INTERNAL').
+pgm_callprotocol_i(proc,142,'ZUTIL_CHECKSESSION','INTERNAL').
+pgm_callprotocol_i(proc,15,'WWPBASEOBJECTS\LOADWWPCONTEXT','INTERNAL').
+pgm_callprotocol_i(proc,124,'ZBR_GETCURRENTTCODE','INTERNAL').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

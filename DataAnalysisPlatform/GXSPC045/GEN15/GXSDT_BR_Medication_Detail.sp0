@@ -1,0 +1,80 @@
+ 
+spec_i([ sdt,[ 0,30,0 ],'BR_Medication_Detail','BR_Medication_Detail',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,30,0 ],name,'BR_Medication_Detail').
+struct_dt_i([ 0,30,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,30,0 ],significantName,'BR_Medication_Detail').
+struct_dt_i([ 0,30,0 ],'ObjName','BR_Medication_Detail').
+struct_dt_i([ 0,30,0 ],'ObjDesc',药物治疗药物详情0813弃用).
+struct_dt_i([ 0,30,0 ],'ExternalName','BR_Medication_Detail').
+struct_dt_i([ 0,30,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,30,0 ],key,[ 301 ]).
+struct_dt_i([ 0,30,0 ],lvl,31).
+struct_dt_i([ 0,30,0 ],fullname,'BR_Medication_Detail').
+ 
+struct_dt_elem_i([ 0,30,0 ],1,name,'Br_medication_detailid').
+struct_dt_elem_i([ 0,30,0 ],1,camelname,'BR_Medication_DetailID').
+struct_dt_elem_i([ 0,30,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,30,0 ],1,length,18).
+struct_dt_elem_i([ 0,30,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,30,0 ],1,sign,0).
+struct_dt_elem_i([ 0,30,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,30,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,30,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,30,0 ],1,attributeid,'301').
+struct_dt_elem_i([ 0,30,0 ],1,'ExternalName','BR_Medication_DetailID').
+struct_dt_elem_i([ 0,30,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,30,0 ],2,name,'Br_medication_schemeid').
+struct_dt_elem_i([ 0,30,0 ],2,camelname,'BR_Medication_SchemeID').
+struct_dt_elem_i([ 0,30,0 ],2,basedon,69).
+struct_dt_elem_i([ 0,30,0 ],2,length,18).
+struct_dt_elem_i([ 0,30,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,30,0 ],2,sign,0).
+struct_dt_elem_i([ 0,30,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,30,0 ],2,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,30,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,30,0 ],2,attributeid,'296').
+struct_dt_elem_i([ 0,30,0 ],2,'ExternalName','BR_Medication_SchemeID').
+struct_dt_elem_i([ 0,30,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,30,0 ],3,name,'Br_medication_drug_name').
+struct_dt_elem_i([ 0,30,0 ],3,camelname,'BR_Medication_Drug_Name').
+struct_dt_elem_i([ 0,30,0 ],3,length,40).
+struct_dt_elem_i([ 0,30,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,30,0 ],3,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,30,0 ],3,pic,'').
+struct_dt_elem_i([ 0,30,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,30,0 ],3,attributeid,'310').
+struct_dt_elem_i([ 0,30,0 ],3,'ExternalName','BR_Medication_Drug_Name').
+struct_dt_elem_i([ 0,30,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,30,0 ],4,name,'Br_medication_drug_num').
+struct_dt_elem_i([ 0,30,0 ],4,camelname,'BR_Medication_Drug_Num').
+struct_dt_elem_i([ 0,30,0 ],4,basedon,103).
+struct_dt_elem_i([ 0,30,0 ],4,length,15).
+struct_dt_elem_i([ 0,30,0 ],4,decimals,5).
+struct_dt_elem_i([ 0,30,0 ],4,sign,0).
+struct_dt_elem_i([ 0,30,0 ],4,type,[ 4,15,5 ]).
+struct_dt_elem_i([ 0,30,0 ],4,pic,'ZZZZZZZZZ.ZZZZZ').
+struct_dt_elem_i([ 0,30,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,30,0 ],4,attributeid,'311').
+struct_dt_elem_i([ 0,30,0 ],4,'ExternalName','BR_Medication_Drug_Num').
+struct_dt_elem_i([ 0,30,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,30,0 ],5,name,'Br_medication_drug_unit').
+struct_dt_elem_i([ 0,30,0 ],5,camelname,'BR_Medication_Drug_Unit').
+struct_dt_elem_i([ 0,30,0 ],5,length,40).
+struct_dt_elem_i([ 0,30,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,30,0 ],5,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,30,0 ],5,pic,'').
+struct_dt_elem_i([ 0,30,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,30,0 ],5,attributeid,'312').
+struct_dt_elem_i([ 0,30,0 ],5,'ExternalName','BR_Medication_Drug_Unit').
+struct_dt_elem_i([ 0,30,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

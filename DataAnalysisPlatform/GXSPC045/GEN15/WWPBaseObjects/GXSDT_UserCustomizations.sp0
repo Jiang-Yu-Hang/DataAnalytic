@@ -1,0 +1,53 @@
+ 
+spec_i([ sdt,[ 0,7,0 ],'WWPBaseObjects\UserCustomizations','WWPBaseObjects\UserCustomizations',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,7,0 ],name,'WWPBaseObjects\UserCustomizations').
+struct_dt_i([ 0,7,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,7,0 ],significantName,'WWPBaseObjects\UserCustomizations').
+struct_dt_i([ 0,7,0 ],'ObjName','UserCustomizations').
+struct_dt_i([ 0,7,0 ],'ObjDesc','User Custom').
+struct_dt_i([ 0,7,0 ],'ExternalName','UserCustomizations').
+struct_dt_i([ 0,7,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,7,0 ],key,[ 16,17 ]).
+struct_dt_i([ 0,7,0 ],lvl,8).
+struct_dt_i([ 0,7,0 ],fullname,'WWPBaseObjects\UserCustomizations').
+ 
+struct_dt_elem_i([ 0,7,0 ],1,name,'Usercustomizationsid').
+struct_dt_elem_i([ 0,7,0 ],1,camelname,'UserCustomizationsId').
+struct_dt_elem_i([ 0,7,0 ],1,length,6).
+struct_dt_elem_i([ 0,7,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,7,0 ],1,sign,0).
+struct_dt_elem_i([ 0,7,0 ],1,type,[ 4,6,0 ]).
+struct_dt_elem_i([ 0,7,0 ],1,pic,'ZZZZZ9').
+struct_dt_elem_i([ 0,7,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,7,0 ],1,attributeid,'16').
+struct_dt_elem_i([ 0,7,0 ],1,'ExternalName','UserCustomizationsId').
+struct_dt_elem_i([ 0,7,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,7,0 ],2,name,'Usercustomizationskey').
+struct_dt_elem_i([ 0,7,0 ],2,camelname,'UserCustomizationsKey').
+struct_dt_elem_i([ 0,7,0 ],2,length,200).
+struct_dt_elem_i([ 0,7,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,7,0 ],2,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,7,0 ],2,pic,'').
+struct_dt_elem_i([ 0,7,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,7,0 ],2,attributeid,'17').
+struct_dt_elem_i([ 0,7,0 ],2,'ExternalName','UserCustomizationsKey').
+struct_dt_elem_i([ 0,7,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,7,0 ],3,name,'Usercustomizationsvalue').
+struct_dt_elem_i([ 0,7,0 ],3,camelname,'UserCustomizationsValue').
+struct_dt_elem_i([ 0,7,0 ],3,length,2097152).
+struct_dt_elem_i([ 0,7,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,7,0 ],3,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 0,7,0 ],3,pic,'').
+struct_dt_elem_i([ 0,7,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,7,0 ],3,attributeid,'18').
+struct_dt_elem_i([ 0,7,0 ],3,'ExternalName','UserCustomizationsValue').
+struct_dt_elem_i([ 0,7,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

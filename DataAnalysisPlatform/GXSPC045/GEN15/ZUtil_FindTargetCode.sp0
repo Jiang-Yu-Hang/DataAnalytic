@@ -1,0 +1,376 @@
+spec_i([ proc,130,查找对应的definecode,'ZUtil_FindTargetCode',78,chs,'16_0_0-127771' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 24,[ [ 24,many ] ],[],[],[ [ [ 24 ],[ 168,165,431 ] ] ],[ [ [ 24 ],[] ] ],[ 165 ],'IXT_DEFINECODE1',[ 24,[ [ [],'Ixt_defindcodetypeid',165 ] ] ],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [ c([ t(168,2),t(=,10),t('trim(',1),t('Ixt_definecodename',23),t(')',4) ],[ 168 ]) ] ]).
+ 
+ 
+ 
+level_option_i(2,usr_condition,y).
+level_option_i(2,when_none,'GXLvl1').
+ 
+ta_i(2,[ [ [ 24,168 ],[ 24,165 ],[ 24,431 ] ] ]).
+ 
+las_i(2,[ [ 168,165,431 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','商?')).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','商?')).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','ZUtil_FindTargetCode')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'ZUtil'))).
+rule_i(0,prop('ObjDesc',查找对应的definecode)).
+rule_i(0,prop('ObjName','ZUtil_FindTargetCode')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Ixt_defindcodetypeid','Ixt_definecodename','Oxt_typecode' ],[])).
+rule_i(0,parmio([ [ 'Ixt_defindcodetypeid',in ],[ 'Ixt_definecodename',in ],[ 'Oxt_typecode',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,24,[],[ [ [ [],'Ixt_defindcodetypeid',165 ] ],'IXT_DEFINECODE1',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,'Ixt_defindcodetypeid').
+v_i(t,o,2,168).
+v_i(t,o,2,165).
+v_i(t,o,2,431).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',14 ]).
+attri_i(167,[ 'XT_DefineCodeID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,数据字典主键,'',0 ]).
+attri_i(165,[ 'XT_DefindcodeTypeID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,数据字典类型主键,'',0 ]).
+attri_i(168,[ 'XT_DefineCodeName',svchar,100,0,'',0,数据字典名称,'',0 ]).
+attri_i(431,[ 'XT_TypeCode',svchar,40,0,'',0,分类code,'',0 ]).
+attri_i('GXLvl1',[ 'GXLvl1',int,1,0,'',0,'',[],13 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',12 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',11 ]).
+attri_i('Oxt_typecode',[ oXT_TypeCode,svchar,40,0,'',0,分类code,'',10 ]).
+attri_i('Ixt_definecodename',[ iXT_DefineCodeName,svchar,100,0,'',0,数据字典名称,'',9 ]).
+attri_i('Ixt_defindcodetypeid',[ iXT_DefindcodeTypeID,int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,数据字典类型主键,'',8 ]).
+ 
+table_i(24,[ 'XT_DefineCode',[ 167,168,165,431 ],数据字典数据,'XT_DefineCode' ]).
+ 
+index_i(24,[ 'IXT_DEFINECODE',u,[ 167 ],'IXT_DefineCode' ]).
+index_i(24,[ 'IXT_DEFINECODE1',d,[ 165 ],'IXT_DefineCode1' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+start_i(2,0,0,[ [ [ 165,23,'Ixt_defindcodetypeid',= ] ],many ]).
+ 
+end_i(2,0,0,[ [ [ t(165,2),t(=,10),t('Ixt_defindcodetypeid',23) ] ] ]).
+ 
+ 
+ 
+ 
+enumerated_i(45,510,109).
+ 
+enum_value_i(45,109,'1',yes,'"yes"',[ none ]).
+enum_value_i(45,109,'2',no,'"no"',[ none ]).
+ 
+enum_value_info_i(45,109,'DM_IsIntialData').
+ 
+enum_type_i(45,109,int,4,0).
+ 
+dom_info_i(69,[ 'ID' ]).
+dom_info_i(109,[ 'DM_IsIntialData' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 431 ],[ 165,168 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,1,1).
+b_group_i(2,1,lit,0,2,2).
+b_group_i(1,3,lit,0,6,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i([ 1,0 ],1,1,cmd,0,[ t('',107,0,0),t('GXLvl1',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(1,2,1,cmd,2,[ t('',121,1,0),t(table,3,1,10),t(24,3,1,10) ]).
+b_line_i([ 1,1 ],2,1,cmd,1,[ t('',107,1,0),t('GXLvl1',23,1,0),t(=,10,1,0),t('1',3,1,0) ]).
+b_line_i(4,2,1,cmd,2,[ t('',107,2,0),t('Oxt_typecode',23,2,0),t(=,10,2,0),t('trim(',1,2,0),t(431,2,2,0),t(')',4,2,0) ]).
+b_line_i(5,2,1,cmd,2,[ t('',128,2,0) ]).
+b_line_i([ 5,1 ],1,3,cmd,4,[ t('',109,4,0),t('GXLvl1',23,4,0),t(=,10,4,0),t('0',3,4,0) ]).
+b_line_i(6,1,3,cmd,5,[ t('',107,5,0),t('Oxt_typecode',23,5,0),t(=,10,5,0),t('''''',3,5,0) ]).
+b_line_i(7,1,3,cmd,5,[ t('',111,5,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(45,431,'ExternalName','XT_TypeCode',d).
+att_prop_i(45,431,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,431,'EmptyAsNull','Yes',d).
+att_prop_i(45,431,idBasedOn,'',d).
+att_prop_i(45,431,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,431,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,431,'AttRegEx','',d).
+att_prop_i(45,431,'AttValidationFailedMsg','',d).
+att_prop_i(45,431,'FullName','XT_TypeCode',v).
+att_prop_i(45,168,'ExternalName','XT_DefineCodeName',d).
+att_prop_i(45,168,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,168,'EmptyAsNull','Yes',d).
+att_prop_i(45,168,idBasedOn,'',d).
+att_prop_i(45,168,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,168,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,168,'AttRegEx','',d).
+att_prop_i(45,168,'AttValidationFailedMsg','',d).
+att_prop_i(45,168,'FullName','XT_DefineCodeName',v).
+att_prop_i(45,165,'ExternalName','XT_DefindcodeTypeID',d).
+att_prop_i(45,165,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,165,'EmptyAsNull','Yes',d).
+att_prop_i(45,165,idBasedOn,69,v).
+att_prop_i(45,165,'AUTONUMBER','-1',d).
+att_prop_i(45,165,'AUTONUMBER_START','1',d).
+att_prop_i(45,165,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,165,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,165,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,165,'AttRegEx','',d).
+att_prop_i(45,165,'AttValidationFailedMsg','',d).
+att_prop_i(45,165,'FullName','XT_DefindcodeTypeID',v).
+att_prop_i(45,167,'ExternalName','XT_DefineCodeID',d).
+att_prop_i(45,167,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,167,'EmptyAsNull','Yes',d).
+att_prop_i(45,167,idBasedOn,69,v).
+att_prop_i(45,167,'AUTONUMBER','-1',d).
+att_prop_i(45,167,'AUTONUMBER_START','1',d).
+att_prop_i(45,167,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,167,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,167,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,167,'AttRegEx','',d).
+att_prop_i(45,167,'AttValidationFailedMsg','',d).
+att_prop_i(45,167,'FullName','XT_DefineCodeID',v).
+ 
+ 
+tbl_att_prop_i(45,24,167,'AllowNulls',n).
+tbl_att_prop_i(45,24,167,'AUTONUMBER',y).
+tbl_att_prop_i(45,24,165,'AllowNulls',n).
+ 
+var_prop_i(45,'Ixt_defindcodetypeid',idBasedOn,'',v).
+var_prop_i(45,'Ixt_definecodename',idBasedOn,'',v).
+var_prop_i(45,'Oxt_typecode',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,130,'ZUTIL_FINDTARGETCODE','INTERNAL').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

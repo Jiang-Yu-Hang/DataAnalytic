@@ -1,0 +1,5 @@
+bc_dt_elem_i([ 0,50,0 ],'Sys_instituteuserroleuserroleid',allownulls,no).
+bc_dt_elem_i([ 0,50,0 ],'Sys_instituteuserroleroleid',allownulls,no).
+bc_dt_elem_i([ 0,50,0 ],'Sys_instituteuserroleinstitutecode',allownulls,no).
+bc_dt_elem_i([ 0,50,0 ],'Sys_instituteuserroleuserid',allownulls,no).
+ 

@@ -1,0 +1,423 @@
+spec_i([ web,245,上传图片二维码,'BR_MedicalQRCode',0,chs,'16_0_0-127771' ]).
+ 
+struct_i(2,1,[ 'Tcurrentcode','Tipaddress','Turl' ],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Ibr_medicalimagingid','Code' ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+cls_i([ 0,0 ],[ 0,1023 ]).
+ 
+pos_i('Code',[ 0,0,0 ]).
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','商?')).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','商?')).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','BR_MedicalQRCode')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'WWPBaseObjects.WorkWithPlusMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('Folder',o(8,'MYWeb'))).
+rule_i(0,prop('ObjDesc',上传图片二维码)).
+rule_i(0,prop('ObjName','BR_MedicalQRCode')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Ibr_medicalimagingid' ],[])).
+rule_i(0,parmio([ [ 'Ibr_medicalimagingid',in ] ])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Code_GXI',[ 'Code_GXI',svchar,2048,0,'',0,'',[],20 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',19 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',18 ]).
+attri_i('Tcurrentcode',[ tCurrentCode,svchar,40,0,'',0,'t Current Code','',17 ]).
+attri_i('Tsession',[ tsession,svchar,400,0,'',0,tsession,'',16 ]).
+attri_i('Tcookiecontent',[ tCookieContent,vchar,2048,0,'',0,'Content','',15 ]).
+attri_i('Httpresponse',[ httpresponse,o(httpresponse),4,0,'',0,httpresponse,'',14 ]).
+attri_i('Cookie',[ cookie,o(cookie),4,0,'',0,cookie,'',13 ]).
+attri_i('Code',[ code,bits,1024,0,'',0,code,'',12 ]).
+attri_i('Url',[ url,svchar,4000,0,'',0,url,'',11 ]).
+attri_i('Ttest',[ tTest,svchar,5000,0,'',0,'t Test','',10 ]).
+attri_i('Turl',[ tUrl,svchar,1000,0,'',0,'t Url','',9 ]).
+attri_i('Tsystemname',[ tSystemName,svchar,5000,0,'',0,'t System Name','',8 ]).
+attri_i('Tipaddress',[ tIpAddress,svchar,1024,0,'',0,'t Ip Address','',7 ]).
+attri_i('Timgid',[ tImgID,int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'t Img ID','',6 ]).
+attri_i('Ibr_medicalimagingid',[ iBR_MedicalImagingID,int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,影像学主键,'',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,45,'Code_GXI','Code','Code_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(69,[ 'ID' ]).
+dom_info_i(23,[ 'GeneXus\Address' ]).
+dom_info_i(12,[ 'GeneXus\Url' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,14).
+b_group_i(2,3,lit,0,15,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Start',3,1,7) ]).
+b_line_i(2,2,2,cmd,1,[ t('',107,1,0),t('Tcurrentcode',23,1,0),t(=,10,1,0),t('getcookie(',1,1,0),t('"DAS_UserTInfo"',3,1,0),t(')',4,1,0) ]).
+b_line_i(4,2,2,cmd,1,[ t('',104,1,0),t(o(1,'ZXT_GetSystemConfig'),28,1,2),t('Tipaddress',23,1,28) ]).
+b_line_i(6,2,2,cmd,1,[ t('',107,1,0),t([ t('Embpage1',3,1,0),t('Source',3,1,0) ],29,1,0),t(=,10,1,0),t('trim(',1,1,0),t('Tipaddress',23,1,0),t(')',4,1,0),t(+,5,1,0),t('"/medicalimageqrcode.html"',3,1,0) ]).
+b_line_i(7,2,2,cmd,1,[ t('',107,1,0),t('Turl',23,1,0),t(=,10,1,0),t('trim(',1,1,0),t('Tipaddress',23,1,0),t(')',4,1,0),t(+,5,1,0),t('"/BR_SDUploadImage.aspx"',3,1,0) ]).
+b_line_i(9,2,2,cmd,1,[ t('',107,1,0),t([ t('Embpage1',3,1,0),t('Source',3,1,0) ],29,1,0),t(=,10,1,0),t([ t('Embpage1',3,1,0),t('Source',3,1,0) ],29,1,0),t(+,5,1,0),t('''?imageid=''',3,1,0),t(+,5,1,0),t('trim(',1,1,0),t('str(',1,1,0),t('Ibr_medicalimagingid',23,1,0),t(',',7,1,0),t(18,3,1,0),t(',',7,1,0),t(0,3,1,0),t(')',4,1,0),t(')',4,1,0),t(+,5,1,0),t(''',''',3,1,0),t(+,5,1,0),t('trim(',1,1,0),t('Tcurrentcode',23,1,0),t(')',4,1,0),t(+,5,1,0),t('''&url=''',3,1,0),t(+,5,1,0),t('trim(',1,1,0),t('Turl',23,1,0),t(')',4,1,0) ]).
+b_line_i(12,2,2,cmd,1,[ t('',147,1,0) ]).
+b_line_i(14,2,2,cmd,1,[ t('',146,1,0),t('Enter',3,14,7) ]).
+b_line_i(15,2,3,cmd,1,[ t('',118,1,0) ]).
+b_line_i(16,2,3,cmd,1,[ t('',147,1,0) ]).
+b_line_i(1000,2,3,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,3,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,3,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+ 
+html_sub_i(2,0,html_i(0,html('<tbody>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(4,5,html_i(0,comp(embpage))).
+html_sub_i(4,6,html_i(1,t('Code',23))).
+html_sub_i(2,7,html_i(2,row(7))).
+html_sub_i(7,8,html_i(0,cell(8))).
+html_sub_i(8,9,html_i(0,button('Enter'))).
+html_sub_i(8,10,html_i(1,button('Cancel'))).
+html_sub_i(2,0,html_i(3,html('</tbody>'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Id','Table1',v,[ str ]).
+html_comp_i(2,'Class','Table',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Header','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Backgroundgx','',d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Border','0',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Cellpadding','0',v,[ str ]).
+html_comp_i(2,'Cellspacing','0',v,[ str ]).
+html_comp_i(2,'Height',measure(400,px),v,[ measure ]).
+html_comp_i(2,'Width',measure(400,px),v,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(4,'Align',center,v,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Controlname','Embpage1',v,[ str ]).
+html_comp_i(5,'Class','EmbeddedPage',d,[ str ]).
+html_comp_i(5,'Borderstyle',0,v,[ num ]).
+html_comp_i(5,'Prop_embpage_scrolling',auto,d,[ str ]).
+html_comp_i(5,'Prop_embpage_src','',v,[ str ]).
+html_comp_i(5,'Title','',d,[ str ]).
+html_comp_i(5,'Gxwidth',measure(300,px),v,[ measure ]).
+html_comp_i(5,'Gxheight',measure(300,px),v,[ measure ]).
+html_comp_i(5,'Align',center,d,[ str ]).
+html_comp_i(6,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(6,'Colcount',5,d,[ num ]).
+html_comp_i(6,'Attid',-12,v,[ num ]).
+html_comp_i(6,'Class','Image',d,[ str ]).
+html_comp_i(6,'Controlname','&Code',d,[ str ]).
+html_comp_i(6,'Returnonclick',0,d,[ bool ]).
+html_comp_i(6,'Eventgx','',d,[ str ]).
+html_comp_i(6,'Captionclass','',d,[ str ]).
+html_comp_i(6,'Captionposition','',d,[ str ]).
+html_comp_i(6,'Captionvalue','',d,[ str ]).
+html_comp_i(6,'Layoutclass','',d,[ str ]).
+html_comp_i(6,'Controltype',2,d,[ num ]).
+html_comp_i(6,'Inputtype',0,d,[ num ]).
+html_comp_i(6,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(6,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(6,'Autocomplete',0,d,[ bool ]).
+html_comp_i(6,'Autoresize',-1,d,[ bool ]).
+html_comp_i(6,'Ismultiline',0,d,[ bool ]).
+html_comp_i(6,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(6,'Border','0',d,[ str ]).
+html_comp_i(6,'Alt','',d,[ str ]).
+html_comp_i(6,'Title','',d,[ str ]).
+html_comp_i(6,'Hspace',0,d,[ num ]).
+html_comp_i(6,'Vspace',0,d,[ num ]).
+html_comp_i(8,'Align',center,v,[ str ]).
+html_comp_i(8,'Height',measure(40,px),v,[ measure ]).
+html_comp_i(9,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(9,'Controlname','Button1',v,[ str ]).
+html_comp_i(9,'Class','ButtonMaterial',v,[ str ]).
+html_comp_i(9,'Event','Enter',d,[ str ]).
+html_comp_i(9,'Caption',上传完毕,d,[ str ]).
+html_comp_i(9,'Title',上传完毕,d,[ str ]).
+html_comp_i(9,'Font',font('Microsoft Sans Serif',9,[]),d,[ font ]).
+html_comp_i(9,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(9,'Backcolor',rgb(240,240,240),d,[ color ]).
+html_comp_i(9,'Border','1',d,[ str ]).
+html_comp_i(9,'Bordercolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(9,'Buttonborderstyle',standard,d,[ str ]).
+html_comp_i(10,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(10,'Controlname','Button2',v,[ str ]).
+html_comp_i(10,'Class','ButtonMaterial',v,[ str ]).
+html_comp_i(10,'Event','Cancel',v,[ str ]).
+html_comp_i(10,'Caption',取消,d,[ str ]).
+html_comp_i(10,'Title',取消,d,[ str ]).
+html_comp_i(10,'Font',font('Microsoft Sans Serif',9,[]),d,[ font ]).
+html_comp_i(10,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(10,'Backcolor',rgb(240,240,240),d,[ color ]).
+html_comp_i(10,'Border','1',d,[ str ]).
+html_comp_i(10,'Bordercolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(10,'Buttonborderstyle',standard,d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(5,1,comp(embpage),[ ctlname('Embpage1'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(6,1,t('Code',23),[ ctlname('&Code'),ctrltype(edit,6),pos(6),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(9,1,button('Enter'),[ ctlname('Button1'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(10,1,button('Cancel'),[ ctlname('Button2'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(2,1,table(2),[ ctlname('Table1') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+var_prop_i(45,'Ibr_medicalimagingid',idBasedOn,'',v).
+var_prop_i(45,'Timgid',idBasedOn,69,v).
+var_prop_i(45,'Tipaddress',idBasedOn,23,v).
+var_prop_i(45,'Turl',idBasedOn,12,v).
+var_prop_i(45,'Turl','AttRegEx','^((?:[a-zA-Z]+:(//)?)?((?:(?:[a-zA-Z]([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*)(?:\.(?:([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*))*)|(?:(\d{1,3}\.){3}\d{1,3}))(?::\d+)?(?:/([a-zA-Z0-9$\-_@.&+!*"''(),=;: ]|%[0-9a-fA-F]{2})+)*/?(?:[#?](?:[a-zA-Z0-9$\-_@.&+!*"''(),=;: /]|%[0-9a-fA-F]{2})*)?)?\s*$',d).
+var_prop_i(45,'Turl','AttValidationFailedMsg','GXM_DoesNotMatchRegExp',d).
+var_prop_i(45,'Tcookiecontent',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'Start',1,12,[ [ 'Ibr_medicalimagingid' ],[ [ t('Embpage1',3),t('Source',3) ] ] ]).
+sub_info_i(146,'Enter',14,16,[ [],[] ]).
+ 
+pgm_parm_i(proc,114,'ZXT_GETSYSTEMCONFIG',[ [ svchar,1024,0,0 ] ],[ [ oIpAddress,out,[] ] ]).
+ 
+pgm_callprotocol_i(web,245,'BR_MEDICALQRCODE','INTERNAL').
+pgm_callprotocol_i(proc,114,'ZXT_GETSYSTEMCONFIG','INTERNAL').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

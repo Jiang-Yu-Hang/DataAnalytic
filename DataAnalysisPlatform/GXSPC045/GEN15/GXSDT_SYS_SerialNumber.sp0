@@ -1,0 +1,43 @@
+ 
+spec_i([ sdt,[ 0,43,0 ],'SYS_SerialNumber','SYS_SerialNumber',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,43,0 ],name,'SYS_SerialNumber').
+struct_dt_i([ 0,43,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,43,0 ],significantName,'SYS_SerialNumber').
+struct_dt_i([ 0,43,0 ],'ObjName','SYS_SerialNumber').
+struct_dt_i([ 0,43,0 ],'ObjDesc','SYS_Serial Number').
+struct_dt_i([ 0,43,0 ],'ExternalName','SYS_SerialNumber').
+struct_dt_i([ 0,43,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,43,0 ],key,[ 357 ]).
+struct_dt_i([ 0,43,0 ],lvl,44).
+struct_dt_i([ 0,43,0 ],fullname,'SYS_SerialNumber').
+ 
+struct_dt_elem_i([ 0,43,0 ],1,name,'Serialkey').
+struct_dt_elem_i([ 0,43,0 ],1,camelname,'SerialKey').
+struct_dt_elem_i([ 0,43,0 ],1,length,64).
+struct_dt_elem_i([ 0,43,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,43,0 ],1,type,[ 13,64,0 ]).
+struct_dt_elem_i([ 0,43,0 ],1,pic,'').
+struct_dt_elem_i([ 0,43,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,43,0 ],1,attributeid,'357').
+struct_dt_elem_i([ 0,43,0 ],1,'ExternalName','SerialKey').
+struct_dt_elem_i([ 0,43,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,43,0 ],2,name,'Currentvalue').
+struct_dt_elem_i([ 0,43,0 ],2,camelname,'CurrentValue').
+struct_dt_elem_i([ 0,43,0 ],2,length,18).
+struct_dt_elem_i([ 0,43,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,43,0 ],2,sign,0).
+struct_dt_elem_i([ 0,43,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,43,0 ],2,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,43,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,43,0 ],2,attributeid,'415').
+struct_dt_elem_i([ 0,43,0 ],2,'ExternalName','CurrentValue').
+struct_dt_elem_i([ 0,43,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

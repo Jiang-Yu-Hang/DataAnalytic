@@ -1,0 +1,54 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>269</ObjId>
+<ObjName>WWPBaseObjects.DataManager_Direct</ObjName>
+<ObjDesc>跳转页面</ObjDesc>
+<ObjPgmName>WWPBaseObjects.DataManager_Direct</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0025</MsgCode>
+<Location>
+<Type>Events</Type>
+<Line>6</Line></Location>
+<Message>
+<Token>Too many parameters </Token>
+<Token>calling</Token>
+<Sp></Sp>
+<Token>WWPBaseObjects.SecLogIn</Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>29</ObjId>
+<ObjName>WWPBaseObjects.SecLogIn</ObjName>
+<ObjPgmName>WWPBaseObjects.SecLogIn</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Parameters>
+<Variable>
+<VarId>Turlcontent</VarId>
+<VarName>&amp;tUrlContent</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Ttokencontent</VarId>
+<VarName>&amp;tTokenContent</VarName></Variable></Parameters>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Load</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

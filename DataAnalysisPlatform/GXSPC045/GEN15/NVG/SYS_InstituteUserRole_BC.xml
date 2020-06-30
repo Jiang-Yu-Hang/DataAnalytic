@@ -1,0 +1,106 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>50</ObjId>
+<ObjName>SYS_InstituteUserRole_BC</ObjName>
+<ObjDesc>SYS_Institute User Role</ObjDesc>
+<ObjPgmName>SYS_InstituteUserRole_BC</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>51</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>51</TableId>
+<TableName>SYS_INSTITUTEUSERROLE</TableName>
+<Description>SYS_Institute User Role</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>51</TableId>
+<TableName>SYS_INSTITUTEUSERROLE</TableName>
+<Description>SYS_Institute User Role</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>363</AttriId>
+<AttriName>SYS_InstituteUserRoleUserRoleID</AttriName>
+<Description>SYS_Institute User Role User Role ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>51</TableId>
+<TableName>SYS_INSTITUTEUSERROLE</TableName>
+<Description>SYS_Institute User Role</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>363</AttriId>
+<AttriName>SYS_InstituteUserRoleUserRoleID</AttriName>
+<Description>SYS_Institute User Role User Role ID</Description></Attribute>
+<Attribute>
+<AttriId>435</AttriId>
+<AttriName>SYS_InstituteUserRoleUserID</AttriName>
+<Description>SYS_Institute User Role User ID</Description></Attribute>
+<Attribute>
+<AttriId>436</AttriId>
+<AttriName>SYS_InstituteUserRoleRoleID</AttriName>
+<Description>SYS_Institute User Role Role ID</Description></Attribute>
+<Attribute>
+<AttriId>443</AttriId>
+<AttriName>SYS_InstituteUserRoleInstituteCode</AttriName>
+<Description>SYS_Institute User Role Institute Code</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>51</TableId>
+<TableName>SYS_INSTITUTEUSERROLE</TableName>
+<Description>SYS_Institute User Role</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>435</AttriId>
+<AttriName>SYS_InstituteUserRoleUserID</AttriName>
+<Description>SYS_Institute User Role User ID</Description></Attribute>
+<Attribute>
+<AttriId>436</AttriId>
+<AttriName>SYS_InstituteUserRoleRoleID</AttriName>
+<Description>SYS_Institute User Role Role ID</Description></Attribute>
+<Attribute>
+<AttriId>443</AttriId>
+<AttriName>SYS_InstituteUserRoleInstituteCode</AttriName>
+<Description>SYS_Institute User Role Institute Code</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>51</TableId>
+<TableName>SYS_INSTITUTEUSERROLE</TableName>
+<Description>SYS_Institute User Role</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

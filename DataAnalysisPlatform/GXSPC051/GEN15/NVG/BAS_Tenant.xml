@@ -1,0 +1,214 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>51</ObjId>
+<ObjName>BAS_Tenant</ObjName>
+<ObjDesc>BAS_Tenant</ObjDesc>
+<ObjPgmName>BAS_Tenant</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>52</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>52</TableId>
+<TableName>BAS_TENANT</TableName>
+<Description>BAS_Tenant</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>52</TableId>
+<TableName>BAS_TENANT</TableName>
+<Description>BAS_Tenant</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>360</AttriId>
+<AttriName>BAS_TenantTenantCode</AttriName>
+<Description>BAS_Tenant Tenant Code</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>57</TableId>
+<TableName>BAS_INSTITUTE</TableName>
+<Description>BAS_Institute</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>358</AttriId>
+<AttriName>InstituteCode</AttriName>
+<Description>Institute Code</Description></Attribute></KeyAttributes>
+<JoinType>Outer</JoinType>
+<Tables></Tables></Table>
+<Table>
+<TableId>48</TableId>
+<TableName>SYS_DATABASE</TableName>
+<Description>SYS_Database</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>365</AttriId>
+<AttriName>DatabaseID</AttriName>
+<Description>Database ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>52</TableId>
+<TableName>BAS_TENANT</TableName>
+<Description>BAS_Tenant</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>360</AttriId>
+<AttriName>BAS_TenantTenantCode</AttriName>
+<Description>BAS_Tenant Tenant Code</Description></Attribute>
+<Attribute>
+<AttriId>394</AttriId>
+<AttriName>TenantName</AttriName>
+<Description>Tenant Name</Description></Attribute>
+<Attribute>
+<AttriId>395</AttriId>
+<AttriName>HospitalName</AttriName>
+<Description>Hospital Name</Description></Attribute>
+<Attribute>
+<AttriId>396</AttriId>
+<AttriName>BAS_TenantLogo</AttriName>
+<Description>BAS_Tenant Logo</Description></Attribute>
+<Attribute>
+<AttriId>397</AttriId>
+<AttriName>BAS_TenantCreator</AttriName>
+<Description>BAS_Tenant Creator</Description></Attribute>
+<Attribute>
+<AttriId>398</AttriId>
+<AttriName>BAS_TenantCreateTime</AttriName>
+<Description>BAS_Tenant Create Time</Description></Attribute>
+<Attribute>
+<AttriId>399</AttriId>
+<AttriName>BAS_TenantModifier</AttriName>
+<Description>BAS_Tenant Modifier</Description></Attribute>
+<Attribute>
+<AttriId>400</AttriId>
+<AttriName>BAS_TenantModifyTime</AttriName>
+<Description>BAS_Tenant Modify Time</Description></Attribute>
+<Attribute>
+<AttriId>401</AttriId>
+<AttriName>BAS_TenantIsDeleted</AttriName>
+<Description>BAS_Tenant Is Deleted</Description></Attribute>
+<Attribute>
+<AttriId>402</AttriId>
+<AttriName>BAS_TenantDescription</AttriName>
+<Description>BAS_Tenant Description</Description></Attribute>
+<Attribute>
+<AttriId>358</AttriId>
+<AttriName>InstituteCode</AttriName>
+<Description>Institute Code</Description></Attribute>
+<Attribute>
+<AttriId>365</AttriId>
+<AttriName>DatabaseID</AttriName>
+<Description>Database ID</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>52</TableId>
+<TableName>BAS_TENANT</TableName>
+<Description>BAS_Tenant</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>394</AttriId>
+<AttriName>TenantName</AttriName>
+<Description>Tenant Name</Description></Attribute>
+<Attribute>
+<AttriId>395</AttriId>
+<AttriName>HospitalName</AttriName>
+<Description>Hospital Name</Description></Attribute>
+<Attribute>
+<AttriId>396</AttriId>
+<AttriName>BAS_TenantLogo</AttriName>
+<Description>BAS_Tenant Logo</Description></Attribute>
+<Attribute>
+<AttriId>397</AttriId>
+<AttriName>BAS_TenantCreator</AttriName>
+<Description>BAS_Tenant Creator</Description></Attribute>
+<Attribute>
+<AttriId>398</AttriId>
+<AttriName>BAS_TenantCreateTime</AttriName>
+<Description>BAS_Tenant Create Time</Description></Attribute>
+<Attribute>
+<AttriId>399</AttriId>
+<AttriName>BAS_TenantModifier</AttriName>
+<Description>BAS_Tenant Modifier</Description></Attribute>
+<Attribute>
+<AttriId>400</AttriId>
+<AttriName>BAS_TenantModifyTime</AttriName>
+<Description>BAS_Tenant Modify Time</Description></Attribute>
+<Attribute>
+<AttriId>401</AttriId>
+<AttriName>BAS_TenantIsDeleted</AttriName>
+<Description>BAS_Tenant Is Deleted</Description></Attribute>
+<Attribute>
+<AttriId>402</AttriId>
+<AttriName>BAS_TenantDescription</AttriName>
+<Description>BAS_Tenant Description</Description></Attribute>
+<Attribute>
+<AttriId>358</AttriId>
+<AttriName>InstituteCode</AttriName>
+<Description>Institute Code</Description></Attribute>
+<Attribute>
+<AttriId>365</AttriId>
+<AttriName>DatabaseID</AttriName>
+<Description>Database ID</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>52</TableId>
+<TableName>BAS_TENANT</TableName>
+<Description>BAS_Tenant</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>64</TableId>
+<TableName>BR_PatientReTenant</TableName>
+<Description> T64</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>360</AttriId>
+<AttriName>BAS_TenantTenantCode</AttriName>
+<Description>BAS_Tenant Tenant Code</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>45</TableId>
+<TableName>SYS_TENANTUSER</TableName>
+<Description>SYS_Tenant User</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>360</AttriId>
+<AttriName>BAS_TenantTenantCode</AttriName>
+<Description>BAS_Tenant Tenant Code</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts></Prompts>
+<Suggests></Suggests></ObjectSpec>

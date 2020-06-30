@@ -1,0 +1,68 @@
+ 
+spec_i([ sdt,[ 0,37,0 ],'BR_Procedure_Radio','BR_Procedure_Radio',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,37,0 ],name,'BR_Procedure_Radio').
+struct_dt_i([ 0,37,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,37,0 ],significantName,'BR_Procedure_Radio').
+struct_dt_i([ 0,37,0 ],'ObjName','BR_Procedure_Radio').
+struct_dt_i([ 0,37,0 ],'ObjDesc','Data Mgmt Portal - RAAP').
+struct_dt_i([ 0,37,0 ],'ExternalName','BR_Procedure_Radio').
+struct_dt_i([ 0,37,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,37,0 ],key,[ 323 ]).
+struct_dt_i([ 0,37,0 ],lvl,38).
+struct_dt_i([ 0,37,0 ],fullname,'BR_Procedure_Radio').
+ 
+struct_dt_elem_i([ 0,37,0 ],1,name,'Br_procedure_radioid').
+struct_dt_elem_i([ 0,37,0 ],1,camelname,'BR_Procedure_RadioID').
+struct_dt_elem_i([ 0,37,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,37,0 ],1,length,18).
+struct_dt_elem_i([ 0,37,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,37,0 ],1,sign,0).
+struct_dt_elem_i([ 0,37,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,37,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,37,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],1,attributeid,'323').
+struct_dt_elem_i([ 0,37,0 ],1,'ExternalName','BR_Procedure_RadioID').
+struct_dt_elem_i([ 0,37,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,37,0 ],2,name,'Br_procedureid').
+struct_dt_elem_i([ 0,37,0 ],2,camelname,'BR_ProcedureID').
+struct_dt_elem_i([ 0,37,0 ],2,basedon,69).
+struct_dt_elem_i([ 0,37,0 ],2,length,18).
+struct_dt_elem_i([ 0,37,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,37,0 ],2,sign,0).
+struct_dt_elem_i([ 0,37,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,37,0 ],2,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,37,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],2,attributeid,'139').
+struct_dt_elem_i([ 0,37,0 ],2,'ExternalName','BR_ProcedureID').
+struct_dt_elem_i([ 0,37,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,37,0 ],3,name,'Br_procedure_radio_loc').
+struct_dt_elem_i([ 0,37,0 ],3,camelname,'BR_Procedure_Radio_Loc').
+struct_dt_elem_i([ 0,37,0 ],3,length,100).
+struct_dt_elem_i([ 0,37,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,37,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,37,0 ],3,pic,'').
+struct_dt_elem_i([ 0,37,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],3,attributeid,'324').
+struct_dt_elem_i([ 0,37,0 ],3,'ExternalName','BR_Procedure_Radio_Loc').
+struct_dt_elem_i([ 0,37,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,37,0 ],4,name,'Br_procedure_radio_amount').
+struct_dt_elem_i([ 0,37,0 ],4,camelname,'BR_Procedure_Radio_Amount').
+struct_dt_elem_i([ 0,37,0 ],4,length,100).
+struct_dt_elem_i([ 0,37,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,37,0 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,37,0 ],4,pic,'').
+struct_dt_elem_i([ 0,37,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],4,attributeid,'325').
+struct_dt_elem_i([ 0,37,0 ],4,'ExternalName','BR_Procedure_Radio_Amount').
+struct_dt_elem_i([ 0,37,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

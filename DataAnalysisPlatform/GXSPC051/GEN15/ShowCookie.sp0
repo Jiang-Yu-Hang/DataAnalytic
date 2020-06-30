@@ -1,0 +1,474 @@
+spec_i([ web,272,呈现cookie的页面,'ShowCookie',0,chs,'16_0_0-127771' ]).
+ 
+struct_i(2,1,[ 'Tcookie_dasloginuser' ],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Tcookie_dasloginuser','Tcurrenttenantcode' ] ]).
+ 
+lac_i(2,[ [ 'Tcookie_dasloginuser','Tcurrenttenantcode' ] ]).
+ 
+ 
+lits_i('DAS的Cookie',5,10).
+lits_i(当前租户的code,5,10).
+ 
+cls_i([ 0,0 ],[ 5,499 ]).
+ 
+pos_i('Tcookie_dasloginuser',[ 0,0,0 ]).
+pos_i('Tcurrenttenantcode',[ 0,0,0 ]).
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS',���)).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',���)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','ShowCookie')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('Folder',o(8,nouse))).
+rule_i(0,prop('ObjDesc',呈现cookie的页面)).
+rule_i(0,prop('ObjName','ShowCookie')).
+rule_i(0,maingen(15)).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',10 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',9 ]).
+attri_i('Jwtdecode',[ 'JWTDecode',o('JWTDecode'),0,0,'',0,'JWTDecode','',8 ]).
+attri_i('Dbconnection',[ 'DBConnection',o(dbconnection),4,0,'',0,'DBConnection','',7 ]).
+attri_i('Tcurrenttenantcode',[ tCurrentTenantCode,svchar,400,0,'',0,'t Current Tenant Code','',6 ]).
+attri_i('Tcookie_dasloginuser',[ tCookie_DASLoginUser,svchar,500,0,'',0,'DAS的Cookie','',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Start',3,1,7) ]).
+b_line_i(2,2,2,cmd,1,[ t('',107,1,0),t('Tcookie_dasloginuser',23,1,0),t(=,10,1,0),t('getcookie(',1,1,0),t('''DAS_LoginUser''',3,1,0),t(')',4,1,0) ]).
+b_line_i(4,2,2,cmd,1,[ t('',107,1,0),t('Tcookie_dasloginuser',23,1,0),t(=,10,1,0),t([ t('Jwtdecode',23,1,0),t('decode(',1,1,0) ],31,1,0),t('Tcookie_dasloginuser',23,1,0),t(')',4,1,0) ]).
+b_line_i(5,2,2,cmd,1,[ t('',147,1,0) ]).
+b_line_i(1000,2,2,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,2,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,2,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+ 
+html_sub_i(2,0,html_i(0,html('<tbody>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(4,5,html_i(0,t('DAS的Cookie',3))).
+html_sub_i(3,6,html_i(1,cell(6))).
+html_sub_i(6,7,html_i(0,t('Tcookie_dasloginuser',23))).
+html_sub_i(2,8,html_i(2,row(8))).
+html_sub_i(8,9,html_i(0,cell(9))).
+html_sub_i(9,10,html_i(0,t(当前租户的code,3))).
+html_sub_i(8,11,html_i(1,cell(11))).
+html_sub_i(11,12,html_i(0,t('Tcurrenttenantcode',23))).
+html_sub_i(2,0,html_i(3,html('</tbody>'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Id','Table1',v,[ str ]).
+html_comp_i(2,'Class','Table',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Header','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Backgroundgx','',d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Border','0',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Cellpadding','1',d,[ str ]).
+html_comp_i(2,'Cellspacing','2',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Caption','DAS的Cookie',d,[ str ]).
+html_comp_i(5,'Id','Textblock2',v,[ str ]).
+html_comp_i(5,'Class','TextBlock',d,[ str ]).
+html_comp_i(5,'Event','',d,[ str ]).
+html_comp_i(5,'Returnonclick',0,d,[ bool ]).
+html_comp_i(5,'Gxformat',0,d,[ num ]).
+html_comp_i(5,'Title','',d,[ str ]).
+html_comp_i(5,'Fill',-1,d,[ bool ]).
+html_comp_i(5,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(5,'Forecolor',rgb(0,4,68),d,[ color ]).
+html_comp_i(5,'Font',font('Trebuchet MS',9,[]),d,[ font ]).
+html_comp_i(7,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(7,'Colcount',80,d,[ num ]).
+html_comp_i(7,'Attid',-5,v,[ num ]).
+html_comp_i(7,'Class','Attribute',d,[ str ]).
+html_comp_i(7,'Controlname','&Tcookie_dasloginuser',d,[ str ]).
+html_comp_i(7,'Returnonclick',0,d,[ bool ]).
+html_comp_i(7,'Captionclass','',d,[ str ]).
+html_comp_i(7,'Captionposition','',d,[ str ]).
+html_comp_i(7,'Captionvalue','',d,[ str ]).
+html_comp_i(7,'Layoutclass','',d,[ str ]).
+html_comp_i(7,'Controltype',2,d,[ num ]).
+html_comp_i(7,'Inputtype',0,d,[ num ]).
+html_comp_i(7,'Editautocomplete',0,d,[ num ]).
+html_comp_i(7,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(7,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(7,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(7,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(7,'Readonly',0,d,[ bool ]).
+html_comp_i(7,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(7,'Ispassword',0,d,[ bool ]).
+html_comp_i(7,'Autoresize',-1,d,[ bool ]).
+html_comp_i(7,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(7,'Gxheight',measure(7,row),d,[ measure ]).
+html_comp_i(7,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(7,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(7,'Fill',-1,d,[ bool ]).
+html_comp_i(7,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(7,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(7,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(7,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(7,'Gxformat',0,d,[ num ]).
+html_comp_i(7,'Title','',d,[ str ]).
+html_comp_i(7,'Invitemsg','',d,[ str ]).
+html_comp_i(10,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(10,'Caption',当前租户的code,d,[ str ]).
+html_comp_i(10,'Id','Textblock3',v,[ str ]).
+html_comp_i(10,'Class','TextBlock',d,[ str ]).
+html_comp_i(10,'Event','',d,[ str ]).
+html_comp_i(10,'Returnonclick',0,d,[ bool ]).
+html_comp_i(10,'Gxformat',0,d,[ num ]).
+html_comp_i(10,'Title','',d,[ str ]).
+html_comp_i(10,'Fill',-1,d,[ bool ]).
+html_comp_i(10,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(10,'Forecolor',rgb(0,4,68),d,[ color ]).
+html_comp_i(10,'Font',font('Trebuchet MS',9,[]),d,[ font ]).
+html_comp_i(12,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(12,'Colcount',80,d,[ num ]).
+html_comp_i(12,'Attid',-6,v,[ num ]).
+html_comp_i(12,'Class','Attribute',d,[ str ]).
+html_comp_i(12,'Controlname','&Tcurrenttenantcode',d,[ str ]).
+html_comp_i(12,'Returnonclick',0,d,[ bool ]).
+html_comp_i(12,'Captionclass','',d,[ str ]).
+html_comp_i(12,'Captionposition','',d,[ str ]).
+html_comp_i(12,'Captionvalue','',d,[ str ]).
+html_comp_i(12,'Layoutclass','',d,[ str ]).
+html_comp_i(12,'Controltype',2,d,[ num ]).
+html_comp_i(12,'Inputtype',0,d,[ num ]).
+html_comp_i(12,'Editautocomplete',0,d,[ num ]).
+html_comp_i(12,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(12,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(12,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(12,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(12,'Readonly',0,d,[ bool ]).
+html_comp_i(12,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(12,'Ispassword',0,d,[ bool ]).
+html_comp_i(12,'Autoresize',-1,d,[ bool ]).
+html_comp_i(12,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(12,'Gxheight',measure(5,row),d,[ measure ]).
+html_comp_i(12,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(12,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(12,'Fill',-1,d,[ bool ]).
+html_comp_i(12,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(12,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(12,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(12,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(12,'Gxformat',0,d,[ num ]).
+html_comp_i(12,'Title','',d,[ str ]).
+html_comp_i(12,'Invitemsg','',d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(5,1,t('DAS的Cookie',3),[ ctlname('Textblock2') ]).
+lit_i(7,1,t('Tcookie_dasloginuser',23),[ ctlname('&Tcookie_dasloginuser'),ctrltype(edit,7),pos(7),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(10,1,t(当前租户的code,3),[ ctlname('Textblock3') ]).
+lit_i(12,1,t('Tcurrenttenantcode',23),[ ctlname('&Tcurrenttenantcode'),ctrltype(edit,12),pos(12),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(2,1,table(2),[ ctlname('Table1') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 14,40,0 ],name,'JWTDecode').
+struct_dt_i([ 14,40,0 ],'ObjName','JWTDecode').
+struct_dt_i([ 14,40,0 ],'ObjDesc','').
+struct_dt_i([ 14,40,0 ],'ExoType','0').
+struct_dt_i([ 14,40,0 ],'ObjNamespace','api.Controllers').
+struct_dt_i([ 14,40,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,40,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,40,0 ],'ExoNameCSHARP','JWTDecode').
+struct_dt_i([ 14,40,0 ],'AssemblyName','api.dll').
+struct_dt_i([ 14,40,0 ],'ExoConstructorParametersCSHARP','').
+struct_dt_i([ 14,40,0 ],'ExoNameNETCORE','JWTDecode').
+struct_dt_i([ 14,40,0 ],'NetCoreAssemblyName','api.dll').
+struct_dt_i([ 14,40,0 ],'ExoConstructorParametersNETCORE','').
+struct_dt_i([ 14,40,0 ],'PackageName','').
+struct_dt_i([ 14,40,0 ],'RequireName','').
+struct_dt_i([ 14,40,0 ],'ExoNameJS','').
+struct_dt_i([ 14,40,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,40,0 ],'Folder',o(8,externalObject)).
+struct_dt_i([ 14,40,0 ],'FullyQualifiedName','JWTDecode').
+struct_dt_i([ 14,40,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,40,0 ],fullname,'JWTDecode').
+struct_dt_i([ 14,40,0 ],modified,yes).
+ 
+ 
+struct_dt_method_i([ 14,40,0 ],1,name,decode).
+struct_dt_method_i([ 14,40,0 ],1,camelname,'Decode').
+struct_dt_method_i([ 14,40,0 ],1,externalType,'').
+struct_dt_method_i([ 14,40,0 ],1,length,9999).
+struct_dt_method_i([ 14,40,0 ],1,decimals,0).
+struct_dt_method_i([ 14,40,0 ],1,type,[ 5,9999,0 ]).
+struct_dt_method_i([ 14,40,0 ],1,'IntName','Decode').
+struct_dt_method_i([ 14,40,0 ],1,'ExoItemDesc','').
+struct_dt_method_i([ 14,40,0 ],1,'ExoItemType','Character').
+struct_dt_method_i([ 14,40,0 ],1,basedon,'').
+struct_dt_method_i([ 14,40,0 ],1,'XmlName','Decode').
+struct_dt_method_i([ 14,40,0 ],1,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,40,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,40,0 ],1,'ExoNameCSHARP','Decode').
+struct_dt_method_i([ 14,40,0 ],1,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_method_i([ 14,40,0 ],1,'ExoNameNETCORE','Decode').
+struct_dt_method_i([ 14,40,0 ],1,'ExoItemExtTypeNETCORE','System.String').
+struct_dt_method_i([ 14,40,0 ],1,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,40,0 ],1,'ExoNameJS','').
+ 
+struct_dt_param_i([ 14,40,1 ],1,name,token).
+struct_dt_param_i([ 14,40,1 ],1,camelname,token).
+struct_dt_param_i([ 14,40,1 ],1,externalType,'').
+struct_dt_param_i([ 14,40,1 ],1,length,9999).
+struct_dt_param_i([ 14,40,1 ],1,decimals,0).
+struct_dt_param_i([ 14,40,1 ],1,type,[ 5,9999,0 ]).
+struct_dt_param_i([ 14,40,1 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,40,1 ],1,'IntName',token).
+struct_dt_param_i([ 14,40,1 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,40,1 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,40,1 ],1,basedon,'').
+struct_dt_param_i([ 14,40,1 ],1,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_param_i([ 14,40,1 ],1,'ExoItemExtTypeNETCORE','System.String').
+ 
+ 
+ 
+sub_info_i(146,'Start',1,5,[ [ 'Jwtdecode' ],[ 'Tcookie_dasloginuser' ] ]).
+ 
+ 
+pgm_callprotocol_i(web,272,'SHOWCOOKIE','INTERNAL').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

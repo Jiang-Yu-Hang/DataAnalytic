@@ -1,0 +1,56 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>1</ObjId>
+<ObjName>AppMasterPage</ObjName>
+<ObjDesc>Application Master Page </ObjDesc>
+<ObjPgmName>AppMasterPage</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>27</ObjId>
+<ObjName>WWPBaseObjects.SecIsAuthByObjectName</ObjName>
+<ObjPgmName>WWPBaseObjects.SecIsAuthByObjectName</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Token>t(Contentholder,3,34,31)</Token>
+<Token>t(Pgmname,3,34,45)</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Isauthorized</VarId>
+<VarName>&amp;IsAuthorized</VarName></Variable></Parameters>
+<IF></IF></CALL>
+<CALL>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>16</ObjId>
+<ObjName>WWPBaseObjects.NotAuthorized</ObjName>
+<ObjPgmName>WWPBaseObjects.NotAuthorized</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Parameters>
+<Token>t(Contentholder,3,36,24)</Token>
+<Token>t(Pgmname,3,36,38)</Token></Parameters>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Refresh</EventName></Event>
+<Event>
+<EventName>Load</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

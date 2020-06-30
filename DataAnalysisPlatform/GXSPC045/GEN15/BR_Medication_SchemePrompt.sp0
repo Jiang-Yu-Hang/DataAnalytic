@@ -1,0 +1,2209 @@
+spec_i([ web,207,选择药物治疗化疗方案,'BR_Medication_SchemePrompt',0,chs,'16_0_0-127771' ]).
+ 
+struct_i(2,1,[ 'Isauthorized','Pgmname','Ddo_br_medication_schemeidtitlecontrolidtoreplace','Ddo_br_medicationidtitlecontrolidtoreplace','Ddo_br_medication_chem_nametitlecontrolidtoreplace','Ddo_br_medication_chem_cycletitlecontrolidtoreplace','Ddo_br_medication_chem_linetitlecontrolidtoreplace','Ddo_br_medication_chem_detailtitlecontrolidtoreplace','Ddo_titlesettingsicons' ],[]).
+ 
+level_i(2,[ 32,[ [ 32,many ] ],[],[],[ [ [ 32 ],[ 313,307,306,305,119,296 ] ] ],[ [ [ 32 ],[] ] ],[],'',[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+cond_order_i(2,[ 296 ],[ t('Orderedby',23),t(=,10),t('1',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -296 ],[ t('Orderedby',23),t(=,10),t('1',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 119 ],[ t('Orderedby',23),t(=,10),t('2',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -119 ],[ t('Orderedby',23),t(=,10),t('2',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 305 ],[ t('Orderedby',23),t(=,10),t('3',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -305 ],[ t('Orderedby',23),t(=,10),t('3',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 306 ],[ t('Orderedby',23),t(=,10),t('4',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -306 ],[ t('Orderedby',23),t(=,10),t('4',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 307 ],[ t('Orderedby',23),t(=,10),t('5',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -307 ],[ t('Orderedby',23),t(=,10),t('5',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 313 ],[ t('Orderedby',23),t(=,10),t('6',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -313 ],[ t('Orderedby',23),t(=,10),t('6',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 296 ],[]).
+ 
+level_option_i(2,server_paging,[ y,[] ]).
+ 
+ta_i(2,[ [ [ 32,313 ],[ 32,307 ],[ 32,306 ],[ 32,305 ],[ 32,119 ],[ 32,296 ] ] ]).
+ 
+las_i(2,[ [ 'Inoutbr_medication_schemeid','Gridcurrentpage','Ddo_titlesettingsicons','Ddo_br_medication_schemeidtitlecontrolidtoreplace','Ddo_br_medicationidtitlecontrolidtoreplace','Ddo_br_medication_chem_nametitlecontrolidtoreplace','Ddo_br_medication_chem_cycletitlecontrolidtoreplace','Ddo_br_medication_chem_linetitlecontrolidtoreplace','Ddo_br_medication_chem_detailtitlecontrolidtoreplace','Orderedby','Ordereddsc',313,307,306,305,119,296 ] ]).
+ 
+lac_i(2,[ [ 'Gridcurrentpage','Ddo_titlesettingsicons','Ddo_br_medication_schemeidtitlecontrolidtoreplace','Ddo_titlesettingsicons','Ddo_br_medicationidtitlecontrolidtoreplace','Ddo_titlesettingsicons','Ddo_br_medication_chem_nametitlecontrolidtoreplace','Ddo_titlesettingsicons','Ddo_br_medication_chem_cycletitlecontrolidtoreplace','Ddo_titlesettingsicons','Ddo_br_medication_chem_linetitlecontrolidtoreplace','Ddo_titlesettingsicons','Ddo_br_medication_chem_detailtitlecontrolidtoreplace','Orderedby','Ordereddsc' ] ]).
+ 
+ 
+ 
+cls_i([ 0,0 ],[ 2,1320 ]).
+ 
+pos_i('Select',[ 1,2,0 ]).
+pos_i(296,[ 1,2,1025 ]).
+pos_i(119,[ 1,2,1044 ]).
+pos_i(305,[ 1,2,1063 ]).
+pos_i(306,[ 1,2,1164 ]).
+pos_i(307,[ 1,2,1180 ]).
+pos_i(313,[ 1,2,1221 ]).
+pos_i('Gridcurrentpage',[ 0,0,0 ]).
+pos_i('Ddo_titlesettingsicons',[ 0,0,0 ]).
+pos_i('Ddo_br_medication_schemeidtitlecontrolidtoreplace',[ 0,0,0 ]).
+pos_i('Ddo_titlesettingsicons',[ 0,0,0 ]).
+pos_i('Ddo_br_medicationidtitlecontrolidtoreplace',[ 0,0,0 ]).
+pos_i('Ddo_titlesettingsicons',[ 0,0,0 ]).
+pos_i('Ddo_br_medication_chem_nametitlecontrolidtoreplace',[ 0,0,0 ]).
+pos_i('Ddo_titlesettingsicons',[ 0,0,0 ]).
+pos_i('Ddo_br_medication_chem_cycletitlecontrolidtoreplace',[ 0,0,0 ]).
+pos_i('Ddo_titlesettingsicons',[ 0,0,0 ]).
+pos_i('Ddo_br_medication_chem_linetitlecontrolidtoreplace',[ 0,0,0 ]).
+pos_i('Ddo_titlesettingsicons',[ 0,0,0 ]).
+pos_i('Ddo_br_medication_chem_detailtitlecontrolidtoreplace',[ 0,0,0 ]).
+pos_i('Orderedby',[ 0,0,0 ]).
+pos_i('Ordereddsc',[ 0,0,0 ]).
+ 
+repeat_i(2,[ 1,2,[ 'Select',296,119,305,306,307,313 ],[] ]).
+ 
+default_i(e('Pgmname',2,2,'"BR_Medication_SchemePrompt"')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','商?')).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','商?')).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','BR_Medication_SchemePrompt')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('ObjDesc',选择药物治疗化疗方案)).
+rule_i(0,prop('ObjName','BR_Medication_SchemePrompt')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Inoutbr_medication_schemeid' ],[])).
+rule_i(0,parmio([ [ 'Inoutbr_medication_schemeid',inout ] ])).
+ 
+a_i(1,1,f,'Pgmname',[],[ [],[ t('"BR_Medication_SchemePrompt"',3) ] ]).
+a_i(2,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(3,2,t,32,[],[ [],'',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Pgmname').
+v_i(f,i,2,[]).
+v_i(f,o,2,'Err').
+v_i(t,i,3,[]).
+v_i(t,o,3,313).
+v_i(t,o,3,307).
+v_i(t,o,3,306).
+v_i(t,o,3,305).
+v_i(t,o,3,119).
+v_i(t,o,3,296).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(313,[ 'BR_Medication_Chem_Detail',svchar,100,0,'',0,描述化疗方案,'',0 ]).
+attri_i(307,[ 'BR_Medication_Chem_Line',svchar,40,0,'',0,线级,'',0 ]).
+attri_i(306,[ 'BR_Medication_Chem_Cycle',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,周期,'',0 ]).
+attri_i(305,[ 'BR_Medication_Chem_Name',svchar,100,0,'',0,化疗方案名称,'',0 ]).
+attri_i(119,[ 'BR_MedicationID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,药物治疗主键,'',0 ]).
+attri_i(296,[ 'BR_Medication_SchemeID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,药物治疗化疗方案主键,'',0 ]).
+attri_i('Select_GXI',[ 'Select_GXI',svchar,2048,0,'',0,'',[],45 ]).
+attri_i('Pgmname',[ 'Pgmname',char,129,0,'',1,'Program name','',44 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',43 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',42 ]).
+attri_i('Ddo_br_medication_chem_detailtitlecontrolidtoreplace',[ ddo_BR_Medication_Chem_DetailTitleControlIdToReplace,svchar,300,0,'',0,'ddo_BR_Medication_Chem_Detail Title Control Id To Replace','',41 ]).
+attri_i('Br_medication_chem_detailtitlefilterdata',[ 'BR_Medication_Chem_DetailTitleFilterData',o(objectcollection('WWPBaseObjects\DVB_SDTDropDownOptionsData.Item')),0,0,'',0,'BR_Medication_Chem_Detail Title Filter Data','',40 ]).
+attri_i('Ddo_br_medication_chem_descriptiontitlecontrolidtoreplace',[ ddo_BR_Medication_Chem_DescriptionTitleControlIdToReplace,svchar,300,0,'',0,'ddo_BR_Medication_Chem_Description Title Control Id To Replace','',39 ]).
+attri_i('Br_medication_chem_descriptiontitlefilterdata',[ 'BR_Medication_Chem_DescriptionTitleFilterData',o(objectcollection('WWPBaseObjects\DVB_SDTDropDownOptionsData.Item')),0,0,'',0,'BR_Medication_Chem_Description Title Filter Data','',38 ]).
+attri_i('Ddo_br_medication_chem_linetitlecontrolidtoreplace',[ ddo_BR_Medication_Chem_LineTitleControlIdToReplace,svchar,300,0,'',0,'ddo_BR_Medication_Chem_Line Title Control Id To Replace','',37 ]).
+attri_i('Br_medication_chem_linetitlefilterdata',[ 'BR_Medication_Chem_LineTitleFilterData',o(objectcollection('WWPBaseObjects\DVB_SDTDropDownOptionsData.Item')),0,0,'',0,'BR_Medication_Chem_Line Title Filter Data','',36 ]).
+attri_i('Ddo_br_medication_chem_cycletitlecontrolidtoreplace',[ ddo_BR_Medication_Chem_CycleTitleControlIdToReplace,svchar,300,0,'',0,'ddo_BR_Medication_Chem_Cycle Title Control Id To Replace','',35 ]).
+attri_i('Br_medication_chem_cycletitlefilterdata',[ 'BR_Medication_Chem_CycleTitleFilterData',o(objectcollection('WWPBaseObjects\DVB_SDTDropDownOptionsData.Item')),0,0,'',0,'BR_Medication_Chem_Cycle Title Filter Data','',34 ]).
+attri_i('Ddo_br_medication_chem_nametitlecontrolidtoreplace',[ ddo_BR_Medication_Chem_NameTitleControlIdToReplace,svchar,300,0,'',0,'ddo_BR_Medication_Chem_Name Title Control Id To Replace','',33 ]).
+attri_i('Br_medication_chem_nametitlefilterdata',[ 'BR_Medication_Chem_NameTitleFilterData',o(objectcollection('WWPBaseObjects\DVB_SDTDropDownOptionsData.Item')),0,0,'',0,'BR_Medication_Chem_Name Title Filter Data','',32 ]).
+attri_i('Inoutbr_medication_chem_name',[ 'InOutBR_Medication_Chem_Name',svchar,100,0,'',0,'In Out BR_Medication_Chem_Name','',31 ]).
+attri_i('Select',[ 'Select',bits,1024,0,'',0,'Select','',30 ]).
+attri_i('Gridrecordcount',[ 'GridRecordCount',int,10,0,'ZZZZZZZZZ9',0,'Grid Record Count','',29 ]).
+attri_i('Gridpagesize',[ 'GridPageSize',int,10,0,'ZZZZZZZZZ9',0,'Grid Page Size','',28 ]).
+attri_i('Gridcurrentpage',[ 'GridCurrentPage',int,10,0,'ZZZZZZZZZ9',0,'Grid Current Page','',27 ]).
+attri_i('Pagetogo',[ 'PageToGo',int,6,0,'ZZZZZ9',0,'Page To Go','',26 ]).
+attri_i('Ddo_titlesettingsicons',[ 'DDO_TitleSettingsIcons',o('WWPBaseObjects\DVB_SDTDropDownOptionsTitleSettingsIcons'),0,0,'',0,'DDO_Title Settings Icons','',25 ]).
+attri_i('Ddo_br_medication_scheme_descriptiontitlecontrolidtoreplace',[ ddo_BR_Medication_Scheme_DescriptionTitleControlIdToReplace,svchar,300,0,'',0,'ddo_BR_Medication_Scheme_Description Title Control Id To Replace','',24 ]).
+attri_i('Br_medication_scheme_descriptiontitlefilterdata',[ 'BR_Medication_Scheme_DescriptionTitleFilterData',o(objectcollection('WWPBaseObjects\DVB_SDTDropDownOptionsData.Item')),0,0,'',0,'BR_Medication_Scheme_Description Title Filter Data','',23 ]).
+attri_i('Ddo_br_medication_scheme_linetitlecontrolidtoreplace',[ ddo_BR_Medication_Scheme_LineTitleControlIdToReplace,svchar,300,0,'',0,'ddo_BR_Medication_Scheme_Line Title Control Id To Replace','',22 ]).
+attri_i('Br_medication_scheme_linetitlefilterdata',[ 'BR_Medication_Scheme_LineTitleFilterData',o(objectcollection('WWPBaseObjects\DVB_SDTDropDownOptionsData.Item')),0,0,'',0,'BR_Medication_Scheme_Line Title Filter Data','',21 ]).
+attri_i('Ddo_br_medication_scheme_cycletitlecontrolidtoreplace',[ ddo_BR_Medication_Scheme_CycleTitleControlIdToReplace,svchar,300,0,'',0,'ddo_BR_Medication_Scheme_Cycle Title Control Id To Replace','',20 ]).
+attri_i('Br_medication_scheme_cycletitlefilterdata',[ 'BR_Medication_Scheme_CycleTitleFilterData',o(objectcollection('WWPBaseObjects\DVB_SDTDropDownOptionsData.Item')),0,0,'',0,'BR_Medication_Scheme_Cycle Title Filter Data','',19 ]).
+attri_i('Ddo_br_medication_scheme_nametitlecontrolidtoreplace',[ ddo_BR_Medication_Scheme_NameTitleControlIdToReplace,svchar,300,0,'',0,'ddo_BR_Medication_Scheme_Name Title Control Id To Replace','',18 ]).
+attri_i('Br_medication_scheme_nametitlefilterdata',[ 'BR_Medication_Scheme_NameTitleFilterData',o(objectcollection('WWPBaseObjects\DVB_SDTDropDownOptionsData.Item')),0,0,'',0,'BR_Medication_Scheme_Name Title Filter Data','',17 ]).
+attri_i('Ddo_br_medicationidtitlecontrolidtoreplace',[ ddo_BR_MedicationIDTitleControlIdToReplace,svchar,300,0,'',0,'ddo_BR_Medication IDTitle Control Id To Replace','',16 ]).
+attri_i('Br_medicationidtitlefilterdata',[ 'BR_MedicationIDTitleFilterData',o(objectcollection('WWPBaseObjects\DVB_SDTDropDownOptionsData.Item')),0,0,'',0,'BR_Medication IDTitle Filter Data','',15 ]).
+attri_i('Ddo_br_medication_schemeidtitlecontrolidtoreplace',[ ddo_BR_Medication_SchemeIDTitleControlIdToReplace,svchar,300,0,'',0,'ddo_BR_Medication_Scheme IDTitle Control Id To Replace','',14 ]).
+attri_i('Br_medication_schemeidtitlefilterdata',[ 'BR_Medication_SchemeIDTitleFilterData',o(objectcollection('WWPBaseObjects\DVB_SDTDropDownOptionsData.Item')),0,0,'',0,'BR_Medication_Scheme IDTitle Filter Data','',13 ]).
+attri_i('Ordereddsc',[ 'OrderedDsc',boolean,4,0,'',0,'Ordered Dsc','',12 ]).
+attri_i('Orderedby',[ 'OrderedBy',int,4,0,'ZZZ9',0,'Ordered By','',11 ]).
+attri_i('Httprequest',[ 'HTTPRequest',o(httprequest),4,0,'',0,'HTTPRequest','',10 ]).
+attri_i('Inoutbr_medication_scheme_name',[ 'InOutBR_Medication_Scheme_Name',svchar,100,0,'',0,'In Out BR_Medication_Scheme_Name','',9 ]).
+attri_i('Inoutbr_medication_schemeid',[ 'InOutBR_Medication_SchemeID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'In Out BR_Medication_Scheme ID','',8 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,'Security Functionality Keys','',7 ]).
+attri_i('Wwpcontext',[ 'WWPContext',o('WWPBaseObjects\WWPContext'),0,0,'',0,'WWPContext','',6 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,'Is Authorized','',5 ]).
+ 
+table_i(32,[ 'BR_Medication_Scheme',[ 296,119,305,306,307,313 ],' T32','BR_Medication_Scheme' ]).
+ 
+index_i(32,[ 'IBR_MEDICATION_SCHEME',u,[ 296 ],'IBR_Medication_Scheme' ]).
+index_i(32,[ 'IBR_MEDICATION_SCHEME1',d,[ 119 ],'IBR_Medication_Scheme1' ]).
+ 
+ 
+ 
+function_i(2,'Ddo_titlesettingsicons',yes,udp,o(1,'WWPBaseObjects\GetWWPTitleSettingsIcons'),[],38,'Ddo_titlesettingsicons',[ [] ]).
+function_i(2,'Isauthorized',yes,udp,o(1,'WWPBaseObjects\SecIsAuthByFunctionalityKey'),[],6,'Isauthorized',[ [ t('''WWBR_Medication_Scheme''',3) ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,45,'Select_GXI','Select','Select_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enum_value_i(45,61,'9','Rows','"Rows"',[ none ]).
+ 
+enum_value_info_i(45,61,'Page').
+ 
+enum_type_i(45,61,int,4,0).
+ 
+dom_info_i(69,[ 'ID' ]).
+dom_info_i(103,[ 'DM_Numeric' ]).
+dom_info_i(90,[ 'WWPSecFunctionalityKey' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 296,119,305,306,307,313 ],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,2).
+b_group_i(2,2,lit,0,3,45).
+b_group_i(2,3,lit,0,46,78).
+b_group_i(2,4,lit,0,79,96).
+b_group_i(2,5,lit,0,97,107).
+b_group_i(2,6,lit,0,108,130).
+b_group_i(2,7,lit,0,131,153).
+b_group_i(2,8,lit,0,154,176).
+b_group_i(2,9,lit,0,177,199).
+b_group_i(2,10,lit,0,200,222).
+b_group_i(2,11,lit,0,223,245).
+b_group_i(2,12,lit,0,246,256).
+b_group_i(2,13,lit,0,257,0).
+ 
+b_line_i(2,2,1,cmd,2,[ t('',146,2,0),t('Start',3,2,7) ]).
+b_line_i(6,2,2,cmd,2,[ t('',107,2,0),t('Isauthorized',23,2,0),t(=,10,2,0),t('udp(',1,2,0),t('Isauthorized',3,2,0),t(6,3,2,0),t('''WWBR_Medication_Scheme''',3,2,0),t(')',4,2,0) ]).
+b_line_i(7,2,2,cmd,2,[ t('',109,2,0),t('(',0,2,5),t('.NOT.',8,2,6),t('Isauthorized',23,2,12),t(')',4,2,25) ]).
+b_line_i(8,2,2,cmd,2,[ t('',104,2,0),t(o(13,'WWPBaseObjects\NotAuthorized'),28,2,3),t('Pgmname',23,2,23) ]).
+b_line_i(9,2,2,cmd,2,[ t('',111,2,0) ]).
+b_line_i(11,2,2,cmd,2,[ t('',107,2,0),t([ t('Tablemain',3,2,0),t('Height',3,2,0) ],29,2,0),t(=,10,2,0),t('493',3,2,0) ]).
+b_line_i(13,2,2,cmd,2,[ t('',107,2,0),t([ t('Grid',3,2,0),t('Rows',3,2,0) ],29,2,0),t(=,10,2,0),t([ 61,'Rows' ],44,2,0) ]).
+b_line_i(14,2,2,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_schemeid',3,2,0),t('Titlecontrolidtoreplace',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Grid',3,2,0),t('Internalname',3,2,0) ],29,2,0),t(+,5,2,0),t('''_BR_Medication_SchemeID''',3,2,0) ]).
+b_line_i(15,2,2,cmd,2,[ t('',107,2,0),t('Ddo_br_medication_schemeidtitlecontrolidtoreplace',23,2,0),t(=,10,2,0),t([ t('Ddo_br_medication_schemeid',3,2,0),t('Titlecontrolidtoreplace',3,2,0) ],29,2,0) ]).
+b_line_i(16,2,2,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_schemeidtitlecontrolidtoreplace',23,2,0),t('Visible',3,2,0) ],29,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(17,2,2,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medicationid',3,2,0),t('Titlecontrolidtoreplace',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Grid',3,2,0),t('Internalname',3,2,0) ],29,2,0),t(+,5,2,0),t('''_BR_MedicationID''',3,2,0) ]).
+b_line_i(18,2,2,cmd,2,[ t('',107,2,0),t('Ddo_br_medicationidtitlecontrolidtoreplace',23,2,0),t(=,10,2,0),t([ t('Ddo_br_medicationid',3,2,0),t('Titlecontrolidtoreplace',3,2,0) ],29,2,0) ]).
+b_line_i(19,2,2,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medicationidtitlecontrolidtoreplace',23,2,0),t('Visible',3,2,0) ],29,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(20,2,2,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_chem_name',3,2,0),t('Titlecontrolidtoreplace',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Grid',3,2,0),t('Internalname',3,2,0) ],29,2,0),t(+,5,2,0),t('''_BR_Medication_Chem_Name''',3,2,0) ]).
+b_line_i(21,2,2,cmd,2,[ t('',107,2,0),t('Ddo_br_medication_chem_nametitlecontrolidtoreplace',23,2,0),t(=,10,2,0),t([ t('Ddo_br_medication_chem_name',3,2,0),t('Titlecontrolidtoreplace',3,2,0) ],29,2,0) ]).
+b_line_i(22,2,2,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_chem_nametitlecontrolidtoreplace',23,2,0),t('Visible',3,2,0) ],29,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(23,2,2,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_chem_cycle',3,2,0),t('Titlecontrolidtoreplace',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Grid',3,2,0),t('Internalname',3,2,0) ],29,2,0),t(+,5,2,0),t('''_BR_Medication_Chem_Cycle''',3,2,0) ]).
+b_line_i(24,2,2,cmd,2,[ t('',107,2,0),t('Ddo_br_medication_chem_cycletitlecontrolidtoreplace',23,2,0),t(=,10,2,0),t([ t('Ddo_br_medication_chem_cycle',3,2,0),t('Titlecontrolidtoreplace',3,2,0) ],29,2,0) ]).
+b_line_i(25,2,2,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_chem_cycletitlecontrolidtoreplace',23,2,0),t('Visible',3,2,0) ],29,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(26,2,2,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_chem_line',3,2,0),t('Titlecontrolidtoreplace',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Grid',3,2,0),t('Internalname',3,2,0) ],29,2,0),t(+,5,2,0),t('''_BR_Medication_Chem_Line''',3,2,0) ]).
+b_line_i(27,2,2,cmd,2,[ t('',107,2,0),t('Ddo_br_medication_chem_linetitlecontrolidtoreplace',23,2,0),t(=,10,2,0),t([ t('Ddo_br_medication_chem_line',3,2,0),t('Titlecontrolidtoreplace',3,2,0) ],29,2,0) ]).
+b_line_i(28,2,2,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_chem_linetitlecontrolidtoreplace',23,2,0),t('Visible',3,2,0) ],29,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(29,2,2,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_chem_detail',3,2,0),t('Titlecontrolidtoreplace',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Grid',3,2,0),t('Internalname',3,2,0) ],29,2,0),t(+,5,2,0),t('''_BR_Medication_Chem_Detail''',3,2,0) ]).
+b_line_i(30,2,2,cmd,2,[ t('',107,2,0),t('Ddo_br_medication_chem_detailtitlecontrolidtoreplace',23,2,0),t(=,10,2,0),t([ t('Ddo_br_medication_chem_detail',3,2,0),t('Titlecontrolidtoreplace',3,2,0) ],29,2,0) ]).
+b_line_i(31,2,2,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_chem_detailtitlecontrolidtoreplace',23,2,0),t('Visible',3,2,0) ],29,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(32,2,2,cmd,2,[ t('',107,2,0),t([ t('Form',3,2,0),t('Caption',3,2,0) ],29,2,0),t(=,10,2,0),t('''选择药物治疗化疗方案''',3,2,0) ]).
+b_line_i(33,2,2,cmd,2,[ t('',107,2,0),t([ t('Orderedby',23,2,0),t('Visible',3,2,0) ],29,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(34,2,2,cmd,2,[ t('',109,2,0),t('Orderedby',23,2,5),t(<,10,2,16),t('1',3,2,18) ]).
+b_line_i(35,2,2,cmd,2,[ t('',107,2,0),t('Orderedby',23,2,0),t(=,10,2,0),t('1',3,2,0) ]).
+b_line_i(36,2,2,cmd,2,[ t('',111,2,0) ]).
+b_line_i(37,2,2,cmd,2,[ t('',107,2,0),t([ t('Ordereddsc',23,2,0),t('Visible',3,2,0) ],29,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(38,2,2,cmd,2,[ t('',107,2,0),t('Ddo_titlesettingsicons',23,2,0),t(=,10,2,0),t('udp(',1,2,0),t('Ddo_titlesettingsicons',3,2,0),t(38,3,2,0),t(')',4,2,0) ]).
+b_line_i(39,2,2,cmd,2,[ t('',107,2,0),t([ t('Gridpaginationbar',3,2,0),t('Rowsperpageselectedvalue',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Grid',3,2,0),t('Rows',3,2,0) ],29,2,0) ]).
+b_line_i(43,2,2,cmd,2,[ t('',147,2,0) ]).
+b_line_i(45,2,2,cmd,2,[ t('',146,2,0),t('Refresh',3,45,7) ]).
+b_line_i(49,2,3,cmd,2,[ t('',107,2,0),t('Br_medication_schemeidtitlefilterdata',23,2,0),t(=,10,2,0),t([ 'WWPBaseObjects\DVB_SDTDropDownOptionsData',[ t('(',0,49,46),t(')',4,49,47) ],n ],46,2,0) ]).
+b_line_i(50,2,3,cmd,2,[ t('',107,2,0),t('Br_medicationidtitlefilterdata',23,2,0),t(=,10,2,0),t([ 'WWPBaseObjects\DVB_SDTDropDownOptionsData',[ t('(',0,50,39),t(')',4,50,40) ],n ],46,2,0) ]).
+b_line_i(51,2,3,cmd,2,[ t('',107,2,0),t('Br_medication_chem_nametitlefilterdata',23,2,0),t(=,10,2,0),t([ 'WWPBaseObjects\DVB_SDTDropDownOptionsData',[ t('(',0,51,47),t(')',4,51,48) ],n ],46,2,0) ]).
+b_line_i(52,2,3,cmd,2,[ t('',107,2,0),t('Br_medication_chem_cycletitlefilterdata',23,2,0),t(=,10,2,0),t([ 'WWPBaseObjects\DVB_SDTDropDownOptionsData',[ t('(',0,52,48),t(')',4,52,49) ],n ],46,2,0) ]).
+b_line_i(53,2,3,cmd,2,[ t('',107,2,0),t('Br_medication_chem_linetitlefilterdata',23,2,0),t(=,10,2,0),t([ 'WWPBaseObjects\DVB_SDTDropDownOptionsData',[ t('(',0,53,47),t(')',4,53,48) ],n ],46,2,0) ]).
+b_line_i(54,2,3,cmd,2,[ t('',107,2,0),t('Br_medication_chem_detailtitlefilterdata',23,2,0),t(=,10,2,0),t([ 'WWPBaseObjects\DVB_SDTDropDownOptionsData',[ t('(',0,54,49),t(')',4,54,50) ],n ],46,2,0) ]).
+b_line_i(56,2,3,cmd,2,[ t('',104,2,0),t(o(1,'WWPBaseObjects\LoadWWPContext'),28,2,2),t('Wwpcontext',23,2,23) ]).
+b_line_i(58,2,3,cmd,2,[ t('',107,2,0),t([ t(296,2,2,0),t('Titleformat',3,2,0) ],29,2,0),t(=,10,2,0),t('2',3,2,0) ]).
+b_line_i(59,2,3,cmd,2,[ t('',107,2,0),t([ t(296,2,2,0),t('Title',3,2,0) ],29,2,0),t(=,10,2,0),t('format(',1,2,0),t('"<div class=''ColumnSettingsContainer''''><span>%1</span><div id=''%2''></div>"',3,2,0),t(',',7,2,0),t('''药物治疗化疗方案主键''',3,2,0),t(',',7,2,0),t('Ddo_br_medication_schemeidtitlecontrolidtoreplace',23,2,0),t(')',4,2,0) ]).
+b_line_i(60,2,3,cmd,2,[ t('',107,2,0),t([ t(119,2,2,0),t('Titleformat',3,2,0) ],29,2,0),t(=,10,2,0),t('2',3,2,0) ]).
+b_line_i(61,2,3,cmd,2,[ t('',107,2,0),t([ t(119,2,2,0),t('Title',3,2,0) ],29,2,0),t(=,10,2,0),t('format(',1,2,0),t('"<div class=''ColumnSettingsContainer''''><span>%1</span><div id=''%2''></div>"',3,2,0),t(',',7,2,0),t('''药物治疗主键''',3,2,0),t(',',7,2,0),t('Ddo_br_medicationidtitlecontrolidtoreplace',23,2,0),t(')',4,2,0) ]).
+b_line_i(62,2,3,cmd,2,[ t('',107,2,0),t([ t(305,2,2,0),t('Titleformat',3,2,0) ],29,2,0),t(=,10,2,0),t('2',3,2,0) ]).
+b_line_i(63,2,3,cmd,2,[ t('',107,2,0),t([ t(305,2,2,0),t('Title',3,2,0) ],29,2,0),t(=,10,2,0),t('format(',1,2,0),t('"<div class=''ColumnSettingsContainer''''><span>%1</span><div id=''%2''></div>"',3,2,0),t(',',7,2,0),t('''化疗方案名称''',3,2,0),t(',',7,2,0),t('Ddo_br_medication_chem_nametitlecontrolidtoreplace',23,2,0),t(')',4,2,0) ]).
+b_line_i(64,2,3,cmd,2,[ t('',107,2,0),t([ t(306,2,2,0),t('Titleformat',3,2,0) ],29,2,0),t(=,10,2,0),t('2',3,2,0) ]).
+b_line_i(65,2,3,cmd,2,[ t('',107,2,0),t([ t(306,2,2,0),t('Title',3,2,0) ],29,2,0),t(=,10,2,0),t('format(',1,2,0),t('"<div class=''ColumnSettingsContainer''''><span>%1</span><div id=''%2''></div>"',3,2,0),t(',',7,2,0),t('''周期''',3,2,0),t(',',7,2,0),t('Ddo_br_medication_chem_cycletitlecontrolidtoreplace',23,2,0),t(')',4,2,0) ]).
+b_line_i(66,2,3,cmd,2,[ t('',107,2,0),t([ t(307,2,2,0),t('Titleformat',3,2,0) ],29,2,0),t(=,10,2,0),t('2',3,2,0) ]).
+b_line_i(67,2,3,cmd,2,[ t('',107,2,0),t([ t(307,2,2,0),t('Title',3,2,0) ],29,2,0),t(=,10,2,0),t('format(',1,2,0),t('"<div class=''ColumnSettingsContainer''''><span>%1</span><div id=''%2''></div>"',3,2,0),t(',',7,2,0),t('''线级''',3,2,0),t(',',7,2,0),t('Ddo_br_medication_chem_linetitlecontrolidtoreplace',23,2,0),t(')',4,2,0) ]).
+b_line_i(68,2,3,cmd,2,[ t('',107,2,0),t([ t(313,2,2,0),t('Titleformat',3,2,0) ],29,2,0),t(=,10,2,0),t('2',3,2,0) ]).
+b_line_i(69,2,3,cmd,2,[ t('',107,2,0),t([ t(313,2,2,0),t('Title',3,2,0) ],29,2,0),t(=,10,2,0),t('format(',1,2,0),t('"<div class=''ColumnSettingsContainer''''><span>%1</span><div id=''%2''></div>"',3,2,0),t(',',7,2,0),t('''描述化疗方案''',3,2,0),t(',',7,2,0),t('Ddo_br_medication_chem_detailtitlecontrolidtoreplace',23,2,0),t(')',4,2,0) ]).
+b_line_i(70,2,3,cmd,2,[ t('',107,2,0),t('Gridcurrentpage',23,2,0),t(=,10,2,0),t([ t('Grid',3,2,0),t('Currentpage',3,2,0) ],29,2,0) ]).
+b_line_i(71,2,3,cmd,2,[ t('',107,2,0),t('Gridpagesize',23,2,0),t(=,10,2,0),t([ t('Grid',3,2,0),t('Rows',3,2,0) ],29,2,0) ]).
+b_line_i(72,2,3,cmd,2,[ t('',107,2,0),t('Gridrecordcount',23,2,0),t(=,10,2,0),t([ t('Grid',3,2,0),t('Recordcount',3,2,0) ],29,2,0) ]).
+b_line_i(76,2,3,cmd,2,[ t('',147,2,0) ]).
+b_line_i(78,2,3,cmd,2,[ t('',146,2,0),t([ t('Gridpaginationbar',3,78,7),t('Changepage',3,78,25) ],29,78,25) ]).
+b_line_i(82,2,4,cmd,2,[ t('',152,2,0) ]).
+b_line_i(83,2,4,cmd,2,[ t('',153,2,0),t([ t('Gridpaginationbar',3,83,8),t('Selectedpage',3,83,26) ],29,83,26),t(=,10,2,39),t('''Previous''',3,83,41) ]).
+b_line_i(84,2,4,cmd,2,[ t('',107,2,0),t([ t('Grid',3,84,4),t('previouspage(',1,84,9) ],31,84,9),t(')',4,2,23) ]).
+b_line_i(85,2,4,cmd,2,[ t('',153,2,0),t([ t('Gridpaginationbar',3,85,8),t('Selectedpage',3,85,26) ],29,85,26),t(=,10,2,39),t('''Next''',3,85,41) ]).
+b_line_i(86,2,4,cmd,2,[ t('',107,2,0),t([ t('Grid',3,86,4),t('nextpage(',1,86,9) ],31,86,9),t(')',4,2,19) ]).
+b_line_i(87,2,4,cmd,2,[ t('',164,2,0) ]).
+b_line_i(88,2,4,cmd,2,[ t('',107,2,0),t('Pagetogo',23,88,4),t(=,10,88,4),t('val(',1,88,4),t([ t('Gridpaginationbar',3,88,26),t('Selectedpage',3,88,44) ],29,88,44),t(')',4,2,56) ]).
+b_line_i(89,2,4,cmd,2,[ t('',107,2,0),t([ t('Grid',3,89,4),t('gotopage(',1,89,9) ],31,89,9),t('Pagetogo',23,2,19),t(')',4,2,28) ]).
+b_line_i(90,2,4,cmd,2,[ t('',154,2,0) ]).
+b_line_i(94,2,4,cmd,2,[ t('',147,2,0) ]).
+b_line_i(96,2,4,cmd,2,[ t('',146,2,0),t([ t('Gridpaginationbar',3,96,7),t('Changerowsperpage',3,96,25) ],29,96,25) ]).
+b_line_i(100,2,5,cmd,2,[ t('',107,2,0),t([ t('Grid',3,2,0),t('Rows',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Gridpaginationbar',3,2,0),t('Rowsperpageselectedvalue',3,2,0) ],29,2,0) ]).
+b_line_i(101,2,5,cmd,2,[ t('',107,2,0),t([ t('Grid',3,101,2),t('firstpage(',1,101,7) ],31,101,7),t(')',4,2,18) ]).
+b_line_i(105,2,5,cmd,2,[ t('',147,2,0) ]).
+b_line_i(107,2,5,cmd,2,[ t('',146,2,0),t([ t('Ddo_br_medication_schemeid',3,107,7),t('Onoptionclicked',3,107,34) ],29,107,34) ]).
+b_line_i(111,2,6,cmd,2,[ t('',152,2,0) ]).
+b_line_i(112,2,6,cmd,2,[ t('',153,2,0),t([ t('Ddo_br_medication_schemeid',3,112,8),t('Activeeventkey',3,112,35) ],29,112,35),t(=,10,2,50),t('''<#OrderASC#>''',3,112,52) ]).
+b_line_i(113,2,6,cmd,2,[ t('',107,2,0),t('Orderedby',23,2,0),t(=,10,2,0),t('1',3,2,0) ]).
+b_line_i(114,2,6,cmd,2,[ t('',107,2,0),t('Ordereddsc',23,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(115,2,6,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_schemeid',3,2,0),t('Sortedstatus',3,2,0) ],29,2,0),t(=,10,2,0),t('''ASC''',3,2,0) ]).
+b_line_i(116,2,6,cmd,2,[ t('',107,2,0),t([ t('Grid',3,116,4),t('firstpage(',1,116,9) ],31,116,9),t(')',4,2,20) ]).
+b_line_i(117,2,6,cmd,2,[ t('',148,2,0) ]).
+b_line_i(118,2,6,cmd,2,[ t('',153,2,0),t([ t('Ddo_br_medication_schemeid',3,118,8),t('Activeeventkey',3,118,35) ],29,118,35),t(=,10,2,50),t('''<#OrderDSC#>''',3,118,52) ]).
+b_line_i(119,2,6,cmd,2,[ t('',107,2,0),t('Orderedby',23,2,0),t(=,10,2,0),t('1',3,2,0) ]).
+b_line_i(120,2,6,cmd,2,[ t('',107,2,0),t('Ordereddsc',23,2,0),t(=,10,2,0),t('TRUE',40,2,0) ]).
+b_line_i(121,2,6,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_schemeid',3,2,0),t('Sortedstatus',3,2,0) ],29,2,0),t(=,10,2,0),t('''DSC''',3,2,0) ]).
+b_line_i(122,2,6,cmd,2,[ t('',107,2,0),t([ t('Grid',3,122,4),t('firstpage(',1,122,9) ],31,122,9),t(')',4,2,20) ]).
+b_line_i(123,2,6,cmd,2,[ t('',148,2,0) ]).
+b_line_i(124,2,6,cmd,2,[ t('',154,2,0) ]).
+b_line_i(128,2,6,cmd,2,[ t('',147,2,0) ]).
+b_line_i(130,2,6,cmd,2,[ t('',146,2,0),t([ t('Ddo_br_medicationid',3,130,7),t('Onoptionclicked',3,130,27) ],29,130,27) ]).
+b_line_i(134,2,7,cmd,2,[ t('',152,2,0) ]).
+b_line_i(135,2,7,cmd,2,[ t('',153,2,0),t([ t('Ddo_br_medicationid',3,135,8),t('Activeeventkey',3,135,28) ],29,135,28),t(=,10,2,43),t('''<#OrderASC#>''',3,135,45) ]).
+b_line_i(136,2,7,cmd,2,[ t('',107,2,0),t('Orderedby',23,2,0),t(=,10,2,0),t('2',3,2,0) ]).
+b_line_i(137,2,7,cmd,2,[ t('',107,2,0),t('Ordereddsc',23,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(138,2,7,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medicationid',3,2,0),t('Sortedstatus',3,2,0) ],29,2,0),t(=,10,2,0),t('''ASC''',3,2,0) ]).
+b_line_i(139,2,7,cmd,2,[ t('',107,2,0),t([ t('Grid',3,139,4),t('firstpage(',1,139,9) ],31,139,9),t(')',4,2,20) ]).
+b_line_i(140,2,7,cmd,2,[ t('',148,2,0) ]).
+b_line_i(141,2,7,cmd,2,[ t('',153,2,0),t([ t('Ddo_br_medicationid',3,141,8),t('Activeeventkey',3,141,28) ],29,141,28),t(=,10,2,43),t('''<#OrderDSC#>''',3,141,45) ]).
+b_line_i(142,2,7,cmd,2,[ t('',107,2,0),t('Orderedby',23,2,0),t(=,10,2,0),t('2',3,2,0) ]).
+b_line_i(143,2,7,cmd,2,[ t('',107,2,0),t('Ordereddsc',23,2,0),t(=,10,2,0),t('TRUE',40,2,0) ]).
+b_line_i(144,2,7,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medicationid',3,2,0),t('Sortedstatus',3,2,0) ],29,2,0),t(=,10,2,0),t('''DSC''',3,2,0) ]).
+b_line_i(145,2,7,cmd,2,[ t('',107,2,0),t([ t('Grid',3,145,4),t('firstpage(',1,145,9) ],31,145,9),t(')',4,2,20) ]).
+b_line_i(146,2,7,cmd,2,[ t('',148,2,0) ]).
+b_line_i(147,2,7,cmd,2,[ t('',154,2,0) ]).
+b_line_i(151,2,7,cmd,2,[ t('',147,2,0) ]).
+b_line_i(153,2,7,cmd,2,[ t('',146,2,0),t([ t('Ddo_br_medication_chem_name',3,153,7),t('Onoptionclicked',3,153,35) ],29,153,35) ]).
+b_line_i(157,2,8,cmd,2,[ t('',152,2,0) ]).
+b_line_i(158,2,8,cmd,2,[ t('',153,2,0),t([ t('Ddo_br_medication_chem_name',3,158,8),t('Activeeventkey',3,158,36) ],29,158,36),t(=,10,2,51),t('''<#OrderASC#>''',3,158,53) ]).
+b_line_i(159,2,8,cmd,2,[ t('',107,2,0),t('Orderedby',23,2,0),t(=,10,2,0),t('3',3,2,0) ]).
+b_line_i(160,2,8,cmd,2,[ t('',107,2,0),t('Ordereddsc',23,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(161,2,8,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_chem_name',3,2,0),t('Sortedstatus',3,2,0) ],29,2,0),t(=,10,2,0),t('''ASC''',3,2,0) ]).
+b_line_i(162,2,8,cmd,2,[ t('',107,2,0),t([ t('Grid',3,162,4),t('firstpage(',1,162,9) ],31,162,9),t(')',4,2,20) ]).
+b_line_i(163,2,8,cmd,2,[ t('',148,2,0) ]).
+b_line_i(164,2,8,cmd,2,[ t('',153,2,0),t([ t('Ddo_br_medication_chem_name',3,164,8),t('Activeeventkey',3,164,36) ],29,164,36),t(=,10,2,51),t('''<#OrderDSC#>''',3,164,53) ]).
+b_line_i(165,2,8,cmd,2,[ t('',107,2,0),t('Orderedby',23,2,0),t(=,10,2,0),t('3',3,2,0) ]).
+b_line_i(166,2,8,cmd,2,[ t('',107,2,0),t('Ordereddsc',23,2,0),t(=,10,2,0),t('TRUE',40,2,0) ]).
+b_line_i(167,2,8,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_chem_name',3,2,0),t('Sortedstatus',3,2,0) ],29,2,0),t(=,10,2,0),t('''DSC''',3,2,0) ]).
+b_line_i(168,2,8,cmd,2,[ t('',107,2,0),t([ t('Grid',3,168,4),t('firstpage(',1,168,9) ],31,168,9),t(')',4,2,20) ]).
+b_line_i(169,2,8,cmd,2,[ t('',148,2,0) ]).
+b_line_i(170,2,8,cmd,2,[ t('',154,2,0) ]).
+b_line_i(174,2,8,cmd,2,[ t('',147,2,0) ]).
+b_line_i(176,2,8,cmd,2,[ t('',146,2,0),t([ t('Ddo_br_medication_chem_cycle',3,176,7),t('Onoptionclicked',3,176,36) ],29,176,36) ]).
+b_line_i(180,2,9,cmd,2,[ t('',152,2,0) ]).
+b_line_i(181,2,9,cmd,2,[ t('',153,2,0),t([ t('Ddo_br_medication_chem_cycle',3,181,8),t('Activeeventkey',3,181,37) ],29,181,37),t(=,10,2,52),t('''<#OrderASC#>''',3,181,54) ]).
+b_line_i(182,2,9,cmd,2,[ t('',107,2,0),t('Orderedby',23,2,0),t(=,10,2,0),t('4',3,2,0) ]).
+b_line_i(183,2,9,cmd,2,[ t('',107,2,0),t('Ordereddsc',23,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(184,2,9,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_chem_cycle',3,2,0),t('Sortedstatus',3,2,0) ],29,2,0),t(=,10,2,0),t('''ASC''',3,2,0) ]).
+b_line_i(185,2,9,cmd,2,[ t('',107,2,0),t([ t('Grid',3,185,4),t('firstpage(',1,185,9) ],31,185,9),t(')',4,2,20) ]).
+b_line_i(186,2,9,cmd,2,[ t('',148,2,0) ]).
+b_line_i(187,2,9,cmd,2,[ t('',153,2,0),t([ t('Ddo_br_medication_chem_cycle',3,187,8),t('Activeeventkey',3,187,37) ],29,187,37),t(=,10,2,52),t('''<#OrderDSC#>''',3,187,54) ]).
+b_line_i(188,2,9,cmd,2,[ t('',107,2,0),t('Orderedby',23,2,0),t(=,10,2,0),t('4',3,2,0) ]).
+b_line_i(189,2,9,cmd,2,[ t('',107,2,0),t('Ordereddsc',23,2,0),t(=,10,2,0),t('TRUE',40,2,0) ]).
+b_line_i(190,2,9,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_chem_cycle',3,2,0),t('Sortedstatus',3,2,0) ],29,2,0),t(=,10,2,0),t('''DSC''',3,2,0) ]).
+b_line_i(191,2,9,cmd,2,[ t('',107,2,0),t([ t('Grid',3,191,4),t('firstpage(',1,191,9) ],31,191,9),t(')',4,2,20) ]).
+b_line_i(192,2,9,cmd,2,[ t('',148,2,0) ]).
+b_line_i(193,2,9,cmd,2,[ t('',154,2,0) ]).
+b_line_i(197,2,9,cmd,2,[ t('',147,2,0) ]).
+b_line_i(199,2,9,cmd,2,[ t('',146,2,0),t([ t('Ddo_br_medication_chem_line',3,199,7),t('Onoptionclicked',3,199,35) ],29,199,35) ]).
+b_line_i(203,2,10,cmd,2,[ t('',152,2,0) ]).
+b_line_i(204,2,10,cmd,2,[ t('',153,2,0),t([ t('Ddo_br_medication_chem_line',3,204,8),t('Activeeventkey',3,204,36) ],29,204,36),t(=,10,2,51),t('''<#OrderASC#>''',3,204,53) ]).
+b_line_i(205,2,10,cmd,2,[ t('',107,2,0),t('Orderedby',23,2,0),t(=,10,2,0),t('5',3,2,0) ]).
+b_line_i(206,2,10,cmd,2,[ t('',107,2,0),t('Ordereddsc',23,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(207,2,10,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_chem_line',3,2,0),t('Sortedstatus',3,2,0) ],29,2,0),t(=,10,2,0),t('''ASC''',3,2,0) ]).
+b_line_i(208,2,10,cmd,2,[ t('',107,2,0),t([ t('Grid',3,208,4),t('firstpage(',1,208,9) ],31,208,9),t(')',4,2,20) ]).
+b_line_i(209,2,10,cmd,2,[ t('',148,2,0) ]).
+b_line_i(210,2,10,cmd,2,[ t('',153,2,0),t([ t('Ddo_br_medication_chem_line',3,210,8),t('Activeeventkey',3,210,36) ],29,210,36),t(=,10,2,51),t('''<#OrderDSC#>''',3,210,53) ]).
+b_line_i(211,2,10,cmd,2,[ t('',107,2,0),t('Orderedby',23,2,0),t(=,10,2,0),t('5',3,2,0) ]).
+b_line_i(212,2,10,cmd,2,[ t('',107,2,0),t('Ordereddsc',23,2,0),t(=,10,2,0),t('TRUE',40,2,0) ]).
+b_line_i(213,2,10,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_chem_line',3,2,0),t('Sortedstatus',3,2,0) ],29,2,0),t(=,10,2,0),t('''DSC''',3,2,0) ]).
+b_line_i(214,2,10,cmd,2,[ t('',107,2,0),t([ t('Grid',3,214,4),t('firstpage(',1,214,9) ],31,214,9),t(')',4,2,20) ]).
+b_line_i(215,2,10,cmd,2,[ t('',148,2,0) ]).
+b_line_i(216,2,10,cmd,2,[ t('',154,2,0) ]).
+b_line_i(220,2,10,cmd,2,[ t('',147,2,0) ]).
+b_line_i(222,2,10,cmd,2,[ t('',146,2,0),t([ t('Ddo_br_medication_chem_detail',3,222,7),t('Onoptionclicked',3,222,37) ],29,222,37) ]).
+b_line_i(226,2,11,cmd,2,[ t('',152,2,0) ]).
+b_line_i(227,2,11,cmd,2,[ t('',153,2,0),t([ t('Ddo_br_medication_chem_detail',3,227,8),t('Activeeventkey',3,227,38) ],29,227,38),t(=,10,2,53),t('''<#OrderASC#>''',3,227,55) ]).
+b_line_i(228,2,11,cmd,2,[ t('',107,2,0),t('Orderedby',23,2,0),t(=,10,2,0),t('6',3,2,0) ]).
+b_line_i(229,2,11,cmd,2,[ t('',107,2,0),t('Ordereddsc',23,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(230,2,11,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_chem_detail',3,2,0),t('Sortedstatus',3,2,0) ],29,2,0),t(=,10,2,0),t('''ASC''',3,2,0) ]).
+b_line_i(231,2,11,cmd,2,[ t('',107,2,0),t([ t('Grid',3,231,4),t('firstpage(',1,231,9) ],31,231,9),t(')',4,2,20) ]).
+b_line_i(232,2,11,cmd,2,[ t('',148,2,0) ]).
+b_line_i(233,2,11,cmd,2,[ t('',153,2,0),t([ t('Ddo_br_medication_chem_detail',3,233,8),t('Activeeventkey',3,233,38) ],29,233,38),t(=,10,2,53),t('''<#OrderDSC#>''',3,233,55) ]).
+b_line_i(234,2,11,cmd,2,[ t('',107,2,0),t('Orderedby',23,2,0),t(=,10,2,0),t('6',3,2,0) ]).
+b_line_i(235,2,11,cmd,2,[ t('',107,2,0),t('Ordereddsc',23,2,0),t(=,10,2,0),t('TRUE',40,2,0) ]).
+b_line_i(236,2,11,cmd,2,[ t('',107,2,0),t([ t('Ddo_br_medication_chem_detail',3,2,0),t('Sortedstatus',3,2,0) ],29,2,0),t(=,10,2,0),t('''DSC''',3,2,0) ]).
+b_line_i(237,2,11,cmd,2,[ t('',107,2,0),t([ t('Grid',3,237,4),t('firstpage(',1,237,9) ],31,237,9),t(')',4,2,20) ]).
+b_line_i(238,2,11,cmd,2,[ t('',148,2,0) ]).
+b_line_i(239,2,11,cmd,2,[ t('',154,2,0) ]).
+b_line_i(243,2,11,cmd,2,[ t('',147,2,0) ]).
+b_line_i(245,2,11,cmd,2,[ t('',146,2,0),t([ t('Grid',3,245,7),t('Load',3,245,12) ],29,245,12) ]).
+b_line_i(249,2,12,cmd,2,[ t('',107,2,0),t([ t('Select',23,249,2),t('fromimage(',1,249,10) ],31,249,2),t(i(98,'3914535b-0c03-44c5-9538-906a99cdd2bc'),69,2,21),t(')',4,2,30) ]).
+b_line_i([ 249,1 ],2,12,cmd,2,[ t('',107,2,0),t('Select_GXI',23,2,0),t(=,10,2,0),t('urifromurl(',1,2,0),t(i(98,'3914535b-0c03-44c5-9538-906a99cdd2bc'),69,2,0),t(')',4,2,0) ]).
+b_line_i(250,2,12,cmd,3,[ t('',107,3,0),t([ t('Select',23,3,0),t('Tooltiptext',3,3,0) ],29,3,0),t(=,10,3,0),t('"选择"',3,3,0) ]).
+b_line_i(254,2,12,cmd,3,[ t('',107,0,0),t([ t('Grid',3,0,0),t('load(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(254,2,12,cmd,3,[ t('',147,3,0) ]).
+b_line_i(256,2,12,cmd,3,[ t('',146,3,0),t('Enter',3,256,7) ]).
+b_line_i(260,2,13,cmd,3,[ t('',107,3,0),t('Inoutbr_medication_schemeid',23,3,0),t(=,10,3,0),t(296,2,3,0) ]).
+b_line_i(261,2,13,cmd,3,[ t('',118,3,0) ]).
+b_line_i(265,2,13,cmd,3,[ t('',147,3,0) ]).
+ 
+sf_break_i(12,2).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,div(2)).
+ 
+html_sub_i(2,3,html_i(0,div(3))).
+html_sub_i(3,4,html_i(0,div(4))).
+html_sub_i(4,5,html_i(0,div(5))).
+html_sub_i(5,6,html_i(0,div(6))).
+html_sub_i(6,7,html_i(0,div(7))).
+html_sub_i(7,8,html_i(0,div(8))).
+html_sub_i(8,9,html_i(0,div(9))).
+html_sub_i(9,10,html_i(0,div(10))).
+html_sub_i(10,11,html_i(0,div(11))).
+html_sub_i(11,12,html_i(0,s(12))).
+html_sub_i(9,20,html_i(1,div(20))).
+html_sub_i(20,21,html_i(0,div(21))).
+html_sub_i(21,22,html_i(0,div(22))).
+html_sub_i(22,23,html_i(0,usercontrol(23))).
+html_sub_i(3,24,html_i(1,div(24))).
+html_sub_i(24,25,html_i(0,div(25))).
+html_sub_i(25,26,html_i(0,div(26))).
+html_sub_i(26,27,html_i(0,usercontrol(27))).
+html_sub_i(26,28,html_i(1,t('Ddo_br_medication_schemeidtitlecontrolidtoreplace',23))).
+html_sub_i(26,29,html_i(2,usercontrol(29))).
+html_sub_i(26,30,html_i(3,t('Ddo_br_medicationidtitlecontrolidtoreplace',23))).
+html_sub_i(26,31,html_i(4,usercontrol(31))).
+html_sub_i(26,32,html_i(5,t('Ddo_br_medication_chem_nametitlecontrolidtoreplace',23))).
+html_sub_i(26,33,html_i(6,usercontrol(33))).
+html_sub_i(26,34,html_i(7,t('Ddo_br_medication_chem_cycletitlecontrolidtoreplace',23))).
+html_sub_i(26,35,html_i(8,usercontrol(35))).
+html_sub_i(26,36,html_i(9,t('Ddo_br_medication_chem_linetitlecontrolidtoreplace',23))).
+html_sub_i(26,37,html_i(10,usercontrol(37))).
+html_sub_i(26,38,html_i(11,t('Ddo_br_medication_chem_detailtitlecontrolidtoreplace',23))).
+html_sub_i(26,39,html_i(12,usercontrol(39))).
+html_sub_i(26,40,html_i(13,t('Orderedby',23))).
+html_sub_i(26,41,html_i(14,t('Ordereddsc',23))).
+ 
+html_tags_i(1,'Class','form-horizontal Form').
+html_tags_i(2,'data-gx-base-lib',bootstrapv3).
+html_tags_i(2,'data-abstract-form','').
+ 
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Class','Section',d,[ str ]).
+html_comp_i(2,'Id','',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Semanticcontent',div,d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Valign',top,d,[ str ]).
+html_comp_i(3,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(3,'Class','Table',v,[ str ]).
+html_comp_i(3,'Id','Layoutmaintable',v,[ str ]).
+html_comp_i(3,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Semanticcontent',div,d,[ str ]).
+html_comp_i(3,'Align',left,d,[ str ]).
+html_comp_i(3,'Valign',top,d,[ str ]).
+html_comp_i(4,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(4,'Class',row,v,[ str ]).
+html_comp_i(4,'Id','',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Semanticcontent',div,d,[ str ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Valign',top,d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Class','col-xs-12',v,[ str ]).
+html_comp_i(5,'Id','',d,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Semanticcontent',div,d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Valign',top,d,[ str ]).
+html_comp_i(6,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(6,'Class','TableMain',v,[ str ]).
+html_comp_i(6,'Id','Tablemain',v,[ str ]).
+html_comp_i(6,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Semanticcontent',div,d,[ str ]).
+html_comp_i(6,'Align',left,d,[ str ]).
+html_comp_i(6,'Valign',top,d,[ str ]).
+html_comp_i(7,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(7,'Class',row,v,[ str ]).
+html_comp_i(7,'Id','',d,[ str ]).
+html_comp_i(7,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Semanticcontent',div,d,[ str ]).
+html_comp_i(7,'Align',left,d,[ str ]).
+html_comp_i(7,'Valign',top,d,[ str ]).
+html_comp_i(8,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(8,'Class','col-xs-12 WorkWithCell',v,[ str ]).
+html_comp_i(8,'Id','',d,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Semanticcontent',div,d,[ str ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Valign',top,d,[ str ]).
+html_comp_i(9,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(9,'Class','Table',v,[ str ]).
+html_comp_i(9,'Id','Gridtablewithpaginationbar',v,[ str ]).
+html_comp_i(9,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Semanticcontent',div,d,[ str ]).
+html_comp_i(9,'Align',left,d,[ str ]).
+html_comp_i(9,'Valign',top,d,[ str ]).
+html_comp_i(10,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(10,'Class',row,v,[ str ]).
+html_comp_i(10,'Id','',d,[ str ]).
+html_comp_i(10,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Semanticcontent',div,d,[ str ]).
+html_comp_i(10,'Align',left,d,[ str ]).
+html_comp_i(10,'Valign',top,d,[ str ]).
+html_comp_i(11,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(11,'Class','col-xs-12',v,[ str ]).
+html_comp_i(11,'Id','',d,[ str ]).
+html_comp_i(11,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Semanticcontent',div,d,[ str ]).
+html_comp_i(11,'Align',left,d,[ str ]).
+html_comp_i(11,'Valign',top,d,[ str ]).
+html_comp_i(12,'Isabstractlayoutcontrol',-1,v,[ bool ]).
+html_comp_i(12,'Controlname','Grid',v,[ str ]).
+html_comp_i(12,'Controlorder','''.''(''.''(t($ORDER$,39),''.''(t(296,2),''.''(t($when$,35),''.''(t($Orderedby$,23),''.''(t($=$,10),''.''(t($1$,3),''.''(t($.AND.$,9),''.''(t($Ordereddsc$,23),''.''(t($=$,10),''.''(t($FALSE$,41),''.''(t($ORDER$,39),''.''(t($($,0),''.''(t(296,2),''.''(t($)$,4),''.''(t($when$,35),''.''(t($Orderedby$,23),''.''(t($=$,10),''.''(t($1$,3),''.''(t($.AND.$,9),''.''(t($Ordereddsc$,23),''.''(t($=$,10),''.''(t($TRUE$,40),''.''(t($ORDER$,39),''.''(t(119,2),''.''(t($when$,35),''.''(t($Orderedby$,23),''.''(t($=$,10),''.''(t($2$,3),''.''(t($.AND.$,9),''.''(t($Ordereddsc$,23),''.''(t($=$,10),''.''(t($FALSE$,41),''.''(t($ORDER$,39),''.''(t($($,0),''.''(t(119,2),''.''(t($)$,4),''.''(t($when$,35),''.''(t($Orderedby$,23),''.''(t($=$,10),''.''(t($2$,3),''.''(t($.AND.$,9),''.''(t($Ordereddsc$,23),''.''(t($=$,10),''.''(t($TRUE$,40),''.''(t($ORDER$,39),''.''(t(305,2),''.''(t($when$,35),''.''(t($Orderedby$,23),''.''(t($=$,10),''.''(t($3$,3),''.''(t($.AND.$,9),''.''(t($Ordereddsc$,23),''.''(t($=$,10),''.''(t($FALSE$,41),''.''(t($ORDER$,39),''.''(t($($,0),''.''(t(305,2),''.''(t($)$,4),''.''(t($when$,35),''.''(t($Orderedby$,23),''.''(t($=$,10),''.''(t($3$,3),''.''(t($.AND.$,9),''.''(t($Ordereddsc$,23),''.''(t($=$,10),''.''(t($TRUE$,40),''.''(t($ORDER$,39),''.''(t(306,2),''.''(t($when$,35),''.''(t($Orderedby$,23),''.''(t($=$,10),''.''(t($4$,3),''.''(t($.AND.$,9),''.''(t($Ordereddsc$,23),''.''(t($=$,10),''.''(t($FALSE$,41),''.''(t($ORDER$,39),''.''(t($($,0),''.''(t(306,2),''.''(t($)$,4),''.''(t($when$,35),''.''(t($Orderedby$,23),''.''(t($=$,10),''.''(t($4$,3),''.''(t($.AND.$,9),''.''(t($Ordereddsc$,23),''.''(t($=$,10),''.''(t($TRUE$,40),''.''(t($ORDER$,39),''.''(t(307,2),''.''(t($when$,35),''.''(t($Orderedby$,23),''.''(t($=$,10),''.''(t($5$,3),''.''(t($.AND.$,9),''.''(t($Ordereddsc$,23),''.''(t($=$,10),''.''(t($FALSE$,41),''.''(t($ORDER$,39),''.''(t($($,0),''.''(t(307,2),''.''(t($)$,4),''.''(t($when$,35),''.''(t($Orderedby$,23),''.''(t($=$,10),''.''(t($5$,3),''.''(t($.AND.$,9),''.''(t($Ordereddsc$,23),''.''(t($=$,10),''.''(t($TRUE$,40),''.''(t($ORDER$,39),''.''(t(313,2),''.''(t($when$,35),''.''(t($Orderedby$,23),''.''(t($=$,10),''.''(t($6$,3),''.''(t($.AND.$,9),''.''(t($Ordereddsc$,23),''.''(t($=$,10),''.''(t($FALSE$,41),''.''(t($ORDER$,39),''.''(t($($,0),''.''(t(313,2),''.''(t($)$,4),''.''(t($when$,35),''.''(t($Orderedby$,23),''.''(t($=$,10),''.''(t($6$,3),''.''(t($.AND.$,9),''.''(t($Ordereddsc$,23),''.''(t($=$,10),''.''(t($TRUE$,40),$[]$)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))),$[]$)',v,[ str ]).
+html_comp_i(12,'Controlwhere','',d,[ str ]).
+html_comp_i(12,'Controlunique','',d,[ str ]).
+html_comp_i(12,'Iddataselector','',d,[ str ]).
+html_comp_i(12,'Sflrender','',d,[ str ]).
+html_comp_i(12,'Class','GridWithPaginationBar GridWithBorderColor WorkWith',v,[ str ]).
+html_comp_i(12,'Prop_emptydatasettext','',d,[ str ]).
+html_comp_i(12,'Autoresize',-1,d,[ bool ]).
+html_comp_i(12,'Gxwidth',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Gxheight',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Maxcols',1,d,[ num ]).
+html_comp_i(12,'Maxrows',0,d,[ num ]).
+html_comp_i(12,'Header','',d,[ str ]).
+html_comp_i(12,'Title','',d,[ str ]).
+html_comp_i(12,'Linescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(12,'Linesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(12,'Titlecolor',rgb(0,15,255),d,[ color ]).
+html_comp_i(12,'Titlefont',font('Calibri',11,[ bold ]),d,[ font ]).
+html_comp_i(12,'Align',left,d,[ str ]).
+html_comp_i(12,'Cellpadding','1',d,[ str ]).
+html_comp_i(12,'Cellspacing','2',d,[ str ]).
+html_comp_i(12,'Sortable',0,v,[ bool ]).
+html_comp_i(12,'Allowdrop',0,d,[ bool ]).
+html_comp_i(12,'Allowdrag',0,d,[ bool ]).
+html_comp_i(12,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(12,'Allowcollapsing',0,d,[ bool ]).
+html_comp_i(12,'Allowselection',0,d,[ bool ]).
+html_comp_i(13,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(13,'Colcount',5,d,[ num ]).
+html_comp_i(13,'Colattid',-30,v,[ num ]).
+html_comp_i(13,'Controlname','&Select',d,[ str ]).
+html_comp_i(13,'Class','SelectAttribute ActionBaseColorAttribute',v,[ str ]).
+html_comp_i(13,'Columnclass','WWActionColumn',v,[ str ]).
+html_comp_i(13,'Returnonclick',0,d,[ bool ]).
+html_comp_i(13,'Eventgx','Enter',v,[ str ]).
+html_comp_i(13,'Controltype',2,d,[ num ]).
+html_comp_i(13,'Inputtype',0,d,[ num ]).
+html_comp_i(13,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(13,'Autocomplete',0,d,[ bool ]).
+html_comp_i(13,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(13,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(13,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(13,'Coltitle','',d,[ str ]).
+html_comp_i(13,'Coltitlefont',font('Calibri',11,[ bold ]),d,[ font ]).
+html_comp_i(13,'Coltitlecolor',rgb(0,15,255),d,[ color ]).
+html_comp_i(13,'Colvisible',-1,d,[ bool ]).
+html_comp_i(13,'Border','0',d,[ str ]).
+html_comp_i(13,'Alt','',d,[ str ]).
+html_comp_i(13,'Title',选择,d,[ str ]).
+html_comp_i(13,'Hspace',0,d,[ num ]).
+html_comp_i(13,'Vspace',0,d,[ num ]).
+html_comp_i(14,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(14,'Colcount',18,d,[ num ]).
+html_comp_i(14,'Colattid',296,v,[ num ]).
+html_comp_i(14,'Controlname','Br_medication_schemeid',d,[ str ]).
+html_comp_i(14,'Class','Attribute',v,[ str ]).
+html_comp_i(14,'Columnclass','WWColumn hidden-xs',v,[ str ]).
+html_comp_i(14,'Returnonclick',0,d,[ bool ]).
+html_comp_i(14,'Eventgx','',d,[ str ]).
+html_comp_i(14,'Controltype',2,d,[ num ]).
+html_comp_i(14,'Inputtype',0,d,[ num ]).
+html_comp_i(14,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(14,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(14,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(14,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(14,'Ispassword',0,d,[ bool ]).
+html_comp_i(14,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(14,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(14,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(14,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(14,'Coltitle',药物治疗化疗方案主键,d,[ str ]).
+html_comp_i(14,'Coltitlefont',font('Calibri',11,[ bold ]),d,[ font ]).
+html_comp_i(14,'Coltitlecolor',rgb(0,15,255),d,[ color ]).
+html_comp_i(14,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(14,'Gxformat',0,d,[ num ]).
+html_comp_i(14,'Colvisible',-1,d,[ bool ]).
+html_comp_i(14,'Title','',d,[ str ]).
+html_comp_i(14,'Invitemsg','',d,[ str ]).
+html_comp_i(15,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(15,'Colcount',18,d,[ num ]).
+html_comp_i(15,'Colattid',119,v,[ num ]).
+html_comp_i(15,'Controlname','Br_medicationid',d,[ str ]).
+html_comp_i(15,'Class','Attribute',v,[ str ]).
+html_comp_i(15,'Columnclass','WWColumn hidden-xs',v,[ str ]).
+html_comp_i(15,'Returnonclick',0,d,[ bool ]).
+html_comp_i(15,'Eventgx','',d,[ str ]).
+html_comp_i(15,'Controltype',2,d,[ num ]).
+html_comp_i(15,'Inputtype',0,d,[ num ]).
+html_comp_i(15,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(15,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(15,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(15,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(15,'Ispassword',0,d,[ bool ]).
+html_comp_i(15,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(15,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(15,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(15,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(15,'Coltitle',药物治疗主键,d,[ str ]).
+html_comp_i(15,'Coltitlefont',font('Calibri',11,[ bold ]),d,[ font ]).
+html_comp_i(15,'Coltitlecolor',rgb(0,15,255),d,[ color ]).
+html_comp_i(15,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(15,'Gxformat',0,d,[ num ]).
+html_comp_i(15,'Colvisible',-1,d,[ bool ]).
+html_comp_i(15,'Title','',d,[ str ]).
+html_comp_i(15,'Invitemsg','',d,[ str ]).
+html_comp_i(16,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(16,'Colcount',80,d,[ num ]).
+html_comp_i(16,'Colattid',305,v,[ num ]).
+html_comp_i(16,'Controlname','Br_medication_chem_name',d,[ str ]).
+html_comp_i(16,'Class','Attribute',v,[ str ]).
+html_comp_i(16,'Columnclass','WWColumn hidden-xs',v,[ str ]).
+html_comp_i(16,'Returnonclick',0,d,[ bool ]).
+html_comp_i(16,'Eventgx','',d,[ str ]).
+html_comp_i(16,'Controltype',2,d,[ num ]).
+html_comp_i(16,'Inputtype',0,d,[ num ]).
+html_comp_i(16,'Editautocomplete',0,d,[ num ]).
+html_comp_i(16,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(16,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(16,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(16,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(16,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(16,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(16,'Ispassword',0,d,[ bool ]).
+html_comp_i(16,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(16,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(16,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(16,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(16,'Coltitle',化疗方案名称,d,[ str ]).
+html_comp_i(16,'Coltitlefont',font('Calibri',11,[ bold ]),d,[ font ]).
+html_comp_i(16,'Coltitlecolor',rgb(0,15,255),d,[ color ]).
+html_comp_i(16,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(16,'Gxformat',0,d,[ num ]).
+html_comp_i(16,'Colvisible',-1,d,[ bool ]).
+html_comp_i(16,'Title','',d,[ str ]).
+html_comp_i(16,'Invitemsg','',d,[ str ]).
+html_comp_i(17,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(17,'Colcount',15,d,[ num ]).
+html_comp_i(17,'Colattid',306,v,[ num ]).
+html_comp_i(17,'Controlname','Br_medication_chem_cycle',d,[ str ]).
+html_comp_i(17,'Class','Attribute',v,[ str ]).
+html_comp_i(17,'Columnclass','WWColumn hidden-xs',v,[ str ]).
+html_comp_i(17,'Returnonclick',0,d,[ bool ]).
+html_comp_i(17,'Eventgx','',d,[ str ]).
+html_comp_i(17,'Controltype',2,d,[ num ]).
+html_comp_i(17,'Inputtype',0,d,[ num ]).
+html_comp_i(17,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(17,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(17,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(17,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(17,'Ispassword',0,d,[ bool ]).
+html_comp_i(17,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(17,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(17,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(17,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(17,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(17,'Coltitle',周期,d,[ str ]).
+html_comp_i(17,'Coltitlefont',font('Calibri',11,[ bold ]),d,[ font ]).
+html_comp_i(17,'Coltitlecolor',rgb(0,15,255),d,[ color ]).
+html_comp_i(17,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(17,'Gxformat',0,d,[ num ]).
+html_comp_i(17,'Colvisible',-1,d,[ bool ]).
+html_comp_i(17,'Title','',d,[ str ]).
+html_comp_i(17,'Invitemsg','',d,[ str ]).
+html_comp_i(18,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(18,'Colcount',40,d,[ num ]).
+html_comp_i(18,'Colattid',307,v,[ num ]).
+html_comp_i(18,'Controlname','Br_medication_chem_line',d,[ str ]).
+html_comp_i(18,'Class','Attribute',v,[ str ]).
+html_comp_i(18,'Columnclass','WWColumn hidden-xs',v,[ str ]).
+html_comp_i(18,'Returnonclick',0,d,[ bool ]).
+html_comp_i(18,'Eventgx','',d,[ str ]).
+html_comp_i(18,'Controltype',2,v,[ num ]).
+html_comp_i(18,'Inputtype',0,v,[ num ]).
+html_comp_i(18,'Editautocomplete',0,d,[ num ]).
+html_comp_i(18,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(18,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(18,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(18,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(18,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(18,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(18,'Ispassword',0,d,[ bool ]).
+html_comp_i(18,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(18,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(18,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(18,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(18,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(18,'Coltitle',线级,d,[ str ]).
+html_comp_i(18,'Coltitlefont',font('Calibri',11,[ bold ]),d,[ font ]).
+html_comp_i(18,'Coltitlecolor',rgb(0,15,255),d,[ color ]).
+html_comp_i(18,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(18,'Gxformat',0,d,[ num ]).
+html_comp_i(18,'Colvisible',-1,d,[ bool ]).
+html_comp_i(18,'Title','',d,[ str ]).
+html_comp_i(18,'Invitemsg','',d,[ str ]).
+html_comp_i(19,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(19,'Colcount',80,d,[ num ]).
+html_comp_i(19,'Colattid',313,v,[ num ]).
+html_comp_i(19,'Controlname','Br_medication_chem_detail',d,[ str ]).
+html_comp_i(19,'Class','Attribute',v,[ str ]).
+html_comp_i(19,'Columnclass','WWColumn hidden-xs',v,[ str ]).
+html_comp_i(19,'Returnonclick',0,d,[ bool ]).
+html_comp_i(19,'Eventgx','',d,[ str ]).
+html_comp_i(19,'Controltype',2,d,[ num ]).
+html_comp_i(19,'Inputtype',0,d,[ num ]).
+html_comp_i(19,'Editautocomplete',0,d,[ num ]).
+html_comp_i(19,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(19,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(19,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(19,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(19,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(19,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(19,'Ispassword',0,d,[ bool ]).
+html_comp_i(19,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(19,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(19,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(19,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(19,'Coltitle',描述化疗方案,d,[ str ]).
+html_comp_i(19,'Coltitlefont',font('Calibri',11,[ bold ]),d,[ font ]).
+html_comp_i(19,'Coltitlecolor',rgb(0,15,255),d,[ color ]).
+html_comp_i(19,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(19,'Gxformat',0,d,[ num ]).
+html_comp_i(19,'Colvisible',-1,d,[ bool ]).
+html_comp_i(19,'Title','',d,[ str ]).
+html_comp_i(19,'Invitemsg','',d,[ str ]).
+html_comp_i(20,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(20,'Class',row,v,[ str ]).
+html_comp_i(20,'Id','',d,[ str ]).
+html_comp_i(20,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Semanticcontent',div,d,[ str ]).
+html_comp_i(20,'Align',left,d,[ str ]).
+html_comp_i(20,'Valign',top,d,[ str ]).
+html_comp_i(21,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(21,'Class','col-xs-12',v,[ str ]).
+html_comp_i(21,'Id','',d,[ str ]).
+html_comp_i(21,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Semanticcontent',div,d,[ str ]).
+html_comp_i(21,'Align',left,d,[ str ]).
+html_comp_i(21,'Valign',top,d,[ str ]).
+html_comp_i(22,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(22,'Class','Section',d,[ str ]).
+html_comp_i(22,'Id','Html_gridpaginationbar',v,[ str ]).
+html_comp_i(22,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(22,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(22,'Semanticcontent',div,d,[ str ]).
+html_comp_i(22,'Align',left,d,[ str ]).
+html_comp_i(22,'Valign',top,d,[ str ]).
+html_comp_i(23,'Usercontroltype','DVelop.DVPaginationBar',d,[ str ]).
+html_comp_i(23,'Constructorname','DVelop_DVPaginationBar',d,[ str ]).
+html_comp_i(23,'Showmethodname',show,d,[ str ]).
+html_comp_i(23,'Controlname','GridPaginationBar',v,[ str ]).
+html_comp_i(23,'Class','PaginationBar',v,[ str ]).
+html_comp_i(23,'Showfirst',0,v,[ bool ]).
+html_comp_i(23,'Showprevious',-1,v,[ bool ]).
+html_comp_i(23,'Shownext',-1,v,[ bool ]).
+html_comp_i(23,'Showlast',0,v,[ bool ]).
+html_comp_i(23,'Pagestoshow',5,v,[ num ]).
+html_comp_i(23,'Pagingbuttonsposition','Right',v,[ str ]).
+html_comp_i(23,'Pagingcaptionposition','Left',v,[ str ]).
+html_comp_i(23,'Emptygridclass','PaginationBarEmptyGrid',v,[ str ]).
+html_comp_i(23,'Rowsperpageselector',-1,v,[ bool ]).
+html_comp_i(23,'Rowsperpageselectedvalue',10,d,[ num ]).
+html_comp_i(23,'Rowsperpageoptions','5:WWP_Rows5,10:WWP_Rows10,20:WWP_Rows20,50:WWP_Rows50',v,[ str ]).
+html_comp_i(23,'First','First',d,[ str ]).
+html_comp_i(23,'Previous','WWP_PagingPreviousCaption',v,[ str ]).
+html_comp_i(23,'Next','WWP_PagingNextCaption',v,[ str ]).
+html_comp_i(23,'Last','Last',d,[ str ]).
+html_comp_i(23,'Caption','<CURRENT_PAGE>页/<TOTAL_PAGES>页 记录：<TOTAL_RECORDS>条',v,[ str ]).
+html_comp_i(23,'Emptygridcaption','WWP_PagingEmptyGridCaption',v,[ str ]).
+html_comp_i(23,'Rowsperpagecaption','WWP_PagingRowsPerPage',v,[ str ]).
+html_comp_i(23,'Currentpage',[ t('Gridcurrentpage',23) ],v,[ params ]).
+html_comp_i(23,'Pagecount','',d,[ str ]).
+html_comp_i(23,'Recordcount',[ t('Gridrecordcount',23) ],v,[ params ]).
+html_comp_i(23,'Page',[ t('Gridpagesize',23) ],v,[ params ]).
+html_comp_i(23,'Setcurrentpage','SetCurrentPage',d,[ str ]).
+html_comp_i(23,'Getcurrentpage','GetCurrentPage',d,[ str ]).
+html_comp_i(23,'Setpagecount','SetPageCount',d,[ str ]).
+html_comp_i(23,'Getpagecount','GetPageCount',d,[ str ]).
+html_comp_i(23,'Setrecordcount','SetRecordCount',d,[ str ]).
+html_comp_i(23,'Getrecordcount','GetRecordCount',d,[ str ]).
+html_comp_i(23,'Setpage','SetPage',d,[ str ]).
+html_comp_i(23,'Getpage','GetPage',d,[ str ]).
+html_comp_i(23,'Visible',-1,d,[ bool ]).
+html_comp_i(23,'Csssupportfiles',[ [ t('''DVelop\DVPaginationBar\DVPaginationBar.css''',3) ] ],d,[ params ]).
+html_comp_i(23,'Jssupportfiles',[ [ t('''DVelop\DVPaginationBar\DVPaginationBarRender.js''',3) ] ],d,[ params ]).
+html_comp_i(23,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(23,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(24,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(24,'Class',row,v,[ str ]).
+html_comp_i(24,'Id','',d,[ str ]).
+html_comp_i(24,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Semanticcontent',div,d,[ str ]).
+html_comp_i(24,'Align',left,d,[ str ]).
+html_comp_i(24,'Valign',top,d,[ str ]).
+html_comp_i(25,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(25,'Class','col-xs-12',v,[ str ]).
+html_comp_i(25,'Id','',d,[ str ]).
+html_comp_i(25,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Semanticcontent',div,d,[ str ]).
+html_comp_i(25,'Align',left,d,[ str ]).
+html_comp_i(25,'Valign',top,d,[ str ]).
+html_comp_i(26,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(26,'Class','Section',d,[ str ]).
+html_comp_i(26,'Id','Html_bottomauxiliarcontrols',v,[ str ]).
+html_comp_i(26,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Semanticcontent',div,d,[ str ]).
+html_comp_i(26,'Align',left,d,[ str ]).
+html_comp_i(26,'Valign',top,d,[ str ]).
+html_comp_i(27,'Usercontroltype','DVelop.GXBootstrap.DropDownOptions',d,[ str ]).
+html_comp_i(27,'Constructorname','BootstrapDropDownOptions',d,[ str ]).
+html_comp_i(27,'Showmethodname',show,d,[ str ]).
+html_comp_i(27,'Controlname','DDO_BR_Medication_SchemeID',v,[ str ]).
+html_comp_i(27,'Caption','',v,[ str ]).
+html_comp_i(27,'Tooltip','WWP_TSColumnOptions',v,[ str ]).
+html_comp_i(27,'Cls','ColumnSettings',v,[ str ]).
+html_comp_i(27,'Titlecontrolalign','Automatic',d,[ str ]).
+html_comp_i(27,'Dropdownoptionstype','GridTitleSettings',v,[ str ]).
+html_comp_i(27,'Titlecontrolidtoreplace','',d,[ str ]).
+html_comp_i(27,'Includesortasc',-1,v,[ bool ]).
+html_comp_i(27,'Includesortdsc',-1,v,[ bool ]).
+html_comp_i(27,'Includefilter',0,v,[ bool ]).
+html_comp_i(27,'Includedatalist',0,v,[ bool ]).
+html_comp_i(27,'Fixedfilters','',d,[ str ]).
+html_comp_i(27,'Sortasc','WWP_TSSortASC',v,[ str ]).
+html_comp_i(27,'Sortdsc','WWP_TSSortDSC',v,[ str ]).
+html_comp_i(27,'Searchbuttontext','WWP_TSSearchButtonCaption',v,[ str ]).
+html_comp_i(27,'Updatebuttontext','Update',d,[ str ]).
+html_comp_i(27,'Dropdownoptionstitlesettingsicons',[ t('Ddo_titlesettingsicons',23) ],v,[ params ]).
+html_comp_i(27,'Dropdownoptionsdata',[ t('Br_medication_schemeidtitlefilterdata',23) ],v,[ params ]).
+html_comp_i(27,'Setdropdownoptionstitlesettingsicons','SetDropDownOptionsTitleSettingsIcons',d,[ str ]).
+html_comp_i(27,'Getdropdownoptionstitlesettingsicons','GetDropDownOptionsTitleSettingsIcons',d,[ str ]).
+html_comp_i(27,'Setdropdownoptionsdata','SetDropDownOptionsData',d,[ str ]).
+html_comp_i(27,'Getdropdownoptionsdata','GetDropDownOptionsData',d,[ str ]).
+html_comp_i(27,'Visible',-1,d,[ bool ]).
+html_comp_i(27,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(27,'Jssupportfiles',[ [ t('''DVelop\Bootstrap\Shared\DVelopBootstrap.js''',3) ],[ t('''DVelop\Bootstrap/DropDownOptions/BootstrapDropDownOptionsRender.js''',3) ] ],d,[ params ]).
+html_comp_i(27,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(27,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(28,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(28,'Colcount',80,d,[ num ]).
+html_comp_i(28,'Attid',-14,v,[ num ]).
+html_comp_i(28,'Class','Attribute',d,[ str ]).
+html_comp_i(28,'Controlname','&Ddo_br_medication_schemeidtitlecontrolidtoreplace',d,[ str ]).
+html_comp_i(28,'Returnonclick',0,d,[ bool ]).
+html_comp_i(28,'Captionclass','',d,[ str ]).
+html_comp_i(28,'Captionposition','',d,[ str ]).
+html_comp_i(28,'Captionvalue','',d,[ str ]).
+html_comp_i(28,'Layoutclass','',d,[ str ]).
+html_comp_i(28,'Controltype',2,d,[ num ]).
+html_comp_i(28,'Inputtype',0,d,[ num ]).
+html_comp_i(28,'Editautocomplete',0,d,[ num ]).
+html_comp_i(28,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(28,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(28,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(28,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(28,'Readonly',0,d,[ bool ]).
+html_comp_i(28,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(28,'Ispassword',0,d,[ bool ]).
+html_comp_i(28,'Autoresize',-1,d,[ bool ]).
+html_comp_i(28,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(28,'Gxheight',measure(4,row),d,[ measure ]).
+html_comp_i(28,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(28,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(28,'Fill',-1,d,[ bool ]).
+html_comp_i(28,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(28,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(28,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(28,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(28,'Gxformat',0,d,[ num ]).
+html_comp_i(28,'Title','',d,[ str ]).
+html_comp_i(28,'Invitemsg','',d,[ str ]).
+html_comp_i(29,'Usercontroltype','DVelop.GXBootstrap.DropDownOptions',d,[ str ]).
+html_comp_i(29,'Constructorname','BootstrapDropDownOptions',d,[ str ]).
+html_comp_i(29,'Showmethodname',show,d,[ str ]).
+html_comp_i(29,'Controlname','DDO_BR_MedicationID',v,[ str ]).
+html_comp_i(29,'Caption','',v,[ str ]).
+html_comp_i(29,'Tooltip','WWP_TSColumnOptions',v,[ str ]).
+html_comp_i(29,'Cls','ColumnSettings',v,[ str ]).
+html_comp_i(29,'Titlecontrolalign','Automatic',d,[ str ]).
+html_comp_i(29,'Dropdownoptionstype','GridTitleSettings',v,[ str ]).
+html_comp_i(29,'Titlecontrolidtoreplace','',d,[ str ]).
+html_comp_i(29,'Includesortasc',-1,v,[ bool ]).
+html_comp_i(29,'Includesortdsc',-1,v,[ bool ]).
+html_comp_i(29,'Includefilter',0,v,[ bool ]).
+html_comp_i(29,'Includedatalist',0,v,[ bool ]).
+html_comp_i(29,'Fixedfilters','',d,[ str ]).
+html_comp_i(29,'Sortasc','WWP_TSSortASC',v,[ str ]).
+html_comp_i(29,'Sortdsc','WWP_TSSortDSC',v,[ str ]).
+html_comp_i(29,'Searchbuttontext','WWP_TSSearchButtonCaption',v,[ str ]).
+html_comp_i(29,'Updatebuttontext','Update',d,[ str ]).
+html_comp_i(29,'Dropdownoptionstitlesettingsicons',[ t('Ddo_titlesettingsicons',23) ],v,[ params ]).
+html_comp_i(29,'Dropdownoptionsdata',[ t('Br_medicationidtitlefilterdata',23) ],v,[ params ]).
+html_comp_i(29,'Setdropdownoptionstitlesettingsicons','SetDropDownOptionsTitleSettingsIcons',d,[ str ]).
+html_comp_i(29,'Getdropdownoptionstitlesettingsicons','GetDropDownOptionsTitleSettingsIcons',d,[ str ]).
+html_comp_i(29,'Setdropdownoptionsdata','SetDropDownOptionsData',d,[ str ]).
+html_comp_i(29,'Getdropdownoptionsdata','GetDropDownOptionsData',d,[ str ]).
+html_comp_i(29,'Visible',-1,d,[ bool ]).
+html_comp_i(29,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(29,'Jssupportfiles',[ [ t('''DVelop\Bootstrap\Shared\DVelopBootstrap.js''',3) ],[ t('''DVelop\Bootstrap/DropDownOptions/BootstrapDropDownOptionsRender.js''',3) ] ],d,[ params ]).
+html_comp_i(29,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(29,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(30,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(30,'Colcount',80,d,[ num ]).
+html_comp_i(30,'Attid',-16,v,[ num ]).
+html_comp_i(30,'Class','Attribute',d,[ str ]).
+html_comp_i(30,'Controlname','&Ddo_br_medicationidtitlecontrolidtoreplace',d,[ str ]).
+html_comp_i(30,'Returnonclick',0,d,[ bool ]).
+html_comp_i(30,'Captionclass','',d,[ str ]).
+html_comp_i(30,'Captionposition','',d,[ str ]).
+html_comp_i(30,'Captionvalue','',d,[ str ]).
+html_comp_i(30,'Layoutclass','',d,[ str ]).
+html_comp_i(30,'Controltype',2,d,[ num ]).
+html_comp_i(30,'Inputtype',0,d,[ num ]).
+html_comp_i(30,'Editautocomplete',0,d,[ num ]).
+html_comp_i(30,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(30,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(30,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(30,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(30,'Readonly',0,d,[ bool ]).
+html_comp_i(30,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(30,'Ispassword',0,d,[ bool ]).
+html_comp_i(30,'Autoresize',-1,d,[ bool ]).
+html_comp_i(30,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(30,'Gxheight',measure(4,row),d,[ measure ]).
+html_comp_i(30,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(30,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(30,'Fill',-1,d,[ bool ]).
+html_comp_i(30,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(30,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(30,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(30,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(30,'Gxformat',0,d,[ num ]).
+html_comp_i(30,'Title','',d,[ str ]).
+html_comp_i(30,'Invitemsg','',d,[ str ]).
+html_comp_i(31,'Usercontroltype','DVelop.GXBootstrap.DropDownOptions',d,[ str ]).
+html_comp_i(31,'Constructorname','BootstrapDropDownOptions',d,[ str ]).
+html_comp_i(31,'Showmethodname',show,d,[ str ]).
+html_comp_i(31,'Controlname','DDO_BR_Medication_Chem_Name',v,[ str ]).
+html_comp_i(31,'Caption','',v,[ str ]).
+html_comp_i(31,'Tooltip','WWP_TSColumnOptions',v,[ str ]).
+html_comp_i(31,'Cls','ColumnSettings',v,[ str ]).
+html_comp_i(31,'Titlecontrolalign','Automatic',d,[ str ]).
+html_comp_i(31,'Dropdownoptionstype','GridTitleSettings',v,[ str ]).
+html_comp_i(31,'Titlecontrolidtoreplace','',d,[ str ]).
+html_comp_i(31,'Includesortasc',-1,v,[ bool ]).
+html_comp_i(31,'Includesortdsc',-1,v,[ bool ]).
+html_comp_i(31,'Includefilter',0,v,[ bool ]).
+html_comp_i(31,'Includedatalist',0,v,[ bool ]).
+html_comp_i(31,'Fixedfilters','',d,[ str ]).
+html_comp_i(31,'Sortasc','WWP_TSSortASC',v,[ str ]).
+html_comp_i(31,'Sortdsc','WWP_TSSortDSC',v,[ str ]).
+html_comp_i(31,'Searchbuttontext','WWP_TSSearchButtonCaption',v,[ str ]).
+html_comp_i(31,'Updatebuttontext','Update',d,[ str ]).
+html_comp_i(31,'Dropdownoptionstitlesettingsicons',[ t('Ddo_titlesettingsicons',23) ],v,[ params ]).
+html_comp_i(31,'Dropdownoptionsdata',[ t('Br_medication_chem_nametitlefilterdata',23) ],v,[ params ]).
+html_comp_i(31,'Setdropdownoptionstitlesettingsicons','SetDropDownOptionsTitleSettingsIcons',d,[ str ]).
+html_comp_i(31,'Getdropdownoptionstitlesettingsicons','GetDropDownOptionsTitleSettingsIcons',d,[ str ]).
+html_comp_i(31,'Setdropdownoptionsdata','SetDropDownOptionsData',d,[ str ]).
+html_comp_i(31,'Getdropdownoptionsdata','GetDropDownOptionsData',d,[ str ]).
+html_comp_i(31,'Visible',-1,d,[ bool ]).
+html_comp_i(31,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(31,'Jssupportfiles',[ [ t('''DVelop\Bootstrap\Shared\DVelopBootstrap.js''',3) ],[ t('''DVelop\Bootstrap/DropDownOptions/BootstrapDropDownOptionsRender.js''',3) ] ],d,[ params ]).
+html_comp_i(31,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(31,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(32,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(32,'Colcount',80,d,[ num ]).
+html_comp_i(32,'Attid',-33,v,[ num ]).
+html_comp_i(32,'Class','Attribute',d,[ str ]).
+html_comp_i(32,'Controlname','&Ddo_br_medication_chem_nametitlecontrolidtoreplace',d,[ str ]).
+html_comp_i(32,'Returnonclick',0,d,[ bool ]).
+html_comp_i(32,'Captionclass','',d,[ str ]).
+html_comp_i(32,'Captionposition','',d,[ str ]).
+html_comp_i(32,'Captionvalue','',d,[ str ]).
+html_comp_i(32,'Layoutclass','',d,[ str ]).
+html_comp_i(32,'Controltype',2,d,[ num ]).
+html_comp_i(32,'Inputtype',0,d,[ num ]).
+html_comp_i(32,'Editautocomplete',0,d,[ num ]).
+html_comp_i(32,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(32,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(32,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(32,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(32,'Readonly',0,d,[ bool ]).
+html_comp_i(32,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(32,'Ispassword',0,d,[ bool ]).
+html_comp_i(32,'Autoresize',-1,d,[ bool ]).
+html_comp_i(32,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(32,'Gxheight',measure(4,row),d,[ measure ]).
+html_comp_i(32,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(32,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(32,'Fill',-1,d,[ bool ]).
+html_comp_i(32,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(32,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(32,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(32,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(32,'Gxformat',0,d,[ num ]).
+html_comp_i(32,'Title','',d,[ str ]).
+html_comp_i(32,'Invitemsg','',d,[ str ]).
+html_comp_i(33,'Usercontroltype','DVelop.GXBootstrap.DropDownOptions',d,[ str ]).
+html_comp_i(33,'Constructorname','BootstrapDropDownOptions',d,[ str ]).
+html_comp_i(33,'Showmethodname',show,d,[ str ]).
+html_comp_i(33,'Controlname','DDO_BR_Medication_Chem_Cycle',v,[ str ]).
+html_comp_i(33,'Caption','',v,[ str ]).
+html_comp_i(33,'Tooltip','WWP_TSColumnOptions',v,[ str ]).
+html_comp_i(33,'Cls','ColumnSettings',v,[ str ]).
+html_comp_i(33,'Titlecontrolalign','Automatic',d,[ str ]).
+html_comp_i(33,'Dropdownoptionstype','GridTitleSettings',v,[ str ]).
+html_comp_i(33,'Titlecontrolidtoreplace','',d,[ str ]).
+html_comp_i(33,'Includesortasc',-1,v,[ bool ]).
+html_comp_i(33,'Includesortdsc',-1,v,[ bool ]).
+html_comp_i(33,'Includefilter',0,v,[ bool ]).
+html_comp_i(33,'Includedatalist',0,v,[ bool ]).
+html_comp_i(33,'Fixedfilters','',d,[ str ]).
+html_comp_i(33,'Sortasc','WWP_TSSortASC',v,[ str ]).
+html_comp_i(33,'Sortdsc','WWP_TSSortDSC',v,[ str ]).
+html_comp_i(33,'Searchbuttontext','WWP_TSSearchButtonCaption',v,[ str ]).
+html_comp_i(33,'Updatebuttontext','Update',d,[ str ]).
+html_comp_i(33,'Dropdownoptionstitlesettingsicons',[ t('Ddo_titlesettingsicons',23) ],v,[ params ]).
+html_comp_i(33,'Dropdownoptionsdata',[ t('Br_medication_chem_cycletitlefilterdata',23) ],v,[ params ]).
+html_comp_i(33,'Setdropdownoptionstitlesettingsicons','SetDropDownOptionsTitleSettingsIcons',d,[ str ]).
+html_comp_i(33,'Getdropdownoptionstitlesettingsicons','GetDropDownOptionsTitleSettingsIcons',d,[ str ]).
+html_comp_i(33,'Setdropdownoptionsdata','SetDropDownOptionsData',d,[ str ]).
+html_comp_i(33,'Getdropdownoptionsdata','GetDropDownOptionsData',d,[ str ]).
+html_comp_i(33,'Visible',-1,d,[ bool ]).
+html_comp_i(33,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(33,'Jssupportfiles',[ [ t('''DVelop\Bootstrap\Shared\DVelopBootstrap.js''',3) ],[ t('''DVelop\Bootstrap/DropDownOptions/BootstrapDropDownOptionsRender.js''',3) ] ],d,[ params ]).
+html_comp_i(33,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(33,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(34,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(34,'Colcount',80,d,[ num ]).
+html_comp_i(34,'Attid',-35,v,[ num ]).
+html_comp_i(34,'Class','Attribute',d,[ str ]).
+html_comp_i(34,'Controlname','&Ddo_br_medication_chem_cycletitlecontrolidtoreplace',d,[ str ]).
+html_comp_i(34,'Returnonclick',0,d,[ bool ]).
+html_comp_i(34,'Captionclass','',d,[ str ]).
+html_comp_i(34,'Captionposition','',d,[ str ]).
+html_comp_i(34,'Captionvalue','',d,[ str ]).
+html_comp_i(34,'Layoutclass','',d,[ str ]).
+html_comp_i(34,'Controltype',2,d,[ num ]).
+html_comp_i(34,'Inputtype',0,d,[ num ]).
+html_comp_i(34,'Editautocomplete',0,d,[ num ]).
+html_comp_i(34,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(34,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(34,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(34,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(34,'Readonly',0,d,[ bool ]).
+html_comp_i(34,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(34,'Ispassword',0,d,[ bool ]).
+html_comp_i(34,'Autoresize',-1,d,[ bool ]).
+html_comp_i(34,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(34,'Gxheight',measure(4,row),d,[ measure ]).
+html_comp_i(34,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(34,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(34,'Fill',-1,d,[ bool ]).
+html_comp_i(34,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(34,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(34,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(34,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(34,'Gxformat',0,d,[ num ]).
+html_comp_i(34,'Title','',d,[ str ]).
+html_comp_i(34,'Invitemsg','',d,[ str ]).
+html_comp_i(35,'Usercontroltype','DVelop.GXBootstrap.DropDownOptions',d,[ str ]).
+html_comp_i(35,'Constructorname','BootstrapDropDownOptions',d,[ str ]).
+html_comp_i(35,'Showmethodname',show,d,[ str ]).
+html_comp_i(35,'Controlname','DDO_BR_Medication_Chem_Line',v,[ str ]).
+html_comp_i(35,'Caption','',v,[ str ]).
+html_comp_i(35,'Tooltip','WWP_TSColumnOptions',v,[ str ]).
+html_comp_i(35,'Cls','ColumnSettings',v,[ str ]).
+html_comp_i(35,'Titlecontrolalign','Automatic',d,[ str ]).
+html_comp_i(35,'Dropdownoptionstype','GridTitleSettings',v,[ str ]).
+html_comp_i(35,'Titlecontrolidtoreplace','',d,[ str ]).
+html_comp_i(35,'Includesortasc',-1,v,[ bool ]).
+html_comp_i(35,'Includesortdsc',-1,v,[ bool ]).
+html_comp_i(35,'Includefilter',0,v,[ bool ]).
+html_comp_i(35,'Includedatalist',0,v,[ bool ]).
+html_comp_i(35,'Fixedfilters','',d,[ str ]).
+html_comp_i(35,'Sortasc','WWP_TSSortASC',v,[ str ]).
+html_comp_i(35,'Sortdsc','WWP_TSSortDSC',v,[ str ]).
+html_comp_i(35,'Searchbuttontext','WWP_TSSearchButtonCaption',v,[ str ]).
+html_comp_i(35,'Updatebuttontext','Update',d,[ str ]).
+html_comp_i(35,'Dropdownoptionstitlesettingsicons',[ t('Ddo_titlesettingsicons',23) ],v,[ params ]).
+html_comp_i(35,'Dropdownoptionsdata',[ t('Br_medication_chem_linetitlefilterdata',23) ],v,[ params ]).
+html_comp_i(35,'Setdropdownoptionstitlesettingsicons','SetDropDownOptionsTitleSettingsIcons',d,[ str ]).
+html_comp_i(35,'Getdropdownoptionstitlesettingsicons','GetDropDownOptionsTitleSettingsIcons',d,[ str ]).
+html_comp_i(35,'Setdropdownoptionsdata','SetDropDownOptionsData',d,[ str ]).
+html_comp_i(35,'Getdropdownoptionsdata','GetDropDownOptionsData',d,[ str ]).
+html_comp_i(35,'Visible',-1,d,[ bool ]).
+html_comp_i(35,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(35,'Jssupportfiles',[ [ t('''DVelop\Bootstrap\Shared\DVelopBootstrap.js''',3) ],[ t('''DVelop\Bootstrap/DropDownOptions/BootstrapDropDownOptionsRender.js''',3) ] ],d,[ params ]).
+html_comp_i(35,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(35,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(36,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(36,'Colcount',80,d,[ num ]).
+html_comp_i(36,'Attid',-37,v,[ num ]).
+html_comp_i(36,'Class','Attribute',d,[ str ]).
+html_comp_i(36,'Controlname','&Ddo_br_medication_chem_linetitlecontrolidtoreplace',d,[ str ]).
+html_comp_i(36,'Returnonclick',0,d,[ bool ]).
+html_comp_i(36,'Captionclass','',d,[ str ]).
+html_comp_i(36,'Captionposition','',d,[ str ]).
+html_comp_i(36,'Captionvalue','',d,[ str ]).
+html_comp_i(36,'Layoutclass','',d,[ str ]).
+html_comp_i(36,'Controltype',2,d,[ num ]).
+html_comp_i(36,'Inputtype',0,d,[ num ]).
+html_comp_i(36,'Editautocomplete',0,d,[ num ]).
+html_comp_i(36,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(36,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(36,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(36,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(36,'Readonly',0,d,[ bool ]).
+html_comp_i(36,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(36,'Ispassword',0,d,[ bool ]).
+html_comp_i(36,'Autoresize',-1,d,[ bool ]).
+html_comp_i(36,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(36,'Gxheight',measure(4,row),d,[ measure ]).
+html_comp_i(36,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(36,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(36,'Fill',-1,d,[ bool ]).
+html_comp_i(36,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(36,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(36,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(36,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(36,'Gxformat',0,d,[ num ]).
+html_comp_i(36,'Title','',d,[ str ]).
+html_comp_i(36,'Invitemsg','',d,[ str ]).
+html_comp_i(37,'Usercontroltype','DVelop.GXBootstrap.DropDownOptions',d,[ str ]).
+html_comp_i(37,'Constructorname','BootstrapDropDownOptions',d,[ str ]).
+html_comp_i(37,'Showmethodname',show,d,[ str ]).
+html_comp_i(37,'Controlname','DDO_BR_Medication_Chem_Detail',v,[ str ]).
+html_comp_i(37,'Caption','',v,[ str ]).
+html_comp_i(37,'Tooltip','WWP_TSColumnOptions',v,[ str ]).
+html_comp_i(37,'Cls','ColumnSettings',v,[ str ]).
+html_comp_i(37,'Titlecontrolalign','Automatic',d,[ str ]).
+html_comp_i(37,'Dropdownoptionstype','GridTitleSettings',v,[ str ]).
+html_comp_i(37,'Titlecontrolidtoreplace','',d,[ str ]).
+html_comp_i(37,'Includesortasc',-1,v,[ bool ]).
+html_comp_i(37,'Includesortdsc',-1,v,[ bool ]).
+html_comp_i(37,'Includefilter',0,v,[ bool ]).
+html_comp_i(37,'Includedatalist',0,v,[ bool ]).
+html_comp_i(37,'Fixedfilters','',d,[ str ]).
+html_comp_i(37,'Sortasc','WWP_TSSortASC',v,[ str ]).
+html_comp_i(37,'Sortdsc','WWP_TSSortDSC',v,[ str ]).
+html_comp_i(37,'Searchbuttontext','WWP_TSSearchButtonCaption',v,[ str ]).
+html_comp_i(37,'Updatebuttontext','Update',d,[ str ]).
+html_comp_i(37,'Dropdownoptionstitlesettingsicons',[ t('Ddo_titlesettingsicons',23) ],v,[ params ]).
+html_comp_i(37,'Dropdownoptionsdata',[ t('Br_medication_chem_detailtitlefilterdata',23) ],v,[ params ]).
+html_comp_i(37,'Setdropdownoptionstitlesettingsicons','SetDropDownOptionsTitleSettingsIcons',d,[ str ]).
+html_comp_i(37,'Getdropdownoptionstitlesettingsicons','GetDropDownOptionsTitleSettingsIcons',d,[ str ]).
+html_comp_i(37,'Setdropdownoptionsdata','SetDropDownOptionsData',d,[ str ]).
+html_comp_i(37,'Getdropdownoptionsdata','GetDropDownOptionsData',d,[ str ]).
+html_comp_i(37,'Visible',-1,d,[ bool ]).
+html_comp_i(37,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(37,'Jssupportfiles',[ [ t('''DVelop\Bootstrap\Shared\DVelopBootstrap.js''',3) ],[ t('''DVelop\Bootstrap/DropDownOptions/BootstrapDropDownOptionsRender.js''',3) ] ],d,[ params ]).
+html_comp_i(37,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(37,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(38,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(38,'Colcount',80,d,[ num ]).
+html_comp_i(38,'Attid',-41,v,[ num ]).
+html_comp_i(38,'Class','Attribute',d,[ str ]).
+html_comp_i(38,'Controlname','&Ddo_br_medication_chem_detailtitlecontrolidtoreplace',d,[ str ]).
+html_comp_i(38,'Returnonclick',0,d,[ bool ]).
+html_comp_i(38,'Captionclass','',d,[ str ]).
+html_comp_i(38,'Captionposition','',d,[ str ]).
+html_comp_i(38,'Captionvalue','',d,[ str ]).
+html_comp_i(38,'Layoutclass','',d,[ str ]).
+html_comp_i(38,'Controltype',2,d,[ num ]).
+html_comp_i(38,'Inputtype',0,d,[ num ]).
+html_comp_i(38,'Editautocomplete',0,d,[ num ]).
+html_comp_i(38,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(38,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(38,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(38,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(38,'Readonly',0,d,[ bool ]).
+html_comp_i(38,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(38,'Ispassword',0,d,[ bool ]).
+html_comp_i(38,'Autoresize',-1,d,[ bool ]).
+html_comp_i(38,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(38,'Gxheight',measure(4,row),d,[ measure ]).
+html_comp_i(38,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(38,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(38,'Fill',-1,d,[ bool ]).
+html_comp_i(38,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(38,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(38,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(38,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(38,'Gxformat',0,d,[ num ]).
+html_comp_i(38,'Title','',d,[ str ]).
+html_comp_i(38,'Invitemsg','',d,[ str ]).
+html_comp_i(39,'Usercontroltype','DVelop.WorkWithPlusUtilities',d,[ str ]).
+html_comp_i(39,'Constructorname','DVelop_WorkWithPlusUtilities',d,[ str ]).
+html_comp_i(39,'Showmethodname',show,d,[ str ]).
+html_comp_i(39,'Controlname','WorkWithPlusUtilities1',v,[ str ]).
+html_comp_i(39,'Width','100',d,[ str ]).
+html_comp_i(39,'Height','100',d,[ str ]).
+html_comp_i(39,'Visible',-1,d,[ bool ]).
+html_comp_i(39,'Csssupportfiles',[ [ t('''DVelop\Bootstrap\Shared\fontawesome\font-awesome.min.css''',3) ] ],d,[ params ]).
+html_comp_i(39,'Jssupportfiles',[ [ t('''DVelop\WorkWithPlusUtilities\WorkWithPlusUtilitiesRender.js''',3) ] ],d,[ params ]).
+html_comp_i(39,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(39,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(40,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(40,'Colcount',4,d,[ num ]).
+html_comp_i(40,'Attid',-11,v,[ num ]).
+html_comp_i(40,'Class','Attribute',d,[ str ]).
+html_comp_i(40,'Controlname','&Orderedby',d,[ str ]).
+html_comp_i(40,'Returnonclick',0,d,[ bool ]).
+html_comp_i(40,'Captionclass','',d,[ str ]).
+html_comp_i(40,'Captionposition','',d,[ str ]).
+html_comp_i(40,'Captionvalue','',d,[ str ]).
+html_comp_i(40,'Layoutclass','',d,[ str ]).
+html_comp_i(40,'Controltype',2,d,[ num ]).
+html_comp_i(40,'Inputtype',0,d,[ num ]).
+html_comp_i(40,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(40,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(40,'Readonly',0,d,[ bool ]).
+html_comp_i(40,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(40,'Ispassword',0,d,[ bool ]).
+html_comp_i(40,'Autoresize',-1,d,[ bool ]).
+html_comp_i(40,'Gxwidth',measure(4,chr),d,[ measure ]).
+html_comp_i(40,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(40,'Ismultiline',0,d,[ bool ]).
+html_comp_i(40,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(40,'Fill',-1,d,[ bool ]).
+html_comp_i(40,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(40,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(40,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(40,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(40,'Gxformat',0,d,[ num ]).
+html_comp_i(40,'Title','',d,[ str ]).
+html_comp_i(40,'Invitemsg','',d,[ str ]).
+html_comp_i(41,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(41,'Colcount',4,d,[ num ]).
+html_comp_i(41,'Attid',-12,v,[ num ]).
+html_comp_i(41,'Class','Attribute',d,[ str ]).
+html_comp_i(41,'Controlname','&Ordereddsc',d,[ str ]).
+html_comp_i(41,'Returnonclick',0,d,[ bool ]).
+html_comp_i(41,'Captionclass','',d,[ str ]).
+html_comp_i(41,'Captionposition','',d,[ str ]).
+html_comp_i(41,'Captionvalue','',d,[ str ]).
+html_comp_i(41,'Layoutclass','',d,[ str ]).
+html_comp_i(41,'Controltype',2,v,[ num ]).
+html_comp_i(41,'Inputtype',0,d,[ num ]).
+html_comp_i(41,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(41,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(41,'Readonly',0,d,[ bool ]).
+html_comp_i(41,'Autocomplete',0,d,[ bool ]).
+html_comp_i(41,'Ispassword',0,d,[ bool ]).
+html_comp_i(41,'Autoresize',-1,d,[ bool ]).
+html_comp_i(41,'Gxwidth',measure(4,chr),d,[ measure ]).
+html_comp_i(41,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(41,'Ismultiline',0,d,[ bool ]).
+html_comp_i(41,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(41,'Fill',-1,d,[ bool ]).
+html_comp_i(41,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(41,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(41,'Font',font('Trebuchet MS',10,[]),d,[ font ]).
+html_comp_i(41,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(41,'Gxformat',0,d,[ num ]).
+html_comp_i(41,'Title','',d,[ str ]).
+html_comp_i(41,'Invitemsg','',d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(13,1,s(t('Select',23),12),[ ctlname('&Select'),ctrltype(edit,13),pos(13),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(14,1,s(t(296,2),12),[ ctlname(296),ctrltype(edit,14),pos(14),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(15,1,s(t(119,2),12),[ ctlname(119),ctrltype(edit,15),pos(15),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(16,1,s(t(305,2),12),[ ctlname(305),ctrltype(edit,16),pos(16),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(17,1,s(t(306,2),12),[ ctlname(306),ctrltype(edit,17),pos(17),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(18,1,s(t(307,2),12),[ ctlname(307),ctrltype(edit,18),pos(18),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(19,1,s(t(313,2),12),[ ctlname(313),ctrltype(edit,19),pos(19),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(12,1,s(12),[ ctlname('Grid'),el([ t('Select',23),t(296,2),t(119,2),t(305,2),t(306,2),t(307,2),t(313,2) ]),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(11,1,div(11),[ ctlname('') ]).
+lit_i(10,1,div(10),[ ctlname('') ]).
+lit_i(23,1,usercontrol(23),[ ctlname('Gridpaginationbar'),ctrltype('dvelop.dvpaginationbar'),el([ t('Gridcurrentpage',23),t('Gridrecordcount',23),t('Gridpagesize',23) ]),containers([]) ]).
+lit_i(22,1,div(22),[ ctlname('Html_gridpaginationbar') ]).
+lit_i(21,1,div(21),[ ctlname('') ]).
+lit_i(20,1,div(20),[ ctlname('') ]).
+lit_i(9,1,div(9),[ ctlname('Gridtablewithpaginationbar') ]).
+lit_i(8,1,div(8),[ ctlname('') ]).
+lit_i(7,1,div(7),[ ctlname('') ]).
+lit_i(6,1,div(6),[ ctlname('Tablemain') ]).
+lit_i(5,1,div(5),[ ctlname('') ]).
+lit_i(4,1,div(4),[ ctlname('') ]).
+lit_i(27,1,usercontrol(27),[ ctlname('Ddo_br_medication_schemeid'),ctrltype('dvelop.gxbootstrap.dropdownoptions'),el([ t('Ddo_titlesettingsicons',23),t('Br_medication_schemeidtitlefilterdata',23) ]),containers([]) ]).
+lit_i(28,1,t('Ddo_br_medication_schemeidtitlecontrolidtoreplace',23),[ ctlname('&Ddo_br_medication_schemeidtitlecontrolidtoreplace'),ctrltype(edit,28),pos(28),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(29,1,usercontrol(29),[ ctlname('Ddo_br_medicationid'),ctrltype('dvelop.gxbootstrap.dropdownoptions'),el([ t('Ddo_titlesettingsicons',23),t('Br_medicationidtitlefilterdata',23) ]),containers([]) ]).
+lit_i(30,1,t('Ddo_br_medicationidtitlecontrolidtoreplace',23),[ ctlname('&Ddo_br_medicationidtitlecontrolidtoreplace'),ctrltype(edit,30),pos(30),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(31,1,usercontrol(31),[ ctlname('Ddo_br_medication_chem_name'),ctrltype('dvelop.gxbootstrap.dropdownoptions'),el([ t('Ddo_titlesettingsicons',23),t('Br_medication_chem_nametitlefilterdata',23) ]),containers([]) ]).
+lit_i(32,1,t('Ddo_br_medication_chem_nametitlecontrolidtoreplace',23),[ ctlname('&Ddo_br_medication_chem_nametitlecontrolidtoreplace'),ctrltype(edit,32),pos(32),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(33,1,usercontrol(33),[ ctlname('Ddo_br_medication_chem_cycle'),ctrltype('dvelop.gxbootstrap.dropdownoptions'),el([ t('Ddo_titlesettingsicons',23),t('Br_medication_chem_cycletitlefilterdata',23) ]),containers([]) ]).
+lit_i(34,1,t('Ddo_br_medication_chem_cycletitlecontrolidtoreplace',23),[ ctlname('&Ddo_br_medication_chem_cycletitlecontrolidtoreplace'),ctrltype(edit,34),pos(34),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(35,1,usercontrol(35),[ ctlname('Ddo_br_medication_chem_line'),ctrltype('dvelop.gxbootstrap.dropdownoptions'),el([ t('Ddo_titlesettingsicons',23),t('Br_medication_chem_linetitlefilterdata',23) ]),containers([]) ]).
+lit_i(36,1,t('Ddo_br_medication_chem_linetitlecontrolidtoreplace',23),[ ctlname('&Ddo_br_medication_chem_linetitlecontrolidtoreplace'),ctrltype(edit,36),pos(36),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(37,1,usercontrol(37),[ ctlname('Ddo_br_medication_chem_detail'),ctrltype('dvelop.gxbootstrap.dropdownoptions'),el([ t('Ddo_titlesettingsicons',23),t('Br_medication_chem_detailtitlefilterdata',23) ]),containers([]) ]).
+lit_i(38,1,t('Ddo_br_medication_chem_detailtitlecontrolidtoreplace',23),[ ctlname('&Ddo_br_medication_chem_detailtitlecontrolidtoreplace'),ctrltype(edit,38),pos(38),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(39,1,usercontrol(39),[ ctlname('Workwithplusutilities1'),ctrltype('dvelop.workwithplusutilities'),el([]),containers([]) ]).
+lit_i(40,1,t('Orderedby',23),[ ctlname('&Orderedby'),ctrltype(edit,40),pos(40),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(41,1,t('Ordereddsc',23),[ ctlname('&Ordereddsc'),ctrltype(edit,41),pos(41),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(26,1,div(26),[ ctlname('Html_bottomauxiliarcontrols') ]).
+lit_i(25,1,div(25),[ ctlname('') ]).
+lit_i(24,1,div(24),[ ctlname('') ]).
+lit_i(3,1,div(3),[ ctlname('Layoutmaintable') ]).
+lit_i(2,1,div(2),[ ctlname('') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ctrl_info_i(1,13,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ 
+ 
+ 
+att_prop_i(45,296,'ExternalName','BR_Medication_SchemeID',d).
+att_prop_i(45,296,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,296,'EmptyAsNull','Yes',d).
+att_prop_i(45,296,idBasedOn,69,v).
+att_prop_i(45,296,'AUTONUMBER','-1',d).
+att_prop_i(45,296,'AUTONUMBER_START','1',d).
+att_prop_i(45,296,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,296,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,296,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,296,'AttRegEx','',d).
+att_prop_i(45,296,'AttValidationFailedMsg','',d).
+att_prop_i(45,296,'FullName','BR_Medication_SchemeID',v).
+att_prop_i(45,119,'ExternalName','BR_MedicationID',d).
+att_prop_i(45,119,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,119,'EmptyAsNull','Yes',d).
+att_prop_i(45,119,idBasedOn,69,v).
+att_prop_i(45,119,'AUTONUMBER','-1',d).
+att_prop_i(45,119,'AUTONUMBER_START','1',d).
+att_prop_i(45,119,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,119,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,119,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,119,'AttRegEx','',d).
+att_prop_i(45,119,'AttValidationFailedMsg','',d).
+att_prop_i(45,119,'FullName','BR_MedicationID',v).
+att_prop_i(45,305,'ExternalName','BR_Medication_Chem_Name',d).
+att_prop_i(45,305,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,305,'EmptyAsNull','Yes',d).
+att_prop_i(45,305,idBasedOn,'',d).
+att_prop_i(45,305,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,305,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,305,'AttRegEx','',d).
+att_prop_i(45,305,'AttValidationFailedMsg','',d).
+att_prop_i(45,305,'FullName','BR_Medication_Chem_Name',v).
+att_prop_i(45,306,'ExternalName','BR_Medication_Chem_Cycle',d).
+att_prop_i(45,306,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,306,'EmptyAsNull','Yes',d).
+att_prop_i(45,306,idBasedOn,103,v).
+att_prop_i(45,306,'AUTONUMBER','0',d).
+att_prop_i(45,306,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,306,'AttRegEx','',d).
+att_prop_i(45,306,'AttValidationFailedMsg','',d).
+att_prop_i(45,306,'FullName','BR_Medication_Chem_Cycle',v).
+att_prop_i(45,307,'ExternalName','BR_Medication_Chem_Line',d).
+att_prop_i(45,307,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,307,'EmptyAsNull','Yes',d).
+att_prop_i(45,307,idBasedOn,'',d).
+att_prop_i(45,307,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,307,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,307,'AttRegEx','',d).
+att_prop_i(45,307,'AttValidationFailedMsg','',d).
+att_prop_i(45,307,'FullName','BR_Medication_Chem_Line',v).
+att_prop_i(45,313,'ExternalName','BR_Medication_Chem_Detail',d).
+att_prop_i(45,313,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,313,'EmptyAsNull','Yes',d).
+att_prop_i(45,313,idBasedOn,'',d).
+att_prop_i(45,313,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,313,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,313,'AttRegEx','',d).
+att_prop_i(45,313,'AttValidationFailedMsg','',d).
+att_prop_i(45,313,'FullName','BR_Medication_Chem_Detail',v).
+ 
+ 
+tbl_att_prop_i(45,32,296,'AllowNulls',n).
+tbl_att_prop_i(45,32,296,'AUTONUMBER',y).
+ 
+var_prop_i(45,'Securityfunctionalitykeys',idBasedOn,90,v).
+var_prop_i(45,'Inoutbr_medication_schemeid',idBasedOn,'',v).
+var_prop_i(45,'Inoutbr_medication_scheme_name',idBasedOn,'',v).
+var_prop_i(45,'Inoutbr_medication_chem_name',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,43,0 ],name,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,43,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 26,43,0 ],'ObjName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ObjDesc','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 26,51,0 ],name,'WWPBaseObjects\DVB_SDTDropDownOptionsData').
+struct_dt_i([ 26,51,0 ],namespace,'').
+struct_dt_i([ 26,51,0 ],'ObjName','DVB_SDTDropDownOptionsData').
+struct_dt_i([ 26,51,0 ],'ObjDesc','DVB_SDTDrop Down Options Data').
+struct_dt_i([ 26,51,0 ],'ExternalName','Data').
+struct_dt_i([ 26,51,0 ],'ExternalNamespace','').
+struct_dt_i([ 26,51,0 ],collection,'True').
+struct_dt_i([ 26,51,0 ],datatype,[ 26,51,85 ]).
+struct_dt_i([ 26,51,85 ],name,'Item').
+struct_dt_i([ 26,51,85 ],namespace,'.DVB_SDTDropDownOptionsData').
+struct_dt_i([ 26,54,0 ],name,'WWPBaseObjects\DVB_SDTDropDownOptionsTitleSettingsIcons').
+struct_dt_i([ 26,54,0 ],namespace,'').
+struct_dt_i([ 26,54,0 ],'ObjName','DVB_SDTDropDownOptionsTitleSettingsIcons').
+struct_dt_i([ 26,54,0 ],'ObjDesc','DVB_SDTDrop Down Options Title Settings Icons').
+struct_dt_i([ 26,54,0 ],'ExternalName','TitleSettingsIcons').
+struct_dt_i([ 26,54,0 ],'ExternalNamespace','').
+struct_dt_i([ 26,43,0 ],fullname,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,51,0 ],fullname,'WWPBaseObjects\DVB_SDTDropDownOptionsData').
+struct_dt_i([ 26,51,85 ],fullname,'WWPBaseObjects\DVB_SDTDropDownOptionsData.Item').
+struct_dt_i([ 26,54,0 ],fullname,'WWPBaseObjects\DVB_SDTDropDownOptionsTitleSettingsIcons').
+struct_dt_i([ 26,43,0 ],modified,yes).
+struct_dt_i([ 26,51,0 ],modified,yes).
+struct_dt_i([ 26,51,85 ],modified,yes).
+struct_dt_i([ 26,54,0 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,43,0 ],1,name,'Userid').
+struct_dt_elem_i([ 26,43,0 ],1,camelname,'UserId').
+struct_dt_elem_i([ 26,43,0 ],1,length,4).
+struct_dt_elem_i([ 26,43,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],1,sign,0).
+struct_dt_elem_i([ 26,43,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalName','UserId').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],2,name,'Userguid').
+struct_dt_elem_i([ 26,43,0 ],2,camelname,'UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,length,500).
+struct_dt_elem_i([ 26,43,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],2,type,[ 13,500,0 ]).
+struct_dt_elem_i([ 26,43,0 ],2,pic,'').
+struct_dt_elem_i([ 26,43,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalName','UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],3,name,'Username').
+struct_dt_elem_i([ 26,43,0 ],3,camelname,'UserName').
+struct_dt_elem_i([ 26,43,0 ],3,length,100).
+struct_dt_elem_i([ 26,43,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],3,pic,'').
+struct_dt_elem_i([ 26,43,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalName','UserName').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],4,name,'Usertype').
+struct_dt_elem_i([ 26,43,0 ],4,camelname,'UserType').
+struct_dt_elem_i([ 26,43,0 ],4,length,4).
+struct_dt_elem_i([ 26,43,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],4,sign,0).
+struct_dt_elem_i([ 26,43,0 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalName','UserType').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],5,name,'Userdisplayname').
+struct_dt_elem_i([ 26,43,0 ],5,camelname,'UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,length,100).
+struct_dt_elem_i([ 26,43,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],5,pic,'').
+struct_dt_elem_i([ 26,43,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalName','UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],6,name,'Userproviderid').
+struct_dt_elem_i([ 26,43,0 ],6,camelname,'UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,basedon,69).
+struct_dt_elem_i([ 26,43,0 ],6,length,18).
+struct_dt_elem_i([ 26,43,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],6,sign,0).
+struct_dt_elem_i([ 26,43,0 ],6,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,43,0 ],6,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 26,43,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalName','UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],7,name,'Userprovidername').
+struct_dt_elem_i([ 26,43,0 ],7,camelname,'UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,length,100).
+struct_dt_elem_i([ 26,43,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],7,pic,'').
+struct_dt_elem_i([ 26,43,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalName','UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],8,name,'Currenttnum').
+struct_dt_elem_i([ 26,43,0 ],8,camelname,currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,length,4).
+struct_dt_elem_i([ 26,43,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],8,sign,0).
+struct_dt_elem_i([ 26,43,0 ],8,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],8,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalName',currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],8,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],8,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],9,name,'Clientip').
+struct_dt_elem_i([ 26,43,0 ],9,camelname,'ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,length,40).
+struct_dt_elem_i([ 26,43,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],9,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,43,0 ],9,pic,'').
+struct_dt_elem_i([ 26,43,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalName','ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],9,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],9,'JsonName','').
+struct_dt_elem_i([ 26,51,85 ],1,name,'Icon').
+struct_dt_elem_i([ 26,51,85 ],1,camelname,'Icon').
+struct_dt_elem_i([ 26,51,85 ],1,length,4).
+struct_dt_elem_i([ 26,51,85 ],1,decimals,0).
+struct_dt_elem_i([ 26,51,85 ],1,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,51,85 ],1,pic,'').
+struct_dt_elem_i([ 26,51,85 ],1,collection,'False').
+struct_dt_elem_i([ 26,51,85 ],1,'ExternalName','Icon').
+struct_dt_elem_i([ 26,51,85 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,51,85 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,51,85 ],1,'XmlName','').
+struct_dt_elem_i([ 26,51,85 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,51,85 ],1,soaptype,'').
+struct_dt_elem_i([ 26,51,85 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,51,85 ],1,'JsonName','').
+struct_dt_elem_i([ 26,51,85 ],2,name,'Icon_gxi').
+struct_dt_elem_i([ 26,51,85 ],2,camelname,'Icon_GXI').
+struct_dt_elem_i([ 26,51,85 ],2,collection,'False').
+struct_dt_elem_i([ 26,51,85 ],2,isadd,'True').
+struct_dt_elem_i([ 26,51,85 ],2,length,2048).
+struct_dt_elem_i([ 26,51,85 ],2,decimals,0).
+struct_dt_elem_i([ 26,51,85 ],2,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,51,85 ],3,name,'Fonticon').
+struct_dt_elem_i([ 26,51,85 ],3,camelname,'FontIcon').
+struct_dt_elem_i([ 26,51,85 ],3,length,20).
+struct_dt_elem_i([ 26,51,85 ],3,decimals,0).
+struct_dt_elem_i([ 26,51,85 ],3,type,[ 13,20,0 ]).
+struct_dt_elem_i([ 26,51,85 ],3,pic,'').
+struct_dt_elem_i([ 26,51,85 ],3,collection,'False').
+struct_dt_elem_i([ 26,51,85 ],3,'ExternalName','FontIcon').
+struct_dt_elem_i([ 26,51,85 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,51,85 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,51,85 ],3,'XmlName','').
+struct_dt_elem_i([ 26,51,85 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,51,85 ],3,soaptype,'').
+struct_dt_elem_i([ 26,51,85 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,51,85 ],3,'JsonName','').
+struct_dt_elem_i([ 26,51,85 ],4,name,'Title').
+struct_dt_elem_i([ 26,51,85 ],4,camelname,'Title').
+struct_dt_elem_i([ 26,51,85 ],4,length,30).
+struct_dt_elem_i([ 26,51,85 ],4,decimals,0).
+struct_dt_elem_i([ 26,51,85 ],4,type,[ 5,30,0 ]).
+struct_dt_elem_i([ 26,51,85 ],4,pic,'').
+struct_dt_elem_i([ 26,51,85 ],4,collection,'False').
+struct_dt_elem_i([ 26,51,85 ],4,'ExternalName','Title').
+struct_dt_elem_i([ 26,51,85 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,51,85 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,51,85 ],4,'XmlName','').
+struct_dt_elem_i([ 26,51,85 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,51,85 ],4,soaptype,'').
+struct_dt_elem_i([ 26,51,85 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,51,85 ],4,'JsonName','').
+struct_dt_elem_i([ 26,51,85 ],5,name,'Tooltip').
+struct_dt_elem_i([ 26,51,85 ],5,camelname,'Tooltip').
+struct_dt_elem_i([ 26,51,85 ],5,length,100).
+struct_dt_elem_i([ 26,51,85 ],5,decimals,0).
+struct_dt_elem_i([ 26,51,85 ],5,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 26,51,85 ],5,pic,'').
+struct_dt_elem_i([ 26,51,85 ],5,collection,'False').
+struct_dt_elem_i([ 26,51,85 ],5,'ExternalName','Tooltip').
+struct_dt_elem_i([ 26,51,85 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,51,85 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,51,85 ],5,'XmlName','').
+struct_dt_elem_i([ 26,51,85 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,51,85 ],5,soaptype,'').
+struct_dt_elem_i([ 26,51,85 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,51,85 ],5,'JsonName','').
+struct_dt_elem_i([ 26,51,85 ],6,name,'Link').
+struct_dt_elem_i([ 26,51,85 ],6,camelname,'Link').
+struct_dt_elem_i([ 26,51,85 ],6,length,250).
+struct_dt_elem_i([ 26,51,85 ],6,decimals,0).
+struct_dt_elem_i([ 26,51,85 ],6,type,[ 13,250,0 ]).
+struct_dt_elem_i([ 26,51,85 ],6,pic,'').
+struct_dt_elem_i([ 26,51,85 ],6,collection,'False').
+struct_dt_elem_i([ 26,51,85 ],6,'ExternalName','Link').
+struct_dt_elem_i([ 26,51,85 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,51,85 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,51,85 ],6,'XmlName','').
+struct_dt_elem_i([ 26,51,85 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,51,85 ],6,soaptype,'').
+struct_dt_elem_i([ 26,51,85 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,51,85 ],6,'JsonName','').
+struct_dt_elem_i([ 26,51,85 ],7,name,'Eventkey').
+struct_dt_elem_i([ 26,51,85 ],7,camelname,'EventKey').
+struct_dt_elem_i([ 26,51,85 ],7,length,100).
+struct_dt_elem_i([ 26,51,85 ],7,decimals,0).
+struct_dt_elem_i([ 26,51,85 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,51,85 ],7,pic,'').
+struct_dt_elem_i([ 26,51,85 ],7,collection,'False').
+struct_dt_elem_i([ 26,51,85 ],7,'ExternalName','EventKey').
+struct_dt_elem_i([ 26,51,85 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,51,85 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,51,85 ],7,'XmlName','').
+struct_dt_elem_i([ 26,51,85 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,51,85 ],7,soaptype,'').
+struct_dt_elem_i([ 26,51,85 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,51,85 ],7,'JsonName','').
+struct_dt_elem_i([ 26,51,85 ],8,name,'Isdivider').
+struct_dt_elem_i([ 26,51,85 ],8,camelname,'IsDivider').
+struct_dt_elem_i([ 26,51,85 ],8,length,4).
+struct_dt_elem_i([ 26,51,85 ],8,decimals,0).
+struct_dt_elem_i([ 26,51,85 ],8,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,51,85 ],8,pic,'').
+struct_dt_elem_i([ 26,51,85 ],8,collection,'False').
+struct_dt_elem_i([ 26,51,85 ],8,'ExternalName','IsDivider').
+struct_dt_elem_i([ 26,51,85 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,51,85 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,51,85 ],8,'XmlName','').
+struct_dt_elem_i([ 26,51,85 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,51,85 ],8,soaptype,'').
+struct_dt_elem_i([ 26,51,85 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,51,85 ],8,'JsonName','').
+struct_dt_elem_i([ 26,51,85 ],9,name,'Jsonclickevent').
+struct_dt_elem_i([ 26,51,85 ],9,camelname,'JSonclickEvent').
+struct_dt_elem_i([ 26,51,85 ],9,length,250).
+struct_dt_elem_i([ 26,51,85 ],9,decimals,0).
+struct_dt_elem_i([ 26,51,85 ],9,type,[ 13,250,0 ]).
+struct_dt_elem_i([ 26,51,85 ],9,pic,'').
+struct_dt_elem_i([ 26,51,85 ],9,collection,'False').
+struct_dt_elem_i([ 26,51,85 ],9,'ExternalName','JSonclickEvent').
+struct_dt_elem_i([ 26,51,85 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,51,85 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,51,85 ],9,'XmlName','').
+struct_dt_elem_i([ 26,51,85 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,51,85 ],9,soaptype,'').
+struct_dt_elem_i([ 26,51,85 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,51,85 ],9,'JsonName','').
+struct_dt_elem_i([ 26,51,85 ],10,name,'Themeclass').
+struct_dt_elem_i([ 26,51,85 ],10,camelname,'ThemeClass').
+struct_dt_elem_i([ 26,51,85 ],10,length,20).
+struct_dt_elem_i([ 26,51,85 ],10,decimals,0).
+struct_dt_elem_i([ 26,51,85 ],10,type,[ 13,20,0 ]).
+struct_dt_elem_i([ 26,51,85 ],10,pic,'').
+struct_dt_elem_i([ 26,51,85 ],10,collection,'False').
+struct_dt_elem_i([ 26,51,85 ],10,'ExternalName','ThemeClass').
+struct_dt_elem_i([ 26,51,85 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,51,85 ],10,'XmlType','Element').
+struct_dt_elem_i([ 26,51,85 ],10,'XmlName','').
+struct_dt_elem_i([ 26,51,85 ],10,'XmlNamespace','').
+struct_dt_elem_i([ 26,51,85 ],10,soaptype,'').
+struct_dt_elem_i([ 26,51,85 ],10,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,51,85 ],10,'JsonName','').
+struct_dt_elem_i([ 26,54,0 ],1,name,'Default').
+struct_dt_elem_i([ 26,54,0 ],1,camelname,'Default').
+struct_dt_elem_i([ 26,54,0 ],1,length,4).
+struct_dt_elem_i([ 26,54,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],1,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,54,0 ],1,pic,'').
+struct_dt_elem_i([ 26,54,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],1,'ExternalName','Default').
+struct_dt_elem_i([ 26,54,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,54,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,54,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,54,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,54,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,54,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,54,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,54,0 ],2,name,'Default_gxi').
+struct_dt_elem_i([ 26,54,0 ],2,camelname,'Default_GXI').
+struct_dt_elem_i([ 26,54,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],2,isadd,'True').
+struct_dt_elem_i([ 26,54,0 ],2,length,2048).
+struct_dt_elem_i([ 26,54,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],2,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,54,0 ],3,name,'Filtered').
+struct_dt_elem_i([ 26,54,0 ],3,camelname,'Filtered').
+struct_dt_elem_i([ 26,54,0 ],3,length,4).
+struct_dt_elem_i([ 26,54,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],3,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,54,0 ],3,pic,'').
+struct_dt_elem_i([ 26,54,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],3,'ExternalName','Filtered').
+struct_dt_elem_i([ 26,54,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,54,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,54,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,54,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,54,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,54,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,54,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,54,0 ],4,name,'Filtered_gxi').
+struct_dt_elem_i([ 26,54,0 ],4,camelname,'Filtered_GXI').
+struct_dt_elem_i([ 26,54,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],4,isadd,'True').
+struct_dt_elem_i([ 26,54,0 ],4,length,2048).
+struct_dt_elem_i([ 26,54,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],4,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,54,0 ],5,name,'Sortedasc').
+struct_dt_elem_i([ 26,54,0 ],5,camelname,'SortedASC').
+struct_dt_elem_i([ 26,54,0 ],5,length,4).
+struct_dt_elem_i([ 26,54,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],5,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,54,0 ],5,pic,'').
+struct_dt_elem_i([ 26,54,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],5,'ExternalName','SortedASC').
+struct_dt_elem_i([ 26,54,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,54,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,54,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,54,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,54,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,54,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,54,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,54,0 ],6,name,'Sortedasc_gxi').
+struct_dt_elem_i([ 26,54,0 ],6,camelname,'SortedASC_GXI').
+struct_dt_elem_i([ 26,54,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],6,isadd,'True').
+struct_dt_elem_i([ 26,54,0 ],6,length,2048).
+struct_dt_elem_i([ 26,54,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],6,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,54,0 ],7,name,'Sorteddsc').
+struct_dt_elem_i([ 26,54,0 ],7,camelname,'SortedDSC').
+struct_dt_elem_i([ 26,54,0 ],7,length,4).
+struct_dt_elem_i([ 26,54,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],7,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,54,0 ],7,pic,'').
+struct_dt_elem_i([ 26,54,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],7,'ExternalName','SortedDSC').
+struct_dt_elem_i([ 26,54,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,54,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,54,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,54,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,54,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,54,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,54,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,54,0 ],8,name,'Sorteddsc_gxi').
+struct_dt_elem_i([ 26,54,0 ],8,camelname,'SortedDSC_GXI').
+struct_dt_elem_i([ 26,54,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],8,isadd,'True').
+struct_dt_elem_i([ 26,54,0 ],8,length,2048).
+struct_dt_elem_i([ 26,54,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],8,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,54,0 ],9,name,'Filteredsortedasc').
+struct_dt_elem_i([ 26,54,0 ],9,camelname,'FilteredSortedASC').
+struct_dt_elem_i([ 26,54,0 ],9,length,4).
+struct_dt_elem_i([ 26,54,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],9,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,54,0 ],9,pic,'').
+struct_dt_elem_i([ 26,54,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],9,'ExternalName','FilteredSortedASC').
+struct_dt_elem_i([ 26,54,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,54,0 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,54,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,54,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,54,0 ],9,soaptype,'').
+struct_dt_elem_i([ 26,54,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,54,0 ],9,'JsonName','').
+struct_dt_elem_i([ 26,54,0 ],10,name,'Filteredsortedasc_gxi').
+struct_dt_elem_i([ 26,54,0 ],10,camelname,'FilteredSortedASC_GXI').
+struct_dt_elem_i([ 26,54,0 ],10,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],10,isadd,'True').
+struct_dt_elem_i([ 26,54,0 ],10,length,2048).
+struct_dt_elem_i([ 26,54,0 ],10,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],10,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,54,0 ],11,name,'Filteredsorteddsc').
+struct_dt_elem_i([ 26,54,0 ],11,camelname,'FilteredSortedDSC').
+struct_dt_elem_i([ 26,54,0 ],11,length,4).
+struct_dt_elem_i([ 26,54,0 ],11,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],11,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,54,0 ],11,pic,'').
+struct_dt_elem_i([ 26,54,0 ],11,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],11,'ExternalName','FilteredSortedDSC').
+struct_dt_elem_i([ 26,54,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,54,0 ],11,'XmlType','Element').
+struct_dt_elem_i([ 26,54,0 ],11,'XmlName','').
+struct_dt_elem_i([ 26,54,0 ],11,'XmlNamespace','').
+struct_dt_elem_i([ 26,54,0 ],11,soaptype,'').
+struct_dt_elem_i([ 26,54,0 ],11,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,54,0 ],11,'JsonName','').
+struct_dt_elem_i([ 26,54,0 ],12,name,'Filteredsorteddsc_gxi').
+struct_dt_elem_i([ 26,54,0 ],12,camelname,'FilteredSortedDSC_GXI').
+struct_dt_elem_i([ 26,54,0 ],12,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],12,isadd,'True').
+struct_dt_elem_i([ 26,54,0 ],12,length,2048).
+struct_dt_elem_i([ 26,54,0 ],12,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],12,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,54,0 ],13,name,'Optionsortasc').
+struct_dt_elem_i([ 26,54,0 ],13,camelname,'OptionSortASC').
+struct_dt_elem_i([ 26,54,0 ],13,length,4).
+struct_dt_elem_i([ 26,54,0 ],13,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],13,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,54,0 ],13,pic,'').
+struct_dt_elem_i([ 26,54,0 ],13,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],13,'ExternalName','OptionSortASC').
+struct_dt_elem_i([ 26,54,0 ],13,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,54,0 ],13,'XmlType','Element').
+struct_dt_elem_i([ 26,54,0 ],13,'XmlName','').
+struct_dt_elem_i([ 26,54,0 ],13,'XmlNamespace','').
+struct_dt_elem_i([ 26,54,0 ],13,soaptype,'').
+struct_dt_elem_i([ 26,54,0 ],13,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,54,0 ],13,'JsonName','').
+struct_dt_elem_i([ 26,54,0 ],14,name,'Optionsortasc_gxi').
+struct_dt_elem_i([ 26,54,0 ],14,camelname,'OptionSortASC_GXI').
+struct_dt_elem_i([ 26,54,0 ],14,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],14,isadd,'True').
+struct_dt_elem_i([ 26,54,0 ],14,length,2048).
+struct_dt_elem_i([ 26,54,0 ],14,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],14,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,54,0 ],15,name,'Optionsortdsc').
+struct_dt_elem_i([ 26,54,0 ],15,camelname,'OptionSortDSC').
+struct_dt_elem_i([ 26,54,0 ],15,length,4).
+struct_dt_elem_i([ 26,54,0 ],15,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],15,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,54,0 ],15,pic,'').
+struct_dt_elem_i([ 26,54,0 ],15,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],15,'ExternalName','OptionSortDSC').
+struct_dt_elem_i([ 26,54,0 ],15,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,54,0 ],15,'XmlType','Element').
+struct_dt_elem_i([ 26,54,0 ],15,'XmlName','').
+struct_dt_elem_i([ 26,54,0 ],15,'XmlNamespace','').
+struct_dt_elem_i([ 26,54,0 ],15,soaptype,'').
+struct_dt_elem_i([ 26,54,0 ],15,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,54,0 ],15,'JsonName','').
+struct_dt_elem_i([ 26,54,0 ],16,name,'Optionsortdsc_gxi').
+struct_dt_elem_i([ 26,54,0 ],16,camelname,'OptionSortDSC_GXI').
+struct_dt_elem_i([ 26,54,0 ],16,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],16,isadd,'True').
+struct_dt_elem_i([ 26,54,0 ],16,length,2048).
+struct_dt_elem_i([ 26,54,0 ],16,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],16,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,54,0 ],17,name,'Optionapplyfilter').
+struct_dt_elem_i([ 26,54,0 ],17,camelname,'OptionApplyFilter').
+struct_dt_elem_i([ 26,54,0 ],17,length,4).
+struct_dt_elem_i([ 26,54,0 ],17,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],17,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,54,0 ],17,pic,'').
+struct_dt_elem_i([ 26,54,0 ],17,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],17,'ExternalName','OptionApplyFilter').
+struct_dt_elem_i([ 26,54,0 ],17,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,54,0 ],17,'XmlType','Element').
+struct_dt_elem_i([ 26,54,0 ],17,'XmlName','').
+struct_dt_elem_i([ 26,54,0 ],17,'XmlNamespace','').
+struct_dt_elem_i([ 26,54,0 ],17,soaptype,'').
+struct_dt_elem_i([ 26,54,0 ],17,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,54,0 ],17,'JsonName','').
+struct_dt_elem_i([ 26,54,0 ],18,name,'Optionapplyfilter_gxi').
+struct_dt_elem_i([ 26,54,0 ],18,camelname,'OptionApplyFilter_GXI').
+struct_dt_elem_i([ 26,54,0 ],18,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],18,isadd,'True').
+struct_dt_elem_i([ 26,54,0 ],18,length,2048).
+struct_dt_elem_i([ 26,54,0 ],18,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],18,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,54,0 ],19,name,'Optionfilteringdata').
+struct_dt_elem_i([ 26,54,0 ],19,camelname,'OptionFilteringData').
+struct_dt_elem_i([ 26,54,0 ],19,length,4).
+struct_dt_elem_i([ 26,54,0 ],19,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],19,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,54,0 ],19,pic,'').
+struct_dt_elem_i([ 26,54,0 ],19,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],19,'ExternalName','OptionFilteringData').
+struct_dt_elem_i([ 26,54,0 ],19,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,54,0 ],19,'XmlType','Element').
+struct_dt_elem_i([ 26,54,0 ],19,'XmlName','').
+struct_dt_elem_i([ 26,54,0 ],19,'XmlNamespace','').
+struct_dt_elem_i([ 26,54,0 ],19,soaptype,'').
+struct_dt_elem_i([ 26,54,0 ],19,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,54,0 ],19,'JsonName','').
+struct_dt_elem_i([ 26,54,0 ],20,name,'Optionfilteringdata_gxi').
+struct_dt_elem_i([ 26,54,0 ],20,camelname,'OptionFilteringData_GXI').
+struct_dt_elem_i([ 26,54,0 ],20,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],20,isadd,'True').
+struct_dt_elem_i([ 26,54,0 ],20,length,2048).
+struct_dt_elem_i([ 26,54,0 ],20,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],20,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,54,0 ],21,name,'Optioncleanfilters').
+struct_dt_elem_i([ 26,54,0 ],21,camelname,'OptionCleanFilters').
+struct_dt_elem_i([ 26,54,0 ],21,length,4).
+struct_dt_elem_i([ 26,54,0 ],21,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],21,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,54,0 ],21,pic,'').
+struct_dt_elem_i([ 26,54,0 ],21,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],21,'ExternalName','OptionCleanFilters').
+struct_dt_elem_i([ 26,54,0 ],21,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,54,0 ],21,'XmlType','Element').
+struct_dt_elem_i([ 26,54,0 ],21,'XmlName','').
+struct_dt_elem_i([ 26,54,0 ],21,'XmlNamespace','').
+struct_dt_elem_i([ 26,54,0 ],21,soaptype,'').
+struct_dt_elem_i([ 26,54,0 ],21,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,54,0 ],21,'JsonName','').
+struct_dt_elem_i([ 26,54,0 ],22,name,'Optioncleanfilters_gxi').
+struct_dt_elem_i([ 26,54,0 ],22,camelname,'OptionCleanFilters_GXI').
+struct_dt_elem_i([ 26,54,0 ],22,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],22,isadd,'True').
+struct_dt_elem_i([ 26,54,0 ],22,length,2048).
+struct_dt_elem_i([ 26,54,0 ],22,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],22,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,54,0 ],23,name,'Selectedoption').
+struct_dt_elem_i([ 26,54,0 ],23,camelname,'SelectedOption').
+struct_dt_elem_i([ 26,54,0 ],23,length,4).
+struct_dt_elem_i([ 26,54,0 ],23,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],23,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,54,0 ],23,pic,'').
+struct_dt_elem_i([ 26,54,0 ],23,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],23,'ExternalName','SelectedOption').
+struct_dt_elem_i([ 26,54,0 ],23,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,54,0 ],23,'XmlType','Element').
+struct_dt_elem_i([ 26,54,0 ],23,'XmlName','').
+struct_dt_elem_i([ 26,54,0 ],23,'XmlNamespace','').
+struct_dt_elem_i([ 26,54,0 ],23,soaptype,'').
+struct_dt_elem_i([ 26,54,0 ],23,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,54,0 ],23,'JsonName','').
+struct_dt_elem_i([ 26,54,0 ],24,name,'Selectedoption_gxi').
+struct_dt_elem_i([ 26,54,0 ],24,camelname,'SelectedOption_GXI').
+struct_dt_elem_i([ 26,54,0 ],24,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],24,isadd,'True').
+struct_dt_elem_i([ 26,54,0 ],24,length,2048).
+struct_dt_elem_i([ 26,54,0 ],24,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],24,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,54,0 ],25,name,'Multiseloption').
+struct_dt_elem_i([ 26,54,0 ],25,camelname,'MultiselOption').
+struct_dt_elem_i([ 26,54,0 ],25,length,4).
+struct_dt_elem_i([ 26,54,0 ],25,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],25,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,54,0 ],25,pic,'').
+struct_dt_elem_i([ 26,54,0 ],25,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],25,'ExternalName','MultiselOption').
+struct_dt_elem_i([ 26,54,0 ],25,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,54,0 ],25,'XmlType','Element').
+struct_dt_elem_i([ 26,54,0 ],25,'XmlName','').
+struct_dt_elem_i([ 26,54,0 ],25,'XmlNamespace','').
+struct_dt_elem_i([ 26,54,0 ],25,soaptype,'').
+struct_dt_elem_i([ 26,54,0 ],25,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,54,0 ],25,'JsonName','').
+struct_dt_elem_i([ 26,54,0 ],26,name,'Multiseloption_gxi').
+struct_dt_elem_i([ 26,54,0 ],26,camelname,'MultiselOption_GXI').
+struct_dt_elem_i([ 26,54,0 ],26,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],26,isadd,'True').
+struct_dt_elem_i([ 26,54,0 ],26,length,2048).
+struct_dt_elem_i([ 26,54,0 ],26,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],26,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,54,0 ],27,name,'Multiselseloption').
+struct_dt_elem_i([ 26,54,0 ],27,camelname,'MultiselSelOption').
+struct_dt_elem_i([ 26,54,0 ],27,length,4).
+struct_dt_elem_i([ 26,54,0 ],27,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],27,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,54,0 ],27,pic,'').
+struct_dt_elem_i([ 26,54,0 ],27,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],27,'ExternalName','MultiselSelOption').
+struct_dt_elem_i([ 26,54,0 ],27,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,54,0 ],27,'XmlType','Element').
+struct_dt_elem_i([ 26,54,0 ],27,'XmlName','').
+struct_dt_elem_i([ 26,54,0 ],27,'XmlNamespace','').
+struct_dt_elem_i([ 26,54,0 ],27,soaptype,'').
+struct_dt_elem_i([ 26,54,0 ],27,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,54,0 ],27,'JsonName','').
+struct_dt_elem_i([ 26,54,0 ],28,name,'Multiselseloption_gxi').
+struct_dt_elem_i([ 26,54,0 ],28,camelname,'MultiselSelOption_GXI').
+struct_dt_elem_i([ 26,54,0 ],28,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],28,isadd,'True').
+struct_dt_elem_i([ 26,54,0 ],28,length,2048).
+struct_dt_elem_i([ 26,54,0 ],28,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],28,type,[ 13,2048,0 ]).
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'Start',2,43,[ [ 'Pgmname',[ t('Grid',3),t('Internalname',3) ],'Orderedby' ],[ [ t('Tablemain',3),t('Height',3) ],[ t('Grid',3),t('Rows',3) ],[ t('Ddo_br_medication_schemeid',3),t('Titlecontrolidtoreplace',3) ],'Ddo_br_medication_schemeidtitlecontrolidtoreplace',[ t('Ddo_br_medication_schemeidtitlecontrolidtoreplace',23),t('Visible',3) ],[ t('Ddo_br_medicationid',3),t('Titlecontrolidtoreplace',3) ],'Ddo_br_medicationidtitlecontrolidtoreplace',[ t('Ddo_br_medicationidtitlecontrolidtoreplace',23),t('Visible',3) ],[ t('Ddo_br_medication_chem_name',3),t('Titlecontrolidtoreplace',3) ],'Ddo_br_medication_chem_nametitlecontrolidtoreplace',[ t('Ddo_br_medication_chem_nametitlecontrolidtoreplace',23),t('Visible',3) ],[ t('Ddo_br_medication_chem_cycle',3),t('Titlecontrolidtoreplace',3) ],'Ddo_br_medication_chem_cycletitlecontrolidtoreplace',[ t('Ddo_br_medication_chem_cycletitlecontrolidtoreplace',23),t('Visible',3) ],[ t('Ddo_br_medication_chem_line',3),t('Titlecontrolidtoreplace',3) ],'Ddo_br_medication_chem_linetitlecontrolidtoreplace',[ t('Ddo_br_medication_chem_linetitlecontrolidtoreplace',23),t('Visible',3) ],[ t('Ddo_br_medication_chem_detail',3),t('Titlecontrolidtoreplace',3) ],'Ddo_br_medication_chem_detailtitlecontrolidtoreplace',[ t('Ddo_br_medication_chem_detailtitlecontrolidtoreplace',23),t('Visible',3) ],[ t('Form',3),t('Caption',3) ],[ t('Orderedby',23),t('Visible',3) ],'Orderedby',[ t('Ordereddsc',23),t('Visible',3) ],'Ddo_titlesettingsicons',[ t('Gridpaginationbar',3),t('Rowsperpageselectedvalue',3) ] ] ]).
+sub_info_i(146,'Refresh',45,76,[ [ 'Ddo_br_medication_schemeidtitlecontrolidtoreplace','Ddo_br_medicationidtitlecontrolidtoreplace','Ddo_br_medication_chem_nametitlecontrolidtoreplace','Ddo_br_medication_chem_cycletitlecontrolidtoreplace','Ddo_br_medication_chem_linetitlecontrolidtoreplace','Ddo_br_medication_chem_detailtitlecontrolidtoreplace',[ t('Grid',3),t('Currentpage',3) ],[ t('Grid',3),t('Rows',3) ],[ t('Grid',3),t('Recordcount',3) ] ],[ 'Br_medication_schemeidtitlefilterdata','Br_medicationidtitlefilterdata','Br_medication_chem_nametitlefilterdata','Br_medication_chem_cycletitlefilterdata','Br_medication_chem_linetitlefilterdata','Br_medication_chem_detailtitlefilterdata',[ t(296,2),t('Titleformat',3) ],[ t(296,2),t('Title',3) ],[ t(119,2),t('Titleformat',3) ],[ t(119,2),t('Title',3) ],[ t(305,2),t('Titleformat',3) ],[ t(305,2),t('Title',3) ],[ t(306,2),t('Titleformat',3) ],[ t(306,2),t('Title',3) ],[ t(307,2),t('Titleformat',3) ],[ t(307,2),t('Title',3) ],[ t(313,2),t('Titleformat',3) ],[ t(313,2),t('Title',3) ],'Gridcurrentpage','Gridpagesize','Gridrecordcount' ] ]).
+sub_info_i(146,[ t('Gridpaginationbar',3,78,7),t('Changepage',3,78,25) ],78,94,[ [ ctrl('Grid','gotopage('),ctrl('Grid','nextpage('),ctrl('Grid','previouspage('),[ t('Gridpaginationbar',3),t('Selectedpage',3) ] ],[] ]).
+sub_info_i(146,[ t('Gridpaginationbar',3,96,7),t('Changerowsperpage',3,96,25) ],96,105,[ [ ctrl('Grid','firstpage('),[ t('Gridpaginationbar',3),t('Rowsperpageselectedvalue',3) ] ],[ [ t('Grid',3),t('Rows',3) ] ] ]).
+sub_info_i(146,[ t('Ddo_br_medication_schemeid',3,107,7),t('Onoptionclicked',3,107,34) ],107,128,[ [ ctrl('Grid','refresh('),ctrl('Grid','firstpage('),[ t('Ddo_br_medication_schemeid',3),t('Activeeventkey',3) ] ],[ 'Orderedby','Ordereddsc',[ t('Ddo_br_medication_schemeid',3),t('Sortedstatus',3) ] ] ]).
+sub_info_i(146,[ t('Ddo_br_medicationid',3,130,7),t('Onoptionclicked',3,130,27) ],130,151,[ [ ctrl('Grid','refresh('),ctrl('Grid','firstpage('),[ t('Ddo_br_medicationid',3),t('Activeeventkey',3) ] ],[ 'Orderedby','Ordereddsc',[ t('Ddo_br_medicationid',3),t('Sortedstatus',3) ] ] ]).
+sub_info_i(146,[ t('Ddo_br_medication_chem_name',3,153,7),t('Onoptionclicked',3,153,35) ],153,174,[ [ ctrl('Grid','refresh('),ctrl('Grid','firstpage('),[ t('Ddo_br_medication_chem_name',3),t('Activeeventkey',3) ] ],[ 'Orderedby','Ordereddsc',[ t('Ddo_br_medication_chem_name',3),t('Sortedstatus',3) ] ] ]).
+sub_info_i(146,[ t('Ddo_br_medication_chem_cycle',3,176,7),t('Onoptionclicked',3,176,36) ],176,197,[ [ ctrl('Grid','refresh('),ctrl('Grid','firstpage('),[ t('Ddo_br_medication_chem_cycle',3),t('Activeeventkey',3) ] ],[ 'Orderedby','Ordereddsc',[ t('Ddo_br_medication_chem_cycle',3),t('Sortedstatus',3) ] ] ]).
+sub_info_i(146,[ t('Ddo_br_medication_chem_line',3,199,7),t('Onoptionclicked',3,199,35) ],199,220,[ [ ctrl('Grid','refresh('),ctrl('Grid','firstpage('),[ t('Ddo_br_medication_chem_line',3),t('Activeeventkey',3) ] ],[ 'Orderedby','Ordereddsc',[ t('Ddo_br_medication_chem_line',3),t('Sortedstatus',3) ] ] ]).
+sub_info_i(146,[ t('Ddo_br_medication_chem_detail',3,222,7),t('Onoptionclicked',3,222,37) ],222,243,[ [ ctrl('Grid','refresh('),ctrl('Grid','firstpage('),[ t('Ddo_br_medication_chem_detail',3),t('Activeeventkey',3) ] ],[ 'Orderedby','Ordereddsc',[ t('Ddo_br_medication_chem_detail',3),t('Sortedstatus',3) ] ] ]).
+sub_info_i(146,[ t('Grid',3,245,7),t('Load',3,245,12) ],245,254,[ [],[ 'Select',[ t('Select',23),t('Tooltiptext',3) ] ] ]).
+sub_info_i(146,'Enter',256,265,[ [ 296 ],[ 'Inoutbr_medication_schemeid' ] ]).
+ 
+pgm_parm_i(proc,15,'WWPBASEOBJECTS\LOADWWPCONTEXT',[ [ o('WWPBaseObjects\WWPContext'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+pgm_parm_i(web,16,'WWPBASEOBJECTS\NOTAUTHORIZED',[ [ svchar,256,0,0 ] ],[ [ 'GxObject',in,[] ] ]).
+pgm_parm_i(proc,23,'WWPBASEOBJECTS\GETWWPTITLESETTINGSICONS',[ [ o('WWPBaseObjects\DVB_SDTDropDownOptionsTitleSettingsIcons'),0,0,0 ] ],[ [ 'TitleSettingsIcons',out,[] ] ]).
+pgm_parm_i(proc,25,'WWPBASEOBJECTS\SECISAUTHBYFUNCTIONALITYKEY',[ [ svchar,100,0,0 ],[ boolean,4,0,0 ] ],[ [ 'SecFunctionalityKey',in,[] ],[ 'IsAuthorized',out,[] ] ]).
+ 
+pgm_callprotocol_i(web,207,'BR_MEDICATION_SCHEMEPROMPT','INTERNAL').
+pgm_callprotocol_i(proc,15,'WWPBASEOBJECTS\LOADWWPCONTEXT','INTERNAL').
+pgm_callprotocol_i(web,16,'WWPBASEOBJECTS\NOTAUTHORIZED','INTERNAL').
+pgm_callprotocol_i(proc,23,'WWPBASEOBJECTS\GETWWPTITLESETTINGSICONS','INTERNAL').
+pgm_callprotocol_i(proc,25,'WWPBASEOBJECTS\SECISAUTHBYFUNCTIONALITYKEY','INTERNAL').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

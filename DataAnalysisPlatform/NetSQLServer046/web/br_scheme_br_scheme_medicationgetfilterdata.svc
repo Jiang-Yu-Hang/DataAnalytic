@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.br_scheme_br_scheme_medicationgetfilterdata_services,br_scheme_br_scheme_medicationgetfilterdata" %>

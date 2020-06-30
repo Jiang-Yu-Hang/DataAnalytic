@@ -1,0 +1,68 @@
+ 
+spec_i([ sdt,[ 0,27,0 ],'JC_Provider_Br_Information','JC_Provider_Br_Information',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,27,0 ],name,'JC_Provider_Br_Information').
+struct_dt_i([ 0,27,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,27,0 ],significantName,'JC_Provider_Br_Information').
+struct_dt_i([ 0,27,0 ],'ObjName','JC_Provider_Br_Information').
+struct_dt_i([ 0,27,0 ],'ObjDesc',患者分院表).
+struct_dt_i([ 0,27,0 ],'ExternalName','JC_Provider_Br_Information').
+struct_dt_i([ 0,27,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,27,0 ],key,[ 87,85 ]).
+struct_dt_i([ 0,27,0 ],lvl,28).
+struct_dt_i([ 0,27,0 ],fullname,'JC_Provider_Br_Information').
+ 
+struct_dt_elem_i([ 0,27,0 ],1,name,'Jc_providerid').
+struct_dt_elem_i([ 0,27,0 ],1,camelname,'JC_ProviderID').
+struct_dt_elem_i([ 0,27,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,27,0 ],1,length,18).
+struct_dt_elem_i([ 0,27,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,27,0 ],1,sign,0).
+struct_dt_elem_i([ 0,27,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,27,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,27,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,27,0 ],1,attributeid,'87').
+struct_dt_elem_i([ 0,27,0 ],1,'ExternalName','JC_ProviderID').
+struct_dt_elem_i([ 0,27,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,27,0 ],2,name,'Br_information_id').
+struct_dt_elem_i([ 0,27,0 ],2,camelname,'BR_Information_ID').
+struct_dt_elem_i([ 0,27,0 ],2,basedon,69).
+struct_dt_elem_i([ 0,27,0 ],2,length,18).
+struct_dt_elem_i([ 0,27,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,27,0 ],2,sign,0).
+struct_dt_elem_i([ 0,27,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,27,0 ],2,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,27,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,27,0 ],2,attributeid,'85').
+struct_dt_elem_i([ 0,27,0 ],2,'ExternalName','BR_Information_ID').
+struct_dt_elem_i([ 0,27,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,27,0 ],3,name,'Jc_providername').
+struct_dt_elem_i([ 0,27,0 ],3,camelname,'JC_ProviderName').
+struct_dt_elem_i([ 0,27,0 ],3,length,200).
+struct_dt_elem_i([ 0,27,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,27,0 ],3,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,27,0 ],3,pic,'').
+struct_dt_elem_i([ 0,27,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,27,0 ],3,attributeid,'89').
+struct_dt_elem_i([ 0,27,0 ],3,'ExternalName','JC_ProviderName').
+struct_dt_elem_i([ 0,27,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,27,0 ],4,name,'Br_information_patientno').
+struct_dt_elem_i([ 0,27,0 ],4,camelname,'BR_Information_PatientNo').
+struct_dt_elem_i([ 0,27,0 ],4,length,2000).
+struct_dt_elem_i([ 0,27,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,27,0 ],4,type,[ 13,2000,0 ]).
+struct_dt_elem_i([ 0,27,0 ],4,pic,'').
+struct_dt_elem_i([ 0,27,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,27,0 ],4,attributeid,'36').
+struct_dt_elem_i([ 0,27,0 ],4,'ExternalName','BR_Information_PatientNo').
+struct_dt_elem_i([ 0,27,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

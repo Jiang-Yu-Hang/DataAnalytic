@@ -1,0 +1,178 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>56</ObjId>
+<ObjName>BAS_Institute_BC</ObjName>
+<ObjDesc>BAS_Institute</ObjDesc>
+<ObjPgmName>BAS_Institute_BC</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0134</MsgCode>
+<Message>
+<Token>Poor performance may be noticed</Token>
+<Token></Token>
+<Token> as </Token>
+<Token>Duplicate</Token>
+<Token> index </Token>
+<Token>IBAS_TENANT1</Token>
+<Token> is not defined in Data view </Token>
+<Token>BAS_Tenant</Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>57</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>57</TableId>
+<TableName>BAS_INSTITUTE</TableName>
+<Description>BAS_Institute</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>57</TableId>
+<TableName>BAS_INSTITUTE</TableName>
+<Description>BAS_Institute</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>358</AttriId>
+<AttriName>InstituteCode</AttriName>
+<Description>Institute Code</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>57</TableId>
+<TableName>BAS_INSTITUTE</TableName>
+<Description>BAS_Institute</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>358</AttriId>
+<AttriName>InstituteCode</AttriName>
+<Description>Institute Code</Description></Attribute>
+<Attribute>
+<AttriId>386</AttriId>
+<AttriName>InstituteName</AttriName>
+<Description>Institute Name</Description></Attribute>
+<Attribute>
+<AttriId>387</AttriId>
+<AttriName>BAS_InstituteLogo</AttriName>
+<Description>BAS_Institute Logo</Description></Attribute>
+<Attribute>
+<AttriId>388</AttriId>
+<AttriName>BAS_InstituteCreator</AttriName>
+<Description>BAS_Institute Creator</Description></Attribute>
+<Attribute>
+<AttriId>389</AttriId>
+<AttriName>BAS_InstituteCreateTime</AttriName>
+<Description>BAS_Institute Create Time</Description></Attribute>
+<Attribute>
+<AttriId>390</AttriId>
+<AttriName>BAS_InstituteModifier</AttriName>
+<Description>BAS_Institute Modifier</Description></Attribute>
+<Attribute>
+<AttriId>391</AttriId>
+<AttriName>BAS_InstituteModifyTime</AttriName>
+<Description>BAS_Institute Modify Time</Description></Attribute>
+<Attribute>
+<AttriId>392</AttriId>
+<AttriName>BAS_InstituteIsDeleted</AttriName>
+<Description>BAS_Institute Is Deleted</Description></Attribute>
+<Attribute>
+<AttriId>393</AttriId>
+<AttriName>BAS_InstituteDescription</AttriName>
+<Description>BAS_Institute Description</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>57</TableId>
+<TableName>BAS_INSTITUTE</TableName>
+<Description>BAS_Institute</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>386</AttriId>
+<AttriName>InstituteName</AttriName>
+<Description>Institute Name</Description></Attribute>
+<Attribute>
+<AttriId>387</AttriId>
+<AttriName>BAS_InstituteLogo</AttriName>
+<Description>BAS_Institute Logo</Description></Attribute>
+<Attribute>
+<AttriId>388</AttriId>
+<AttriName>BAS_InstituteCreator</AttriName>
+<Description>BAS_Institute Creator</Description></Attribute>
+<Attribute>
+<AttriId>389</AttriId>
+<AttriName>BAS_InstituteCreateTime</AttriName>
+<Description>BAS_Institute Create Time</Description></Attribute>
+<Attribute>
+<AttriId>390</AttriId>
+<AttriName>BAS_InstituteModifier</AttriName>
+<Description>BAS_Institute Modifier</Description></Attribute>
+<Attribute>
+<AttriId>391</AttriId>
+<AttriName>BAS_InstituteModifyTime</AttriName>
+<Description>BAS_Institute Modify Time</Description></Attribute>
+<Attribute>
+<AttriId>392</AttriId>
+<AttriName>BAS_InstituteIsDeleted</AttriName>
+<Description>BAS_Institute Is Deleted</Description></Attribute>
+<Attribute>
+<AttriId>393</AttriId>
+<AttriName>BAS_InstituteDescription</AttriName>
+<Description>BAS_Institute Description</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>57</TableId>
+<TableName>BAS_INSTITUTE</TableName>
+<Description>BAS_Institute</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>52</TableId>
+<TableName>BAS_TENANT</TableName>
+<Description>BAS_Tenant</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>358</AttriId>
+<AttriName>InstituteCode</AttriName>
+<Description>Institute Code</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>49</TableId>
+<TableName>SYS_INSTITUTEUSER</TableName>
+<Description>SYS_Institute User</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>358</AttriId>
+<AttriName>InstituteCode</AttriName>
+<Description>Institute Code</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

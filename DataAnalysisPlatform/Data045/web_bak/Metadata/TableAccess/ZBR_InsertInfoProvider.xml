@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="60220496-58f5-4ce1-8c43-d23e7b7e6a06">
+  <Table name="BR_Information" />
+  <Table name="JC_Provider" />
+  <Table name="JC_Provider_Br_Information" />
+  <Table name="BR_Encounter" />
+  <Table name="BAS_Tenant" />
+  <Table name="BR_PatientReTenant" />
+</Dependencies>

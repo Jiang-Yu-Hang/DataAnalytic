@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.br_enteringsubmitdetailgetfilterdata_services,br_enteringsubmitdetailgetfilterdata" %>

@@ -1,0 +1,16 @@
+
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>17</ObjId>
+<ObjName>BR_Medication</ObjName>
+<ObjStatus>genreq</ObjStatus>
+<ObjNavig>GXSPC044\GEN15\NVG\BR_Medication.xml</ObjNavig></Object>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>17</ObjId>
+<ObjName>BR_Medication_BC</ObjName>
+<ObjStatus>genreq</ObjStatus>
+<HasWarnings>Yes</HasWarnings>
+<ObjNavig>GXSPC044\GEN15\NVG\BR_Medication_BC.xml</ObjNavig></Object>

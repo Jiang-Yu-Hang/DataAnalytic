@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f8892efb-b8e2-4cde-8b6a-9510298bdff5">
+  <Table name="BR_Pathology_Diag" />
+  <Table name="BR_Pathology" />
+  <Table name="XT_Log" />
+  <Table name="SYS_Log" />
+</Dependencies>

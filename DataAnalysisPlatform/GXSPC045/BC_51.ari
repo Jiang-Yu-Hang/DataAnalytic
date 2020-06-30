@@ -1,0 +1,8 @@
+bc_dt_elem_i([ 0,51,0 ],'Bas_tenanttenantcode',allownulls,no).
+bc_dt_elem_i([ 0,51,0 ],'Tenantname',allownulls,no).
+bc_dt_elem_i([ 0,51,0 ],'Hospitalname',allownulls,no).
+bc_dt_elem_i([ 0,51,0 ],'Databaseid',allownulls,no).
+bc_dt_elem_i([ 0,51,0 ],'Bas_tenantcreator',allownulls,no).
+bc_dt_elem_i([ 0,51,0 ],'Bas_tenantcreatetime',allownulls,no).
+bc_dt_elem_i([ 0,51,0 ],'Bas_tenantisdeleted',allownulls,no).
+ 

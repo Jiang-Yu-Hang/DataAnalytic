@@ -1,0 +1,32 @@
+ 
+spec_i([ sdt,[ 0,54,0 ],'BAS_DataPackage','BAS_DataPackage',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,54,0 ],name,'BAS_DataPackage').
+struct_dt_i([ 0,54,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,54,0 ],significantName,'BAS_DataPackage').
+struct_dt_i([ 0,54,0 ],'ObjName','BAS_DataPackage').
+struct_dt_i([ 0,54,0 ],'ObjDesc','BAS_Data Package').
+struct_dt_i([ 0,54,0 ],'ExternalName','BAS_DataPackage').
+struct_dt_i([ 0,54,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,54,0 ],key,[ 366 ]).
+struct_dt_i([ 0,54,0 ],lvl,55).
+struct_dt_i([ 0,54,0 ],fullname,'BAS_DataPackage').
+ 
+struct_dt_elem_i([ 0,54,0 ],1,name,'Datapackage').
+struct_dt_elem_i([ 0,54,0 ],1,camelname,'DataPackage').
+struct_dt_elem_i([ 0,54,0 ],1,length,50).
+struct_dt_elem_i([ 0,54,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,54,0 ],1,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,54,0 ],1,pic,'').
+struct_dt_elem_i([ 0,54,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,54,0 ],1,attributeid,'366').
+struct_dt_elem_i([ 0,54,0 ],1,'ExternalName','DataPackage').
+struct_dt_elem_i([ 0,54,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

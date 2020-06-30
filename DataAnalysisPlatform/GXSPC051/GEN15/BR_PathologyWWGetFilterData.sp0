@@ -1,0 +1,2217 @@
+spec_i([ proc,97,'BR_Pathology WWGet Filter Data','BR_PathologyWWGetFilterData',78,chs,'16_0_0-127771' ]).
+ 
+struct_i(14,1,[],[]).
+struct_i(15,14,[ 319 ],[]).
+struct_i(12,1,[],[]).
+struct_i(13,12,[ 317 ],[]).
+struct_i(10,1,[],[]).
+struct_i(11,10,[ 326 ],[]).
+struct_i(8,1,[],[]).
+struct_i(9,8,[ 242 ],[]).
+struct_i(6,1,[],[]).
+struct_i(7,6,[ 241 ],[]).
+struct_i(4,1,[],[]).
+struct_i(5,4,[ 239 ],[]).
+struct_i(2,1,[],[]).
+struct_i(3,2,[ 36 ],[]).
+ 
+level_i(14,[ 36,[ [ 36,many ],[ 15,one ],[ 16,one ] ],[],[],[ [ [ 36,15,16 ],[ 319,318,317,316,315,314,326,242,241,240,239,238,237,36,19,226,85 ] ] ],[ [ [ 36,15,16 ],[] ] ],[ 319 ],'15',[],[] ]).
+level_i(15,[ 36,[ [ 36,many ] ],[],[],[ [ [ 36 ],[ 319 ] ] ],[ [ [ 36 ],[] ] ],[ 319 ],'15',[ 36,[ [ [],319,319 ] ] ],[] ]).
+level_i(12,[ 36,[ [ 36,many ],[ 15,one ],[ 16,one ] ],[],[],[ [ [ 36,15,16 ],[ 317,319,318,316,315,314,326,242,241,240,239,238,237,36,19,226,85 ] ] ],[ [ [ 36,15,16 ],[] ] ],[ 317 ],'13',[],[] ]).
+level_i(13,[ 36,[ [ 36,many ] ],[],[],[ [ [ 36 ],[ 317 ] ] ],[ [ [ 36 ],[] ] ],[ 317 ],'13',[ 36,[ [ [],317,317 ] ] ],[] ]).
+level_i(10,[ 36,[ [ 36,many ],[ 15,one ],[ 16,one ] ],[],[],[ [ [ 36,15,16 ],[ 326,319,318,317,316,315,314,242,241,240,239,238,237,36,19,226,85 ] ] ],[ [ [ 36,15,16 ],[] ] ],[ 326 ],'11',[],[] ]).
+level_i(11,[ 36,[ [ 36,many ] ],[],[],[ [ [ 36 ],[ 326 ] ] ],[ [ [ 36 ],[] ] ],[ 326 ],'11',[ 36,[ [ [],326,326 ] ] ],[] ]).
+level_i(8,[ 36,[ [ 36,many ],[ 15,one ],[ 16,one ] ],[],[],[ [ [ 36,15,16 ],[ 242,319,318,317,316,315,314,326,241,240,239,238,237,36,19,226,85 ] ] ],[ [ [ 36,15,16 ],[] ] ],[ 242 ],'9',[],[] ]).
+level_i(9,[ 36,[ [ 36,many ] ],[],[],[ [ [ 36 ],[ 242 ] ] ],[ [ [ 36 ],[] ] ],[ 242 ],'9',[ 36,[ [ [],242,242 ] ] ],[] ]).
+level_i(6,[ 36,[ [ 36,many ],[ 15,one ],[ 16,one ] ],[],[],[ [ [ 36,15,16 ],[ 241,319,318,317,316,315,314,326,242,240,239,238,237,36,19,226,85 ] ] ],[ [ [ 36,15,16 ],[] ] ],[ 241 ],'7',[],[] ]).
+level_i(7,[ 36,[ [ 36,many ] ],[],[],[ [ [ 36 ],[ 241 ] ] ],[ [ [ 36 ],[] ] ],[ 241 ],'7',[ 36,[ [ [],241,241 ] ] ],[] ]).
+level_i(4,[ 36,[ [ 36,many ],[ 15,one ],[ 16,one ] ],[],[],[ [ [ 36,15,16 ],[ 239,319,318,317,316,315,314,326,242,241,240,238,237,36,19,226,85 ] ] ],[ [ [ 36,15,16 ],[] ] ],[ 239 ],'5',[],[] ]).
+level_i(5,[ 36,[ [ 36,many ] ],[],[],[ [ [ 36 ],[ 239 ] ] ],[ [ [ 36 ],[] ] ],[ 239 ],'5',[ 36,[ [ [],239,239 ] ] ],[] ]).
+level_i(2,[ 36,[ [ 36,many ],[ 15,one ],[ 16,one ] ],[],[],[ [ [ 36,15,16 ],[ 36,319,318,317,316,315,314,326,242,241,240,239,238,237,19,226,85 ] ] ],[ [ [ 36,15,16 ],[] ] ],[ 36 ],'',[],[] ]).
+level_i(3,[ 36,[ [ 36,many ],[ 15,one ],[ 16,one ] ],[],[],[ [ [ 36,15,16 ],[ 36,19,85 ] ] ],[ [ [ 36,15,16 ],[] ] ],[ 36 ],'',[ 36,[ [ [],36,36 ] ] ],[] ]).
+ 
+tw_i(14,[ [ 15,[ [ 36,19,19 ] ] ],[ 16,[ [ 15,85,85 ] ] ] ]).
+tw_i(15,[]).
+tw_i(12,[ [ 15,[ [ 36,19,19 ] ] ],[ 16,[ [ 15,85,85 ] ] ] ]).
+tw_i(13,[]).
+tw_i(10,[ [ 15,[ [ 36,19,19 ] ] ],[ 16,[ [ 15,85,85 ] ] ] ]).
+tw_i(11,[]).
+tw_i(8,[ [ 15,[ [ 36,19,19 ] ] ],[ 16,[ [ 15,85,85 ] ] ] ]).
+tw_i(9,[]).
+tw_i(6,[ [ 15,[ [ 36,19,19 ] ] ],[ 16,[ [ 15,85,85 ] ] ] ]).
+tw_i(7,[]).
+tw_i(4,[ [ 15,[ [ 36,19,19 ] ] ],[ 16,[ [ 15,85,85 ] ] ] ]).
+tw_i(5,[]).
+tw_i(2,[ [ 15,[ [ 36,19,19 ] ] ],[ 16,[ [ 15,85,85 ] ] ] ]).
+tw_i(3,[ [ 15,[ [ 36,19,19 ] ] ],[ 16,[ [ 15,85,85 ] ] ] ]).
+ 
+lwi_i(15,[ [] ]).
+lwi_i(13,[ [] ]).
+lwi_i(11,[ [] ]).
+lwi_i(9,[ [] ]).
+lwi_i(7,[ [] ]).
+lwi_i(5,[ [] ]).
+lwi_i(3,[ [] ]).
+lwi_i(14,[ [] ]).
+lwi_i(12,[ [] ]).
+lwi_i(10,[ [] ]).
+lwi_i(8,[ [] ]).
+lwi_i(6,[ [] ]).
+lwi_i(4,[ [] ]).
+lwi_i(2,[ [] ]).
+ 
+cond_constraint_i(14,[ [ t(226,2),t(>=,10),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23) ],[ 226 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(226,2),t(<=,10),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23) ],[ 226 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(19,2),t(>=,10),t('BR_PathologyWWDS_3_Tfbr_encounterid',23) ],[ 19 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_3_Tfbr_encounterid',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(19,2),t(<=,10),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23) ],[ 19 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(36,2),t('.LIKE.',10),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23) ],[ 36 ],[ t('null(',1),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(36,2),t(=,10),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23) ],[ 36 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(237,2),t(>=,10),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23) ],[ 237 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(237,2),t(<=,10),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23) ],[ 237 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(238,2),t(>=,10),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23) ],[ 238 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(238,2),t(<=,10),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23) ],[ 238 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(239,2),t('.LIKE.',10),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23) ],[ 239 ],[ t('null(',1),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(239,2),t(=,10),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23) ],[ 239 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(240,2),t(>=,10),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23) ],[ 240 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(240,2),t(<=,10),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23) ],[ 240 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(241,2),t('.LIKE.',10),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23) ],[ 241 ],[ t('null(',1),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(241,2),t(=,10),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23) ],[ 241 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(242,2),t('.LIKE.',10),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23) ],[ 242 ],[ t('null(',1),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(242,2),t(=,10),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23) ],[ 242 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(326,2),t('.LIKE.',10),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23) ],[ 326 ],[ t('null(',1),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(326,2),t(=,10),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23) ],[ 326 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(314,2),t(>=,10),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23) ],[ 314 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(314,2),t(<=,10),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23) ],[ 314 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t([ t(315,2),v(t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23)) ],49) ],[ 315 ],[ t([ t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23),t('Count',3) ],29),t(>,10),t('0',3) ],[] ]).
+cond_constraint_i(14,[ [ t(316,2),t(>=,10),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23) ],[ 316 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(316,2),t(<=,10),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23) ],[ 316 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(317,2),t('.LIKE.',10),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23) ],[ 317 ],[ t('null(',1),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(317,2),t(=,10),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23) ],[ 317 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t([ t(318,2),v(t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23)) ],49) ],[ 318 ],[ t([ t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23),t('Count',3) ],29),t(>,10),t('0',3) ],[] ]).
+cond_constraint_i(14,[ [ t(319,2),t('.LIKE.',10),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23) ],[ 319 ],[ t('null(',1),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(14,[ [ t(319,2),t(=,10),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23) ],[ 319 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(226,2),t(>=,10),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23) ],[ 226 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(226,2),t(<=,10),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23) ],[ 226 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(19,2),t(>=,10),t('BR_PathologyWWDS_3_Tfbr_encounterid',23) ],[ 19 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_3_Tfbr_encounterid',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(19,2),t(<=,10),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23) ],[ 19 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(36,2),t('.LIKE.',10),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23) ],[ 36 ],[ t('null(',1),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(36,2),t(=,10),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23) ],[ 36 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(237,2),t(>=,10),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23) ],[ 237 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(237,2),t(<=,10),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23) ],[ 237 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(238,2),t(>=,10),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23) ],[ 238 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(238,2),t(<=,10),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23) ],[ 238 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(239,2),t('.LIKE.',10),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23) ],[ 239 ],[ t('null(',1),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(239,2),t(=,10),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23) ],[ 239 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(240,2),t(>=,10),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23) ],[ 240 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(240,2),t(<=,10),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23) ],[ 240 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(241,2),t('.LIKE.',10),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23) ],[ 241 ],[ t('null(',1),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(241,2),t(=,10),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23) ],[ 241 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(242,2),t('.LIKE.',10),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23) ],[ 242 ],[ t('null(',1),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(242,2),t(=,10),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23) ],[ 242 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(326,2),t('.LIKE.',10),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23) ],[ 326 ],[ t('null(',1),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(326,2),t(=,10),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23) ],[ 326 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(314,2),t(>=,10),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23) ],[ 314 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(314,2),t(<=,10),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23) ],[ 314 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t([ t(315,2),v(t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23)) ],49) ],[ 315 ],[ t([ t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23),t('Count',3) ],29),t(>,10),t('0',3) ],[] ]).
+cond_constraint_i(12,[ [ t(316,2),t(>=,10),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23) ],[ 316 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(316,2),t(<=,10),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23) ],[ 316 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(317,2),t('.LIKE.',10),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23) ],[ 317 ],[ t('null(',1),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(317,2),t(=,10),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23) ],[ 317 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t([ t(318,2),v(t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23)) ],49) ],[ 318 ],[ t([ t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23),t('Count',3) ],29),t(>,10),t('0',3) ],[] ]).
+cond_constraint_i(12,[ [ t(319,2),t('.LIKE.',10),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23) ],[ 319 ],[ t('null(',1),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(12,[ [ t(319,2),t(=,10),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23) ],[ 319 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(226,2),t(>=,10),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23) ],[ 226 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(226,2),t(<=,10),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23) ],[ 226 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(19,2),t(>=,10),t('BR_PathologyWWDS_3_Tfbr_encounterid',23) ],[ 19 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_3_Tfbr_encounterid',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(19,2),t(<=,10),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23) ],[ 19 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(36,2),t('.LIKE.',10),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23) ],[ 36 ],[ t('null(',1),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(36,2),t(=,10),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23) ],[ 36 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(237,2),t(>=,10),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23) ],[ 237 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(237,2),t(<=,10),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23) ],[ 237 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(238,2),t(>=,10),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23) ],[ 238 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(238,2),t(<=,10),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23) ],[ 238 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(239,2),t('.LIKE.',10),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23) ],[ 239 ],[ t('null(',1),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(239,2),t(=,10),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23) ],[ 239 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(240,2),t(>=,10),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23) ],[ 240 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(240,2),t(<=,10),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23) ],[ 240 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(241,2),t('.LIKE.',10),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23) ],[ 241 ],[ t('null(',1),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(241,2),t(=,10),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23) ],[ 241 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(242,2),t('.LIKE.',10),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23) ],[ 242 ],[ t('null(',1),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(242,2),t(=,10),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23) ],[ 242 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(326,2),t('.LIKE.',10),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23) ],[ 326 ],[ t('null(',1),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(326,2),t(=,10),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23) ],[ 326 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(314,2),t(>=,10),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23) ],[ 314 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(314,2),t(<=,10),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23) ],[ 314 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t([ t(315,2),v(t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23)) ],49) ],[ 315 ],[ t([ t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23),t('Count',3) ],29),t(>,10),t('0',3) ],[] ]).
+cond_constraint_i(10,[ [ t(316,2),t(>=,10),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23) ],[ 316 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(316,2),t(<=,10),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23) ],[ 316 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(317,2),t('.LIKE.',10),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23) ],[ 317 ],[ t('null(',1),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(317,2),t(=,10),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23) ],[ 317 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t([ t(318,2),v(t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23)) ],49) ],[ 318 ],[ t([ t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23),t('Count',3) ],29),t(>,10),t('0',3) ],[] ]).
+cond_constraint_i(10,[ [ t(319,2),t('.LIKE.',10),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23) ],[ 319 ],[ t('null(',1),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(10,[ [ t(319,2),t(=,10),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23) ],[ 319 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(226,2),t(>=,10),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23) ],[ 226 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(226,2),t(<=,10),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23) ],[ 226 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(19,2),t(>=,10),t('BR_PathologyWWDS_3_Tfbr_encounterid',23) ],[ 19 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_3_Tfbr_encounterid',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(19,2),t(<=,10),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23) ],[ 19 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(36,2),t('.LIKE.',10),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23) ],[ 36 ],[ t('null(',1),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(36,2),t(=,10),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23) ],[ 36 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(237,2),t(>=,10),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23) ],[ 237 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(237,2),t(<=,10),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23) ],[ 237 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(238,2),t(>=,10),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23) ],[ 238 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(238,2),t(<=,10),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23) ],[ 238 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(239,2),t('.LIKE.',10),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23) ],[ 239 ],[ t('null(',1),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(239,2),t(=,10),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23) ],[ 239 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(240,2),t(>=,10),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23) ],[ 240 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(240,2),t(<=,10),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23) ],[ 240 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(241,2),t('.LIKE.',10),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23) ],[ 241 ],[ t('null(',1),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(241,2),t(=,10),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23) ],[ 241 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(242,2),t('.LIKE.',10),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23) ],[ 242 ],[ t('null(',1),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(242,2),t(=,10),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23) ],[ 242 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(326,2),t('.LIKE.',10),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23) ],[ 326 ],[ t('null(',1),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(326,2),t(=,10),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23) ],[ 326 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(314,2),t(>=,10),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23) ],[ 314 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(314,2),t(<=,10),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23) ],[ 314 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t([ t(315,2),v(t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23)) ],49) ],[ 315 ],[ t([ t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23),t('Count',3) ],29),t(>,10),t('0',3) ],[] ]).
+cond_constraint_i(8,[ [ t(316,2),t(>=,10),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23) ],[ 316 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(316,2),t(<=,10),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23) ],[ 316 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(317,2),t('.LIKE.',10),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23) ],[ 317 ],[ t('null(',1),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(317,2),t(=,10),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23) ],[ 317 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t([ t(318,2),v(t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23)) ],49) ],[ 318 ],[ t([ t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23),t('Count',3) ],29),t(>,10),t('0',3) ],[] ]).
+cond_constraint_i(8,[ [ t(319,2),t('.LIKE.',10),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23) ],[ 319 ],[ t('null(',1),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(8,[ [ t(319,2),t(=,10),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23) ],[ 319 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(226,2),t(>=,10),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23) ],[ 226 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(226,2),t(<=,10),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23) ],[ 226 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(19,2),t(>=,10),t('BR_PathologyWWDS_3_Tfbr_encounterid',23) ],[ 19 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_3_Tfbr_encounterid',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(19,2),t(<=,10),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23) ],[ 19 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(36,2),t('.LIKE.',10),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23) ],[ 36 ],[ t('null(',1),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(36,2),t(=,10),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23) ],[ 36 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(237,2),t(>=,10),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23) ],[ 237 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(237,2),t(<=,10),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23) ],[ 237 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(238,2),t(>=,10),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23) ],[ 238 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(238,2),t(<=,10),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23) ],[ 238 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(239,2),t('.LIKE.',10),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23) ],[ 239 ],[ t('null(',1),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(239,2),t(=,10),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23) ],[ 239 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(240,2),t(>=,10),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23) ],[ 240 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(240,2),t(<=,10),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23) ],[ 240 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(241,2),t('.LIKE.',10),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23) ],[ 241 ],[ t('null(',1),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(241,2),t(=,10),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23) ],[ 241 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(242,2),t('.LIKE.',10),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23) ],[ 242 ],[ t('null(',1),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(242,2),t(=,10),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23) ],[ 242 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(326,2),t('.LIKE.',10),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23) ],[ 326 ],[ t('null(',1),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(326,2),t(=,10),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23) ],[ 326 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(314,2),t(>=,10),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23) ],[ 314 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(314,2),t(<=,10),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23) ],[ 314 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t([ t(315,2),v(t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23)) ],49) ],[ 315 ],[ t([ t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23),t('Count',3) ],29),t(>,10),t('0',3) ],[] ]).
+cond_constraint_i(6,[ [ t(316,2),t(>=,10),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23) ],[ 316 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(316,2),t(<=,10),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23) ],[ 316 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(317,2),t('.LIKE.',10),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23) ],[ 317 ],[ t('null(',1),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(317,2),t(=,10),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23) ],[ 317 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t([ t(318,2),v(t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23)) ],49) ],[ 318 ],[ t([ t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23),t('Count',3) ],29),t(>,10),t('0',3) ],[] ]).
+cond_constraint_i(6,[ [ t(319,2),t('.LIKE.',10),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23) ],[ 319 ],[ t('null(',1),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(319,2),t(=,10),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23) ],[ 319 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(226,2),t(>=,10),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23) ],[ 226 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(226,2),t(<=,10),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23) ],[ 226 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(19,2),t(>=,10),t('BR_PathologyWWDS_3_Tfbr_encounterid',23) ],[ 19 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_3_Tfbr_encounterid',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(19,2),t(<=,10),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23) ],[ 19 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(36,2),t('.LIKE.',10),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23) ],[ 36 ],[ t('null(',1),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(36,2),t(=,10),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23) ],[ 36 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(237,2),t(>=,10),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23) ],[ 237 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(237,2),t(<=,10),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23) ],[ 237 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(238,2),t(>=,10),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23) ],[ 238 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(238,2),t(<=,10),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23) ],[ 238 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(239,2),t('.LIKE.',10),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23) ],[ 239 ],[ t('null(',1),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(239,2),t(=,10),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23) ],[ 239 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(240,2),t(>=,10),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23) ],[ 240 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(240,2),t(<=,10),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23) ],[ 240 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(241,2),t('.LIKE.',10),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23) ],[ 241 ],[ t('null(',1),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(241,2),t(=,10),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23) ],[ 241 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(242,2),t('.LIKE.',10),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23) ],[ 242 ],[ t('null(',1),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(242,2),t(=,10),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23) ],[ 242 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(326,2),t('.LIKE.',10),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23) ],[ 326 ],[ t('null(',1),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(326,2),t(=,10),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23) ],[ 326 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(314,2),t(>=,10),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23) ],[ 314 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(314,2),t(<=,10),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23) ],[ 314 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t([ t(315,2),v(t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23)) ],49) ],[ 315 ],[ t([ t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23),t('Count',3) ],29),t(>,10),t('0',3) ],[] ]).
+cond_constraint_i(4,[ [ t(316,2),t(>=,10),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23) ],[ 316 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(316,2),t(<=,10),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23) ],[ 316 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(317,2),t('.LIKE.',10),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23) ],[ 317 ],[ t('null(',1),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(317,2),t(=,10),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23) ],[ 317 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t([ t(318,2),v(t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23)) ],49) ],[ 318 ],[ t([ t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23),t('Count',3) ],29),t(>,10),t('0',3) ],[] ]).
+cond_constraint_i(4,[ [ t(319,2),t('.LIKE.',10),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23) ],[ 319 ],[ t('null(',1),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(319,2),t(=,10),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23) ],[ 319 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(226,2),t(>=,10),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23) ],[ 226 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(226,2),t(<=,10),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23) ],[ 226 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(19,2),t(>=,10),t('BR_PathologyWWDS_3_Tfbr_encounterid',23) ],[ 19 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_3_Tfbr_encounterid',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(19,2),t(<=,10),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23) ],[ 19 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(36,2),t('.LIKE.',10),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23) ],[ 36 ],[ t('null(',1),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(36,2),t(=,10),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23) ],[ 36 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(237,2),t(>=,10),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23) ],[ 237 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(237,2),t(<=,10),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23) ],[ 237 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(238,2),t(>=,10),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23) ],[ 238 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(238,2),t(<=,10),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23) ],[ 238 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(239,2),t('.LIKE.',10),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23) ],[ 239 ],[ t('null(',1),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(239,2),t(=,10),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23) ],[ 239 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(240,2),t(>=,10),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23) ],[ 240 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(240,2),t(<=,10),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23) ],[ 240 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(241,2),t('.LIKE.',10),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23) ],[ 241 ],[ t('null(',1),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(241,2),t(=,10),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23) ],[ 241 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(242,2),t('.LIKE.',10),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23) ],[ 242 ],[ t('null(',1),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(242,2),t(=,10),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23) ],[ 242 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(326,2),t('.LIKE.',10),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23) ],[ 326 ],[ t('null(',1),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(326,2),t(=,10),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23) ],[ 326 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(314,2),t(>=,10),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23) ],[ 314 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(314,2),t(<=,10),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23) ],[ 314 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t([ t(315,2),v(t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23)) ],49) ],[ 315 ],[ t([ t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23),t('Count',3) ],29),t(>,10),t('0',3) ],[] ]).
+cond_constraint_i(2,[ [ t(316,2),t(>=,10),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23) ],[ 316 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(316,2),t(<=,10),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23) ],[ 316 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(317,2),t('.LIKE.',10),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23) ],[ 317 ],[ t('null(',1),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(317,2),t(=,10),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23) ],[ 317 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t([ t(318,2),v(t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23)) ],49) ],[ 318 ],[ t([ t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23),t('Count',3) ],29),t(>,10),t('0',3) ],[] ]).
+cond_constraint_i(2,[ [ t(319,2),t('.LIKE.',10),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23) ],[ 319 ],[ t('null(',1),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(319,2),t(=,10),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23) ],[ 319 ],[ t('.NOT.',8),t('null(',1),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23),t(')',4) ],[] ]).
+ 
+ 
+level_option_i(2,usr_condition,y).
+level_option_i(4,usr_condition,y).
+level_option_i(6,usr_condition,y).
+level_option_i(8,usr_condition,y).
+level_option_i(10,usr_condition,y).
+level_option_i(12,usr_condition,y).
+level_option_i(14,usr_condition,y).
+ 
+ta_i(14,[ [ [ 15,85 ],[ 36,319 ],[ 36,318 ],[ 36,317 ],[ 36,316 ],[ 36,315 ],[ 36,314 ],[ 36,326 ],[ 36,242 ],[ 36,241 ],[ 36,240 ],[ 36,239 ],[ 36,238 ],[ 36,237 ],[ 16,36 ],[ 36,19 ],[ 36,226 ] ] ]).
+ta_i(15,[ [ [ 36,319 ] ] ]).
+ta_i(12,[ [ [ 15,85 ],[ 36,317 ],[ 36,319 ],[ 36,318 ],[ 36,316 ],[ 36,315 ],[ 36,314 ],[ 36,326 ],[ 36,242 ],[ 36,241 ],[ 36,240 ],[ 36,239 ],[ 36,238 ],[ 36,237 ],[ 16,36 ],[ 36,19 ],[ 36,226 ] ] ]).
+ta_i(13,[ [ [ 36,317 ] ] ]).
+ta_i(10,[ [ [ 15,85 ],[ 36,326 ],[ 36,319 ],[ 36,318 ],[ 36,317 ],[ 36,316 ],[ 36,315 ],[ 36,314 ],[ 36,242 ],[ 36,241 ],[ 36,240 ],[ 36,239 ],[ 36,238 ],[ 36,237 ],[ 16,36 ],[ 36,19 ],[ 36,226 ] ] ]).
+ta_i(11,[ [ [ 36,326 ] ] ]).
+ta_i(8,[ [ [ 15,85 ],[ 36,242 ],[ 36,319 ],[ 36,318 ],[ 36,317 ],[ 36,316 ],[ 36,315 ],[ 36,314 ],[ 36,326 ],[ 36,241 ],[ 36,240 ],[ 36,239 ],[ 36,238 ],[ 36,237 ],[ 16,36 ],[ 36,19 ],[ 36,226 ] ] ]).
+ta_i(9,[ [ [ 36,242 ] ] ]).
+ta_i(6,[ [ [ 15,85 ],[ 36,241 ],[ 36,319 ],[ 36,318 ],[ 36,317 ],[ 36,316 ],[ 36,315 ],[ 36,314 ],[ 36,326 ],[ 36,242 ],[ 36,240 ],[ 36,239 ],[ 36,238 ],[ 36,237 ],[ 16,36 ],[ 36,19 ],[ 36,226 ] ] ]).
+ta_i(7,[ [ [ 36,241 ] ] ]).
+ta_i(4,[ [ [ 15,85 ],[ 36,239 ],[ 36,319 ],[ 36,318 ],[ 36,317 ],[ 36,316 ],[ 36,315 ],[ 36,314 ],[ 36,326 ],[ 36,242 ],[ 36,241 ],[ 36,240 ],[ 36,238 ],[ 36,237 ],[ 16,36 ],[ 36,19 ],[ 36,226 ] ] ]).
+ta_i(5,[ [ [ 36,239 ] ] ]).
+ta_i(2,[ [ [ 15,85 ],[ 16,36 ],[ 36,319 ],[ 36,318 ],[ 36,317 ],[ 36,316 ],[ 36,315 ],[ 36,314 ],[ 36,326 ],[ 36,242 ],[ 36,241 ],[ 36,240 ],[ 36,239 ],[ 36,238 ],[ 36,237 ],[ 36,19 ],[ 36,226 ] ] ]).
+ta_i(3,[ [ [ 36,19 ],[ 15,85 ],[ 16,36 ] ] ]).
+ 
+las_i(14,[ [ 319,318,317,316,315,314,326,242,241,240,239,238,237,36,19,226,85 ] ]).
+las_i(15,[ [ 319 ] ]).
+las_i(12,[ [ 317,319,318,316,315,314,326,242,241,240,239,238,237,36,19,226,85 ] ]).
+las_i(13,[ [ 317 ] ]).
+las_i(10,[ [ 326,319,318,317,316,315,314,242,241,240,239,238,237,36,19,226,85 ] ]).
+las_i(11,[ [ 326 ] ]).
+las_i(8,[ [ 242,319,318,317,316,315,314,326,241,240,239,238,237,36,19,226,85 ] ]).
+las_i(9,[ [ 242 ] ]).
+las_i(6,[ [ 241,319,318,317,316,315,314,326,242,240,239,238,237,36,19,226,85 ] ]).
+las_i(7,[ [ 241 ] ]).
+las_i(4,[ [ 239,319,318,317,316,315,314,326,242,241,240,238,237,36,19,226,85 ] ]).
+las_i(5,[ [ 239 ] ]).
+las_i(2,[ [ 36,319,318,317,316,315,314,326,242,241,240,239,238,237,19,226,85 ] ]).
+las_i(3,[ [ 36,19,85 ] ]).
+ 
+lac_i(14,[ [] ]).
+lac_i(15,[ [] ]).
+lac_i(12,[ [] ]).
+lac_i(13,[ [] ]).
+lac_i(10,[ [] ]).
+lac_i(11,[ [] ]).
+lac_i(8,[ [] ]).
+lac_i(9,[ [] ]).
+lac_i(6,[ [] ]).
+lac_i(7,[ [] ]).
+lac_i(4,[ [] ]).
+lac_i(5,[ [] ]).
+lac_i(2,[ [] ]).
+lac_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS',���)).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',���)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','BR_PathologyWWGetFilterData')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('REST','-1')).
+rule_i(0,prop('SOAP','0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'-1')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('ObjDesc','BR_Pathology WWGet Filter Data')).
+rule_i(0,prop('ObjName','BR_PathologyWWGetFilterData')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Ddoname','Searchtxt','Searchtxtto','Optionsjson','Optionsdescjson','Optionindexesjson' ],[])).
+rule_i(0,parmio([ [ 'Ddoname',in ],[ 'Searchtxt',in ],[ 'Searchtxtto',in ],[ 'Optionsjson',out ],[ 'Optionsdescjson',out ],[ 'Optionindexesjson',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(3,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(4,3,t,36,[],[ [ [ [],36,36 ] ],'',[] ]).
+a_i(5,3,r,15,[],[ [ [ 36,19,19 ] ],'IBR_ENCOUNTER',[] ]).
+a_i(6,3,r,16,[],[ [ [ 15,85,85 ] ],'IBR_INFORMATION',[] ]).
+a_i(7,2,t,36,[],[ [],'',[] ]).
+a_i(8,2,r,15,[],[ [ [ 36,19,19 ] ],'IBR_ENCOUNTER',[] ]).
+a_i(9,2,r,16,[],[ [ [ 15,85,85 ] ],'IBR_INFORMATION',[] ]).
+a_i(10,5,t,36,[],[ [ [ [],239,239 ] ],'5',[] ]).
+a_i(11,4,t,36,[],[ [],'5',[] ]).
+a_i(12,4,r,15,[],[ [ [ 36,19,19 ] ],'IBR_ENCOUNTER',[] ]).
+a_i(13,4,r,16,[],[ [ [ 15,85,85 ] ],'IBR_INFORMATION',[] ]).
+a_i(14,7,t,36,[],[ [ [ [],241,241 ] ],'7',[] ]).
+a_i(15,6,t,36,[],[ [],'7',[] ]).
+a_i(16,6,r,15,[],[ [ [ 36,19,19 ] ],'IBR_ENCOUNTER',[] ]).
+a_i(17,6,r,16,[],[ [ [ 15,85,85 ] ],'IBR_INFORMATION',[] ]).
+a_i(18,9,t,36,[],[ [ [ [],242,242 ] ],'9',[] ]).
+a_i(19,8,t,36,[],[ [],'9',[] ]).
+a_i(20,8,r,15,[],[ [ [ 36,19,19 ] ],'IBR_ENCOUNTER',[] ]).
+a_i(21,8,r,16,[],[ [ [ 15,85,85 ] ],'IBR_INFORMATION',[] ]).
+a_i(22,11,t,36,[],[ [ [ [],326,326 ] ],'11',[] ]).
+a_i(23,10,t,36,[],[ [],'11',[] ]).
+a_i(24,10,r,15,[],[ [ [ 36,19,19 ] ],'IBR_ENCOUNTER',[] ]).
+a_i(25,10,r,16,[],[ [ [ 15,85,85 ] ],'IBR_INFORMATION',[] ]).
+a_i(26,13,t,36,[],[ [ [ [],317,317 ] ],'13',[] ]).
+a_i(27,12,t,36,[],[ [],'13',[] ]).
+a_i(28,12,r,15,[],[ [ [ 36,19,19 ] ],'IBR_ENCOUNTER',[] ]).
+a_i(29,12,r,16,[],[ [ [ 15,85,85 ] ],'IBR_INFORMATION',[] ]).
+a_i(30,15,t,36,[],[ [ [ [],319,319 ] ],'15',[] ]).
+a_i(31,14,t,36,[],[ [],'15',[] ]).
+a_i(32,14,r,15,[],[ [ [ 36,19,19 ] ],'IBR_ENCOUNTER',[] ]).
+a_i(33,14,r,16,[],[ [ [ 15,85,85 ] ],'IBR_INFORMATION',[] ]).
+ 
+v_i(f,i,3,[]).
+v_i(f,o,3,'Err').
+v_i(t,i,4,36).
+v_i(t,o,4,19).
+v_i(r,i,5,19).
+v_i(r,o,5,85).
+v_i(r,i,6,85).
+v_i(r,o,6,36).
+v_i(t,i,7,[]).
+v_i(t,o,7,319).
+v_i(t,o,7,318).
+v_i(t,o,7,317).
+v_i(t,o,7,316).
+v_i(t,o,7,315).
+v_i(t,o,7,314).
+v_i(t,o,7,326).
+v_i(t,o,7,242).
+v_i(t,o,7,241).
+v_i(t,o,7,240).
+v_i(t,o,7,239).
+v_i(t,o,7,238).
+v_i(t,o,7,237).
+v_i(t,o,7,19).
+v_i(t,o,7,226).
+v_i(r,i,8,19).
+v_i(r,o,8,85).
+v_i(r,i,9,85).
+v_i(r,o,9,36).
+v_i(t,i,10,239).
+v_i(t,o,10,[]).
+v_i(t,i,11,[]).
+v_i(t,o,11,239).
+v_i(t,o,11,319).
+v_i(t,o,11,318).
+v_i(t,o,11,317).
+v_i(t,o,11,316).
+v_i(t,o,11,315).
+v_i(t,o,11,314).
+v_i(t,o,11,326).
+v_i(t,o,11,242).
+v_i(t,o,11,241).
+v_i(t,o,11,240).
+v_i(t,o,11,238).
+v_i(t,o,11,237).
+v_i(t,o,11,19).
+v_i(t,o,11,226).
+v_i(r,i,12,19).
+v_i(r,o,12,85).
+v_i(r,i,13,85).
+v_i(r,o,13,36).
+v_i(t,i,14,241).
+v_i(t,o,14,[]).
+v_i(t,i,15,[]).
+v_i(t,o,15,241).
+v_i(t,o,15,319).
+v_i(t,o,15,318).
+v_i(t,o,15,317).
+v_i(t,o,15,316).
+v_i(t,o,15,315).
+v_i(t,o,15,314).
+v_i(t,o,15,326).
+v_i(t,o,15,242).
+v_i(t,o,15,240).
+v_i(t,o,15,239).
+v_i(t,o,15,238).
+v_i(t,o,15,237).
+v_i(t,o,15,19).
+v_i(t,o,15,226).
+v_i(r,i,16,19).
+v_i(r,o,16,85).
+v_i(r,i,17,85).
+v_i(r,o,17,36).
+v_i(t,i,18,242).
+v_i(t,o,18,[]).
+v_i(t,i,19,[]).
+v_i(t,o,19,242).
+v_i(t,o,19,319).
+v_i(t,o,19,318).
+v_i(t,o,19,317).
+v_i(t,o,19,316).
+v_i(t,o,19,315).
+v_i(t,o,19,314).
+v_i(t,o,19,326).
+v_i(t,o,19,241).
+v_i(t,o,19,240).
+v_i(t,o,19,239).
+v_i(t,o,19,238).
+v_i(t,o,19,237).
+v_i(t,o,19,19).
+v_i(t,o,19,226).
+v_i(r,i,20,19).
+v_i(r,o,20,85).
+v_i(r,i,21,85).
+v_i(r,o,21,36).
+v_i(t,i,22,326).
+v_i(t,o,22,[]).
+v_i(t,i,23,[]).
+v_i(t,o,23,326).
+v_i(t,o,23,319).
+v_i(t,o,23,318).
+v_i(t,o,23,317).
+v_i(t,o,23,316).
+v_i(t,o,23,315).
+v_i(t,o,23,314).
+v_i(t,o,23,242).
+v_i(t,o,23,241).
+v_i(t,o,23,240).
+v_i(t,o,23,239).
+v_i(t,o,23,238).
+v_i(t,o,23,237).
+v_i(t,o,23,19).
+v_i(t,o,23,226).
+v_i(r,i,24,19).
+v_i(r,o,24,85).
+v_i(r,i,25,85).
+v_i(r,o,25,36).
+v_i(t,i,26,317).
+v_i(t,o,26,[]).
+v_i(t,i,27,[]).
+v_i(t,o,27,317).
+v_i(t,o,27,319).
+v_i(t,o,27,318).
+v_i(t,o,27,316).
+v_i(t,o,27,315).
+v_i(t,o,27,314).
+v_i(t,o,27,326).
+v_i(t,o,27,242).
+v_i(t,o,27,241).
+v_i(t,o,27,240).
+v_i(t,o,27,239).
+v_i(t,o,27,238).
+v_i(t,o,27,237).
+v_i(t,o,27,19).
+v_i(t,o,27,226).
+v_i(r,i,28,19).
+v_i(r,o,28,85).
+v_i(r,i,29,85).
+v_i(r,o,29,36).
+v_i(t,i,30,319).
+v_i(t,o,30,[]).
+v_i(t,i,31,[]).
+v_i(t,o,31,319).
+v_i(t,o,31,318).
+v_i(t,o,31,317).
+v_i(t,o,31,316).
+v_i(t,o,31,315).
+v_i(t,o,31,314).
+v_i(t,o,31,326).
+v_i(t,o,31,242).
+v_i(t,o,31,241).
+v_i(t,o,31,240).
+v_i(t,o,31,239).
+v_i(t,o,31,238).
+v_i(t,o,31,237).
+v_i(t,o,31,19).
+v_i(t,o,31,226).
+v_i(r,i,32,19).
+v_i(r,o,32,85).
+v_i(r,i,33,85).
+v_i(r,o,33,36).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',108 ]).
+attri_i(85,[ 'BR_Information_ID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,患者基本信息主键ID,'',0 ]).
+attri_i(226,[ 'BR_PathologyID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,病理学主键,'',0 ]).
+attri_i(19,[ 'BR_EncounterID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,就诊信息主键,'',0 ]).
+attri_i(237,[ 'BR_PathologyID_TestID',int,10,0,'ZZZZZZZZZZ',0,项目序号,'',0 ]).
+attri_i(238,[ 'BR_PathologyID_PADate',date,8,0,'99/99/9999',0,病理检查日期,'',0 ]).
+attri_i(240,[ 'BR_PathologyID_PAAge',int,3,0,'ZZZ',0,年龄,'',0 ]).
+attri_i(314,[ 'BR_Pathology_T',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,原发肿瘤分级,'',0 ]).
+attri_i(315,[ 'BR_Pathology_N',svchar,40,0,'',0,是否淋巴结转移,'',0 ]).
+attri_i(316,[ 'BR_Pathology_LymphNum',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,淋巴结数目,'',0 ]).
+attri_i(318,[ 'BR_Pathology_M',svchar,40,0,'',0,是否远端转移,'',0 ]).
+attri_i(319,[ 'BR_Pathology_MetaLoc',svchar,100,0,'',0,远端转移部位,'',0 ]).
+attri_i('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',[ 'BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',svchar,100,0,'',0,'Tfbr_pathology_metaloc_sel','',94 ]).
+attri_i('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',[ 'BR_PathologyWWDS_29_Tfbr_pathology_metaloc',svchar,100,0,'',0,'Tfbr_pathology_metaloc','',93 ]).
+attri_i('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',[ 'BR_PathologyWWDS_28_Tfbr_pathology_m_sels',o(objectcollection(svchar)),40,0,'',0,'Tfbr_pathology_m_sels','',92 ]).
+attri_i('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',[ 'BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',svchar,40,0,'',0,'Tfbr_pathology_lymphrate_sel','',91 ]).
+attri_i('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',[ 'BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',svchar,40,0,'',0,'Tfbr_pathology_lymphrate','',90 ]).
+attri_i('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',[ 'BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'Tfbr_pathology_lymphnum_to','',89 ]).
+attri_i('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',[ 'BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'Tfbr_pathology_lymphnum','',88 ]).
+attri_i('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',[ 'BR_PathologyWWDS_23_Tfbr_pathology_n_sels',o(objectcollection(svchar)),40,0,'',0,'Tfbr_pathology_n_sels','',87 ]).
+attri_i('BR_PathologyWWDS_22_Tfbr_pathology_t_to',[ 'BR_PathologyWWDS_22_Tfbr_pathology_t_to',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'Tfbr_pathology_t_to','',86 ]).
+attri_i('BR_PathologyWWDS_21_Tfbr_pathology_t',[ 'BR_PathologyWWDS_21_Tfbr_pathology_t',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'Tfbr_pathology_t','',85 ]).
+attri_i('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',[ 'BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',svchar,3000,0,'',0,'Tfbr_pathology_dia_name_sel','',84 ]).
+attri_i('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',[ 'BR_PathologyWWDS_19_Tfbr_pathology_dia_name',svchar,3000,0,'',0,'Tfbr_pathology_dia_name','',83 ]).
+attri_i('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',[ 'BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',svchar,9999,0,'',0,'Tfbr_pathologyid_paresult_sel','',82 ]).
+attri_i('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',[ 'BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',svchar,9999,0,'',0,'Tfbr_pathologyid_paresult','',81 ]).
+attri_i('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',[ 'BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',svchar,4000,0,'',0,'Tfbr_pathologyid_prepadia_sel','',80 ]).
+attri_i('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',[ 'BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',svchar,4000,0,'',0,'Tfbr_pathologyid_prepadia','',79 ]).
+attri_i('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',[ 'BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',int,3,0,'ZZZ',0,'Tfbr_pathologyid_paage_to','',78 ]).
+attri_i('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',[ 'BR_PathologyWWDS_13_Tfbr_pathologyid_paage',int,3,0,'ZZZ',0,'Tfbr_pathologyid_paage','',77 ]).
+attri_i('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',[ 'BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',svchar,40,0,'',0,'Tfbr_pathologyid_pahosp_sel','',76 ]).
+attri_i('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',[ 'BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',svchar,40,0,'',0,'Tfbr_pathologyid_pahosp','',75 ]).
+attri_i('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',[ 'BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',date,8,0,'99/99/9999',0,'Tfbr_pathologyid_padate_to','',74 ]).
+attri_i('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',[ 'BR_PathologyWWDS_9_Tfbr_pathologyid_padate',date,8,0,'99/99/9999',0,'Tfbr_pathologyid_padate','',73 ]).
+attri_i('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',[ 'BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',int,10,0,'ZZZZZZZZZZ',0,'Tfbr_pathologyid_testid_to','',72 ]).
+attri_i('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',[ 'BR_PathologyWWDS_7_Tfbr_pathologyid_testid',int,10,0,'ZZZZZZZZZZ',0,'Tfbr_pathologyid_testid','',71 ]).
+attri_i('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',[ 'BR_PathologyWWDS_6_Tfbr_information_patientno_sel',svchar,2000,0,'',0,'Tfbr_information_patientno_sel','',70 ]).
+attri_i('BR_PathologyWWDS_5_Tfbr_information_patientno',[ 'BR_PathologyWWDS_5_Tfbr_information_patientno',svchar,2000,0,'',0,'Tfbr_information_patientno','',69 ]).
+attri_i('BR_PathologyWWDS_4_Tfbr_encounterid_to',[ 'BR_PathologyWWDS_4_Tfbr_encounterid_to',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'Tfbr_encounterid_to','',68 ]).
+attri_i('BR_PathologyWWDS_3_Tfbr_encounterid',[ 'BR_PathologyWWDS_3_Tfbr_encounterid',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'Tfbr_encounterid','',67 ]).
+attri_i('BR_PathologyWWDS_2_Tfbr_pathologyid_to',[ 'BR_PathologyWWDS_2_Tfbr_pathologyid_to',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'Tfbr_pathologyid_to','',66 ]).
+attri_i('BR_PathologyWWDS_1_Tfbr_pathologyid',[ 'BR_PathologyWWDS_1_Tfbr_pathologyid',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'Tfbr_pathologyid','',65 ]).
+attri_i(317,[ 'BR_Pathology_LymphRate',svchar,40,0,'',0,淋巴结转移比例,'',0 ]).
+attri_i(326,[ 'BR_Pathology_Dia_Name',svchar,3000,0,'',0,病理诊断名称,'',0 ]).
+attri_i(242,[ 'BR_PathologyID_PAResult',svchar,9999,0,'',0,病理描述,'',0 ]).
+attri_i(241,[ 'BR_PathologyID_PrePaDia',svchar,4000,0,'',0,病理前诊断,'',0 ]).
+attri_i(239,[ 'BR_PathologyID_PAHosp',svchar,40,0,'',0,检查医院,'',0 ]).
+attri_i(36,[ 'BR_Information_PatientNo',svchar,2000,0,'',0,患者编号,'',0 ]).
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'','',63 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',62 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',61 ]).
+attri_i('Tfbr_pathology_dia_name_sel',[ 'TFBR_Pathology_Dia_Name_Sel',svchar,3000,0,'',0,'TFBR_Pathology_Dia_Name_Sel','',60 ]).
+attri_i('Tfbr_pathology_dia_name',[ 'TFBR_Pathology_Dia_Name',svchar,3000,0,'',0,'TFBR_Pathology_Dia_Name','',59 ]).
+attri_i('Tfbr_pathology_metaloc_sel',[ 'TFBR_Pathology_MetaLoc_Sel',svchar,100,0,'',0,'TFBR_Pathology_Meta Loc_Sel','',58 ]).
+attri_i('Tfbr_pathology_metaloc',[ 'TFBR_Pathology_MetaLoc',svchar,100,0,'',0,'TFBR_Pathology_Meta Loc','',57 ]).
+attri_i('Tfbr_pathology_m_sels',[ 'TFBR_Pathology_M_Sels',o(objectcollection(svchar)),40,0,'',0,'TFBR_Pathology_M_Sels','',56 ]).
+attri_i('Tfbr_pathology_m_selsjson',[ 'TFBR_Pathology_M_SelsJson',vchar,2097152,0,'',0,'TFBR_Pathology_M_Sels Json','',55 ]).
+attri_i('Tfbr_pathology_lymphrate_sel',[ 'TFBR_Pathology_LymphRate_Sel',svchar,40,0,'',0,'TFBR_Pathology_Lymph Rate_Sel','',54 ]).
+attri_i('Tfbr_pathology_lymphrate',[ 'TFBR_Pathology_LymphRate',svchar,40,0,'',0,'TFBR_Pathology_Lymph Rate','',53 ]).
+attri_i('Tfbr_pathology_lymphnum_to',[ 'TFBR_Pathology_LymphNum_To',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'TFBR_Pathology_Lymph Num_To','',52 ]).
+attri_i('Tfbr_pathology_lymphnum',[ 'TFBR_Pathology_LymphNum',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'TFBR_Pathology_Lymph Num','',51 ]).
+attri_i('Tfbr_pathology_n_sels',[ 'TFBR_Pathology_N_Sels',o(objectcollection(svchar)),40,0,'',0,'TFBR_Pathology_N_Sels','',50 ]).
+attri_i('Tfbr_pathology_n_selsjson',[ 'TFBR_Pathology_N_SelsJson',vchar,2097152,0,'',0,'TFBR_Pathology_N_Sels Json','',49 ]).
+attri_i('Tfbr_pathology_t_to',[ 'TFBR_Pathology_T_To',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'TFBR_Pathology_T_To','',48 ]).
+attri_i('Tfbr_pathology_t',[ 'TFBR_Pathology_T',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'TFBR_Pathology_T','',47 ]).
+attri_i('Gridstatedynamicfilter',[ 'GridStateDynamicFilter',o('WWPBaseObjects\WWPGridState.DynamicFilter'),0,0,'',0,'Grid State Dynamic Filter','',46 ]).
+attri_i('Gridstatefiltervalue',[ 'GridStateFilterValue',o('WWPBaseObjects\WWPGridState.FilterValue'),0,0,'',0,'Grid State Filter Value','',45 ]).
+attri_i('Gridstate',[ 'GridState',o('WWPBaseObjects\WWPGridState'),0,0,'',0,'Grid State','',44 ]).
+attri_i('Gridstatexml',[ 'GridStateXML',vchar,2097152,0,'',0,'Grid State XML','',43 ]).
+attri_i('Session',[ 'Session',o(websession),4,0,'',0,'Session','',42 ]).
+attri_i('Count',[ count,int,10,0,'Z,ZZZ,ZZZ,ZZ9',0,count,'',41 ]).
+attri_i('Optionindexesjson',[ 'OptionIndexesJson',vchar,2097152,0,'',0,'Option Indexes Json','',40 ]).
+attri_i('Optionindexes',[ 'OptionIndexes',o(objectcollection(svchar)),40,0,'',0,'Option Indexes','',39 ]).
+attri_i('Optionsdescjson',[ 'OptionsDescJson',vchar,2097152,0,'',0,'Options Desc Json','',38 ]).
+attri_i('Optionsdesc',[ 'OptionsDesc',o(objectcollection(svchar)),200,0,'',0,'Options Desc','',37 ]).
+attri_i('Optiondesc',[ 'OptionDesc',svchar,200,0,'',0,'Option Desc','',36 ]).
+attri_i('Optionsjson',[ 'OptionsJson',vchar,2097152,0,'',0,'Options Json','',35 ]).
+attri_i('Options',[ 'Options',o(objectcollection(svchar)),200,0,'',0,'Options','',34 ]).
+attri_i('Option',[ 'Option',svchar,200,0,'',0,'Option','',33 ]).
+attri_i('Insertindex',[ 'InsertIndex',int,6,0,'ZZZZZ9',0,'Insert Index','',32 ]).
+attri_i('Ddoname',[ 'DDOName',svchar,200,0,'',0,'DDOName','',31 ]).
+attri_i('Searchtxtto',[ 'SearchTxtTo',svchar,100,0,'',0,'Search Txt To','',30 ]).
+attri_i('Searchtxt',[ 'SearchTxt',svchar,100,0,'',0,'Search Txt','',29 ]).
+attri_i('Tfbr_pathologyid_paresult_sel',[ 'TFBR_PathologyID_PAResult_Sel',svchar,9999,0,'',0,'TFBR_Pathology ID_PAResult_Sel','',28 ]).
+attri_i('Tfbr_pathologyid_paresult',[ 'TFBR_PathologyID_PAResult',svchar,9999,0,'',0,'TFBR_Pathology ID_PAResult','',27 ]).
+attri_i('Tfbr_pathologyid_prepadia_sel',[ 'TFBR_PathologyID_PrePaDia_Sel',svchar,4000,0,'',0,'TFBR_Pathology ID_Pre Pa Dia_Sel','',26 ]).
+attri_i('Tfbr_pathologyid_prepadia',[ 'TFBR_PathologyID_PrePaDia',svchar,4000,0,'',0,'TFBR_Pathology ID_Pre Pa Dia','',25 ]).
+attri_i('Tfbr_pathologyid_paage_to',[ 'TFBR_PathologyID_PAAge_To',int,3,0,'ZZZ',0,'TFBR_Pathology ID_PAAge_To','',24 ]).
+attri_i('Tfbr_pathologyid_paage',[ 'TFBR_PathologyID_PAAge',int,3,0,'ZZZ',0,'TFBR_Pathology ID_PAAge','',23 ]).
+attri_i('Tfbr_pathologyid_pahosp_sel',[ 'TFBR_PathologyID_PAHosp_Sel',svchar,40,0,'',0,'TFBR_Pathology ID_PAHosp_Sel','',22 ]).
+attri_i('Tfbr_pathologyid_pahosp',[ 'TFBR_PathologyID_PAHosp',svchar,40,0,'',0,'TFBR_Pathology ID_PAHosp','',21 ]).
+attri_i('Tfbr_pathologyid_padate_to',[ 'TFBR_PathologyID_PADate_To',date,8,0,'99/99/9999',0,'TFBR_Pathology ID_PADate_To','',20 ]).
+attri_i('Tfbr_pathologyid_padate',[ 'TFBR_PathologyID_PADate',date,8,0,'99/99/9999',0,'TFBR_Pathology ID_PADate','',19 ]).
+attri_i('Tfbr_pathologyid_testid_to',[ 'TFBR_PathologyID_TestID_To',int,10,0,'ZZZZZZZZZZ',0,'TFBR_Pathology ID_Test ID_To','',18 ]).
+attri_i('Tfbr_pathologyid_testid',[ 'TFBR_PathologyID_TestID',int,10,0,'ZZZZZZZZZZ',0,'TFBR_Pathology ID_Test ID','',17 ]).
+attri_i('Tfbr_information_patientno_sel',[ 'TFBR_Information_PatientNo_Sel',svchar,2000,0,'',0,'TFBR_Information_Patient No_Sel','',16 ]).
+attri_i('Tfbr_information_patientno',[ 'TFBR_Information_PatientNo',svchar,2000,0,'',0,'TFBR_Information_Patient No','',15 ]).
+attri_i('Tfbr_encounterid_to',[ 'TFBR_EncounterID_To',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'TFBR_Encounter ID_To','',14 ]).
+attri_i('Tfbr_encounterid',[ 'TFBR_EncounterID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'TFBR_Encounter ID','',13 ]).
+attri_i('Tfbr_pathologyid_to',[ 'TFBR_PathologyID_To',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'TFBR_Pathology ID_To','',12 ]).
+attri_i('Tfbr_pathologyid',[ 'TFBR_PathologyID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'TFBR_Pathology ID','',11 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,'Security Functionality Keys','',10 ]).
+attri_i('Wwpcontext',[ 'WWPContext',o('WWPBaseObjects\WWPContext'),0,0,'',0,'WWPContext','',9 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,'Is Authorized','',8 ]).
+ 
+table_i(16,[ 'BR_Information',[ 85,36 ],' T16','BR_Information' ]).
+table_i(36,[ 'BR_Pathology',[ 226,19,237,238,239,240,241,242,314,315,316,317,318,319,326 ],' T36','BR_Pathology' ]).
+table_i(15,[ 'BR_Encounter',[ 19,85 ],' T15','BR_Encounter' ]).
+ 
+index_i(36,[ '',a,[ 36 ],'' ]).
+index_i(36,[ 'IBR_PATHOLOGY',u,[ 226 ],'IBR_Pathology' ]).
+index_i(15,[ 'IBR_ENCOUNTER',u,[ 19 ],'IBR_Encounter' ]).
+index_i(16,[ 'IBR_INFORMATION',u,[ 85 ],'IBR_Information' ]).
+index_i(36,[ '5',a,[ 239 ],'' ]).
+index_i(36,[ '7',a,[ 241 ],'' ]).
+index_i(36,[ '9',a,[ 242 ],'' ]).
+index_i(36,[ '11',a,[ 326 ],'' ]).
+index_i(36,[ '13',a,[ 317 ],'' ]).
+index_i(36,[ '15',a,[ 319 ],'' ]).
+ 
+ 
+ 
+function_i(1,'Isauthorized',yes,udp,o(1,'WWPBaseObjects\SecIsAuthByFunctionalityKey'),[],7,'Isauthorized',[ [ t('''Check_Pathology''',3) ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enumerated_i(51,'Tfbr_pathology_n_sels',93).
+enumerated_i(51,'Tfbr_pathology_m_sels',93).
+enumerated_i(51,'BR_PathologyWWDS_23_Tfbr_pathology_n_sels',93).
+enumerated_i(51,'BR_PathologyWWDS_28_Tfbr_pathology_m_sels',93).
+enumerated_i(51,'BR_PathologyWWDS_23_Tfbr_pathology_n_sels',93).
+enumerated_i(51,'BR_PathologyWWDS_28_Tfbr_pathology_m_sels',93).
+enumerated_i(51,'BR_PathologyWWDS_23_Tfbr_pathology_n_sels',93).
+enumerated_i(51,'BR_PathologyWWDS_28_Tfbr_pathology_m_sels',93).
+enumerated_i(51,'BR_PathologyWWDS_23_Tfbr_pathology_n_sels',93).
+enumerated_i(51,'BR_PathologyWWDS_28_Tfbr_pathology_m_sels',93).
+enumerated_i(51,'BR_PathologyWWDS_23_Tfbr_pathology_n_sels',93).
+enumerated_i(51,'BR_PathologyWWDS_28_Tfbr_pathology_m_sels',93).
+enumerated_i(51,'BR_PathologyWWDS_23_Tfbr_pathology_n_sels',93).
+enumerated_i(51,'BR_PathologyWWDS_28_Tfbr_pathology_m_sels',93).
+enumerated_i(51,'BR_PathologyWWDS_23_Tfbr_pathology_n_sels',93).
+enumerated_i(51,'BR_PathologyWWDS_28_Tfbr_pathology_m_sels',93).
+enumerated_i(51,315,93).
+enumerated_i(51,318,93).
+enumerated_i(51,172,94).
+enumerated_i(51,537,117).
+ 
+enum_value_i(51,93,'"否"',no,'"否"',[ none ]).
+enum_value_i(51,93,'"是"',yes,'"是"',[ none ]).
+enum_value_i(51,93,'"不详"',notclear,'"不详"',[ none ]).
+enum_value_i(51,94,'1',entering,'"录入中"',[ none ]).
+enum_value_i(51,94,'2',waitCheck,'"待初审"',[ none ]).
+enum_value_i(51,94,'3',denyCheck,'"初审不通过"',[ none ]).
+enum_value_i(51,94,'4',waitApprove,'"待复审"',[ none ]).
+enum_value_i(51,94,'5',denyApprove,'"复审不通过"',[ none ]).
+enum_value_i(51,94,'6',complete,'"完成"',[ none ]).
+enum_value_i(51,117,'1',lis,'"lis"',[ none ]).
+ 
+enum_value_info_i(51,93,'DM_IsComorbidity').
+enum_value_info_i(51,94,'DM_ApproveStatus').
+enum_value_info_i(51,117,'DM_Datasource').
+ 
+enum_type_i(51,93,svchar,40,0).
+enum_type_i(51,94,int,4,0).
+enum_type_i(51,117,int,4,0).
+ 
+dom_info_i(93,[ 'DM_IsComorbidity' ]).
+dom_info_i(103,[ 'DM_Numeric' ]).
+dom_info_i(64,[ 'DM_Date' ]).
+dom_info_i(69,[ 'ID' ]).
+dom_info_i(94,[ 'DM_ApproveStatus' ]).
+dom_info_i(66,[ 'UpdDate' ]).
+dom_info_i(95,[ 'CrtUser' ]).
+dom_info_i(67,[ 'UpdUser' ]).
+dom_info_i(117,[ 'DM_Datasource' ]).
+dom_info_i(90,[ 'WWPSecFunctionalityKey' ]).
+ 
+ 
+break_i(3,nvg,2,[ 36 ],[ [ 36 ],[],[] ]).
+break_i(2,nvg,1,[ 36 ],[ [ 36 ],[ 226,19,36,237,238,239,240,241,242,326,314,315,316,317,318,319 ],[] ]).
+break_i(5,nvg,4,[ 239 ],[ [ 239 ],[],[] ]).
+break_i(4,nvg,1,[ 239 ],[ [ 239 ],[ 226,19,36,237,238,239,240,241,242,326,314,315,316,317,318,319 ],[] ]).
+break_i(7,nvg,6,[ 241 ],[ [ 241 ],[],[] ]).
+break_i(6,nvg,1,[ 241 ],[ [ 241 ],[ 226,19,36,237,238,239,240,241,242,326,314,315,316,317,318,319 ],[] ]).
+break_i(9,nvg,8,[ 242 ],[ [ 242 ],[],[] ]).
+break_i(8,nvg,1,[ 242 ],[ [ 242 ],[ 226,19,36,237,238,239,240,241,242,326,314,315,316,317,318,319 ],[] ]).
+break_i(11,nvg,10,[ 326 ],[ [ 326 ],[],[] ]).
+break_i(10,nvg,1,[ 326 ],[ [ 326 ],[ 226,19,36,237,238,239,240,241,242,326,314,315,316,317,318,319 ],[] ]).
+break_i(13,nvg,12,[ 317 ],[ [ 317 ],[],[] ]).
+break_i(12,nvg,1,[ 317 ],[ [ 317 ],[ 226,19,36,237,238,239,240,241,242,326,314,315,316,317,318,319 ],[] ]).
+break_i(15,nvg,14,[ 319 ],[ [ 319 ],[],[] ]).
+break_i(14,nvg,1,[ 319 ],[ [ 319 ],[ 226,19,36,237,238,239,240,241,242,326,314,315,316,317,318,319 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,40).
+b_group_i(1,2,lit,0,41,115).
+b_group_i(1,3,lit,0,116,2).
+b_group_i(1,4,nvg,2,121,121).
+b_group_i(2,1,lit,0,122,122).
+b_group_i(2,2,nvg,3,130,130).
+b_group_i(3,1,lit,0,131,131).
+b_group_i(2,3,lit,0,134,126).
+b_group_i(1,5,lit,0,144,149).
+b_group_i(1,6,lit,0,150,25).
+b_group_i(1,7,nvg,4,155,155).
+b_group_i(4,1,lit,0,156,156).
+b_group_i(4,2,nvg,5,164,164).
+b_group_i(5,1,lit,0,165,165).
+b_group_i(4,3,lit,0,168,160).
+b_group_i(1,8,lit,0,178,183).
+b_group_i(1,9,lit,0,184,48).
+b_group_i(1,10,nvg,6,189,189).
+b_group_i(6,1,lit,0,190,190).
+b_group_i(6,2,nvg,7,198,198).
+b_group_i(7,1,lit,0,199,199).
+b_group_i(6,3,lit,0,202,194).
+b_group_i(1,11,lit,0,212,217).
+b_group_i(1,12,lit,0,218,71).
+b_group_i(1,13,nvg,8,223,223).
+b_group_i(8,1,lit,0,224,224).
+b_group_i(8,2,nvg,9,232,232).
+b_group_i(9,1,lit,0,233,233).
+b_group_i(8,3,lit,0,236,228).
+b_group_i(1,14,lit,0,246,251).
+b_group_i(1,15,lit,0,252,94).
+b_group_i(1,16,nvg,10,257,257).
+b_group_i(10,1,lit,0,258,258).
+b_group_i(10,2,nvg,11,266,266).
+b_group_i(11,1,lit,0,267,267).
+b_group_i(10,3,lit,0,270,262).
+b_group_i(1,17,lit,0,280,285).
+b_group_i(1,18,lit,0,286,117).
+b_group_i(1,19,nvg,12,291,291).
+b_group_i(12,1,lit,0,292,292).
+b_group_i(12,2,nvg,13,300,300).
+b_group_i(13,1,lit,0,301,301).
+b_group_i(12,3,lit,0,304,296).
+b_group_i(1,20,lit,0,314,319).
+b_group_i(1,21,lit,0,320,140).
+b_group_i(1,22,nvg,14,325,325).
+b_group_i(14,1,lit,0,326,326).
+b_group_i(14,2,nvg,15,334,334).
+b_group_i(15,1,lit,0,335,335).
+b_group_i(14,3,lit,0,338,330).
+b_group_i(1,23,lit,0,348,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[]).
+b_line_i(3,1,1,cmd,0,[]).
+b_line_i(4,1,1,cmd,0,[ t('',107,0,0),t('Options',23,0,0),t(=,10,0,0),t([ [ svchar,200,0 ],[ t('(',0,4,15),t(')',4,4,16) ],y ],46,0,0) ]).
+b_line_i(5,1,1,cmd,0,[ t('',107,0,0),t('Optionsdesc',23,0,0),t(=,10,0,0),t([ [ svchar,200,0 ],[ t('(',0,5,19),t(')',4,5,20) ],y ],46,0,0) ]).
+b_line_i(6,1,1,cmd,0,[ t('',107,0,0),t('Optionindexes',23,0,0),t(=,10,0,0),t([ [ svchar,40,0 ],[ t('(',0,6,21),t(')',4,6,22) ],y ],46,0,0) ]).
+b_line_i(7,1,1,cmd,0,[ t('',107,0,0),t('Isauthorized',23,0,0),t(=,10,0,0),t('udp(',1,0,0),t('Isauthorized',3,0,0),t(7,3,0,0),t('''Check_Pathology''',3,0,0),t(')',4,0,0) ]).
+b_line_i(8,1,1,cmd,0,[]).
+b_line_i(9,1,1,cmd,0,[ t('',109,0,0),t('Isauthorized',23,0,4) ]).
+b_line_i(10,1,1,cmd,0,[]).
+b_line_i(11,1,1,cmd,0,[ t('',104,0,0),t(o(1,'WWPBaseObjects\LoadWWPContext'),28,0,2),t('Wwpcontext',23,0,23) ]).
+b_line_i(12,1,1,cmd,0,[]).
+b_line_i(13,1,1,cmd,0,[ t('',145,0,0),t('''LOADGRIDSTATE''',3,13,5) ]).
+b_line_i(14,1,1,cmd,0,[ t('',152,0,0) ]).
+b_line_i(15,1,1,cmd,0,[ t('',153,0,0),t('upper(',1,15,17),t('Ddoname',23,0,8),t(')',4,0,26),t(=,10,0,28),t('''DDO_BR_INFORMATION_PATIENTNO''',3,15,30) ]).
+b_line_i(16,1,1,cmd,0,[ t('',145,0,0),t('''LOADBR_INFORMATION_PATIENTNOOPTIONS''',3,16,7) ]).
+b_line_i(17,1,1,cmd,0,[ t('',153,0,0),t('upper(',1,17,17),t('Ddoname',23,0,8),t(')',4,0,26),t(=,10,0,28),t('''DDO_BR_PATHOLOGYID_PAHOSP''',3,17,30) ]).
+b_line_i(18,1,1,cmd,0,[ t('',145,0,0),t('''LOADBR_PATHOLOGYID_PAHOSPOPTIONS''',3,18,7) ]).
+b_line_i(19,1,1,cmd,0,[ t('',153,0,0),t('upper(',1,19,17),t('Ddoname',23,0,8),t(')',4,0,26),t(=,10,0,28),t('''DDO_BR_PATHOLOGYID_PREPADIA''',3,19,30) ]).
+b_line_i(20,1,1,cmd,0,[ t('',145,0,0),t('''LOADBR_PATHOLOGYID_PREPADIAOPTIONS''',3,20,7) ]).
+b_line_i(21,1,1,cmd,0,[ t('',153,0,0),t('upper(',1,21,17),t('Ddoname',23,0,8),t(')',4,0,26),t(=,10,0,28),t('''DDO_BR_PATHOLOGYID_PARESULT''',3,21,30) ]).
+b_line_i(22,1,1,cmd,0,[ t('',145,0,0),t('''LOADBR_PATHOLOGYID_PARESULTOPTIONS''',3,22,7) ]).
+b_line_i(23,1,1,cmd,0,[ t('',153,0,0),t('upper(',1,23,17),t('Ddoname',23,0,8),t(')',4,0,26),t(=,10,0,28),t('''DDO_BR_PATHOLOGY_DIA_NAME''',3,23,30) ]).
+b_line_i(24,1,1,cmd,0,[ t('',145,0,0),t('''LOADBR_PATHOLOGY_DIA_NAMEOPTIONS''',3,24,7) ]).
+b_line_i(25,1,1,cmd,0,[ t('',153,0,0),t('upper(',1,25,17),t('Ddoname',23,0,8),t(')',4,0,26),t(=,10,0,28),t('''DDO_BR_PATHOLOGY_LYMPHRATE''',3,25,30) ]).
+b_line_i(26,1,1,cmd,0,[ t('',145,0,0),t('''LOADBR_PATHOLOGY_LYMPHRATEOPTIONS''',3,26,7) ]).
+b_line_i(27,1,1,cmd,0,[ t('',153,0,0),t('upper(',1,27,17),t('Ddoname',23,0,8),t(')',4,0,26),t(=,10,0,28),t('''DDO_BR_PATHOLOGY_METALOC''',3,27,30) ]).
+b_line_i(28,1,1,cmd,0,[ t('',145,0,0),t('''LOADBR_PATHOLOGY_METALOCOPTIONS''',3,28,7) ]).
+b_line_i(29,1,1,cmd,0,[ t('',154,0,0) ]).
+b_line_i(30,1,1,cmd,0,[]).
+b_line_i(31,1,1,cmd,0,[ t('',111,0,0) ]).
+b_line_i(32,1,1,cmd,0,[]).
+b_line_i(33,1,1,cmd,0,[ t('',107,0,0),t('Optionsjson',23,0,0),t(=,10,0,0),t([ t('Options',23,0,0),t('tojson(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(34,1,1,cmd,0,[ t('',107,0,0),t('Optionsdescjson',23,0,0),t(=,10,0,0),t([ t('Optionsdesc',23,0,0),t('tojson(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(35,1,1,cmd,0,[ t('',107,0,0),t('Optionindexesjson',23,0,0),t(=,10,0,0),t([ t('Optionindexes',23,0,0),t('tojson(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(36,1,1,cmd,0,[]).
+b_line_i(37,1,1,cmd,0,[]).
+b_line_i(38,1,1,cmd,0,[]).
+b_line_i(39,1,1,cmd,0,[]).
+b_line_i(40,1,1,cmd,0,[ t('',143,0,0),t('''LOADGRIDSTATE''',3,40,5) ]).
+b_line_i(41,1,2,cmd,0,[]).
+b_line_i(42,1,2,cmd,0,[]).
+b_line_i(43,1,2,cmd,0,[]).
+b_line_i(44,1,2,cmd,0,[]).
+b_line_i(45,1,2,cmd,0,[ t('',109,0,0),t([ t('Session',23,45,5),t('get(',1,45,14) ],31,45,14),t('"BR_PathologyWWGridState"',3,45,19),t(')',4,0,45),t(=,10,0,47),t('""',3,45,49) ]).
+b_line_i(46,1,2,cmd,0,[ t('',107,0,0),t([ t('Gridstate',23,46,3),t('fromxml(',1,46,14) ],31,46,3),t('udp(',1,46,37),t(o(1,'WWPBaseObjects\LoadGridState'),28,46,23),t(',',7,0,0),t('"BR_PathologyWWGridState"',3,46,42),t(')',4,0,0),t(')',4,0,69) ]).
+b_line_i(47,1,2,cmd,0,[ t('',110,0,0) ]).
+b_line_i(48,1,2,cmd,0,[ t('',107,0,0),t([ t('Gridstate',23,48,3),t('fromxml(',1,48,14) ],31,48,3),t([ t('Session',23,48,23),t('get(',1,48,32) ],31,48,32),t('"BR_PathologyWWGridState"',3,48,37),t(')',4,0,63),t(')',4,0,64) ]).
+b_line_i(49,1,2,cmd,0,[ t('',111,0,0) ]).
+b_line_i(50,1,2,cmd,0,[]).
+b_line_i(51,1,2,cmd,0,[ t('',107,0,0),t('GXV1',23,0,0),t(=,10,0,0),t(1,3,0,0) ]).
+b_line_i([ 51,2 ],1,2,cmd,0,[ t('',114,0,0),t('GXV1',23,0,0),t(<=,10,0,0),t([ t('Gridstate',23,51,31),t('Filtervalues',3,51,42),t('Count',3,51,0) ],29,51,0) ]).
+b_line_i([ 51,3 ],1,2,cmd,0,[ t('',107,0,0),t('Gridstatefiltervalue',23,0,0),t(=,10,0,0),t([ t([ t('Gridstate',23,0,0),t('Filtervalues',3,0,0) ],29,0,0),t('item(',1,0,0) ],31,0,0),t('GXV1',23,0,0),t(')',4,0,0) ]).
+b_line_i(52,1,2,cmd,1,[ t('',152,1,0) ]).
+b_line_i(53,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,53,9),t('Name',3,53,31) ],29,53,31),t(=,10,1,36),t('"TFBR_PATHOLOGYID"',3,53,38) ]).
+b_line_i(54,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathologyid',23,54,5),t(=,10,54,5),t('val(',1,54,5),t([ t('Gridstatefiltervalue',23,54,35),t('Value',3,54,57) ],29,54,57),t(')',4,1,62) ]).
+b_line_i(55,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathologyid_to',23,55,5),t(=,10,55,5),t('val(',1,55,5),t([ t('Gridstatefiltervalue',23,55,38),t('Valueto',3,55,60) ],29,55,60),t(')',4,1,67) ]).
+b_line_i(56,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,56,9),t('Name',3,56,31) ],29,56,31),t(=,10,1,36),t('"TFBR_ENCOUNTERID"',3,56,38) ]).
+b_line_i(57,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_encounterid',23,57,5),t(=,10,57,5),t('val(',1,57,5),t([ t('Gridstatefiltervalue',23,57,35),t('Value',3,57,57) ],29,57,57),t(')',4,1,62) ]).
+b_line_i(58,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_encounterid_to',23,58,5),t(=,10,58,5),t('val(',1,58,5),t([ t('Gridstatefiltervalue',23,58,38),t('Valueto',3,58,60) ],29,58,60),t(')',4,1,67) ]).
+b_line_i(59,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,59,9),t('Name',3,59,31) ],29,59,31),t(=,10,1,36),t('"TFBR_INFORMATION_PATIENTNO"',3,59,38) ]).
+b_line_i(60,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_information_patientno',23,60,5),t(=,10,60,5),t([ t('Gridstatefiltervalue',23,60,45),t('Value',3,60,67) ],29,60,67) ]).
+b_line_i(61,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,61,9),t('Name',3,61,31) ],29,61,31),t(=,10,1,36),t('"TFBR_INFORMATION_PATIENTNO_SEL"',3,61,38) ]).
+b_line_i(62,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_information_patientno_sel',23,62,5),t(=,10,62,5),t([ t('Gridstatefiltervalue',23,62,49),t('Value',3,62,71) ],29,62,71) ]).
+b_line_i(63,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,63,9),t('Name',3,63,31) ],29,63,31),t(=,10,1,36),t('"TFBR_PATHOLOGYID_TESTID"',3,63,38) ]).
+b_line_i(64,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathologyid_testid',23,64,5),t(=,10,64,5),t('val(',1,64,5),t([ t('Gridstatefiltervalue',23,64,42),t('Value',3,64,64) ],29,64,64),t(')',4,1,69) ]).
+b_line_i(65,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathologyid_testid_to',23,65,5),t(=,10,65,5),t('val(',1,65,5),t([ t('Gridstatefiltervalue',23,65,45),t('Valueto',3,65,67) ],29,65,67),t(')',4,1,74) ]).
+b_line_i(66,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,66,9),t('Name',3,66,31) ],29,66,31),t(=,10,1,36),t('"TFBR_PATHOLOGYID_PADATE"',3,66,38) ]).
+b_line_i(67,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathologyid_padate',23,67,5),t(=,10,67,5),t('ctod(',1,67,5),t([ t('Gridstatefiltervalue',23,67,42),t('Value',3,67,64) ],29,67,64),t(')',4,1,69) ]).
+b_line_i(68,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathologyid_padate_to',23,68,5),t(=,10,68,5),t('ctod(',1,68,5),t([ t('Gridstatefiltervalue',23,68,45),t('Valueto',3,68,67) ],29,68,67),t(')',4,1,74) ]).
+b_line_i(69,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,69,9),t('Name',3,69,31) ],29,69,31),t(=,10,1,36),t('"TFBR_PATHOLOGYID_PAHOSP"',3,69,38) ]).
+b_line_i(70,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathologyid_pahosp',23,70,5),t(=,10,70,5),t([ t('Gridstatefiltervalue',23,70,42),t('Value',3,70,64) ],29,70,64) ]).
+b_line_i(71,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,71,9),t('Name',3,71,31) ],29,71,31),t(=,10,1,36),t('"TFBR_PATHOLOGYID_PAHOSP_SEL"',3,71,38) ]).
+b_line_i(72,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathologyid_pahosp_sel',23,72,5),t(=,10,72,5),t([ t('Gridstatefiltervalue',23,72,46),t('Value',3,72,68) ],29,72,68) ]).
+b_line_i(73,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,73,9),t('Name',3,73,31) ],29,73,31),t(=,10,1,36),t('"TFBR_PATHOLOGYID_PAAGE"',3,73,38) ]).
+b_line_i(74,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathologyid_paage',23,74,5),t(=,10,74,5),t('val(',1,74,5),t([ t('Gridstatefiltervalue',23,74,41),t('Value',3,74,63) ],29,74,63),t(')',4,1,68) ]).
+b_line_i(75,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathologyid_paage_to',23,75,5),t(=,10,75,5),t('val(',1,75,5),t([ t('Gridstatefiltervalue',23,75,44),t('Valueto',3,75,66) ],29,75,66),t(')',4,1,73) ]).
+b_line_i(76,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,76,9),t('Name',3,76,31) ],29,76,31),t(=,10,1,36),t('"TFBR_PATHOLOGYID_PREPADIA"',3,76,38) ]).
+b_line_i(77,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathologyid_prepadia',23,77,5),t(=,10,77,5),t([ t('Gridstatefiltervalue',23,77,44),t('Value',3,77,66) ],29,77,66) ]).
+b_line_i(78,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,78,9),t('Name',3,78,31) ],29,78,31),t(=,10,1,36),t('"TFBR_PATHOLOGYID_PREPADIA_SEL"',3,78,38) ]).
+b_line_i(79,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathologyid_prepadia_sel',23,79,5),t(=,10,79,5),t([ t('Gridstatefiltervalue',23,79,48),t('Value',3,79,70) ],29,79,70) ]).
+b_line_i(80,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,80,9),t('Name',3,80,31) ],29,80,31),t(=,10,1,36),t('"TFBR_PATHOLOGYID_PARESULT"',3,80,38) ]).
+b_line_i(81,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathologyid_paresult',23,81,5),t(=,10,81,5),t([ t('Gridstatefiltervalue',23,81,44),t('Value',3,81,66) ],29,81,66) ]).
+b_line_i(82,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,82,9),t('Name',3,82,31) ],29,82,31),t(=,10,1,36),t('"TFBR_PATHOLOGYID_PARESULT_SEL"',3,82,38) ]).
+b_line_i(83,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathologyid_paresult_sel',23,83,5),t(=,10,83,5),t([ t('Gridstatefiltervalue',23,83,48),t('Value',3,83,70) ],29,83,70) ]).
+b_line_i(84,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,84,9),t('Name',3,84,31) ],29,84,31),t(=,10,1,36),t('"TFBR_PATHOLOGY_DIA_NAME"',3,84,38) ]).
+b_line_i(85,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathology_dia_name',23,85,5),t(=,10,85,5),t([ t('Gridstatefiltervalue',23,85,42),t('Value',3,85,64) ],29,85,64) ]).
+b_line_i(86,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,86,9),t('Name',3,86,31) ],29,86,31),t(=,10,1,36),t('"TFBR_PATHOLOGY_DIA_NAME_SEL"',3,86,38) ]).
+b_line_i(87,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathology_dia_name_sel',23,87,5),t(=,10,87,5),t([ t('Gridstatefiltervalue',23,87,46),t('Value',3,87,68) ],29,87,68) ]).
+b_line_i(88,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,88,9),t('Name',3,88,31) ],29,88,31),t(=,10,1,36),t('"TFBR_PATHOLOGY_T"',3,88,38) ]).
+b_line_i(89,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathology_t',23,89,5),t(=,10,89,5),t('val(',1,89,5),t([ t('Gridstatefiltervalue',23,89,35),t('Value',3,89,57) ],29,89,57),t(')',4,1,62) ]).
+b_line_i(90,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathology_t_to',23,90,5),t(=,10,90,5),t('val(',1,90,5),t([ t('Gridstatefiltervalue',23,90,38),t('Valueto',3,90,60) ],29,90,60),t(')',4,1,67) ]).
+b_line_i(91,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,91,9),t('Name',3,91,31) ],29,91,31),t(=,10,1,36),t('"TFBR_PATHOLOGY_N_SEL"',3,91,38) ]).
+b_line_i(92,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathology_n_selsjson',23,1,0),t(=,10,1,0),t([ t('Gridstatefiltervalue',23,1,0),t('Value',3,1,0) ],29,1,0) ]).
+b_line_i(93,1,2,cmd,1,[ t('',107,1,0),t([ t('Tfbr_pathology_n_sels',23,93,5),t('fromjson(',1,93,28) ],31,93,5),t('Tfbr_pathology_n_selsjson',23,1,38),t(')',4,1,64) ]).
+b_line_i(94,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,94,9),t('Name',3,94,31) ],29,94,31),t(=,10,1,36),t('"TFBR_PATHOLOGY_LYMPHNUM"',3,94,38) ]).
+b_line_i(95,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathology_lymphnum',23,95,5),t(=,10,95,5),t('val(',1,95,5),t([ t('Gridstatefiltervalue',23,95,42),t('Value',3,95,64) ],29,95,64),t(')',4,1,69) ]).
+b_line_i(96,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathology_lymphnum_to',23,96,5),t(=,10,96,5),t('val(',1,96,5),t([ t('Gridstatefiltervalue',23,96,45),t('Valueto',3,96,67) ],29,96,67),t(')',4,1,74) ]).
+b_line_i(97,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,97,9),t('Name',3,97,31) ],29,97,31),t(=,10,1,36),t('"TFBR_PATHOLOGY_LYMPHRATE"',3,97,38) ]).
+b_line_i(98,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathology_lymphrate',23,98,5),t(=,10,98,5),t([ t('Gridstatefiltervalue',23,98,43),t('Value',3,98,65) ],29,98,65) ]).
+b_line_i(99,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,99,9),t('Name',3,99,31) ],29,99,31),t(=,10,1,36),t('"TFBR_PATHOLOGY_LYMPHRATE_SEL"',3,99,38) ]).
+b_line_i(100,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathology_lymphrate_sel',23,100,5),t(=,10,100,5),t([ t('Gridstatefiltervalue',23,100,47),t('Value',3,100,69) ],29,100,69) ]).
+b_line_i(101,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,101,9),t('Name',3,101,31) ],29,101,31),t(=,10,1,36),t('"TFBR_PATHOLOGY_M_SEL"',3,101,38) ]).
+b_line_i(102,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathology_m_selsjson',23,1,0),t(=,10,1,0),t([ t('Gridstatefiltervalue',23,1,0),t('Value',3,1,0) ],29,1,0) ]).
+b_line_i(103,1,2,cmd,1,[ t('',107,1,0),t([ t('Tfbr_pathology_m_sels',23,103,5),t('fromjson(',1,103,28) ],31,103,5),t('Tfbr_pathology_m_selsjson',23,1,38),t(')',4,1,64) ]).
+b_line_i(104,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,104,9),t('Name',3,104,31) ],29,104,31),t(=,10,1,36),t('"TFBR_PATHOLOGY_METALOC"',3,104,38) ]).
+b_line_i(105,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathology_metaloc',23,105,5),t(=,10,105,5),t([ t('Gridstatefiltervalue',23,105,41),t('Value',3,105,63) ],29,105,63) ]).
+b_line_i(106,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,106,9),t('Name',3,106,31) ],29,106,31),t(=,10,1,36),t('"TFBR_PATHOLOGY_METALOC_SEL"',3,106,38) ]).
+b_line_i(107,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_pathology_metaloc_sel',23,107,5),t(=,10,107,5),t([ t('Gridstatefiltervalue',23,107,45),t('Value',3,107,67) ],29,107,67) ]).
+b_line_i(108,1,2,cmd,1,[ t('',154,1,0) ]).
+b_line_i([ 109,1 ],1,2,cmd,1,[ t('',107,1,0),t('GXV1',23,1,0),t(=,10,1,0),t('GXV1',23,1,0),t(+,5,1,0),t(1,3,1,0) ]).
+b_line_i([ 109,2 ],1,2,cmd,1,[ t('',115,1,0) ]).
+b_line_i(110,1,2,cmd,2,[]).
+b_line_i(111,1,2,cmd,2,[]).
+b_line_i(112,1,2,cmd,2,[]).
+b_line_i(113,1,2,cmd,2,[ t('',144,2,0) ]).
+b_line_i(114,1,2,cmd,2,[]).
+b_line_i(115,1,2,cmd,2,[ t('',143,2,0),t('''LOADBR_INFORMATION_PATIENTNOOPTIONS''',3,115,5) ]).
+b_line_i(116,1,3,cmd,2,[]).
+b_line_i(117,1,3,cmd,2,[]).
+b_line_i(118,1,3,cmd,2,[]).
+b_line_i(119,1,3,cmd,2,[ t('',107,2,0),t('Tfbr_information_patientno',23,2,0),t(=,10,2,0),t('Searchtxt',23,2,0) ]).
+b_line_i(120,1,3,cmd,2,[ t('',107,2,0),t([ t('Tfbr_information_patientno_sel',23,120,2),t('setempty(',1,120,34) ],31,120,2),t(')',4,2,44) ]).
+b_line_i([ 120,1 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid',23,0,26) ]).
+b_line_i([ 120,2 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_to',23,0,45) ]).
+b_line_i([ 120,3 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_3_Tfbr_encounterid',23,0,0),t(=,10,0,0),t('Tfbr_encounterid',23,0,67) ]).
+b_line_i([ 120,4 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23,0,0),t(=,10,0,0),t('Tfbr_encounterid_to',23,0,86) ]).
+b_line_i([ 120,5 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23,0,0),t(=,10,0,0),t('Tfbr_information_patientno',23,0,108) ]).
+b_line_i([ 120,6 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23,0,0),t(=,10,0,0),t('Tfbr_information_patientno_sel',23,0,137) ]).
+b_line_i([ 120,7 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_testid',23,0,177) ]).
+b_line_i([ 120,8 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_testid_to',23,0,203) ]).
+b_line_i([ 120,9 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_padate',23,0,232) ]).
+b_line_i([ 120,10 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_padate_to',23,0,258) ]).
+b_line_i([ 120,11 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_pahosp',23,0,287) ]).
+b_line_i([ 120,12 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_pahosp_sel',23,0,313) ]).
+b_line_i([ 120,13 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paage',23,0,350) ]).
+b_line_i([ 120,14 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paage_to',23,0,375) ]).
+b_line_i([ 120,15 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_prepadia',23,0,403) ]).
+b_line_i([ 120,16 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_prepadia_sel',23,0,431) ]).
+b_line_i([ 120,17 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paresult',23,0,463) ]).
+b_line_i([ 120,18 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paresult_sel',23,0,491) ]).
+b_line_i([ 120,19 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23,0,0),t(=,10,0,0),t('Tfbr_pathology_dia_name',23,0,530) ]).
+b_line_i([ 120,20 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_dia_name_sel',23,0,556) ]).
+b_line_i([ 120,21 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23,0,0),t(=,10,0,0),t('Tfbr_pathology_t',23,0,586) ]).
+b_line_i([ 120,22 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23,0,0),t(=,10,0,0),t('Tfbr_pathology_t_to',23,0,605) ]).
+b_line_i([ 120,23 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23,0,0),t(=,10,0,0),t('Tfbr_pathology_n_sels',23,0,627) ]).
+b_line_i([ 120,24 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphnum',23,0,651) ]).
+b_line_i([ 120,25 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphnum_to',23,0,684) ]).
+b_line_i([ 120,26 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphrate',23,0,713) ]).
+b_line_i([ 120,27 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphrate_sel',23,0,740) ]).
+b_line_i([ 120,28 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23,0,0),t(=,10,0,0),t('Tfbr_pathology_m_sels',23,0,771) ]).
+b_line_i([ 120,29 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23,0,0),t(=,10,0,0),t('Tfbr_pathology_metaloc',23,0,795) ]).
+b_line_i([ 120,30 ],1,3,cmd,122,[ t('',107,122,0),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_metaloc_sel',23,0,820) ]).
+b_line_i(121,2,1,cmd,122,[ t('',121,121,0),t('ORDER',39,121,14),t(36,2,121,20) ]).
+b_line_i(122,2,1,cmd,122,[]).
+b_line_i(124,2,1,cmd,122,[]).
+b_line_i(125,2,1,cmd,122,[]).
+b_line_i(126,2,1,cmd,122,[]).
+b_line_i(127,2,1,cmd,122,[]).
+b_line_i(128,2,1,cmd,122,[]).
+b_line_i(129,2,1,cmd,122,[ t('',107,122,0),t('Count',23,122,0),t(=,10,122,0),t('0',3,122,0) ]).
+b_line_i(130,3,1,cmd,131,[ t('',121,130,0),t('ORDER',39,130,16),t(36,2,130,22) ]).
+b_line_i(131,3,1,cmd,131,[]).
+b_line_i(132,3,1,cmd,131,[ t('',107,131,0),t('Count',23,131,0),t(=,10,131,0),t('Count',23,131,0),t(+,5,131,0),t('1',3,131,0) ]).
+b_line_i(133,3,1,cmd,131,[ t('',128,131,0) ]).
+b_line_i(134,2,3,cmd,126,[ t('',109,126,0),t('.NOT.',8,126,6),t('null(',1,134,37),t(36,2,126,12),t(')',4,126,46) ]).
+b_line_i(135,2,3,cmd,126,[ t('',107,126,0),t('Option',23,126,0),t(=,10,126,0),t(36,2,126,0) ]).
+b_line_i(136,2,3,cmd,126,[]).
+b_line_i(137,2,3,cmd,126,[ t('',107,126,0),t([ t('Options',23,137,4),t('add(',1,137,13) ],31,137,4),t('Option',23,126,18),t(')',4,126,25) ]).
+b_line_i(138,2,3,cmd,126,[ t('',107,126,0),t([ t('Optionindexes',23,138,4),t('add(',1,138,19) ],31,138,4),t('trim(',1,126,24),t('toformattedstring(',1,138,37),t('Count',23,126,30),t(')',4,126,56),t(')',4,126,57),t(')',4,126,58) ]).
+b_line_i(139,2,3,cmd,126,[ t('',111,126,0) ]).
+b_line_i(140,2,3,cmd,126,[ t('',109,126,0),t([ t('Options',23,140,6),t('Count',3,140,15) ],29,140,15),t(=,10,126,21),t('50',3,126,23) ]).
+b_line_i(141,2,3,cmd,126,[ t('',139,126,0) ]).
+b_line_i(142,2,3,cmd,126,[ t('',111,126,0) ]).
+b_line_i(143,2,3,cmd,126,[ t('',128,126,0) ]).
+b_line_i(144,1,5,cmd,25,[]).
+b_line_i(145,1,5,cmd,25,[]).
+b_line_i(146,1,5,cmd,25,[]).
+b_line_i(147,1,5,cmd,25,[ t('',144,25,0) ]).
+b_line_i(148,1,5,cmd,25,[]).
+b_line_i(149,1,5,cmd,25,[ t('',143,25,0),t('''LOADBR_PATHOLOGYID_PAHOSPOPTIONS''',3,149,5) ]).
+b_line_i(150,1,6,cmd,25,[]).
+b_line_i(151,1,6,cmd,25,[]).
+b_line_i(152,1,6,cmd,25,[]).
+b_line_i(153,1,6,cmd,25,[ t('',107,25,0),t('Tfbr_pathologyid_pahosp',23,25,0),t(=,10,25,0),t('Searchtxt',23,25,0) ]).
+b_line_i(154,1,6,cmd,25,[ t('',107,25,0),t([ t('Tfbr_pathologyid_pahosp_sel',23,154,2),t('setempty(',1,154,31) ],31,154,2),t(')',4,25,41) ]).
+b_line_i([ 154,1 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid',23,0,26) ]).
+b_line_i([ 154,2 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_to',23,0,45) ]).
+b_line_i([ 154,3 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_3_Tfbr_encounterid',23,0,0),t(=,10,0,0),t('Tfbr_encounterid',23,0,67) ]).
+b_line_i([ 154,4 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23,0,0),t(=,10,0,0),t('Tfbr_encounterid_to',23,0,86) ]).
+b_line_i([ 154,5 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23,0,0),t(=,10,0,0),t('Tfbr_information_patientno',23,0,108) ]).
+b_line_i([ 154,6 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23,0,0),t(=,10,0,0),t('Tfbr_information_patientno_sel',23,0,137) ]).
+b_line_i([ 154,7 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_testid',23,0,177) ]).
+b_line_i([ 154,8 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_testid_to',23,0,203) ]).
+b_line_i([ 154,9 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_padate',23,0,232) ]).
+b_line_i([ 154,10 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_padate_to',23,0,258) ]).
+b_line_i([ 154,11 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_pahosp',23,0,287) ]).
+b_line_i([ 154,12 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_pahosp_sel',23,0,313) ]).
+b_line_i([ 154,13 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paage',23,0,350) ]).
+b_line_i([ 154,14 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paage_to',23,0,375) ]).
+b_line_i([ 154,15 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_prepadia',23,0,403) ]).
+b_line_i([ 154,16 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_prepadia_sel',23,0,431) ]).
+b_line_i([ 154,17 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paresult',23,0,463) ]).
+b_line_i([ 154,18 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paresult_sel',23,0,491) ]).
+b_line_i([ 154,19 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23,0,0),t(=,10,0,0),t('Tfbr_pathology_dia_name',23,0,530) ]).
+b_line_i([ 154,20 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_dia_name_sel',23,0,556) ]).
+b_line_i([ 154,21 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23,0,0),t(=,10,0,0),t('Tfbr_pathology_t',23,0,586) ]).
+b_line_i([ 154,22 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23,0,0),t(=,10,0,0),t('Tfbr_pathology_t_to',23,0,605) ]).
+b_line_i([ 154,23 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23,0,0),t(=,10,0,0),t('Tfbr_pathology_n_sels',23,0,627) ]).
+b_line_i([ 154,24 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphnum',23,0,651) ]).
+b_line_i([ 154,25 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphnum_to',23,0,684) ]).
+b_line_i([ 154,26 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphrate',23,0,713) ]).
+b_line_i([ 154,27 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphrate_sel',23,0,740) ]).
+b_line_i([ 154,28 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23,0,0),t(=,10,0,0),t('Tfbr_pathology_m_sels',23,0,771) ]).
+b_line_i([ 154,29 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23,0,0),t(=,10,0,0),t('Tfbr_pathology_metaloc',23,0,795) ]).
+b_line_i([ 154,30 ],1,6,cmd,156,[ t('',107,156,0),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_metaloc_sel',23,0,820) ]).
+b_line_i(155,4,1,cmd,156,[ t('',121,155,0),t('ORDER',39,155,14),t(239,2,155,20) ]).
+b_line_i(156,4,1,cmd,156,[]).
+b_line_i(158,4,1,cmd,156,[]).
+b_line_i(159,4,1,cmd,156,[]).
+b_line_i(160,4,1,cmd,156,[]).
+b_line_i(161,4,1,cmd,156,[]).
+b_line_i(162,4,1,cmd,156,[]).
+b_line_i(163,4,1,cmd,156,[ t('',107,156,0),t('Count',23,156,0),t(=,10,156,0),t('0',3,156,0) ]).
+b_line_i(164,5,1,cmd,165,[ t('',121,164,0),t('ORDER',39,164,16),t(239,2,164,22) ]).
+b_line_i(165,5,1,cmd,165,[]).
+b_line_i(166,5,1,cmd,165,[ t('',107,165,0),t('Count',23,165,0),t(=,10,165,0),t('Count',23,165,0),t(+,5,165,0),t('1',3,165,0) ]).
+b_line_i(167,5,1,cmd,165,[ t('',128,165,0) ]).
+b_line_i(168,4,3,cmd,160,[ t('',109,160,0),t('.NOT.',8,160,6),t('null(',1,168,34),t(239,2,160,12),t(')',4,160,43) ]).
+b_line_i(169,4,3,cmd,160,[ t('',107,160,0),t('Option',23,160,0),t(=,10,160,0),t(239,2,160,0) ]).
+b_line_i(170,4,3,cmd,160,[]).
+b_line_i(171,4,3,cmd,160,[ t('',107,160,0),t([ t('Options',23,171,4),t('add(',1,171,13) ],31,171,4),t('Option',23,160,18),t(')',4,160,25) ]).
+b_line_i(172,4,3,cmd,160,[ t('',107,160,0),t([ t('Optionindexes',23,172,4),t('add(',1,172,19) ],31,172,4),t('trim(',1,160,24),t('toformattedstring(',1,172,37),t('Count',23,160,30),t(')',4,160,56),t(')',4,160,57),t(')',4,160,58) ]).
+b_line_i(173,4,3,cmd,160,[ t('',111,160,0) ]).
+b_line_i(174,4,3,cmd,160,[ t('',109,160,0),t([ t('Options',23,174,6),t('Count',3,174,15) ],29,174,15),t(=,10,160,21),t('50',3,160,23) ]).
+b_line_i(175,4,3,cmd,160,[ t('',139,160,0) ]).
+b_line_i(176,4,3,cmd,160,[ t('',111,160,0) ]).
+b_line_i(177,4,3,cmd,160,[ t('',128,160,0) ]).
+b_line_i(178,1,8,cmd,48,[]).
+b_line_i(179,1,8,cmd,48,[]).
+b_line_i(180,1,8,cmd,48,[]).
+b_line_i(181,1,8,cmd,48,[ t('',144,48,0) ]).
+b_line_i(182,1,8,cmd,48,[]).
+b_line_i(183,1,8,cmd,48,[ t('',143,48,0),t('''LOADBR_PATHOLOGYID_PREPADIAOPTIONS''',3,183,5) ]).
+b_line_i(184,1,9,cmd,48,[]).
+b_line_i(185,1,9,cmd,48,[]).
+b_line_i(186,1,9,cmd,48,[]).
+b_line_i(187,1,9,cmd,48,[ t('',107,48,0),t('Tfbr_pathologyid_prepadia',23,48,0),t(=,10,48,0),t('Searchtxt',23,48,0) ]).
+b_line_i(188,1,9,cmd,48,[ t('',107,48,0),t([ t('Tfbr_pathologyid_prepadia_sel',23,188,2),t('setempty(',1,188,33) ],31,188,2),t(')',4,48,43) ]).
+b_line_i([ 188,1 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid',23,0,26) ]).
+b_line_i([ 188,2 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_to',23,0,45) ]).
+b_line_i([ 188,3 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_3_Tfbr_encounterid',23,0,0),t(=,10,0,0),t('Tfbr_encounterid',23,0,67) ]).
+b_line_i([ 188,4 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23,0,0),t(=,10,0,0),t('Tfbr_encounterid_to',23,0,86) ]).
+b_line_i([ 188,5 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23,0,0),t(=,10,0,0),t('Tfbr_information_patientno',23,0,108) ]).
+b_line_i([ 188,6 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23,0,0),t(=,10,0,0),t('Tfbr_information_patientno_sel',23,0,137) ]).
+b_line_i([ 188,7 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_testid',23,0,177) ]).
+b_line_i([ 188,8 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_testid_to',23,0,203) ]).
+b_line_i([ 188,9 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_padate',23,0,232) ]).
+b_line_i([ 188,10 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_padate_to',23,0,258) ]).
+b_line_i([ 188,11 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_pahosp',23,0,287) ]).
+b_line_i([ 188,12 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_pahosp_sel',23,0,313) ]).
+b_line_i([ 188,13 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paage',23,0,350) ]).
+b_line_i([ 188,14 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paage_to',23,0,375) ]).
+b_line_i([ 188,15 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_prepadia',23,0,403) ]).
+b_line_i([ 188,16 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_prepadia_sel',23,0,431) ]).
+b_line_i([ 188,17 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paresult',23,0,463) ]).
+b_line_i([ 188,18 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paresult_sel',23,0,491) ]).
+b_line_i([ 188,19 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23,0,0),t(=,10,0,0),t('Tfbr_pathology_dia_name',23,0,530) ]).
+b_line_i([ 188,20 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_dia_name_sel',23,0,556) ]).
+b_line_i([ 188,21 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23,0,0),t(=,10,0,0),t('Tfbr_pathology_t',23,0,586) ]).
+b_line_i([ 188,22 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23,0,0),t(=,10,0,0),t('Tfbr_pathology_t_to',23,0,605) ]).
+b_line_i([ 188,23 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23,0,0),t(=,10,0,0),t('Tfbr_pathology_n_sels',23,0,627) ]).
+b_line_i([ 188,24 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphnum',23,0,651) ]).
+b_line_i([ 188,25 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphnum_to',23,0,684) ]).
+b_line_i([ 188,26 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphrate',23,0,713) ]).
+b_line_i([ 188,27 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphrate_sel',23,0,740) ]).
+b_line_i([ 188,28 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23,0,0),t(=,10,0,0),t('Tfbr_pathology_m_sels',23,0,771) ]).
+b_line_i([ 188,29 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23,0,0),t(=,10,0,0),t('Tfbr_pathology_metaloc',23,0,795) ]).
+b_line_i([ 188,30 ],1,9,cmd,190,[ t('',107,190,0),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_metaloc_sel',23,0,820) ]).
+b_line_i(189,6,1,cmd,190,[ t('',121,189,0),t('ORDER',39,189,14),t(241,2,189,20) ]).
+b_line_i(190,6,1,cmd,190,[]).
+b_line_i(192,6,1,cmd,190,[]).
+b_line_i(193,6,1,cmd,190,[]).
+b_line_i(194,6,1,cmd,190,[]).
+b_line_i(195,6,1,cmd,190,[]).
+b_line_i(196,6,1,cmd,190,[]).
+b_line_i(197,6,1,cmd,190,[ t('',107,190,0),t('Count',23,190,0),t(=,10,190,0),t('0',3,190,0) ]).
+b_line_i(198,7,1,cmd,199,[ t('',121,198,0),t('ORDER',39,198,16),t(241,2,198,22) ]).
+b_line_i(199,7,1,cmd,199,[]).
+b_line_i(200,7,1,cmd,199,[ t('',107,199,0),t('Count',23,199,0),t(=,10,199,0),t('Count',23,199,0),t(+,5,199,0),t('1',3,199,0) ]).
+b_line_i(201,7,1,cmd,199,[ t('',128,199,0) ]).
+b_line_i(202,6,3,cmd,194,[ t('',109,194,0),t('.NOT.',8,194,6),t('null(',1,202,36),t(241,2,194,12),t(')',4,194,45) ]).
+b_line_i(203,6,3,cmd,194,[ t('',107,194,0),t('Option',23,194,0),t(=,10,194,0),t(241,2,194,0) ]).
+b_line_i(204,6,3,cmd,194,[]).
+b_line_i(205,6,3,cmd,194,[ t('',107,194,0),t([ t('Options',23,205,4),t('add(',1,205,13) ],31,205,4),t('Option',23,194,18),t(')',4,194,25) ]).
+b_line_i(206,6,3,cmd,194,[ t('',107,194,0),t([ t('Optionindexes',23,206,4),t('add(',1,206,19) ],31,206,4),t('trim(',1,194,24),t('toformattedstring(',1,206,37),t('Count',23,194,30),t(')',4,194,56),t(')',4,194,57),t(')',4,194,58) ]).
+b_line_i(207,6,3,cmd,194,[ t('',111,194,0) ]).
+b_line_i(208,6,3,cmd,194,[ t('',109,194,0),t([ t('Options',23,208,6),t('Count',3,208,15) ],29,208,15),t(=,10,194,21),t('50',3,194,23) ]).
+b_line_i(209,6,3,cmd,194,[ t('',139,194,0) ]).
+b_line_i(210,6,3,cmd,194,[ t('',111,194,0) ]).
+b_line_i(211,6,3,cmd,194,[ t('',128,194,0) ]).
+b_line_i(212,1,11,cmd,71,[]).
+b_line_i(213,1,11,cmd,71,[]).
+b_line_i(214,1,11,cmd,71,[]).
+b_line_i(215,1,11,cmd,71,[ t('',144,71,0) ]).
+b_line_i(216,1,11,cmd,71,[]).
+b_line_i(217,1,11,cmd,71,[ t('',143,71,0),t('''LOADBR_PATHOLOGYID_PARESULTOPTIONS''',3,217,5) ]).
+b_line_i(218,1,12,cmd,71,[]).
+b_line_i(219,1,12,cmd,71,[]).
+b_line_i(220,1,12,cmd,71,[]).
+b_line_i(221,1,12,cmd,71,[ t('',107,71,0),t('Tfbr_pathologyid_paresult',23,71,0),t(=,10,71,0),t('Searchtxt',23,71,0) ]).
+b_line_i(222,1,12,cmd,71,[ t('',107,71,0),t([ t('Tfbr_pathologyid_paresult_sel',23,222,2),t('setempty(',1,222,33) ],31,222,2),t(')',4,71,43) ]).
+b_line_i([ 222,1 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid',23,0,26) ]).
+b_line_i([ 222,2 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_to',23,0,45) ]).
+b_line_i([ 222,3 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_3_Tfbr_encounterid',23,0,0),t(=,10,0,0),t('Tfbr_encounterid',23,0,67) ]).
+b_line_i([ 222,4 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23,0,0),t(=,10,0,0),t('Tfbr_encounterid_to',23,0,86) ]).
+b_line_i([ 222,5 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23,0,0),t(=,10,0,0),t('Tfbr_information_patientno',23,0,108) ]).
+b_line_i([ 222,6 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23,0,0),t(=,10,0,0),t('Tfbr_information_patientno_sel',23,0,137) ]).
+b_line_i([ 222,7 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_testid',23,0,177) ]).
+b_line_i([ 222,8 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_testid_to',23,0,203) ]).
+b_line_i([ 222,9 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_padate',23,0,232) ]).
+b_line_i([ 222,10 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_padate_to',23,0,258) ]).
+b_line_i([ 222,11 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_pahosp',23,0,287) ]).
+b_line_i([ 222,12 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_pahosp_sel',23,0,313) ]).
+b_line_i([ 222,13 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paage',23,0,350) ]).
+b_line_i([ 222,14 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paage_to',23,0,375) ]).
+b_line_i([ 222,15 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_prepadia',23,0,403) ]).
+b_line_i([ 222,16 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_prepadia_sel',23,0,431) ]).
+b_line_i([ 222,17 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paresult',23,0,463) ]).
+b_line_i([ 222,18 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paresult_sel',23,0,491) ]).
+b_line_i([ 222,19 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23,0,0),t(=,10,0,0),t('Tfbr_pathology_dia_name',23,0,530) ]).
+b_line_i([ 222,20 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_dia_name_sel',23,0,556) ]).
+b_line_i([ 222,21 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23,0,0),t(=,10,0,0),t('Tfbr_pathology_t',23,0,586) ]).
+b_line_i([ 222,22 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23,0,0),t(=,10,0,0),t('Tfbr_pathology_t_to',23,0,605) ]).
+b_line_i([ 222,23 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23,0,0),t(=,10,0,0),t('Tfbr_pathology_n_sels',23,0,627) ]).
+b_line_i([ 222,24 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphnum',23,0,651) ]).
+b_line_i([ 222,25 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphnum_to',23,0,684) ]).
+b_line_i([ 222,26 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphrate',23,0,713) ]).
+b_line_i([ 222,27 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphrate_sel',23,0,740) ]).
+b_line_i([ 222,28 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23,0,0),t(=,10,0,0),t('Tfbr_pathology_m_sels',23,0,771) ]).
+b_line_i([ 222,29 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23,0,0),t(=,10,0,0),t('Tfbr_pathology_metaloc',23,0,795) ]).
+b_line_i([ 222,30 ],1,12,cmd,224,[ t('',107,224,0),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_metaloc_sel',23,0,820) ]).
+b_line_i(223,8,1,cmd,224,[ t('',121,223,0),t('ORDER',39,223,14),t(242,2,223,20) ]).
+b_line_i(224,8,1,cmd,224,[]).
+b_line_i(226,8,1,cmd,224,[]).
+b_line_i(227,8,1,cmd,224,[]).
+b_line_i(228,8,1,cmd,224,[]).
+b_line_i(229,8,1,cmd,224,[]).
+b_line_i(230,8,1,cmd,224,[]).
+b_line_i(231,8,1,cmd,224,[ t('',107,224,0),t('Count',23,224,0),t(=,10,224,0),t('0',3,224,0) ]).
+b_line_i(232,9,1,cmd,233,[ t('',121,232,0),t('ORDER',39,232,16),t(242,2,232,22) ]).
+b_line_i(233,9,1,cmd,233,[]).
+b_line_i(234,9,1,cmd,233,[ t('',107,233,0),t('Count',23,233,0),t(=,10,233,0),t('Count',23,233,0),t(+,5,233,0),t('1',3,233,0) ]).
+b_line_i(235,9,1,cmd,233,[ t('',128,233,0) ]).
+b_line_i(236,8,3,cmd,228,[ t('',109,228,0),t('.NOT.',8,228,6),t('null(',1,236,36),t(242,2,228,12),t(')',4,228,45) ]).
+b_line_i(237,8,3,cmd,228,[ t('',107,228,0),t('Option',23,228,0),t(=,10,228,0),t(242,2,228,0) ]).
+b_line_i(238,8,3,cmd,228,[]).
+b_line_i(239,8,3,cmd,228,[ t('',107,228,0),t([ t('Options',23,239,4),t('add(',1,239,13) ],31,239,4),t('Option',23,228,18),t(')',4,228,25) ]).
+b_line_i(240,8,3,cmd,228,[ t('',107,228,0),t([ t('Optionindexes',23,240,4),t('add(',1,240,19) ],31,240,4),t('trim(',1,228,24),t('toformattedstring(',1,240,37),t('Count',23,228,30),t(')',4,228,56),t(')',4,228,57),t(')',4,228,58) ]).
+b_line_i(241,8,3,cmd,228,[ t('',111,228,0) ]).
+b_line_i(242,8,3,cmd,228,[ t('',109,228,0),t([ t('Options',23,242,6),t('Count',3,242,15) ],29,242,15),t(=,10,228,21),t('50',3,228,23) ]).
+b_line_i(243,8,3,cmd,228,[ t('',139,228,0) ]).
+b_line_i(244,8,3,cmd,228,[ t('',111,228,0) ]).
+b_line_i(245,8,3,cmd,228,[ t('',128,228,0) ]).
+b_line_i(246,1,14,cmd,94,[]).
+b_line_i(247,1,14,cmd,94,[]).
+b_line_i(248,1,14,cmd,94,[]).
+b_line_i(249,1,14,cmd,94,[ t('',144,94,0) ]).
+b_line_i(250,1,14,cmd,94,[]).
+b_line_i(251,1,14,cmd,94,[ t('',143,94,0),t('''LOADBR_PATHOLOGY_DIA_NAMEOPTIONS''',3,251,5) ]).
+b_line_i(252,1,15,cmd,94,[]).
+b_line_i(253,1,15,cmd,94,[]).
+b_line_i(254,1,15,cmd,94,[]).
+b_line_i(255,1,15,cmd,94,[ t('',107,94,0),t('Tfbr_pathology_dia_name',23,94,0),t(=,10,94,0),t('Searchtxt',23,94,0) ]).
+b_line_i(256,1,15,cmd,94,[ t('',107,94,0),t([ t('Tfbr_pathology_dia_name_sel',23,256,2),t('setempty(',1,256,31) ],31,256,2),t(')',4,94,41) ]).
+b_line_i([ 256,1 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid',23,0,26) ]).
+b_line_i([ 256,2 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_to',23,0,45) ]).
+b_line_i([ 256,3 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_3_Tfbr_encounterid',23,0,0),t(=,10,0,0),t('Tfbr_encounterid',23,0,67) ]).
+b_line_i([ 256,4 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23,0,0),t(=,10,0,0),t('Tfbr_encounterid_to',23,0,86) ]).
+b_line_i([ 256,5 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23,0,0),t(=,10,0,0),t('Tfbr_information_patientno',23,0,108) ]).
+b_line_i([ 256,6 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23,0,0),t(=,10,0,0),t('Tfbr_information_patientno_sel',23,0,137) ]).
+b_line_i([ 256,7 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_testid',23,0,177) ]).
+b_line_i([ 256,8 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_testid_to',23,0,203) ]).
+b_line_i([ 256,9 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_padate',23,0,232) ]).
+b_line_i([ 256,10 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_padate_to',23,0,258) ]).
+b_line_i([ 256,11 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_pahosp',23,0,287) ]).
+b_line_i([ 256,12 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_pahosp_sel',23,0,313) ]).
+b_line_i([ 256,13 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paage',23,0,350) ]).
+b_line_i([ 256,14 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paage_to',23,0,375) ]).
+b_line_i([ 256,15 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_prepadia',23,0,403) ]).
+b_line_i([ 256,16 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_prepadia_sel',23,0,431) ]).
+b_line_i([ 256,17 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paresult',23,0,463) ]).
+b_line_i([ 256,18 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paresult_sel',23,0,491) ]).
+b_line_i([ 256,19 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23,0,0),t(=,10,0,0),t('Tfbr_pathology_dia_name',23,0,530) ]).
+b_line_i([ 256,20 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_dia_name_sel',23,0,556) ]).
+b_line_i([ 256,21 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23,0,0),t(=,10,0,0),t('Tfbr_pathology_t',23,0,586) ]).
+b_line_i([ 256,22 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23,0,0),t(=,10,0,0),t('Tfbr_pathology_t_to',23,0,605) ]).
+b_line_i([ 256,23 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23,0,0),t(=,10,0,0),t('Tfbr_pathology_n_sels',23,0,627) ]).
+b_line_i([ 256,24 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphnum',23,0,651) ]).
+b_line_i([ 256,25 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphnum_to',23,0,684) ]).
+b_line_i([ 256,26 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphrate',23,0,713) ]).
+b_line_i([ 256,27 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphrate_sel',23,0,740) ]).
+b_line_i([ 256,28 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23,0,0),t(=,10,0,0),t('Tfbr_pathology_m_sels',23,0,771) ]).
+b_line_i([ 256,29 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23,0,0),t(=,10,0,0),t('Tfbr_pathology_metaloc',23,0,795) ]).
+b_line_i([ 256,30 ],1,15,cmd,258,[ t('',107,258,0),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_metaloc_sel',23,0,820) ]).
+b_line_i(257,10,1,cmd,258,[ t('',121,257,0),t('ORDER',39,257,14),t(326,2,257,20) ]).
+b_line_i(258,10,1,cmd,258,[]).
+b_line_i(260,10,1,cmd,258,[]).
+b_line_i(261,10,1,cmd,258,[]).
+b_line_i(262,10,1,cmd,258,[]).
+b_line_i(263,10,1,cmd,258,[]).
+b_line_i(264,10,1,cmd,258,[]).
+b_line_i(265,10,1,cmd,258,[ t('',107,258,0),t('Count',23,258,0),t(=,10,258,0),t('0',3,258,0) ]).
+b_line_i(266,11,1,cmd,267,[ t('',121,266,0),t('ORDER',39,266,16),t(326,2,266,22) ]).
+b_line_i(267,11,1,cmd,267,[]).
+b_line_i(268,11,1,cmd,267,[ t('',107,267,0),t('Count',23,267,0),t(=,10,267,0),t('Count',23,267,0),t(+,5,267,0),t('1',3,267,0) ]).
+b_line_i(269,11,1,cmd,267,[ t('',128,267,0) ]).
+b_line_i(270,10,3,cmd,262,[ t('',109,262,0),t('.NOT.',8,262,6),t('null(',1,270,34),t(326,2,262,12),t(')',4,262,43) ]).
+b_line_i(271,10,3,cmd,262,[ t('',107,262,0),t('Option',23,262,0),t(=,10,262,0),t(326,2,262,0) ]).
+b_line_i(272,10,3,cmd,262,[]).
+b_line_i(273,10,3,cmd,262,[ t('',107,262,0),t([ t('Options',23,273,4),t('add(',1,273,13) ],31,273,4),t('Option',23,262,18),t(')',4,262,25) ]).
+b_line_i(274,10,3,cmd,262,[ t('',107,262,0),t([ t('Optionindexes',23,274,4),t('add(',1,274,19) ],31,274,4),t('trim(',1,262,24),t('toformattedstring(',1,274,37),t('Count',23,262,30),t(')',4,262,56),t(')',4,262,57),t(')',4,262,58) ]).
+b_line_i(275,10,3,cmd,262,[ t('',111,262,0) ]).
+b_line_i(276,10,3,cmd,262,[ t('',109,262,0),t([ t('Options',23,276,6),t('Count',3,276,15) ],29,276,15),t(=,10,262,21),t('50',3,262,23) ]).
+b_line_i(277,10,3,cmd,262,[ t('',139,262,0) ]).
+b_line_i(278,10,3,cmd,262,[ t('',111,262,0) ]).
+b_line_i(279,10,3,cmd,262,[ t('',128,262,0) ]).
+b_line_i(280,1,17,cmd,117,[]).
+b_line_i(281,1,17,cmd,117,[]).
+b_line_i(282,1,17,cmd,117,[]).
+b_line_i(283,1,17,cmd,117,[ t('',144,117,0) ]).
+b_line_i(284,1,17,cmd,117,[]).
+b_line_i(285,1,17,cmd,117,[ t('',143,117,0),t('''LOADBR_PATHOLOGY_LYMPHRATEOPTIONS''',3,285,5) ]).
+b_line_i(286,1,18,cmd,117,[]).
+b_line_i(287,1,18,cmd,117,[]).
+b_line_i(288,1,18,cmd,117,[]).
+b_line_i(289,1,18,cmd,117,[ t('',107,117,0),t('Tfbr_pathology_lymphrate',23,117,0),t(=,10,117,0),t('Searchtxt',23,117,0) ]).
+b_line_i(290,1,18,cmd,117,[ t('',107,117,0),t([ t('Tfbr_pathology_lymphrate_sel',23,290,2),t('setempty(',1,290,32) ],31,290,2),t(')',4,117,42) ]).
+b_line_i([ 290,1 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid',23,0,26) ]).
+b_line_i([ 290,2 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_to',23,0,45) ]).
+b_line_i([ 290,3 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_3_Tfbr_encounterid',23,0,0),t(=,10,0,0),t('Tfbr_encounterid',23,0,67) ]).
+b_line_i([ 290,4 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23,0,0),t(=,10,0,0),t('Tfbr_encounterid_to',23,0,86) ]).
+b_line_i([ 290,5 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23,0,0),t(=,10,0,0),t('Tfbr_information_patientno',23,0,108) ]).
+b_line_i([ 290,6 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23,0,0),t(=,10,0,0),t('Tfbr_information_patientno_sel',23,0,137) ]).
+b_line_i([ 290,7 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_testid',23,0,177) ]).
+b_line_i([ 290,8 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_testid_to',23,0,203) ]).
+b_line_i([ 290,9 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_padate',23,0,232) ]).
+b_line_i([ 290,10 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_padate_to',23,0,258) ]).
+b_line_i([ 290,11 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_pahosp',23,0,287) ]).
+b_line_i([ 290,12 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_pahosp_sel',23,0,313) ]).
+b_line_i([ 290,13 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paage',23,0,350) ]).
+b_line_i([ 290,14 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paage_to',23,0,375) ]).
+b_line_i([ 290,15 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_prepadia',23,0,403) ]).
+b_line_i([ 290,16 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_prepadia_sel',23,0,431) ]).
+b_line_i([ 290,17 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paresult',23,0,463) ]).
+b_line_i([ 290,18 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paresult_sel',23,0,491) ]).
+b_line_i([ 290,19 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23,0,0),t(=,10,0,0),t('Tfbr_pathology_dia_name',23,0,530) ]).
+b_line_i([ 290,20 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_dia_name_sel',23,0,556) ]).
+b_line_i([ 290,21 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23,0,0),t(=,10,0,0),t('Tfbr_pathology_t',23,0,586) ]).
+b_line_i([ 290,22 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23,0,0),t(=,10,0,0),t('Tfbr_pathology_t_to',23,0,605) ]).
+b_line_i([ 290,23 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23,0,0),t(=,10,0,0),t('Tfbr_pathology_n_sels',23,0,627) ]).
+b_line_i([ 290,24 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphnum',23,0,651) ]).
+b_line_i([ 290,25 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphnum_to',23,0,684) ]).
+b_line_i([ 290,26 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphrate',23,0,713) ]).
+b_line_i([ 290,27 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphrate_sel',23,0,740) ]).
+b_line_i([ 290,28 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23,0,0),t(=,10,0,0),t('Tfbr_pathology_m_sels',23,0,771) ]).
+b_line_i([ 290,29 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23,0,0),t(=,10,0,0),t('Tfbr_pathology_metaloc',23,0,795) ]).
+b_line_i([ 290,30 ],1,18,cmd,292,[ t('',107,292,0),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_metaloc_sel',23,0,820) ]).
+b_line_i(291,12,1,cmd,292,[ t('',121,291,0),t('ORDER',39,291,14),t(317,2,291,20) ]).
+b_line_i(292,12,1,cmd,292,[]).
+b_line_i(294,12,1,cmd,292,[]).
+b_line_i(295,12,1,cmd,292,[]).
+b_line_i(296,12,1,cmd,292,[]).
+b_line_i(297,12,1,cmd,292,[]).
+b_line_i(298,12,1,cmd,292,[]).
+b_line_i(299,12,1,cmd,292,[ t('',107,292,0),t('Count',23,292,0),t(=,10,292,0),t('0',3,292,0) ]).
+b_line_i(300,13,1,cmd,301,[ t('',121,300,0),t('ORDER',39,300,16),t(317,2,300,22) ]).
+b_line_i(301,13,1,cmd,301,[]).
+b_line_i(302,13,1,cmd,301,[ t('',107,301,0),t('Count',23,301,0),t(=,10,301,0),t('Count',23,301,0),t(+,5,301,0),t('1',3,301,0) ]).
+b_line_i(303,13,1,cmd,301,[ t('',128,301,0) ]).
+b_line_i(304,12,3,cmd,296,[ t('',109,296,0),t('.NOT.',8,296,6),t('null(',1,304,35),t(317,2,296,12),t(')',4,296,44) ]).
+b_line_i(305,12,3,cmd,296,[ t('',107,296,0),t('Option',23,296,0),t(=,10,296,0),t(317,2,296,0) ]).
+b_line_i(306,12,3,cmd,296,[]).
+b_line_i(307,12,3,cmd,296,[ t('',107,296,0),t([ t('Options',23,307,4),t('add(',1,307,13) ],31,307,4),t('Option',23,296,18),t(')',4,296,25) ]).
+b_line_i(308,12,3,cmd,296,[ t('',107,296,0),t([ t('Optionindexes',23,308,4),t('add(',1,308,19) ],31,308,4),t('trim(',1,296,24),t('toformattedstring(',1,308,37),t('Count',23,296,30),t(')',4,296,56),t(')',4,296,57),t(')',4,296,58) ]).
+b_line_i(309,12,3,cmd,296,[ t('',111,296,0) ]).
+b_line_i(310,12,3,cmd,296,[ t('',109,296,0),t([ t('Options',23,310,6),t('Count',3,310,15) ],29,310,15),t(=,10,296,21),t('50',3,296,23) ]).
+b_line_i(311,12,3,cmd,296,[ t('',139,296,0) ]).
+b_line_i(312,12,3,cmd,296,[ t('',111,296,0) ]).
+b_line_i(313,12,3,cmd,296,[ t('',128,296,0) ]).
+b_line_i(314,1,20,cmd,140,[]).
+b_line_i(315,1,20,cmd,140,[]).
+b_line_i(316,1,20,cmd,140,[]).
+b_line_i(317,1,20,cmd,140,[ t('',144,140,0) ]).
+b_line_i(318,1,20,cmd,140,[]).
+b_line_i(319,1,20,cmd,140,[ t('',143,140,0),t('''LOADBR_PATHOLOGY_METALOCOPTIONS''',3,319,5) ]).
+b_line_i(320,1,21,cmd,140,[]).
+b_line_i(321,1,21,cmd,140,[]).
+b_line_i(322,1,21,cmd,140,[]).
+b_line_i(323,1,21,cmd,140,[ t('',107,140,0),t('Tfbr_pathology_metaloc',23,140,0),t(=,10,140,0),t('Searchtxt',23,140,0) ]).
+b_line_i(324,1,21,cmd,140,[ t('',107,140,0),t([ t('Tfbr_pathology_metaloc_sel',23,324,2),t('setempty(',1,324,30) ],31,324,2),t(')',4,140,40) ]).
+b_line_i([ 324,1 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_1_Tfbr_pathologyid',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid',23,0,26) ]).
+b_line_i([ 324,2 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_2_Tfbr_pathologyid_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_to',23,0,45) ]).
+b_line_i([ 324,3 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_3_Tfbr_encounterid',23,0,0),t(=,10,0,0),t('Tfbr_encounterid',23,0,67) ]).
+b_line_i([ 324,4 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_4_Tfbr_encounterid_to',23,0,0),t(=,10,0,0),t('Tfbr_encounterid_to',23,0,86) ]).
+b_line_i([ 324,5 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_5_Tfbr_information_patientno',23,0,0),t(=,10,0,0),t('Tfbr_information_patientno',23,0,108) ]).
+b_line_i([ 324,6 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_6_Tfbr_information_patientno_sel',23,0,0),t(=,10,0,0),t('Tfbr_information_patientno_sel',23,0,137) ]).
+b_line_i([ 324,7 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_7_Tfbr_pathologyid_testid',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_testid',23,0,177) ]).
+b_line_i([ 324,8 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_8_Tfbr_pathologyid_testid_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_testid_to',23,0,203) ]).
+b_line_i([ 324,9 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_9_Tfbr_pathologyid_padate',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_padate',23,0,232) ]).
+b_line_i([ 324,10 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_10_Tfbr_pathologyid_padate_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_padate_to',23,0,258) ]).
+b_line_i([ 324,11 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_11_Tfbr_pathologyid_pahosp',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_pahosp',23,0,287) ]).
+b_line_i([ 324,12 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_12_Tfbr_pathologyid_pahosp_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_pahosp_sel',23,0,313) ]).
+b_line_i([ 324,13 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_13_Tfbr_pathologyid_paage',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paage',23,0,350) ]).
+b_line_i([ 324,14 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_14_Tfbr_pathologyid_paage_to',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paage_to',23,0,375) ]).
+b_line_i([ 324,15 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_15_Tfbr_pathologyid_prepadia',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_prepadia',23,0,403) ]).
+b_line_i([ 324,16 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_16_Tfbr_pathologyid_prepadia_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_prepadia_sel',23,0,431) ]).
+b_line_i([ 324,17 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_17_Tfbr_pathologyid_paresult',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paresult',23,0,463) ]).
+b_line_i([ 324,18 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_18_Tfbr_pathologyid_paresult_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathologyid_paresult_sel',23,0,491) ]).
+b_line_i([ 324,19 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_19_Tfbr_pathology_dia_name',23,0,0),t(=,10,0,0),t('Tfbr_pathology_dia_name',23,0,530) ]).
+b_line_i([ 324,20 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_20_Tfbr_pathology_dia_name_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_dia_name_sel',23,0,556) ]).
+b_line_i([ 324,21 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_21_Tfbr_pathology_t',23,0,0),t(=,10,0,0),t('Tfbr_pathology_t',23,0,586) ]).
+b_line_i([ 324,22 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_22_Tfbr_pathology_t_to',23,0,0),t(=,10,0,0),t('Tfbr_pathology_t_to',23,0,605) ]).
+b_line_i([ 324,23 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_23_Tfbr_pathology_n_sels',23,0,0),t(=,10,0,0),t('Tfbr_pathology_n_sels',23,0,627) ]).
+b_line_i([ 324,24 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_24_Tfbr_pathology_lymphnum',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphnum',23,0,651) ]).
+b_line_i([ 324,25 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_25_Tfbr_pathology_lymphnum_to',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphnum_to',23,0,684) ]).
+b_line_i([ 324,26 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_26_Tfbr_pathology_lymphrate',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphrate',23,0,713) ]).
+b_line_i([ 324,27 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_27_Tfbr_pathology_lymphrate_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_lymphrate_sel',23,0,740) ]).
+b_line_i([ 324,28 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_28_Tfbr_pathology_m_sels',23,0,0),t(=,10,0,0),t('Tfbr_pathology_m_sels',23,0,771) ]).
+b_line_i([ 324,29 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_29_Tfbr_pathology_metaloc',23,0,0),t(=,10,0,0),t('Tfbr_pathology_metaloc',23,0,795) ]).
+b_line_i([ 324,30 ],1,21,cmd,326,[ t('',107,326,0),t('BR_PathologyWWDS_30_Tfbr_pathology_metaloc_sel',23,0,0),t(=,10,0,0),t('Tfbr_pathology_metaloc_sel',23,0,820) ]).
+b_line_i(325,14,1,cmd,326,[ t('',121,325,0),t('ORDER',39,325,14),t(319,2,325,20) ]).
+b_line_i(326,14,1,cmd,326,[]).
+b_line_i(328,14,1,cmd,326,[]).
+b_line_i(329,14,1,cmd,326,[]).
+b_line_i(330,14,1,cmd,326,[]).
+b_line_i(331,14,1,cmd,326,[]).
+b_line_i(332,14,1,cmd,326,[]).
+b_line_i(333,14,1,cmd,326,[ t('',107,326,0),t('Count',23,326,0),t(=,10,326,0),t('0',3,326,0) ]).
+b_line_i(334,15,1,cmd,335,[ t('',121,334,0),t('ORDER',39,334,16),t(319,2,334,22) ]).
+b_line_i(335,15,1,cmd,335,[]).
+b_line_i(336,15,1,cmd,335,[ t('',107,335,0),t('Count',23,335,0),t(=,10,335,0),t('Count',23,335,0),t(+,5,335,0),t('1',3,335,0) ]).
+b_line_i(337,15,1,cmd,335,[ t('',128,335,0) ]).
+b_line_i(338,14,3,cmd,330,[ t('',109,330,0),t('.NOT.',8,330,6),t('null(',1,338,33),t(319,2,330,12),t(')',4,330,42) ]).
+b_line_i(339,14,3,cmd,330,[ t('',107,330,0),t('Option',23,330,0),t(=,10,330,0),t(319,2,330,0) ]).
+b_line_i(340,14,3,cmd,330,[]).
+b_line_i(341,14,3,cmd,330,[ t('',107,330,0),t([ t('Options',23,341,4),t('add(',1,341,13) ],31,341,4),t('Option',23,330,18),t(')',4,330,25) ]).
+b_line_i(342,14,3,cmd,330,[ t('',107,330,0),t([ t('Optionindexes',23,342,4),t('add(',1,342,19) ],31,342,4),t('trim(',1,330,24),t('toformattedstring(',1,342,37),t('Count',23,330,30),t(')',4,330,56),t(')',4,330,57),t(')',4,330,58) ]).
+b_line_i(343,14,3,cmd,330,[ t('',111,330,0) ]).
+b_line_i(344,14,3,cmd,330,[ t('',109,330,0),t([ t('Options',23,344,6),t('Count',3,344,15) ],29,344,15),t(=,10,330,21),t('50',3,330,23) ]).
+b_line_i(345,14,3,cmd,330,[ t('',139,330,0) ]).
+b_line_i(346,14,3,cmd,330,[ t('',111,330,0) ]).
+b_line_i(347,14,3,cmd,330,[ t('',128,330,0) ]).
+b_line_i(348,1,23,cmd,163,[]).
+b_line_i(349,1,23,cmd,163,[]).
+b_line_i(350,1,23,cmd,163,[]).
+b_line_i(351,1,23,cmd,163,[ t('',144,163,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(51,36) ],'; poor performance may be noticed',[ ' in group starting at line ','130','' ],'.' ])).
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(51,239) ],'; poor performance may be noticed',[ ' in group starting at line ','164','' ],'.' ])).
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(51,241) ],'; poor performance may be noticed',[ ' in group starting at line ','198','' ],'.' ])).
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(51,242) ],'; poor performance may be noticed',[ ' in group starting at line ','232','' ],'.' ])).
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(51,326) ],'; poor performance may be noticed',[ ' in group starting at line ','266','' ],'.' ])).
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(51,317) ],'; poor performance may be noticed',[ ' in group starting at line ','300','' ],'.' ])).
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(51,319) ],'; poor performance may be noticed',[ ' in group starting at line ','334','' ],'.' ])).
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(51,36,'ExternalName','BR_Information_PatientNo',d).
+att_prop_i(51,36,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,36,'EmptyAsNull','Yes',d).
+att_prop_i(51,36,idBasedOn,'',d).
+att_prop_i(51,36,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,36,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,36,'AttRegEx','',d).
+att_prop_i(51,36,'AttValidationFailedMsg','',d).
+att_prop_i(51,36,'FullName','BR_Information_PatientNo',v).
+att_prop_i(51,239,'ExternalName','BR_PathologyID_PAHosp',d).
+att_prop_i(51,239,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,239,'EmptyAsNull','Yes',d).
+att_prop_i(51,239,idBasedOn,'',d).
+att_prop_i(51,239,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,239,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,239,'AttRegEx','',d).
+att_prop_i(51,239,'AttValidationFailedMsg','',d).
+att_prop_i(51,239,'FullName','BR_PathologyID_PAHosp',v).
+att_prop_i(51,241,'ExternalName','BR_PathologyID_PrePaDia',d).
+att_prop_i(51,241,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,241,'EmptyAsNull','Yes',d).
+att_prop_i(51,241,idBasedOn,'',d).
+att_prop_i(51,241,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,241,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,241,'AttRegEx','',d).
+att_prop_i(51,241,'AttValidationFailedMsg','',d).
+att_prop_i(51,241,'FullName','BR_PathologyID_PrePaDia',v).
+att_prop_i(51,242,'ExternalName','BR_PathologyID_PAResult',d).
+att_prop_i(51,242,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,242,'EmptyAsNull','Yes',d).
+att_prop_i(51,242,idBasedOn,'',d).
+att_prop_i(51,242,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,242,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,242,'AttRegEx','',d).
+att_prop_i(51,242,'AttValidationFailedMsg','',d).
+att_prop_i(51,242,'FullName','BR_PathologyID_PAResult',v).
+att_prop_i(51,326,'ExternalName','BR_Pathology_Dia_Name',d).
+att_prop_i(51,326,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,326,'EmptyAsNull','Yes',d).
+att_prop_i(51,326,idBasedOn,'',d).
+att_prop_i(51,326,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,326,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,326,'AttRegEx','',d).
+att_prop_i(51,326,'AttValidationFailedMsg','',d).
+att_prop_i(51,326,'FullName','BR_Pathology_Dia_Name',v).
+att_prop_i(51,317,'ExternalName','BR_Pathology_LymphRate',d).
+att_prop_i(51,317,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,317,'EmptyAsNull','Yes',d).
+att_prop_i(51,317,idBasedOn,'',d).
+att_prop_i(51,317,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,317,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,317,'AttRegEx','',d).
+att_prop_i(51,317,'AttValidationFailedMsg','',d).
+att_prop_i(51,317,'FullName','BR_Pathology_LymphRate',v).
+att_prop_i(51,319,'ExternalName','BR_Pathology_MetaLoc',d).
+att_prop_i(51,319,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,319,'EmptyAsNull','Yes',d).
+att_prop_i(51,319,idBasedOn,'',d).
+att_prop_i(51,319,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,319,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,319,'AttRegEx','',d).
+att_prop_i(51,319,'AttValidationFailedMsg','',d).
+att_prop_i(51,319,'FullName','BR_Pathology_MetaLoc',v).
+att_prop_i(51,318,'ExternalName','BR_Pathology_M',d).
+att_prop_i(51,318,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,318,'EmptyAsNull','Yes',d).
+att_prop_i(51,318,idBasedOn,93,v).
+att_prop_i(51,318,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,318,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,318,'AttRegEx','',d).
+att_prop_i(51,318,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(51,318,'FullName','BR_Pathology_M',v).
+att_prop_i(51,316,'ExternalName','BR_Pathology_LymphNum',d).
+att_prop_i(51,316,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,316,'EmptyAsNull','Yes',d).
+att_prop_i(51,316,idBasedOn,103,v).
+att_prop_i(51,316,'AUTONUMBER','0',d).
+att_prop_i(51,316,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,316,'AttRegEx','',d).
+att_prop_i(51,316,'AttValidationFailedMsg','',d).
+att_prop_i(51,316,'FullName','BR_Pathology_LymphNum',v).
+att_prop_i(51,315,'ExternalName','BR_Pathology_N',d).
+att_prop_i(51,315,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,315,'EmptyAsNull','Yes',d).
+att_prop_i(51,315,idBasedOn,93,v).
+att_prop_i(51,315,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,315,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,315,'AttRegEx','',d).
+att_prop_i(51,315,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(51,315,'FullName','BR_Pathology_N',v).
+att_prop_i(51,314,'ExternalName','BR_Pathology_T',d).
+att_prop_i(51,314,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,314,'EmptyAsNull','Yes',d).
+att_prop_i(51,314,idBasedOn,103,v).
+att_prop_i(51,314,'AUTONUMBER','0',d).
+att_prop_i(51,314,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,314,'AttRegEx','',d).
+att_prop_i(51,314,'AttValidationFailedMsg','',d).
+att_prop_i(51,314,'FullName','BR_Pathology_T',v).
+att_prop_i(51,240,'ExternalName','BR_PathologyID_PAAge',d).
+att_prop_i(51,240,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,240,'EmptyAsNull','Yes',d).
+att_prop_i(51,240,idBasedOn,'',d).
+att_prop_i(51,240,'AUTONUMBER','0',d).
+att_prop_i(51,240,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,240,'AttRegEx','',d).
+att_prop_i(51,240,'AttValidationFailedMsg','',d).
+att_prop_i(51,240,'FullName','BR_PathologyID_PAAge',v).
+att_prop_i(51,238,'ExternalName','BR_PathologyID_PADate',d).
+att_prop_i(51,238,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,238,'EmptyAsNull','Yes',d).
+att_prop_i(51,238,idBasedOn,64,v).
+att_prop_i(51,238,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,238,'AttRegEx','',d).
+att_prop_i(51,238,'AttValidationFailedMsg','',d).
+att_prop_i(51,238,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(51,238,'FullName','BR_PathologyID_PADate',v).
+att_prop_i(51,237,'ExternalName','BR_PathologyID_TestID',d).
+att_prop_i(51,237,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,237,'EmptyAsNull','Yes',v).
+att_prop_i(51,237,idBasedOn,'',d).
+att_prop_i(51,237,'AUTONUMBER','-1',v).
+att_prop_i(51,237,'AUTONUMBER_START','1',d).
+att_prop_i(51,237,'AUTONUMBER_STEP','1',d).
+att_prop_i(51,237,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(51,237,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,237,'AttRegEx','',d).
+att_prop_i(51,237,'AttValidationFailedMsg','',d).
+att_prop_i(51,237,'FullName','BR_PathologyID_TestID',v).
+att_prop_i(51,19,'ExternalName','BR_EncounterID',d).
+att_prop_i(51,19,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,19,'EmptyAsNull','Yes',d).
+att_prop_i(51,19,idBasedOn,69,v).
+att_prop_i(51,19,'AUTONUMBER','-1',d).
+att_prop_i(51,19,'AUTONUMBER_START','1',d).
+att_prop_i(51,19,'AUTONUMBER_STEP','1',d).
+att_prop_i(51,19,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(51,19,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,19,'AttRegEx','',d).
+att_prop_i(51,19,'AttValidationFailedMsg','',d).
+att_prop_i(51,19,'FullName','BR_EncounterID',v).
+att_prop_i(51,226,'ExternalName','BR_PathologyID',d).
+att_prop_i(51,226,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,226,'EmptyAsNull','Yes',d).
+att_prop_i(51,226,idBasedOn,69,v).
+att_prop_i(51,226,'AUTONUMBER','-1',d).
+att_prop_i(51,226,'AUTONUMBER_START','1',d).
+att_prop_i(51,226,'AUTONUMBER_STEP','1',d).
+att_prop_i(51,226,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(51,226,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,226,'AttRegEx','',d).
+att_prop_i(51,226,'AttValidationFailedMsg','',d).
+att_prop_i(51,226,'FullName','BR_PathologyID',v).
+att_prop_i(51,85,'ExternalName','BR_Information_ID',d).
+att_prop_i(51,85,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,85,'EmptyAsNull','Yes',d).
+att_prop_i(51,85,idBasedOn,69,v).
+att_prop_i(51,85,'AUTONUMBER','-1',d).
+att_prop_i(51,85,'AUTONUMBER_START','1',d).
+att_prop_i(51,85,'AUTONUMBER_STEP','1',d).
+att_prop_i(51,85,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(51,85,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,85,'AttRegEx','',d).
+att_prop_i(51,85,'AttValidationFailedMsg','',d).
+att_prop_i(51,85,'FullName','BR_Information_ID',v).
+ 
+tbl_prop_i(51,15,'AllDirSuper',[ [ 16,[ 85 ] ] ],v).
+tbl_prop_i(51,36,'AllDirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(51,15,'DirSuperNull',[ [ 16,[ 85 ] ] ],v).
+tbl_prop_i(51,36,'DirSuperNull',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(51,15,'DirSubor',[ [ 36,[ 19 ] ] ],v).
+tbl_prop_i(51,36,'DirSuper',[ [ 15,[ 19 ] ] ],v).
+ 
+tbl_att_prop_i(51,36,226,'AllowNulls',n).
+tbl_att_prop_i(51,36,226,'AUTONUMBER',y).
+tbl_att_prop_i(51,15,19,'AllowNulls',n).
+tbl_att_prop_i(51,15,19,'AUTONUMBER',y).
+tbl_att_prop_i(51,16,85,'AllowNulls',n).
+tbl_att_prop_i(51,16,85,'AUTONUMBER',y).
+ 
+var_prop_i(51,'Securityfunctionalitykeys',idBasedOn,90,v).
+var_prop_i(51,'Tfbr_pathologyid',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_encounterid',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_encounterid_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_information_patientno',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_information_patientno_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_testid',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_testid_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_padate',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_padate_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_pahosp',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_pahosp_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_paage',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_paage_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_prepadia',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_prepadia_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_paresult',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_paresult_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_t',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_t_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_n_sels',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_n_sels','AttValidationFailedMsg','GXSPC_OutOfRange',d).
+var_prop_i(51,'Tfbr_pathology_lymphnum',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_lymphnum_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_lymphrate',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_lymphrate_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_m_sels',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_m_sels','AttValidationFailedMsg','GXSPC_OutOfRange',d).
+var_prop_i(51,'Tfbr_pathology_metaloc',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_metaloc_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_dia_name',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_dia_name_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_encounterid',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_encounterid_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_information_patientno',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_information_patientno_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_testid',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_testid_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_padate',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_padate_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_pahosp',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_pahosp_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_paage',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_paage_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_prepadia',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_prepadia_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_paresult',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathologyid_paresult_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_dia_name',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_dia_name_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_t',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_t_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_n_sels',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_n_sels','AttValidationFailedMsg','GXSPC_OutOfRange',d).
+var_prop_i(51,'Tfbr_pathology_lymphnum',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_lymphnum_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_lymphrate',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_lymphrate_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_m_sels',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_m_sels','AttValidationFailedMsg','GXSPC_OutOfRange',d).
+var_prop_i(51,'Tfbr_pathology_metaloc',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_pathology_metaloc_sel',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,43,0 ],name,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,43,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 26,43,0 ],'ObjName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ObjDesc','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 26,47,0 ],name,'WWPBaseObjects\WWPGridState').
+struct_dt_i([ 26,47,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 26,47,0 ],'ObjName','WWPGridState').
+struct_dt_i([ 26,47,0 ],'ObjDesc','Grid State').
+struct_dt_i([ 26,47,0 ],'ExternalName','WWPGridState').
+struct_dt_i([ 26,47,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 26,47,79 ],name,'FilterValue').
+struct_dt_i([ 26,47,79 ],namespace,'DataAnalysisPlatform.WWPGridState').
+struct_dt_i([ 26,47,80 ],name,'DynamicFilter').
+struct_dt_i([ 26,47,80 ],namespace,'DataAnalysisPlatform.WWPGridState').
+struct_dt_i([ 26,43,0 ],fullname,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,47,0 ],fullname,'WWPBaseObjects\WWPGridState').
+struct_dt_i([ 26,47,79 ],fullname,'WWPBaseObjects\WWPGridState.FilterValue').
+struct_dt_i([ 26,47,80 ],fullname,'WWPBaseObjects\WWPGridState.DynamicFilter').
+struct_dt_i([ 26,43,0 ],modified,yes).
+struct_dt_i([ 26,47,0 ],modified,yes).
+struct_dt_i([ 26,47,79 ],modified,yes).
+struct_dt_i([ 26,47,80 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,43,0 ],1,name,'Userid').
+struct_dt_elem_i([ 26,43,0 ],1,camelname,'UserId').
+struct_dt_elem_i([ 26,43,0 ],1,length,4).
+struct_dt_elem_i([ 26,43,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],1,sign,0).
+struct_dt_elem_i([ 26,43,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalName','UserId').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],2,name,'Userguid').
+struct_dt_elem_i([ 26,43,0 ],2,camelname,'UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,length,500).
+struct_dt_elem_i([ 26,43,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],2,type,[ 13,500,0 ]).
+struct_dt_elem_i([ 26,43,0 ],2,pic,'').
+struct_dt_elem_i([ 26,43,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalName','UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],3,name,'Username').
+struct_dt_elem_i([ 26,43,0 ],3,camelname,'UserName').
+struct_dt_elem_i([ 26,43,0 ],3,length,100).
+struct_dt_elem_i([ 26,43,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],3,pic,'').
+struct_dt_elem_i([ 26,43,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalName','UserName').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],4,name,'Usertype').
+struct_dt_elem_i([ 26,43,0 ],4,camelname,'UserType').
+struct_dt_elem_i([ 26,43,0 ],4,length,4).
+struct_dt_elem_i([ 26,43,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],4,sign,0).
+struct_dt_elem_i([ 26,43,0 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalName','UserType').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],5,name,'Userdisplayname').
+struct_dt_elem_i([ 26,43,0 ],5,camelname,'UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,length,100).
+struct_dt_elem_i([ 26,43,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],5,pic,'').
+struct_dt_elem_i([ 26,43,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalName','UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],6,name,'Userproviderid').
+struct_dt_elem_i([ 26,43,0 ],6,camelname,'UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,basedon,69).
+struct_dt_elem_i([ 26,43,0 ],6,length,18).
+struct_dt_elem_i([ 26,43,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],6,sign,0).
+struct_dt_elem_i([ 26,43,0 ],6,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,43,0 ],6,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 26,43,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalName','UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],7,name,'Userprovidername').
+struct_dt_elem_i([ 26,43,0 ],7,camelname,'UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,length,100).
+struct_dt_elem_i([ 26,43,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],7,pic,'').
+struct_dt_elem_i([ 26,43,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalName','UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],8,name,'Currenttnum').
+struct_dt_elem_i([ 26,43,0 ],8,camelname,currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,length,4).
+struct_dt_elem_i([ 26,43,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],8,sign,0).
+struct_dt_elem_i([ 26,43,0 ],8,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],8,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalName',currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],8,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],8,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],9,name,'Clientip').
+struct_dt_elem_i([ 26,43,0 ],9,camelname,'ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,length,40).
+struct_dt_elem_i([ 26,43,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],9,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,43,0 ],9,pic,'').
+struct_dt_elem_i([ 26,43,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalName','ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],9,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],9,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],1,name,'Currentpage').
+struct_dt_elem_i([ 26,47,0 ],1,camelname,'CurrentPage').
+struct_dt_elem_i([ 26,47,0 ],1,length,4).
+struct_dt_elem_i([ 26,47,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],1,sign,0).
+struct_dt_elem_i([ 26,47,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,47,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,47,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],1,'ExternalName','CurrentPage').
+struct_dt_elem_i([ 26,47,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],2,name,'Orderedby').
+struct_dt_elem_i([ 26,47,0 ],2,camelname,'OrderedBy').
+struct_dt_elem_i([ 26,47,0 ],2,length,4).
+struct_dt_elem_i([ 26,47,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],2,sign,0).
+struct_dt_elem_i([ 26,47,0 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,47,0 ],2,pic,'ZZZ9').
+struct_dt_elem_i([ 26,47,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],2,'ExternalName','OrderedBy').
+struct_dt_elem_i([ 26,47,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],3,name,'Ordereddsc').
+struct_dt_elem_i([ 26,47,0 ],3,camelname,'OrderedDsc').
+struct_dt_elem_i([ 26,47,0 ],3,length,4).
+struct_dt_elem_i([ 26,47,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],3,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,47,0 ],3,pic,'').
+struct_dt_elem_i([ 26,47,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],3,'ExternalName','OrderedDsc').
+struct_dt_elem_i([ 26,47,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],4,name,'Hidingsearch').
+struct_dt_elem_i([ 26,47,0 ],4,camelname,'HidingSearch').
+struct_dt_elem_i([ 26,47,0 ],4,length,1).
+struct_dt_elem_i([ 26,47,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],4,sign,0).
+struct_dt_elem_i([ 26,47,0 ],4,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 26,47,0 ],4,pic,'9').
+struct_dt_elem_i([ 26,47,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],4,'ExternalName','HidingSearch').
+struct_dt_elem_i([ 26,47,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],5,name,'Pagesize').
+struct_dt_elem_i([ 26,47,0 ],5,camelname,'PageSize').
+struct_dt_elem_i([ 26,47,0 ],5,length,10).
+struct_dt_elem_i([ 26,47,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],5,type,[ 13,10,0 ]).
+struct_dt_elem_i([ 26,47,0 ],5,pic,'').
+struct_dt_elem_i([ 26,47,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],5,'ExternalName','PageSize').
+struct_dt_elem_i([ 26,47,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],6,name,'Filtervalues').
+struct_dt_elem_i([ 26,47,0 ],6,camelname,'FilterValues').
+struct_dt_elem_i([ 26,47,0 ],6,type,[ [ 26,47,79 ],0,0 ]).
+struct_dt_elem_i([ 26,47,0 ],6,pic,'').
+struct_dt_elem_i([ 26,47,0 ],6,collection,'True').
+struct_dt_elem_i([ 26,47,0 ],6,'ObjName','FilterValues').
+struct_dt_elem_i([ 26,47,0 ],6,'ObjDesc','Filter Values').
+struct_dt_elem_i([ 26,47,0 ],6,'CollectionItemName','FilterValue').
+struct_dt_elem_i([ 26,47,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],6,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,47,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],6,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,47,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],6,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,47,79 ],1,name,'Name').
+struct_dt_elem_i([ 26,47,79 ],1,camelname,'Name').
+struct_dt_elem_i([ 26,47,79 ],1,length,128).
+struct_dt_elem_i([ 26,47,79 ],1,decimals,0).
+struct_dt_elem_i([ 26,47,79 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,47,79 ],1,pic,'').
+struct_dt_elem_i([ 26,47,79 ],1,collection,'False').
+struct_dt_elem_i([ 26,47,79 ],1,'ExternalName','Name').
+struct_dt_elem_i([ 26,47,79 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,79 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,47,79 ],1,'XmlName','').
+struct_dt_elem_i([ 26,47,79 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,79 ],1,soaptype,'').
+struct_dt_elem_i([ 26,47,79 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,79 ],1,'JsonName','').
+struct_dt_elem_i([ 26,47,79 ],2,name,'Value').
+struct_dt_elem_i([ 26,47,79 ],2,camelname,'Value').
+struct_dt_elem_i([ 26,47,79 ],2,length,100).
+struct_dt_elem_i([ 26,47,79 ],2,decimals,0).
+struct_dt_elem_i([ 26,47,79 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,47,79 ],2,pic,'').
+struct_dt_elem_i([ 26,47,79 ],2,collection,'False').
+struct_dt_elem_i([ 26,47,79 ],2,'ExternalName','Value').
+struct_dt_elem_i([ 26,47,79 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,79 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,47,79 ],2,'XmlName','').
+struct_dt_elem_i([ 26,47,79 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,79 ],2,soaptype,'').
+struct_dt_elem_i([ 26,47,79 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,79 ],2,'JsonName','').
+struct_dt_elem_i([ 26,47,79 ],3,name,'Operator').
+struct_dt_elem_i([ 26,47,79 ],3,camelname,'Operator').
+struct_dt_elem_i([ 26,47,79 ],3,length,4).
+struct_dt_elem_i([ 26,47,79 ],3,decimals,0).
+struct_dt_elem_i([ 26,47,79 ],3,sign,0).
+struct_dt_elem_i([ 26,47,79 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,47,79 ],3,pic,'ZZZ9').
+struct_dt_elem_i([ 26,47,79 ],3,collection,'False').
+struct_dt_elem_i([ 26,47,79 ],3,'ExternalName','Operator').
+struct_dt_elem_i([ 26,47,79 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,79 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,47,79 ],3,'XmlName','').
+struct_dt_elem_i([ 26,47,79 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,79 ],3,soaptype,'').
+struct_dt_elem_i([ 26,47,79 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,79 ],3,'JsonName','').
+struct_dt_elem_i([ 26,47,79 ],4,name,'Valueto').
+struct_dt_elem_i([ 26,47,79 ],4,camelname,'ValueTo').
+struct_dt_elem_i([ 26,47,79 ],4,length,100).
+struct_dt_elem_i([ 26,47,79 ],4,decimals,0).
+struct_dt_elem_i([ 26,47,79 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,47,79 ],4,pic,'').
+struct_dt_elem_i([ 26,47,79 ],4,collection,'False').
+struct_dt_elem_i([ 26,47,79 ],4,'ExternalName','ValueTo').
+struct_dt_elem_i([ 26,47,79 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,79 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,47,79 ],4,'XmlName','').
+struct_dt_elem_i([ 26,47,79 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,79 ],4,soaptype,'').
+struct_dt_elem_i([ 26,47,79 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,79 ],4,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],7,name,'Dynamicfilters').
+struct_dt_elem_i([ 26,47,0 ],7,camelname,'DynamicFilters').
+struct_dt_elem_i([ 26,47,0 ],7,type,[ [ 26,47,80 ],0,0 ]).
+struct_dt_elem_i([ 26,47,0 ],7,pic,'').
+struct_dt_elem_i([ 26,47,0 ],7,collection,'True').
+struct_dt_elem_i([ 26,47,0 ],7,'ObjName','DynamicFilters').
+struct_dt_elem_i([ 26,47,0 ],7,'ObjDesc','Dynamic Filters').
+struct_dt_elem_i([ 26,47,0 ],7,'CollectionItemName','DynamicFilter').
+struct_dt_elem_i([ 26,47,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],7,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,47,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],7,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,47,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],7,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,47,80 ],1,name,'Selected').
+struct_dt_elem_i([ 26,47,80 ],1,camelname,'Selected').
+struct_dt_elem_i([ 26,47,80 ],1,length,128).
+struct_dt_elem_i([ 26,47,80 ],1,decimals,0).
+struct_dt_elem_i([ 26,47,80 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,47,80 ],1,pic,'').
+struct_dt_elem_i([ 26,47,80 ],1,collection,'False').
+struct_dt_elem_i([ 26,47,80 ],1,'ExternalName','Selected').
+struct_dt_elem_i([ 26,47,80 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,80 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,47,80 ],1,'XmlName','').
+struct_dt_elem_i([ 26,47,80 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,80 ],1,soaptype,'').
+struct_dt_elem_i([ 26,47,80 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,80 ],1,'JsonName','').
+struct_dt_elem_i([ 26,47,80 ],2,name,'Value').
+struct_dt_elem_i([ 26,47,80 ],2,camelname,'Value').
+struct_dt_elem_i([ 26,47,80 ],2,length,100).
+struct_dt_elem_i([ 26,47,80 ],2,decimals,0).
+struct_dt_elem_i([ 26,47,80 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,47,80 ],2,pic,'').
+struct_dt_elem_i([ 26,47,80 ],2,collection,'False').
+struct_dt_elem_i([ 26,47,80 ],2,'ExternalName','Value').
+struct_dt_elem_i([ 26,47,80 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,80 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,47,80 ],2,'XmlName','').
+struct_dt_elem_i([ 26,47,80 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,80 ],2,soaptype,'').
+struct_dt_elem_i([ 26,47,80 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,80 ],2,'JsonName','').
+struct_dt_elem_i([ 26,47,80 ],3,name,'Operator').
+struct_dt_elem_i([ 26,47,80 ],3,camelname,'Operator').
+struct_dt_elem_i([ 26,47,80 ],3,length,4).
+struct_dt_elem_i([ 26,47,80 ],3,decimals,0).
+struct_dt_elem_i([ 26,47,80 ],3,sign,0).
+struct_dt_elem_i([ 26,47,80 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,47,80 ],3,pic,'ZZZ9').
+struct_dt_elem_i([ 26,47,80 ],3,collection,'False').
+struct_dt_elem_i([ 26,47,80 ],3,'ExternalName','Operator').
+struct_dt_elem_i([ 26,47,80 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,80 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,47,80 ],3,'XmlName','').
+struct_dt_elem_i([ 26,47,80 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,80 ],3,soaptype,'').
+struct_dt_elem_i([ 26,47,80 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,80 ],3,'JsonName','').
+struct_dt_elem_i([ 26,47,80 ],4,name,'Valueto').
+struct_dt_elem_i([ 26,47,80 ],4,camelname,'ValueTo').
+struct_dt_elem_i([ 26,47,80 ],4,length,100).
+struct_dt_elem_i([ 26,47,80 ],4,decimals,0).
+struct_dt_elem_i([ 26,47,80 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,47,80 ],4,pic,'').
+struct_dt_elem_i([ 26,47,80 ],4,collection,'False').
+struct_dt_elem_i([ 26,47,80 ],4,'ExternalName','ValueTo').
+struct_dt_elem_i([ 26,47,80 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,80 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,47,80 ],4,'XmlName','').
+struct_dt_elem_i([ 26,47,80 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,80 ],4,soaptype,'').
+struct_dt_elem_i([ 26,47,80 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,80 ],4,'JsonName','').
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,15,'WWPBASEOBJECTS\LOADWWPCONTEXT',[ [ o('WWPBaseObjects\WWPContext'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+pgm_parm_i(proc,18,'WWPBASEOBJECTS\LOADGRIDSTATE',[ [ svchar,120,0,0 ],[ svchar,1000,0,0 ] ],[ [ 'UserCustomKey',in,[] ],[ 'UserCustomValue',out,[] ] ]).
+pgm_parm_i(proc,25,'WWPBASEOBJECTS\SECISAUTHBYFUNCTIONALITYKEY',[ [ svchar,100,0,0 ],[ boolean,4,0,0 ] ],[ [ 'SecFunctionalityKey',in,[] ],[ 'IsAuthorized',out,[] ] ]).
+ 
+pgm_callprotocol_i(proc,97,'BR_PATHOLOGYWWGETFILTERDATA','INTERNAL').
+pgm_callprotocol_i(proc,15,'WWPBASEOBJECTS\LOADWWPCONTEXT','INTERNAL').
+pgm_callprotocol_i(proc,18,'WWPBASEOBJECTS\LOADGRIDSTATE','INTERNAL').
+pgm_callprotocol_i(proc,25,'WWPBASEOBJECTS\SECISAUTHBYFUNCTIONALITYKEY','INTERNAL').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

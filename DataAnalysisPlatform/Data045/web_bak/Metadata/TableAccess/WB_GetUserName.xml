@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="299e61ec-7f39-4c4a-a344-b09cbb5585a0">
+  <Table name="XT_Config" />
+  <Table name="SYS_TenantUser" />
+  <Table name="SYS_Database" />
+  <Table name="BAS_Tenant" />
+  <Table name="BAS_Institute" />
+  <Table name="BR_PatientReTenant" />
+</Dependencies>

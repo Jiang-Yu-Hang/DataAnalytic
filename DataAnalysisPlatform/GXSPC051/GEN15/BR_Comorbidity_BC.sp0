@@ -1,0 +1,1687 @@
+spec_i([ trn,9,既往病史,'BR_Comorbidity_BC',[],chs,'16_0_0-127771' ]).
+ 
+struct_i(10,0,[ 'Websession' ],[]).
+ 
+level_i(10,[ 10,[ [ 10,many ],[ 15,one ],[ 16,one ] ],[ 37 ],[],[],[],[ 37 ],'IBR_COMORBIDITY',[ 10,[] ],[] ]).
+ 
+tw_i(10,[ [ 15,[ [ 10,19,19 ] ] ],[ 16,[ [ 15,85,85 ] ] ] ]).
+ 
+lwi_i(10,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(10,[ [ [ 15,85 ],[ 10,37 ],[ 10,487 ],[ 10,488 ],[ 10,489 ],[ 10,490 ],[ 10,491 ],[ 10,492 ],[ 10,493 ],[ 10,494 ],[ 10,495 ],[ 10,496 ],[ 16,36 ],[ 10,38 ],[ 10,39 ],[ 10,40 ],[ 10,41 ],[ 10,42 ],[ 10,43 ],[ 10,44 ],[ 10,45 ],[ 10,46 ],[ 10,47 ],[ 10,259 ],[ 10,561 ],[ 10,562 ],[ 10,563 ],[ 10,564 ],[ 10,565 ],[ 10,566 ],[ 10,567 ],[ 10,568 ],[ 10,19 ] ] ]).
+ 
+las_i(10,[ [ 85,'Websession',37,487,488,489,490,491,492,493,494,495,496,19,36,38,39,40,41,42,43,44,45,46,47,259,561,562,563,564,565,566,567,568 ] ]).
+ 
+lac_i(10,[ [ 37,19,38,487,39,488,40,489,41,490,42,491,43,492,44,493,45,494,46,495,47,496,259,561,562,563,564,565,566,567,568 ] ]).
+ 
+ 
+ 
+cls_i([ 25,80 ],[ 0,0 ]).
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS',���)).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',���)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PKSupFKs',[])).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','BR_Comorbidity')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SEARCH_VIEWER','')).
+rule_i(0,prop('SEARCHABLE','UMPV')).
+rule_i(0,prop('MTIER_OPT','Yes')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('AUTOENTER','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('BEEPONERROR','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WBCHAR','')).
+rule_i(0,prop('WBATTR',none)).
+rule_i(0,prop('WBCOLOR',none)).
+rule_i(0,prop('WNDPOP','NO')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('DLT_BUTTON','')).
+rule_i(0,prop('CNF_BUTTON','')).
+rule_i(0,prop('UPD_BUTTON','')).
+rule_i(0,prop('ADD_BUTTON','')).
+rule_i(0,prop('AUTOSCROLL_FORM','UMPV')).
+rule_i(0,prop('SHOW_FRM','UMPV')).
+rule_i(0,prop('MODAL','PARM')).
+rule_i(0,prop('CTRBOX','YES')).
+rule_i(0,prop('ICON','')).
+rule_i(0,prop('S_TASK','YES')).
+rule_i(0,prop('MINBUT','YES')).
+rule_i(0,prop('MAXBUT','YES')).
+rule_i(0,prop('BORSTY','2')).
+rule_i(0,prop('KEY_MOREKEYS','UMPV')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_LAST','UMPV')).
+rule_i(0,prop('KEY_FIRST','UMPV')).
+rule_i(0,prop('KEY_SELECT','UMPV')).
+rule_i(0,prop('KEY_DISPLAY','UMPV')).
+rule_i(0,prop('KEY_DELETE','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_UPDATE','UMPV')).
+rule_i(0,prop('KEY_MENU','UMPV')).
+rule_i(0,prop('KEY_RETRIEVE','UMPV')).
+rule_i(0,prop('KEY_NEXT','UMPV')).
+rule_i(0,prop('KEY_PREVIOUS','UMPV')).
+rule_i(0,prop('KEY_INSERT','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_PROMPT','UMPV')).
+rule_i(0,prop('KEY_EXIT','UMPV')).
+rule_i(0,prop('KEY_CHECK','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebFormDefaults','0')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('FIELD_TO_FIELD','UMPV')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('CFMTRN','No')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('IsDwhTrn','0')).
+rule_i(0,prop(idDynTrnUpdatePolicy,idDynTrnUpdatePolicy_UPDATABLE)).
+rule_i(0,prop(idIsDynTrn,'0')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'WWPBaseObjects.WorkWithPlusMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('WS_Delete','-1')).
+rule_i(0,prop('WS_Update','-1')).
+rule_i(0,prop('WS_Insert','-1')).
+rule_i(0,prop('WS_View','-1')).
+rule_i(0,prop(idISBCWEBSERVICE,'0')).
+rule_i(0,prop('ExternalNamespace','DataAnalysisPlatform')).
+rule_i(0,prop('ExternalName','BR_Comorbidity')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop(idISBUSINESSCOMPONENT,'-1')).
+rule_i(0,prop('Folder',o(8,'Trn'))).
+rule_i(0,prop('ObjDesc',既往病史)).
+rule_i(0,prop('ObjName','BR_Comorbidity')).
+rule_i(0,rule([ a(22,[ 'Dlt','"删除"','' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(10,rule([ a(1,msg([ t('"域���������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(38,2),t(=,10),t('''否''',3),t('.OR.',9),t(38,2),t(=,10),t('''是''',3),t('.OR.',9),t(38,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(38,2),t(')',4),t(')',4) ],[ insert,update ],[ 38 ])).
+rule_i(10,rule([ a(1,msg([ t('"域���������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(39,2),t(=,10),t('''否''',3),t('.OR.',9),t(39,2),t(=,10),t('''是''',3),t('.OR.',9),t(39,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(39,2),t(')',4),t(')',4) ],[ insert,update ],[ 39 ])).
+rule_i(10,rule([ a(1,msg([ t('"域���������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(40,2),t(=,10),t('''否''',3),t('.OR.',9),t(40,2),t(=,10),t('''是''',3),t('.OR.',9),t(40,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(40,2),t(')',4),t(')',4) ],[ insert,update ],[ 40 ])).
+rule_i(10,rule([ a(1,msg([ t('"域������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(41,2),t(=,10),t('''否''',3),t('.OR.',9),t(41,2),t(=,10),t('''是''',3),t('.OR.',9),t(41,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(41,2),t(')',4),t(')',4) ],[ insert,update ],[ 41 ])).
+rule_i(10,rule([ a(1,msg([ t('"域���������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(42,2),t(=,10),t('''否''',3),t('.OR.',9),t(42,2),t(=,10),t('''是''',3),t('.OR.',9),t(42,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(42,2),t(')',4),t(')',4) ],[ insert,update ],[ 42 ])).
+rule_i(10,rule([ a(1,msg([ t('"域������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(43,2),t(=,10),t('''否''',3),t('.OR.',9),t(43,2),t(=,10),t('''是''',3),t('.OR.',9),t(43,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(43,2),t(')',4),t(')',4) ],[ insert,update ],[ 43 ])).
+rule_i(10,rule([ a(1,msg([ t('"域���������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(44,2),t(=,10),t('''否''',3),t('.OR.',9),t(44,2),t(=,10),t('''是''',3),t('.OR.',9),t(44,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(44,2),t(')',4),t(')',4) ],[ insert,update ],[ 44 ])).
+rule_i(10,rule([ a(1,msg([ t('"域���������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(45,2),t(=,10),t('''否''',3),t('.OR.',9),t(45,2),t(=,10),t('''是''',3),t('.OR.',9),t(45,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(45,2),t(')',4),t(')',4) ],[ insert,update ],[ 45 ])).
+rule_i(10,rule([ a(1,msg([ t('"域���������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(46,2),t(=,10),t('''否''',3),t('.OR.',9),t(46,2),t(=,10),t('''是''',3),t('.OR.',9),t(46,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(46,2),t(')',4),t(')',4) ],[ insert,update ],[ 46 ])).
+rule_i(10,rule([ a(1,msg([ t('"域���������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(47,2),t(=,10),t('''否''',3),t('.OR.',9),t(47,2),t(=,10),t('''是''',3),t('.OR.',9),t(47,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(47,2),t(')',4),t(')',4) ],[ insert,update ],[ 47 ])).
+rule_i(10,rule([ a(1,msg([ t('"域������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(561,2),t(=,10),t('''否''',3),t('.OR.',9),t(561,2),t(=,10),t('''是''',3),t('.OR.',9),t(561,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(561,2),t(')',4),t(')',4) ],[ insert,update ],[ 561 ])).
+rule_i(10,rule([ a(1,msg([ t('"域������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(563,2),t(=,10),t('''否''',3),t('.OR.',9),t(563,2),t(=,10),t('''是''',3),t('.OR.',9),t(563,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(563,2),t(')',4),t(')',4) ],[ insert,update ],[ 563 ])).
+rule_i(10,rule([ a(1,msg([ t('"域���������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(565,2),t(=,10),t('''否''',3),t('.OR.',9),t(565,2),t(=,10),t('''是''',3),t('.OR.',9),t(565,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(565,2),t(')',4),t(')',4) ],[ insert,update ],[ 565 ])).
+rule_i(10,rule([ a(1,msg([ t('"域������������������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(567,2),t(=,10),t('''否''',3),t('.OR.',9),t(567,2),t(=,10),t('''是''',3),t('.OR.',9),t(567,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(567,2),t(')',4),t(')',4) ],[ insert,update ],[ 567 ])).
+rule_i(10,rule([ a(18,[ [ 85 ] ]) ],[],[ insert,update,delete ],[ 85 ])).
+rule_i(10,rule([ a(19,[ [ 19 ],msg([ t('"不匹配'' T15''"',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 19 ])).
+rule_i(10,rule([ a(19,[ [ 85 ],msg([ t('"不匹配'' T16''"',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 85 ])).
+ 
+a_i(1,10,b,0,[],[ [],[ a(1,msg([ t('"域���������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(38,2),t(=,10),t('''否''',3),t('.OR.',9),t(38,2),t(=,10),t('''是''',3),t('.OR.',9),t(38,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(38,2),t(')',4),t(')',4) ] ]).
+a_i(2,10,b,0,[],[ [],[ a(1,msg([ t('"域���������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(39,2),t(=,10),t('''否''',3),t('.OR.',9),t(39,2),t(=,10),t('''是''',3),t('.OR.',9),t(39,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(39,2),t(')',4),t(')',4) ] ]).
+a_i(3,10,b,0,[],[ [],[ a(1,msg([ t('"域���������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(40,2),t(=,10),t('''否''',3),t('.OR.',9),t(40,2),t(=,10),t('''是''',3),t('.OR.',9),t(40,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(40,2),t(')',4),t(')',4) ] ]).
+a_i(4,10,b,0,[],[ [],[ a(1,msg([ t('"域������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(41,2),t(=,10),t('''否''',3),t('.OR.',9),t(41,2),t(=,10),t('''是''',3),t('.OR.',9),t(41,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(41,2),t(')',4),t(')',4) ] ]).
+a_i(5,10,b,0,[],[ [],[ a(1,msg([ t('"域���������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(42,2),t(=,10),t('''否''',3),t('.OR.',9),t(42,2),t(=,10),t('''是''',3),t('.OR.',9),t(42,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(42,2),t(')',4),t(')',4) ] ]).
+a_i(6,10,b,0,[],[ [],[ a(1,msg([ t('"域������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(43,2),t(=,10),t('''否''',3),t('.OR.',9),t(43,2),t(=,10),t('''是''',3),t('.OR.',9),t(43,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(43,2),t(')',4),t(')',4) ] ]).
+a_i(7,10,b,0,[],[ [],[ a(1,msg([ t('"域���������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(44,2),t(=,10),t('''否''',3),t('.OR.',9),t(44,2),t(=,10),t('''是''',3),t('.OR.',9),t(44,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(44,2),t(')',4),t(')',4) ] ]).
+a_i(8,10,b,0,[],[ [],[ a(1,msg([ t('"域���������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(45,2),t(=,10),t('''否''',3),t('.OR.',9),t(45,2),t(=,10),t('''是''',3),t('.OR.',9),t(45,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(45,2),t(')',4),t(')',4) ] ]).
+a_i(9,10,b,0,[],[ [],[ a(1,msg([ t('"域���������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(46,2),t(=,10),t('''否''',3),t('.OR.',9),t(46,2),t(=,10),t('''是''',3),t('.OR.',9),t(46,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(46,2),t(')',4),t(')',4) ] ]).
+a_i(10,10,b,0,[],[ [],[ a(1,msg([ t('"域���������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(47,2),t(=,10),t('''否''',3),t('.OR.',9),t(47,2),t(=,10),t('''是''',3),t('.OR.',9),t(47,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(47,2),t(')',4),t(')',4) ] ]).
+a_i(11,10,b,0,[],[ [],[ a(1,msg([ t('"域������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(561,2),t(=,10),t('''否''',3),t('.OR.',9),t(561,2),t(=,10),t('''是''',3),t('.OR.',9),t(561,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(561,2),t(')',4),t(')',4) ] ]).
+a_i(12,10,b,0,[],[ [],[ a(1,msg([ t('"域������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(563,2),t(=,10),t('''否''',3),t('.OR.',9),t(563,2),t(=,10),t('''是''',3),t('.OR.',9),t(563,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(563,2),t(')',4),t(')',4) ] ]).
+a_i(13,10,b,0,[],[ [],[ a(1,msg([ t('"域���������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(565,2),t(=,10),t('''否''',3),t('.OR.',9),t(565,2),t(=,10),t('''是''',3),t('.OR.',9),t(565,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(565,2),t(')',4),t(')',4) ] ]).
+a_i(14,10,b,0,[],[ [],[ a(1,msg([ t('"域������������������超界"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t(567,2),t(=,10),t('''否''',3),t('.OR.',9),t(567,2),t(=,10),t('''是''',3),t('.OR.',9),t(567,2),t(=,10),t('''不详''',3),t('.OR.',9),t('null(',1),t(567,2),t(')',4),t(')',4) ] ]).
+a_i(15,10,f,487,[ binsert ],[ [],[ t('udp(',1),t(487,3),t(0,3),t('37',3),t(',',7),t(38,2),t(')',4),t(';',18) ] ]).
+a_i(16,10,f,487,[ bupdate ],[ [],[ t('udp(',1),t(487,3),t(5,3),t('37',3),t(',',7),t(38,2),t(')',4),t(';',18) ] ]).
+a_i(17,10,f,488,[ binsert ],[ [],[ t('udp(',1),t(488,3),t(0,3),t('37',3),t(',',7),t(39,2),t(')',4),t(';',18) ] ]).
+a_i(18,10,f,488,[ bupdate ],[ [],[ t('udp(',1),t(488,3),t(5,3),t('37',3),t(',',7),t(39,2),t(')',4),t(';',18) ] ]).
+a_i(19,10,f,489,[ binsert ],[ [],[ t('udp(',1),t(489,3),t(0,3),t('37',3),t(',',7),t(40,2),t(')',4),t(';',18) ] ]).
+a_i(20,10,f,489,[ bupdate ],[ [],[ t('udp(',1),t(489,3),t(5,3),t('37',3),t(',',7),t(40,2),t(')',4),t(';',18) ] ]).
+a_i(21,10,f,490,[ binsert ],[ [],[ t('udp(',1),t(490,3),t(0,3),t('37',3),t(',',7),t(41,2),t(')',4),t(';',18) ] ]).
+a_i(22,10,f,490,[ bupdate ],[ [],[ t('udp(',1),t(490,3),t(5,3),t('37',3),t(',',7),t(41,2),t(')',4),t(';',18) ] ]).
+a_i(23,10,f,491,[ binsert ],[ [],[ t('udp(',1),t(491,3),t(0,3),t('37',3),t(',',7),t(42,2),t(')',4),t(';',18) ] ]).
+a_i(24,10,f,491,[ bupdate ],[ [],[ t('udp(',1),t(491,3),t(5,3),t('37',3),t(',',7),t(42,2),t(')',4),t(';',18) ] ]).
+a_i(25,10,f,492,[ binsert ],[ [],[ t('udp(',1),t(492,3),t(0,3),t('37',3),t(',',7),t(43,2),t(')',4),t(';',18) ] ]).
+a_i(26,10,f,492,[ bupdate ],[ [],[ t('udp(',1),t(492,3),t(5,3),t('37',3),t(',',7),t(43,2),t(')',4),t(';',18) ] ]).
+a_i(27,10,f,493,[ binsert ],[ [],[ t('udp(',1),t(493,3),t(0,3),t('37',3),t(',',7),t(44,2),t(')',4),t(';',18) ] ]).
+a_i(28,10,f,493,[ bupdate ],[ [],[ t('udp(',1),t(493,3),t(5,3),t('37',3),t(',',7),t(44,2),t(')',4),t(';',18) ] ]).
+a_i(29,10,f,494,[ binsert ],[ [],[ t('udp(',1),t(494,3),t(0,3),t('37',3),t(',',7),t(45,2),t(')',4),t(';',18) ] ]).
+a_i(30,10,f,494,[ bupdate ],[ [],[ t('udp(',1),t(494,3),t(5,3),t('37',3),t(',',7),t(45,2),t(')',4),t(';',18) ] ]).
+a_i(31,10,f,495,[ binsert ],[ [],[ t('udp(',1),t(495,3),t(0,3),t('37',3),t(',',7),t(46,2),t(')',4),t(';',18) ] ]).
+a_i(32,10,f,495,[ bupdate ],[ [],[ t('udp(',1),t(495,3),t(5,3),t('37',3),t(',',7),t(46,2),t(')',4),t(';',18) ] ]).
+a_i(33,10,f,496,[ binsert ],[ [],[ t('udp(',1),t(496,3),t(0,3),t('37',3),t(',',7),t(47,2),t(')',4),t(';',18) ] ]).
+a_i(34,10,f,496,[ bupdate ],[ [],[ t('udp(',1),t(496,3),t(5,3),t('37',3),t(',',7),t(47,2),t(')',4),t(';',18) ] ]).
+a_i(35,10,t,10,[],[ [ [ [],37,37 ] ],'IBR_COMORBIDITY',[] ]).
+a_i(36,10,r,15,[],[ [ [ 10,19,19 ] ],'IBR_ENCOUNTER',[] ]).
+a_i(37,10,r,16,[],[ [ [ 15,85,85 ] ],'IBR_INFORMATION',[] ]).
+ 
+v_i(b,i,1,38).
+v_i(b,o,1,[]).
+v_i(b,i,2,39).
+v_i(b,o,2,[]).
+v_i(b,i,3,40).
+v_i(b,o,3,[]).
+v_i(b,i,4,41).
+v_i(b,o,4,[]).
+v_i(b,i,5,42).
+v_i(b,o,5,[]).
+v_i(b,i,6,43).
+v_i(b,o,6,[]).
+v_i(b,i,7,44).
+v_i(b,o,7,[]).
+v_i(b,i,8,45).
+v_i(b,o,8,[]).
+v_i(b,i,9,46).
+v_i(b,o,9,[]).
+v_i(b,i,10,47).
+v_i(b,o,10,[]).
+v_i(b,i,11,561).
+v_i(b,o,11,[]).
+v_i(b,i,12,563).
+v_i(b,o,12,[]).
+v_i(b,i,13,565).
+v_i(b,o,13,[]).
+v_i(b,i,14,567).
+v_i(b,o,14,[]).
+v_i(f,i,15,38).
+v_i(f,o,15,487).
+v_i(f,i,16,38).
+v_i(f,o,16,487).
+v_i(f,i,17,39).
+v_i(f,o,17,488).
+v_i(f,i,18,39).
+v_i(f,o,18,488).
+v_i(f,i,19,40).
+v_i(f,o,19,489).
+v_i(f,i,20,40).
+v_i(f,o,20,489).
+v_i(f,i,21,41).
+v_i(f,o,21,490).
+v_i(f,i,22,41).
+v_i(f,o,22,490).
+v_i(f,i,23,42).
+v_i(f,o,23,491).
+v_i(f,i,24,42).
+v_i(f,o,24,491).
+v_i(f,i,25,43).
+v_i(f,o,25,492).
+v_i(f,i,26,43).
+v_i(f,o,26,492).
+v_i(f,i,27,44).
+v_i(f,o,27,493).
+v_i(f,i,28,44).
+v_i(f,o,28,493).
+v_i(f,i,29,45).
+v_i(f,o,29,494).
+v_i(f,i,30,45).
+v_i(f,o,30,494).
+v_i(f,i,31,46).
+v_i(f,o,31,495).
+v_i(f,i,32,46).
+v_i(f,o,32,495).
+v_i(f,i,33,47).
+v_i(f,o,33,496).
+v_i(f,i,34,47).
+v_i(f,o,34,496).
+v_i(t,i,35,37).
+v_i(t,o,35,487).
+v_i(t,o,35,488).
+v_i(t,o,35,489).
+v_i(t,o,35,490).
+v_i(t,o,35,491).
+v_i(t,o,35,492).
+v_i(t,o,35,493).
+v_i(t,o,35,494).
+v_i(t,o,35,495).
+v_i(t,o,35,496).
+v_i(t,o,35,38).
+v_i(t,o,35,39).
+v_i(t,o,35,40).
+v_i(t,o,35,41).
+v_i(t,o,35,42).
+v_i(t,o,35,43).
+v_i(t,o,35,44).
+v_i(t,o,35,45).
+v_i(t,o,35,46).
+v_i(t,o,35,47).
+v_i(t,o,35,259).
+v_i(t,o,35,561).
+v_i(t,o,35,562).
+v_i(t,o,35,563).
+v_i(t,o,35,564).
+v_i(t,o,35,565).
+v_i(t,o,35,566).
+v_i(t,o,35,567).
+v_i(t,o,35,568).
+v_i(t,o,35,19).
+v_i(r,i,36,19).
+v_i(r,o,36,85).
+v_i(r,i,37,85).
+v_i(r,o,37,36).
+ 
+act_info_i(15,[ [ 487 ] ]).
+act_info_i(16,[ [ 487 ] ]).
+act_info_i(17,[ [ 488 ] ]).
+act_info_i(18,[ [ 488 ] ]).
+act_info_i(19,[ [ 489 ] ]).
+act_info_i(20,[ [ 489 ] ]).
+act_info_i(21,[ [ 490 ] ]).
+act_info_i(22,[ [ 490 ] ]).
+act_info_i(23,[ [ 491 ] ]).
+act_info_i(24,[ [ 491 ] ]).
+act_info_i(25,[ [ 492 ] ]).
+act_info_i(26,[ [ 492 ] ]).
+act_info_i(27,[ [ 493 ] ]).
+act_info_i(28,[ [ 493 ] ]).
+act_info_i(29,[ [ 494 ] ]).
+act_info_i(30,[ [ 494 ] ]).
+act_info_i(31,[ [ 495 ] ]).
+act_info_i(32,[ [ 495 ] ]).
+act_info_i(33,[ [ 496 ] ]).
+act_info_i(34,[ [ 496 ] ]).
+ 
+ 
+ 
+ 
+ 
+attri_i(568,[ 'BR_Comorbidity_Druginducedliverinjury_Code',svchar,40,0,'',0,药物性肝损伤code,'',0 ]).
+attri_i(567,[ 'BR_Comorbidity_Druginducedliverinjury',svchar,40,0,'',0,药物性肝损伤,'',0 ]).
+attri_i(566,[ 'BR_Comorbidity_LiverCirrhosis_Code',svchar,40,0,'',0,肝硬化code,'',0 ]).
+attri_i(565,[ 'BR_Comorbidity_LiverCirrhosis',svchar,40,0,'',0,肝硬化,'',0 ]).
+attri_i(564,[ 'BR_Comorbidity_HapetitisC_Code',svchar,40,0,'',0,丙肝code,'',0 ]).
+attri_i(563,[ 'BR_Comorbidity_HapetitisC',svchar,40,0,'',0,丙肝,'',0 ]).
+attri_i(562,[ 'BR_Comorbidity_HapetitisB_Code',svchar,40,0,'',0,乙肝code,'',0 ]).
+attri_i(561,[ 'BR_Comorbidity_HapetitisB',svchar,40,0,'',0,乙肝,'',0 ]).
+attri_i(259,[ 'BR_Comorbidity_Others',svchar,255,0,'',0,其他病史,'',0 ]).
+attri_i(47,[ 'BR_Comorbidity_allergy',svchar,40,0,'',0,过敏史,'',0 ]).
+attri_i(46,[ 'BR_Comorbidity_BloodHistory',svchar,40,0,'',0,输血史,'',0 ]).
+attri_i(45,[ 'BR_Comorbidity_InjuryHistory',svchar,40,0,'',0,外伤史,'',0 ]).
+attri_i(44,[ 'BR_Comorbidity_SurgeryHistory',svchar,40,0,'',0,手术史,'',0 ]).
+attri_i(43,[ 'BR_Comorbidity_KidneyDisease',svchar,40,0,'',0,肾病,'',0 ]).
+attri_i(42,[ 'BR_Comorbidity_TB',svchar,40,0,'',0,结核病,'',0 ]).
+attri_i(41,[ 'BR_Comorbidity_Hapetitis',svchar,40,0,'',0,肝炎,'',0 ]).
+attri_i(40,[ 'BR_Comorbidity_CHD',svchar,40,0,'',0,冠心病,'',0 ]).
+attri_i(39,[ 'BR_Comorbidity_Diabetes',svchar,40,0,'',0,糖尿病,'',0 ]).
+attri_i(38,[ 'BR_Comorbidity_Hypertension',svchar,40,0,'',0,高血压,'',0 ]).
+attri_i(36,[ 'BR_Information_PatientNo',svchar,2000,0,'',0,患者编号,'',0 ]).
+attri_i(19,[ 'BR_EncounterID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,就诊信息主键,'',0 ]).
+attri_i(496,[ 'BR_Comorbidity_allergy_Code',svchar,40,0,'',0,过敏史code,'',0 ]).
+attri_i(495,[ 'BR_Comorbidity_BloodHistory_Code',svchar,40,0,'',0,输血史code,'',0 ]).
+attri_i(494,[ 'BR_Comorbidity_InjuryHistory_Code',svchar,40,0,'',0,外伤史code,'',0 ]).
+attri_i(493,[ 'BR_Comorbidity_SurgeryHistory_Code',svchar,40,0,'',0,手术史code,'',0 ]).
+attri_i(492,[ 'BR_Comorbidity_KidneyDisease_Code',svchar,40,0,'',0,肾病code,'',0 ]).
+attri_i(491,[ 'BR_Comorbidity_TB_Code',svchar,40,0,'',0,结核病code,'',0 ]).
+attri_i(490,[ 'BR_Comorbidity_Hapetitis_Code',svchar,40,0,'',0,肝炎code,'',0 ]).
+attri_i(489,[ 'BR_Comorbidity_CHD_Code',svchar,40,0,'',0,冠心病code,'',0 ]).
+attri_i(488,[ 'BR_Comorbidity_Diabetes_Code',svchar,40,0,'',0,糖尿病code,'',0 ]).
+attri_i(487,[ 'BR_Comorbidity_Hypertension_Code',svchar,40,0,'',0,高血压code,'',0 ]).
+attri_i(37,[ 'BR_ComorbidityID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,既往病史主键,'',0 ]).
+attri_i(85,[ 'BR_Information_ID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,患者基本信息主键ID,'',0 ]).
+attri_i('Gxremove',[ 'GxRemove',int,1,0,'9',0,'Gx Remove','',5 ]).
+attri_i('Trncontextatt',[ 'TrnContextAtt',o('WWPBaseObjects\WWPTransactionContext.Attribute'),0,0,'',0,'Trn Context Att','',11 ]).
+attri_i('Insert_br_encounterid',[ 'Insert_BR_EncounterID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'Insert_BR_Encounter ID','',10 ]).
+attri_i('Websession',[ 'WebSession',o(websession),4,0,'',0,'Web Session','',9 ]).
+attri_i('Trncontext',[ 'TrnContext',o('WWPBaseObjects\WWPTransactionContext'),0,0,'',0,'Trn Context','',8 ]).
+attri_i('Wwpcontext',[ 'WWPContext',o('WWPBaseObjects\WWPContext'),0,0,'',0,'WWPContext','',7 ]).
+attri_i('Mode',[ 'Gx_mode',char,3,0,'@!',1,'','',2 ]).
+ 
+table_i(16,[ 'BR_Information',[ 85,36 ],' T16','BR_Information' ]).
+table_i(10,[ 'BR_Comorbidity',[ 37,19,38,39,40,41,42,43,44,45,46,47,259,487,488,489,490,491,492,493,494,495,496,561,562,563,564,565,566,567,568 ],' T10','BR_Comorbidity' ]).
+table_i(15,[ 'BR_Encounter',[ 19,85 ],' T15','BR_Encounter' ]).
+ 
+index_i(10,[ 'IBR_COMORBIDITY',u,[ 37 ],'IBR_Comorbidity' ]).
+index_i(15,[ 'IBR_ENCOUNTER',u,[ 19 ],'IBR_Encounter' ]).
+index_i(16,[ 'IBR_INFORMATION',u,[ 85 ],'IBR_Information' ]).
+ 
+ 
+ 
+function_i(10,496,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 47 ],5,496,[ [ t('37',3),t(',',7),t(47,2) ] ]).
+function_i(10,496,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 47 ],0,496,[ [ t('37',3),t(',',7),t(47,2) ] ]).
+function_i(10,495,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 46 ],5,495,[ [ t('37',3),t(',',7),t(46,2) ] ]).
+function_i(10,495,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 46 ],0,495,[ [ t('37',3),t(',',7),t(46,2) ] ]).
+function_i(10,494,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 45 ],5,494,[ [ t('37',3),t(',',7),t(45,2) ] ]).
+function_i(10,494,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 45 ],0,494,[ [ t('37',3),t(',',7),t(45,2) ] ]).
+function_i(10,493,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 44 ],5,493,[ [ t('37',3),t(',',7),t(44,2) ] ]).
+function_i(10,493,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 44 ],0,493,[ [ t('37',3),t(',',7),t(44,2) ] ]).
+function_i(10,492,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 43 ],5,492,[ [ t('37',3),t(',',7),t(43,2) ] ]).
+function_i(10,492,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 43 ],0,492,[ [ t('37',3),t(',',7),t(43,2) ] ]).
+function_i(10,491,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 42 ],5,491,[ [ t('37',3),t(',',7),t(42,2) ] ]).
+function_i(10,491,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 42 ],0,491,[ [ t('37',3),t(',',7),t(42,2) ] ]).
+function_i(10,490,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 41 ],5,490,[ [ t('37',3),t(',',7),t(41,2) ] ]).
+function_i(10,490,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 41 ],0,490,[ [ t('37',3),t(',',7),t(41,2) ] ]).
+function_i(10,489,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 40 ],5,489,[ [ t('37',3),t(',',7),t(40,2) ] ]).
+function_i(10,489,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 40 ],0,489,[ [ t('37',3),t(',',7),t(40,2) ] ]).
+function_i(10,488,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 39 ],5,488,[ [ t('37',3),t(',',7),t(39,2) ] ]).
+function_i(10,488,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 39 ],0,488,[ [ t('37',3),t(',',7),t(39,2) ] ]).
+function_i(10,487,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 38 ],5,487,[ [ t('37',3),t(',',7),t(38,2) ] ]).
+function_i(10,487,yes,udp,o(1,'ZUtil_FindTargetCode'),[ 38 ],0,487,[ [ t('37',3),t(',',7),t(38,2) ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(10,10,i,[ [ 487,488,489,490,491,492,493,494,495,496,38,39,40,41,42,43,44,45,46,47,259,561,562,563,564,565,566,567,568,19 ],[],'IBR_COMORBIDITY',[ [ [],37,37 ] ] ]).
+upd_i(10,10,u,[ [ 487,488,489,490,491,492,493,494,495,496,38,39,40,41,42,43,44,45,46,47,259,561,562,563,564,565,566,567,568,19 ],[],'IBR_COMORBIDITY',[] ]).
+upd_i(10,10,d,[ [],[],'IBR_COMORBIDITY',[] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enumerated_i(51,38,93).
+enumerated_i(51,39,93).
+enumerated_i(51,40,93).
+enumerated_i(51,41,93).
+enumerated_i(51,42,93).
+enumerated_i(51,43,93).
+enumerated_i(51,44,93).
+enumerated_i(51,45,93).
+enumerated_i(51,46,93).
+enumerated_i(51,47,93).
+enumerated_i(51,561,93).
+enumerated_i(51,563,93).
+enumerated_i(51,565,93).
+enumerated_i(51,567,93).
+enumerated_i(51,172,94).
+enumerated_i(51,537,117).
+ 
+enum_value_i(51,93,'"否"',no,'"否"',[ none ]).
+enum_value_i(51,93,'"是"',yes,'"是"',[ none ]).
+enum_value_i(51,93,'"不详"',notclear,'"不详"',[ none ]).
+enum_value_i(51,94,'1',entering,'"录入中"',[ none ]).
+enum_value_i(51,94,'2',waitCheck,'"待初审"',[ none ]).
+enum_value_i(51,94,'3',denyCheck,'"初审不通过"',[ none ]).
+enum_value_i(51,94,'4',waitApprove,'"待复审"',[ none ]).
+enum_value_i(51,94,'5',denyApprove,'"复审不通过"',[ none ]).
+enum_value_i(51,94,'6',complete,'"完成"',[ none ]).
+enum_value_i(51,117,'1',lis,'"lis"',[ none ]).
+ 
+enum_value_info_i(51,93,'DM_IsComorbidity').
+enum_value_info_i(51,94,'DM_ApproveStatus').
+enum_value_info_i(51,117,'DM_Datasource').
+ 
+enum_type_i(51,93,svchar,40,0).
+enum_type_i(51,94,int,4,0).
+enum_type_i(51,117,int,4,0).
+ 
+dom_info_i(69,[ 'ID' ]).
+dom_info_i(93,[ 'DM_IsComorbidity' ]).
+dom_info_i(64,[ 'DM_Date' ]).
+dom_info_i(94,[ 'DM_ApproveStatus' ]).
+dom_info_i(66,[ 'UpdDate' ]).
+dom_info_i(95,[ 'CrtUser' ]).
+dom_info_i(67,[ 'UpdUser' ]).
+dom_info_i(117,[ 'DM_Datasource' ]).
+ 
+a_ctrl_i(567,c,[ '''否''','''是''','''不详''' ]).
+a_ctrl_i(565,c,[ '''否''','''是''','''不详''' ]).
+a_ctrl_i(563,c,[ '''否''','''是''','''不详''' ]).
+a_ctrl_i(561,c,[ '''否''','''是''','''不详''' ]).
+a_ctrl_i(47,c,[ '''否''','''是''','''不详''' ]).
+a_ctrl_i(46,c,[ '''否''','''是''','''不详''' ]).
+a_ctrl_i(45,c,[ '''否''','''是''','''不详''' ]).
+a_ctrl_i(44,c,[ '''否''','''是''','''不详''' ]).
+a_ctrl_i(43,c,[ '''否''','''是''','''不详''' ]).
+a_ctrl_i(42,c,[ '''否''','''是''','''不详''' ]).
+a_ctrl_i(41,c,[ '''否''','''是''','''不详''' ]).
+a_ctrl_i(40,c,[ '''否''','''是''','''不详''' ]).
+a_ctrl_i(39,c,[ '''否''','''是''','''不详''' ]).
+a_ctrl_i(38,c,[ '''否''','''是''','''不详''' ]).
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,2).
+b_group_i(2,2,lit,0,3,7).
+b_group_i(2,3,lit,0,8,0).
+ 
+b_line_i(2,2,1,cmd,2,[ t('',146,2,0),t('Start',3,2,7) ]).
+b_line_i(5,2,2,cmd,2,[ t('',147,2,0) ]).
+b_line_i(7,2,2,cmd,2,[ t('',146,2,0),t('After Trn',3,7,7) ]).
+b_line_i(10,2,3,cmd,2,[ t('',147,2,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(51,37,'HORIZONTAL_DESCRIPTION',既往病史主键,d).
+att_prop_i(51,37,'ExternalName','BR_ComorbidityID',d).
+att_prop_i(51,37,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,37,'EmptyAsNull','Yes',d).
+att_prop_i(51,37,idBasedOn,69,v).
+att_prop_i(51,37,'AUTONUMBER','-1',d).
+att_prop_i(51,37,'AUTONUMBER_START','1',d).
+att_prop_i(51,37,'AUTONUMBER_STEP','1',d).
+att_prop_i(51,37,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(51,37,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,37,'AttRegEx','',d).
+att_prop_i(51,37,'AttValidationFailedMsg','',d).
+att_prop_i(51,37,'FullName','BR_ComorbidityID',v).
+att_prop_i(51,19,'HORIZONTAL_DESCRIPTION',就诊信息主键,d).
+att_prop_i(51,19,'ExternalName','BR_EncounterID',d).
+att_prop_i(51,19,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,19,'EmptyAsNull','Yes',d).
+att_prop_i(51,19,idBasedOn,69,v).
+att_prop_i(51,19,'AUTONUMBER','-1',d).
+att_prop_i(51,19,'AUTONUMBER_START','1',d).
+att_prop_i(51,19,'AUTONUMBER_STEP','1',d).
+att_prop_i(51,19,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(51,19,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,19,'AttRegEx','',d).
+att_prop_i(51,19,'AttValidationFailedMsg','',d).
+att_prop_i(51,19,'FullName','BR_EncounterID',v).
+att_prop_i(51,36,'HORIZONTAL_DESCRIPTION',患者编号,d).
+att_prop_i(51,36,'ExternalName','BR_Information_PatientNo',d).
+att_prop_i(51,36,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,36,'EmptyAsNull','Yes',d).
+att_prop_i(51,36,idBasedOn,'',d).
+att_prop_i(51,36,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,36,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,36,'AttRegEx','',d).
+att_prop_i(51,36,'AttValidationFailedMsg','',d).
+att_prop_i(51,36,'FullName','BR_Information_PatientNo',v).
+att_prop_i(51,38,'HORIZONTAL_DESCRIPTION',高血压,d).
+att_prop_i(51,38,'ExternalName','BR_Comorbidity_Hypertension',d).
+att_prop_i(51,38,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,38,'EmptyAsNull','Yes',d).
+att_prop_i(51,38,idBasedOn,93,v).
+att_prop_i(51,38,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,38,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,38,'AttRegEx','',d).
+att_prop_i(51,38,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(51,38,'FullName','BR_Comorbidity_Hypertension',v).
+att_prop_i(51,487,'HORIZONTAL_DESCRIPTION',高血压code,d).
+att_prop_i(51,487,'ExternalName','BR_Comorbidity_Hypertension_Code',d).
+att_prop_i(51,487,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,487,'EmptyAsNull','Yes',d).
+att_prop_i(51,487,idBasedOn,'',d).
+att_prop_i(51,487,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,487,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,487,'AttRegEx','',d).
+att_prop_i(51,487,'AttValidationFailedMsg','',d).
+att_prop_i(51,487,'FullName','BR_Comorbidity_Hypertension_Code',v).
+att_prop_i(51,39,'HORIZONTAL_DESCRIPTION',糖尿病,d).
+att_prop_i(51,39,'ExternalName','BR_Comorbidity_Diabetes',d).
+att_prop_i(51,39,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,39,'EmptyAsNull','Yes',d).
+att_prop_i(51,39,idBasedOn,93,v).
+att_prop_i(51,39,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,39,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,39,'AttRegEx','',d).
+att_prop_i(51,39,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(51,39,'FullName','BR_Comorbidity_Diabetes',v).
+att_prop_i(51,488,'HORIZONTAL_DESCRIPTION',糖尿病code,d).
+att_prop_i(51,488,'ExternalName','BR_Comorbidity_Diabetes_Code',d).
+att_prop_i(51,488,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,488,'EmptyAsNull','Yes',d).
+att_prop_i(51,488,idBasedOn,'',d).
+att_prop_i(51,488,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,488,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,488,'AttRegEx','',d).
+att_prop_i(51,488,'AttValidationFailedMsg','',d).
+att_prop_i(51,488,'FullName','BR_Comorbidity_Diabetes_Code',v).
+att_prop_i(51,40,'HORIZONTAL_DESCRIPTION',冠心病,d).
+att_prop_i(51,40,'ExternalName','BR_Comorbidity_CHD',d).
+att_prop_i(51,40,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,40,'EmptyAsNull','Yes',d).
+att_prop_i(51,40,idBasedOn,93,v).
+att_prop_i(51,40,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,40,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,40,'AttRegEx','',d).
+att_prop_i(51,40,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(51,40,'FullName','BR_Comorbidity_CHD',v).
+att_prop_i(51,489,'HORIZONTAL_DESCRIPTION',冠心病code,d).
+att_prop_i(51,489,'ExternalName','BR_Comorbidity_CHD_Code',d).
+att_prop_i(51,489,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,489,'EmptyAsNull','Yes',d).
+att_prop_i(51,489,idBasedOn,'',d).
+att_prop_i(51,489,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,489,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,489,'AttRegEx','',d).
+att_prop_i(51,489,'AttValidationFailedMsg','',d).
+att_prop_i(51,489,'FullName','BR_Comorbidity_CHD_Code',v).
+att_prop_i(51,41,'HORIZONTAL_DESCRIPTION',肝炎,d).
+att_prop_i(51,41,'ExternalName','BR_Comorbidity_Hapetitis',d).
+att_prop_i(51,41,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,41,'EmptyAsNull','Yes',d).
+att_prop_i(51,41,idBasedOn,93,v).
+att_prop_i(51,41,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,41,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,41,'AttRegEx','',d).
+att_prop_i(51,41,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(51,41,'FullName','BR_Comorbidity_Hapetitis',v).
+att_prop_i(51,490,'HORIZONTAL_DESCRIPTION',肝炎code,d).
+att_prop_i(51,490,'ExternalName','BR_Comorbidity_Hapetitis_Code',d).
+att_prop_i(51,490,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,490,'EmptyAsNull','Yes',d).
+att_prop_i(51,490,idBasedOn,'',d).
+att_prop_i(51,490,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,490,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,490,'AttRegEx','',d).
+att_prop_i(51,490,'AttValidationFailedMsg','',d).
+att_prop_i(51,490,'FullName','BR_Comorbidity_Hapetitis_Code',v).
+att_prop_i(51,42,'HORIZONTAL_DESCRIPTION',结核病,d).
+att_prop_i(51,42,'ExternalName','BR_Comorbidity_TB',d).
+att_prop_i(51,42,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,42,'EmptyAsNull','Yes',d).
+att_prop_i(51,42,idBasedOn,93,v).
+att_prop_i(51,42,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,42,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,42,'AttRegEx','',d).
+att_prop_i(51,42,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(51,42,'FullName','BR_Comorbidity_TB',v).
+att_prop_i(51,491,'HORIZONTAL_DESCRIPTION',结核病code,d).
+att_prop_i(51,491,'ExternalName','BR_Comorbidity_TB_Code',d).
+att_prop_i(51,491,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,491,'EmptyAsNull','Yes',d).
+att_prop_i(51,491,idBasedOn,'',d).
+att_prop_i(51,491,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,491,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,491,'AttRegEx','',d).
+att_prop_i(51,491,'AttValidationFailedMsg','',d).
+att_prop_i(51,491,'FullName','BR_Comorbidity_TB_Code',v).
+att_prop_i(51,43,'HORIZONTAL_DESCRIPTION',肾病,d).
+att_prop_i(51,43,'ExternalName','BR_Comorbidity_KidneyDisease',d).
+att_prop_i(51,43,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,43,'EmptyAsNull','Yes',d).
+att_prop_i(51,43,idBasedOn,93,v).
+att_prop_i(51,43,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,43,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,43,'AttRegEx','',d).
+att_prop_i(51,43,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(51,43,'FullName','BR_Comorbidity_KidneyDisease',v).
+att_prop_i(51,492,'HORIZONTAL_DESCRIPTION',肾病code,d).
+att_prop_i(51,492,'ExternalName','BR_Comorbidity_KidneyDisease_Code',d).
+att_prop_i(51,492,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,492,'EmptyAsNull','Yes',d).
+att_prop_i(51,492,idBasedOn,'',d).
+att_prop_i(51,492,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,492,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,492,'AttRegEx','',d).
+att_prop_i(51,492,'AttValidationFailedMsg','',d).
+att_prop_i(51,492,'FullName','BR_Comorbidity_KidneyDisease_Code',v).
+att_prop_i(51,44,'HORIZONTAL_DESCRIPTION',手术史,d).
+att_prop_i(51,44,'ExternalName','BR_Comorbidity_SurgeryHistory',d).
+att_prop_i(51,44,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,44,'EmptyAsNull','Yes',d).
+att_prop_i(51,44,idBasedOn,93,v).
+att_prop_i(51,44,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,44,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,44,'AttRegEx','',d).
+att_prop_i(51,44,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(51,44,'FullName','BR_Comorbidity_SurgeryHistory',v).
+att_prop_i(51,493,'HORIZONTAL_DESCRIPTION',手术史code,d).
+att_prop_i(51,493,'ExternalName','BR_Comorbidity_SurgeryHistory_Code',d).
+att_prop_i(51,493,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,493,'EmptyAsNull','Yes',d).
+att_prop_i(51,493,idBasedOn,'',d).
+att_prop_i(51,493,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,493,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,493,'AttRegEx','',d).
+att_prop_i(51,493,'AttValidationFailedMsg','',d).
+att_prop_i(51,493,'FullName','BR_Comorbidity_SurgeryHistory_Code',v).
+att_prop_i(51,45,'HORIZONTAL_DESCRIPTION',外伤史,d).
+att_prop_i(51,45,'ExternalName','BR_Comorbidity_InjuryHistory',d).
+att_prop_i(51,45,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,45,'EmptyAsNull','Yes',d).
+att_prop_i(51,45,idBasedOn,93,v).
+att_prop_i(51,45,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,45,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,45,'AttRegEx','',d).
+att_prop_i(51,45,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(51,45,'FullName','BR_Comorbidity_InjuryHistory',v).
+att_prop_i(51,494,'HORIZONTAL_DESCRIPTION',外伤史code,d).
+att_prop_i(51,494,'ExternalName','BR_Comorbidity_InjuryHistory_Code',d).
+att_prop_i(51,494,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,494,'EmptyAsNull','Yes',d).
+att_prop_i(51,494,idBasedOn,'',d).
+att_prop_i(51,494,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,494,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,494,'AttRegEx','',d).
+att_prop_i(51,494,'AttValidationFailedMsg','',d).
+att_prop_i(51,494,'FullName','BR_Comorbidity_InjuryHistory_Code',v).
+att_prop_i(51,46,'HORIZONTAL_DESCRIPTION',输血史,d).
+att_prop_i(51,46,'ExternalName','BR_Comorbidity_BloodHistory',d).
+att_prop_i(51,46,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,46,'EmptyAsNull','Yes',d).
+att_prop_i(51,46,idBasedOn,93,v).
+att_prop_i(51,46,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,46,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,46,'AttRegEx','',d).
+att_prop_i(51,46,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(51,46,'FullName','BR_Comorbidity_BloodHistory',v).
+att_prop_i(51,495,'HORIZONTAL_DESCRIPTION',输血史code,d).
+att_prop_i(51,495,'ExternalName','BR_Comorbidity_BloodHistory_Code',d).
+att_prop_i(51,495,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,495,'EmptyAsNull','Yes',d).
+att_prop_i(51,495,idBasedOn,'',d).
+att_prop_i(51,495,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,495,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,495,'AttRegEx','',d).
+att_prop_i(51,495,'AttValidationFailedMsg','',d).
+att_prop_i(51,495,'FullName','BR_Comorbidity_BloodHistory_Code',v).
+att_prop_i(51,47,'HORIZONTAL_DESCRIPTION',过敏史,d).
+att_prop_i(51,47,'ExternalName','BR_Comorbidity_allergy',d).
+att_prop_i(51,47,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,47,'EmptyAsNull','Yes',d).
+att_prop_i(51,47,idBasedOn,93,v).
+att_prop_i(51,47,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,47,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,47,'AttRegEx','',d).
+att_prop_i(51,47,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(51,47,'FullName','BR_Comorbidity_allergy',v).
+att_prop_i(51,496,'HORIZONTAL_DESCRIPTION',过敏史code,d).
+att_prop_i(51,496,'ExternalName','BR_Comorbidity_allergy_Code',d).
+att_prop_i(51,496,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,496,'EmptyAsNull','Yes',d).
+att_prop_i(51,496,idBasedOn,'',d).
+att_prop_i(51,496,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,496,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,496,'AttRegEx','',d).
+att_prop_i(51,496,'AttValidationFailedMsg','',d).
+att_prop_i(51,496,'FullName','BR_Comorbidity_allergy_Code',v).
+att_prop_i(51,259,'HORIZONTAL_DESCRIPTION',其他病史,d).
+att_prop_i(51,259,'ExternalName','BR_Comorbidity_Others',d).
+att_prop_i(51,259,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,259,'EmptyAsNull','Yes',d).
+att_prop_i(51,259,idBasedOn,'',d).
+att_prop_i(51,259,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,259,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,259,'AttRegEx','',d).
+att_prop_i(51,259,'AttValidationFailedMsg','',d).
+att_prop_i(51,259,'FullName','BR_Comorbidity_Others',v).
+att_prop_i(51,561,'HORIZONTAL_DESCRIPTION',乙肝,d).
+att_prop_i(51,561,'ExternalName','BR_Comorbidity_HapetitisB',d).
+att_prop_i(51,561,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,561,'EmptyAsNull','Yes',d).
+att_prop_i(51,561,idBasedOn,93,v).
+att_prop_i(51,561,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,561,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,561,'AttRegEx','',d).
+att_prop_i(51,561,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(51,561,'FullName','BR_Comorbidity_HapetitisB',v).
+att_prop_i(51,562,'HORIZONTAL_DESCRIPTION',乙肝code,d).
+att_prop_i(51,562,'ExternalName','BR_Comorbidity_HapetitisB_Code',d).
+att_prop_i(51,562,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,562,'EmptyAsNull','Yes',d).
+att_prop_i(51,562,idBasedOn,'',d).
+att_prop_i(51,562,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,562,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,562,'AttRegEx','',d).
+att_prop_i(51,562,'AttValidationFailedMsg','',d).
+att_prop_i(51,562,'FullName','BR_Comorbidity_HapetitisB_Code',v).
+att_prop_i(51,563,'HORIZONTAL_DESCRIPTION',丙肝,d).
+att_prop_i(51,563,'ExternalName','BR_Comorbidity_HapetitisC',d).
+att_prop_i(51,563,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,563,'EmptyAsNull','Yes',d).
+att_prop_i(51,563,idBasedOn,93,v).
+att_prop_i(51,563,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,563,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,563,'AttRegEx','',d).
+att_prop_i(51,563,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(51,563,'FullName','BR_Comorbidity_HapetitisC',v).
+att_prop_i(51,564,'HORIZONTAL_DESCRIPTION',丙肝code,d).
+att_prop_i(51,564,'ExternalName','BR_Comorbidity_HapetitisC_Code',d).
+att_prop_i(51,564,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,564,'EmptyAsNull','Yes',d).
+att_prop_i(51,564,idBasedOn,'',d).
+att_prop_i(51,564,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,564,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,564,'AttRegEx','',d).
+att_prop_i(51,564,'AttValidationFailedMsg','',d).
+att_prop_i(51,564,'FullName','BR_Comorbidity_HapetitisC_Code',v).
+att_prop_i(51,565,'HORIZONTAL_DESCRIPTION',肝硬化,d).
+att_prop_i(51,565,'ExternalName','BR_Comorbidity_LiverCirrhosis',d).
+att_prop_i(51,565,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,565,'EmptyAsNull','Yes',d).
+att_prop_i(51,565,idBasedOn,93,v).
+att_prop_i(51,565,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,565,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,565,'AttRegEx','',d).
+att_prop_i(51,565,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(51,565,'FullName','BR_Comorbidity_LiverCirrhosis',v).
+att_prop_i(51,566,'HORIZONTAL_DESCRIPTION',肝硬化code,d).
+att_prop_i(51,566,'ExternalName','BR_Comorbidity_LiverCirrhosis_Code',d).
+att_prop_i(51,566,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,566,'EmptyAsNull','Yes',d).
+att_prop_i(51,566,idBasedOn,'',d).
+att_prop_i(51,566,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,566,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,566,'AttRegEx','',d).
+att_prop_i(51,566,'AttValidationFailedMsg','',d).
+att_prop_i(51,566,'FullName','BR_Comorbidity_LiverCirrhosis_Code',v).
+att_prop_i(51,567,'HORIZONTAL_DESCRIPTION',药物性肝损伤,d).
+att_prop_i(51,567,'ExternalName','BR_Comorbidity_Druginducedliverinjury',d).
+att_prop_i(51,567,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,567,'EmptyAsNull','Yes',d).
+att_prop_i(51,567,idBasedOn,93,v).
+att_prop_i(51,567,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,567,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,567,'AttRegEx','',d).
+att_prop_i(51,567,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(51,567,'FullName','BR_Comorbidity_Druginducedliverinjury',v).
+att_prop_i(51,568,'HORIZONTAL_DESCRIPTION',药物性肝损伤code,d).
+att_prop_i(51,568,'ExternalName','BR_Comorbidity_Druginducedliverinjury_Code',d).
+att_prop_i(51,568,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,568,'EmptyAsNull','Yes',d).
+att_prop_i(51,568,idBasedOn,'',d).
+att_prop_i(51,568,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,568,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,568,'AttRegEx','',d).
+att_prop_i(51,568,'AttValidationFailedMsg','',d).
+att_prop_i(51,568,'FullName','BR_Comorbidity_Druginducedliverinjury_Code',v).
+att_prop_i(51,85,'HORIZONTAL_DESCRIPTION',患者基本信息主键ID,d).
+att_prop_i(51,85,'ExternalName','BR_Information_ID',d).
+att_prop_i(51,85,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,85,'EmptyAsNull','Yes',d).
+att_prop_i(51,85,idBasedOn,69,v).
+att_prop_i(51,85,'AUTONUMBER','-1',d).
+att_prop_i(51,85,'AUTONUMBER_START','1',d).
+att_prop_i(51,85,'AUTONUMBER_STEP','1',d).
+att_prop_i(51,85,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(51,85,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,85,'AttRegEx','',d).
+att_prop_i(51,85,'AttValidationFailedMsg','',d).
+att_prop_i(51,85,'FullName','BR_Information_ID',v).
+ 
+tbl_prop_i(51,15,'AllDirSuper',[ [ 16,[ 85 ] ] ],v).
+tbl_prop_i(51,10,'AllDirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(51,15,'DirSuperNull',[ [ 16,[ 85 ] ] ],v).
+tbl_prop_i(51,15,'DirSubor',[ [ 10,[ 19 ] ] ],v).
+tbl_prop_i(51,10,'DirSuper',[ [ 15,[ 19 ] ] ],v).
+ 
+tbl_att_prop_i(51,10,37,'AllowNulls',n).
+tbl_att_prop_i(51,10,37,'AUTONUMBER',y).
+tbl_att_prop_i(51,10,19,'AllowNulls',n).
+tbl_att_prop_i(51,15,19,'AllowNulls',n).
+tbl_att_prop_i(51,15,19,'AUTONUMBER',y).
+tbl_att_prop_i(51,16,85,'AllowNulls',n).
+tbl_att_prop_i(51,16,85,'AUTONUMBER',y).
+ 
+var_prop_i(51,'Insert_br_encounterid',idBasedOn,'',v).
+ 
+i_tbl_best_trn(10,[ 9,1,'BR_Comorbidity',既往病史,[] ]).
+i_tbl_best_trn(15,[ 14,1,'BR_Encounter',就诊信息,[] ]).
+i_tbl_best_trn(16,[ 15,1,'BR_Information','Data Mgmt Portal - RAAP',[] ]).
+ 
+ 
+ 
+trn_level_i(10,[ [ 37,19,36,38,487,39,488,40,489,41,490,42,491,43,492,44,493,45,494,46,495,47,496,259,561,562,563,564,565,566,567,568 ],'BR_Comorbidity',既往病史,'BR_Comorbidity','',0 ]).
+ 
+struct_dt_i([ 26,43,0 ],name,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,43,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 26,43,0 ],'ObjName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ObjDesc','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 26,49,0 ],name,'WWPBaseObjects\WWPTransactionContext').
+struct_dt_i([ 26,49,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 26,49,0 ],'ObjName','WWPTransactionContext').
+struct_dt_i([ 26,49,0 ],'ObjDesc','WWP Transaction Context').
+struct_dt_i([ 26,49,0 ],'ExternalName','WWPTransactionContext').
+struct_dt_i([ 26,49,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 26,49,83 ],name,'Attribute').
+struct_dt_i([ 26,49,83 ],namespace,'DataAnalysisPlatform.WWPTransactionContext').
+struct_dt_i([ 0,9,0 ],name,'BR_Comorbidity').
+struct_dt_i([ 0,9,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,9,0 ],significantName,'BR_Comorbidity').
+struct_dt_i([ 0,9,0 ],'ObjName','BR_Comorbidity').
+struct_dt_i([ 0,9,0 ],'ObjDesc',既往病史).
+struct_dt_i([ 0,9,0 ],'ExternalName','BR_Comorbidity').
+struct_dt_i([ 0,9,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,9,0 ],key,[ 37 ]).
+struct_dt_i([ 0,9,0 ],lvl,10).
+struct_dt_i([ 26,8,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,8,0 ],'ObjName','Messages').
+struct_dt_i([ 26,8,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,8,0 ],collection,'True').
+struct_dt_i([ 26,8,0 ],datatype,[ 26,8,25 ]).
+struct_dt_i([ 26,8,0 ],isexternal,'True').
+struct_dt_i([ 26,8,25 ],name,'Message').
+struct_dt_i([ 26,8,25 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 26,43,0 ],fullname,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,49,0 ],fullname,'WWPBaseObjects\WWPTransactionContext').
+struct_dt_i([ 26,49,83 ],fullname,'WWPBaseObjects\WWPTransactionContext.Attribute').
+struct_dt_i([ 0,9,0 ],fullname,'BR_Comorbidity').
+struct_dt_i([ 26,8,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,25 ],fullname,'GeneXus\Common\Messages.Message').
+ 
+struct_dt_elem_i([ 26,43,0 ],1,name,'Userid').
+struct_dt_elem_i([ 26,43,0 ],1,camelname,'UserId').
+struct_dt_elem_i([ 26,43,0 ],1,length,4).
+struct_dt_elem_i([ 26,43,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],1,sign,0).
+struct_dt_elem_i([ 26,43,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalName','UserId').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],2,name,'Userguid').
+struct_dt_elem_i([ 26,43,0 ],2,camelname,'UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,length,500).
+struct_dt_elem_i([ 26,43,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],2,type,[ 13,500,0 ]).
+struct_dt_elem_i([ 26,43,0 ],2,pic,'').
+struct_dt_elem_i([ 26,43,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalName','UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],3,name,'Username').
+struct_dt_elem_i([ 26,43,0 ],3,camelname,'UserName').
+struct_dt_elem_i([ 26,43,0 ],3,length,100).
+struct_dt_elem_i([ 26,43,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],3,pic,'').
+struct_dt_elem_i([ 26,43,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalName','UserName').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],4,name,'Usertype').
+struct_dt_elem_i([ 26,43,0 ],4,camelname,'UserType').
+struct_dt_elem_i([ 26,43,0 ],4,length,4).
+struct_dt_elem_i([ 26,43,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],4,sign,0).
+struct_dt_elem_i([ 26,43,0 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalName','UserType').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],5,name,'Userdisplayname').
+struct_dt_elem_i([ 26,43,0 ],5,camelname,'UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,length,100).
+struct_dt_elem_i([ 26,43,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],5,pic,'').
+struct_dt_elem_i([ 26,43,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalName','UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],6,name,'Userproviderid').
+struct_dt_elem_i([ 26,43,0 ],6,camelname,'UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,basedon,69).
+struct_dt_elem_i([ 26,43,0 ],6,length,18).
+struct_dt_elem_i([ 26,43,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],6,sign,0).
+struct_dt_elem_i([ 26,43,0 ],6,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,43,0 ],6,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 26,43,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalName','UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],7,name,'Userprovidername').
+struct_dt_elem_i([ 26,43,0 ],7,camelname,'UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,length,100).
+struct_dt_elem_i([ 26,43,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],7,pic,'').
+struct_dt_elem_i([ 26,43,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalName','UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],8,name,'Currenttnum').
+struct_dt_elem_i([ 26,43,0 ],8,camelname,currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,length,4).
+struct_dt_elem_i([ 26,43,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],8,sign,0).
+struct_dt_elem_i([ 26,43,0 ],8,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],8,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalName',currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],8,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],8,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],9,name,'Clientip').
+struct_dt_elem_i([ 26,43,0 ],9,camelname,'ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,length,40).
+struct_dt_elem_i([ 26,43,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],9,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,43,0 ],9,pic,'').
+struct_dt_elem_i([ 26,43,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalName','ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],9,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],9,'JsonName','').
+struct_dt_elem_i([ 26,49,0 ],1,name,'Callerobject').
+struct_dt_elem_i([ 26,49,0 ],1,camelname,'CallerObject').
+struct_dt_elem_i([ 26,49,0 ],1,basedon,33).
+struct_dt_elem_i([ 26,49,0 ],1,length,256).
+struct_dt_elem_i([ 26,49,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,49,0 ],1,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,49,0 ],1,pic,'').
+struct_dt_elem_i([ 26,49,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,49,0 ],1,'ExternalName','CallerObject').
+struct_dt_elem_i([ 26,49,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,49,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,49,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,49,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,49,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,49,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,49,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,49,0 ],2,name,'Callerondelete').
+struct_dt_elem_i([ 26,49,0 ],2,camelname,'CallerOnDelete').
+struct_dt_elem_i([ 26,49,0 ],2,length,4).
+struct_dt_elem_i([ 26,49,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,49,0 ],2,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,49,0 ],2,pic,'').
+struct_dt_elem_i([ 26,49,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,49,0 ],2,'ExternalName','CallerOnDelete').
+struct_dt_elem_i([ 26,49,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,49,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,49,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,49,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,49,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,49,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,49,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,49,0 ],3,name,'Callerurl').
+struct_dt_elem_i([ 26,49,0 ],3,camelname,'CallerURL').
+struct_dt_elem_i([ 26,49,0 ],3,basedon,12).
+struct_dt_elem_i([ 26,49,0 ],3,length,1000).
+struct_dt_elem_i([ 26,49,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,49,0 ],3,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,49,0 ],3,pic,'').
+struct_dt_elem_i([ 26,49,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,49,0 ],3,'ExternalName','CallerURL').
+struct_dt_elem_i([ 26,49,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,49,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,49,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,49,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,49,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,49,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,49,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,49,0 ],4,name,'Transactionname').
+struct_dt_elem_i([ 26,49,0 ],4,camelname,'TransactionName').
+struct_dt_elem_i([ 26,49,0 ],4,basedon,33).
+struct_dt_elem_i([ 26,49,0 ],4,length,256).
+struct_dt_elem_i([ 26,49,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,49,0 ],4,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,49,0 ],4,pic,'').
+struct_dt_elem_i([ 26,49,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,49,0 ],4,'ExternalName','TransactionName').
+struct_dt_elem_i([ 26,49,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,49,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,49,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,49,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,49,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,49,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,49,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,49,0 ],5,name,'Attributes').
+struct_dt_elem_i([ 26,49,0 ],5,camelname,'Attributes').
+struct_dt_elem_i([ 26,49,0 ],5,type,[ [ 26,49,83 ],0,0 ]).
+struct_dt_elem_i([ 26,49,0 ],5,pic,'').
+struct_dt_elem_i([ 26,49,0 ],5,collection,'True').
+struct_dt_elem_i([ 26,49,0 ],5,'ObjName','Attributes').
+struct_dt_elem_i([ 26,49,0 ],5,'ObjDesc','Attributes').
+struct_dt_elem_i([ 26,49,0 ],5,'CollectionItemName','Attribute').
+struct_dt_elem_i([ 26,49,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,49,0 ],5,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,49,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,49,0 ],5,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,49,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,49,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,49,0 ],5,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,49,83 ],1,name,'Attributename').
+struct_dt_elem_i([ 26,49,83 ],1,camelname,'AttributeName').
+struct_dt_elem_i([ 26,49,83 ],1,length,128).
+struct_dt_elem_i([ 26,49,83 ],1,decimals,0).
+struct_dt_elem_i([ 26,49,83 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,49,83 ],1,pic,'').
+struct_dt_elem_i([ 26,49,83 ],1,collection,'False').
+struct_dt_elem_i([ 26,49,83 ],1,'ExternalName','AttributeName').
+struct_dt_elem_i([ 26,49,83 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,49,83 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,49,83 ],1,'XmlName','').
+struct_dt_elem_i([ 26,49,83 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,49,83 ],1,soaptype,'').
+struct_dt_elem_i([ 26,49,83 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,49,83 ],1,'JsonName','').
+struct_dt_elem_i([ 26,49,83 ],2,name,'Attributevalue').
+struct_dt_elem_i([ 26,49,83 ],2,camelname,'AttributeValue').
+struct_dt_elem_i([ 26,49,83 ],2,length,1000).
+struct_dt_elem_i([ 26,49,83 ],2,decimals,0).
+struct_dt_elem_i([ 26,49,83 ],2,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,49,83 ],2,pic,'').
+struct_dt_elem_i([ 26,49,83 ],2,collection,'False').
+struct_dt_elem_i([ 26,49,83 ],2,'ExternalName','AttributeValue').
+struct_dt_elem_i([ 26,49,83 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,49,83 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,49,83 ],2,'XmlName','').
+struct_dt_elem_i([ 26,49,83 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,49,83 ],2,soaptype,'').
+struct_dt_elem_i([ 26,49,83 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,49,83 ],2,'JsonName','').
+struct_dt_elem_i([ 0,9,0 ],1,name,'Br_comorbidityid').
+struct_dt_elem_i([ 0,9,0 ],1,camelname,'BR_ComorbidityID').
+struct_dt_elem_i([ 0,9,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,9,0 ],1,length,18).
+struct_dt_elem_i([ 0,9,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],1,sign,0).
+struct_dt_elem_i([ 0,9,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,9,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,9,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],1,attributeid,'37').
+struct_dt_elem_i([ 0,9,0 ],1,'ExternalName','BR_ComorbidityID').
+struct_dt_elem_i([ 0,9,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],2,name,'Br_encounterid').
+struct_dt_elem_i([ 0,9,0 ],2,camelname,'BR_EncounterID').
+struct_dt_elem_i([ 0,9,0 ],2,basedon,69).
+struct_dt_elem_i([ 0,9,0 ],2,length,18).
+struct_dt_elem_i([ 0,9,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],2,sign,0).
+struct_dt_elem_i([ 0,9,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,9,0 ],2,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,9,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],2,attributeid,'19').
+struct_dt_elem_i([ 0,9,0 ],2,'ExternalName','BR_EncounterID').
+struct_dt_elem_i([ 0,9,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],3,name,'Br_information_patientno').
+struct_dt_elem_i([ 0,9,0 ],3,camelname,'BR_Information_PatientNo').
+struct_dt_elem_i([ 0,9,0 ],3,length,2000).
+struct_dt_elem_i([ 0,9,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],3,type,[ 13,2000,0 ]).
+struct_dt_elem_i([ 0,9,0 ],3,pic,'').
+struct_dt_elem_i([ 0,9,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],3,attributeid,'36').
+struct_dt_elem_i([ 0,9,0 ],3,'ExternalName','BR_Information_PatientNo').
+struct_dt_elem_i([ 0,9,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],4,name,'Br_comorbidity_hypertension').
+struct_dt_elem_i([ 0,9,0 ],4,camelname,'BR_Comorbidity_Hypertension').
+struct_dt_elem_i([ 0,9,0 ],4,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],4,length,40).
+struct_dt_elem_i([ 0,9,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],4,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],4,pic,'').
+struct_dt_elem_i([ 0,9,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],4,attributeid,'38').
+struct_dt_elem_i([ 0,9,0 ],4,'ExternalName','BR_Comorbidity_Hypertension').
+struct_dt_elem_i([ 0,9,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],5,name,'Br_comorbidity_hypertension_code').
+struct_dt_elem_i([ 0,9,0 ],5,camelname,'BR_Comorbidity_Hypertension_Code').
+struct_dt_elem_i([ 0,9,0 ],5,length,40).
+struct_dt_elem_i([ 0,9,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],5,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],5,pic,'').
+struct_dt_elem_i([ 0,9,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],5,attributeid,'487').
+struct_dt_elem_i([ 0,9,0 ],5,'ExternalName','BR_Comorbidity_Hypertension_Code').
+struct_dt_elem_i([ 0,9,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],6,name,'Br_comorbidity_diabetes').
+struct_dt_elem_i([ 0,9,0 ],6,camelname,'BR_Comorbidity_Diabetes').
+struct_dt_elem_i([ 0,9,0 ],6,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],6,length,40).
+struct_dt_elem_i([ 0,9,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],6,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],6,pic,'').
+struct_dt_elem_i([ 0,9,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],6,attributeid,'39').
+struct_dt_elem_i([ 0,9,0 ],6,'ExternalName','BR_Comorbidity_Diabetes').
+struct_dt_elem_i([ 0,9,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],7,name,'Br_comorbidity_diabetes_code').
+struct_dt_elem_i([ 0,9,0 ],7,camelname,'BR_Comorbidity_Diabetes_Code').
+struct_dt_elem_i([ 0,9,0 ],7,length,40).
+struct_dt_elem_i([ 0,9,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],7,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],7,pic,'').
+struct_dt_elem_i([ 0,9,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],7,attributeid,'488').
+struct_dt_elem_i([ 0,9,0 ],7,'ExternalName','BR_Comorbidity_Diabetes_Code').
+struct_dt_elem_i([ 0,9,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],8,name,'Br_comorbidity_chd').
+struct_dt_elem_i([ 0,9,0 ],8,camelname,'BR_Comorbidity_CHD').
+struct_dt_elem_i([ 0,9,0 ],8,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],8,length,40).
+struct_dt_elem_i([ 0,9,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],8,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],8,pic,'').
+struct_dt_elem_i([ 0,9,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],8,attributeid,'40').
+struct_dt_elem_i([ 0,9,0 ],8,'ExternalName','BR_Comorbidity_CHD').
+struct_dt_elem_i([ 0,9,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],9,name,'Br_comorbidity_chd_code').
+struct_dt_elem_i([ 0,9,0 ],9,camelname,'BR_Comorbidity_CHD_Code').
+struct_dt_elem_i([ 0,9,0 ],9,length,40).
+struct_dt_elem_i([ 0,9,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],9,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],9,pic,'').
+struct_dt_elem_i([ 0,9,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],9,attributeid,'489').
+struct_dt_elem_i([ 0,9,0 ],9,'ExternalName','BR_Comorbidity_CHD_Code').
+struct_dt_elem_i([ 0,9,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],10,name,'Br_comorbidity_hapetitis').
+struct_dt_elem_i([ 0,9,0 ],10,camelname,'BR_Comorbidity_Hapetitis').
+struct_dt_elem_i([ 0,9,0 ],10,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],10,length,40).
+struct_dt_elem_i([ 0,9,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],10,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],10,pic,'').
+struct_dt_elem_i([ 0,9,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],10,attributeid,'41').
+struct_dt_elem_i([ 0,9,0 ],10,'ExternalName','BR_Comorbidity_Hapetitis').
+struct_dt_elem_i([ 0,9,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],11,name,'Br_comorbidity_hapetitis_code').
+struct_dt_elem_i([ 0,9,0 ],11,camelname,'BR_Comorbidity_Hapetitis_Code').
+struct_dt_elem_i([ 0,9,0 ],11,length,40).
+struct_dt_elem_i([ 0,9,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],11,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],11,pic,'').
+struct_dt_elem_i([ 0,9,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],11,attributeid,'490').
+struct_dt_elem_i([ 0,9,0 ],11,'ExternalName','BR_Comorbidity_Hapetitis_Code').
+struct_dt_elem_i([ 0,9,0 ],11,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],12,name,'Br_comorbidity_tb').
+struct_dt_elem_i([ 0,9,0 ],12,camelname,'BR_Comorbidity_TB').
+struct_dt_elem_i([ 0,9,0 ],12,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],12,length,40).
+struct_dt_elem_i([ 0,9,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],12,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],12,pic,'').
+struct_dt_elem_i([ 0,9,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],12,attributeid,'42').
+struct_dt_elem_i([ 0,9,0 ],12,'ExternalName','BR_Comorbidity_TB').
+struct_dt_elem_i([ 0,9,0 ],12,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],13,name,'Br_comorbidity_tb_code').
+struct_dt_elem_i([ 0,9,0 ],13,camelname,'BR_Comorbidity_TB_Code').
+struct_dt_elem_i([ 0,9,0 ],13,length,40).
+struct_dt_elem_i([ 0,9,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],13,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],13,pic,'').
+struct_dt_elem_i([ 0,9,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],13,attributeid,'491').
+struct_dt_elem_i([ 0,9,0 ],13,'ExternalName','BR_Comorbidity_TB_Code').
+struct_dt_elem_i([ 0,9,0 ],13,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],14,name,'Br_comorbidity_kidneydisease').
+struct_dt_elem_i([ 0,9,0 ],14,camelname,'BR_Comorbidity_KidneyDisease').
+struct_dt_elem_i([ 0,9,0 ],14,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],14,length,40).
+struct_dt_elem_i([ 0,9,0 ],14,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],14,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],14,pic,'').
+struct_dt_elem_i([ 0,9,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],14,attributeid,'43').
+struct_dt_elem_i([ 0,9,0 ],14,'ExternalName','BR_Comorbidity_KidneyDisease').
+struct_dt_elem_i([ 0,9,0 ],14,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],15,name,'Br_comorbidity_kidneydisease_code').
+struct_dt_elem_i([ 0,9,0 ],15,camelname,'BR_Comorbidity_KidneyDisease_Code').
+struct_dt_elem_i([ 0,9,0 ],15,length,40).
+struct_dt_elem_i([ 0,9,0 ],15,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],15,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],15,pic,'').
+struct_dt_elem_i([ 0,9,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],15,attributeid,'492').
+struct_dt_elem_i([ 0,9,0 ],15,'ExternalName','BR_Comorbidity_KidneyDisease_Code').
+struct_dt_elem_i([ 0,9,0 ],15,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],16,name,'Br_comorbidity_surgeryhistory').
+struct_dt_elem_i([ 0,9,0 ],16,camelname,'BR_Comorbidity_SurgeryHistory').
+struct_dt_elem_i([ 0,9,0 ],16,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],16,length,40).
+struct_dt_elem_i([ 0,9,0 ],16,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],16,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],16,pic,'').
+struct_dt_elem_i([ 0,9,0 ],16,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],16,attributeid,'44').
+struct_dt_elem_i([ 0,9,0 ],16,'ExternalName','BR_Comorbidity_SurgeryHistory').
+struct_dt_elem_i([ 0,9,0 ],16,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],17,name,'Br_comorbidity_surgeryhistory_code').
+struct_dt_elem_i([ 0,9,0 ],17,camelname,'BR_Comorbidity_SurgeryHistory_Code').
+struct_dt_elem_i([ 0,9,0 ],17,length,40).
+struct_dt_elem_i([ 0,9,0 ],17,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],17,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],17,pic,'').
+struct_dt_elem_i([ 0,9,0 ],17,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],17,attributeid,'493').
+struct_dt_elem_i([ 0,9,0 ],17,'ExternalName','BR_Comorbidity_SurgeryHistory_Code').
+struct_dt_elem_i([ 0,9,0 ],17,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],18,name,'Br_comorbidity_injuryhistory').
+struct_dt_elem_i([ 0,9,0 ],18,camelname,'BR_Comorbidity_InjuryHistory').
+struct_dt_elem_i([ 0,9,0 ],18,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],18,length,40).
+struct_dt_elem_i([ 0,9,0 ],18,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],18,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],18,pic,'').
+struct_dt_elem_i([ 0,9,0 ],18,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],18,attributeid,'45').
+struct_dt_elem_i([ 0,9,0 ],18,'ExternalName','BR_Comorbidity_InjuryHistory').
+struct_dt_elem_i([ 0,9,0 ],18,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],19,name,'Br_comorbidity_injuryhistory_code').
+struct_dt_elem_i([ 0,9,0 ],19,camelname,'BR_Comorbidity_InjuryHistory_Code').
+struct_dt_elem_i([ 0,9,0 ],19,length,40).
+struct_dt_elem_i([ 0,9,0 ],19,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],19,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],19,pic,'').
+struct_dt_elem_i([ 0,9,0 ],19,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],19,attributeid,'494').
+struct_dt_elem_i([ 0,9,0 ],19,'ExternalName','BR_Comorbidity_InjuryHistory_Code').
+struct_dt_elem_i([ 0,9,0 ],19,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],20,name,'Br_comorbidity_bloodhistory').
+struct_dt_elem_i([ 0,9,0 ],20,camelname,'BR_Comorbidity_BloodHistory').
+struct_dt_elem_i([ 0,9,0 ],20,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],20,length,40).
+struct_dt_elem_i([ 0,9,0 ],20,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],20,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],20,pic,'').
+struct_dt_elem_i([ 0,9,0 ],20,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],20,attributeid,'46').
+struct_dt_elem_i([ 0,9,0 ],20,'ExternalName','BR_Comorbidity_BloodHistory').
+struct_dt_elem_i([ 0,9,0 ],20,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],21,name,'Br_comorbidity_bloodhistory_code').
+struct_dt_elem_i([ 0,9,0 ],21,camelname,'BR_Comorbidity_BloodHistory_Code').
+struct_dt_elem_i([ 0,9,0 ],21,length,40).
+struct_dt_elem_i([ 0,9,0 ],21,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],21,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],21,pic,'').
+struct_dt_elem_i([ 0,9,0 ],21,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],21,attributeid,'495').
+struct_dt_elem_i([ 0,9,0 ],21,'ExternalName','BR_Comorbidity_BloodHistory_Code').
+struct_dt_elem_i([ 0,9,0 ],21,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],22,name,'Br_comorbidity_allergy').
+struct_dt_elem_i([ 0,9,0 ],22,camelname,'BR_Comorbidity_allergy').
+struct_dt_elem_i([ 0,9,0 ],22,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],22,length,40).
+struct_dt_elem_i([ 0,9,0 ],22,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],22,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],22,pic,'').
+struct_dt_elem_i([ 0,9,0 ],22,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],22,attributeid,'47').
+struct_dt_elem_i([ 0,9,0 ],22,'ExternalName','BR_Comorbidity_allergy').
+struct_dt_elem_i([ 0,9,0 ],22,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],23,name,'Br_comorbidity_allergy_code').
+struct_dt_elem_i([ 0,9,0 ],23,camelname,'BR_Comorbidity_allergy_Code').
+struct_dt_elem_i([ 0,9,0 ],23,length,40).
+struct_dt_elem_i([ 0,9,0 ],23,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],23,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],23,pic,'').
+struct_dt_elem_i([ 0,9,0 ],23,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],23,attributeid,'496').
+struct_dt_elem_i([ 0,9,0 ],23,'ExternalName','BR_Comorbidity_allergy_Code').
+struct_dt_elem_i([ 0,9,0 ],23,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],24,name,'Br_comorbidity_others').
+struct_dt_elem_i([ 0,9,0 ],24,camelname,'BR_Comorbidity_Others').
+struct_dt_elem_i([ 0,9,0 ],24,length,255).
+struct_dt_elem_i([ 0,9,0 ],24,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],24,type,[ 13,255,0 ]).
+struct_dt_elem_i([ 0,9,0 ],24,pic,'').
+struct_dt_elem_i([ 0,9,0 ],24,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],24,attributeid,'259').
+struct_dt_elem_i([ 0,9,0 ],24,'ExternalName','BR_Comorbidity_Others').
+struct_dt_elem_i([ 0,9,0 ],24,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],25,name,'Br_comorbidity_hapetitisb').
+struct_dt_elem_i([ 0,9,0 ],25,camelname,'BR_Comorbidity_HapetitisB').
+struct_dt_elem_i([ 0,9,0 ],25,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],25,length,40).
+struct_dt_elem_i([ 0,9,0 ],25,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],25,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],25,pic,'').
+struct_dt_elem_i([ 0,9,0 ],25,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],25,attributeid,'561').
+struct_dt_elem_i([ 0,9,0 ],25,'ExternalName','BR_Comorbidity_HapetitisB').
+struct_dt_elem_i([ 0,9,0 ],25,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],26,name,'Br_comorbidity_hapetitisb_code').
+struct_dt_elem_i([ 0,9,0 ],26,camelname,'BR_Comorbidity_HapetitisB_Code').
+struct_dt_elem_i([ 0,9,0 ],26,length,40).
+struct_dt_elem_i([ 0,9,0 ],26,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],26,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],26,pic,'').
+struct_dt_elem_i([ 0,9,0 ],26,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],26,attributeid,'562').
+struct_dt_elem_i([ 0,9,0 ],26,'ExternalName','BR_Comorbidity_HapetitisB_Code').
+struct_dt_elem_i([ 0,9,0 ],26,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],27,name,'Br_comorbidity_hapetitisc').
+struct_dt_elem_i([ 0,9,0 ],27,camelname,'BR_Comorbidity_HapetitisC').
+struct_dt_elem_i([ 0,9,0 ],27,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],27,length,40).
+struct_dt_elem_i([ 0,9,0 ],27,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],27,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],27,pic,'').
+struct_dt_elem_i([ 0,9,0 ],27,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],27,attributeid,'563').
+struct_dt_elem_i([ 0,9,0 ],27,'ExternalName','BR_Comorbidity_HapetitisC').
+struct_dt_elem_i([ 0,9,0 ],27,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],28,name,'Br_comorbidity_hapetitisc_code').
+struct_dt_elem_i([ 0,9,0 ],28,camelname,'BR_Comorbidity_HapetitisC_Code').
+struct_dt_elem_i([ 0,9,0 ],28,length,40).
+struct_dt_elem_i([ 0,9,0 ],28,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],28,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],28,pic,'').
+struct_dt_elem_i([ 0,9,0 ],28,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],28,attributeid,'564').
+struct_dt_elem_i([ 0,9,0 ],28,'ExternalName','BR_Comorbidity_HapetitisC_Code').
+struct_dt_elem_i([ 0,9,0 ],28,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],29,name,'Br_comorbidity_livercirrhosis').
+struct_dt_elem_i([ 0,9,0 ],29,camelname,'BR_Comorbidity_LiverCirrhosis').
+struct_dt_elem_i([ 0,9,0 ],29,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],29,length,40).
+struct_dt_elem_i([ 0,9,0 ],29,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],29,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],29,pic,'').
+struct_dt_elem_i([ 0,9,0 ],29,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],29,attributeid,'565').
+struct_dt_elem_i([ 0,9,0 ],29,'ExternalName','BR_Comorbidity_LiverCirrhosis').
+struct_dt_elem_i([ 0,9,0 ],29,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],30,name,'Br_comorbidity_livercirrhosis_code').
+struct_dt_elem_i([ 0,9,0 ],30,camelname,'BR_Comorbidity_LiverCirrhosis_Code').
+struct_dt_elem_i([ 0,9,0 ],30,length,40).
+struct_dt_elem_i([ 0,9,0 ],30,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],30,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],30,pic,'').
+struct_dt_elem_i([ 0,9,0 ],30,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],30,attributeid,'566').
+struct_dt_elem_i([ 0,9,0 ],30,'ExternalName','BR_Comorbidity_LiverCirrhosis_Code').
+struct_dt_elem_i([ 0,9,0 ],30,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],31,name,'Br_comorbidity_druginducedliverinjury').
+struct_dt_elem_i([ 0,9,0 ],31,camelname,'BR_Comorbidity_Druginducedliverinjury').
+struct_dt_elem_i([ 0,9,0 ],31,basedon,93).
+struct_dt_elem_i([ 0,9,0 ],31,length,40).
+struct_dt_elem_i([ 0,9,0 ],31,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],31,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],31,pic,'').
+struct_dt_elem_i([ 0,9,0 ],31,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],31,attributeid,'567').
+struct_dt_elem_i([ 0,9,0 ],31,'ExternalName','BR_Comorbidity_Druginducedliverinjury').
+struct_dt_elem_i([ 0,9,0 ],31,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,9,0 ],32,name,'Br_comorbidity_druginducedliverinjury_code').
+struct_dt_elem_i([ 0,9,0 ],32,camelname,'BR_Comorbidity_Druginducedliverinjury_Code').
+struct_dt_elem_i([ 0,9,0 ],32,length,40).
+struct_dt_elem_i([ 0,9,0 ],32,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],32,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],32,pic,'').
+struct_dt_elem_i([ 0,9,0 ],32,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],32,attributeid,'568').
+struct_dt_elem_i([ 0,9,0 ],32,'ExternalName','BR_Comorbidity_Druginducedliverinjury_Code').
+struct_dt_elem_i([ 0,9,0 ],32,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,name,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,length,128).
+struct_dt_elem_i([ 26,8,25 ],1,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,8,25 ],1,pic,'').
+struct_dt_elem_i([ 26,8,25 ],1,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],1,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],1,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],2,name,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,basedon,30).
+struct_dt_elem_i([ 26,8,25 ],2,length,2).
+struct_dt_elem_i([ 26,8,25 ],2,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],2,sign,0).
+struct_dt_elem_i([ 26,8,25 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,8,25 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,8,25 ],2,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],2,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],2,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],3,name,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,length,256).
+struct_dt_elem_i([ 26,8,25 ],3,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,8,25 ],3,pic,'').
+struct_dt_elem_i([ 26,8,25 ],3,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],3,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],3,'JsonName','').
+struct_dt_elem_i([ 0,9,0 ],4,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],6,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],8,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],10,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],12,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],14,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],16,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],18,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],20,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],22,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],25,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],27,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],29,pic,'99/99/9999').
+struct_dt_elem_i([ 0,9,0 ],31,pic,'99/99/9999').
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'Start',2,5,[ [],[] ]).
+sub_info_i(146,'After Trn',7,10,[ [],[] ]).
+ 
+pgm_parm_i(proc,130,'ZUTIL_FINDTARGETCODE',[ [ int,18,0,0 ],[ svchar,100,0,0 ],[ svchar,40,0,0 ] ],[ [ iXT_DefindcodeTypeID,in,[] ],[ iXT_DefineCodeName,in,[] ],[ oXT_TypeCode,out,[] ] ]).
+ 
+pgm_callprotocol_i(trn,9,'BR_COMORBIDITY_BC','INTERNAL').
+pgm_callprotocol_i(proc,130,'ZUTIL_FINDTARGETCODE','INTERNAL').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

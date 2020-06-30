@@ -1,0 +1,580 @@
+spec_i([ proc,144,初始化租户数据字典的数据,'PC_IntialDefineCode',78,chs,'16_0_0-127771' ]).
+ 
+struct_i(3,1,[],[]).
+struct_i(2,1,[],[]).
+ 
+level_i(3,[ 24,[ [ 24,many ] ],[],[],[ [ [ 24 ],[ 510,165,168,431 ] ] ],[ [ [ 24 ],[] ] ],[ 167 ],'IXT_DEFINECODE',[],[] ]).
+level_i(2,[ 24,[ [ 24,many ] ],[],[],[ [ [ 24 ],[ 432,510 ] ] ],[ [ [ 24 ],[] ] ],[ 167 ],'IXT_DEFINECODE',[],[] ]).
+ 
+tw_i(3,[]).
+tw_i(2,[]).
+ 
+lwi_i(3,[ [ c([ t(510,2),t(=,10),t('1',3) ],[ 510 ]) ] ]).
+lwi_i(2,[ [ c([ t(510,2),t(=,10),t('2',3) ],[ 510 ]),c([ t(432,2),t(=,10),t('Ibas_tenanttenantcode',23) ],[ 432 ]) ] ]).
+ 
+ 
+ 
+level_option_i(2,usr_condition,y).
+level_option_i(3,usr_condition,y).
+ 
+ta_i(3,[ [ [ 24,510 ],[ 24,165 ],[ 24,168 ],[ 24,431 ] ] ]).
+ta_i(2,[ [ [ 24,432 ],[ 24,510 ] ] ]).
+ 
+las_i(3,[ [ 510,165,168,431 ] ]).
+las_i(2,[ [ 432,510 ] ]).
+ 
+lac_i(3,[ [] ]).
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS',���)).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',���)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','PC_IntialDefineCode')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'XT'))).
+rule_i(0,prop('ObjDesc',初始化租户数据字典的数据)).
+rule_i(0,prop('ObjName','PC_IntialDefineCode')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Ibas_tenanttenantcode' ],[])).
+rule_i(0,parmio([ [ 'Ibas_tenanttenantcode',in ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,24,[],[ [],'IXT_DEFINECODE',[] ]).
+a_i(3,3,t,24,[],[ [],'IXT_DEFINECODE',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,432).
+v_i(t,o,2,510).
+v_i(t,i,3,[]).
+v_i(t,o,3,510).
+v_i(t,o,3,165).
+v_i(t,o,3,168).
+v_i(t,o,3,431).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',14 ]).
+attri_i(167,[ 'XT_DefineCodeID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,数据字典主键,'',0 ]).
+attri_i(432,[ 'XT_TenantCode',svchar,40,0,'',0,租户编号,'',0 ]).
+attri_i(510,[ 'XT_DefineCodeIntialType',int,4,0,'ZZZ9',0,是否初始数据字典,'',0 ]).
+attri_i(165,[ 'XT_DefindcodeTypeID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,数据字典类型主键,'',0 ]).
+attri_i(168,[ 'XT_DefineCodeName',svchar,100,0,'',0,数据字典名称,'',0 ]).
+attri_i(431,[ 'XT_TypeCode',svchar,40,0,'',0,分类code,'',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',11 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',10 ]).
+attri_i('Bcxt_definecode',[ 'BCXT_DefineCode',o('XT_DefineCode'),0,0,'',0,'BCXT_Define Code','',9 ]).
+attri_i('Ibas_tenanttenantcode',[ iBAS_TenantTenantCode,svchar,20,0,'',0,租户编号,'',8 ]).
+ 
+table_i(24,[ 'XT_DefineCode',[ 167,168,165,431,432,510 ],数据字典数据,'XT_DefineCode' ]).
+ 
+index_i(24,[ 'IXT_DEFINECODE',u,[ 167 ],'IXT_DefineCode' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(2,24,d,[ [],[],'IXT_DEFINECODE',[] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enumerated_i(51,510,109).
+ 
+enum_value_i(51,109,'1',yes,'"yes"',[ none ]).
+enum_value_i(51,109,'2',no,'"no"',[ none ]).
+ 
+enum_value_info_i(51,109,'DM_IsIntialData').
+ 
+enum_type_i(51,109,int,4,0).
+ 
+dom_info_i(69,[ 'ID' ]).
+dom_info_i(109,[ 'DM_IsIntialData' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [],[ 510,432 ],[] ]).
+break_i(3,nvg,1,[],[ [ 431,168,165 ],[ 510 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,1,1).
+b_group_i(2,1,lit,0,2,2).
+b_group_i(1,3,lit,0,7,6).
+b_group_i(1,4,nvg,3,8,8).
+b_group_i(3,1,lit,0,9,9).
+b_group_i(1,5,lit,0,25,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,2,1,cmd,2,[ t('',121,1,0),t(table,3,1,10),t(24,3,1,10) ]).
+b_line_i(4,2,1,cmd,2,[ t('',113,2,0) ]).
+b_line_i(5,2,1,cmd,2,[ t('',132,2,0) ]).
+b_line_i(6,2,1,cmd,2,[ t('',128,2,0) ]).
+b_line_i(7,1,3,cmd,6,[]).
+b_line_i(8,3,1,cmd,9,[ t('',121,8,0),t(table,3,8,10),t(24,3,8,10) ]).
+b_line_i(10,3,1,cmd,9,[ t('',107,9,0),t('Bcxt_definecode',23,9,0),t(=,10,9,0),t([ 'XT_DefineCode',[ t('(',0,10,22),t(')',4,10,23) ],n ],46,9,0) ]).
+b_line_i(11,3,1,cmd,9,[]).
+b_line_i(12,3,1,cmd,9,[ t('',107,9,0),t([ t('Bcxt_definecode',23,9,0),t('Xt_defindcodetypeid',3,9,0) ],29,9,0),t(=,10,9,0),t(165,2,9,0) ]).
+b_line_i(13,3,1,cmd,9,[]).
+b_line_i(14,3,1,cmd,9,[ t('',107,9,0),t([ t('Bcxt_definecode',23,9,0),t('Xt_definecodename',3,9,0) ],29,9,0),t(=,10,9,0),t('trim(',1,9,0),t(168,2,9,0),t(')',4,9,0) ]).
+b_line_i(15,3,1,cmd,9,[]).
+b_line_i(16,3,1,cmd,9,[ t('',107,9,0),t([ t('Bcxt_definecode',23,9,0),t('Xt_tenantcode',3,9,0) ],29,9,0),t(=,10,9,0),t('trim(',1,9,0),t('Ibas_tenanttenantcode',23,9,0),t(')',4,9,0) ]).
+b_line_i(17,3,1,cmd,9,[]).
+b_line_i(18,3,1,cmd,9,[ t('',107,9,0),t([ t('Bcxt_definecode',23,9,0),t('Xt_typecode',3,9,0) ],29,9,0),t(=,10,9,0),t('trim(',1,9,0),t(431,2,9,0),t(')',4,9,0) ]).
+b_line_i(19,3,1,cmd,9,[]).
+b_line_i(20,3,1,cmd,9,[ t('',107,9,0),t([ t('Bcxt_definecode',23,9,0),t('Xt_definecodeintialtype',3,9,0) ],29,9,0),t(=,10,9,0),t([ 109,no ],44,9,0) ]).
+b_line_i(21,3,1,cmd,9,[ t('',107,9,0),t([ t('Bcxt_definecode',23,21,18),t('Xt_definecodeorder',3,21,35),t('setnull(',1,21,54) ],31,21,18),t(')',4,9,63) ]).
+b_line_i(22,3,1,cmd,9,[ t('',107,9,0),t([ t('Bcxt_definecode',23,22,2),t('save(',1,22,19) ],31,22,19),t(')',4,9,25) ]).
+b_line_i(23,3,1,cmd,9,[ t('',132,9,0) ]).
+b_line_i(24,3,1,cmd,9,[ t('',128,9,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0060,[ 'The program may be called by another program and the Commit on Exit property is set to YES' ])).
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(51,431,'ExternalName','XT_TypeCode',d).
+att_prop_i(51,431,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,431,'EmptyAsNull','Yes',d).
+att_prop_i(51,431,idBasedOn,'',d).
+att_prop_i(51,431,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,431,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,431,'AttRegEx','',d).
+att_prop_i(51,431,'AttValidationFailedMsg','',d).
+att_prop_i(51,431,'FullName','XT_TypeCode',v).
+att_prop_i(51,168,'ExternalName','XT_DefineCodeName',d).
+att_prop_i(51,168,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,168,'EmptyAsNull','Yes',d).
+att_prop_i(51,168,idBasedOn,'',d).
+att_prop_i(51,168,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,168,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,168,'AttRegEx','',d).
+att_prop_i(51,168,'AttValidationFailedMsg','',d).
+att_prop_i(51,168,'FullName','XT_DefineCodeName',v).
+att_prop_i(51,165,'ExternalName','XT_DefindcodeTypeID',d).
+att_prop_i(51,165,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,165,'EmptyAsNull','Yes',d).
+att_prop_i(51,165,idBasedOn,69,v).
+att_prop_i(51,165,'AUTONUMBER','-1',d).
+att_prop_i(51,165,'AUTONUMBER_START','1',d).
+att_prop_i(51,165,'AUTONUMBER_STEP','1',d).
+att_prop_i(51,165,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(51,165,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,165,'AttRegEx','',d).
+att_prop_i(51,165,'AttValidationFailedMsg','',d).
+att_prop_i(51,165,'FullName','XT_DefindcodeTypeID',v).
+att_prop_i(51,510,'ExternalName','XT_DefineCodeIntialType',d).
+att_prop_i(51,510,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,510,'EmptyAsNull','Yes',d).
+att_prop_i(51,510,idBasedOn,109,v).
+att_prop_i(51,510,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,510,'AttRegEx','',d).
+att_prop_i(51,510,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(51,510,'FullName','XT_DefineCodeIntialType',v).
+att_prop_i(51,432,'ExternalName','XT_TenantCode',d).
+att_prop_i(51,432,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,432,'EmptyAsNull','Yes',d).
+att_prop_i(51,432,idBasedOn,'',d).
+att_prop_i(51,432,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,432,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,432,'AttRegEx','',d).
+att_prop_i(51,432,'AttValidationFailedMsg','',d).
+att_prop_i(51,432,'FullName','XT_TenantCode',v).
+att_prop_i(51,167,'ExternalName','XT_DefineCodeID',d).
+att_prop_i(51,167,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,167,'EmptyAsNull','Yes',d).
+att_prop_i(51,167,idBasedOn,69,v).
+att_prop_i(51,167,'AUTONUMBER','-1',d).
+att_prop_i(51,167,'AUTONUMBER_START','1',d).
+att_prop_i(51,167,'AUTONUMBER_STEP','1',d).
+att_prop_i(51,167,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(51,167,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,167,'AttRegEx','',d).
+att_prop_i(51,167,'AttValidationFailedMsg','',d).
+att_prop_i(51,167,'FullName','XT_DefineCodeID',v).
+ 
+ 
+tbl_att_prop_i(51,24,167,'AllowNulls',n).
+tbl_att_prop_i(51,24,167,'AUTONUMBER',y).
+tbl_att_prop_i(51,24,165,'AllowNulls',n).
+ 
+var_prop_i(51,'Ibas_tenanttenantcode',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 0,23,0 ],name,'XT_DefineCode').
+struct_dt_i([ 0,23,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,23,0 ],significantName,'XT_DefineCode').
+struct_dt_i([ 0,23,0 ],'ObjName','XT_DefineCode').
+struct_dt_i([ 0,23,0 ],'ObjDesc',数据字典数据).
+struct_dt_i([ 0,23,0 ],'ExternalName','XT_DefineCode').
+struct_dt_i([ 0,23,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,23,0 ],key,[ 167 ]).
+struct_dt_i([ 0,23,0 ],lvl,24).
+struct_dt_i([ 26,8,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,8,0 ],'ObjName','Messages').
+struct_dt_i([ 26,8,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,8,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,8,0 ],collection,'True').
+struct_dt_i([ 26,8,0 ],datatype,[ 26,8,25 ]).
+struct_dt_i([ 26,8,0 ],isexternal,'True').
+struct_dt_i([ 26,8,25 ],name,'Message').
+struct_dt_i([ 26,8,25 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 0,23,0 ],fullname,'XT_DefineCode').
+struct_dt_i([ 26,8,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,8,25 ],fullname,'GeneXus\Common\Messages.Message').
+struct_dt_i([ 26,8,0 ],modified,yes).
+struct_dt_i([ 26,8,25 ],modified,yes).
+ 
+struct_dt_elem_i([ 0,23,0 ],1,name,'Xt_definecodeid').
+struct_dt_elem_i([ 0,23,0 ],1,camelname,'XT_DefineCodeID').
+struct_dt_elem_i([ 0,23,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,23,0 ],1,length,18).
+struct_dt_elem_i([ 0,23,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,23,0 ],1,sign,0).
+struct_dt_elem_i([ 0,23,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,23,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,23,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,23,0 ],1,attributeid,'167').
+struct_dt_elem_i([ 0,23,0 ],1,'ExternalName','XT_DefineCodeID').
+struct_dt_elem_i([ 0,23,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,23,0 ],2,name,'Xt_definecodename').
+struct_dt_elem_i([ 0,23,0 ],2,camelname,'XT_DefineCodeName').
+struct_dt_elem_i([ 0,23,0 ],2,length,100).
+struct_dt_elem_i([ 0,23,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,23,0 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,23,0 ],2,pic,'').
+struct_dt_elem_i([ 0,23,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,23,0 ],2,attributeid,'168').
+struct_dt_elem_i([ 0,23,0 ],2,'ExternalName','XT_DefineCodeName').
+struct_dt_elem_i([ 0,23,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,23,0 ],3,name,'Xt_defindcodetypeid').
+struct_dt_elem_i([ 0,23,0 ],3,camelname,'XT_DefindcodeTypeID').
+struct_dt_elem_i([ 0,23,0 ],3,basedon,69).
+struct_dt_elem_i([ 0,23,0 ],3,length,18).
+struct_dt_elem_i([ 0,23,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,23,0 ],3,sign,0).
+struct_dt_elem_i([ 0,23,0 ],3,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,23,0 ],3,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,23,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,23,0 ],3,attributeid,'165').
+struct_dt_elem_i([ 0,23,0 ],3,'ExternalName','XT_DefindcodeTypeID').
+struct_dt_elem_i([ 0,23,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,23,0 ],4,name,'Xt_defindcodetypename').
+struct_dt_elem_i([ 0,23,0 ],4,camelname,'XT_DefindcodeTypeName').
+struct_dt_elem_i([ 0,23,0 ],4,length,40).
+struct_dt_elem_i([ 0,23,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,23,0 ],4,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,23,0 ],4,pic,'').
+struct_dt_elem_i([ 0,23,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,23,0 ],4,attributeid,'166').
+struct_dt_elem_i([ 0,23,0 ],4,'ExternalName','XT_DefindcodeTypeName').
+struct_dt_elem_i([ 0,23,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,23,0 ],5,name,'Xt_definecodeorder').
+struct_dt_elem_i([ 0,23,0 ],5,camelname,'XT_DefineCodeOrder').
+struct_dt_elem_i([ 0,23,0 ],5,length,4).
+struct_dt_elem_i([ 0,23,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,23,0 ],5,sign,0).
+struct_dt_elem_i([ 0,23,0 ],5,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,23,0 ],5,pic,'ZZZZ').
+struct_dt_elem_i([ 0,23,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,23,0 ],5,attributeid,'171').
+struct_dt_elem_i([ 0,23,0 ],5,'ExternalName','XT_DefineCodeOrder').
+struct_dt_elem_i([ 0,23,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,23,0 ],6,name,'Xt_typecode').
+struct_dt_elem_i([ 0,23,0 ],6,camelname,'XT_TypeCode').
+struct_dt_elem_i([ 0,23,0 ],6,length,40).
+struct_dt_elem_i([ 0,23,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,23,0 ],6,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,23,0 ],6,pic,'').
+struct_dt_elem_i([ 0,23,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,23,0 ],6,attributeid,'431').
+struct_dt_elem_i([ 0,23,0 ],6,'ExternalName','XT_TypeCode').
+struct_dt_elem_i([ 0,23,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,23,0 ],7,name,'Xt_tenantcode').
+struct_dt_elem_i([ 0,23,0 ],7,camelname,'XT_TenantCode').
+struct_dt_elem_i([ 0,23,0 ],7,length,40).
+struct_dt_elem_i([ 0,23,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,23,0 ],7,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,23,0 ],7,pic,'').
+struct_dt_elem_i([ 0,23,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,23,0 ],7,attributeid,'432').
+struct_dt_elem_i([ 0,23,0 ],7,'ExternalName','XT_TenantCode').
+struct_dt_elem_i([ 0,23,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,23,0 ],8,name,'Xt_definecodeintialtype').
+struct_dt_elem_i([ 0,23,0 ],8,camelname,'XT_DefineCodeIntialType').
+struct_dt_elem_i([ 0,23,0 ],8,basedon,109).
+struct_dt_elem_i([ 0,23,0 ],8,length,4).
+struct_dt_elem_i([ 0,23,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,23,0 ],8,sign,0).
+struct_dt_elem_i([ 0,23,0 ],8,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,23,0 ],8,pic,'ZZZ9').
+struct_dt_elem_i([ 0,23,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,23,0 ],8,attributeid,'510').
+struct_dt_elem_i([ 0,23,0 ],8,'ExternalName','XT_DefineCodeIntialType').
+struct_dt_elem_i([ 0,23,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,name,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,8,25 ],1,length,128).
+struct_dt_elem_i([ 26,8,25 ],1,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,8,25 ],1,pic,'').
+struct_dt_elem_i([ 26,8,25 ],1,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,8,25 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],1,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],1,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],2,name,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,8,25 ],2,basedon,30).
+struct_dt_elem_i([ 26,8,25 ],2,length,2).
+struct_dt_elem_i([ 26,8,25 ],2,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],2,sign,0).
+struct_dt_elem_i([ 26,8,25 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,8,25 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,8,25 ],2,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,8,25 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],2,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],2,'JsonName','').
+struct_dt_elem_i([ 26,8,25 ],3,name,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,8,25 ],3,length,256).
+struct_dt_elem_i([ 26,8,25 ],3,decimals,0).
+struct_dt_elem_i([ 26,8,25 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,8,25 ],3,pic,'').
+struct_dt_elem_i([ 26,8,25 ],3,collection,'False').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,8,25 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlName','').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,25 ],3,soaptype,'').
+struct_dt_elem_i([ 26,8,25 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,8,25 ],3,'JsonName','').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,144,'PC_INTIALDEFINECODE','INTERNAL').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

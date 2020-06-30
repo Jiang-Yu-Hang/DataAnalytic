@@ -1,0 +1,9 @@
+bc_dt_elem_i([ 0,1,0 ],'Secfunctionalityid',allownulls,no).
+bc_dt_elem_i([ 0,1,0 ],'Secfunctionalitykey',allownulls,no).
+bc_dt_elem_i([ 0,1,0 ],'Secfunctionalitydescription',allownulls,no).
+bc_dt_elem_i([ 0,1,0 ],'Secfunctionalitytype',readonly,yes).
+bc_dt_elem_i([ 0,1,0 ],'Secfunctionalitytype',allownulls,no).
+bc_dt_elem_i([ 0,1,0 ],'Secparentfunctionalitydescription',readonly,yes).
+bc_dt_elem_i([ 0,1,0 ],'Secparentfunctionalitydescription',allownulls,no).
+bc_dt_elem_i([ 0,1,0 ],'Secfunctionalityactive',allownulls,no).
+ 

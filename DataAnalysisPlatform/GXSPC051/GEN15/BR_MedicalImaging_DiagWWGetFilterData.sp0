@@ -1,0 +1,1175 @@
+spec_i([ proc,90,'BR_Medical Imaging_Diag WWGet Filter Data','BR_MedicalImaging_DiagWWGetFilterData',78,chs,'16_0_0-127771' ]).
+ 
+struct_i(6,1,[],[]).
+struct_i(7,6,[ 273 ],[]).
+struct_i(4,1,[],[]).
+struct_i(5,4,[ 272 ],[]).
+struct_i(2,1,[],[]).
+struct_i(3,2,[ 271 ],[]).
+ 
+level_i(6,[ 29,[ [ 29,many ] ],[],[],[ [ [ 29 ],[ 273,517,272,271,225,270 ] ] ],[ [ [ 29 ],[] ] ],[ 273 ],'7',[],[] ]).
+level_i(7,[ 29,[ [ 29,many ] ],[],[],[ [ [ 29 ],[ 273 ] ] ],[ [ [ 29 ],[] ] ],[ 273 ],'7',[ 29,[ [ [],273,273 ] ] ],[] ]).
+level_i(4,[ 29,[ [ 29,many ] ],[],[],[ [ [ 29 ],[ 272,517,273,271,225,270 ] ] ],[ [ [ 29 ],[] ] ],[ 272 ],'5',[],[] ]).
+level_i(5,[ 29,[ [ 29,many ] ],[],[],[ [ [ 29 ],[ 272 ] ] ],[ [ [ 29 ],[] ] ],[ 272 ],'5',[ 29,[ [ [],272,272 ] ] ],[] ]).
+level_i(2,[ 29,[ [ 29,many ] ],[],[],[ [ [ 29 ],[ 271,517,273,272,225,270 ] ] ],[ [ [ 29 ],[] ] ],[ 271 ],'',[],[] ]).
+level_i(3,[ 29,[ [ 29,many ] ],[],[],[ [ [ 29 ],[ 271 ] ] ],[ [ [ 29 ],[] ] ],[ 271 ],'',[ 29,[ [ [],271,271 ] ] ],[] ]).
+ 
+tw_i(6,[]).
+tw_i(7,[]).
+tw_i(4,[]).
+tw_i(5,[]).
+tw_i(2,[]).
+tw_i(3,[]).
+ 
+lwi_i(7,[ [] ]).
+lwi_i(5,[ [] ]).
+lwi_i(3,[ [] ]).
+lwi_i(6,[ [] ]).
+lwi_i(4,[ [] ]).
+lwi_i(2,[ [] ]).
+ 
+cond_constraint_i(6,[ [ t(270,2),t(>=,10),t('BR_MedicalImaging_DiagWWDS_1_Tfbr_medicalimaging_diagid',23) ],[ 270 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_1_Tfbr_medicalimaging_diagid',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(270,2),t(<=,10),t('BR_MedicalImaging_DiagWWDS_2_Tfbr_medicalimaging_diagid_to',23) ],[ 270 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_2_Tfbr_medicalimaging_diagid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(225,2),t(>=,10),t('BR_MedicalImaging_DiagWWDS_3_Tfbr_medicalimagingid',23) ],[ 225 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_3_Tfbr_medicalimagingid',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(225,2),t(<=,10),t('BR_MedicalImaging_DiagWWDS_4_Tfbr_medicalimagingid_to',23) ],[ 225 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_4_Tfbr_medicalimagingid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(271,2),t('.LIKE.',10),t('BR_MedicalImaging_DiagWWDS_5_Tfbr_medicalimaging_diag_loc',23) ],[ 271 ],[ t('null(',1),t('BR_MedicalImaging_DiagWWDS_6_Tfbr_medicalimaging_diag_loc_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_5_Tfbr_medicalimaging_diag_loc',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(271,2),t(=,10),t('BR_MedicalImaging_DiagWWDS_6_Tfbr_medicalimaging_diag_loc_sel',23) ],[ 271 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_6_Tfbr_medicalimaging_diag_loc_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(272,2),t('.LIKE.',10),t('BR_MedicalImaging_DiagWWDS_7_Tfbr_medicalimaging_diag_organ',23) ],[ 272 ],[ t('null(',1),t('BR_MedicalImaging_DiagWWDS_8_Tfbr_medicalimaging_diag_organ_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_7_Tfbr_medicalimaging_diag_organ',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(272,2),t(=,10),t('BR_MedicalImaging_DiagWWDS_8_Tfbr_medicalimaging_diag_organ_sel',23) ],[ 272 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_8_Tfbr_medicalimaging_diag_organ_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(273,2),t('.LIKE.',10),t('BR_MedicalImaging_DiagWWDS_9_Tfbr_medicalimaging_diag_dis',23) ],[ 273 ],[ t('null(',1),t('BR_MedicalImaging_DiagWWDS_10_Tfbr_medicalimaging_diag_dis_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_9_Tfbr_medicalimaging_diag_dis',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(273,2),t(=,10),t('BR_MedicalImaging_DiagWWDS_10_Tfbr_medicalimaging_diag_dis_sel',23) ],[ 273 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_10_Tfbr_medicalimaging_diag_dis_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(517,2),t(>=,10),t('BR_MedicalImaging_DiagWWDS_11_Tfbr_medicalimaging_diag_no',23) ],[ 517 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_11_Tfbr_medicalimaging_diag_no',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(517,2),t(<=,10),t('BR_MedicalImaging_DiagWWDS_12_Tfbr_medicalimaging_diag_no_to',23) ],[ 517 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_12_Tfbr_medicalimaging_diag_no_to',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(270,2),t(>=,10),t('BR_MedicalImaging_DiagWWDS_1_Tfbr_medicalimaging_diagid',23) ],[ 270 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_1_Tfbr_medicalimaging_diagid',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(270,2),t(<=,10),t('BR_MedicalImaging_DiagWWDS_2_Tfbr_medicalimaging_diagid_to',23) ],[ 270 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_2_Tfbr_medicalimaging_diagid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(225,2),t(>=,10),t('BR_MedicalImaging_DiagWWDS_3_Tfbr_medicalimagingid',23) ],[ 225 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_3_Tfbr_medicalimagingid',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(225,2),t(<=,10),t('BR_MedicalImaging_DiagWWDS_4_Tfbr_medicalimagingid_to',23) ],[ 225 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_4_Tfbr_medicalimagingid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(271,2),t('.LIKE.',10),t('BR_MedicalImaging_DiagWWDS_5_Tfbr_medicalimaging_diag_loc',23) ],[ 271 ],[ t('null(',1),t('BR_MedicalImaging_DiagWWDS_6_Tfbr_medicalimaging_diag_loc_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_5_Tfbr_medicalimaging_diag_loc',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(271,2),t(=,10),t('BR_MedicalImaging_DiagWWDS_6_Tfbr_medicalimaging_diag_loc_sel',23) ],[ 271 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_6_Tfbr_medicalimaging_diag_loc_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(272,2),t('.LIKE.',10),t('BR_MedicalImaging_DiagWWDS_7_Tfbr_medicalimaging_diag_organ',23) ],[ 272 ],[ t('null(',1),t('BR_MedicalImaging_DiagWWDS_8_Tfbr_medicalimaging_diag_organ_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_7_Tfbr_medicalimaging_diag_organ',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(272,2),t(=,10),t('BR_MedicalImaging_DiagWWDS_8_Tfbr_medicalimaging_diag_organ_sel',23) ],[ 272 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_8_Tfbr_medicalimaging_diag_organ_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(273,2),t('.LIKE.',10),t('BR_MedicalImaging_DiagWWDS_9_Tfbr_medicalimaging_diag_dis',23) ],[ 273 ],[ t('null(',1),t('BR_MedicalImaging_DiagWWDS_10_Tfbr_medicalimaging_diag_dis_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_9_Tfbr_medicalimaging_diag_dis',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(273,2),t(=,10),t('BR_MedicalImaging_DiagWWDS_10_Tfbr_medicalimaging_diag_dis_sel',23) ],[ 273 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_10_Tfbr_medicalimaging_diag_dis_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(517,2),t(>=,10),t('BR_MedicalImaging_DiagWWDS_11_Tfbr_medicalimaging_diag_no',23) ],[ 517 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_11_Tfbr_medicalimaging_diag_no',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(517,2),t(<=,10),t('BR_MedicalImaging_DiagWWDS_12_Tfbr_medicalimaging_diag_no_to',23) ],[ 517 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_12_Tfbr_medicalimaging_diag_no_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(270,2),t(>=,10),t('BR_MedicalImaging_DiagWWDS_1_Tfbr_medicalimaging_diagid',23) ],[ 270 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_1_Tfbr_medicalimaging_diagid',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(270,2),t(<=,10),t('BR_MedicalImaging_DiagWWDS_2_Tfbr_medicalimaging_diagid_to',23) ],[ 270 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_2_Tfbr_medicalimaging_diagid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(225,2),t(>=,10),t('BR_MedicalImaging_DiagWWDS_3_Tfbr_medicalimagingid',23) ],[ 225 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_3_Tfbr_medicalimagingid',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(225,2),t(<=,10),t('BR_MedicalImaging_DiagWWDS_4_Tfbr_medicalimagingid_to',23) ],[ 225 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_4_Tfbr_medicalimagingid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(271,2),t('.LIKE.',10),t('BR_MedicalImaging_DiagWWDS_5_Tfbr_medicalimaging_diag_loc',23) ],[ 271 ],[ t('null(',1),t('BR_MedicalImaging_DiagWWDS_6_Tfbr_medicalimaging_diag_loc_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_5_Tfbr_medicalimaging_diag_loc',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(271,2),t(=,10),t('BR_MedicalImaging_DiagWWDS_6_Tfbr_medicalimaging_diag_loc_sel',23) ],[ 271 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_6_Tfbr_medicalimaging_diag_loc_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(272,2),t('.LIKE.',10),t('BR_MedicalImaging_DiagWWDS_7_Tfbr_medicalimaging_diag_organ',23) ],[ 272 ],[ t('null(',1),t('BR_MedicalImaging_DiagWWDS_8_Tfbr_medicalimaging_diag_organ_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_7_Tfbr_medicalimaging_diag_organ',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(272,2),t(=,10),t('BR_MedicalImaging_DiagWWDS_8_Tfbr_medicalimaging_diag_organ_sel',23) ],[ 272 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_8_Tfbr_medicalimaging_diag_organ_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(273,2),t('.LIKE.',10),t('BR_MedicalImaging_DiagWWDS_9_Tfbr_medicalimaging_diag_dis',23) ],[ 273 ],[ t('null(',1),t('BR_MedicalImaging_DiagWWDS_10_Tfbr_medicalimaging_diag_dis_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_9_Tfbr_medicalimaging_diag_dis',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(273,2),t(=,10),t('BR_MedicalImaging_DiagWWDS_10_Tfbr_medicalimaging_diag_dis_sel',23) ],[ 273 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_10_Tfbr_medicalimaging_diag_dis_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(517,2),t(>=,10),t('BR_MedicalImaging_DiagWWDS_11_Tfbr_medicalimaging_diag_no',23) ],[ 517 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_11_Tfbr_medicalimaging_diag_no',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(517,2),t(<=,10),t('BR_MedicalImaging_DiagWWDS_12_Tfbr_medicalimaging_diag_no_to',23) ],[ 517 ],[ t('.NOT.',8),t('null(',1),t('BR_MedicalImaging_DiagWWDS_12_Tfbr_medicalimaging_diag_no_to',23),t(')',4) ],[] ]).
+ 
+ 
+level_option_i(2,usr_condition,y).
+level_option_i(4,usr_condition,y).
+level_option_i(6,usr_condition,y).
+ 
+ta_i(6,[ [ [ 29,273 ],[ 29,517 ],[ 29,272 ],[ 29,271 ],[ 29,225 ],[ 29,270 ] ] ]).
+ta_i(7,[ [ [ 29,273 ] ] ]).
+ta_i(4,[ [ [ 29,272 ],[ 29,517 ],[ 29,273 ],[ 29,271 ],[ 29,225 ],[ 29,270 ] ] ]).
+ta_i(5,[ [ [ 29,272 ] ] ]).
+ta_i(2,[ [ [ 29,271 ],[ 29,517 ],[ 29,273 ],[ 29,272 ],[ 29,225 ],[ 29,270 ] ] ]).
+ta_i(3,[ [ [ 29,271 ] ] ]).
+ 
+las_i(6,[ [ 273,517,272,271,225,270 ] ]).
+las_i(7,[ [ 273 ] ]).
+las_i(4,[ [ 272,517,273,271,225,270 ] ]).
+las_i(5,[ [ 272 ] ]).
+las_i(2,[ [ 271,517,273,272,225,270 ] ]).
+las_i(3,[ [ 271 ] ]).
+ 
+lac_i(6,[ [] ]).
+lac_i(7,[ [] ]).
+lac_i(4,[ [] ]).
+lac_i(5,[ [] ]).
+lac_i(2,[ [] ]).
+lac_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS',���)).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_Config_test')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',���)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','��-�4�,��3')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-AJDRO94')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_Instance_TYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','BR_MedicalImaging_DiagWWGetFilterData')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('REST','-1')).
+rule_i(0,prop('SOAP','0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'-1')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('ObjDesc','BR_Medical Imaging_Diag WWGet Filter Data')).
+rule_i(0,prop('ObjName','BR_MedicalImaging_DiagWWGetFilterData')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Ddoname','Searchtxt','Searchtxtto','Optionsjson','Optionsdescjson','Optionindexesjson' ],[])).
+rule_i(0,parmio([ [ 'Ddoname',in ],[ 'Searchtxt',in ],[ 'Searchtxtto',in ],[ 'Optionsjson',out ],[ 'Optionsdescjson',out ],[ 'Optionindexesjson',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(3,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(4,3,t,29,[],[ [ [ [],271,271 ] ],'',[] ]).
+a_i(5,2,t,29,[],[ [],'',[] ]).
+a_i(6,5,t,29,[],[ [ [ [],272,272 ] ],'5',[] ]).
+a_i(7,4,t,29,[],[ [],'5',[] ]).
+a_i(8,7,t,29,[],[ [ [ [],273,273 ] ],'7',[] ]).
+a_i(9,6,t,29,[],[ [],'7',[] ]).
+ 
+v_i(f,i,3,[]).
+v_i(f,o,3,'Err').
+v_i(t,i,4,271).
+v_i(t,o,4,[]).
+v_i(t,i,5,[]).
+v_i(t,o,5,271).
+v_i(t,o,5,517).
+v_i(t,o,5,273).
+v_i(t,o,5,272).
+v_i(t,o,5,225).
+v_i(t,o,5,270).
+v_i(t,i,6,272).
+v_i(t,o,6,[]).
+v_i(t,i,7,[]).
+v_i(t,o,7,272).
+v_i(t,o,7,517).
+v_i(t,o,7,273).
+v_i(t,o,7,271).
+v_i(t,o,7,225).
+v_i(t,o,7,270).
+v_i(t,i,8,273).
+v_i(t,o,8,[]).
+v_i(t,i,9,[]).
+v_i(t,o,9,273).
+v_i(t,o,9,517).
+v_i(t,o,9,272).
+v_i(t,o,9,271).
+v_i(t,o,9,225).
+v_i(t,o,9,270).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',62 ]).
+attri_i(270,[ 'BR_MedicalImaging_DiagID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,影像学诊断意见主键,'',0 ]).
+attri_i(225,[ 'BR_MedicalImagingID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,影像学主键,'',0 ]).
+attri_i(517,[ 'BR_MedicalImaging_Diag_No',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,序号,'',0 ]).
+attri_i(273,[ 'BR_MedicalImaging_Diag_Dis',svchar,100,0,'',0,'诊断意见(疾病)','',0 ]).
+attri_i('BR_MedicalImaging_DiagWWDS_12_Tfbr_medicalimaging_diag_no_to',[ 'BR_MedicalImaging_DiagWWDS_12_Tfbr_medicalimaging_diag_no_to',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'Tfbr_medicalimaging_diag_no_to','',56 ]).
+attri_i('BR_MedicalImaging_DiagWWDS_11_Tfbr_medicalimaging_diag_no',[ 'BR_MedicalImaging_DiagWWDS_11_Tfbr_medicalimaging_diag_no',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'Tfbr_medicalimaging_diag_no','',55 ]).
+attri_i('BR_MedicalImaging_DiagWWDS_10_Tfbr_medicalimaging_diag_dis_sel',[ 'BR_MedicalImaging_DiagWWDS_10_Tfbr_medicalimaging_diag_dis_sel',svchar,100,0,'',0,'Tfbr_medicalimaging_diag_dis_sel','',54 ]).
+attri_i('BR_MedicalImaging_DiagWWDS_9_Tfbr_medicalimaging_diag_dis',[ 'BR_MedicalImaging_DiagWWDS_9_Tfbr_medicalimaging_diag_dis',svchar,100,0,'',0,'Tfbr_medicalimaging_diag_dis','',53 ]).
+attri_i('BR_MedicalImaging_DiagWWDS_8_Tfbr_medicalimaging_diag_organ_sel',[ 'BR_MedicalImaging_DiagWWDS_8_Tfbr_medicalimaging_diag_organ_sel',svchar,100,0,'',0,'Tfbr_medicalimaging_diag_organ_sel','',52 ]).
+attri_i('BR_MedicalImaging_DiagWWDS_7_Tfbr_medicalimaging_diag_organ',[ 'BR_MedicalImaging_DiagWWDS_7_Tfbr_medicalimaging_diag_organ',svchar,100,0,'',0,'Tfbr_medicalimaging_diag_organ','',51 ]).
+attri_i('BR_MedicalImaging_DiagWWDS_6_Tfbr_medicalimaging_diag_loc_sel',[ 'BR_MedicalImaging_DiagWWDS_6_Tfbr_medicalimaging_diag_loc_sel',svchar,100,0,'',0,'Tfbr_medicalimaging_diag_loc_sel','',50 ]).
+attri_i('BR_MedicalImaging_DiagWWDS_5_Tfbr_medicalimaging_diag_loc',[ 'BR_MedicalImaging_DiagWWDS_5_Tfbr_medicalimaging_diag_loc',svchar,100,0,'',0,'Tfbr_medicalimaging_diag_loc','',49 ]).
+attri_i('BR_MedicalImaging_DiagWWDS_4_Tfbr_medicalimagingid_to',[ 'BR_MedicalImaging_DiagWWDS_4_Tfbr_medicalimagingid_to',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'Tfbr_medicalimagingid_to','',48 ]).
+attri_i('BR_MedicalImaging_DiagWWDS_3_Tfbr_medicalimagingid',[ 'BR_MedicalImaging_DiagWWDS_3_Tfbr_medicalimagingid',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'Tfbr_medicalimagingid','',47 ]).
+attri_i('BR_MedicalImaging_DiagWWDS_2_Tfbr_medicalimaging_diagid_to',[ 'BR_MedicalImaging_DiagWWDS_2_Tfbr_medicalimaging_diagid_to',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'Tfbr_medicalimaging_diagid_to','',46 ]).
+attri_i('BR_MedicalImaging_DiagWWDS_1_Tfbr_medicalimaging_diagid',[ 'BR_MedicalImaging_DiagWWDS_1_Tfbr_medicalimaging_diagid',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'Tfbr_medicalimaging_diagid','',45 ]).
+attri_i(272,[ 'BR_MedicalImaging_Diag_Organ',svchar,100,0,'',0,'诊断意见(器官)','',0 ]).
+attri_i(271,[ 'BR_MedicalImaging_Diag_Loc',svchar,100,0,'',0,'诊断意见(部位)','',0 ]).
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'','',43 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',42 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',41 ]).
+attri_i('Tfbr_medicalimaging_diag_no_to',[ 'TFBR_MedicalImaging_Diag_No_To',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'TFBR_Medical Imaging_Diag_No_To','',40 ]).
+attri_i('Tfbr_medicalimaging_diag_no',[ 'TFBR_MedicalImaging_Diag_No',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'TFBR_Medical Imaging_Diag_No','',39 ]).
+attri_i('Gridstatedynamicfilter',[ 'GridStateDynamicFilter',o('WWPBaseObjects\WWPGridState.DynamicFilter'),0,0,'',0,'Grid State Dynamic Filter','',38 ]).
+attri_i('Gridstatefiltervalue',[ 'GridStateFilterValue',o('WWPBaseObjects\WWPGridState.FilterValue'),0,0,'',0,'Grid State Filter Value','',37 ]).
+attri_i('Gridstate',[ 'GridState',o('WWPBaseObjects\WWPGridState'),0,0,'',0,'Grid State','',36 ]).
+attri_i('Gridstatexml',[ 'GridStateXML',vchar,2097152,0,'',0,'Grid State XML','',35 ]).
+attri_i('Session',[ 'Session',o(websession),4,0,'',0,'Session','',34 ]).
+attri_i('Count',[ count,int,10,0,'Z,ZZZ,ZZZ,ZZ9',0,count,'',33 ]).
+attri_i('Optionindexesjson',[ 'OptionIndexesJson',vchar,2097152,0,'',0,'Option Indexes Json','',32 ]).
+attri_i('Optionindexes',[ 'OptionIndexes',o(objectcollection(svchar)),40,0,'',0,'Option Indexes','',31 ]).
+attri_i('Optionsdescjson',[ 'OptionsDescJson',vchar,2097152,0,'',0,'Options Desc Json','',30 ]).
+attri_i('Optionsdesc',[ 'OptionsDesc',o(objectcollection(svchar)),200,0,'',0,'Options Desc','',29 ]).
+attri_i('Optiondesc',[ 'OptionDesc',svchar,200,0,'',0,'Option Desc','',28 ]).
+attri_i('Optionsjson',[ 'OptionsJson',vchar,2097152,0,'',0,'Options Json','',27 ]).
+attri_i('Options',[ 'Options',o(objectcollection(svchar)),200,0,'',0,'Options','',26 ]).
+attri_i('Option',[ 'Option',svchar,200,0,'',0,'Option','',25 ]).
+attri_i('Insertindex',[ 'InsertIndex',int,6,0,'ZZZZZ9',0,'Insert Index','',24 ]).
+attri_i('Ddoname',[ 'DDOName',svchar,200,0,'',0,'DDOName','',23 ]).
+attri_i('Searchtxtto',[ 'SearchTxtTo',svchar,100,0,'',0,'Search Txt To','',22 ]).
+attri_i('Searchtxt',[ 'SearchTxt',svchar,100,0,'',0,'Search Txt','',21 ]).
+attri_i('Tfbr_medicalimaging_diag_dis_sel',[ 'TFBR_MedicalImaging_Diag_Dis_Sel',svchar,100,0,'',0,'TFBR_Medical Imaging_Diag_Dis_Sel','',20 ]).
+attri_i('Tfbr_medicalimaging_diag_dis',[ 'TFBR_MedicalImaging_Diag_Dis',svchar,100,0,'',0,'TFBR_Medical Imaging_Diag_Dis','',19 ]).
+attri_i('Tfbr_medicalimaging_diag_organ_sel',[ 'TFBR_MedicalImaging_Diag_Organ_Sel',svchar,100,0,'',0,'TFBR_Medical Imaging_Diag_Organ_Sel','',18 ]).
+attri_i('Tfbr_medicalimaging_diag_organ',[ 'TFBR_MedicalImaging_Diag_Organ',svchar,100,0,'',0,'TFBR_Medical Imaging_Diag_Organ','',17 ]).
+attri_i('Tfbr_medicalimaging_diag_loc_sel',[ 'TFBR_MedicalImaging_Diag_Loc_Sel',svchar,100,0,'',0,'TFBR_Medical Imaging_Diag_Loc_Sel','',16 ]).
+attri_i('Tfbr_medicalimaging_diag_loc',[ 'TFBR_MedicalImaging_Diag_Loc',svchar,100,0,'',0,'TFBR_Medical Imaging_Diag_Loc','',15 ]).
+attri_i('Tfbr_medicalimagingid_to',[ 'TFBR_MedicalImagingID_To',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'TFBR_Medical Imaging ID_To','',14 ]).
+attri_i('Tfbr_medicalimagingid',[ 'TFBR_MedicalImagingID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'TFBR_Medical Imaging ID','',13 ]).
+attri_i('Tfbr_medicalimaging_diagid_to',[ 'TFBR_MedicalImaging_DiagID_To',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'TFBR_Medical Imaging_Diag ID_To','',12 ]).
+attri_i('Tfbr_medicalimaging_diagid',[ 'TFBR_MedicalImaging_DiagID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'TFBR_Medical Imaging_Diag ID','',11 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,'Security Functionality Keys','',10 ]).
+attri_i('Wwpcontext',[ 'WWPContext',o('WWPBaseObjects\WWPContext'),0,0,'',0,'WWPContext','',9 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,'Is Authorized','',8 ]).
+ 
+table_i(29,[ 'BR_MedicalImaging_Diag',[ 270,225,271,272,273,517 ],' T29','BR_MedicalImaging_Diag' ]).
+ 
+index_i(29,[ '',a,[ 271 ],'' ]).
+index_i(29,[ 'IBR_MEDICALIMAGING_DIAG',u,[ 270 ],'IBR_MedicalImaging_Diag' ]).
+index_i(29,[ '5',a,[ 272 ],'' ]).
+index_i(29,[ '7',a,[ 273 ],'' ]).
+ 
+ 
+ 
+function_i(1,'Isauthorized',yes,udp,o(1,'WWPBaseObjects\SecIsAuthByFunctionalityKey'),[],7,'Isauthorized',[ [ t('''Home''',3) ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(69,[ 'ID' ]).
+dom_info_i(90,[ 'WWPSecFunctionalityKey' ]).
+ 
+ 
+break_i(3,nvg,2,[ 271 ],[ [ 271 ],[],[] ]).
+break_i(2,nvg,1,[ 271 ],[ [ 271 ],[ 270,225,271,272,273,517 ],[] ]).
+break_i(5,nvg,4,[ 272 ],[ [ 272 ],[],[] ]).
+break_i(4,nvg,1,[ 272 ],[ [ 272 ],[ 270,225,271,272,273,517 ],[] ]).
+break_i(7,nvg,6,[ 273 ],[ [ 273 ],[],[] ]).
+break_i(6,nvg,1,[ 273 ],[ [ 273 ],[ 270,225,271,272,273,517 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,32).
+b_group_i(1,2,lit,0,33,73).
+b_group_i(1,3,lit,0,74,2).
+b_group_i(1,4,nvg,2,79,79).
+b_group_i(2,1,lit,0,80,80).
+b_group_i(2,2,nvg,3,85,85).
+b_group_i(3,1,lit,0,86,86).
+b_group_i(2,3,lit,0,89,84).
+b_group_i(1,5,lit,0,99,104).
+b_group_i(1,6,lit,0,105,22).
+b_group_i(1,7,nvg,4,110,110).
+b_group_i(4,1,lit,0,111,111).
+b_group_i(4,2,nvg,5,116,116).
+b_group_i(5,1,lit,0,117,117).
+b_group_i(4,3,lit,0,120,115).
+b_group_i(1,8,lit,0,130,135).
+b_group_i(1,9,lit,0,136,42).
+b_group_i(1,10,nvg,6,141,141).
+b_group_i(6,1,lit,0,142,142).
+b_group_i(6,2,nvg,7,147,147).
+b_group_i(7,1,lit,0,148,148).
+b_group_i(6,3,lit,0,151,146).
+b_group_i(1,11,lit,0,161,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[]).
+b_line_i(3,1,1,cmd,0,[]).
+b_line_i(4,1,1,cmd,0,[ t('',107,0,0),t('Options',23,0,0),t(=,10,0,0),t([ [ svchar,200,0 ],[ t('(',0,4,15),t(')',4,4,16) ],y ],46,0,0) ]).
+b_line_i(5,1,1,cmd,0,[ t('',107,0,0),t('Optionsdesc',23,0,0),t(=,10,0,0),t([ [ svchar,200,0 ],[ t('(',0,5,19),t(')',4,5,20) ],y ],46,0,0) ]).
+b_line_i(6,1,1,cmd,0,[ t('',107,0,0),t('Optionindexes',23,0,0),t(=,10,0,0),t([ [ svchar,40,0 ],[ t('(',0,6,21),t(')',4,6,22) ],y ],46,0,0) ]).
+b_line_i(7,1,1,cmd,0,[ t('',107,0,0),t('Isauthorized',23,0,0),t(=,10,0,0),t('udp(',1,0,0),t('Isauthorized',3,0,0),t(7,3,0,0),t('''Home''',3,0,0),t(')',4,0,0) ]).
+b_line_i(8,1,1,cmd,0,[]).
+b_line_i(9,1,1,cmd,0,[ t('',109,0,0),t('Isauthorized',23,0,4) ]).
+b_line_i(10,1,1,cmd,0,[]).
+b_line_i(11,1,1,cmd,0,[ t('',104,0,0),t(o(1,'WWPBaseObjects\LoadWWPContext'),28,0,2),t('Wwpcontext',23,0,23) ]).
+b_line_i(12,1,1,cmd,0,[]).
+b_line_i(13,1,1,cmd,0,[ t('',145,0,0),t('''LOADGRIDSTATE''',3,13,5) ]).
+b_line_i(14,1,1,cmd,0,[ t('',152,0,0) ]).
+b_line_i(15,1,1,cmd,0,[ t('',153,0,0),t('upper(',1,15,17),t('Ddoname',23,0,8),t(')',4,0,26),t(=,10,0,28),t('''DDO_BR_MEDICALIMAGING_DIAG_LOC''',3,15,30) ]).
+b_line_i(16,1,1,cmd,0,[ t('',145,0,0),t('''LOADBR_MEDICALIMAGING_DIAG_LOCOPTIONS''',3,16,7) ]).
+b_line_i(17,1,1,cmd,0,[ t('',153,0,0),t('upper(',1,17,17),t('Ddoname',23,0,8),t(')',4,0,26),t(=,10,0,28),t('''DDO_BR_MEDICALIMAGING_DIAG_ORGAN''',3,17,30) ]).
+b_line_i(18,1,1,cmd,0,[ t('',145,0,0),t('''LOADBR_MEDICALIMAGING_DIAG_ORGANOPTIONS''',3,18,7) ]).
+b_line_i(19,1,1,cmd,0,[ t('',153,0,0),t('upper(',1,19,17),t('Ddoname',23,0,8),t(')',4,0,26),t(=,10,0,28),t('''DDO_BR_MEDICALIMAGING_DIAG_DIS''',3,19,30) ]).
+b_line_i(20,1,1,cmd,0,[ t('',145,0,0),t('''LOADBR_MEDICALIMAGING_DIAG_DISOPTIONS''',3,20,7) ]).
+b_line_i(21,1,1,cmd,0,[ t('',154,0,0) ]).
+b_line_i(22,1,1,cmd,0,[]).
+b_line_i(23,1,1,cmd,0,[ t('',111,0,0) ]).
+b_line_i(24,1,1,cmd,0,[]).
+b_line_i(25,1,1,cmd,0,[ t('',107,0,0),t('Optionsjson',23,0,0),t(=,10,0,0),t([ t('Options',23,0,0),t('tojson(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(26,1,1,cmd,0,[ t('',107,0,0),t('Optionsdescjson',23,0,0),t(=,10,0,0),t([ t('Optionsdesc',23,0,0),t('tojson(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(27,1,1,cmd,0,[ t('',107,0,0),t('Optionindexesjson',23,0,0),t(=,10,0,0),t([ t('Optionindexes',23,0,0),t('tojson(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(28,1,1,cmd,0,[]).
+b_line_i(29,1,1,cmd,0,[]).
+b_line_i(30,1,1,cmd,0,[]).
+b_line_i(31,1,1,cmd,0,[]).
+b_line_i(32,1,1,cmd,0,[ t('',143,0,0),t('''LOADGRIDSTATE''',3,32,5) ]).
+b_line_i(33,1,2,cmd,0,[]).
+b_line_i(34,1,2,cmd,0,[]).
+b_line_i(35,1,2,cmd,0,[]).
+b_line_i(36,1,2,cmd,0,[]).
+b_line_i(37,1,2,cmd,0,[ t('',109,0,0),t([ t('Session',23,37,5),t('get(',1,37,14) ],31,37,14),t('"BR_MedicalImaging_DiagWWGridState"',3,37,19),t(')',4,0,55),t(=,10,0,57),t('""',3,37,59) ]).
+b_line_i(38,1,2,cmd,0,[ t('',107,0,0),t([ t('Gridstate',23,38,3),t('fromxml(',1,38,14) ],31,38,3),t('udp(',1,38,37),t(o(1,'WWPBaseObjects\LoadGridState'),28,38,23),t(',',7,0,0),t('"BR_MedicalImaging_DiagWWGridState"',3,38,42),t(')',4,0,0),t(')',4,0,79) ]).
+b_line_i(39,1,2,cmd,0,[ t('',110,0,0) ]).
+b_line_i(40,1,2,cmd,0,[ t('',107,0,0),t([ t('Gridstate',23,40,3),t('fromxml(',1,40,14) ],31,40,3),t([ t('Session',23,40,23),t('get(',1,40,32) ],31,40,32),t('"BR_MedicalImaging_DiagWWGridState"',3,40,37),t(')',4,0,73),t(')',4,0,74) ]).
+b_line_i(41,1,2,cmd,0,[ t('',111,0,0) ]).
+b_line_i(42,1,2,cmd,0,[]).
+b_line_i(43,1,2,cmd,0,[ t('',107,0,0),t('GXV1',23,0,0),t(=,10,0,0),t(1,3,0,0) ]).
+b_line_i([ 43,2 ],1,2,cmd,0,[ t('',114,0,0),t('GXV1',23,0,0),t(<=,10,0,0),t([ t('Gridstate',23,43,31),t('Filtervalues',3,43,42),t('Count',3,43,0) ],29,43,0) ]).
+b_line_i([ 43,3 ],1,2,cmd,0,[ t('',107,0,0),t('Gridstatefiltervalue',23,0,0),t(=,10,0,0),t([ t([ t('Gridstate',23,0,0),t('Filtervalues',3,0,0) ],29,0,0),t('item(',1,0,0) ],31,0,0),t('GXV1',23,0,0),t(')',4,0,0) ]).
+b_line_i(44,1,2,cmd,1,[ t('',152,1,0) ]).
+b_line_i(45,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,45,9),t('Name',3,45,31) ],29,45,31),t(=,10,1,36),t('"TFBR_MEDICALIMAGING_DIAGID"',3,45,38) ]).
+b_line_i(46,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_medicalimaging_diagid',23,46,5),t(=,10,46,5),t('val(',1,46,5),t([ t('Gridstatefiltervalue',23,46,45),t('Value',3,46,67) ],29,46,67),t(')',4,1,72) ]).
+b_line_i(47,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_medicalimaging_diagid_to',23,47,5),t(=,10,47,5),t('val(',1,47,5),t([ t('Gridstatefiltervalue',23,47,48),t('Valueto',3,47,70) ],29,47,70),t(')',4,1,77) ]).
+b_line_i(48,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,48,9),t('Name',3,48,31) ],29,48,31),t(=,10,1,36),t('"TFBR_MEDICALIMAGINGID"',3,48,38) ]).
+b_line_i(49,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_medicalimagingid',23,49,5),t(=,10,49,5),t('val(',1,49,5),t([ t('Gridstatefiltervalue',23,49,40),t('Value',3,49,62) ],29,49,62),t(')',4,1,67) ]).
+b_line_i(50,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_medicalimagingid_to',23,50,5),t(=,10,50,5),t('val(',1,50,5),t([ t('Gridstatefiltervalue',23,50,43),t('Valueto',3,50,65) ],29,50,65),t(')',4,1,72) ]).
+b_line_i(51,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,51,9),t('Name',3,51,31) ],29,51,31),t(=,10,1,36),t('"TFBR_MEDICALIMAGING_DIAG_LOC"',3,51,38) ]).
+b_line_i(52,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_medicalimaging_diag_loc',23,52,5),t(=,10,52,5),t([ t('Gridstatefiltervalue',23,52,47),t('Value',3,52,69) ],29,52,69) ]).
+b_line_i(53,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,53,9),t('Name',3,53,31) ],29,53,31),t(=,10,1,36),t('"TFBR_MEDICALIMAGING_DIAG_LOC_SEL"',3,53,38) ]).
+b_line_i(54,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_medicalimaging_diag_loc_sel',23,54,5),t(=,10,54,5),t([ t('Gridstatefiltervalue',23,54,51),t('Value',3,54,73) ],29,54,73) ]).
+b_line_i(55,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,55,9),t('Name',3,55,31) ],29,55,31),t(=,10,1,36),t('"TFBR_MEDICALIMAGING_DIAG_ORGAN"',3,55,38) ]).
+b_line_i(56,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_medicalimaging_diag_organ',23,56,5),t(=,10,56,5),t([ t('Gridstatefiltervalue',23,56,49),t('Value',3,56,71) ],29,56,71) ]).
+b_line_i(57,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,57,9),t('Name',3,57,31) ],29,57,31),t(=,10,1,36),t('"TFBR_MEDICALIMAGING_DIAG_ORGAN_SEL"',3,57,38) ]).
+b_line_i(58,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_medicalimaging_diag_organ_sel',23,58,5),t(=,10,58,5),t([ t('Gridstatefiltervalue',23,58,53),t('Value',3,58,75) ],29,58,75) ]).
+b_line_i(59,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,59,9),t('Name',3,59,31) ],29,59,31),t(=,10,1,36),t('"TFBR_MEDICALIMAGING_DIAG_DIS"',3,59,38) ]).
+b_line_i(60,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_medicalimaging_diag_dis',23,60,5),t(=,10,60,5),t([ t('Gridstatefiltervalue',23,60,47),t('Value',3,60,69) ],29,60,69) ]).
+b_line_i(61,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,61,9),t('Name',3,61,31) ],29,61,31),t(=,10,1,36),t('"TFBR_MEDICALIMAGING_DIAG_DIS_SEL"',3,61,38) ]).
+b_line_i(62,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_medicalimaging_diag_dis_sel',23,62,5),t(=,10,62,5),t([ t('Gridstatefiltervalue',23,62,51),t('Value',3,62,73) ],29,62,73) ]).
+b_line_i(63,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,63,9),t('Name',3,63,31) ],29,63,31),t(=,10,1,36),t('"TFBR_MEDICALIMAGING_DIAG_NO"',3,63,38) ]).
+b_line_i(64,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_medicalimaging_diag_no',23,64,5),t(=,10,64,5),t('val(',1,64,5),t([ t('Gridstatefiltervalue',23,64,46),t('Value',3,64,68) ],29,64,68),t(')',4,1,73) ]).
+b_line_i(65,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_medicalimaging_diag_no_to',23,65,5),t(=,10,65,5),t('val(',1,65,5),t([ t('Gridstatefiltervalue',23,65,49),t('Valueto',3,65,71) ],29,65,71),t(')',4,1,78) ]).
+b_line_i(66,1,2,cmd,1,[ t('',154,1,0) ]).
+b_line_i([ 67,1 ],1,2,cmd,1,[ t('',107,1,0),t('GXV1',23,1,0),t(=,10,1,0),t('GXV1',23,1,0),t(+,5,1,0),t(1,3,1,0) ]).
+b_line_i([ 67,2 ],1,2,cmd,1,[ t('',115,1,0) ]).
+b_line_i(68,1,2,cmd,2,[]).
+b_line_i(69,1,2,cmd,2,[]).
+b_line_i(70,1,2,cmd,2,[]).
+b_line_i(71,1,2,cmd,2,[ t('',144,2,0) ]).
+b_line_i(72,1,2,cmd,2,[]).
+b_line_i(73,1,2,cmd,2,[ t('',143,2,0),t('''LOADBR_MEDICALIMAGING_DIAG_LOCOPTIONS''',3,73,5) ]).
+b_line_i(74,1,3,cmd,2,[]).
+b_line_i(75,1,3,cmd,2,[]).
+b_line_i(76,1,3,cmd,2,[]).
+b_line_i(77,1,3,cmd,2,[ t('',107,2,0),t('Tfbr_medicalimaging_diag_loc',23,2,0),t(=,10,2,0),t('Searchtxt',23,2,0) ]).
+b_line_i(78,1,3,cmd,2,[ t('',107,2,0),t([ t('Tfbr_medicalimaging_diag_loc_sel',23,78,2),t('setempty(',1,78,36) ],31,78,2),t(')',4,2,46) ]).
+b_line_i([ 78,1 ],1,3,cmd,80,[ t('',107,80,0),t('BR_MedicalImaging_DiagWWDS_1_Tfbr_medicalimaging_diagid',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diagid',23,0,36) ]).
+b_line_i([ 78,2 ],1,3,cmd,80,[ t('',107,80,0),t('BR_MedicalImaging_DiagWWDS_2_Tfbr_medicalimaging_diagid_to',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diagid_to',23,0,65) ]).
+b_line_i([ 78,3 ],1,3,cmd,80,[ t('',107,80,0),t('BR_MedicalImaging_DiagWWDS_3_Tfbr_medicalimagingid',23,0,0),t(=,10,0,0),t('Tfbr_medicalimagingid',23,0,97) ]).
+b_line_i([ 78,4 ],1,3,cmd,80,[ t('',107,80,0),t('BR_MedicalImaging_DiagWWDS_4_Tfbr_medicalimagingid_to',23,0,0),t(=,10,0,0),t('Tfbr_medicalimagingid_to',23,0,121) ]).
+b_line_i([ 78,5 ],1,3,cmd,80,[ t('',107,80,0),t('BR_MedicalImaging_DiagWWDS_5_Tfbr_medicalimaging_diag_loc',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_loc',23,0,148) ]).
+b_line_i([ 78,6 ],1,3,cmd,80,[ t('',107,80,0),t('BR_MedicalImaging_DiagWWDS_6_Tfbr_medicalimaging_diag_loc_sel',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_loc_sel',23,0,179) ]).
+b_line_i([ 78,7 ],1,3,cmd,80,[ t('',107,80,0),t('BR_MedicalImaging_DiagWWDS_7_Tfbr_medicalimaging_diag_organ',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_organ',23,0,221) ]).
+b_line_i([ 78,8 ],1,3,cmd,80,[ t('',107,80,0),t('BR_MedicalImaging_DiagWWDS_8_Tfbr_medicalimaging_diag_organ_sel',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_organ_sel',23,0,254) ]).
+b_line_i([ 78,9 ],1,3,cmd,80,[ t('',107,80,0),t('BR_MedicalImaging_DiagWWDS_9_Tfbr_medicalimaging_diag_dis',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_dis',23,0,291) ]).
+b_line_i([ 78,10 ],1,3,cmd,80,[ t('',107,80,0),t('BR_MedicalImaging_DiagWWDS_10_Tfbr_medicalimaging_diag_dis_sel',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_dis_sel',23,0,322) ]).
+b_line_i([ 78,11 ],1,3,cmd,80,[ t('',107,80,0),t('BR_MedicalImaging_DiagWWDS_11_Tfbr_medicalimaging_diag_no',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_no',23,0,357) ]).
+b_line_i([ 78,12 ],1,3,cmd,80,[ t('',107,80,0),t('BR_MedicalImaging_DiagWWDS_12_Tfbr_medicalimaging_diag_no_to',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_no_to',23,0,387) ]).
+b_line_i(79,2,1,cmd,80,[ t('',121,79,0),t('ORDER',39,79,14),t(271,2,79,20) ]).
+b_line_i(80,2,1,cmd,80,[]).
+b_line_i(82,2,1,cmd,80,[]).
+b_line_i(83,2,1,cmd,80,[]).
+b_line_i(84,2,1,cmd,80,[ t('',107,80,0),t('Count',23,80,0),t(=,10,80,0),t('0',3,80,0) ]).
+b_line_i(85,3,1,cmd,86,[ t('',121,85,0),t('ORDER',39,85,16),t(271,2,85,22) ]).
+b_line_i(86,3,1,cmd,86,[]).
+b_line_i(87,3,1,cmd,86,[ t('',107,86,0),t('Count',23,86,0),t(=,10,86,0),t('Count',23,86,0),t(+,5,86,0),t('1',3,86,0) ]).
+b_line_i(88,3,1,cmd,86,[ t('',128,86,0) ]).
+b_line_i(89,2,3,cmd,84,[ t('',109,84,0),t('.NOT.',8,84,6),t('null(',1,89,39),t(271,2,84,12),t(')',4,84,48) ]).
+b_line_i(90,2,3,cmd,84,[ t('',107,84,0),t('Option',23,84,0),t(=,10,84,0),t(271,2,84,0) ]).
+b_line_i(91,2,3,cmd,84,[]).
+b_line_i(92,2,3,cmd,84,[ t('',107,84,0),t([ t('Options',23,92,4),t('add(',1,92,13) ],31,92,4),t('Option',23,84,18),t(')',4,84,25) ]).
+b_line_i(93,2,3,cmd,84,[ t('',107,84,0),t([ t('Optionindexes',23,93,4),t('add(',1,93,19) ],31,93,4),t('trim(',1,84,24),t('toformattedstring(',1,93,37),t('Count',23,84,30),t(')',4,84,56),t(')',4,84,57),t(')',4,84,58) ]).
+b_line_i(94,2,3,cmd,84,[ t('',111,84,0) ]).
+b_line_i(95,2,3,cmd,84,[ t('',109,84,0),t([ t('Options',23,95,6),t('Count',3,95,15) ],29,95,15),t(=,10,84,21),t('50',3,84,23) ]).
+b_line_i(96,2,3,cmd,84,[ t('',139,84,0) ]).
+b_line_i(97,2,3,cmd,84,[ t('',111,84,0) ]).
+b_line_i(98,2,3,cmd,84,[ t('',128,84,0) ]).
+b_line_i(99,1,5,cmd,22,[]).
+b_line_i(100,1,5,cmd,22,[]).
+b_line_i(101,1,5,cmd,22,[]).
+b_line_i(102,1,5,cmd,22,[ t('',144,22,0) ]).
+b_line_i(103,1,5,cmd,22,[]).
+b_line_i(104,1,5,cmd,22,[ t('',143,22,0),t('''LOADBR_MEDICALIMAGING_DIAG_ORGANOPTIONS''',3,104,5) ]).
+b_line_i(105,1,6,cmd,22,[]).
+b_line_i(106,1,6,cmd,22,[]).
+b_line_i(107,1,6,cmd,22,[]).
+b_line_i(108,1,6,cmd,22,[ t('',107,22,0),t('Tfbr_medicalimaging_diag_organ',23,22,0),t(=,10,22,0),t('Searchtxt',23,22,0) ]).
+b_line_i(109,1,6,cmd,22,[ t('',107,22,0),t([ t('Tfbr_medicalimaging_diag_organ_sel',23,109,2),t('setempty(',1,109,38) ],31,109,2),t(')',4,22,48) ]).
+b_line_i([ 109,1 ],1,6,cmd,111,[ t('',107,111,0),t('BR_MedicalImaging_DiagWWDS_1_Tfbr_medicalimaging_diagid',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diagid',23,0,36) ]).
+b_line_i([ 109,2 ],1,6,cmd,111,[ t('',107,111,0),t('BR_MedicalImaging_DiagWWDS_2_Tfbr_medicalimaging_diagid_to',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diagid_to',23,0,65) ]).
+b_line_i([ 109,3 ],1,6,cmd,111,[ t('',107,111,0),t('BR_MedicalImaging_DiagWWDS_3_Tfbr_medicalimagingid',23,0,0),t(=,10,0,0),t('Tfbr_medicalimagingid',23,0,97) ]).
+b_line_i([ 109,4 ],1,6,cmd,111,[ t('',107,111,0),t('BR_MedicalImaging_DiagWWDS_4_Tfbr_medicalimagingid_to',23,0,0),t(=,10,0,0),t('Tfbr_medicalimagingid_to',23,0,121) ]).
+b_line_i([ 109,5 ],1,6,cmd,111,[ t('',107,111,0),t('BR_MedicalImaging_DiagWWDS_5_Tfbr_medicalimaging_diag_loc',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_loc',23,0,148) ]).
+b_line_i([ 109,6 ],1,6,cmd,111,[ t('',107,111,0),t('BR_MedicalImaging_DiagWWDS_6_Tfbr_medicalimaging_diag_loc_sel',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_loc_sel',23,0,179) ]).
+b_line_i([ 109,7 ],1,6,cmd,111,[ t('',107,111,0),t('BR_MedicalImaging_DiagWWDS_7_Tfbr_medicalimaging_diag_organ',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_organ',23,0,221) ]).
+b_line_i([ 109,8 ],1,6,cmd,111,[ t('',107,111,0),t('BR_MedicalImaging_DiagWWDS_8_Tfbr_medicalimaging_diag_organ_sel',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_organ_sel',23,0,254) ]).
+b_line_i([ 109,9 ],1,6,cmd,111,[ t('',107,111,0),t('BR_MedicalImaging_DiagWWDS_9_Tfbr_medicalimaging_diag_dis',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_dis',23,0,291) ]).
+b_line_i([ 109,10 ],1,6,cmd,111,[ t('',107,111,0),t('BR_MedicalImaging_DiagWWDS_10_Tfbr_medicalimaging_diag_dis_sel',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_dis_sel',23,0,322) ]).
+b_line_i([ 109,11 ],1,6,cmd,111,[ t('',107,111,0),t('BR_MedicalImaging_DiagWWDS_11_Tfbr_medicalimaging_diag_no',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_no',23,0,357) ]).
+b_line_i([ 109,12 ],1,6,cmd,111,[ t('',107,111,0),t('BR_MedicalImaging_DiagWWDS_12_Tfbr_medicalimaging_diag_no_to',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_no_to',23,0,387) ]).
+b_line_i(110,4,1,cmd,111,[ t('',121,110,0),t('ORDER',39,110,14),t(272,2,110,20) ]).
+b_line_i(111,4,1,cmd,111,[]).
+b_line_i(113,4,1,cmd,111,[]).
+b_line_i(114,4,1,cmd,111,[]).
+b_line_i(115,4,1,cmd,111,[ t('',107,111,0),t('Count',23,111,0),t(=,10,111,0),t('0',3,111,0) ]).
+b_line_i(116,5,1,cmd,117,[ t('',121,116,0),t('ORDER',39,116,16),t(272,2,116,22) ]).
+b_line_i(117,5,1,cmd,117,[]).
+b_line_i(118,5,1,cmd,117,[ t('',107,117,0),t('Count',23,117,0),t(=,10,117,0),t('Count',23,117,0),t(+,5,117,0),t('1',3,117,0) ]).
+b_line_i(119,5,1,cmd,117,[ t('',128,117,0) ]).
+b_line_i(120,4,3,cmd,115,[ t('',109,115,0),t('.NOT.',8,115,6),t('null(',1,120,41),t(272,2,115,12),t(')',4,115,50) ]).
+b_line_i(121,4,3,cmd,115,[ t('',107,115,0),t('Option',23,115,0),t(=,10,115,0),t(272,2,115,0) ]).
+b_line_i(122,4,3,cmd,115,[]).
+b_line_i(123,4,3,cmd,115,[ t('',107,115,0),t([ t('Options',23,123,4),t('add(',1,123,13) ],31,123,4),t('Option',23,115,18),t(')',4,115,25) ]).
+b_line_i(124,4,3,cmd,115,[ t('',107,115,0),t([ t('Optionindexes',23,124,4),t('add(',1,124,19) ],31,124,4),t('trim(',1,115,24),t('toformattedstring(',1,124,37),t('Count',23,115,30),t(')',4,115,56),t(')',4,115,57),t(')',4,115,58) ]).
+b_line_i(125,4,3,cmd,115,[ t('',111,115,0) ]).
+b_line_i(126,4,3,cmd,115,[ t('',109,115,0),t([ t('Options',23,126,6),t('Count',3,126,15) ],29,126,15),t(=,10,115,21),t('50',3,115,23) ]).
+b_line_i(127,4,3,cmd,115,[ t('',139,115,0) ]).
+b_line_i(128,4,3,cmd,115,[ t('',111,115,0) ]).
+b_line_i(129,4,3,cmd,115,[ t('',128,115,0) ]).
+b_line_i(130,1,8,cmd,42,[]).
+b_line_i(131,1,8,cmd,42,[]).
+b_line_i(132,1,8,cmd,42,[]).
+b_line_i(133,1,8,cmd,42,[ t('',144,42,0) ]).
+b_line_i(134,1,8,cmd,42,[]).
+b_line_i(135,1,8,cmd,42,[ t('',143,42,0),t('''LOADBR_MEDICALIMAGING_DIAG_DISOPTIONS''',3,135,5) ]).
+b_line_i(136,1,9,cmd,42,[]).
+b_line_i(137,1,9,cmd,42,[]).
+b_line_i(138,1,9,cmd,42,[]).
+b_line_i(139,1,9,cmd,42,[ t('',107,42,0),t('Tfbr_medicalimaging_diag_dis',23,42,0),t(=,10,42,0),t('Searchtxt',23,42,0) ]).
+b_line_i(140,1,9,cmd,42,[ t('',107,42,0),t([ t('Tfbr_medicalimaging_diag_dis_sel',23,140,2),t('setempty(',1,140,36) ],31,140,2),t(')',4,42,46) ]).
+b_line_i([ 140,1 ],1,9,cmd,142,[ t('',107,142,0),t('BR_MedicalImaging_DiagWWDS_1_Tfbr_medicalimaging_diagid',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diagid',23,0,36) ]).
+b_line_i([ 140,2 ],1,9,cmd,142,[ t('',107,142,0),t('BR_MedicalImaging_DiagWWDS_2_Tfbr_medicalimaging_diagid_to',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diagid_to',23,0,65) ]).
+b_line_i([ 140,3 ],1,9,cmd,142,[ t('',107,142,0),t('BR_MedicalImaging_DiagWWDS_3_Tfbr_medicalimagingid',23,0,0),t(=,10,0,0),t('Tfbr_medicalimagingid',23,0,97) ]).
+b_line_i([ 140,4 ],1,9,cmd,142,[ t('',107,142,0),t('BR_MedicalImaging_DiagWWDS_4_Tfbr_medicalimagingid_to',23,0,0),t(=,10,0,0),t('Tfbr_medicalimagingid_to',23,0,121) ]).
+b_line_i([ 140,5 ],1,9,cmd,142,[ t('',107,142,0),t('BR_MedicalImaging_DiagWWDS_5_Tfbr_medicalimaging_diag_loc',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_loc',23,0,148) ]).
+b_line_i([ 140,6 ],1,9,cmd,142,[ t('',107,142,0),t('BR_MedicalImaging_DiagWWDS_6_Tfbr_medicalimaging_diag_loc_sel',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_loc_sel',23,0,179) ]).
+b_line_i([ 140,7 ],1,9,cmd,142,[ t('',107,142,0),t('BR_MedicalImaging_DiagWWDS_7_Tfbr_medicalimaging_diag_organ',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_organ',23,0,221) ]).
+b_line_i([ 140,8 ],1,9,cmd,142,[ t('',107,142,0),t('BR_MedicalImaging_DiagWWDS_8_Tfbr_medicalimaging_diag_organ_sel',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_organ_sel',23,0,254) ]).
+b_line_i([ 140,9 ],1,9,cmd,142,[ t('',107,142,0),t('BR_MedicalImaging_DiagWWDS_9_Tfbr_medicalimaging_diag_dis',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_dis',23,0,291) ]).
+b_line_i([ 140,10 ],1,9,cmd,142,[ t('',107,142,0),t('BR_MedicalImaging_DiagWWDS_10_Tfbr_medicalimaging_diag_dis_sel',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_dis_sel',23,0,322) ]).
+b_line_i([ 140,11 ],1,9,cmd,142,[ t('',107,142,0),t('BR_MedicalImaging_DiagWWDS_11_Tfbr_medicalimaging_diag_no',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_no',23,0,357) ]).
+b_line_i([ 140,12 ],1,9,cmd,142,[ t('',107,142,0),t('BR_MedicalImaging_DiagWWDS_12_Tfbr_medicalimaging_diag_no_to',23,0,0),t(=,10,0,0),t('Tfbr_medicalimaging_diag_no_to',23,0,387) ]).
+b_line_i(141,6,1,cmd,142,[ t('',121,141,0),t('ORDER',39,141,14),t(273,2,141,20) ]).
+b_line_i(142,6,1,cmd,142,[]).
+b_line_i(144,6,1,cmd,142,[]).
+b_line_i(145,6,1,cmd,142,[]).
+b_line_i(146,6,1,cmd,142,[ t('',107,142,0),t('Count',23,142,0),t(=,10,142,0),t('0',3,142,0) ]).
+b_line_i(147,7,1,cmd,148,[ t('',121,147,0),t('ORDER',39,147,16),t(273,2,147,22) ]).
+b_line_i(148,7,1,cmd,148,[]).
+b_line_i(149,7,1,cmd,148,[ t('',107,148,0),t('Count',23,148,0),t(=,10,148,0),t('Count',23,148,0),t(+,5,148,0),t('1',3,148,0) ]).
+b_line_i(150,7,1,cmd,148,[ t('',128,148,0) ]).
+b_line_i(151,6,3,cmd,146,[ t('',109,146,0),t('.NOT.',8,146,6),t('null(',1,151,39),t(273,2,146,12),t(')',4,146,48) ]).
+b_line_i(152,6,3,cmd,146,[ t('',107,146,0),t('Option',23,146,0),t(=,10,146,0),t(273,2,146,0) ]).
+b_line_i(153,6,3,cmd,146,[]).
+b_line_i(154,6,3,cmd,146,[ t('',107,146,0),t([ t('Options',23,154,4),t('add(',1,154,13) ],31,154,4),t('Option',23,146,18),t(')',4,146,25) ]).
+b_line_i(155,6,3,cmd,146,[ t('',107,146,0),t([ t('Optionindexes',23,155,4),t('add(',1,155,19) ],31,155,4),t('trim(',1,146,24),t('toformattedstring(',1,155,37),t('Count',23,146,30),t(')',4,146,56),t(')',4,146,57),t(')',4,146,58) ]).
+b_line_i(156,6,3,cmd,146,[ t('',111,146,0) ]).
+b_line_i(157,6,3,cmd,146,[ t('',109,146,0),t([ t('Options',23,157,6),t('Count',3,157,15) ],29,157,15),t(=,10,146,21),t('50',3,146,23) ]).
+b_line_i(158,6,3,cmd,146,[ t('',139,146,0) ]).
+b_line_i(159,6,3,cmd,146,[ t('',111,146,0) ]).
+b_line_i(160,6,3,cmd,146,[ t('',128,146,0) ]).
+b_line_i(161,1,11,cmd,62,[]).
+b_line_i(162,1,11,cmd,62,[]).
+b_line_i(163,1,11,cmd,62,[]).
+b_line_i(164,1,11,cmd,62,[ t('',144,62,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(51,271) ],'; poor performance may be noticed',[ ' in group starting at line ','85','' ],'.' ])).
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(51,272) ],'; poor performance may be noticed',[ ' in group starting at line ','116','' ],'.' ])).
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(51,273) ],'; poor performance may be noticed',[ ' in group starting at line ','147','' ],'.' ])).
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(51,271,'ExternalName','BR_MedicalImaging_Diag_Loc',d).
+att_prop_i(51,271,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,271,'EmptyAsNull','Yes',d).
+att_prop_i(51,271,idBasedOn,'',d).
+att_prop_i(51,271,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,271,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,271,'AttRegEx','',d).
+att_prop_i(51,271,'AttValidationFailedMsg','',d).
+att_prop_i(51,271,'FullName','BR_MedicalImaging_Diag_Loc',v).
+att_prop_i(51,272,'ExternalName','BR_MedicalImaging_Diag_Organ',d).
+att_prop_i(51,272,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,272,'EmptyAsNull','Yes',d).
+att_prop_i(51,272,idBasedOn,'',d).
+att_prop_i(51,272,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,272,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,272,'AttRegEx','',d).
+att_prop_i(51,272,'AttValidationFailedMsg','',d).
+att_prop_i(51,272,'FullName','BR_MedicalImaging_Diag_Organ',v).
+att_prop_i(51,273,'ExternalName','BR_MedicalImaging_Diag_Dis',d).
+att_prop_i(51,273,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,273,'EmptyAsNull','Yes',d).
+att_prop_i(51,273,idBasedOn,'',d).
+att_prop_i(51,273,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,273,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(51,273,'AttRegEx','',d).
+att_prop_i(51,273,'AttValidationFailedMsg','',d).
+att_prop_i(51,273,'FullName','BR_MedicalImaging_Diag_Dis',v).
+att_prop_i(51,517,'ExternalName','BR_MedicalImaging_Diag_No',d).
+att_prop_i(51,517,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,517,'EmptyAsNull','Yes',d).
+att_prop_i(51,517,idBasedOn,'',d).
+att_prop_i(51,517,'AUTONUMBER','0',d).
+att_prop_i(51,517,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,517,'AttRegEx','',d).
+att_prop_i(51,517,'AttValidationFailedMsg','',d).
+att_prop_i(51,517,'FullName','BR_MedicalImaging_Diag_No',v).
+att_prop_i(51,225,'ExternalName','BR_MedicalImagingID',d).
+att_prop_i(51,225,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,225,'EmptyAsNull','Yes',d).
+att_prop_i(51,225,idBasedOn,69,v).
+att_prop_i(51,225,'AUTONUMBER','-1',d).
+att_prop_i(51,225,'AUTONUMBER_START','1',d).
+att_prop_i(51,225,'AUTONUMBER_STEP','1',d).
+att_prop_i(51,225,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(51,225,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,225,'AttRegEx','',d).
+att_prop_i(51,225,'AttValidationFailedMsg','',d).
+att_prop_i(51,225,'FullName','BR_MedicalImagingID',v).
+att_prop_i(51,270,'ExternalName','BR_MedicalImaging_DiagID',d).
+att_prop_i(51,270,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(51,270,'EmptyAsNull','Yes',d).
+att_prop_i(51,270,idBasedOn,69,v).
+att_prop_i(51,270,'AUTONUMBER','-1',d).
+att_prop_i(51,270,'AUTONUMBER_START','1',d).
+att_prop_i(51,270,'AUTONUMBER_STEP','1',d).
+att_prop_i(51,270,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(51,270,'ATT_INITIAL_VALUE','',d).
+att_prop_i(51,270,'AttRegEx','',d).
+att_prop_i(51,270,'AttValidationFailedMsg','',d).
+att_prop_i(51,270,'FullName','BR_MedicalImaging_DiagID',v).
+ 
+ 
+tbl_att_prop_i(51,29,270,'AllowNulls',n).
+tbl_att_prop_i(51,29,270,'AUTONUMBER',y).
+ 
+var_prop_i(51,'Securityfunctionalitykeys',idBasedOn,90,v).
+var_prop_i(51,'Tfbr_medicalimaging_diagid',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diagid_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimagingid',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimagingid_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diag_loc',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diag_loc_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diag_organ',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diag_organ_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diag_dis',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diag_dis_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diag_no',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diag_no_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diagid',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diagid_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimagingid',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimagingid_to',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diag_loc',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diag_loc_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diag_organ',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diag_organ_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diag_dis',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diag_dis_sel',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diag_no',idBasedOn,'',v).
+var_prop_i(51,'Tfbr_medicalimaging_diag_no_to',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,43,0 ],name,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,43,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 26,43,0 ],'ObjName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ObjDesc','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 26,47,0 ],name,'WWPBaseObjects\WWPGridState').
+struct_dt_i([ 26,47,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 26,47,0 ],'ObjName','WWPGridState').
+struct_dt_i([ 26,47,0 ],'ObjDesc','Grid State').
+struct_dt_i([ 26,47,0 ],'ExternalName','WWPGridState').
+struct_dt_i([ 26,47,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 26,47,79 ],name,'FilterValue').
+struct_dt_i([ 26,47,79 ],namespace,'DataAnalysisPlatform.WWPGridState').
+struct_dt_i([ 26,47,80 ],name,'DynamicFilter').
+struct_dt_i([ 26,47,80 ],namespace,'DataAnalysisPlatform.WWPGridState').
+struct_dt_i([ 26,43,0 ],fullname,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,47,0 ],fullname,'WWPBaseObjects\WWPGridState').
+struct_dt_i([ 26,47,79 ],fullname,'WWPBaseObjects\WWPGridState.FilterValue').
+struct_dt_i([ 26,47,80 ],fullname,'WWPBaseObjects\WWPGridState.DynamicFilter').
+struct_dt_i([ 26,43,0 ],modified,yes).
+struct_dt_i([ 26,47,0 ],modified,yes).
+struct_dt_i([ 26,47,79 ],modified,yes).
+struct_dt_i([ 26,47,80 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,43,0 ],1,name,'Userid').
+struct_dt_elem_i([ 26,43,0 ],1,camelname,'UserId').
+struct_dt_elem_i([ 26,43,0 ],1,length,4).
+struct_dt_elem_i([ 26,43,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],1,sign,0).
+struct_dt_elem_i([ 26,43,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalName','UserId').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],2,name,'Userguid').
+struct_dt_elem_i([ 26,43,0 ],2,camelname,'UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,length,500).
+struct_dt_elem_i([ 26,43,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],2,type,[ 13,500,0 ]).
+struct_dt_elem_i([ 26,43,0 ],2,pic,'').
+struct_dt_elem_i([ 26,43,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalName','UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],3,name,'Username').
+struct_dt_elem_i([ 26,43,0 ],3,camelname,'UserName').
+struct_dt_elem_i([ 26,43,0 ],3,length,100).
+struct_dt_elem_i([ 26,43,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],3,pic,'').
+struct_dt_elem_i([ 26,43,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalName','UserName').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],4,name,'Usertype').
+struct_dt_elem_i([ 26,43,0 ],4,camelname,'UserType').
+struct_dt_elem_i([ 26,43,0 ],4,length,4).
+struct_dt_elem_i([ 26,43,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],4,sign,0).
+struct_dt_elem_i([ 26,43,0 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalName','UserType').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],5,name,'Userdisplayname').
+struct_dt_elem_i([ 26,43,0 ],5,camelname,'UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,length,100).
+struct_dt_elem_i([ 26,43,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],5,pic,'').
+struct_dt_elem_i([ 26,43,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalName','UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],6,name,'Userproviderid').
+struct_dt_elem_i([ 26,43,0 ],6,camelname,'UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,basedon,69).
+struct_dt_elem_i([ 26,43,0 ],6,length,18).
+struct_dt_elem_i([ 26,43,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],6,sign,0).
+struct_dt_elem_i([ 26,43,0 ],6,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,43,0 ],6,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 26,43,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalName','UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],7,name,'Userprovidername').
+struct_dt_elem_i([ 26,43,0 ],7,camelname,'UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,length,100).
+struct_dt_elem_i([ 26,43,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],7,pic,'').
+struct_dt_elem_i([ 26,43,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalName','UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],8,name,'Currenttnum').
+struct_dt_elem_i([ 26,43,0 ],8,camelname,currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,length,4).
+struct_dt_elem_i([ 26,43,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],8,sign,0).
+struct_dt_elem_i([ 26,43,0 ],8,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],8,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalName',currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],8,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],8,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],9,name,'Clientip').
+struct_dt_elem_i([ 26,43,0 ],9,camelname,'ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,length,40).
+struct_dt_elem_i([ 26,43,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],9,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,43,0 ],9,pic,'').
+struct_dt_elem_i([ 26,43,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalName','ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],9,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],9,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],1,name,'Currentpage').
+struct_dt_elem_i([ 26,47,0 ],1,camelname,'CurrentPage').
+struct_dt_elem_i([ 26,47,0 ],1,length,4).
+struct_dt_elem_i([ 26,47,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],1,sign,0).
+struct_dt_elem_i([ 26,47,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,47,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,47,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],1,'ExternalName','CurrentPage').
+struct_dt_elem_i([ 26,47,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],2,name,'Orderedby').
+struct_dt_elem_i([ 26,47,0 ],2,camelname,'OrderedBy').
+struct_dt_elem_i([ 26,47,0 ],2,length,4).
+struct_dt_elem_i([ 26,47,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],2,sign,0).
+struct_dt_elem_i([ 26,47,0 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,47,0 ],2,pic,'ZZZ9').
+struct_dt_elem_i([ 26,47,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],2,'ExternalName','OrderedBy').
+struct_dt_elem_i([ 26,47,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],3,name,'Ordereddsc').
+struct_dt_elem_i([ 26,47,0 ],3,camelname,'OrderedDsc').
+struct_dt_elem_i([ 26,47,0 ],3,length,4).
+struct_dt_elem_i([ 26,47,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],3,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,47,0 ],3,pic,'').
+struct_dt_elem_i([ 26,47,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],3,'ExternalName','OrderedDsc').
+struct_dt_elem_i([ 26,47,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],4,name,'Hidingsearch').
+struct_dt_elem_i([ 26,47,0 ],4,camelname,'HidingSearch').
+struct_dt_elem_i([ 26,47,0 ],4,length,1).
+struct_dt_elem_i([ 26,47,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],4,sign,0).
+struct_dt_elem_i([ 26,47,0 ],4,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 26,47,0 ],4,pic,'9').
+struct_dt_elem_i([ 26,47,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],4,'ExternalName','HidingSearch').
+struct_dt_elem_i([ 26,47,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],5,name,'Pagesize').
+struct_dt_elem_i([ 26,47,0 ],5,camelname,'PageSize').
+struct_dt_elem_i([ 26,47,0 ],5,length,10).
+struct_dt_elem_i([ 26,47,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],5,type,[ 13,10,0 ]).
+struct_dt_elem_i([ 26,47,0 ],5,pic,'').
+struct_dt_elem_i([ 26,47,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],5,'ExternalName','PageSize').
+struct_dt_elem_i([ 26,47,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],6,name,'Filtervalues').
+struct_dt_elem_i([ 26,47,0 ],6,camelname,'FilterValues').
+struct_dt_elem_i([ 26,47,0 ],6,type,[ [ 26,47,79 ],0,0 ]).
+struct_dt_elem_i([ 26,47,0 ],6,pic,'').
+struct_dt_elem_i([ 26,47,0 ],6,collection,'True').
+struct_dt_elem_i([ 26,47,0 ],6,'ObjName','FilterValues').
+struct_dt_elem_i([ 26,47,0 ],6,'ObjDesc','Filter Values').
+struct_dt_elem_i([ 26,47,0 ],6,'CollectionItemName','FilterValue').
+struct_dt_elem_i([ 26,47,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],6,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,47,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],6,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,47,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],6,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,47,79 ],1,name,'Name').
+struct_dt_elem_i([ 26,47,79 ],1,camelname,'Name').
+struct_dt_elem_i([ 26,47,79 ],1,length,128).
+struct_dt_elem_i([ 26,47,79 ],1,decimals,0).
+struct_dt_elem_i([ 26,47,79 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,47,79 ],1,pic,'').
+struct_dt_elem_i([ 26,47,79 ],1,collection,'False').
+struct_dt_elem_i([ 26,47,79 ],1,'ExternalName','Name').
+struct_dt_elem_i([ 26,47,79 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,79 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,47,79 ],1,'XmlName','').
+struct_dt_elem_i([ 26,47,79 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,79 ],1,soaptype,'').
+struct_dt_elem_i([ 26,47,79 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,79 ],1,'JsonName','').
+struct_dt_elem_i([ 26,47,79 ],2,name,'Value').
+struct_dt_elem_i([ 26,47,79 ],2,camelname,'Value').
+struct_dt_elem_i([ 26,47,79 ],2,length,100).
+struct_dt_elem_i([ 26,47,79 ],2,decimals,0).
+struct_dt_elem_i([ 26,47,79 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,47,79 ],2,pic,'').
+struct_dt_elem_i([ 26,47,79 ],2,collection,'False').
+struct_dt_elem_i([ 26,47,79 ],2,'ExternalName','Value').
+struct_dt_elem_i([ 26,47,79 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,79 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,47,79 ],2,'XmlName','').
+struct_dt_elem_i([ 26,47,79 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,79 ],2,soaptype,'').
+struct_dt_elem_i([ 26,47,79 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,79 ],2,'JsonName','').
+struct_dt_elem_i([ 26,47,79 ],3,name,'Operator').
+struct_dt_elem_i([ 26,47,79 ],3,camelname,'Operator').
+struct_dt_elem_i([ 26,47,79 ],3,length,4).
+struct_dt_elem_i([ 26,47,79 ],3,decimals,0).
+struct_dt_elem_i([ 26,47,79 ],3,sign,0).
+struct_dt_elem_i([ 26,47,79 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,47,79 ],3,pic,'ZZZ9').
+struct_dt_elem_i([ 26,47,79 ],3,collection,'False').
+struct_dt_elem_i([ 26,47,79 ],3,'ExternalName','Operator').
+struct_dt_elem_i([ 26,47,79 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,79 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,47,79 ],3,'XmlName','').
+struct_dt_elem_i([ 26,47,79 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,79 ],3,soaptype,'').
+struct_dt_elem_i([ 26,47,79 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,79 ],3,'JsonName','').
+struct_dt_elem_i([ 26,47,79 ],4,name,'Valueto').
+struct_dt_elem_i([ 26,47,79 ],4,camelname,'ValueTo').
+struct_dt_elem_i([ 26,47,79 ],4,length,100).
+struct_dt_elem_i([ 26,47,79 ],4,decimals,0).
+struct_dt_elem_i([ 26,47,79 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,47,79 ],4,pic,'').
+struct_dt_elem_i([ 26,47,79 ],4,collection,'False').
+struct_dt_elem_i([ 26,47,79 ],4,'ExternalName','ValueTo').
+struct_dt_elem_i([ 26,47,79 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,79 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,47,79 ],4,'XmlName','').
+struct_dt_elem_i([ 26,47,79 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,79 ],4,soaptype,'').
+struct_dt_elem_i([ 26,47,79 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,79 ],4,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],7,name,'Dynamicfilters').
+struct_dt_elem_i([ 26,47,0 ],7,camelname,'DynamicFilters').
+struct_dt_elem_i([ 26,47,0 ],7,type,[ [ 26,47,80 ],0,0 ]).
+struct_dt_elem_i([ 26,47,0 ],7,pic,'').
+struct_dt_elem_i([ 26,47,0 ],7,collection,'True').
+struct_dt_elem_i([ 26,47,0 ],7,'ObjName','DynamicFilters').
+struct_dt_elem_i([ 26,47,0 ],7,'ObjDesc','Dynamic Filters').
+struct_dt_elem_i([ 26,47,0 ],7,'CollectionItemName','DynamicFilter').
+struct_dt_elem_i([ 26,47,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],7,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,47,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],7,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,47,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],7,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,47,80 ],1,name,'Selected').
+struct_dt_elem_i([ 26,47,80 ],1,camelname,'Selected').
+struct_dt_elem_i([ 26,47,80 ],1,length,128).
+struct_dt_elem_i([ 26,47,80 ],1,decimals,0).
+struct_dt_elem_i([ 26,47,80 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,47,80 ],1,pic,'').
+struct_dt_elem_i([ 26,47,80 ],1,collection,'False').
+struct_dt_elem_i([ 26,47,80 ],1,'ExternalName','Selected').
+struct_dt_elem_i([ 26,47,80 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,80 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,47,80 ],1,'XmlName','').
+struct_dt_elem_i([ 26,47,80 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,80 ],1,soaptype,'').
+struct_dt_elem_i([ 26,47,80 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,80 ],1,'JsonName','').
+struct_dt_elem_i([ 26,47,80 ],2,name,'Value').
+struct_dt_elem_i([ 26,47,80 ],2,camelname,'Value').
+struct_dt_elem_i([ 26,47,80 ],2,length,100).
+struct_dt_elem_i([ 26,47,80 ],2,decimals,0).
+struct_dt_elem_i([ 26,47,80 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,47,80 ],2,pic,'').
+struct_dt_elem_i([ 26,47,80 ],2,collection,'False').
+struct_dt_elem_i([ 26,47,80 ],2,'ExternalName','Value').
+struct_dt_elem_i([ 26,47,80 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,80 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,47,80 ],2,'XmlName','').
+struct_dt_elem_i([ 26,47,80 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,80 ],2,soaptype,'').
+struct_dt_elem_i([ 26,47,80 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,80 ],2,'JsonName','').
+struct_dt_elem_i([ 26,47,80 ],3,name,'Operator').
+struct_dt_elem_i([ 26,47,80 ],3,camelname,'Operator').
+struct_dt_elem_i([ 26,47,80 ],3,length,4).
+struct_dt_elem_i([ 26,47,80 ],3,decimals,0).
+struct_dt_elem_i([ 26,47,80 ],3,sign,0).
+struct_dt_elem_i([ 26,47,80 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,47,80 ],3,pic,'ZZZ9').
+struct_dt_elem_i([ 26,47,80 ],3,collection,'False').
+struct_dt_elem_i([ 26,47,80 ],3,'ExternalName','Operator').
+struct_dt_elem_i([ 26,47,80 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,80 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,47,80 ],3,'XmlName','').
+struct_dt_elem_i([ 26,47,80 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,80 ],3,soaptype,'').
+struct_dt_elem_i([ 26,47,80 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,80 ],3,'JsonName','').
+struct_dt_elem_i([ 26,47,80 ],4,name,'Valueto').
+struct_dt_elem_i([ 26,47,80 ],4,camelname,'ValueTo').
+struct_dt_elem_i([ 26,47,80 ],4,length,100).
+struct_dt_elem_i([ 26,47,80 ],4,decimals,0).
+struct_dt_elem_i([ 26,47,80 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,47,80 ],4,pic,'').
+struct_dt_elem_i([ 26,47,80 ],4,collection,'False').
+struct_dt_elem_i([ 26,47,80 ],4,'ExternalName','ValueTo').
+struct_dt_elem_i([ 26,47,80 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,80 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,47,80 ],4,'XmlName','').
+struct_dt_elem_i([ 26,47,80 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,80 ],4,soaptype,'').
+struct_dt_elem_i([ 26,47,80 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,80 ],4,'JsonName','').
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,15,'WWPBASEOBJECTS\LOADWWPCONTEXT',[ [ o('WWPBaseObjects\WWPContext'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+pgm_parm_i(proc,18,'WWPBASEOBJECTS\LOADGRIDSTATE',[ [ svchar,120,0,0 ],[ svchar,1000,0,0 ] ],[ [ 'UserCustomKey',in,[] ],[ 'UserCustomValue',out,[] ] ]).
+pgm_parm_i(proc,25,'WWPBASEOBJECTS\SECISAUTHBYFUNCTIONALITYKEY',[ [ svchar,100,0,0 ],[ boolean,4,0,0 ] ],[ [ 'SecFunctionalityKey',in,[] ],[ 'IsAuthorized',out,[] ] ]).
+ 
+pgm_callprotocol_i(proc,90,'BR_MEDICALIMAGING_DIAGWWGETFILTERDATA','INTERNAL').
+pgm_callprotocol_i(proc,15,'WWPBASEOBJECTS\LOADWWPCONTEXT','INTERNAL').
+pgm_callprotocol_i(proc,18,'WWPBASEOBJECTS\LOADGRIDSTATE','INTERNAL').
+pgm_callprotocol_i(proc,25,'WWPBASEOBJECTS\SECISAUTHBYFUNCTIONALITYKEY','INTERNAL').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

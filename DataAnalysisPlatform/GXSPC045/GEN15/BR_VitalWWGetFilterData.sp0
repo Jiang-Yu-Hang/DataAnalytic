@@ -1,0 +1,1203 @@
+spec_i([ proc,98,'BR_Vital WWGet Filter Data','BR_VitalWWGetFilterData',78,chs,'16_0_0-127771' ]).
+ 
+struct_i(2,1,[],[]).
+struct_i(3,2,[ 36 ],[]).
+ 
+level_i(2,[ 20,[ [ 20,many ],[ 15,one ],[ 16,one ] ],[],[],[ [ [ 20,15,16 ],[ 36,159,158,157,156,155,154,153,152,151,19,150,85 ] ] ],[ [ [ 20,15,16 ],[] ] ],[ 36 ],'',[],[] ]).
+level_i(3,[ 20,[ [ 20,many ],[ 15,one ],[ 16,one ] ],[],[],[ [ [ 20,15,16 ],[ 36,19,85 ] ] ],[ [ [ 20,15,16 ],[] ] ],[ 36 ],'',[ 20,[ [ [],36,36 ] ] ],[] ]).
+ 
+tw_i(2,[ [ 15,[ [ 20,19,19 ] ] ],[ 16,[ [ 15,85,85 ] ] ] ]).
+tw_i(3,[ [ 15,[ [ 20,19,19 ] ] ],[ 16,[ [ 15,85,85 ] ] ] ]).
+ 
+lwi_i(3,[ [] ]).
+lwi_i(2,[ [] ]).
+ 
+cond_constraint_i(2,[ [ t(150,2),t(>=,10),t('BR_VitalWWDS_1_Tfbr_vitalid',23) ],[ 150 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_1_Tfbr_vitalid',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(150,2),t(<=,10),t('BR_VitalWWDS_2_Tfbr_vitalid_to',23) ],[ 150 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_2_Tfbr_vitalid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(19,2),t(>=,10),t('BR_VitalWWDS_3_Tfbr_encounterid',23) ],[ 19 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_3_Tfbr_encounterid',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(19,2),t(<=,10),t('BR_VitalWWDS_4_Tfbr_encounterid_to',23) ],[ 19 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_4_Tfbr_encounterid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(36,2),t('.LIKE.',10),t('BR_VitalWWDS_5_Tfbr_information_patientno',23) ],[ 36 ],[ t('null(',1),t('BR_VitalWWDS_6_Tfbr_information_patientno_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_5_Tfbr_information_patientno',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(36,2),t(=,10),t('BR_VitalWWDS_6_Tfbr_information_patientno_sel',23) ],[ 36 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_6_Tfbr_information_patientno_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(151,2),t(>=,10),t('BR_VitalWWDS_7_Tfbr_vital_vitalid',23) ],[ 151 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_7_Tfbr_vital_vitalid',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(151,2),t(<=,10),t('BR_VitalWWDS_8_Tfbr_vital_vitalid_to',23) ],[ 151 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_8_Tfbr_vital_vitalid_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(152,2),t(>=,10),t('BR_VitalWWDS_9_Tfbr_vital_measuredate',23) ],[ 152 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_9_Tfbr_vital_measuredate',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(152,2),t(<=,10),t('BR_VitalWWDS_10_Tfbr_vital_measuredate_to',23) ],[ 152 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_10_Tfbr_vital_measuredate_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(153,2),t(>=,10),t('BR_VitalWWDS_11_Tfbr_vital_temperature',23) ],[ 153 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_11_Tfbr_vital_temperature',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(153,2),t(<=,10),t('BR_VitalWWDS_12_Tfbr_vital_temperature_to',23) ],[ 153 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_12_Tfbr_vital_temperature_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(154,2),t(>=,10),t('BR_VitalWWDS_13_Tfbr_vital_pulse',23) ],[ 154 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_13_Tfbr_vital_pulse',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(154,2),t(<=,10),t('BR_VitalWWDS_14_Tfbr_vital_pulse_to',23) ],[ 154 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_14_Tfbr_vital_pulse_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(155,2),t(>=,10),t('BR_VitalWWDS_15_Tfbr_vital_respiration',23) ],[ 155 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_15_Tfbr_vital_respiration',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(155,2),t(<=,10),t('BR_VitalWWDS_16_Tfbr_vital_respiration_to',23) ],[ 155 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_16_Tfbr_vital_respiration_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(156,2),t(>=,10),t('BR_VitalWWDS_17_Tfbr_vital_systolic',23) ],[ 156 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_17_Tfbr_vital_systolic',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(156,2),t(<=,10),t('BR_VitalWWDS_18_Tfbr_vital_systolic_to',23) ],[ 156 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_18_Tfbr_vital_systolic_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(157,2),t(>=,10),t('BR_VitalWWDS_19_Tfbr_vital_diastolic',23) ],[ 157 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_19_Tfbr_vital_diastolic',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(157,2),t(<=,10),t('BR_VitalWWDS_20_Tfbr_vital_diastolic_to',23) ],[ 157 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_20_Tfbr_vital_diastolic_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(158,2),t(>=,10),t('BR_VitalWWDS_21_Tfbr_vital_height',23) ],[ 158 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_21_Tfbr_vital_height',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(158,2),t(<=,10),t('BR_VitalWWDS_22_Tfbr_vital_height_to',23) ],[ 158 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_22_Tfbr_vital_height_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(159,2),t(>=,10),t('BR_VitalWWDS_23_Tfbr_vital_weight',23) ],[ 159 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_23_Tfbr_vital_weight',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(159,2),t(<=,10),t('BR_VitalWWDS_24_Tfbr_vital_weight_to',23) ],[ 159 ],[ t('.NOT.',8),t('null(',1),t('BR_VitalWWDS_24_Tfbr_vital_weight_to',23),t(')',4) ],[] ]).
+ 
+ 
+level_option_i(2,usr_condition,y).
+ 
+ta_i(2,[ [ [ 15,85 ],[ 16,36 ],[ 20,159 ],[ 20,158 ],[ 20,157 ],[ 20,156 ],[ 20,155 ],[ 20,154 ],[ 20,153 ],[ 20,152 ],[ 20,151 ],[ 20,19 ],[ 20,150 ] ] ]).
+ta_i(3,[ [ [ 20,19 ],[ 15,85 ],[ 16,36 ] ] ]).
+ 
+las_i(2,[ [ 36,159,158,157,156,155,154,153,152,151,19,150,85 ] ]).
+las_i(3,[ [ 36,19,85 ] ]).
+ 
+lac_i(2,[ [] ]).
+lac_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','商?')).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','商?')).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','BR_VitalWWGetFilterData')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('REST','-1')).
+rule_i(0,prop('SOAP','0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'-1')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('ObjDesc','BR_Vital WWGet Filter Data')).
+rule_i(0,prop('ObjName','BR_VitalWWGetFilterData')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Ddoname','Searchtxt','Searchtxtto','Optionsjson','Optionsdescjson','Optionindexesjson' ],[])).
+rule_i(0,parmio([ [ 'Ddoname',in ],[ 'Searchtxt',in ],[ 'Searchtxtto',in ],[ 'Optionsjson',out ],[ 'Optionsdescjson',out ],[ 'Optionindexesjson',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(3,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(4,3,t,20,[],[ [ [ [],36,36 ] ],'',[] ]).
+a_i(5,3,r,15,[],[ [ [ 20,19,19 ] ],'IBR_ENCOUNTER',[] ]).
+a_i(6,3,r,16,[],[ [ [ 15,85,85 ] ],'IBR_INFORMATION',[] ]).
+a_i(7,2,t,20,[],[ [],'',[] ]).
+a_i(8,2,r,15,[],[ [ [ 20,19,19 ] ],'IBR_ENCOUNTER',[] ]).
+a_i(9,2,r,16,[],[ [ [ 15,85,85 ] ],'IBR_INFORMATION',[] ]).
+ 
+v_i(f,i,3,[]).
+v_i(f,o,3,'Err').
+v_i(t,i,4,36).
+v_i(t,o,4,19).
+v_i(r,i,5,19).
+v_i(r,o,5,85).
+v_i(r,i,6,85).
+v_i(r,o,6,36).
+v_i(t,i,7,[]).
+v_i(t,o,7,159).
+v_i(t,o,7,158).
+v_i(t,o,7,157).
+v_i(t,o,7,156).
+v_i(t,o,7,155).
+v_i(t,o,7,154).
+v_i(t,o,7,153).
+v_i(t,o,7,152).
+v_i(t,o,7,151).
+v_i(t,o,7,19).
+v_i(t,o,7,150).
+v_i(r,i,8,19).
+v_i(r,o,8,85).
+v_i(r,i,9,85).
+v_i(r,o,9,36).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',82 ]).
+attri_i(85,[ 'BR_Information_ID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,患者基本信息主键ID,'',0 ]).
+attri_i(150,[ 'BR_VitalID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,生命体征主键,'',0 ]).
+attri_i(19,[ 'BR_EncounterID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,就诊信息主键,'',0 ]).
+attri_i(151,[ 'BR_Vital_VitalID',int,10,0,'ZZZZZZZZZZ',0,指标序号,'',0 ]).
+attri_i(152,[ 'BR_Vital_MeasureDate',date,8,0,'99/99/9999',0,测量日期,'',0 ]).
+attri_i(153,[ 'BR_Vital_Temperature',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'体温(℃)','',0 ]).
+attri_i(154,[ 'BR_Vital_Pulse',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'脉搏(次/分钟)','',0 ]).
+attri_i(155,[ 'BR_Vital_Respiration',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'呼吸频率(次/分钟)','',0 ]).
+attri_i(156,[ 'BR_Vital_Systolic',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'收缩压(mmHg)','',0 ]).
+attri_i(157,[ 'BR_Vital_Diastolic',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'舒张压(mmHg)','',0 ]).
+attri_i(158,[ 'BR_Vital_Height',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'身高(cm)','',0 ]).
+attri_i(159,[ 'BR_Vital_Weight',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'体重(kg)','',0 ]).
+attri_i(36,[ 'BR_Information_PatientNo',svchar,2000,0,'',0,患者编号,'',0 ]).
+attri_i('BR_VitalWWDS_24_Tfbr_vital_weight_to',[ 'BR_VitalWWDS_24_Tfbr_vital_weight_to',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'Tfbr_vital_weight_to','',80 ]).
+attri_i('BR_VitalWWDS_23_Tfbr_vital_weight',[ 'BR_VitalWWDS_23_Tfbr_vital_weight',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'Tfbr_vital_weight','',79 ]).
+attri_i('BR_VitalWWDS_22_Tfbr_vital_height_to',[ 'BR_VitalWWDS_22_Tfbr_vital_height_to',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'Tfbr_vital_height_to','',78 ]).
+attri_i('BR_VitalWWDS_21_Tfbr_vital_height',[ 'BR_VitalWWDS_21_Tfbr_vital_height',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'Tfbr_vital_height','',77 ]).
+attri_i('BR_VitalWWDS_20_Tfbr_vital_diastolic_to',[ 'BR_VitalWWDS_20_Tfbr_vital_diastolic_to',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'Tfbr_vital_diastolic_to','',76 ]).
+attri_i('BR_VitalWWDS_19_Tfbr_vital_diastolic',[ 'BR_VitalWWDS_19_Tfbr_vital_diastolic',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'Tfbr_vital_diastolic','',75 ]).
+attri_i('BR_VitalWWDS_18_Tfbr_vital_systolic_to',[ 'BR_VitalWWDS_18_Tfbr_vital_systolic_to',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'Tfbr_vital_systolic_to','',74 ]).
+attri_i('BR_VitalWWDS_17_Tfbr_vital_systolic',[ 'BR_VitalWWDS_17_Tfbr_vital_systolic',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'Tfbr_vital_systolic','',73 ]).
+attri_i('BR_VitalWWDS_16_Tfbr_vital_respiration_to',[ 'BR_VitalWWDS_16_Tfbr_vital_respiration_to',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'Tfbr_vital_respiration_to','',72 ]).
+attri_i('BR_VitalWWDS_15_Tfbr_vital_respiration',[ 'BR_VitalWWDS_15_Tfbr_vital_respiration',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'Tfbr_vital_respiration','',71 ]).
+attri_i('BR_VitalWWDS_14_Tfbr_vital_pulse_to',[ 'BR_VitalWWDS_14_Tfbr_vital_pulse_to',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'Tfbr_vital_pulse_to','',70 ]).
+attri_i('BR_VitalWWDS_13_Tfbr_vital_pulse',[ 'BR_VitalWWDS_13_Tfbr_vital_pulse',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'Tfbr_vital_pulse','',69 ]).
+attri_i('BR_VitalWWDS_12_Tfbr_vital_temperature_to',[ 'BR_VitalWWDS_12_Tfbr_vital_temperature_to',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'Tfbr_vital_temperature_to','',68 ]).
+attri_i('BR_VitalWWDS_11_Tfbr_vital_temperature',[ 'BR_VitalWWDS_11_Tfbr_vital_temperature',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'Tfbr_vital_temperature','',67 ]).
+attri_i('BR_VitalWWDS_10_Tfbr_vital_measuredate_to',[ 'BR_VitalWWDS_10_Tfbr_vital_measuredate_to',date,8,0,'99/99/9999',0,'Tfbr_vital_measuredate_to','',66 ]).
+attri_i('BR_VitalWWDS_9_Tfbr_vital_measuredate',[ 'BR_VitalWWDS_9_Tfbr_vital_measuredate',date,8,0,'99/99/9999',0,'Tfbr_vital_measuredate','',65 ]).
+attri_i('BR_VitalWWDS_8_Tfbr_vital_vitalid_to',[ 'BR_VitalWWDS_8_Tfbr_vital_vitalid_to',int,10,0,'ZZZZZZZZZZ',0,'Tfbr_vital_vitalid_to','',64 ]).
+attri_i('BR_VitalWWDS_7_Tfbr_vital_vitalid',[ 'BR_VitalWWDS_7_Tfbr_vital_vitalid',int,10,0,'ZZZZZZZZZZ',0,'Tfbr_vital_vitalid','',63 ]).
+attri_i('BR_VitalWWDS_6_Tfbr_information_patientno_sel',[ 'BR_VitalWWDS_6_Tfbr_information_patientno_sel',svchar,2000,0,'',0,'Tfbr_information_patientno_sel','',62 ]).
+attri_i('BR_VitalWWDS_5_Tfbr_information_patientno',[ 'BR_VitalWWDS_5_Tfbr_information_patientno',svchar,2000,0,'',0,'Tfbr_information_patientno','',61 ]).
+attri_i('BR_VitalWWDS_4_Tfbr_encounterid_to',[ 'BR_VitalWWDS_4_Tfbr_encounterid_to',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'Tfbr_encounterid_to','',60 ]).
+attri_i('BR_VitalWWDS_3_Tfbr_encounterid',[ 'BR_VitalWWDS_3_Tfbr_encounterid',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'Tfbr_encounterid','',59 ]).
+attri_i('BR_VitalWWDS_2_Tfbr_vitalid_to',[ 'BR_VitalWWDS_2_Tfbr_vitalid_to',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'Tfbr_vitalid_to','',58 ]).
+attri_i('BR_VitalWWDS_1_Tfbr_vitalid',[ 'BR_VitalWWDS_1_Tfbr_vitalid',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'Tfbr_vitalid','',57 ]).
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'','',55 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',54 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',53 ]).
+attri_i('Gridstatedynamicfilter',[ 'GridStateDynamicFilter',o('WWPBaseObjects\WWPGridState.DynamicFilter'),0,0,'',0,'Grid State Dynamic Filter','',52 ]).
+attri_i('Gridstatefiltervalue',[ 'GridStateFilterValue',o('WWPBaseObjects\WWPGridState.FilterValue'),0,0,'',0,'Grid State Filter Value','',51 ]).
+attri_i('Gridstate',[ 'GridState',o('WWPBaseObjects\WWPGridState'),0,0,'',0,'Grid State','',50 ]).
+attri_i('Gridstatexml',[ 'GridStateXML',vchar,2097152,0,'',0,'Grid State XML','',49 ]).
+attri_i('Session',[ 'Session',o(websession),4,0,'',0,'Session','',48 ]).
+attri_i('Count',[ count,int,10,0,'Z,ZZZ,ZZZ,ZZ9',0,count,'',47 ]).
+attri_i('Optionindexesjson',[ 'OptionIndexesJson',vchar,2097152,0,'',0,'Option Indexes Json','',46 ]).
+attri_i('Optionindexes',[ 'OptionIndexes',o(objectcollection(svchar)),40,0,'',0,'Option Indexes','',45 ]).
+attri_i('Optionsdescjson',[ 'OptionsDescJson',vchar,2097152,0,'',0,'Options Desc Json','',44 ]).
+attri_i('Optionsdesc',[ 'OptionsDesc',o(objectcollection(svchar)),200,0,'',0,'Options Desc','',43 ]).
+attri_i('Optiondesc',[ 'OptionDesc',svchar,200,0,'',0,'Option Desc','',42 ]).
+attri_i('Optionsjson',[ 'OptionsJson',vchar,2097152,0,'',0,'Options Json','',41 ]).
+attri_i('Options',[ 'Options',o(objectcollection(svchar)),200,0,'',0,'Options','',40 ]).
+attri_i('Option',[ 'Option',svchar,200,0,'',0,'Option','',39 ]).
+attri_i('Insertindex',[ 'InsertIndex',int,6,0,'ZZZZZ9',0,'Insert Index','',38 ]).
+attri_i('Ddoname',[ 'DDOName',svchar,200,0,'',0,'DDOName','',37 ]).
+attri_i('Searchtxtto',[ 'SearchTxtTo',svchar,100,0,'',0,'Search Txt To','',36 ]).
+attri_i('Searchtxt',[ 'SearchTxt',svchar,100,0,'',0,'Search Txt','',35 ]).
+attri_i('Tfbr_vital_weight_to',[ 'TFBR_Vital_Weight_To',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'TFBR_Vital_Weight_To','',34 ]).
+attri_i('Tfbr_vital_weight',[ 'TFBR_Vital_Weight',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'TFBR_Vital_Weight','',33 ]).
+attri_i('Tfbr_vital_height_to',[ 'TFBR_Vital_Height_To',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'TFBR_Vital_Height_To','',32 ]).
+attri_i('Tfbr_vital_height',[ 'TFBR_Vital_Height',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'TFBR_Vital_Height','',31 ]).
+attri_i('Tfbr_vital_diastolic_to',[ 'TFBR_Vital_Diastolic_To',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'TFBR_Vital_Diastolic_To','',30 ]).
+attri_i('Tfbr_vital_diastolic',[ 'TFBR_Vital_Diastolic',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'TFBR_Vital_Diastolic','',29 ]).
+attri_i('Tfbr_vital_systolic_to',[ 'TFBR_Vital_Systolic_To',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'TFBR_Vital_Systolic_To','',28 ]).
+attri_i('Tfbr_vital_systolic',[ 'TFBR_Vital_Systolic',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'TFBR_Vital_Systolic','',27 ]).
+attri_i('Tfbr_vital_respiration_to',[ 'TFBR_Vital_Respiration_To',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'TFBR_Vital_Respiration_To','',26 ]).
+attri_i('Tfbr_vital_respiration',[ 'TFBR_Vital_Respiration',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'TFBR_Vital_Respiration','',25 ]).
+attri_i('Tfbr_vital_pulse_to',[ 'TFBR_Vital_Pulse_To',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'TFBR_Vital_Pulse_To','',24 ]).
+attri_i('Tfbr_vital_pulse',[ 'TFBR_Vital_Pulse',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'TFBR_Vital_Pulse','',23 ]).
+attri_i('Tfbr_vital_temperature_to',[ 'TFBR_Vital_Temperature_To',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'TFBR_Vital_Temperature_To','',22 ]).
+attri_i('Tfbr_vital_temperature',[ 'TFBR_Vital_Temperature',int,15,5,'ZZZZZZZZZ.ZZZZZ',0,'TFBR_Vital_Temperature','',21 ]).
+attri_i('Tfbr_vital_measuredate_to',[ 'TFBR_Vital_MeasureDate_To',date,8,0,'99/99/9999',0,'TFBR_Vital_Measure Date_To','',20 ]).
+attri_i('Tfbr_vital_measuredate',[ 'TFBR_Vital_MeasureDate',date,8,0,'99/99/9999',0,'TFBR_Vital_Measure Date','',19 ]).
+attri_i('Tfbr_vital_vitalid_to',[ 'TFBR_Vital_VitalID_To',int,10,0,'ZZZZZZZZZZ',0,'TFBR_Vital_Vital ID_To','',18 ]).
+attri_i('Tfbr_vital_vitalid',[ 'TFBR_Vital_VitalID',int,10,0,'ZZZZZZZZZZ',0,'TFBR_Vital_Vital ID','',17 ]).
+attri_i('Tfbr_information_patientno_sel',[ 'TFBR_Information_PatientNo_Sel',svchar,2000,0,'',0,'TFBR_Information_Patient No_Sel','',16 ]).
+attri_i('Tfbr_information_patientno',[ 'TFBR_Information_PatientNo',svchar,2000,0,'',0,'TFBR_Information_Patient No','',15 ]).
+attri_i('Tfbr_encounterid_to',[ 'TFBR_EncounterID_To',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'TFBR_Encounter ID_To','',14 ]).
+attri_i('Tfbr_encounterid',[ 'TFBR_EncounterID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'TFBR_Encounter ID','',13 ]).
+attri_i('Tfbr_vitalid_to',[ 'TFBR_VitalID_To',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'TFBR_Vital ID_To','',12 ]).
+attri_i('Tfbr_vitalid',[ 'TFBR_VitalID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'TFBR_Vital ID','',11 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,'Security Functionality Keys','',10 ]).
+attri_i('Wwpcontext',[ 'WWPContext',o('WWPBaseObjects\WWPContext'),0,0,'',0,'WWPContext','',9 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,'Is Authorized','',8 ]).
+ 
+table_i(20,[ 'BR_Vital',[ 150,19,151,152,153,154,155,156,157,158,159 ],' T20','BR_Vital' ]).
+table_i(16,[ 'BR_Information',[ 85,36 ],' T16','BR_Information' ]).
+table_i(15,[ 'BR_Encounter',[ 19,85 ],' T15','BR_Encounter' ]).
+ 
+index_i(20,[ '',a,[ 36 ],'' ]).
+index_i(20,[ 'IBR_VITAL',u,[ 150 ],'IBR_Vital' ]).
+index_i(15,[ 'IBR_ENCOUNTER',u,[ 19 ],'IBR_Encounter' ]).
+index_i(16,[ 'IBR_INFORMATION',u,[ 85 ],'IBR_Information' ]).
+ 
+ 
+ 
+function_i(1,'Isauthorized',yes,udp,o(1,'WWPBaseObjects\SecIsAuthByFunctionalityKey'),[],7,'Isauthorized',[ [ t('''Check_Vital''',3) ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enumerated_i(45,172,94).
+enumerated_i(45,537,117).
+ 
+enum_value_i(45,94,'1',entering,'"录入中"',[ none ]).
+enum_value_i(45,94,'2',waitCheck,'"待初审"',[ none ]).
+enum_value_i(45,94,'3',denyCheck,'"初审不通过"',[ none ]).
+enum_value_i(45,94,'4',waitApprove,'"待复审"',[ none ]).
+enum_value_i(45,94,'5',denyApprove,'"复审不通过"',[ none ]).
+enum_value_i(45,94,'6',complete,'"完成"',[ none ]).
+enum_value_i(45,117,'1',lis,'"lis"',[ none ]).
+ 
+enum_value_info_i(45,94,'DM_ApproveStatus').
+enum_value_info_i(45,117,'DM_Datasource').
+ 
+enum_type_i(45,94,int,4,0).
+enum_type_i(45,117,int,4,0).
+ 
+dom_info_i(103,[ 'DM_Numeric' ]).
+dom_info_i(64,[ 'DM_Date' ]).
+dom_info_i(69,[ 'ID' ]).
+dom_info_i(94,[ 'DM_ApproveStatus' ]).
+dom_info_i(66,[ 'UpdDate' ]).
+dom_info_i(95,[ 'CrtUser' ]).
+dom_info_i(67,[ 'UpdUser' ]).
+dom_info_i(117,[ 'DM_Datasource' ]).
+dom_info_i(90,[ 'WWPSecFunctionalityKey' ]).
+ 
+ 
+break_i(3,nvg,2,[ 36 ],[ [ 36 ],[],[] ]).
+break_i(2,nvg,1,[ 36 ],[ [ 36 ],[ 150,19,36,151,152,153,154,155,156,157,158,159 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,28).
+b_group_i(1,2,lit,0,29,85).
+b_group_i(1,3,lit,0,86,2).
+b_group_i(1,4,nvg,2,91,91).
+b_group_i(2,1,lit,0,92,92).
+b_group_i(2,2,nvg,3,99,99).
+b_group_i(3,1,lit,0,100,100).
+b_group_i(2,3,lit,0,103,96).
+b_group_i(1,5,lit,0,113,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[]).
+b_line_i(3,1,1,cmd,0,[]).
+b_line_i(4,1,1,cmd,0,[ t('',107,0,0),t('Options',23,0,0),t(=,10,0,0),t([ [ svchar,200,0 ],[ t('(',0,4,15),t(')',4,4,16) ],y ],46,0,0) ]).
+b_line_i(5,1,1,cmd,0,[ t('',107,0,0),t('Optionsdesc',23,0,0),t(=,10,0,0),t([ [ svchar,200,0 ],[ t('(',0,5,19),t(')',4,5,20) ],y ],46,0,0) ]).
+b_line_i(6,1,1,cmd,0,[ t('',107,0,0),t('Optionindexes',23,0,0),t(=,10,0,0),t([ [ svchar,40,0 ],[ t('(',0,6,21),t(')',4,6,22) ],y ],46,0,0) ]).
+b_line_i(7,1,1,cmd,0,[ t('',107,0,0),t('Isauthorized',23,0,0),t(=,10,0,0),t('udp(',1,0,0),t('Isauthorized',3,0,0),t(7,3,0,0),t('''Check_Vital''',3,0,0),t(')',4,0,0) ]).
+b_line_i(8,1,1,cmd,0,[]).
+b_line_i(9,1,1,cmd,0,[ t('',109,0,0),t('Isauthorized',23,0,4) ]).
+b_line_i(10,1,1,cmd,0,[]).
+b_line_i(11,1,1,cmd,0,[ t('',104,0,0),t(o(1,'WWPBaseObjects\LoadWWPContext'),28,0,2),t('Wwpcontext',23,0,23) ]).
+b_line_i(12,1,1,cmd,0,[]).
+b_line_i(13,1,1,cmd,0,[ t('',145,0,0),t('''LOADGRIDSTATE''',3,13,5) ]).
+b_line_i(14,1,1,cmd,0,[ t('',152,0,0) ]).
+b_line_i(15,1,1,cmd,0,[ t('',153,0,0),t('upper(',1,15,17),t('Ddoname',23,0,8),t(')',4,0,26),t(=,10,0,28),t('''DDO_BR_INFORMATION_PATIENTNO''',3,15,30) ]).
+b_line_i(16,1,1,cmd,0,[ t('',145,0,0),t('''LOADBR_INFORMATION_PATIENTNOOPTIONS''',3,16,7) ]).
+b_line_i(17,1,1,cmd,0,[ t('',154,0,0) ]).
+b_line_i(18,1,1,cmd,0,[]).
+b_line_i(19,1,1,cmd,0,[ t('',111,0,0) ]).
+b_line_i(20,1,1,cmd,0,[]).
+b_line_i(21,1,1,cmd,0,[ t('',107,0,0),t('Optionsjson',23,0,0),t(=,10,0,0),t([ t('Options',23,0,0),t('tojson(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(22,1,1,cmd,0,[ t('',107,0,0),t('Optionsdescjson',23,0,0),t(=,10,0,0),t([ t('Optionsdesc',23,0,0),t('tojson(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(23,1,1,cmd,0,[ t('',107,0,0),t('Optionindexesjson',23,0,0),t(=,10,0,0),t([ t('Optionindexes',23,0,0),t('tojson(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(24,1,1,cmd,0,[]).
+b_line_i(25,1,1,cmd,0,[]).
+b_line_i(26,1,1,cmd,0,[]).
+b_line_i(27,1,1,cmd,0,[]).
+b_line_i(28,1,1,cmd,0,[ t('',143,0,0),t('''LOADGRIDSTATE''',3,28,5) ]).
+b_line_i(29,1,2,cmd,0,[]).
+b_line_i(30,1,2,cmd,0,[]).
+b_line_i(31,1,2,cmd,0,[]).
+b_line_i(32,1,2,cmd,0,[]).
+b_line_i(33,1,2,cmd,0,[ t('',109,0,0),t([ t('Session',23,33,5),t('get(',1,33,14) ],31,33,14),t('"BR_VitalWWGridState"',3,33,19),t(')',4,0,41),t(=,10,0,43),t('""',3,33,45) ]).
+b_line_i(34,1,2,cmd,0,[ t('',107,0,0),t([ t('Gridstate',23,34,3),t('fromxml(',1,34,14) ],31,34,3),t('udp(',1,34,37),t(o(1,'WWPBaseObjects\LoadGridState'),28,34,23),t(',',7,0,0),t('"BR_VitalWWGridState"',3,34,42),t(')',4,0,0),t(')',4,0,65) ]).
+b_line_i(35,1,2,cmd,0,[ t('',110,0,0) ]).
+b_line_i(36,1,2,cmd,0,[ t('',107,0,0),t([ t('Gridstate',23,36,3),t('fromxml(',1,36,14) ],31,36,3),t([ t('Session',23,36,23),t('get(',1,36,32) ],31,36,32),t('"BR_VitalWWGridState"',3,36,37),t(')',4,0,59),t(')',4,0,60) ]).
+b_line_i(37,1,2,cmd,0,[ t('',111,0,0) ]).
+b_line_i(38,1,2,cmd,0,[]).
+b_line_i(39,1,2,cmd,0,[ t('',107,0,0),t('GXV1',23,0,0),t(=,10,0,0),t(1,3,0,0) ]).
+b_line_i([ 39,2 ],1,2,cmd,0,[ t('',114,0,0),t('GXV1',23,0,0),t(<=,10,0,0),t([ t('Gridstate',23,39,31),t('Filtervalues',3,39,42),t('Count',3,39,0) ],29,39,0) ]).
+b_line_i([ 39,3 ],1,2,cmd,0,[ t('',107,0,0),t('Gridstatefiltervalue',23,0,0),t(=,10,0,0),t([ t([ t('Gridstate',23,0,0),t('Filtervalues',3,0,0) ],29,0,0),t('item(',1,0,0) ],31,0,0),t('GXV1',23,0,0),t(')',4,0,0) ]).
+b_line_i(40,1,2,cmd,1,[ t('',152,1,0) ]).
+b_line_i(41,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,41,9),t('Name',3,41,31) ],29,41,31),t(=,10,1,36),t('"TFBR_VITALID"',3,41,38) ]).
+b_line_i(42,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vitalid',23,42,5),t(=,10,42,5),t('val(',1,42,5),t([ t('Gridstatefiltervalue',23,42,31),t('Value',3,42,53) ],29,42,53),t(')',4,1,58) ]).
+b_line_i(43,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vitalid_to',23,43,5),t(=,10,43,5),t('val(',1,43,5),t([ t('Gridstatefiltervalue',23,43,34),t('Valueto',3,43,56) ],29,43,56),t(')',4,1,63) ]).
+b_line_i(44,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,44,9),t('Name',3,44,31) ],29,44,31),t(=,10,1,36),t('"TFBR_ENCOUNTERID"',3,44,38) ]).
+b_line_i(45,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_encounterid',23,45,5),t(=,10,45,5),t('val(',1,45,5),t([ t('Gridstatefiltervalue',23,45,35),t('Value',3,45,57) ],29,45,57),t(')',4,1,62) ]).
+b_line_i(46,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_encounterid_to',23,46,5),t(=,10,46,5),t('val(',1,46,5),t([ t('Gridstatefiltervalue',23,46,38),t('Valueto',3,46,60) ],29,46,60),t(')',4,1,67) ]).
+b_line_i(47,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,47,9),t('Name',3,47,31) ],29,47,31),t(=,10,1,36),t('"TFBR_INFORMATION_PATIENTNO"',3,47,38) ]).
+b_line_i(48,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_information_patientno',23,48,5),t(=,10,48,5),t([ t('Gridstatefiltervalue',23,48,45),t('Value',3,48,67) ],29,48,67) ]).
+b_line_i(49,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,49,9),t('Name',3,49,31) ],29,49,31),t(=,10,1,36),t('"TFBR_INFORMATION_PATIENTNO_SEL"',3,49,38) ]).
+b_line_i(50,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_information_patientno_sel',23,50,5),t(=,10,50,5),t([ t('Gridstatefiltervalue',23,50,49),t('Value',3,50,71) ],29,50,71) ]).
+b_line_i(51,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,51,9),t('Name',3,51,31) ],29,51,31),t(=,10,1,36),t('"TFBR_VITAL_VITALID"',3,51,38) ]).
+b_line_i(52,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vital_vitalid',23,52,5),t(=,10,52,5),t('val(',1,52,5),t([ t('Gridstatefiltervalue',23,52,37),t('Value',3,52,59) ],29,52,59),t(')',4,1,64) ]).
+b_line_i(53,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vital_vitalid_to',23,53,5),t(=,10,53,5),t('val(',1,53,5),t([ t('Gridstatefiltervalue',23,53,40),t('Valueto',3,53,62) ],29,53,62),t(')',4,1,69) ]).
+b_line_i(54,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,54,9),t('Name',3,54,31) ],29,54,31),t(=,10,1,36),t('"TFBR_VITAL_MEASUREDATE"',3,54,38) ]).
+b_line_i(55,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vital_measuredate',23,55,5),t(=,10,55,5),t('ctod(',1,55,5),t([ t('Gridstatefiltervalue',23,55,41),t('Value',3,55,63) ],29,55,63),t(')',4,1,68) ]).
+b_line_i(56,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vital_measuredate_to',23,56,5),t(=,10,56,5),t('ctod(',1,56,5),t([ t('Gridstatefiltervalue',23,56,44),t('Valueto',3,56,66) ],29,56,66),t(')',4,1,73) ]).
+b_line_i(57,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,57,9),t('Name',3,57,31) ],29,57,31),t(=,10,1,36),t('"TFBR_VITAL_TEMPERATURE"',3,57,38) ]).
+b_line_i(58,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vital_temperature',23,58,5),t(=,10,58,5),t('val(',1,58,5),t([ t('Gridstatefiltervalue',23,58,41),t('Value',3,58,63) ],29,58,63),t(')',4,1,68) ]).
+b_line_i(59,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vital_temperature_to',23,59,5),t(=,10,59,5),t('val(',1,59,5),t([ t('Gridstatefiltervalue',23,59,44),t('Valueto',3,59,66) ],29,59,66),t(')',4,1,73) ]).
+b_line_i(60,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,60,9),t('Name',3,60,31) ],29,60,31),t(=,10,1,36),t('"TFBR_VITAL_PULSE"',3,60,38) ]).
+b_line_i(61,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vital_pulse',23,61,5),t(=,10,61,5),t('val(',1,61,5),t([ t('Gridstatefiltervalue',23,61,35),t('Value',3,61,57) ],29,61,57),t(')',4,1,62) ]).
+b_line_i(62,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vital_pulse_to',23,62,5),t(=,10,62,5),t('val(',1,62,5),t([ t('Gridstatefiltervalue',23,62,38),t('Valueto',3,62,60) ],29,62,60),t(')',4,1,67) ]).
+b_line_i(63,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,63,9),t('Name',3,63,31) ],29,63,31),t(=,10,1,36),t('"TFBR_VITAL_RESPIRATION"',3,63,38) ]).
+b_line_i(64,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vital_respiration',23,64,5),t(=,10,64,5),t('val(',1,64,5),t([ t('Gridstatefiltervalue',23,64,41),t('Value',3,64,63) ],29,64,63),t(')',4,1,68) ]).
+b_line_i(65,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vital_respiration_to',23,65,5),t(=,10,65,5),t('val(',1,65,5),t([ t('Gridstatefiltervalue',23,65,44),t('Valueto',3,65,66) ],29,65,66),t(')',4,1,73) ]).
+b_line_i(66,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,66,9),t('Name',3,66,31) ],29,66,31),t(=,10,1,36),t('"TFBR_VITAL_SYSTOLIC"',3,66,38) ]).
+b_line_i(67,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vital_systolic',23,67,5),t(=,10,67,5),t('val(',1,67,5),t([ t('Gridstatefiltervalue',23,67,38),t('Value',3,67,60) ],29,67,60),t(')',4,1,65) ]).
+b_line_i(68,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vital_systolic_to',23,68,5),t(=,10,68,5),t('val(',1,68,5),t([ t('Gridstatefiltervalue',23,68,41),t('Valueto',3,68,63) ],29,68,63),t(')',4,1,70) ]).
+b_line_i(69,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,69,9),t('Name',3,69,31) ],29,69,31),t(=,10,1,36),t('"TFBR_VITAL_DIASTOLIC"',3,69,38) ]).
+b_line_i(70,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vital_diastolic',23,70,5),t(=,10,70,5),t('val(',1,70,5),t([ t('Gridstatefiltervalue',23,70,39),t('Value',3,70,61) ],29,70,61),t(')',4,1,66) ]).
+b_line_i(71,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vital_diastolic_to',23,71,5),t(=,10,71,5),t('val(',1,71,5),t([ t('Gridstatefiltervalue',23,71,42),t('Valueto',3,71,64) ],29,71,64),t(')',4,1,71) ]).
+b_line_i(72,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,72,9),t('Name',3,72,31) ],29,72,31),t(=,10,1,36),t('"TFBR_VITAL_HEIGHT"',3,72,38) ]).
+b_line_i(73,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vital_height',23,73,5),t(=,10,73,5),t('val(',1,73,5),t([ t('Gridstatefiltervalue',23,73,36),t('Value',3,73,58) ],29,73,58),t(')',4,1,63) ]).
+b_line_i(74,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vital_height_to',23,74,5),t(=,10,74,5),t('val(',1,74,5),t([ t('Gridstatefiltervalue',23,74,39),t('Valueto',3,74,61) ],29,74,61),t(')',4,1,68) ]).
+b_line_i(75,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,75,9),t('Name',3,75,31) ],29,75,31),t(=,10,1,36),t('"TFBR_VITAL_WEIGHT"',3,75,38) ]).
+b_line_i(76,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vital_weight',23,76,5),t(=,10,76,5),t('val(',1,76,5),t([ t('Gridstatefiltervalue',23,76,36),t('Value',3,76,58) ],29,76,58),t(')',4,1,63) ]).
+b_line_i(77,1,2,cmd,1,[ t('',107,1,0),t('Tfbr_vital_weight_to',23,77,5),t(=,10,77,5),t('val(',1,77,5),t([ t('Gridstatefiltervalue',23,77,39),t('Valueto',3,77,61) ],29,77,61),t(')',4,1,68) ]).
+b_line_i(78,1,2,cmd,1,[ t('',154,1,0) ]).
+b_line_i([ 79,1 ],1,2,cmd,1,[ t('',107,1,0),t('GXV1',23,1,0),t(=,10,1,0),t('GXV1',23,1,0),t(+,5,1,0),t(1,3,1,0) ]).
+b_line_i([ 79,2 ],1,2,cmd,1,[ t('',115,1,0) ]).
+b_line_i(80,1,2,cmd,2,[]).
+b_line_i(81,1,2,cmd,2,[]).
+b_line_i(82,1,2,cmd,2,[]).
+b_line_i(83,1,2,cmd,2,[ t('',144,2,0) ]).
+b_line_i(84,1,2,cmd,2,[]).
+b_line_i(85,1,2,cmd,2,[ t('',143,2,0),t('''LOADBR_INFORMATION_PATIENTNOOPTIONS''',3,85,5) ]).
+b_line_i(86,1,3,cmd,2,[]).
+b_line_i(87,1,3,cmd,2,[]).
+b_line_i(88,1,3,cmd,2,[]).
+b_line_i(89,1,3,cmd,2,[ t('',107,2,0),t('Tfbr_information_patientno',23,2,0),t(=,10,2,0),t('Searchtxt',23,2,0) ]).
+b_line_i(90,1,3,cmd,2,[ t('',107,2,0),t([ t('Tfbr_information_patientno_sel',23,90,2),t('setempty(',1,90,34) ],31,90,2),t(')',4,2,44) ]).
+b_line_i([ 90,1 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_1_Tfbr_vitalid',23,0,0),t(=,10,0,0),t('Tfbr_vitalid',23,0,22) ]).
+b_line_i([ 90,2 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_2_Tfbr_vitalid_to',23,0,0),t(=,10,0,0),t('Tfbr_vitalid_to',23,0,37) ]).
+b_line_i([ 90,3 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_3_Tfbr_encounterid',23,0,0),t(=,10,0,0),t('Tfbr_encounterid',23,0,55) ]).
+b_line_i([ 90,4 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_4_Tfbr_encounterid_to',23,0,0),t(=,10,0,0),t('Tfbr_encounterid_to',23,0,74) ]).
+b_line_i([ 90,5 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_5_Tfbr_information_patientno',23,0,0),t(=,10,0,0),t('Tfbr_information_patientno',23,0,96) ]).
+b_line_i([ 90,6 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_6_Tfbr_information_patientno_sel',23,0,0),t(=,10,0,0),t('Tfbr_information_patientno_sel',23,0,125) ]).
+b_line_i([ 90,7 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_7_Tfbr_vital_vitalid',23,0,0),t(=,10,0,0),t('Tfbr_vital_vitalid',23,0,165) ]).
+b_line_i([ 90,8 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_8_Tfbr_vital_vitalid_to',23,0,0),t(=,10,0,0),t('Tfbr_vital_vitalid_to',23,0,186) ]).
+b_line_i([ 90,9 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_9_Tfbr_vital_measuredate',23,0,0),t(=,10,0,0),t('Tfbr_vital_measuredate',23,0,210) ]).
+b_line_i([ 90,10 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_10_Tfbr_vital_measuredate_to',23,0,0),t(=,10,0,0),t('Tfbr_vital_measuredate_to',23,0,235) ]).
+b_line_i([ 90,11 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_11_Tfbr_vital_temperature',23,0,0),t(=,10,0,0),t('Tfbr_vital_temperature',23,0,263) ]).
+b_line_i([ 90,12 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_12_Tfbr_vital_temperature_to',23,0,0),t(=,10,0,0),t('Tfbr_vital_temperature_to',23,0,288) ]).
+b_line_i([ 90,13 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_13_Tfbr_vital_pulse',23,0,0),t(=,10,0,0),t('Tfbr_vital_pulse',23,0,323) ]).
+b_line_i([ 90,14 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_14_Tfbr_vital_pulse_to',23,0,0),t(=,10,0,0),t('Tfbr_vital_pulse_to',23,0,342) ]).
+b_line_i([ 90,15 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_15_Tfbr_vital_respiration',23,0,0),t(=,10,0,0),t('Tfbr_vital_respiration',23,0,364) ]).
+b_line_i([ 90,16 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_16_Tfbr_vital_respiration_to',23,0,0),t(=,10,0,0),t('Tfbr_vital_respiration_to',23,0,389) ]).
+b_line_i([ 90,17 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_17_Tfbr_vital_systolic',23,0,0),t(=,10,0,0),t('Tfbr_vital_systolic',23,0,417) ]).
+b_line_i([ 90,18 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_18_Tfbr_vital_systolic_to',23,0,0),t(=,10,0,0),t('Tfbr_vital_systolic_to',23,0,439) ]).
+b_line_i([ 90,19 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_19_Tfbr_vital_diastolic',23,0,0),t(=,10,0,0),t('Tfbr_vital_diastolic',23,0,471) ]).
+b_line_i([ 90,20 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_20_Tfbr_vital_diastolic_to',23,0,0),t(=,10,0,0),t('Tfbr_vital_diastolic_to',23,0,494) ]).
+b_line_i([ 90,21 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_21_Tfbr_vital_height',23,0,0),t(=,10,0,0),t('Tfbr_vital_height',23,0,520) ]).
+b_line_i([ 90,22 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_22_Tfbr_vital_height_to',23,0,0),t(=,10,0,0),t('Tfbr_vital_height_to',23,0,540) ]).
+b_line_i([ 90,23 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_23_Tfbr_vital_weight',23,0,0),t(=,10,0,0),t('Tfbr_vital_weight',23,0,563) ]).
+b_line_i([ 90,24 ],1,3,cmd,92,[ t('',107,92,0),t('BR_VitalWWDS_24_Tfbr_vital_weight_to',23,0,0),t(=,10,0,0),t('Tfbr_vital_weight_to',23,0,583) ]).
+b_line_i(91,2,1,cmd,92,[ t('',121,91,0),t('ORDER',39,91,14),t(36,2,91,20) ]).
+b_line_i(92,2,1,cmd,92,[]).
+b_line_i(94,2,1,cmd,92,[]).
+b_line_i(95,2,1,cmd,92,[]).
+b_line_i(96,2,1,cmd,92,[]).
+b_line_i(97,2,1,cmd,92,[]).
+b_line_i(98,2,1,cmd,92,[ t('',107,92,0),t('Count',23,92,0),t(=,10,92,0),t('0',3,92,0) ]).
+b_line_i(99,3,1,cmd,100,[ t('',121,99,0),t('ORDER',39,99,16),t(36,2,99,22) ]).
+b_line_i(100,3,1,cmd,100,[]).
+b_line_i(101,3,1,cmd,100,[ t('',107,100,0),t('Count',23,100,0),t(=,10,100,0),t('Count',23,100,0),t(+,5,100,0),t('1',3,100,0) ]).
+b_line_i(102,3,1,cmd,100,[ t('',128,100,0) ]).
+b_line_i(103,2,3,cmd,96,[ t('',109,96,0),t('.NOT.',8,96,6),t('null(',1,103,37),t(36,2,96,12),t(')',4,96,46) ]).
+b_line_i(104,2,3,cmd,96,[ t('',107,96,0),t('Option',23,96,0),t(=,10,96,0),t(36,2,96,0) ]).
+b_line_i(105,2,3,cmd,96,[]).
+b_line_i(106,2,3,cmd,96,[ t('',107,96,0),t([ t('Options',23,106,4),t('add(',1,106,13) ],31,106,4),t('Option',23,96,18),t(')',4,96,25) ]).
+b_line_i(107,2,3,cmd,96,[ t('',107,96,0),t([ t('Optionindexes',23,107,4),t('add(',1,107,19) ],31,107,4),t('trim(',1,96,24),t('toformattedstring(',1,107,37),t('Count',23,96,30),t(')',4,96,56),t(')',4,96,57),t(')',4,96,58) ]).
+b_line_i(108,2,3,cmd,96,[ t('',111,96,0) ]).
+b_line_i(109,2,3,cmd,96,[ t('',109,96,0),t([ t('Options',23,109,6),t('Count',3,109,15) ],29,109,15),t(=,10,96,21),t('50',3,96,23) ]).
+b_line_i(110,2,3,cmd,96,[ t('',139,96,0) ]).
+b_line_i(111,2,3,cmd,96,[ t('',111,96,0) ]).
+b_line_i(112,2,3,cmd,96,[ t('',128,96,0) ]).
+b_line_i(113,1,5,cmd,24,[]).
+b_line_i(114,1,5,cmd,24,[]).
+b_line_i(115,1,5,cmd,24,[]).
+b_line_i(116,1,5,cmd,24,[ t('',144,24,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(45,36) ],'; poor performance may be noticed',[ ' in group starting at line ','99','' ],'.' ])).
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(45,36,'ExternalName','BR_Information_PatientNo',d).
+att_prop_i(45,36,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,36,'EmptyAsNull','Yes',d).
+att_prop_i(45,36,idBasedOn,'',d).
+att_prop_i(45,36,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,36,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,36,'AttRegEx','',d).
+att_prop_i(45,36,'AttValidationFailedMsg','',d).
+att_prop_i(45,36,'FullName','BR_Information_PatientNo',v).
+att_prop_i(45,159,'ExternalName','BR_Vital_Weight',d).
+att_prop_i(45,159,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,159,'EmptyAsNull','Yes',d).
+att_prop_i(45,159,idBasedOn,103,v).
+att_prop_i(45,159,'AUTONUMBER','0',d).
+att_prop_i(45,159,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,159,'AttRegEx','',d).
+att_prop_i(45,159,'AttValidationFailedMsg','',d).
+att_prop_i(45,159,'FullName','BR_Vital_Weight',v).
+att_prop_i(45,158,'ExternalName','BR_Vital_Height',d).
+att_prop_i(45,158,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,158,'EmptyAsNull','Yes',d).
+att_prop_i(45,158,idBasedOn,103,v).
+att_prop_i(45,158,'AUTONUMBER','0',d).
+att_prop_i(45,158,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,158,'AttRegEx','',d).
+att_prop_i(45,158,'AttValidationFailedMsg','',d).
+att_prop_i(45,158,'FullName','BR_Vital_Height',v).
+att_prop_i(45,157,'ExternalName','BR_Vital_Diastolic',d).
+att_prop_i(45,157,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,157,'EmptyAsNull','Yes',d).
+att_prop_i(45,157,idBasedOn,103,v).
+att_prop_i(45,157,'AUTONUMBER','0',d).
+att_prop_i(45,157,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,157,'AttRegEx','',d).
+att_prop_i(45,157,'AttValidationFailedMsg','',d).
+att_prop_i(45,157,'FullName','BR_Vital_Diastolic',v).
+att_prop_i(45,156,'ExternalName','BR_Vital_Systolic',d).
+att_prop_i(45,156,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,156,'EmptyAsNull','Yes',d).
+att_prop_i(45,156,idBasedOn,103,v).
+att_prop_i(45,156,'AUTONUMBER','0',d).
+att_prop_i(45,156,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,156,'AttRegEx','',d).
+att_prop_i(45,156,'AttValidationFailedMsg','',d).
+att_prop_i(45,156,'FullName','BR_Vital_Systolic',v).
+att_prop_i(45,155,'ExternalName','BR_Vital_Respiration',d).
+att_prop_i(45,155,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,155,'EmptyAsNull','Yes',d).
+att_prop_i(45,155,idBasedOn,103,v).
+att_prop_i(45,155,'AUTONUMBER','0',d).
+att_prop_i(45,155,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,155,'AttRegEx','',d).
+att_prop_i(45,155,'AttValidationFailedMsg','',d).
+att_prop_i(45,155,'FullName','BR_Vital_Respiration',v).
+att_prop_i(45,154,'ExternalName','BR_Vital_Pulse',d).
+att_prop_i(45,154,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,154,'EmptyAsNull','Yes',d).
+att_prop_i(45,154,idBasedOn,103,v).
+att_prop_i(45,154,'AUTONUMBER','0',d).
+att_prop_i(45,154,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,154,'AttRegEx','',d).
+att_prop_i(45,154,'AttValidationFailedMsg','',d).
+att_prop_i(45,154,'FullName','BR_Vital_Pulse',v).
+att_prop_i(45,153,'ExternalName','BR_Vital_Temperature',d).
+att_prop_i(45,153,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,153,'EmptyAsNull','Yes',d).
+att_prop_i(45,153,idBasedOn,103,v).
+att_prop_i(45,153,'AUTONUMBER','0',d).
+att_prop_i(45,153,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,153,'AttRegEx','',d).
+att_prop_i(45,153,'AttValidationFailedMsg','',d).
+att_prop_i(45,153,'FullName','BR_Vital_Temperature',v).
+att_prop_i(45,152,'ExternalName','BR_Vital_MeasureDate',d).
+att_prop_i(45,152,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,152,'EmptyAsNull','Yes',d).
+att_prop_i(45,152,idBasedOn,64,v).
+att_prop_i(45,152,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,152,'AttRegEx','',d).
+att_prop_i(45,152,'AttValidationFailedMsg','',d).
+att_prop_i(45,152,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(45,152,'FullName','BR_Vital_MeasureDate',v).
+att_prop_i(45,151,'ExternalName','BR_Vital_VitalID',d).
+att_prop_i(45,151,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,151,'EmptyAsNull','Yes',d).
+att_prop_i(45,151,idBasedOn,'',d).
+att_prop_i(45,151,'AUTONUMBER','0',d).
+att_prop_i(45,151,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,151,'AttRegEx','',d).
+att_prop_i(45,151,'AttValidationFailedMsg','',d).
+att_prop_i(45,151,'FullName','BR_Vital_VitalID',v).
+att_prop_i(45,19,'ExternalName','BR_EncounterID',d).
+att_prop_i(45,19,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,19,'EmptyAsNull','Yes',d).
+att_prop_i(45,19,idBasedOn,69,v).
+att_prop_i(45,19,'AUTONUMBER','-1',d).
+att_prop_i(45,19,'AUTONUMBER_START','1',d).
+att_prop_i(45,19,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,19,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,19,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,19,'AttRegEx','',d).
+att_prop_i(45,19,'AttValidationFailedMsg','',d).
+att_prop_i(45,19,'FullName','BR_EncounterID',v).
+att_prop_i(45,150,'ExternalName','BR_VitalID',d).
+att_prop_i(45,150,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,150,'EmptyAsNull','Yes',d).
+att_prop_i(45,150,idBasedOn,69,v).
+att_prop_i(45,150,'AUTONUMBER','-1',d).
+att_prop_i(45,150,'AUTONUMBER_START','1',d).
+att_prop_i(45,150,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,150,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,150,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,150,'AttRegEx','',d).
+att_prop_i(45,150,'AttValidationFailedMsg','',d).
+att_prop_i(45,150,'FullName','BR_VitalID',v).
+att_prop_i(45,85,'ExternalName','BR_Information_ID',d).
+att_prop_i(45,85,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,85,'EmptyAsNull','Yes',d).
+att_prop_i(45,85,idBasedOn,69,v).
+att_prop_i(45,85,'AUTONUMBER','-1',d).
+att_prop_i(45,85,'AUTONUMBER_START','1',d).
+att_prop_i(45,85,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,85,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,85,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,85,'AttRegEx','',d).
+att_prop_i(45,85,'AttValidationFailedMsg','',d).
+att_prop_i(45,85,'FullName','BR_Information_ID',v).
+ 
+tbl_prop_i(45,15,'AllDirSuper',[ [ 16,[ 85 ] ] ],v).
+tbl_prop_i(45,20,'AllDirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,15,'DirSuperNull',[ [ 16,[ 85 ] ] ],v).
+tbl_prop_i(45,15,'DirSubor',[ [ 20,[ 19 ] ] ],v).
+tbl_prop_i(45,20,'DirSuper',[ [ 15,[ 19 ] ] ],v).
+ 
+tbl_att_prop_i(45,20,150,'AllowNulls',n).
+tbl_att_prop_i(45,20,150,'AUTONUMBER',y).
+tbl_att_prop_i(45,20,19,'AllowNulls',n).
+tbl_att_prop_i(45,15,19,'AllowNulls',n).
+tbl_att_prop_i(45,15,19,'AUTONUMBER',y).
+tbl_att_prop_i(45,16,85,'AllowNulls',n).
+tbl_att_prop_i(45,16,85,'AUTONUMBER',y).
+ 
+var_prop_i(45,'Securityfunctionalitykeys',idBasedOn,90,v).
+var_prop_i(45,'Tfbr_vitalid',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vitalid_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_encounterid',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_encounterid_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_information_patientno',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_information_patientno_sel',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_vitalid',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_vitalid_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_measuredate',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_measuredate_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_temperature',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_temperature_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_pulse',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_pulse_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_respiration',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_respiration_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_systolic',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_systolic_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_diastolic',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_diastolic_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_height',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_height_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_weight',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_weight_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vitalid',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vitalid_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_encounterid',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_encounterid_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_information_patientno',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_information_patientno_sel',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_vitalid',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_vitalid_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_measuredate',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_measuredate_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_temperature',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_temperature_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_pulse',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_pulse_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_respiration',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_respiration_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_systolic',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_systolic_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_diastolic',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_diastolic_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_height',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_height_to',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_weight',idBasedOn,'',v).
+var_prop_i(45,'Tfbr_vital_weight_to',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,43,0 ],name,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,43,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 26,43,0 ],'ObjName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ObjDesc','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 26,47,0 ],name,'WWPBaseObjects\WWPGridState').
+struct_dt_i([ 26,47,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 26,47,0 ],'ObjName','WWPGridState').
+struct_dt_i([ 26,47,0 ],'ObjDesc','Grid State').
+struct_dt_i([ 26,47,0 ],'ExternalName','WWPGridState').
+struct_dt_i([ 26,47,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 26,47,79 ],name,'FilterValue').
+struct_dt_i([ 26,47,79 ],namespace,'DataAnalysisPlatform.WWPGridState').
+struct_dt_i([ 26,47,80 ],name,'DynamicFilter').
+struct_dt_i([ 26,47,80 ],namespace,'DataAnalysisPlatform.WWPGridState').
+struct_dt_i([ 26,43,0 ],fullname,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,47,0 ],fullname,'WWPBaseObjects\WWPGridState').
+struct_dt_i([ 26,47,79 ],fullname,'WWPBaseObjects\WWPGridState.FilterValue').
+struct_dt_i([ 26,47,80 ],fullname,'WWPBaseObjects\WWPGridState.DynamicFilter').
+struct_dt_i([ 26,43,0 ],modified,yes).
+struct_dt_i([ 26,47,0 ],modified,yes).
+struct_dt_i([ 26,47,79 ],modified,yes).
+struct_dt_i([ 26,47,80 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,43,0 ],1,name,'Userid').
+struct_dt_elem_i([ 26,43,0 ],1,camelname,'UserId').
+struct_dt_elem_i([ 26,43,0 ],1,length,4).
+struct_dt_elem_i([ 26,43,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],1,sign,0).
+struct_dt_elem_i([ 26,43,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalName','UserId').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],2,name,'Userguid').
+struct_dt_elem_i([ 26,43,0 ],2,camelname,'UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,length,500).
+struct_dt_elem_i([ 26,43,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],2,type,[ 13,500,0 ]).
+struct_dt_elem_i([ 26,43,0 ],2,pic,'').
+struct_dt_elem_i([ 26,43,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalName','UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],3,name,'Username').
+struct_dt_elem_i([ 26,43,0 ],3,camelname,'UserName').
+struct_dt_elem_i([ 26,43,0 ],3,length,100).
+struct_dt_elem_i([ 26,43,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],3,pic,'').
+struct_dt_elem_i([ 26,43,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalName','UserName').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],4,name,'Usertype').
+struct_dt_elem_i([ 26,43,0 ],4,camelname,'UserType').
+struct_dt_elem_i([ 26,43,0 ],4,length,4).
+struct_dt_elem_i([ 26,43,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],4,sign,0).
+struct_dt_elem_i([ 26,43,0 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalName','UserType').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],5,name,'Userdisplayname').
+struct_dt_elem_i([ 26,43,0 ],5,camelname,'UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,length,100).
+struct_dt_elem_i([ 26,43,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],5,pic,'').
+struct_dt_elem_i([ 26,43,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalName','UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],6,name,'Userproviderid').
+struct_dt_elem_i([ 26,43,0 ],6,camelname,'UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,basedon,69).
+struct_dt_elem_i([ 26,43,0 ],6,length,18).
+struct_dt_elem_i([ 26,43,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],6,sign,0).
+struct_dt_elem_i([ 26,43,0 ],6,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,43,0 ],6,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 26,43,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalName','UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],7,name,'Userprovidername').
+struct_dt_elem_i([ 26,43,0 ],7,camelname,'UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,length,100).
+struct_dt_elem_i([ 26,43,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],7,pic,'').
+struct_dt_elem_i([ 26,43,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalName','UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],8,name,'Currenttnum').
+struct_dt_elem_i([ 26,43,0 ],8,camelname,currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,length,4).
+struct_dt_elem_i([ 26,43,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],8,sign,0).
+struct_dt_elem_i([ 26,43,0 ],8,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],8,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalName',currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],8,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],8,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],9,name,'Clientip').
+struct_dt_elem_i([ 26,43,0 ],9,camelname,'ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,length,40).
+struct_dt_elem_i([ 26,43,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],9,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,43,0 ],9,pic,'').
+struct_dt_elem_i([ 26,43,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalName','ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],9,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],9,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],1,name,'Currentpage').
+struct_dt_elem_i([ 26,47,0 ],1,camelname,'CurrentPage').
+struct_dt_elem_i([ 26,47,0 ],1,length,4).
+struct_dt_elem_i([ 26,47,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],1,sign,0).
+struct_dt_elem_i([ 26,47,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,47,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,47,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],1,'ExternalName','CurrentPage').
+struct_dt_elem_i([ 26,47,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],2,name,'Orderedby').
+struct_dt_elem_i([ 26,47,0 ],2,camelname,'OrderedBy').
+struct_dt_elem_i([ 26,47,0 ],2,length,4).
+struct_dt_elem_i([ 26,47,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],2,sign,0).
+struct_dt_elem_i([ 26,47,0 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,47,0 ],2,pic,'ZZZ9').
+struct_dt_elem_i([ 26,47,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],2,'ExternalName','OrderedBy').
+struct_dt_elem_i([ 26,47,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],3,name,'Ordereddsc').
+struct_dt_elem_i([ 26,47,0 ],3,camelname,'OrderedDsc').
+struct_dt_elem_i([ 26,47,0 ],3,length,4).
+struct_dt_elem_i([ 26,47,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],3,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,47,0 ],3,pic,'').
+struct_dt_elem_i([ 26,47,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],3,'ExternalName','OrderedDsc').
+struct_dt_elem_i([ 26,47,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],4,name,'Hidingsearch').
+struct_dt_elem_i([ 26,47,0 ],4,camelname,'HidingSearch').
+struct_dt_elem_i([ 26,47,0 ],4,length,1).
+struct_dt_elem_i([ 26,47,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],4,sign,0).
+struct_dt_elem_i([ 26,47,0 ],4,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 26,47,0 ],4,pic,'9').
+struct_dt_elem_i([ 26,47,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],4,'ExternalName','HidingSearch').
+struct_dt_elem_i([ 26,47,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],5,name,'Pagesize').
+struct_dt_elem_i([ 26,47,0 ],5,camelname,'PageSize').
+struct_dt_elem_i([ 26,47,0 ],5,length,10).
+struct_dt_elem_i([ 26,47,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],5,type,[ 13,10,0 ]).
+struct_dt_elem_i([ 26,47,0 ],5,pic,'').
+struct_dt_elem_i([ 26,47,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],5,'ExternalName','PageSize').
+struct_dt_elem_i([ 26,47,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],6,name,'Filtervalues').
+struct_dt_elem_i([ 26,47,0 ],6,camelname,'FilterValues').
+struct_dt_elem_i([ 26,47,0 ],6,type,[ [ 26,47,79 ],0,0 ]).
+struct_dt_elem_i([ 26,47,0 ],6,pic,'').
+struct_dt_elem_i([ 26,47,0 ],6,collection,'True').
+struct_dt_elem_i([ 26,47,0 ],6,'ObjName','FilterValues').
+struct_dt_elem_i([ 26,47,0 ],6,'ObjDesc','Filter Values').
+struct_dt_elem_i([ 26,47,0 ],6,'CollectionItemName','FilterValue').
+struct_dt_elem_i([ 26,47,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],6,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,47,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],6,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,47,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],6,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,47,79 ],1,name,'Name').
+struct_dt_elem_i([ 26,47,79 ],1,camelname,'Name').
+struct_dt_elem_i([ 26,47,79 ],1,length,128).
+struct_dt_elem_i([ 26,47,79 ],1,decimals,0).
+struct_dt_elem_i([ 26,47,79 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,47,79 ],1,pic,'').
+struct_dt_elem_i([ 26,47,79 ],1,collection,'False').
+struct_dt_elem_i([ 26,47,79 ],1,'ExternalName','Name').
+struct_dt_elem_i([ 26,47,79 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,79 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,47,79 ],1,'XmlName','').
+struct_dt_elem_i([ 26,47,79 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,79 ],1,soaptype,'').
+struct_dt_elem_i([ 26,47,79 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,79 ],1,'JsonName','').
+struct_dt_elem_i([ 26,47,79 ],2,name,'Value').
+struct_dt_elem_i([ 26,47,79 ],2,camelname,'Value').
+struct_dt_elem_i([ 26,47,79 ],2,length,100).
+struct_dt_elem_i([ 26,47,79 ],2,decimals,0).
+struct_dt_elem_i([ 26,47,79 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,47,79 ],2,pic,'').
+struct_dt_elem_i([ 26,47,79 ],2,collection,'False').
+struct_dt_elem_i([ 26,47,79 ],2,'ExternalName','Value').
+struct_dt_elem_i([ 26,47,79 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,79 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,47,79 ],2,'XmlName','').
+struct_dt_elem_i([ 26,47,79 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,79 ],2,soaptype,'').
+struct_dt_elem_i([ 26,47,79 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,79 ],2,'JsonName','').
+struct_dt_elem_i([ 26,47,79 ],3,name,'Operator').
+struct_dt_elem_i([ 26,47,79 ],3,camelname,'Operator').
+struct_dt_elem_i([ 26,47,79 ],3,length,4).
+struct_dt_elem_i([ 26,47,79 ],3,decimals,0).
+struct_dt_elem_i([ 26,47,79 ],3,sign,0).
+struct_dt_elem_i([ 26,47,79 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,47,79 ],3,pic,'ZZZ9').
+struct_dt_elem_i([ 26,47,79 ],3,collection,'False').
+struct_dt_elem_i([ 26,47,79 ],3,'ExternalName','Operator').
+struct_dt_elem_i([ 26,47,79 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,79 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,47,79 ],3,'XmlName','').
+struct_dt_elem_i([ 26,47,79 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,79 ],3,soaptype,'').
+struct_dt_elem_i([ 26,47,79 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,79 ],3,'JsonName','').
+struct_dt_elem_i([ 26,47,79 ],4,name,'Valueto').
+struct_dt_elem_i([ 26,47,79 ],4,camelname,'ValueTo').
+struct_dt_elem_i([ 26,47,79 ],4,length,100).
+struct_dt_elem_i([ 26,47,79 ],4,decimals,0).
+struct_dt_elem_i([ 26,47,79 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,47,79 ],4,pic,'').
+struct_dt_elem_i([ 26,47,79 ],4,collection,'False').
+struct_dt_elem_i([ 26,47,79 ],4,'ExternalName','ValueTo').
+struct_dt_elem_i([ 26,47,79 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,79 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,47,79 ],4,'XmlName','').
+struct_dt_elem_i([ 26,47,79 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,79 ],4,soaptype,'').
+struct_dt_elem_i([ 26,47,79 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,79 ],4,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],7,name,'Dynamicfilters').
+struct_dt_elem_i([ 26,47,0 ],7,camelname,'DynamicFilters').
+struct_dt_elem_i([ 26,47,0 ],7,type,[ [ 26,47,80 ],0,0 ]).
+struct_dt_elem_i([ 26,47,0 ],7,pic,'').
+struct_dt_elem_i([ 26,47,0 ],7,collection,'True').
+struct_dt_elem_i([ 26,47,0 ],7,'ObjName','DynamicFilters').
+struct_dt_elem_i([ 26,47,0 ],7,'ObjDesc','Dynamic Filters').
+struct_dt_elem_i([ 26,47,0 ],7,'CollectionItemName','DynamicFilter').
+struct_dt_elem_i([ 26,47,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],7,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,47,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],7,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,47,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],7,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,47,80 ],1,name,'Selected').
+struct_dt_elem_i([ 26,47,80 ],1,camelname,'Selected').
+struct_dt_elem_i([ 26,47,80 ],1,length,128).
+struct_dt_elem_i([ 26,47,80 ],1,decimals,0).
+struct_dt_elem_i([ 26,47,80 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,47,80 ],1,pic,'').
+struct_dt_elem_i([ 26,47,80 ],1,collection,'False').
+struct_dt_elem_i([ 26,47,80 ],1,'ExternalName','Selected').
+struct_dt_elem_i([ 26,47,80 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,80 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,47,80 ],1,'XmlName','').
+struct_dt_elem_i([ 26,47,80 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,80 ],1,soaptype,'').
+struct_dt_elem_i([ 26,47,80 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,80 ],1,'JsonName','').
+struct_dt_elem_i([ 26,47,80 ],2,name,'Value').
+struct_dt_elem_i([ 26,47,80 ],2,camelname,'Value').
+struct_dt_elem_i([ 26,47,80 ],2,length,100).
+struct_dt_elem_i([ 26,47,80 ],2,decimals,0).
+struct_dt_elem_i([ 26,47,80 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,47,80 ],2,pic,'').
+struct_dt_elem_i([ 26,47,80 ],2,collection,'False').
+struct_dt_elem_i([ 26,47,80 ],2,'ExternalName','Value').
+struct_dt_elem_i([ 26,47,80 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,80 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,47,80 ],2,'XmlName','').
+struct_dt_elem_i([ 26,47,80 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,80 ],2,soaptype,'').
+struct_dt_elem_i([ 26,47,80 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,80 ],2,'JsonName','').
+struct_dt_elem_i([ 26,47,80 ],3,name,'Operator').
+struct_dt_elem_i([ 26,47,80 ],3,camelname,'Operator').
+struct_dt_elem_i([ 26,47,80 ],3,length,4).
+struct_dt_elem_i([ 26,47,80 ],3,decimals,0).
+struct_dt_elem_i([ 26,47,80 ],3,sign,0).
+struct_dt_elem_i([ 26,47,80 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,47,80 ],3,pic,'ZZZ9').
+struct_dt_elem_i([ 26,47,80 ],3,collection,'False').
+struct_dt_elem_i([ 26,47,80 ],3,'ExternalName','Operator').
+struct_dt_elem_i([ 26,47,80 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,80 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,47,80 ],3,'XmlName','').
+struct_dt_elem_i([ 26,47,80 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,80 ],3,soaptype,'').
+struct_dt_elem_i([ 26,47,80 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,80 ],3,'JsonName','').
+struct_dt_elem_i([ 26,47,80 ],4,name,'Valueto').
+struct_dt_elem_i([ 26,47,80 ],4,camelname,'ValueTo').
+struct_dt_elem_i([ 26,47,80 ],4,length,100).
+struct_dt_elem_i([ 26,47,80 ],4,decimals,0).
+struct_dt_elem_i([ 26,47,80 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,47,80 ],4,pic,'').
+struct_dt_elem_i([ 26,47,80 ],4,collection,'False').
+struct_dt_elem_i([ 26,47,80 ],4,'ExternalName','ValueTo').
+struct_dt_elem_i([ 26,47,80 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,80 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,47,80 ],4,'XmlName','').
+struct_dt_elem_i([ 26,47,80 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,80 ],4,soaptype,'').
+struct_dt_elem_i([ 26,47,80 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,80 ],4,'JsonName','').
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,15,'WWPBASEOBJECTS\LOADWWPCONTEXT',[ [ o('WWPBaseObjects\WWPContext'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+pgm_parm_i(proc,18,'WWPBASEOBJECTS\LOADGRIDSTATE',[ [ svchar,120,0,0 ],[ svchar,1000,0,0 ] ],[ [ 'UserCustomKey',in,[] ],[ 'UserCustomValue',out,[] ] ]).
+pgm_parm_i(proc,25,'WWPBASEOBJECTS\SECISAUTHBYFUNCTIONALITYKEY',[ [ svchar,100,0,0 ],[ boolean,4,0,0 ] ],[ [ 'SecFunctionalityKey',in,[] ],[ 'IsAuthorized',out,[] ] ]).
+ 
+pgm_callprotocol_i(proc,98,'BR_VITALWWGETFILTERDATA','INTERNAL').
+pgm_callprotocol_i(proc,15,'WWPBASEOBJECTS\LOADWWPCONTEXT','INTERNAL').
+pgm_callprotocol_i(proc,18,'WWPBASEOBJECTS\LOADGRIDSTATE','INTERNAL').
+pgm_callprotocol_i(proc,25,'WWPBASEOBJECTS\SECISAUTHBYFUNCTIONALITYKEY','INTERNAL').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,1329 @@
+spec_i([ proc,83,删除就诊信息所有相关信息,'ZBR_DeleteEncounter',78,chs,'16_0_0-127771' ]).
+ 
+struct_i(23,1,[],[]).
+struct_i(22,1,[],[]).
+struct_i(18,1,[],[]).
+struct_i(21,18,[ 226 ],[]).
+struct_i(20,18,[ 226 ],[]).
+struct_i(19,18,[ 226 ],[]).
+struct_i(16,1,[],[]).
+struct_i(17,16,[ 225 ],[]).
+struct_i(15,1,[],[]).
+struct_i(14,1,[],[]).
+struct_i(12,1,[],[]).
+struct_i(13,12,[ 119 ],[]).
+struct_i(11,1,[],[]).
+struct_i(10,1,[],[]).
+struct_i(9,1,[],[]).
+struct_i(8,1,[],[]).
+struct_i(7,1,[],[]).
+struct_i(6,1,[],[]).
+struct_i(5,1,[],[]).
+struct_i(4,1,[],[]).
+struct_i(3,1,[],[]).
+struct_i(2,1,[],[]).
+ 
+level_i(23,[ 15,[ [ 15,many ] ],[],[],[ [ [ 15 ],[ 19 ] ] ],[ [ [ 15 ],[] ] ],[ 19 ],'IBR_ENCOUNTER',[ 15,[ [ [],'Ibr_encounterid',19 ] ] ],[] ]).
+level_i(22,[ 42,[ [ 42,many ] ],[],[],[ [ [ 42 ],[ 19 ] ] ],[ [ [ 42 ],[] ] ],[ 19 ],'IBR_ENCOUNTER_REFUSEREASON1',[ 42,[ [ [],'Ibr_encounterid',19 ] ] ],[] ]).
+level_i(18,[ 36,[ [ 36,many ] ],[],[],[ [ [ 36 ],[ 226,19 ] ] ],[ [ [ 36 ],[] ] ],[ 19 ],'IBR_PATHOLOGY1',[ 36,[ [ [],'Ibr_encounterid',19 ] ] ],[] ]).
+level_i(21,[ 35,[ [ 35,many ] ],[],[],[ [ [ 35 ],[ 226 ] ] ],[ [ [ 35 ],[] ] ],[ 226 ],'IBR_PATHOLOGY_OTHER1',[ 35,[ [ [],226,226 ] ] ],[] ]).
+level_i(20,[ 34,[ [ 34,many ] ],[],[],[ [ [ 34 ],[ 226 ] ] ],[ [ [ 34 ],[] ] ],[ 226 ],'IBR_PATHOLOGY_DIAG1',[ 34,[ [ [],226,226 ] ] ],[] ]).
+level_i(19,[ 33,[ [ 33,many ] ],[],[],[ [ [ 33 ],[ 226 ] ] ],[ [ [ 33 ],[] ] ],[ 226 ],'IBR_PATHOLOGY_SPECIMEN1',[ 33,[ [ [],226,226 ] ] ],[] ]).
+level_i(16,[ 30,[ [ 30,many ] ],[],[],[ [ [ 30 ],[ 225,19 ] ] ],[ [ [ 30 ],[] ] ],[ 19 ],'IBR_MEDICALIMAGING1',[ 30,[ [ [],'Ibr_encounterid',19 ] ] ],[] ]).
+level_i(17,[ 29,[ [ 29,many ] ],[],[],[ [ [ 29 ],[ 225 ] ] ],[ [ [ 29 ],[] ] ],[ 225 ],'IBR_MEDICALIMAGING_DIAG1',[ 29,[ [ [],225,225 ] ] ],[] ]).
+level_i(15,[ 20,[ [ 20,many ] ],[],[],[ [ [ 20 ],[ 19 ] ] ],[ [ [ 20 ],[] ] ],[ 19 ],'IBR_VITAL1',[ 20,[ [ [],'Ibr_encounterid',19 ] ] ],[] ]).
+level_i(14,[ 19,[ [ 19,many ] ],[],[],[ [ [ 19 ],[ 19 ] ] ],[ [ [ 19 ],[] ] ],[ 19 ],'IBR_PROCEDURE1',[ 19,[ [ [],'Ibr_encounterid',19 ] ] ],[] ]).
+level_i(12,[ 18,[ [ 18,many ] ],[],[],[ [ [ 18 ],[ 119,19 ] ] ],[ [ [ 18 ],[] ] ],[ 19 ],'IBR_MEDICATION1',[ 18,[ [ [],'Ibr_encounterid',19 ] ] ],[] ]).
+level_i(13,[ 32,[ [ 32,many ] ],[],[],[ [ [ 32 ],[ 119,296 ] ] ],[ [ [ 32 ],[] ] ],[ 119 ],'IBR_MEDICATION_SCHEME1',[ 32,[ [ [],119,119 ] ] ],[] ]).
+level_i(11,[ 17,[ [ 17,many ] ],[],[],[ [ [ 17 ],[ 19 ] ] ],[ [ [ 17 ],[] ] ],[ 19 ],'IBR_LAB1',[ 17,[ [ [],'Ibr_encounterid',19 ] ] ],[] ]).
+level_i(10,[ 13,[ [ 13,many ] ],[],[],[ [ [ 13 ],[ 19 ] ] ],[ [ [ 13 ],[] ] ],[ 19 ],'IBR_DIAGNOSIS1',[ 13,[ [ [],'Ibr_encounterid',19 ] ] ],[] ]).
+level_i(9,[ 12,[ [ 12,many ] ],[],[],[ [ [ 12 ],[ 19 ] ] ],[ [ [ 12 ],[] ] ],[ 19 ],'IBR_DEMOGRAPHICS1',[ 12,[ [ [],'Ibr_encounterid',19 ] ] ],[] ]).
+level_i(8,[ 11,[ [ 11,many ] ],[],[],[ [ [ 11 ],[ 19 ] ] ],[ [ [ 11 ],[] ] ],[ 19 ],'IBR_DEATH1',[ 11,[ [ [],'Ibr_encounterid',19 ] ] ],[] ]).
+level_i(7,[ 10,[ [ 10,many ] ],[],[],[ [ [ 10 ],[ 19 ] ] ],[ [ [ 10 ],[] ] ],[ 19 ],'IBR_COMORBIDITY1',[ 10,[ [ [],'Ibr_encounterid',19 ] ] ],[] ]).
+level_i(6,[ 37,[ [ 37,many ],[ 19,one ] ],[],[],[ [ [ 37,19 ],[ 19,139 ] ] ],[ [ [ 37,19 ],[] ] ],[ 320 ],'IBR_PROCEDURE_SURGERY',[],[] ]).
+level_i(5,[ 38,[ [ 38,many ],[ 19,one ] ],[],[],[ [ [ 38,19 ],[ 19,139 ] ] ],[ [ [ 38,19 ],[] ] ],[ 323 ],'IBR_PROCEDURE_RADIO',[],[] ]).
+level_i(4,[ 39,[ [ 39,many ] ],[],[],[ [ [ 39 ],[ 19 ] ] ],[ [ [ 39 ],[] ] ],[ 19 ],'IBR_SCHEME1',[ 39,[ [ [],'Ibr_encounterid',19 ] ] ],[] ]).
+level_i(3,[ 40,[ [ 40,many ],[ 39,one ] ],[],[],[ [ [ 40,39 ],[ 19,327 ] ] ],[ [ [ 40,39 ],[] ] ],[ 332 ],'IBR_SCHEME_MEDICATION',[],[] ]).
+level_i(2,[ 9,[ [ 9,many ] ],[],[],[ [ [ 9 ],[ 19 ] ] ],[ [ [ 9 ],[] ] ],[ 19 ],'IBR_BEHAVIOR1',[ 9,[ [ [],'Ibr_encounterid',19 ] ] ],[] ]).
+ 
+tw_i(23,[]).
+tw_i(22,[]).
+tw_i(18,[]).
+tw_i(21,[]).
+tw_i(20,[]).
+tw_i(19,[]).
+tw_i(16,[]).
+tw_i(17,[]).
+tw_i(15,[]).
+tw_i(14,[]).
+tw_i(12,[]).
+tw_i(13,[]).
+tw_i(11,[]).
+tw_i(10,[]).
+tw_i(9,[]).
+tw_i(8,[]).
+tw_i(7,[]).
+tw_i(6,[ [ 19,[ [ 37,139,139 ] ] ] ]).
+tw_i(5,[ [ 19,[ [ 38,139,139 ] ] ] ]).
+tw_i(4,[]).
+tw_i(3,[ [ 39,[ [ 40,327,327 ] ] ] ]).
+tw_i(2,[]).
+ 
+lwi_i(23,[ [] ]).
+lwi_i(22,[ [] ]).
+lwi_i(18,[ [] ]).
+lwi_i(21,[ [] ]).
+lwi_i(20,[ [] ]).
+lwi_i(19,[ [] ]).
+lwi_i(16,[ [] ]).
+lwi_i(17,[ [] ]).
+lwi_i(15,[ [] ]).
+lwi_i(14,[ [] ]).
+lwi_i(12,[ [] ]).
+lwi_i(13,[ [] ]).
+lwi_i(11,[ [] ]).
+lwi_i(10,[ [] ]).
+lwi_i(9,[ [] ]).
+lwi_i(8,[ [] ]).
+lwi_i(7,[ [] ]).
+lwi_i(6,[ [ c([ t(19,2),t(=,10),t('Ibr_encounterid',23) ],[ 19 ]) ] ]).
+lwi_i(5,[ [ c([ t(19,2),t(=,10),t('Ibr_encounterid',23) ],[ 19 ]) ] ]).
+lwi_i(4,[ [] ]).
+lwi_i(3,[ [ c([ t(19,2),t(=,10),t('Ibr_encounterid',23) ],[ 19 ]) ] ]).
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+level_option_i(2,usr_condition,y).
+level_option_i(3,usr_condition,y).
+level_option_i(4,usr_condition,y).
+level_option_i(5,usr_condition,y).
+level_option_i(6,usr_condition,y).
+level_option_i(7,usr_condition,y).
+level_option_i(8,usr_condition,y).
+level_option_i(9,usr_condition,y).
+level_option_i(10,usr_condition,y).
+level_option_i(11,usr_condition,y).
+level_option_i(12,usr_condition,y).
+level_option_i(14,usr_condition,y).
+level_option_i(15,usr_condition,y).
+level_option_i(16,usr_condition,y).
+level_option_i(18,usr_condition,y).
+level_option_i(22,usr_condition,y).
+level_option_i(23,usr_condition,y).
+ 
+ta_i(23,[ [ [ 15,19 ] ] ]).
+ta_i(22,[ [ [ 42,19 ] ] ]).
+ta_i(18,[ [ [ 36,226 ],[ 36,19 ] ] ]).
+ta_i(21,[ [ [ 35,226 ] ] ]).
+ta_i(20,[ [ [ 34,226 ] ] ]).
+ta_i(19,[ [ [ 33,226 ] ] ]).
+ta_i(16,[ [ [ 30,225 ],[ 30,19 ] ] ]).
+ta_i(17,[ [ [ 29,225 ] ] ]).
+ta_i(15,[ [ [ 20,19 ] ] ]).
+ta_i(14,[ [ [ 19,19 ] ] ]).
+ta_i(12,[ [ [ 18,119 ],[ 18,19 ] ] ]).
+ta_i(13,[ [ [ 32,119 ],[ 32,296 ] ] ]).
+ta_i(11,[ [ [ 17,19 ] ] ]).
+ta_i(10,[ [ [ 13,19 ] ] ]).
+ta_i(9,[ [ [ 12,19 ] ] ]).
+ta_i(8,[ [ [ 11,19 ] ] ]).
+ta_i(7,[ [ [ 10,19 ] ] ]).
+ta_i(6,[ [ [ 37,139 ],[ 19,19 ] ] ]).
+ta_i(5,[ [ [ 38,139 ],[ 19,19 ] ] ]).
+ta_i(4,[ [ [ 39,19 ] ] ]).
+ta_i(3,[ [ [ 40,327 ],[ 39,19 ] ] ]).
+ta_i(2,[ [ [ 9,19 ] ] ]).
+ 
+las_i(23,[ [ 19 ] ]).
+las_i(22,[ [ 19 ] ]).
+las_i(18,[ [ 226,19 ] ]).
+las_i(21,[ [ 226 ] ]).
+las_i(20,[ [ 226 ] ]).
+las_i(19,[ [ 226 ] ]).
+las_i(16,[ [ 225,19 ] ]).
+las_i(17,[ [ 225 ] ]).
+las_i(15,[ [ 19 ] ]).
+las_i(14,[ [ 19 ] ]).
+las_i(12,[ [ 119,19 ] ]).
+las_i(13,[ [ 119,296 ] ]).
+las_i(11,[ [ 19 ] ]).
+las_i(10,[ [ 19 ] ]).
+las_i(9,[ [ 19 ] ]).
+las_i(8,[ [ 19 ] ]).
+las_i(7,[ [ 19 ] ]).
+las_i(6,[ [ 19,139 ] ]).
+las_i(5,[ [ 19,139 ] ]).
+las_i(4,[ [ 19 ] ]).
+las_i(3,[ [ 19,327 ] ]).
+las_i(2,[ [ 19 ] ]).
+ 
+lac_i(23,[ [] ]).
+lac_i(22,[ [] ]).
+lac_i(18,[ [] ]).
+lac_i(21,[ [] ]).
+lac_i(20,[ [] ]).
+lac_i(19,[ [] ]).
+lac_i(16,[ [] ]).
+lac_i(17,[ [] ]).
+lac_i(15,[ [] ]).
+lac_i(14,[ [] ]).
+lac_i(12,[ [] ]).
+lac_i(13,[ [] ]).
+lac_i(11,[ [] ]).
+lac_i(10,[ [] ]).
+lac_i(9,[ [] ]).
+lac_i(8,[ [] ]).
+lac_i(7,[ [] ]).
+lac_i(6,[ [] ]).
+lac_i(5,[ [] ]).
+lac_i(4,[ [] ]).
+lac_i(3,[ [] ]).
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','商?')).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','商?')).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','ZBR_DeleteEncounter')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'ZUtil'))).
+rule_i(0,prop('ObjDesc',删除就诊信息所有相关信息)).
+rule_i(0,prop('ObjName','ZBR_DeleteEncounter')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Ibr_encounterid' ],[])).
+rule_i(0,parmio([ [ 'Ibr_encounterid',in ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,9,[],[ [ [ [],'Ibr_encounterid',19 ] ],'IBR_BEHAVIOR1',[] ]).
+a_i(3,3,t,40,[],[ [],'IBR_SCHEME_MEDICATION',[] ]).
+a_i(4,3,r,39,[],[ [ [ 40,327,327 ] ],'IBR_SCHEME',[] ]).
+a_i(5,4,t,39,[],[ [ [ [],'Ibr_encounterid',19 ] ],'IBR_SCHEME1',[] ]).
+a_i(6,5,t,38,[],[ [],'IBR_PROCEDURE_RADIO',[] ]).
+a_i(7,5,r,19,[],[ [ [ 38,139,139 ] ],'IBR_PROCEDURE',[] ]).
+a_i(8,6,t,37,[],[ [],'IBR_PROCEDURE_SURGERY',[] ]).
+a_i(9,6,r,19,[],[ [ [ 37,139,139 ] ],'IBR_PROCEDURE',[] ]).
+a_i(10,7,t,10,[],[ [ [ [],'Ibr_encounterid',19 ] ],'IBR_COMORBIDITY1',[] ]).
+a_i(11,8,t,11,[],[ [ [ [],'Ibr_encounterid',19 ] ],'IBR_DEATH1',[] ]).
+a_i(12,9,t,12,[],[ [ [ [],'Ibr_encounterid',19 ] ],'IBR_DEMOGRAPHICS1',[] ]).
+a_i(13,10,t,13,[],[ [ [ [],'Ibr_encounterid',19 ] ],'IBR_DIAGNOSIS1',[] ]).
+a_i(14,11,t,17,[],[ [ [ [],'Ibr_encounterid',19 ] ],'IBR_LAB1',[] ]).
+a_i(15,13,t,32,[],[ [ [ [],119,119 ] ],'IBR_MEDICATION_SCHEME1',[] ]).
+a_i(16,12,t,18,[],[ [ [ [],'Ibr_encounterid',19 ] ],'IBR_MEDICATION1',[] ]).
+a_i(17,14,t,19,[],[ [ [ [],'Ibr_encounterid',19 ] ],'IBR_PROCEDURE1',[] ]).
+a_i(18,15,t,20,[],[ [ [ [],'Ibr_encounterid',19 ] ],'IBR_VITAL1',[] ]).
+a_i(19,17,t,29,[],[ [ [ [],225,225 ] ],'IBR_MEDICALIMAGING_DIAG1',[] ]).
+a_i(20,16,t,30,[],[ [ [ [],'Ibr_encounterid',19 ] ],'IBR_MEDICALIMAGING1',[] ]).
+a_i(21,19,t,33,[],[ [ [ [],226,226 ] ],'IBR_PATHOLOGY_SPECIMEN1',[] ]).
+a_i(22,20,t,34,[],[ [ [ [],226,226 ] ],'IBR_PATHOLOGY_DIAG1',[] ]).
+a_i(23,21,t,35,[],[ [ [ [],226,226 ] ],'IBR_PATHOLOGY_OTHER1',[] ]).
+a_i(24,18,t,36,[],[ [ [ [],'Ibr_encounterid',19 ] ],'IBR_PATHOLOGY1',[] ]).
+a_i(25,22,t,42,[],[ [ [ [],'Ibr_encounterid',19 ] ],'IBR_ENCOUNTER_REFUSEREASON1',[] ]).
+a_i(26,23,t,15,[],[ [ [ [],'Ibr_encounterid',19 ] ],'IBR_ENCOUNTER',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,'Ibr_encounterid').
+v_i(t,o,2,19).
+v_i(t,i,3,[]).
+v_i(t,o,3,327).
+v_i(r,i,4,327).
+v_i(r,o,4,19).
+v_i(t,i,5,'Ibr_encounterid').
+v_i(t,o,5,19).
+v_i(t,i,6,[]).
+v_i(t,o,6,139).
+v_i(r,i,7,139).
+v_i(r,o,7,19).
+v_i(t,i,8,[]).
+v_i(t,o,8,139).
+v_i(r,i,9,139).
+v_i(r,o,9,19).
+v_i(t,i,10,'Ibr_encounterid').
+v_i(t,o,10,19).
+v_i(t,i,11,'Ibr_encounterid').
+v_i(t,o,11,19).
+v_i(t,i,12,'Ibr_encounterid').
+v_i(t,o,12,19).
+v_i(t,i,13,'Ibr_encounterid').
+v_i(t,o,13,19).
+v_i(t,i,14,'Ibr_encounterid').
+v_i(t,o,14,19).
+v_i(t,i,15,119).
+v_i(t,o,15,296).
+v_i(t,i,16,'Ibr_encounterid').
+v_i(t,o,16,119).
+v_i(t,o,16,19).
+v_i(t,i,17,'Ibr_encounterid').
+v_i(t,o,17,19).
+v_i(t,i,18,'Ibr_encounterid').
+v_i(t,o,18,19).
+v_i(t,i,19,225).
+v_i(t,o,19,[]).
+v_i(t,i,20,'Ibr_encounterid').
+v_i(t,o,20,225).
+v_i(t,o,20,19).
+v_i(t,i,21,226).
+v_i(t,o,21,[]).
+v_i(t,i,22,226).
+v_i(t,o,22,[]).
+v_i(t,i,23,226).
+v_i(t,o,23,[]).
+v_i(t,i,24,'Ibr_encounterid').
+v_i(t,o,24,226).
+v_i(t,o,24,19).
+v_i(t,i,25,'Ibr_encounterid').
+v_i(t,o,25,19).
+v_i(t,i,26,'Ibr_encounterid').
+v_i(t,o,26,19).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',33 ]).
+attri_i(348,[ 'BR_Encounter_RefuseReasonID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,'BR_Encounter_Refuse Reason ID','',0 ]).
+attri_i(288,[ 'BR_Pathology_OtherID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,病理学其他信息主键,'',0 ]).
+attri_i(276,[ 'BR_Pathology_DiagID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,病理学诊断主键,'',0 ]).
+attri_i(274,[ 'BR_Pathology_SpecimenID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,病理学送检组织主键,'',0 ]).
+attri_i(270,[ 'BR_MedicalImaging_DiagID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,影像学诊断意见主键,'',0 ]).
+attri_i(150,[ 'BR_VitalID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,生命体征主键,'',0 ]).
+attri_i(101,[ 'BR_LabID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,实验室检查主键,'',0 ]).
+attri_i(64,[ 'BR_DiagnosisID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,诊断主键,'',0 ]).
+attri_i(61,[ 'BR_Demographics_ID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,人口信息学主键,'',0 ]).
+attri_i(48,[ 'BR_DeathID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,病人死亡ID,'',0 ]).
+attri_i(37,[ 'BR_ComorbidityID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,既往病史主键,'',0 ]).
+attri_i(320,[ 'BR_Procedure_SurgeryID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,主键,'',0 ]).
+attri_i(323,[ 'BR_Procedure_RadioID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,主键,'',0 ]).
+attri_i(139,[ 'BR_ProcedureID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,诊疗处理主键,'',0 ]).
+attri_i(332,[ 'BR_Scheme_MedicationID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,化疗方案药物详情主键,'',0 ]).
+attri_i(327,[ 'BR_SchemeID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,化疗方案主键,'',0 ]).
+attri_i(20,[ 'BR_BehaviorID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,个人史主键,'',0 ]).
+attri_i(119,[ 'BR_MedicationID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,药物治疗主键,'',0 ]).
+attri_i(225,[ 'BR_MedicalImagingID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,影像学主键,'',0 ]).
+attri_i(226,[ 'BR_PathologyID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,病理学主键,'',0 ]).
+attri_i(19,[ 'BR_EncounterID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,就诊信息主键,'',0 ]).
+attri_i(296,[ 'BR_Medication_SchemeID',int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,药物治疗化疗方案主键,'',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',10 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',9 ]).
+attri_i('Ibr_encounterid',[ iBR_EncounterID,int,18,0,'ZZZZZZZZZZZZZZZZZZ',0,就诊信息主键,'',8 ]).
+ 
+table_i(9,[ 'BR_Behavior',[ 20,19 ],' T9','BR_Behavior' ]).
+table_i(40,[ 'BR_Scheme_Medication',[ 332,327 ],' T40','BR_Scheme_Medication' ]).
+table_i(39,[ 'BR_Scheme',[ 327,19 ],' T39','BR_Scheme' ]).
+table_i(38,[ 'BR_Procedure_Radio',[ 323,139 ],' T38','BR_Procedure_Radio' ]).
+table_i(37,[ 'BR_Procedure_Surgery',[ 320,139 ],' T37','BR_Procedure_Surgery' ]).
+table_i(10,[ 'BR_Comorbidity',[ 37,19 ],' T10','BR_Comorbidity' ]).
+table_i(11,[ 'BR_Death',[ 48,19 ],' T11','BR_Death' ]).
+table_i(12,[ 'BR_Demographics',[ 61,19 ],' T12','BR_Demographics' ]).
+table_i(13,[ 'BR_Diagnosis',[ 64,19 ],' T13','BR_Diagnosis' ]).
+table_i(17,[ 'BR_Lab',[ 101,19 ],' T17','BR_Lab' ]).
+table_i(32,[ 'BR_Medication_Scheme',[ 296,119 ],' T32','BR_Medication_Scheme' ]).
+table_i(18,[ 'BR_Medication',[ 119,19 ],' T18','BR_Medication' ]).
+table_i(19,[ 'BR_Procedure',[ 139,19 ],' T19','BR_Procedure' ]).
+table_i(20,[ 'BR_Vital',[ 150,19 ],' T20','BR_Vital' ]).
+table_i(29,[ 'BR_MedicalImaging_Diag',[ 270,225 ],' T29','BR_MedicalImaging_Diag' ]).
+table_i(30,[ 'BR_MedicalImaging',[ 225,19 ],' T30','BR_MedicalImaging' ]).
+table_i(33,[ 'BR_Pathology_Specimen',[ 274,226 ],' T33','BR_Pathology_Specimen' ]).
+table_i(34,[ 'BR_Pathology_Diag',[ 276,226 ],' T34','BR_Pathology_Diag' ]).
+table_i(35,[ 'BR_Pathology_Other',[ 288,226 ],' T35','BR_Pathology_Other' ]).
+table_i(36,[ 'BR_Pathology',[ 226,19 ],' T36','BR_Pathology' ]).
+table_i(42,[ 'BR_Encounter_RefuseReason',[ 348,19 ],' T42','BR_Encounter_RefuseReason' ]).
+table_i(15,[ 'BR_Encounter',[ 19 ],' T15','BR_Encounter' ]).
+ 
+index_i(9,[ 'IBR_BEHAVIOR',u,[ 20 ],'IBR_Behavior' ]).
+index_i(9,[ 'IBR_BEHAVIOR1',d,[ 19 ],'IBR_Behavior1' ]).
+index_i(40,[ 'IBR_SCHEME_MEDICATION',u,[ 332 ],'IBR_Scheme_Medication' ]).
+index_i(39,[ 'IBR_SCHEME',u,[ 327 ],'IBR_Scheme' ]).
+index_i(39,[ 'IBR_SCHEME1',d,[ 19 ],'IBR_Scheme1' ]).
+index_i(38,[ 'IBR_PROCEDURE_RADIO',u,[ 323 ],'IBR_Procedure_Radio' ]).
+index_i(19,[ 'IBR_PROCEDURE',u,[ 139 ],'IBR_Procedure' ]).
+index_i(37,[ 'IBR_PROCEDURE_SURGERY',u,[ 320 ],'IBR_Procedure_Surgery' ]).
+index_i(10,[ 'IBR_COMORBIDITY',u,[ 37 ],'IBR_Comorbidity' ]).
+index_i(10,[ 'IBR_COMORBIDITY1',d,[ 19 ],'IBR_Comorbidity1' ]).
+index_i(11,[ 'IBR_DEATH',u,[ 48 ],'IBR_Death' ]).
+index_i(11,[ 'IBR_DEATH1',d,[ 19 ],'IBR_Death1' ]).
+index_i(12,[ 'IBR_DEMOGRAPHICS',u,[ 61 ],'IBR_Demographics' ]).
+index_i(12,[ 'IBR_DEMOGRAPHICS1',d,[ 19 ],'IBR_Demographics1' ]).
+index_i(13,[ 'IBR_DIAGNOSIS',u,[ 64 ],'IBR_Diagnosis' ]).
+index_i(13,[ 'IBR_DIAGNOSIS1',d,[ 19 ],'IBR_Diagnosis1' ]).
+index_i(17,[ 'IBR_LAB',u,[ 101 ],'IBR_Lab' ]).
+index_i(17,[ 'IBR_LAB1',d,[ 19 ],'IBR_Lab1' ]).
+index_i(32,[ 'IBR_MEDICATION_SCHEME',u,[ 296 ],'IBR_Medication_Scheme' ]).
+index_i(32,[ 'IBR_MEDICATION_SCHEME1',d,[ 119 ],'IBR_Medication_Scheme1' ]).
+index_i(18,[ 'IBR_MEDICATION',u,[ 119 ],'IBR_Medication' ]).
+index_i(18,[ 'IBR_MEDICATION1',d,[ 19 ],'IBR_Medication1' ]).
+index_i(19,[ 'IBR_PROCEDURE1',d,[ 19 ],'IBR_Procedure1' ]).
+index_i(20,[ 'IBR_VITAL',u,[ 150 ],'IBR_Vital' ]).
+index_i(20,[ 'IBR_VITAL1',d,[ 19 ],'IBR_Vital1' ]).
+index_i(29,[ 'IBR_MEDICALIMAGING_DIAG',u,[ 270 ],'IBR_MedicalImaging_Diag' ]).
+index_i(29,[ 'IBR_MEDICALIMAGING_DIAG1',d,[ 225 ],'IBR_MedicalImaging_Diag1' ]).
+index_i(30,[ 'IBR_MEDICALIMAGING',u,[ 225 ],'IBR_MedicalImaging' ]).
+index_i(30,[ 'IBR_MEDICALIMAGING1',d,[ 19 ],'IBR_MedicalImaging1' ]).
+index_i(33,[ 'IBR_PATHOLOGY_SPECIMEN',u,[ 274 ],'IBR_Pathology_Specimen' ]).
+index_i(33,[ 'IBR_PATHOLOGY_SPECIMEN1',d,[ 226 ],'IBR_Pathology_Specimen1' ]).
+index_i(34,[ 'IBR_PATHOLOGY_DIAG',u,[ 276 ],'IBR_Pathology_Diag' ]).
+index_i(34,[ 'IBR_PATHOLOGY_DIAG1',d,[ 226 ],'IBR_Pathology_Diag1' ]).
+index_i(35,[ 'IBR_PATHOLOGY_OTHER',u,[ 288 ],'IBR_Pathology_Other' ]).
+index_i(35,[ 'IBR_PATHOLOGY_OTHER1',d,[ 226 ],'IBR_Pathology_Other1' ]).
+index_i(36,[ 'IBR_PATHOLOGY',u,[ 226 ],'IBR_Pathology' ]).
+index_i(36,[ 'IBR_PATHOLOGY1',d,[ 19 ],'IBR_Pathology1' ]).
+index_i(42,[ 'IBR_ENCOUNTER_REFUSEREASON',u,[ 348 ],'IBR_Encounter_RefuseReason' ]).
+index_i(42,[ 'IBR_ENCOUNTER_REFUSEREASON1',d,[ 19 ],'IBR_Encounter_RefuseReason1' ]).
+index_i(15,[ 'IBR_ENCOUNTER',u,[ 19 ],'IBR_Encounter' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(2,9,d,[ [],[],'IBR_BEHAVIOR1',[] ]).
+upd_i(3,40,d,[ [],[],'IBR_SCHEME_MEDICATION',[] ]).
+upd_i(4,39,d,[ [],[],'IBR_SCHEME1',[] ]).
+upd_i(5,38,d,[ [],[],'IBR_PROCEDURE_RADIO',[] ]).
+upd_i(6,37,d,[ [],[],'IBR_PROCEDURE_SURGERY',[] ]).
+upd_i(7,10,d,[ [],[],'IBR_COMORBIDITY1',[] ]).
+upd_i(8,11,d,[ [],[],'IBR_DEATH1',[] ]).
+upd_i(9,12,d,[ [],[],'IBR_DEMOGRAPHICS1',[] ]).
+upd_i(10,13,d,[ [],[],'IBR_DIAGNOSIS1',[] ]).
+upd_i(11,17,d,[ [],[],'IBR_LAB1',[] ]).
+upd_i(12,18,d,[ [],[],'IBR_MEDICATION1',[] ]).
+upd_i(14,19,d,[ [],[],'IBR_PROCEDURE1',[] ]).
+upd_i(15,20,d,[ [],[],'IBR_VITAL1',[] ]).
+upd_i(17,29,d,[ [],[],'IBR_MEDICALIMAGING_DIAG1',[] ]).
+upd_i(16,30,d,[ [],[],'IBR_MEDICALIMAGING1',[] ]).
+upd_i(19,33,d,[ [],[],'IBR_PATHOLOGY_SPECIMEN1',[] ]).
+upd_i(20,34,d,[ [],[],'IBR_PATHOLOGY_DIAG1',[] ]).
+upd_i(21,35,d,[ [],[],'IBR_PATHOLOGY_OTHER1',[] ]).
+upd_i(18,36,d,[ [],[],'IBR_PATHOLOGY1',[] ]).
+upd_i(22,42,d,[ [],[],'IBR_ENCOUNTER_REFUSEREASON1',[] ]).
+upd_i(23,15,d,[ [],[],'IBR_ENCOUNTER',[] ]).
+ 
+ 
+ 
+start_i(23,0,0,[ [ [ 19,23,'Ibr_encounterid',= ] ],one ]).
+start_i(22,0,0,[ [ [ 19,23,'Ibr_encounterid',= ] ],many ]).
+start_i(18,0,0,[ [ [ 19,23,'Ibr_encounterid',= ] ],many ]).
+start_i(21,0,0,[ [ [ 226,2,226,= ] ],many ]).
+start_i(20,0,0,[ [ [ 226,2,226,= ] ],many ]).
+start_i(19,0,0,[ [ [ 226,2,226,= ] ],many ]).
+start_i(16,0,0,[ [ [ 19,23,'Ibr_encounterid',= ] ],many ]).
+start_i(17,0,0,[ [ [ 225,2,225,= ] ],many ]).
+start_i(15,0,0,[ [ [ 19,23,'Ibr_encounterid',= ] ],many ]).
+start_i(14,0,0,[ [ [ 19,23,'Ibr_encounterid',= ] ],many ]).
+start_i(12,0,0,[ [ [ 19,23,'Ibr_encounterid',= ] ],many ]).
+start_i(13,0,0,[ [ [ 119,2,119,= ] ],many ]).
+start_i(11,0,0,[ [ [ 19,23,'Ibr_encounterid',= ] ],many ]).
+start_i(10,0,0,[ [ [ 19,23,'Ibr_encounterid',= ] ],many ]).
+start_i(9,0,0,[ [ [ 19,23,'Ibr_encounterid',= ] ],many ]).
+start_i(8,0,0,[ [ [ 19,23,'Ibr_encounterid',= ] ],many ]).
+start_i(7,0,0,[ [ [ 19,23,'Ibr_encounterid',= ] ],many ]).
+start_i(4,0,0,[ [ [ 19,23,'Ibr_encounterid',= ] ],many ]).
+start_i(2,0,0,[ [ [ 19,23,'Ibr_encounterid',= ] ],many ]).
+ 
+end_i(23,0,0,[ [ [ t(19,2),t(=,10),t('Ibr_encounterid',23) ] ] ]).
+end_i(22,0,0,[ [ [ t(19,2),t(=,10),t('Ibr_encounterid',23) ] ] ]).
+end_i(18,0,0,[ [ [ t(19,2),t(=,10),t('Ibr_encounterid',23) ] ] ]).
+end_i(21,0,0,[ [ [ t(226,2),t(=,10),t(226,23) ] ] ]).
+end_i(20,0,0,[ [ [ t(226,2),t(=,10),t(226,23) ] ] ]).
+end_i(19,0,0,[ [ [ t(226,2),t(=,10),t(226,23) ] ] ]).
+end_i(16,0,0,[ [ [ t(19,2),t(=,10),t('Ibr_encounterid',23) ] ] ]).
+end_i(17,0,0,[ [ [ t(225,2),t(=,10),t(225,23) ] ] ]).
+end_i(15,0,0,[ [ [ t(19,2),t(=,10),t('Ibr_encounterid',23) ] ] ]).
+end_i(14,0,0,[ [ [ t(19,2),t(=,10),t('Ibr_encounterid',23) ] ] ]).
+end_i(12,0,0,[ [ [ t(19,2),t(=,10),t('Ibr_encounterid',23) ] ] ]).
+end_i(13,0,0,[ [ [ t(119,2),t(=,10),t(119,23) ] ] ]).
+end_i(11,0,0,[ [ [ t(19,2),t(=,10),t('Ibr_encounterid',23) ] ] ]).
+end_i(10,0,0,[ [ [ t(19,2),t(=,10),t('Ibr_encounterid',23) ] ] ]).
+end_i(9,0,0,[ [ [ t(19,2),t(=,10),t('Ibr_encounterid',23) ] ] ]).
+end_i(8,0,0,[ [ [ t(19,2),t(=,10),t('Ibr_encounterid',23) ] ] ]).
+end_i(7,0,0,[ [ [ t(19,2),t(=,10),t('Ibr_encounterid',23) ] ] ]).
+end_i(4,0,0,[ [ [ t(19,2),t(=,10),t('Ibr_encounterid',23) ] ] ]).
+end_i(2,0,0,[ [ [ t(19,2),t(=,10),t('Ibr_encounterid',23) ] ] ]).
+ 
+ 
+ 
+ 
+enumerated_i(45,29,93).
+enumerated_i(45,31,93).
+enumerated_i(45,141,93).
+enumerated_i(45,143,93).
+enumerated_i(45,38,93).
+enumerated_i(45,39,93).
+enumerated_i(45,40,93).
+enumerated_i(45,41,93).
+enumerated_i(45,42,93).
+enumerated_i(45,43,93).
+enumerated_i(45,44,93).
+enumerated_i(45,45,93).
+enumerated_i(45,46,93).
+enumerated_i(45,47,93).
+enumerated_i(45,561,93).
+enumerated_i(45,563,93).
+enumerated_i(45,565,93).
+enumerated_i(45,567,93).
+enumerated_i(45,70,93).
+enumerated_i(45,71,93).
+enumerated_i(45,131,93).
+enumerated_i(45,514,93).
+enumerated_i(45,315,93).
+enumerated_i(45,318,93).
+enumerated_i(45,351,106).
+enumerated_i(45,356,107).
+enumerated_i(45,172,94).
+enumerated_i(45,537,117).
+ 
+enum_value_i(45,98,'"Create"',insert,'"新增"',[ none ]).
+enum_value_i(45,98,'"Update"',update,'"编辑"',[ none ]).
+enum_value_i(45,98,'"Delete"',delete,'"删除"',[ none ]).
+enum_value_i(45,98,'"Create"',save,'"保存"',[ none ]).
+enum_value_i(45,98,'"Submit"',submit,'"提交审批"',[ none ]).
+enum_value_i(45,98,'"Batchcheck"',batchcheck,'"批量初审"',[ none ]).
+enum_value_i(45,98,'"Batchapprove"',batchapprove,'"批量复审"',[ none ]).
+enum_value_i(45,98,'"Randomcheckpass"',randomcheckpass,'"初审抽查通过"',[ none ]).
+enum_value_i(45,98,'"Randomcheckrefuse"',randomcheckrefuse,'"初审抽查不通过"',[ none ]).
+enum_value_i(45,98,'"Randomapprovepass"',randomapprovepass,'"复审抽查通过"',[ none ]).
+enum_value_i(45,98,'"Randomapproverefuse"',randomapproverefuse,'"复审抽查不通过"',[ none ]).
+enum_value_i(45,98,'"Check"',check,'"初审通过"',[ none ]).
+enum_value_i(45,98,'"Approve"',approve,'"复审通过"',[ none ]).
+enum_value_i(45,98,'"Reupdate"',reupdate,'"重新修改"',[ none ]).
+enum_value_i(45,98,'"Login"',login,'"登录"',[ none ]).
+enum_value_i(45,93,'"否"',no,'"否"',[ none ]).
+enum_value_i(45,93,'"是"',yes,'"是"',[ none ]).
+enum_value_i(45,93,'"不详"',notclear,'"不详"',[ none ]).
+enum_value_i(45,106,'1',untreated,'"未处理"',[ none ]).
+enum_value_i(45,106,'2',treated,'"已处理"',[ none ]).
+enum_value_i(45,107,'1',chushen,'"初审"',[ none ]).
+enum_value_i(45,107,'2',fushen,'"复审"',[ none ]).
+enum_value_i(45,94,'1',entering,'"录入中"',[ none ]).
+enum_value_i(45,94,'2',waitCheck,'"待初审"',[ none ]).
+enum_value_i(45,94,'3',denyCheck,'"初审不通过"',[ none ]).
+enum_value_i(45,94,'4',waitApprove,'"待复审"',[ none ]).
+enum_value_i(45,94,'5',denyApprove,'"复审不通过"',[ none ]).
+enum_value_i(45,94,'6',complete,'"完成"',[ none ]).
+enum_value_i(45,117,'1',lis,'"lis"',[ none ]).
+ 
+enum_value_info_i(45,98,'DM_LogOperateType').
+enum_value_info_i(45,93,'DM_IsComorbidity').
+enum_value_info_i(45,106,'DM_ApproveReasonStatus').
+enum_value_info_i(45,107,'DM_EncounterReason_vStatus').
+enum_value_info_i(45,94,'DM_ApproveStatus').
+enum_value_info_i(45,117,'DM_Datasource').
+ 
+enum_type_i(45,98,svchar,40,0).
+enum_type_i(45,93,svchar,40,0).
+enum_type_i(45,106,int,4,0).
+enum_type_i(45,107,int,4,0).
+enum_type_i(45,94,int,4,0).
+enum_type_i(45,117,int,4,0).
+ 
+dom_info_i(69,[ 'ID' ]).
+dom_info_i(93,[ 'DM_IsComorbidity' ]).
+dom_info_i(103,[ 'DM_Numeric' ]).
+dom_info_i(64,[ 'DM_Date' ]).
+dom_info_i(102,[ 'DM_DataTime' ]).
+dom_info_i(27,[ 'GeneXus\Html' ]).
+dom_info_i(66,[ 'UpdDate' ]).
+dom_info_i(106,[ 'DM_ApproveReasonStatus' ]).
+dom_info_i(67,[ 'UpdUser' ]).
+dom_info_i(107,[ 'DM_EncounterReason_vStatus' ]).
+dom_info_i(94,[ 'DM_ApproveStatus' ]).
+dom_info_i(95,[ 'CrtUser' ]).
+dom_info_i(117,[ 'DM_Datasource' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [],[ 19 ],[] ]).
+break_i(3,nvg,1,[],[ [],[ 19 ],[] ]).
+break_i(4,nvg,1,[],[ [],[ 19 ],[] ]).
+break_i(5,nvg,1,[],[ [],[ 19 ],[] ]).
+break_i(6,nvg,1,[],[ [],[ 19 ],[] ]).
+break_i(7,nvg,1,[],[ [],[ 19 ],[] ]).
+break_i(8,nvg,1,[],[ [],[ 19 ],[] ]).
+break_i(9,nvg,1,[],[ [],[ 19 ],[] ]).
+break_i(10,nvg,1,[],[ [],[ 19 ],[] ]).
+break_i(11,nvg,1,[],[ [],[ 19 ],[] ]).
+break_i(13,nvg,12,[],[ [ 296 ],[],[] ]).
+break_i(12,nvg,1,[],[ [],[ 19 ],[] ]).
+break_i(14,nvg,1,[],[ [],[ 19 ],[] ]).
+break_i(15,nvg,1,[],[ [],[ 19 ],[] ]).
+break_i(17,nvg,16,[],[ [],[],[] ]).
+break_i(16,nvg,1,[],[ [],[ 19 ],[] ]).
+break_i(19,nvg,18,[],[ [],[],[] ]).
+break_i(20,nvg,18,[],[ [],[],[] ]).
+break_i(21,nvg,18,[],[ [],[],[] ]).
+break_i(18,nvg,1,[],[ [],[ 19 ],[] ]).
+break_i(22,nvg,1,[],[ [],[ 19 ],[] ]).
+break_i(23,nvg,1,[],[ [],[ 19 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,3,3).
+b_group_i(2,1,lit,0,4,4).
+b_group_i(1,3,lit,0,7,4).
+b_group_i(1,4,nvg,3,8,8).
+b_group_i(3,1,lit,0,9,9).
+b_group_i(1,5,lit,0,12,8).
+b_group_i(1,6,nvg,4,13,13).
+b_group_i(4,1,lit,0,14,14).
+b_group_i(1,7,lit,0,17,12).
+b_group_i(1,8,nvg,5,18,18).
+b_group_i(5,1,lit,0,19,19).
+b_group_i(1,9,lit,0,22,16).
+b_group_i(1,10,nvg,6,23,23).
+b_group_i(6,1,lit,0,24,24).
+b_group_i(1,11,lit,0,27,20).
+b_group_i(1,12,nvg,7,28,28).
+b_group_i(7,1,lit,0,29,29).
+b_group_i(1,13,lit,0,32,24).
+b_group_i(1,14,nvg,8,33,33).
+b_group_i(8,1,lit,0,34,34).
+b_group_i(1,15,lit,0,37,28).
+b_group_i(1,16,nvg,9,38,38).
+b_group_i(9,1,lit,0,39,39).
+b_group_i(1,17,lit,0,42,32).
+b_group_i(1,18,nvg,10,43,43).
+b_group_i(10,1,lit,0,44,44).
+b_group_i(1,19,lit,0,47,36).
+b_group_i(1,20,nvg,11,48,48).
+b_group_i(11,1,lit,0,49,49).
+b_group_i(1,21,lit,0,52,40).
+b_group_i(1,22,nvg,12,53,53).
+b_group_i(12,1,lit,0,54,54).
+b_group_i(12,2,nvg,13,55,55).
+b_group_i(13,1,lit,0,56,56).
+b_group_i(12,3,lit,0,58,57).
+b_group_i(1,23,lit,0,60,47).
+b_group_i(1,24,nvg,14,61,61).
+b_group_i(14,1,lit,0,62,62).
+b_group_i(1,25,lit,0,65,51).
+b_group_i(1,26,nvg,15,66,66).
+b_group_i(15,1,lit,0,67,67).
+b_group_i(1,27,lit,0,70,55).
+b_group_i(1,28,nvg,16,72,72).
+b_group_i(16,1,lit,0,73,73).
+b_group_i(16,2,nvg,17,75,75).
+b_group_i(17,1,lit,0,76,76).
+b_group_i(16,3,lit,0,78,76).
+b_group_i(1,29,lit,0,80,63).
+b_group_i(1,30,nvg,18,82,82).
+b_group_i(18,1,lit,0,83,83).
+b_group_i(18,2,nvg,19,85,85).
+b_group_i(19,1,lit,0,86,86).
+b_group_i(18,3,lit,0,88,86).
+b_group_i(18,4,nvg,20,90,90).
+b_group_i(20,1,lit,0,91,91).
+b_group_i(18,5,lit,0,93,89).
+b_group_i(18,6,nvg,21,95,95).
+b_group_i(21,1,lit,0,96,96).
+b_group_i(18,7,lit,0,98,92).
+b_group_i(1,31,lit,0,101,82).
+b_group_i(1,32,nvg,22,102,102).
+b_group_i(22,1,lit,0,103,103).
+b_group_i(1,33,lit,0,107,87).
+b_group_i(1,34,nvg,23,109,109).
+b_group_i(23,1,lit,0,110,110).
+b_group_i(1,35,lit,0,117,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[]).
+b_line_i(3,2,1,cmd,4,[ t('',121,3,0),t(table,3,3,10),t(9,3,3,10) ]).
+b_line_i(5,2,1,cmd,4,[ t('',113,4,0) ]).
+b_line_i(6,2,1,cmd,4,[ t('',128,4,0) ]).
+b_line_i(7,1,3,cmd,4,[]).
+b_line_i(8,3,1,cmd,9,[ t('',121,8,0),t(table,3,8,10),t(40,3,8,10) ]).
+b_line_i(10,3,1,cmd,9,[ t('',113,9,0) ]).
+b_line_i(11,3,1,cmd,9,[ t('',128,9,0) ]).
+b_line_i(12,1,5,cmd,8,[]).
+b_line_i(13,4,1,cmd,14,[ t('',121,13,0),t(table,3,13,10),t(39,3,13,10) ]).
+b_line_i(15,4,1,cmd,14,[ t('',113,14,0) ]).
+b_line_i(16,4,1,cmd,14,[ t('',128,14,0) ]).
+b_line_i(17,1,7,cmd,12,[]).
+b_line_i(18,5,1,cmd,19,[ t('',121,18,0),t(table,3,18,10),t(38,3,18,10) ]).
+b_line_i(20,5,1,cmd,19,[ t('',113,19,0) ]).
+b_line_i(21,5,1,cmd,19,[ t('',128,19,0) ]).
+b_line_i(22,1,9,cmd,16,[]).
+b_line_i(23,6,1,cmd,24,[ t('',121,23,0),t(table,3,23,10),t(37,3,23,10) ]).
+b_line_i(25,6,1,cmd,24,[ t('',113,24,0) ]).
+b_line_i(26,6,1,cmd,24,[ t('',128,24,0) ]).
+b_line_i(27,1,11,cmd,20,[]).
+b_line_i(28,7,1,cmd,29,[ t('',121,28,0),t(table,3,28,10),t(10,3,28,10) ]).
+b_line_i(30,7,1,cmd,29,[ t('',113,29,0) ]).
+b_line_i(31,7,1,cmd,29,[ t('',128,29,0) ]).
+b_line_i(32,1,13,cmd,24,[]).
+b_line_i(33,8,1,cmd,34,[ t('',121,33,0),t(table,3,33,10),t(11,3,33,10) ]).
+b_line_i(35,8,1,cmd,34,[ t('',113,34,0) ]).
+b_line_i(36,8,1,cmd,34,[ t('',128,34,0) ]).
+b_line_i(37,1,15,cmd,28,[]).
+b_line_i(38,9,1,cmd,39,[ t('',121,38,0),t(table,3,38,10),t(12,3,38,10) ]).
+b_line_i(40,9,1,cmd,39,[ t('',113,39,0) ]).
+b_line_i(41,9,1,cmd,39,[ t('',128,39,0) ]).
+b_line_i(42,1,17,cmd,32,[]).
+b_line_i(43,10,1,cmd,44,[ t('',121,43,0),t(table,3,43,10),t(13,3,43,10) ]).
+b_line_i(45,10,1,cmd,44,[ t('',113,44,0) ]).
+b_line_i(46,10,1,cmd,44,[ t('',128,44,0) ]).
+b_line_i(47,1,19,cmd,36,[]).
+b_line_i(48,11,1,cmd,49,[ t('',121,48,0),t(table,3,48,10),t(17,3,48,10) ]).
+b_line_i(50,11,1,cmd,49,[ t('',113,49,0) ]).
+b_line_i(51,11,1,cmd,49,[ t('',128,49,0) ]).
+b_line_i(52,1,21,cmd,40,[]).
+b_line_i(53,12,1,cmd,54,[ t('',121,53,0),t(table,3,53,10),t(18,3,53,10) ]).
+b_line_i(55,13,1,cmd,56,[ t('',121,55,0),t(table,3,55,11),t(32,3,55,11) ]).
+b_line_i(56,13,1,cmd,56,[ t('',104,56,0),t(o(1,'ZBR_DeleteMedication_scheme'),28,56,3),t(296,2,56,37) ]).
+b_line_i(57,13,1,cmd,56,[ t('',128,56,0) ]).
+b_line_i(58,12,3,cmd,57,[ t('',113,57,0) ]).
+b_line_i(59,12,3,cmd,57,[ t('',128,57,0) ]).
+b_line_i(60,1,23,cmd,47,[]).
+b_line_i(61,14,1,cmd,62,[ t('',121,61,0),t(table,3,61,10),t(19,3,61,10) ]).
+b_line_i(63,14,1,cmd,62,[ t('',113,62,0) ]).
+b_line_i(64,14,1,cmd,62,[ t('',128,62,0) ]).
+b_line_i(65,1,25,cmd,51,[]).
+b_line_i(66,15,1,cmd,67,[ t('',121,66,0),t(table,3,66,10),t(20,3,66,10) ]).
+b_line_i(68,15,1,cmd,67,[ t('',113,67,0) ]).
+b_line_i(69,15,1,cmd,67,[ t('',128,67,0) ]).
+b_line_i(70,1,27,cmd,55,[]).
+b_line_i(71,1,27,cmd,55,[]).
+b_line_i(72,16,1,cmd,73,[ t('',121,72,0),t(table,3,72,10),t(30,3,72,10) ]).
+b_line_i(74,16,1,cmd,73,[]).
+b_line_i(75,17,1,cmd,76,[ t('',121,75,0),t(table,3,75,11),t(29,3,75,11) ]).
+b_line_i(76,17,1,cmd,76,[ t('',113,76,0) ]).
+b_line_i(77,17,1,cmd,76,[ t('',128,76,0) ]).
+b_line_i(78,16,3,cmd,76,[ t('',113,76,0) ]).
+b_line_i(79,16,3,cmd,76,[ t('',128,76,0) ]).
+b_line_i(80,1,29,cmd,63,[]).
+b_line_i(81,1,29,cmd,63,[]).
+b_line_i(82,18,1,cmd,83,[ t('',121,82,0),t(table,3,82,10),t(36,3,82,10) ]).
+b_line_i(84,18,1,cmd,83,[]).
+b_line_i(85,19,1,cmd,86,[ t('',121,85,0),t(table,3,85,11),t(33,3,85,11) ]).
+b_line_i(86,19,1,cmd,86,[ t('',113,86,0) ]).
+b_line_i(87,19,1,cmd,86,[ t('',128,86,0) ]).
+b_line_i(88,18,3,cmd,86,[]).
+b_line_i(89,18,3,cmd,86,[]).
+b_line_i(90,20,1,cmd,91,[ t('',121,90,0),t(table,3,90,11),t(34,3,90,11) ]).
+b_line_i(91,20,1,cmd,91,[ t('',113,91,0) ]).
+b_line_i(92,20,1,cmd,91,[ t('',128,91,0) ]).
+b_line_i(93,18,5,cmd,89,[]).
+b_line_i(94,18,5,cmd,89,[]).
+b_line_i(95,21,1,cmd,96,[ t('',121,95,0),t(table,3,95,11),t(35,3,95,11) ]).
+b_line_i(96,21,1,cmd,96,[ t('',113,96,0) ]).
+b_line_i(97,21,1,cmd,96,[ t('',128,96,0) ]).
+b_line_i(98,18,7,cmd,92,[]).
+b_line_i(99,18,7,cmd,92,[ t('',113,92,0) ]).
+b_line_i(100,18,7,cmd,92,[ t('',128,92,0) ]).
+b_line_i(101,1,31,cmd,82,[]).
+b_line_i(102,22,1,cmd,103,[ t('',121,102,0),t(table,3,102,10),t(42,3,102,10) ]).
+b_line_i(104,22,1,cmd,103,[]).
+b_line_i(105,22,1,cmd,103,[ t('',113,103,0) ]).
+b_line_i(106,22,1,cmd,103,[ t('',128,103,0) ]).
+b_line_i(107,1,33,cmd,87,[]).
+b_line_i(108,1,33,cmd,87,[]).
+b_line_i(109,23,1,cmd,110,[ t('',121,109,0),t(table,3,109,10),t(15,3,109,10) ]).
+b_line_i(111,23,1,cmd,110,[]).
+b_line_i(112,23,1,cmd,110,[ t('',113,110,0) ]).
+b_line_i(113,23,1,cmd,110,[]).
+b_line_i(114,23,1,cmd,110,[]).
+b_line_i(115,23,1,cmd,110,[ t('',104,110,0),t(o(1,'ZUtil_RecordLog'),28,110,2),t('str(',1,115,41),t('Ibr_encounterid',23,110,24),t(',',7,110,41),t(18,3,110,41),t(',',7,110,41),t(0,3,110,41),t(')',4,110,51),t(',',7,110,0),t('''就诊信息''',3,115,53),t(',',7,110,0),t([ 98,delete ],44,115,60),t(',',7,110,0),t('1',3,110,85) ]).
+b_line_i(116,23,1,cmd,110,[ t('',128,110,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0060,[ 'The program may be called by another program and the Commit on Exit property is set to YES' ])).
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(45,296,'ExternalName','BR_Medication_SchemeID',d).
+att_prop_i(45,296,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,296,'EmptyAsNull','Yes',d).
+att_prop_i(45,296,idBasedOn,69,v).
+att_prop_i(45,296,'AUTONUMBER','-1',d).
+att_prop_i(45,296,'AUTONUMBER_START','1',d).
+att_prop_i(45,296,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,296,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,296,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,296,'AttRegEx','',d).
+att_prop_i(45,296,'AttValidationFailedMsg','',d).
+att_prop_i(45,296,'FullName','BR_Medication_SchemeID',v).
+att_prop_i(45,19,'ExternalName','BR_EncounterID',d).
+att_prop_i(45,19,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,19,'EmptyAsNull','Yes',d).
+att_prop_i(45,19,idBasedOn,69,v).
+att_prop_i(45,19,'AUTONUMBER','-1',d).
+att_prop_i(45,19,'AUTONUMBER_START','1',d).
+att_prop_i(45,19,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,19,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,19,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,19,'AttRegEx','',d).
+att_prop_i(45,19,'AttValidationFailedMsg','',d).
+att_prop_i(45,19,'FullName','BR_EncounterID',v).
+att_prop_i(45,226,'ExternalName','BR_PathologyID',d).
+att_prop_i(45,226,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,226,'EmptyAsNull','Yes',d).
+att_prop_i(45,226,idBasedOn,69,v).
+att_prop_i(45,226,'AUTONUMBER','-1',d).
+att_prop_i(45,226,'AUTONUMBER_START','1',d).
+att_prop_i(45,226,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,226,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,226,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,226,'AttRegEx','',d).
+att_prop_i(45,226,'AttValidationFailedMsg','',d).
+att_prop_i(45,226,'FullName','BR_PathologyID',v).
+att_prop_i(45,225,'ExternalName','BR_MedicalImagingID',d).
+att_prop_i(45,225,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,225,'EmptyAsNull','Yes',d).
+att_prop_i(45,225,idBasedOn,69,v).
+att_prop_i(45,225,'AUTONUMBER','-1',d).
+att_prop_i(45,225,'AUTONUMBER_START','1',d).
+att_prop_i(45,225,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,225,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,225,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,225,'AttRegEx','',d).
+att_prop_i(45,225,'AttValidationFailedMsg','',d).
+att_prop_i(45,225,'FullName','BR_MedicalImagingID',v).
+att_prop_i(45,119,'ExternalName','BR_MedicationID',d).
+att_prop_i(45,119,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,119,'EmptyAsNull','Yes',d).
+att_prop_i(45,119,idBasedOn,69,v).
+att_prop_i(45,119,'AUTONUMBER','-1',d).
+att_prop_i(45,119,'AUTONUMBER_START','1',d).
+att_prop_i(45,119,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,119,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,119,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,119,'AttRegEx','',d).
+att_prop_i(45,119,'AttValidationFailedMsg','',d).
+att_prop_i(45,119,'FullName','BR_MedicationID',v).
+att_prop_i(45,20,'ExternalName','BR_BehaviorID',d).
+att_prop_i(45,20,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,20,'EmptyAsNull','Yes',d).
+att_prop_i(45,20,idBasedOn,69,v).
+att_prop_i(45,20,'AUTONUMBER','-1',d).
+att_prop_i(45,20,'AUTONUMBER_START','1',d).
+att_prop_i(45,20,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,20,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,20,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,20,'AttRegEx','',d).
+att_prop_i(45,20,'AttValidationFailedMsg','',d).
+att_prop_i(45,20,'FullName','BR_BehaviorID',v).
+att_prop_i(45,327,'ExternalName','BR_SchemeID',d).
+att_prop_i(45,327,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,327,'EmptyAsNull','Yes',d).
+att_prop_i(45,327,idBasedOn,69,v).
+att_prop_i(45,327,'AUTONUMBER','-1',d).
+att_prop_i(45,327,'AUTONUMBER_START','1',d).
+att_prop_i(45,327,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,327,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,327,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,327,'AttRegEx','',d).
+att_prop_i(45,327,'AttValidationFailedMsg','',d).
+att_prop_i(45,327,'FullName','BR_SchemeID',v).
+att_prop_i(45,332,'ExternalName','BR_Scheme_MedicationID',d).
+att_prop_i(45,332,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,332,'EmptyAsNull','Yes',d).
+att_prop_i(45,332,idBasedOn,69,v).
+att_prop_i(45,332,'AUTONUMBER','-1',d).
+att_prop_i(45,332,'AUTONUMBER_START','1',d).
+att_prop_i(45,332,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,332,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,332,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,332,'AttRegEx','',d).
+att_prop_i(45,332,'AttValidationFailedMsg','',d).
+att_prop_i(45,332,'FullName','BR_Scheme_MedicationID',v).
+att_prop_i(45,139,'ExternalName','BR_ProcedureID',d).
+att_prop_i(45,139,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,139,'EmptyAsNull','Yes',d).
+att_prop_i(45,139,idBasedOn,69,v).
+att_prop_i(45,139,'AUTONUMBER','-1',d).
+att_prop_i(45,139,'AUTONUMBER_START','1',d).
+att_prop_i(45,139,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,139,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,139,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,139,'AttRegEx','',d).
+att_prop_i(45,139,'AttValidationFailedMsg','',d).
+att_prop_i(45,139,'FullName','BR_ProcedureID',v).
+att_prop_i(45,323,'ExternalName','BR_Procedure_RadioID',d).
+att_prop_i(45,323,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,323,'EmptyAsNull','Yes',d).
+att_prop_i(45,323,idBasedOn,69,v).
+att_prop_i(45,323,'AUTONUMBER','-1',d).
+att_prop_i(45,323,'AUTONUMBER_START','1',d).
+att_prop_i(45,323,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,323,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,323,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,323,'AttRegEx','',d).
+att_prop_i(45,323,'AttValidationFailedMsg','',d).
+att_prop_i(45,323,'FullName','BR_Procedure_RadioID',v).
+att_prop_i(45,320,'ExternalName','BR_Procedure_SurgeryID',d).
+att_prop_i(45,320,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,320,'EmptyAsNull','Yes',d).
+att_prop_i(45,320,idBasedOn,69,v).
+att_prop_i(45,320,'AUTONUMBER','-1',d).
+att_prop_i(45,320,'AUTONUMBER_START','1',d).
+att_prop_i(45,320,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,320,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,320,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,320,'AttRegEx','',d).
+att_prop_i(45,320,'AttValidationFailedMsg','',d).
+att_prop_i(45,320,'FullName','BR_Procedure_SurgeryID',v).
+att_prop_i(45,37,'ExternalName','BR_ComorbidityID',d).
+att_prop_i(45,37,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,37,'EmptyAsNull','Yes',d).
+att_prop_i(45,37,idBasedOn,69,v).
+att_prop_i(45,37,'AUTONUMBER','-1',d).
+att_prop_i(45,37,'AUTONUMBER_START','1',d).
+att_prop_i(45,37,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,37,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,37,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,37,'AttRegEx','',d).
+att_prop_i(45,37,'AttValidationFailedMsg','',d).
+att_prop_i(45,37,'FullName','BR_ComorbidityID',v).
+att_prop_i(45,48,'ExternalName','BR_DeathID',d).
+att_prop_i(45,48,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,48,'EmptyAsNull','Yes',d).
+att_prop_i(45,48,idBasedOn,69,v).
+att_prop_i(45,48,'AUTONUMBER','-1',d).
+att_prop_i(45,48,'AUTONUMBER_START','1',d).
+att_prop_i(45,48,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,48,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,48,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,48,'AttRegEx','',d).
+att_prop_i(45,48,'AttValidationFailedMsg','',d).
+att_prop_i(45,48,'FullName','BR_DeathID',v).
+att_prop_i(45,61,'ExternalName','BR_Demographics_ID',d).
+att_prop_i(45,61,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,61,'EmptyAsNull','Yes',d).
+att_prop_i(45,61,idBasedOn,69,v).
+att_prop_i(45,61,'AUTONUMBER','-1',d).
+att_prop_i(45,61,'AUTONUMBER_START','1',d).
+att_prop_i(45,61,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,61,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,61,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,61,'AttRegEx','',d).
+att_prop_i(45,61,'AttValidationFailedMsg','',d).
+att_prop_i(45,61,'FullName','BR_Demographics_ID',v).
+att_prop_i(45,64,'ExternalName','BR_DiagnosisID',d).
+att_prop_i(45,64,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,64,'EmptyAsNull','Yes',d).
+att_prop_i(45,64,idBasedOn,69,v).
+att_prop_i(45,64,'AUTONUMBER','-1',d).
+att_prop_i(45,64,'AUTONUMBER_START','1',d).
+att_prop_i(45,64,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,64,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,64,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,64,'AttRegEx','',d).
+att_prop_i(45,64,'AttValidationFailedMsg','',d).
+att_prop_i(45,64,'FullName','BR_DiagnosisID',v).
+att_prop_i(45,101,'ExternalName','BR_LabID',d).
+att_prop_i(45,101,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,101,'EmptyAsNull','Yes',d).
+att_prop_i(45,101,idBasedOn,69,v).
+att_prop_i(45,101,'AUTONUMBER','-1',d).
+att_prop_i(45,101,'AUTONUMBER_START','1',d).
+att_prop_i(45,101,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,101,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,101,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,101,'AttRegEx','',d).
+att_prop_i(45,101,'AttValidationFailedMsg','',d).
+att_prop_i(45,101,'FullName','BR_LabID',v).
+att_prop_i(45,150,'ExternalName','BR_VitalID',d).
+att_prop_i(45,150,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,150,'EmptyAsNull','Yes',d).
+att_prop_i(45,150,idBasedOn,69,v).
+att_prop_i(45,150,'AUTONUMBER','-1',d).
+att_prop_i(45,150,'AUTONUMBER_START','1',d).
+att_prop_i(45,150,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,150,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,150,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,150,'AttRegEx','',d).
+att_prop_i(45,150,'AttValidationFailedMsg','',d).
+att_prop_i(45,150,'FullName','BR_VitalID',v).
+att_prop_i(45,270,'ExternalName','BR_MedicalImaging_DiagID',d).
+att_prop_i(45,270,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,270,'EmptyAsNull','Yes',d).
+att_prop_i(45,270,idBasedOn,69,v).
+att_prop_i(45,270,'AUTONUMBER','-1',d).
+att_prop_i(45,270,'AUTONUMBER_START','1',d).
+att_prop_i(45,270,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,270,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,270,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,270,'AttRegEx','',d).
+att_prop_i(45,270,'AttValidationFailedMsg','',d).
+att_prop_i(45,270,'FullName','BR_MedicalImaging_DiagID',v).
+att_prop_i(45,274,'ExternalName','BR_Pathology_SpecimenID',d).
+att_prop_i(45,274,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,274,'EmptyAsNull','Yes',d).
+att_prop_i(45,274,idBasedOn,69,v).
+att_prop_i(45,274,'AUTONUMBER','-1',d).
+att_prop_i(45,274,'AUTONUMBER_START','1',d).
+att_prop_i(45,274,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,274,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,274,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,274,'AttRegEx','',d).
+att_prop_i(45,274,'AttValidationFailedMsg','',d).
+att_prop_i(45,274,'FullName','BR_Pathology_SpecimenID',v).
+att_prop_i(45,276,'ExternalName','BR_Pathology_DiagID',d).
+att_prop_i(45,276,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,276,'EmptyAsNull','Yes',d).
+att_prop_i(45,276,idBasedOn,69,v).
+att_prop_i(45,276,'AUTONUMBER','-1',d).
+att_prop_i(45,276,'AUTONUMBER_START','1',d).
+att_prop_i(45,276,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,276,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,276,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,276,'AttRegEx','',d).
+att_prop_i(45,276,'AttValidationFailedMsg','',d).
+att_prop_i(45,276,'FullName','BR_Pathology_DiagID',v).
+att_prop_i(45,288,'ExternalName','BR_Pathology_OtherID',d).
+att_prop_i(45,288,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,288,'EmptyAsNull','Yes',d).
+att_prop_i(45,288,idBasedOn,69,v).
+att_prop_i(45,288,'AUTONUMBER','-1',d).
+att_prop_i(45,288,'AUTONUMBER_START','1',d).
+att_prop_i(45,288,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,288,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,288,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,288,'AttRegEx','',d).
+att_prop_i(45,288,'AttValidationFailedMsg','',d).
+att_prop_i(45,288,'FullName','BR_Pathology_OtherID',v).
+att_prop_i(45,348,'ExternalName','BR_Encounter_RefuseReasonID',d).
+att_prop_i(45,348,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,348,'EmptyAsNull','Yes',d).
+att_prop_i(45,348,idBasedOn,69,v).
+att_prop_i(45,348,'AUTONUMBER','-1',d).
+att_prop_i(45,348,'AUTONUMBER_START','1',d).
+att_prop_i(45,348,'AUTONUMBER_STEP','1',d).
+att_prop_i(45,348,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(45,348,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,348,'AttRegEx','',d).
+att_prop_i(45,348,'AttValidationFailedMsg','',d).
+att_prop_i(45,348,'FullName','BR_Encounter_RefuseReasonID',v).
+ 
+tbl_prop_i(45,9,'AllDirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,40,'AllDirSuper',[ [ 18,[ 119 ] ],[ 39,[ 327 ] ] ],v).
+tbl_prop_i(45,39,'AllDirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,38,'AllDirSuper',[ [ 19,[ 139 ] ] ],v).
+tbl_prop_i(45,37,'AllDirSuper',[ [ 19,[ 139 ] ] ],v).
+tbl_prop_i(45,10,'AllDirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,11,'AllDirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,12,'AllDirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,13,'AllDirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,17,'AllDirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,32,'AllDirSuper',[ [ 18,[ 119 ] ] ],v).
+tbl_prop_i(45,18,'AllDirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,19,'AllDirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,20,'AllDirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,29,'AllDirSuper',[ [ 30,[ 225 ] ] ],v).
+tbl_prop_i(45,30,'AllDirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,33,'AllDirSuper',[ [ 36,[ 226 ] ] ],v).
+tbl_prop_i(45,34,'AllDirSuper',[ [ 36,[ 226 ] ] ],v).
+tbl_prop_i(45,35,'AllDirSuper',[ [ 36,[ 226 ] ] ],v).
+tbl_prop_i(45,36,'AllDirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,42,'AllDirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,40,'DirSuperNull',[ [ 18,[ 119 ] ],[ 39,[ 327 ] ] ],v).
+tbl_prop_i(45,32,'DirSuperNull',[ [ 18,[ 119 ] ] ],v).
+tbl_prop_i(45,19,'DirSuperNull',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,29,'DirSuperNull',[ [ 30,[ 225 ] ] ],v).
+tbl_prop_i(45,30,'DirSuperNull',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,33,'DirSuperNull',[ [ 36,[ 226 ] ] ],v).
+tbl_prop_i(45,34,'DirSuperNull',[ [ 36,[ 226 ] ] ],v).
+tbl_prop_i(45,35,'DirSuperNull',[ [ 36,[ 226 ] ] ],v).
+tbl_prop_i(45,36,'DirSuperNull',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,39,'DirSubor',[ [ 40,[ 327 ] ] ],v).
+tbl_prop_i(45,18,'DirSubor',[ [ 32,[ 119 ] ],[ 40,[ 119 ] ] ],v).
+tbl_prop_i(45,19,'DirSubor',[ [ 37,[ 139 ] ],[ 38,[ 139 ] ] ],v).
+tbl_prop_i(45,30,'DirSubor',[ [ 29,[ 225 ] ] ],v).
+tbl_prop_i(45,36,'DirSubor',[ [ 33,[ 226 ] ],[ 34,[ 226 ] ],[ 35,[ 226 ] ] ],v).
+tbl_prop_i(45,15,'DirSubor',[ [ 9,[ 19 ] ],[ 10,[ 19 ] ],[ 11,[ 19 ] ],[ 12,[ 19 ] ],[ 13,[ 19 ] ],[ 17,[ 19 ] ],[ 18,[ 19 ] ],[ 19,[ 19 ] ],[ 20,[ 19 ] ],[ 30,[ 19 ] ],[ 36,[ 19 ] ],[ 39,[ 19 ] ],[ 42,[ 19 ] ] ],v).
+tbl_prop_i(45,9,'DirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,40,'DirSuper',[ [ 18,[ 119 ] ],[ 39,[ 327 ] ] ],v).
+tbl_prop_i(45,39,'DirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,38,'DirSuper',[ [ 19,[ 139 ] ] ],v).
+tbl_prop_i(45,37,'DirSuper',[ [ 19,[ 139 ] ] ],v).
+tbl_prop_i(45,10,'DirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,11,'DirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,12,'DirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,13,'DirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,17,'DirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,32,'DirSuper',[ [ 18,[ 119 ] ] ],v).
+tbl_prop_i(45,18,'DirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,19,'DirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,20,'DirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,29,'DirSuper',[ [ 30,[ 225 ] ] ],v).
+tbl_prop_i(45,30,'DirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,33,'DirSuper',[ [ 36,[ 226 ] ] ],v).
+tbl_prop_i(45,34,'DirSuper',[ [ 36,[ 226 ] ] ],v).
+tbl_prop_i(45,35,'DirSuper',[ [ 36,[ 226 ] ] ],v).
+tbl_prop_i(45,36,'DirSuper',[ [ 15,[ 19 ] ] ],v).
+tbl_prop_i(45,42,'DirSuper',[ [ 15,[ 19 ] ] ],v).
+ 
+tbl_att_prop_i(45,9,20,'AllowNulls',n).
+tbl_att_prop_i(45,9,20,'AUTONUMBER',y).
+tbl_att_prop_i(45,9,19,'AllowNulls',n).
+tbl_att_prop_i(45,40,332,'AllowNulls',n).
+tbl_att_prop_i(45,40,332,'AUTONUMBER',y).
+tbl_att_prop_i(45,39,327,'AllowNulls',n).
+tbl_att_prop_i(45,39,327,'AUTONUMBER',y).
+tbl_att_prop_i(45,39,19,'AllowNulls',n).
+tbl_att_prop_i(45,38,323,'AllowNulls',n).
+tbl_att_prop_i(45,38,323,'AUTONUMBER',y).
+tbl_att_prop_i(45,38,139,'AllowNulls',n).
+tbl_att_prop_i(45,19,139,'AllowNulls',n).
+tbl_att_prop_i(45,19,139,'AUTONUMBER',y).
+tbl_att_prop_i(45,37,320,'AllowNulls',n).
+tbl_att_prop_i(45,37,320,'AUTONUMBER',y).
+tbl_att_prop_i(45,37,139,'AllowNulls',n).
+tbl_att_prop_i(45,10,37,'AllowNulls',n).
+tbl_att_prop_i(45,10,37,'AUTONUMBER',y).
+tbl_att_prop_i(45,10,19,'AllowNulls',n).
+tbl_att_prop_i(45,11,48,'AllowNulls',n).
+tbl_att_prop_i(45,11,48,'AUTONUMBER',y).
+tbl_att_prop_i(45,11,19,'AllowNulls',n).
+tbl_att_prop_i(45,12,61,'AllowNulls',n).
+tbl_att_prop_i(45,12,61,'AUTONUMBER',y).
+tbl_att_prop_i(45,12,19,'AllowNulls',n).
+tbl_att_prop_i(45,13,64,'AllowNulls',n).
+tbl_att_prop_i(45,13,64,'AUTONUMBER',y).
+tbl_att_prop_i(45,13,19,'AllowNulls',n).
+tbl_att_prop_i(45,17,101,'AllowNulls',n).
+tbl_att_prop_i(45,17,101,'AUTONUMBER',y).
+tbl_att_prop_i(45,17,19,'AllowNulls',n).
+tbl_att_prop_i(45,32,296,'AllowNulls',n).
+tbl_att_prop_i(45,32,296,'AUTONUMBER',y).
+tbl_att_prop_i(45,18,119,'AllowNulls',n).
+tbl_att_prop_i(45,18,119,'AUTONUMBER',y).
+tbl_att_prop_i(45,18,19,'AllowNulls',n).
+tbl_att_prop_i(45,20,150,'AllowNulls',n).
+tbl_att_prop_i(45,20,150,'AUTONUMBER',y).
+tbl_att_prop_i(45,20,19,'AllowNulls',n).
+tbl_att_prop_i(45,29,270,'AllowNulls',n).
+tbl_att_prop_i(45,29,270,'AUTONUMBER',y).
+tbl_att_prop_i(45,30,225,'AllowNulls',n).
+tbl_att_prop_i(45,30,225,'AUTONUMBER',y).
+tbl_att_prop_i(45,33,274,'AllowNulls',n).
+tbl_att_prop_i(45,33,274,'AUTONUMBER',y).
+tbl_att_prop_i(45,34,276,'AllowNulls',n).
+tbl_att_prop_i(45,34,276,'AUTONUMBER',y).
+tbl_att_prop_i(45,35,288,'AllowNulls',n).
+tbl_att_prop_i(45,35,288,'AUTONUMBER',y).
+tbl_att_prop_i(45,36,226,'AllowNulls',n).
+tbl_att_prop_i(45,36,226,'AUTONUMBER',y).
+tbl_att_prop_i(45,42,348,'AllowNulls',n).
+tbl_att_prop_i(45,42,348,'AUTONUMBER',y).
+tbl_att_prop_i(45,42,19,'AllowNulls',n).
+tbl_att_prop_i(45,15,19,'AllowNulls',n).
+tbl_att_prop_i(45,15,19,'AUTONUMBER',y).
+ 
+var_prop_i(45,'Ibr_encounterid',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,85,'ZUTIL_RECORDLOG',[ [ svchar,5000,0,0 ],[ svchar,100,0,0 ],[ svchar,40,0,0 ],[ int,4,0,0 ] ],[ [ iXT_LogTarget,in,[] ],[ iXT_LogTargetModule,in,[] ],[ iXT_LogTargetOperate,in,[] ],[ tOperateType,in,[] ] ]).
+pgm_parm_i(proc,100,'ZBR_DELETEMEDICATION_SCHEME',[ [ int,18,0,0 ] ],[ [ iBR_Medication_SchemeID,in,[] ] ]).
+ 
+pgm_callprotocol_i(proc,83,'ZBR_DELETEENCOUNTER','INTERNAL').
+pgm_callprotocol_i(proc,85,'ZUTIL_RECORDLOG','INTERNAL').
+pgm_callprotocol_i(proc,100,'ZBR_DELETEMEDICATION_SCHEME','INTERNAL').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

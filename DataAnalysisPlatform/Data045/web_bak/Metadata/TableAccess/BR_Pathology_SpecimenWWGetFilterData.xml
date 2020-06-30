@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="bef9e7e3-9a7d-4b8d-9f04-435865db7019">
+  <Table name="BR_Pathology_Specimen" />
+  <Table name="UserCustomizations" />
+</Dependencies>

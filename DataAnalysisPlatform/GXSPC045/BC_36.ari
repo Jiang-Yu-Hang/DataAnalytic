@@ -1,0 +1,3 @@
+bc_dt_elem_i([ 0,36,0 ],'Br_procedure_surgeryid',allownulls,no).
+bc_dt_elem_i([ 0,36,0 ],'Br_procedureid',allownulls,no).
+ 

@@ -1,0 +1,10 @@
+﻿<ConnectionInformation>
+	<DBName>DataAnalysisPlatform_GZ_2</DBName>
+	<IntegratedSecurity>False</IntegratedSecurity>
+	<ServerInstance>DESKTOP-RK6IV3Q</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>D:\WorkFile_XU\临时\DataAnalysisPlatform</Directory>
+	<DataFile>DataAnalysisPlatform.mdf</DataFile>
+	<LogFile>DataAnalysisPlatform_log.ldf</LogFile>
+	<HostName>DESKTOP-RK6IV3Q</HostName>
+</ConnectionInformation>

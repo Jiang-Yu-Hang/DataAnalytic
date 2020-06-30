@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="98dc9f62-2903-4f10-b914-510e962bff7a">
+  <Table name="XT_Log" />
+  <Table name="SYS_Log" />
+  <Table name="XT_Config" />
+  <Table name="SYS_UserRole" />
+  <Table name="SYS_TenantUser" />
+  <Table name="SYS_InstituteUser" />
+  <Table name="SYS_User" />
+</Dependencies>

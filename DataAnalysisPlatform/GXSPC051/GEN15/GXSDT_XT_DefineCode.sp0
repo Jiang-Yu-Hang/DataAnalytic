@@ -1,0 +1,111 @@
+ 
+spec_i([ sdt,[ 0,23,0 ],'XT_DefineCode','XT_DefineCode',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,23,0 ],name,'XT_DefineCode').
+struct_dt_i([ 0,23,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,23,0 ],significantName,'XT_DefineCode').
+struct_dt_i([ 0,23,0 ],'ObjName','XT_DefineCode').
+struct_dt_i([ 0,23,0 ],'ObjDesc',数据字典数据).
+struct_dt_i([ 0,23,0 ],'ExternalName','XT_DefineCode').
+struct_dt_i([ 0,23,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,23,0 ],key,[ 167 ]).
+struct_dt_i([ 0,23,0 ],lvl,24).
+struct_dt_i([ 0,23,0 ],fullname,'XT_DefineCode').
+ 
+struct_dt_elem_i([ 0,23,0 ],1,name,'Xt_definecodeid').
+struct_dt_elem_i([ 0,23,0 ],1,camelname,'XT_DefineCodeID').
+struct_dt_elem_i([ 0,23,0 ],1,basedon,69).
+struct_dt_elem_i([ 0,23,0 ],1,length,18).
+struct_dt_elem_i([ 0,23,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,23,0 ],1,sign,0).
+struct_dt_elem_i([ 0,23,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,23,0 ],1,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,23,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,23,0 ],1,attributeid,'167').
+struct_dt_elem_i([ 0,23,0 ],1,'ExternalName','XT_DefineCodeID').
+struct_dt_elem_i([ 0,23,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,23,0 ],2,name,'Xt_definecodename').
+struct_dt_elem_i([ 0,23,0 ],2,camelname,'XT_DefineCodeName').
+struct_dt_elem_i([ 0,23,0 ],2,length,100).
+struct_dt_elem_i([ 0,23,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,23,0 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,23,0 ],2,pic,'').
+struct_dt_elem_i([ 0,23,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,23,0 ],2,attributeid,'168').
+struct_dt_elem_i([ 0,23,0 ],2,'ExternalName','XT_DefineCodeName').
+struct_dt_elem_i([ 0,23,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,23,0 ],3,name,'Xt_defindcodetypeid').
+struct_dt_elem_i([ 0,23,0 ],3,camelname,'XT_DefindcodeTypeID').
+struct_dt_elem_i([ 0,23,0 ],3,basedon,69).
+struct_dt_elem_i([ 0,23,0 ],3,length,18).
+struct_dt_elem_i([ 0,23,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,23,0 ],3,sign,0).
+struct_dt_elem_i([ 0,23,0 ],3,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,23,0 ],3,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 0,23,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,23,0 ],3,attributeid,'165').
+struct_dt_elem_i([ 0,23,0 ],3,'ExternalName','XT_DefindcodeTypeID').
+struct_dt_elem_i([ 0,23,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,23,0 ],4,name,'Xt_defindcodetypename').
+struct_dt_elem_i([ 0,23,0 ],4,camelname,'XT_DefindcodeTypeName').
+struct_dt_elem_i([ 0,23,0 ],4,length,40).
+struct_dt_elem_i([ 0,23,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,23,0 ],4,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,23,0 ],4,pic,'').
+struct_dt_elem_i([ 0,23,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,23,0 ],4,attributeid,'166').
+struct_dt_elem_i([ 0,23,0 ],4,'ExternalName','XT_DefindcodeTypeName').
+struct_dt_elem_i([ 0,23,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,23,0 ],5,name,'Xt_definecodeorder').
+struct_dt_elem_i([ 0,23,0 ],5,camelname,'XT_DefineCodeOrder').
+struct_dt_elem_i([ 0,23,0 ],5,length,4).
+struct_dt_elem_i([ 0,23,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,23,0 ],5,sign,0).
+struct_dt_elem_i([ 0,23,0 ],5,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,23,0 ],5,pic,'ZZZZ').
+struct_dt_elem_i([ 0,23,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,23,0 ],5,attributeid,'171').
+struct_dt_elem_i([ 0,23,0 ],5,'ExternalName','XT_DefineCodeOrder').
+struct_dt_elem_i([ 0,23,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,23,0 ],6,name,'Xt_typecode').
+struct_dt_elem_i([ 0,23,0 ],6,camelname,'XT_TypeCode').
+struct_dt_elem_i([ 0,23,0 ],6,length,40).
+struct_dt_elem_i([ 0,23,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,23,0 ],6,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,23,0 ],6,pic,'').
+struct_dt_elem_i([ 0,23,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,23,0 ],6,attributeid,'431').
+struct_dt_elem_i([ 0,23,0 ],6,'ExternalName','XT_TypeCode').
+struct_dt_elem_i([ 0,23,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,23,0 ],7,name,'Xt_tenantcode').
+struct_dt_elem_i([ 0,23,0 ],7,camelname,'XT_TenantCode').
+struct_dt_elem_i([ 0,23,0 ],7,length,40).
+struct_dt_elem_i([ 0,23,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,23,0 ],7,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,23,0 ],7,pic,'').
+struct_dt_elem_i([ 0,23,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,23,0 ],7,attributeid,'432').
+struct_dt_elem_i([ 0,23,0 ],7,'ExternalName','XT_TenantCode').
+struct_dt_elem_i([ 0,23,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,23,0 ],8,name,'Xt_definecodeintialtype').
+struct_dt_elem_i([ 0,23,0 ],8,camelname,'XT_DefineCodeIntialType').
+struct_dt_elem_i([ 0,23,0 ],8,basedon,109).
+struct_dt_elem_i([ 0,23,0 ],8,length,4).
+struct_dt_elem_i([ 0,23,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,23,0 ],8,sign,0).
+struct_dt_elem_i([ 0,23,0 ],8,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,23,0 ],8,pic,'ZZZ9').
+struct_dt_elem_i([ 0,23,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,23,0 ],8,attributeid,'510').
+struct_dt_elem_i([ 0,23,0 ],8,'ExternalName','XT_DefineCodeIntialType').
+struct_dt_elem_i([ 0,23,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

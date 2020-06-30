@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prgs.xsl"?>
+<Objects>
+   <Charset>UTF-8</Charset>
+   <Path>file:///C:/Program Files (x86)/GeneXus/GeneXus16/</Path>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>WWPBaseObjects.SecFunctionalityRole</ObjName>
+      <ObjDesc>WWPBaseObjects.鏉冮檺-瑙掕壊琛?/ObjDesc>
+      <ObjLink>wwpbaseobjects.secfunctionalityrole.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>WWPBaseObjects.SecObject</ObjName>
+      <ObjDesc>WWPBaseObjects.Sec Object</ObjDesc>
+      <ObjLink>wwpbaseobjects.secobject.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>WWPBaseObjects.SecUserRole</ObjName>
+      <ObjDesc>WWPBaseObjects.鐢ㄦ埛瑙掕壊鍏崇郴琛?/ObjDesc>
+      <ObjLink>wwpbaseobjects.secuserrole.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>WWPBaseObjects.UserCustomizations</ObjName>
+      <ObjDesc>WWPBaseObjects.User Custom</ObjDesc>
+      <ObjLink>wwpbaseobjects.usercustomizations.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>BR_Behavior</ObjName>
+      <ObjDesc>涓汉鍙?/ObjDesc>
+      <ObjLink>br_behavior.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>BR_Comorbidity</ObjName>
+      <ObjDesc>鏃㈠線鐥呭彶</ObjDesc>
+      <ObjLink>br_comorbidity.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>BR_Death</ObjName>
+      <ObjDesc>姝讳骸鎯呭喌</ObjDesc>
+      <ObjLink>br_death.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>JC_ProviderSecUser</ObjName>
+      <ObjDesc>鍖婚櫌璐﹀彿鍏崇郴琛?/ObjDesc>
+      <ObjLink>jc_providersecuser.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>JC_Provider_Br_Information</ObjName>
+      <ObjDesc>鎮ｈ€呭垎闄㈣〃</ObjDesc>
+      <ObjLink>jc_provider_br_information.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>SYS_UserRole</ObjName>
+      <ObjDesc>SYS_User Role</ObjDesc>
+      <ObjLink>sys_userrole.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>SYS_SerialNumber</ObjName>
+      <ObjDesc>SYS_Serial Number</ObjDesc>
+      <ObjLink>sys_serialnumber.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>SYS_TenantUser</ObjName>
+      <ObjDesc>SYS_Tenant User</ObjDesc>
+      <ObjLink>sys_tenantuser.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>SYS_Permission</ObjName>
+      <ObjDesc>SYS_Permission</ObjDesc>
+      <ObjLink>sys_permission.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>SYS_TenantUserAccess</ObjName>
+      <ObjDesc>SYS_Tenant User Access</ObjDesc>
+      <ObjLink>sys_tenantuseraccess.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>SYS_Database</ObjName>
+      <ObjDesc>SYS_Database</ObjDesc>
+      <ObjLink>sys_database.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>SYS_InstituteUser</ObjName>
+      <ObjDesc>SYS_Institute User</ObjDesc>
+      <ObjLink>sys_instituteuser.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>SYS_User</ObjName>
+      <ObjDesc>SYS_User</ObjDesc>
+      <ObjLink>sys_user.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>SYS_InstituteUserRole</ObjName>
+      <ObjDesc>SYS_Institute User Role</ObjDesc>
+      <ObjLink>sys_instituteuserrole.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>BAS_Tenant</ObjName>
+      <ObjDesc>BAS_Tenant</ObjDesc>
+      <ObjLink>bas_tenant.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>SYS_Role</ObjName>
+      <ObjDesc>SYS_Role</ObjDesc>
+      <ObjLink>sys_role.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>BAS_DataPackage</ObjName>
+      <ObjDesc>BAS_Data Package</ObjDesc>
+      <ObjLink>bas_datapackage.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>SYS_TenantUserRole</ObjName>
+      <ObjDesc>SYS_Tenant User Role</ObjDesc>
+      <ObjLink>sys_tenantuserrole.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>BAS_Institute</ObjName>
+      <ObjDesc>BAS_Institute</ObjDesc>
+      <ObjLink>bas_institute.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>SYS_Log</ObjName>
+      <ObjDesc>SYS_Log</ObjDesc>
+      <ObjLink>sys_log.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>BR_PatientReTenant</ObjName>
+      <ObjDesc>鎮ｈ€呯鎴峰叧绯昏〃</ObjDesc>
+      <ObjLink>br_patientretenant.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>BR_PatientReEntity</ObjName>
+      <ObjDesc>鎮ｈ€呯梾绉嶅叧绯诲浘</ObjDesc>
+      <ObjLink>br_patientreentity.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>view_lastest_patient_info</ObjName>
+      <ObjDesc>view_lastest_patient_info</ObjDesc>
+      <ObjLink>view_lastest_patient_info.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>View_New_Encounter</ObjName>
+      <ObjDesc>View_New_Encounter</ObjDesc>
+      <ObjLink>view_new_encounter.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>DashBoard</ObjName>
+      <ObjDesc>Data Mgmt Portal - RAAP</ObjDesc>
+      <ObjLink>dashboard.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWPBaseObjects.SecFunctionalityWW</ObjName>
+      <ObjDesc>WWPBaseObjects.Work With Functionality</ObjDesc>
+      <ObjLink>wwpbaseobjects.secfunctionalityww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWPBaseObjects.SecRoleWW</ObjName>
+      <ObjDesc>WWPBaseObjects.Work With Role</ObjDesc>
+      <ObjLink>wwpbaseobjects.secroleww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWPBaseObjects.SecUserWW</ObjName>
+      <ObjDesc>WWPBaseObjects.Work With User</ObjDesc>
+      <ObjLink>wwpbaseobjects.secuserww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWPBaseObjects.SecChangePassword</ObjName>
+      <ObjDesc>WWPBaseObjects.Change password</ObjDesc>
+      <ObjLink>wwpbaseobjects.secchangepassword.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_EncounterWW</ObjName>
+      <ObjDesc>Data Mgmt Portal - RAAP</ObjDesc>
+      <ObjLink>br_encounterww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_InformationWW</ObjName>
+      <ObjDesc>Data Mgmt Portal - RAAP</ObjDesc>
+      <ObjLink>br_informationww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>XT_DefindcodeTypeWW</ObjName>
+      <ObjDesc>Data Mgmt Portal - RAAP</ObjDesc>
+      <ObjLink>xt_defindcodetypeww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>XT_DefineCodeWW</ObjName>
+      <ObjDesc> 鏁版嵁瀛楀吀鏁版嵁</ObjDesc>
+      <ObjLink>xt_definecodeww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_DemographicsWW</ObjName>
+      <ObjDesc> 浜哄彛淇℃伅瀛?/ObjDesc>
+      <ObjLink>br_demographicsww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_DiagnosisWW</ObjName>
+      <ObjDesc> 璇婃柇</ObjDesc>
+      <ObjLink>br_diagnosisww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_LabWW</ObjName>
+      <ObjDesc> 瀹為獙瀹ゆ鏌?/ObjDesc>
+      <ObjLink>br_labww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_MedicationWW</ObjName>
+      <ObjDesc> 鑽墿娌荤枟</ObjDesc>
+      <ObjLink>br_medicationww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_ProcedureWW</ObjName>
+      <ObjDesc> 璇婄枟澶勭悊</ObjDesc>
+      <ObjLink>br_procedureww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>XT_LogWW</ObjName>
+      <ObjDesc> 绯荤粺鏃ュ織</ObjDesc>
+      <ObjLink>xt_logww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_MedicalImaging_DiagWW</ObjName>
+      <ObjDesc> 褰卞儚瀛﹁瘖鏂剰瑙?/ObjDesc>
+      <ObjLink>br_medicalimaging_diagww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_MedicalImagingWW</ObjName>
+      <ObjDesc> 褰卞儚瀛?/ObjDesc>
+      <ObjLink>br_medicalimagingww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_Medication_DetailWW</ObjName>
+      <ObjDesc> 鑽墿娌荤枟鑽墿璇︽儏</ObjDesc>
+      <ObjLink>br_medication_detailww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_Medication_SchemeWW</ObjName>
+      <ObjDesc> 鑽墿娌荤枟鍖栫枟鏂规</ObjDesc>
+      <ObjLink>br_medication_schemeww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_Pathology_SpecimenWW</ObjName>
+      <ObjDesc> 鐥呯悊瀛﹂€佹缁勭粐</ObjDesc>
+      <ObjLink>br_pathology_specimenww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_Pathology_DiagWW</ObjName>
+      <ObjDesc> 鐥呯悊瀛﹁瘖鏂?/ObjDesc>
+      <ObjLink>br_pathology_diagww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_Pathology_OtherWW</ObjName>
+      <ObjDesc> 鐥呯悊瀛﹀叾瀹冧俊鎭?/ObjDesc>
+      <ObjLink>br_pathology_otherww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_PathologyWW</ObjName>
+      <ObjDesc> 鐥呯悊瀛?/ObjDesc>
+      <ObjLink>br_pathologyww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_VitalWW</ObjName>
+      <ObjDesc> 鐢熷懡浣撳緛</ObjDesc>
+      <ObjLink>br_vitalww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_Procedure_SurgeryWW</ObjName>
+      <ObjDesc> 璇婄枟澶勭悊鎵嬫湳淇℃伅</ObjDesc>
+      <ObjLink>br_procedure_surgeryww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_Procedure_RadioWW</ObjName>
+      <ObjDesc> 璇婄枟澶勭悊鍖栫枟淇℃伅</ObjDesc>
+      <ObjLink>br_procedure_radioww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_SchemeWW</ObjName>
+      <ObjDesc> 鍖栫枟鏂规</ObjDesc>
+      <ObjLink>br_schemeww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_Scheme_MedicationWW</ObjName>
+      <ObjDesc> 鍖栫枟鏂规鑽墿璇︽儏</ObjDesc>
+      <ObjLink>br_scheme_medicationww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_UploadSuccessfully</ObjName>
+      <ObjDesc>Upload Successfully!</ObjDesc>
+      <ObjLink>br_uploadsuccessfully.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>XT_ConfigWW</ObjName>
+      <ObjDesc> 绯荤粺閰嶇疆琛?/ObjDesc>
+      <ObjLink>xt_configww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>beizhu</ObjName>
+      <ObjDesc>澶囨敞</ObjDesc>
+      <ObjLink>beizhu.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_EncounterReasonWW</ObjName>
+      <ObjDesc> 鍒濆涓嶉€氳繃鍘熷洜</ObjDesc>
+      <ObjLink>br_encounterreasonww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_Encounter_RefuseReasonWW</ObjName>
+      <ObjDesc> 灏辫瘖淇℃伅椹冲洖鍘熷洜</ObjDesc>
+      <ObjLink>br_encounter_refusereasonww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWPBaseObjects.DataManager_Direct</ObjName>
+      <ObjDesc>WWPBaseObjects.璺宠浆椤甸潰</ObjDesc>
+      <ObjLink>wwpbaseobjects.datamanager_direct.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWPBaseObjects.SecLogOut</ObjName>
+      <ObjDesc>WWPBaseObjects.Data Mangement Platform</ObjDesc>
+      <ObjLink>wwpbaseobjects.seclogout.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>ShowCookie</ObjName>
+      <ObjDesc>鍛堢幇cookie鐨勯〉闈?/ObjDesc>
+      <ObjLink>showcookie.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWPBaseObjects.HomeBack</ObjName>
+      <ObjDesc>WWPBaseObjects.Home Back</ObjDesc>
+      <ObjLink>wwpbaseobjects.homeback.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>Test_GetJWTNewToken</ObjName>
+      <ObjDesc>jwtTokem鎺ュ彛娴嬭瘯</ObjDesc>
+      <ObjLink>test_getjwtnewtoken.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>DmIndex</ObjName>
+      <ObjDesc>Data Mgmt Portal - RAAP</ObjDesc>
+      <ObjLink>dmindex.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>SYS_RolePermissionWW</ObjName>
+      <ObjDesc> SYS_Role Permission</ObjDesc>
+      <ObjLink>sys_rolepermissionww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>JC_ProviderWW</ObjName>
+      <ObjDesc> 鍖婚櫌</ObjDesc>
+      <ObjLink>jc_providerww.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_InformationList</ObjName>
+      <ObjDesc>Data Mgmt Portal - RAAP</ObjDesc>
+      <ObjLink>br_informationlist.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>DashBoardNotAuthorized</ObjName>
+      <ObjDesc>Dashboard - RAAP</ObjDesc>
+      <ObjLink>dashboardnotauthorized.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>DMNotAuthorized</ObjName>
+      <ObjDesc>Data Mgmt Portal - RAAP</ObjDesc>
+      <ObjLink>dmnotauthorized.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WebPanel1</ObjName>
+      <ObjDesc>Web Panel1</ObjDesc>
+      <ObjLink>webpanel1.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WebPanel2</ObjName>
+      <ObjDesc>Web Panel2</ObjDesc>
+      <ObjLink>webpanel2.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WebPanel3</ObjName>
+      <ObjDesc>Web Panel3</ObjDesc>
+      <ObjLink>webpanel3.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>BR_EncounterList</ObjName>
+      <ObjDesc>Data Mgmt Portal - RAAP</ObjDesc>
+      <ObjLink>br_encounterlist.aspx</ObjLink>
+   </Object>
+</Objects>

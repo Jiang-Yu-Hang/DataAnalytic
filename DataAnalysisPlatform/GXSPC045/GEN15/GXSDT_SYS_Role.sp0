@@ -1,0 +1,124 @@
+ 
+spec_i([ sdt,[ 0,53,0 ],'SYS_Role','SYS_Role',0,chs,'16_0_0-127771' ]).
+ 
+struct_dt_i([ 0,53,0 ],name,'SYS_Role').
+struct_dt_i([ 0,53,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 0,53,0 ],significantName,'SYS_Role').
+struct_dt_i([ 0,53,0 ],'ObjName','SYS_Role').
+struct_dt_i([ 0,53,0 ],'ObjDesc','SYS_Role').
+struct_dt_i([ 0,53,0 ],'ExternalName','SYS_Role').
+struct_dt_i([ 0,53,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 0,53,0 ],key,[ 361 ]).
+struct_dt_i([ 0,53,0 ],lvl,54).
+struct_dt_i([ 0,53,0 ],fullname,'SYS_Role').
+ 
+struct_dt_elem_i([ 0,53,0 ],1,name,'Roleid').
+struct_dt_elem_i([ 0,53,0 ],1,camelname,'RoleID').
+struct_dt_elem_i([ 0,53,0 ],1,length,16).
+struct_dt_elem_i([ 0,53,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,53,0 ],1,type,[ 45,16,0 ]).
+struct_dt_elem_i([ 0,53,0 ],1,pic,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX').
+struct_dt_elem_i([ 0,53,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,53,0 ],1,attributeid,'361').
+struct_dt_elem_i([ 0,53,0 ],1,'ExternalName','RoleID').
+struct_dt_elem_i([ 0,53,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,53,0 ],2,name,'Sys_roletenantcode').
+struct_dt_elem_i([ 0,53,0 ],2,camelname,'SYS_RoleTenantCode').
+struct_dt_elem_i([ 0,53,0 ],2,length,20).
+struct_dt_elem_i([ 0,53,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,53,0 ],2,type,[ 13,20,0 ]).
+struct_dt_elem_i([ 0,53,0 ],2,pic,'').
+struct_dt_elem_i([ 0,53,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,53,0 ],2,attributeid,'367').
+struct_dt_elem_i([ 0,53,0 ],2,'ExternalName','SYS_RoleTenantCode').
+struct_dt_elem_i([ 0,53,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,53,0 ],3,name,'Rolename').
+struct_dt_elem_i([ 0,53,0 ],3,camelname,'RoleName').
+struct_dt_elem_i([ 0,53,0 ],3,length,50).
+struct_dt_elem_i([ 0,53,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,53,0 ],3,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,53,0 ],3,pic,'').
+struct_dt_elem_i([ 0,53,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,53,0 ],3,attributeid,'368').
+struct_dt_elem_i([ 0,53,0 ],3,'ExternalName','RoleName').
+struct_dt_elem_i([ 0,53,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,53,0 ],4,name,'Roletype').
+struct_dt_elem_i([ 0,53,0 ],4,camelname,'RoleType').
+struct_dt_elem_i([ 0,53,0 ],4,length,9).
+struct_dt_elem_i([ 0,53,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,53,0 ],4,sign,0).
+struct_dt_elem_i([ 0,53,0 ],4,type,[ 4,9,0 ]).
+struct_dt_elem_i([ 0,53,0 ],4,pic,'ZZZZZZZZ9').
+struct_dt_elem_i([ 0,53,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,53,0 ],4,attributeid,'408').
+struct_dt_elem_i([ 0,53,0 ],4,'ExternalName','RoleType').
+struct_dt_elem_i([ 0,53,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,53,0 ],5,name,'Sys_roledescription').
+struct_dt_elem_i([ 0,53,0 ],5,camelname,'SYS_RoleDescription').
+struct_dt_elem_i([ 0,53,0 ],5,length,2048).
+struct_dt_elem_i([ 0,53,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,53,0 ],5,type,[ 8,2048,0 ]).
+struct_dt_elem_i([ 0,53,0 ],5,pic,'').
+struct_dt_elem_i([ 0,53,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,53,0 ],5,attributeid,'409').
+struct_dt_elem_i([ 0,53,0 ],5,'ExternalName','SYS_RoleDescription').
+struct_dt_elem_i([ 0,53,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,53,0 ],6,name,'Sys_rolecreator').
+struct_dt_elem_i([ 0,53,0 ],6,camelname,'SYS_RoleCreator').
+struct_dt_elem_i([ 0,53,0 ],6,length,50).
+struct_dt_elem_i([ 0,53,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,53,0 ],6,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,53,0 ],6,pic,'').
+struct_dt_elem_i([ 0,53,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,53,0 ],6,attributeid,'410').
+struct_dt_elem_i([ 0,53,0 ],6,'ExternalName','SYS_RoleCreator').
+struct_dt_elem_i([ 0,53,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,53,0 ],7,name,'Sys_rolecreatetime').
+struct_dt_elem_i([ 0,53,0 ],7,camelname,'SYS_RoleCreateTime').
+struct_dt_elem_i([ 0,53,0 ],7,length,10).
+struct_dt_elem_i([ 0,53,0 ],7,decimals,8).
+struct_dt_elem_i([ 0,53,0 ],7,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,53,0 ],7,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,53,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,53,0 ],7,attributeid,'411').
+struct_dt_elem_i([ 0,53,0 ],7,'ExternalName','SYS_RoleCreateTime').
+struct_dt_elem_i([ 0,53,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,53,0 ],8,name,'Sys_rolemodifier').
+struct_dt_elem_i([ 0,53,0 ],8,camelname,'SYS_RoleModifier').
+struct_dt_elem_i([ 0,53,0 ],8,length,50).
+struct_dt_elem_i([ 0,53,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,53,0 ],8,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,53,0 ],8,pic,'').
+struct_dt_elem_i([ 0,53,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,53,0 ],8,attributeid,'412').
+struct_dt_elem_i([ 0,53,0 ],8,'ExternalName','SYS_RoleModifier').
+struct_dt_elem_i([ 0,53,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,53,0 ],9,name,'Sys_rolemodifytime').
+struct_dt_elem_i([ 0,53,0 ],9,camelname,'SYS_RoleModifyTime').
+struct_dt_elem_i([ 0,53,0 ],9,length,10).
+struct_dt_elem_i([ 0,53,0 ],9,decimals,8).
+struct_dt_elem_i([ 0,53,0 ],9,type,[ 12,10,8 ]).
+struct_dt_elem_i([ 0,53,0 ],9,pic,'99/99/9999 99:99:99').
+struct_dt_elem_i([ 0,53,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,53,0 ],9,attributeid,'413').
+struct_dt_elem_i([ 0,53,0 ],9,'ExternalName','SYS_RoleModifyTime').
+struct_dt_elem_i([ 0,53,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 0,53,0 ],10,name,'Sys_roleisdeleted').
+struct_dt_elem_i([ 0,53,0 ],10,camelname,'SYS_RoleIsDeleted').
+struct_dt_elem_i([ 0,53,0 ],10,length,1).
+struct_dt_elem_i([ 0,53,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,53,0 ],10,sign,0).
+struct_dt_elem_i([ 0,53,0 ],10,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 0,53,0 ],10,pic,'9').
+struct_dt_elem_i([ 0,53,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,53,0 ],10,attributeid,'414').
+struct_dt_elem_i([ 0,53,0 ],10,'ExternalName','SYS_RoleIsDeleted').
+struct_dt_elem_i([ 0,53,0 ],10,'ExternalNamespace','DataAnalysisPlatform').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

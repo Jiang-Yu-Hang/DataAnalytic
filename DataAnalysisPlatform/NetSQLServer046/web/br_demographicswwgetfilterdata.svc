@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.br_demographicswwgetfilterdata_services,br_demographicswwgetfilterdata" %>

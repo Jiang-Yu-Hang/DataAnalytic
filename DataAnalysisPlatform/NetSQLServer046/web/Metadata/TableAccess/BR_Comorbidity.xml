@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="2593f37f-5384-4206-9f89-00aa4c3446dd">
+  <Table name="BR_Comorbidity" />
+  <Table name="BR_Encounter" />
+  <Table name="BR_Information" />
+  <Table name="XT_DefineCode" />
+</Dependencies>

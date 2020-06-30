@@ -1,0 +1,143 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>57</ObjId>
+<ObjName>SYS_Log</ObjName>
+<ObjDesc>SYS_Log</ObjDesc>
+<ObjPgmName>SYS_Log</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>60</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>60</TableId>
+<TableName>SYS_LOG</TableName>
+<Description> T60</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>60</TableId>
+<TableName>SYS_LOG</TableName>
+<Description> T60</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>442</AttriId>
+<AttriName>SYS_LogLogID</AttriName>
+<Description>SYS_Log Log ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>60</TableId>
+<TableName>SYS_LOG</TableName>
+<Description> T60</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>372</AttriId>
+<AttriName>SYS_LogTenantCode</AttriName>
+<Description>SYS_Log Tenant Code</Description></Attribute>
+<Attribute>
+<AttriId>451</AttriId>
+<AttriName>SYS_LogTitle</AttriName>
+<Description>SYS_Log Title</Description></Attribute>
+<Attribute>
+<AttriId>450</AttriId>
+<AttriName>SYS_LogContent</AttriName>
+<Description>SYS_Log Content</Description></Attribute>
+<Attribute>
+<AttriId>449</AttriId>
+<AttriName>SYS_LogClientIP</AttriName>
+<Description>SYS_Log Client IP</Description></Attribute>
+<Attribute>
+<AttriId>376</AttriId>
+<AttriName>SYS_LogModuleCode</AttriName>
+<Description>SYS_Log Module Code</Description></Attribute>
+<Attribute>
+<AttriId>448</AttriId>
+<AttriName>SYS_LogLogType</AttriName>
+<Description>SYS_Log Log Type</Description></Attribute>
+<Attribute>
+<AttriId>378</AttriId>
+<AttriName>SYS_LogCreator</AttriName>
+<Description>SYS_Log Creator</Description></Attribute>
+<Attribute>
+<AttriId>379</AttriId>
+<AttriName>SYS_LogCreateTime</AttriName>
+<Description>SYS_Log Create Time</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>60</TableId>
+<TableName>SYS_LOG</TableName>
+<Description> T60</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>372</AttriId>
+<AttriName>SYS_LogTenantCode</AttriName>
+<Description>SYS_Log Tenant Code</Description></Attribute>
+<Attribute>
+<AttriId>451</AttriId>
+<AttriName>SYS_LogTitle</AttriName>
+<Description>SYS_Log Title</Description></Attribute>
+<Attribute>
+<AttriId>450</AttriId>
+<AttriName>SYS_LogContent</AttriName>
+<Description>SYS_Log Content</Description></Attribute>
+<Attribute>
+<AttriId>449</AttriId>
+<AttriName>SYS_LogClientIP</AttriName>
+<Description>SYS_Log Client IP</Description></Attribute>
+<Attribute>
+<AttriId>376</AttriId>
+<AttriName>SYS_LogModuleCode</AttriName>
+<Description>SYS_Log Module Code</Description></Attribute>
+<Attribute>
+<AttriId>448</AttriId>
+<AttriName>SYS_LogLogType</AttriName>
+<Description>SYS_Log Log Type</Description></Attribute>
+<Attribute>
+<AttriId>378</AttriId>
+<AttriName>SYS_LogCreator</AttriName>
+<Description>SYS_Log Creator</Description></Attribute>
+<Attribute>
+<AttriId>379</AttriId>
+<AttriName>SYS_LogCreateTime</AttriName>
+<Description>SYS_Log Create Time</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>60</TableId>
+<TableName>SYS_LOG</TableName>
+<Description> T60</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts></Prompts>
+<Suggests></Suggests></ObjectSpec>

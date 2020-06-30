@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.webpanel4getfilterdata_services,webpanel4getfilterdata" %>

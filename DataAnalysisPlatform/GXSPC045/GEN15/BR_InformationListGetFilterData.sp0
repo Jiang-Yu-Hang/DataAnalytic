@@ -1,0 +1,1190 @@
+spec_i([ proc,159,'BR_Information List Get Filter Data','BR_InformationListGetFilterData',78,chs,'16_0_0-127771' ]).
+ 
+struct_i(6,1,[],[]).
+struct_i(7,6,[ 524 ],[]).
+struct_i(4,1,[],[]).
+struct_i(5,4,[ 522 ],[]).
+struct_i(2,1,[],[]).
+struct_i(3,2,[ 519 ],[]).
+ 
+level_i(6,[ 71,[ [ 71,many ] ],[],[],[ [ [ 71 ],[ 524,520,522,523,519 ] ] ],[ [ [ 71 ],[] ] ],[ 524 ],'7',[],[] ]).
+level_i(7,[ 71,[ [ 71,many ] ],[],[],[ [ [ 71 ],[ 524 ] ] ],[ [ [ 71 ],[] ] ],[ 524 ],'7',[ 71,[ [ [],524,524 ] ] ],[] ]).
+level_i(4,[ 71,[ [ 71,many ] ],[],[],[ [ [ 71 ],[ 522,520,524,523,519 ] ] ],[ [ [ 71 ],[] ] ],[ 522 ],'5',[],[] ]).
+level_i(5,[ 71,[ [ 71,many ] ],[],[],[ [ [ 71 ],[ 522 ] ] ],[ [ [ 71 ],[] ] ],[ 522 ],'5',[ 71,[ [ [],522,522 ] ] ],[] ]).
+level_i(2,[ 71,[ [ 71,many ] ],[],[],[ [ [ 71 ],[ 519,520,522,524,523 ] ] ],[ [ [ 71 ],[] ] ],[ 519 ],'',[],[] ]).
+level_i(3,[ 71,[ [ 71,many ] ],[],[],[ [ [ 71 ],[ 519 ] ] ],[ [ [ 71 ],[] ] ],[ 519 ],'',[ 71,[ [ [],519,519 ] ] ],[] ]).
+ 
+tw_i(6,[]).
+tw_i(7,[]).
+tw_i(4,[]).
+tw_i(5,[]).
+tw_i(2,[]).
+tw_i(3,[]).
+ 
+lwi_i(7,[ [ c([ t([ t(520,2),v(t('Obr_information_id',23)) ],49) ],[ 520 ]) ] ]).
+lwi_i(5,[ [ c([ t([ t(520,2),v(t('Obr_information_id',23)) ],49) ],[ 520 ]) ] ]).
+lwi_i(3,[ [ c([ t([ t(520,2),v(t('Obr_information_id',23)) ],49) ],[ 520 ]) ] ]).
+lwi_i(6,[ [ c([ t([ t(520,2),v(t('Obr_information_id',23)) ],49) ],[ 520 ]) ] ]).
+lwi_i(4,[ [ c([ t([ t(520,2),v(t('Obr_information_id',23)) ],49) ],[ 520 ]) ] ]).
+lwi_i(2,[ [ c([ t([ t(520,2),v(t('Obr_information_id',23)) ],49) ],[ 520 ]) ] ]).
+ 
+cond_constraint_i(6,[ [ t(519,2),t('.LIKE.',10),t('''%''',3),t(+,5),t('BR_InformationListDS_1_View_lpi_br_information_patientno',23),t(+,5),t('''%''',3) ],[ 519 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_1_View_lpi_br_information_patientno',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(523,2),t(>=,10),t('BR_InformationListDS_2_View_lpi_br_demographics_birthdate',23) ],[ 523 ],[ t('View_lpi_br_demographics_birthdateoperator',23),t(=,10),t('0',3),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_InformationListDS_2_View_lpi_br_demographics_birthdate',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(523,2),t(<=,10),t('BR_InformationListDS_3_View_lpi_br_demographics_birthdate_to',23) ],[ 523 ],[ t('View_lpi_br_demographics_birthdateoperator',23),t(=,10),t('0',3),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_InformationListDS_3_View_lpi_br_demographics_birthdate_to',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(524,2),t(=,10),t('BR_InformationListDS_4_View_lpi_br_demographics_ethnic',23) ],[ 524 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_4_View_lpi_br_demographics_ethnic',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(522,2),t(=,10),t('BR_InformationListDS_5_View_lpi_br_demographics_sex',23) ],[ 522 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_5_View_lpi_br_demographics_sex',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(519,2),t('.LIKE.',10),t('BR_InformationListDS_6_Tfview_lpi_br_information_patientno',23) ],[ 519 ],[ t('null(',1),t('BR_InformationListDS_7_Tfview_lpi_br_information_patientno_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_InformationListDS_6_Tfview_lpi_br_information_patientno',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(519,2),t(=,10),t('BR_InformationListDS_7_Tfview_lpi_br_information_patientno_sel',23) ],[ 519 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_7_Tfview_lpi_br_information_patientno_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(522,2),t('.LIKE.',10),t('BR_InformationListDS_8_Tfview_lpi_br_demographics_sex',23) ],[ 522 ],[ t('null(',1),t('BR_InformationListDS_9_Tfview_lpi_br_demographics_sex_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_InformationListDS_8_Tfview_lpi_br_demographics_sex',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(522,2),t(=,10),t('BR_InformationListDS_9_Tfview_lpi_br_demographics_sex_sel',23) ],[ 522 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_9_Tfview_lpi_br_demographics_sex_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(523,2),t(>=,10),t('BR_InformationListDS_10_Tfview_lpi_br_demographics_birthdate',23) ],[ 523 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_10_Tfview_lpi_br_demographics_birthdate',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(523,2),t(<=,10),t('BR_InformationListDS_11_Tfview_lpi_br_demographics_birthdate_to',23) ],[ 523 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_11_Tfview_lpi_br_demographics_birthdate_to',23),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(524,2),t('.LIKE.',10),t('BR_InformationListDS_12_Tfview_lpi_br_demographics_ethnic',23) ],[ 524 ],[ t('null(',1),t('BR_InformationListDS_13_Tfview_lpi_br_demographics_ethnic_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_InformationListDS_12_Tfview_lpi_br_demographics_ethnic',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(6,[ [ t(524,2),t(=,10),t('BR_InformationListDS_13_Tfview_lpi_br_demographics_ethnic_sel',23) ],[ 524 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_13_Tfview_lpi_br_demographics_ethnic_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(519,2),t('.LIKE.',10),t('''%''',3),t(+,5),t('BR_InformationListDS_1_View_lpi_br_information_patientno',23),t(+,5),t('''%''',3) ],[ 519 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_1_View_lpi_br_information_patientno',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(523,2),t(>=,10),t('BR_InformationListDS_2_View_lpi_br_demographics_birthdate',23) ],[ 523 ],[ t('View_lpi_br_demographics_birthdateoperator',23),t(=,10),t('0',3),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_InformationListDS_2_View_lpi_br_demographics_birthdate',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(523,2),t(<=,10),t('BR_InformationListDS_3_View_lpi_br_demographics_birthdate_to',23) ],[ 523 ],[ t('View_lpi_br_demographics_birthdateoperator',23),t(=,10),t('0',3),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_InformationListDS_3_View_lpi_br_demographics_birthdate_to',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(524,2),t(=,10),t('BR_InformationListDS_4_View_lpi_br_demographics_ethnic',23) ],[ 524 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_4_View_lpi_br_demographics_ethnic',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(522,2),t(=,10),t('BR_InformationListDS_5_View_lpi_br_demographics_sex',23) ],[ 522 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_5_View_lpi_br_demographics_sex',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(519,2),t('.LIKE.',10),t('BR_InformationListDS_6_Tfview_lpi_br_information_patientno',23) ],[ 519 ],[ t('null(',1),t('BR_InformationListDS_7_Tfview_lpi_br_information_patientno_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_InformationListDS_6_Tfview_lpi_br_information_patientno',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(519,2),t(=,10),t('BR_InformationListDS_7_Tfview_lpi_br_information_patientno_sel',23) ],[ 519 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_7_Tfview_lpi_br_information_patientno_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(522,2),t('.LIKE.',10),t('BR_InformationListDS_8_Tfview_lpi_br_demographics_sex',23) ],[ 522 ],[ t('null(',1),t('BR_InformationListDS_9_Tfview_lpi_br_demographics_sex_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_InformationListDS_8_Tfview_lpi_br_demographics_sex',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(522,2),t(=,10),t('BR_InformationListDS_9_Tfview_lpi_br_demographics_sex_sel',23) ],[ 522 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_9_Tfview_lpi_br_demographics_sex_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(523,2),t(>=,10),t('BR_InformationListDS_10_Tfview_lpi_br_demographics_birthdate',23) ],[ 523 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_10_Tfview_lpi_br_demographics_birthdate',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(523,2),t(<=,10),t('BR_InformationListDS_11_Tfview_lpi_br_demographics_birthdate_to',23) ],[ 523 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_11_Tfview_lpi_br_demographics_birthdate_to',23),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(524,2),t('.LIKE.',10),t('BR_InformationListDS_12_Tfview_lpi_br_demographics_ethnic',23) ],[ 524 ],[ t('null(',1),t('BR_InformationListDS_13_Tfview_lpi_br_demographics_ethnic_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_InformationListDS_12_Tfview_lpi_br_demographics_ethnic',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(4,[ [ t(524,2),t(=,10),t('BR_InformationListDS_13_Tfview_lpi_br_demographics_ethnic_sel',23) ],[ 524 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_13_Tfview_lpi_br_demographics_ethnic_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(519,2),t('.LIKE.',10),t('''%''',3),t(+,5),t('BR_InformationListDS_1_View_lpi_br_information_patientno',23),t(+,5),t('''%''',3) ],[ 519 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_1_View_lpi_br_information_patientno',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(523,2),t(>=,10),t('BR_InformationListDS_2_View_lpi_br_demographics_birthdate',23) ],[ 523 ],[ t('View_lpi_br_demographics_birthdateoperator',23),t(=,10),t('0',3),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_InformationListDS_2_View_lpi_br_demographics_birthdate',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(523,2),t(<=,10),t('BR_InformationListDS_3_View_lpi_br_demographics_birthdate_to',23) ],[ 523 ],[ t('View_lpi_br_demographics_birthdateoperator',23),t(=,10),t('0',3),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_InformationListDS_3_View_lpi_br_demographics_birthdate_to',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(524,2),t(=,10),t('BR_InformationListDS_4_View_lpi_br_demographics_ethnic',23) ],[ 524 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_4_View_lpi_br_demographics_ethnic',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(522,2),t(=,10),t('BR_InformationListDS_5_View_lpi_br_demographics_sex',23) ],[ 522 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_5_View_lpi_br_demographics_sex',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(519,2),t('.LIKE.',10),t('BR_InformationListDS_6_Tfview_lpi_br_information_patientno',23) ],[ 519 ],[ t('null(',1),t('BR_InformationListDS_7_Tfview_lpi_br_information_patientno_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_InformationListDS_6_Tfview_lpi_br_information_patientno',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(519,2),t(=,10),t('BR_InformationListDS_7_Tfview_lpi_br_information_patientno_sel',23) ],[ 519 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_7_Tfview_lpi_br_information_patientno_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(522,2),t('.LIKE.',10),t('BR_InformationListDS_8_Tfview_lpi_br_demographics_sex',23) ],[ 522 ],[ t('null(',1),t('BR_InformationListDS_9_Tfview_lpi_br_demographics_sex_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_InformationListDS_8_Tfview_lpi_br_demographics_sex',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(522,2),t(=,10),t('BR_InformationListDS_9_Tfview_lpi_br_demographics_sex_sel',23) ],[ 522 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_9_Tfview_lpi_br_demographics_sex_sel',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(523,2),t(>=,10),t('BR_InformationListDS_10_Tfview_lpi_br_demographics_birthdate',23) ],[ 523 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_10_Tfview_lpi_br_demographics_birthdate',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(523,2),t(<=,10),t('BR_InformationListDS_11_Tfview_lpi_br_demographics_birthdate_to',23) ],[ 523 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_11_Tfview_lpi_br_demographics_birthdate_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(524,2),t('.LIKE.',10),t('BR_InformationListDS_12_Tfview_lpi_br_demographics_ethnic',23) ],[ 524 ],[ t('null(',1),t('BR_InformationListDS_13_Tfview_lpi_br_demographics_ethnic_sel',23),t(')',4),t('.AND.',9),t('(',0),t('.NOT.',8),t('null(',1),t('BR_InformationListDS_12_Tfview_lpi_br_demographics_ethnic',23),t(')',4),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(524,2),t(=,10),t('BR_InformationListDS_13_Tfview_lpi_br_demographics_ethnic_sel',23) ],[ 524 ],[ t('.NOT.',8),t('null(',1),t('BR_InformationListDS_13_Tfview_lpi_br_demographics_ethnic_sel',23),t(')',4) ],[] ]).
+ 
+ 
+level_option_i(2,usr_condition,y).
+level_option_i(4,usr_condition,y).
+level_option_i(6,usr_condition,y).
+ 
+ta_i(6,[ [ [ 71,524 ],[ 71,520 ],[ 71,522 ],[ 71,523 ],[ 71,519 ] ] ]).
+ta_i(7,[ [ [ 71,524 ] ] ]).
+ta_i(4,[ [ [ 71,522 ],[ 71,520 ],[ 71,524 ],[ 71,523 ],[ 71,519 ] ] ]).
+ta_i(5,[ [ [ 71,522 ] ] ]).
+ta_i(2,[ [ [ 71,519 ],[ 71,520 ],[ 71,522 ],[ 71,524 ],[ 71,523 ] ] ]).
+ta_i(3,[ [ [ 71,519 ] ] ]).
+ 
+las_i(6,[ [ 524,520,522,523,519 ] ]).
+las_i(7,[ [ 524 ] ]).
+las_i(4,[ [ 522,520,524,523,519 ] ]).
+las_i(5,[ [ 522 ] ]).
+las_i(2,[ [ 519,520,522,524,523 ] ]).
+las_i(3,[ [ 519 ] ]).
+ 
+lac_i(6,[ [] ]).
+lac_i(7,[ [] ]).
+lac_i(4,[ [] ]).
+lac_i(5,[ [] ]).
+lac_i(2,[ [] ]).
+lac_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','商?')).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CC_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(2,'CS_DBNAME','DAS_ConfigGZ')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','DataStore1')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','商?')).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CC_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',靠靠靠)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-RK6IV3Q')).
+rule_i(0,datastore(1,'CS_DBNAME','DAS_InstanceTYY')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','BR_InformationListGetFilterData')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('REST','-1')).
+rule_i(0,prop('SOAP','0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'-1')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'WorkWithPlusTheme'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('ObjDesc','BR_Information List Get Filter Data')).
+rule_i(0,prop('ObjName','BR_InformationListGetFilterData')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Ddoname','Searchtxt','Searchtxtto','Optionsjson','Optionsdescjson','Optionindexesjson' ],[])).
+rule_i(0,parmio([ [ 'Ddoname',in ],[ 'Searchtxt',in ],[ 'Searchtxtto',in ],[ 'Optionsjson',out ],[ 'Optionsdescjson',out ],[ 'Optionindexesjson',out ] ])).
+rule_i(0,output('FIL')).
+rule_i(0,file(71,'VIEW_LASTEST_PATIENT_INFO',[ 519,520,521,522,523,524 ])).
+rule_i(0,loc([ 71 ],'VIEW_LASTEST_PATIENT_INFO','','LAN')).
+rule_i(0,index(71,'IVIEW_LASTEST_PATIENT_INFO',u,[ 520 ])).
+rule_i(0,loc([ 71,'IVIEW_LASTEST_PATIENT_INFO' ],'IVIEW_LASTEST_PATIENT_INFO','','LAN')).
+rule_i(0,p(0,0,fv,17,[ intname,'VIEW_LASTEST_PATIENT_INFO' ])).
+rule_i(0,p(0,0,fv,17,[ table,71 ])).
+rule_i(0,p(0,12,fv,17,[])).
+rule_i(0,p(0,12,fv,17,[ 'NAME',view_lastest_patient_info ])).
+rule_i(0,p(0,12,fv,17,[ 'LOC','' ])).
+rule_i(0,p(0,12,fv,17,[ 'SCHEMA',dbo ])).
+rule_i(0,p(0,12,fv,17,[ 'EXTNAM','YES' ])).
+ 
+a_i(3,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(4,3,t,71,[],[ [ [ [],519,519 ] ],'',[] ]).
+a_i(5,3,c,0,[],[ c([ t([ t(520,2),v(t('Obr_information_id',23)) ],49) ],[ 520 ]) ]).
+a_i(6,2,t,71,[],[ [],'',[] ]).
+a_i(7,5,t,71,[],[ [ [ [],522,522 ] ],'5',[] ]).
+a_i(8,5,c,0,[],[ c([ t([ t(520,2),v(t('Obr_information_id',23)) ],49) ],[ 520 ]) ]).
+a_i(9,4,t,71,[],[ [],'5',[] ]).
+a_i(10,7,t,71,[],[ [ [ [],524,524 ] ],'7',[] ]).
+a_i(11,7,c,0,[],[ c([ t([ t(520,2),v(t('Obr_information_id',23)) ],49) ],[ 520 ]) ]).
+a_i(12,6,t,71,[],[ [],'7',[] ]).
+ 
+v_i(f,i,3,[]).
+v_i(f,o,3,'Err').
+v_i(t,i,4,519).
+v_i(t,o,4,[]).
+v_i(c,i,5,520).
+v_i(c,o,5,[]).
+v_i(t,i,6,[]).
+v_i(t,o,6,519).
+v_i(t,o,6,520).
+v_i(t,o,6,522).
+v_i(t,o,6,524).
+v_i(t,o,6,523).
+v_i(t,i,7,522).
+v_i(t,o,7,[]).
+v_i(c,i,8,520).
+v_i(c,o,8,[]).
+v_i(t,i,9,[]).
+v_i(t,o,9,522).
+v_i(t,o,9,520).
+v_i(t,o,9,524).
+v_i(t,o,9,523).
+v_i(t,o,9,519).
+v_i(t,i,10,524).
+v_i(t,o,10,[]).
+v_i(c,i,11,520).
+v_i(c,o,11,[]).
+v_i(t,i,12,[]).
+v_i(t,o,12,524).
+v_i(t,o,12,520).
+v_i(t,o,12,522).
+v_i(t,o,12,523).
+v_i(t,o,12,519).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',66 ]).
+attri_i(523,[ 'VIEW_LPI_BR_Demographics_BirthDate',date,8,0,'99/99/9999',0,'VIEW_LPI_BR_Demographics_Birth Date','',0 ]).
+attri_i(520,[ 'VIEW_LPI_BR_Information_ID',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'VIEW_LPI_BR_Information_ID','',0 ]).
+attri_i(524,[ 'VIEW_LPI_BR_Demographics_Ethnic',svchar,4000,0,'',0,'VIEW_LPI_BR_Demographics_Ethnic','',0 ]).
+attri_i('BR_InformationListDS_13_Tfview_lpi_br_demographics_ethnic_sel',[ 'BR_InformationListDS_13_Tfview_lpi_br_demographics_ethnic_sel',svchar,4000,0,'',0,'Tfview_lpi_br_demographics_ethnic_sel','',60 ]).
+attri_i('BR_InformationListDS_12_Tfview_lpi_br_demographics_ethnic',[ 'BR_InformationListDS_12_Tfview_lpi_br_demographics_ethnic',svchar,4000,0,'',0,'Tfview_lpi_br_demographics_ethnic','',59 ]).
+attri_i('BR_InformationListDS_11_Tfview_lpi_br_demographics_birthdate_to',[ 'BR_InformationListDS_11_Tfview_lpi_br_demographics_birthdate_to',date,8,0,'99/99/9999',0,'Tfview_lpi_br_demographics_birthdate_to','',58 ]).
+attri_i('BR_InformationListDS_10_Tfview_lpi_br_demographics_birthdate',[ 'BR_InformationListDS_10_Tfview_lpi_br_demographics_birthdate',date,8,0,'99/99/9999',0,'Tfview_lpi_br_demographics_birthdate','',57 ]).
+attri_i('BR_InformationListDS_9_Tfview_lpi_br_demographics_sex_sel',[ 'BR_InformationListDS_9_Tfview_lpi_br_demographics_sex_sel',svchar,4000,0,'',0,'Tfview_lpi_br_demographics_sex_sel','',56 ]).
+attri_i('BR_InformationListDS_8_Tfview_lpi_br_demographics_sex',[ 'BR_InformationListDS_8_Tfview_lpi_br_demographics_sex',svchar,4000,0,'',0,'Tfview_lpi_br_demographics_sex','',55 ]).
+attri_i('BR_InformationListDS_7_Tfview_lpi_br_information_patientno_sel',[ 'BR_InformationListDS_7_Tfview_lpi_br_information_patientno_sel',svchar,4000,0,'',0,'Tfview_lpi_br_information_patientno_sel','',54 ]).
+attri_i('BR_InformationListDS_6_Tfview_lpi_br_information_patientno',[ 'BR_InformationListDS_6_Tfview_lpi_br_information_patientno',svchar,4000,0,'',0,'Tfview_lpi_br_information_patientno','',53 ]).
+attri_i('BR_InformationListDS_5_View_lpi_br_demographics_sex',[ 'BR_InformationListDS_5_View_lpi_br_demographics_sex',svchar,100,0,'',0,'View_lpi_br_demographics_sex','',52 ]).
+attri_i('BR_InformationListDS_4_View_lpi_br_demographics_ethnic',[ 'BR_InformationListDS_4_View_lpi_br_demographics_ethnic',svchar,100,0,'',0,'View_lpi_br_demographics_ethnic','',51 ]).
+attri_i('BR_InformationListDS_3_View_lpi_br_demographics_birthdate_to',[ 'BR_InformationListDS_3_View_lpi_br_demographics_birthdate_to',date,8,0,'99/99/9999',0,'View_lpi_br_demographics_birthdate_to','',50 ]).
+attri_i('BR_InformationListDS_2_View_lpi_br_demographics_birthdate',[ 'BR_InformationListDS_2_View_lpi_br_demographics_birthdate',date,8,0,'99/99/9999',0,'View_lpi_br_demographics_birthdate','',49 ]).
+attri_i('BR_InformationListDS_1_View_lpi_br_information_patientno',[ 'BR_InformationListDS_1_View_lpi_br_information_patientno',svchar,100,0,'',0,'View_lpi_br_information_patientno','',48 ]).
+attri_i(522,[ 'VIEW_LPI_BR_Demographics_Sex',svchar,4000,0,'',0,'VIEW_LPI_BR_Demographics_Sex','',0 ]).
+attri_i(519,[ 'VIEW_LPI_BR_Information_PatientNo',svchar,4000,0,'',0,'VIEW_LPI_BR_Information_Patient No','',0 ]).
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'','',46 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',45 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',44 ]).
+attri_i('Obr_information_id',[ oBR_Information_ID,o(objectcollection(int)),18,0,'ZZZZZZZZZZZZZZZZZZ',0,患者基本信息主键ID,'',43 ]).
+attri_i('View_lpi_br_demographics_sex',[ 'VIEW_LPI_BR_Demographics_Sex',svchar,100,0,'',0,'VIEW_LPI_BR_Demographics_Sex','',42 ]).
+attri_i('View_lpi_br_demographics_ethnic',[ 'VIEW_LPI_BR_Demographics_Ethnic',svchar,100,0,'',0,'VIEW_LPI_BR_Demographics_Ethnic','',41 ]).
+attri_i('View_lpi_br_demographics_birthdate',[ 'VIEW_LPI_BR_Demographics_BirthDate',date,8,0,'99/99/9999',0,'VIEW_LPI_BR_Demographics_Birth Date','',40 ]).
+attri_i('View_lpi_br_demographics_birthdate_to',[ 'VIEW_LPI_BR_Demographics_BirthDate_To',date,8,0,'99/99/9999',0,'VIEW_LPI_BR_Demographics_Birth Date_To','',39 ]).
+attri_i('View_lpi_br_demographics_birthdateoperator',[ 'VIEW_LPI_BR_Demographics_BirthDateOperator',int,4,0,'ZZZ9',0,'VIEW_LPI_BR_Demographics_Birth Date Operator','',38 ]).
+attri_i('View_lpi_br_information_patientno',[ 'VIEW_LPI_BR_Information_PatientNo',svchar,100,0,'',0,'VIEW_LPI_BR_Information_Patient No','',37 ]).
+attri_i('Gridstatedynamicfilter',[ 'GridStateDynamicFilter',o('WWPBaseObjects\WWPGridState.DynamicFilter'),0,0,'',0,'Grid State Dynamic Filter','',36 ]).
+attri_i('Gridstatefiltervalue',[ 'GridStateFilterValue',o('WWPBaseObjects\WWPGridState.FilterValue'),0,0,'',0,'Grid State Filter Value','',35 ]).
+attri_i('Gridstate',[ 'GridState',o('WWPBaseObjects\WWPGridState'),0,0,'',0,'Grid State','',34 ]).
+attri_i('Gridstatexml',[ 'GridStateXML',vchar,2097152,0,'',0,'Grid State XML','',33 ]).
+attri_i('Session',[ 'Session',o(websession),4,0,'',0,'Session','',32 ]).
+attri_i('Count',[ count,int,10,0,'Z,ZZZ,ZZZ,ZZ9',0,count,'',31 ]).
+attri_i('Optionindexesjson',[ 'OptionIndexesJson',vchar,2097152,0,'',0,'Option Indexes Json','',30 ]).
+attri_i('Optionindexes',[ 'OptionIndexes',o(objectcollection(svchar)),40,0,'',0,'Option Indexes','',29 ]).
+attri_i('Optionsdescjson',[ 'OptionsDescJson',vchar,2097152,0,'',0,'Options Desc Json','',28 ]).
+attri_i('Optionsdesc',[ 'OptionsDesc',o(objectcollection(svchar)),200,0,'',0,'Options Desc','',27 ]).
+attri_i('Optiondesc',[ 'OptionDesc',svchar,200,0,'',0,'Option Desc','',26 ]).
+attri_i('Optionsjson',[ 'OptionsJson',vchar,2097152,0,'',0,'Options Json','',25 ]).
+attri_i('Options',[ 'Options',o(objectcollection(svchar)),200,0,'',0,'Options','',24 ]).
+attri_i('Option',[ 'Option',svchar,200,0,'',0,'Option','',23 ]).
+attri_i('Insertindex',[ 'InsertIndex',int,6,0,'ZZZZZ9',0,'Insert Index','',22 ]).
+attri_i('Ddoname',[ 'DDOName',svchar,200,0,'',0,'DDOName','',21 ]).
+attri_i('Searchtxtto',[ 'SearchTxtTo',svchar,100,0,'',0,'Search Txt To','',20 ]).
+attri_i('Searchtxt',[ 'SearchTxt',svchar,100,0,'',0,'Search Txt','',19 ]).
+attri_i('Tfview_lpi_br_demographics_ethnic_sel',[ 'TFVIEW_LPI_BR_Demographics_Ethnic_Sel',svchar,4000,0,'',0,'TFVIEW_LPI_BR_Demographics_Ethnic_Sel','',18 ]).
+attri_i('Tfview_lpi_br_demographics_ethnic',[ 'TFVIEW_LPI_BR_Demographics_Ethnic',svchar,4000,0,'',0,'TFVIEW_LPI_BR_Demographics_Ethnic','',17 ]).
+attri_i('Tfview_lpi_br_demographics_birthdate_to',[ 'TFVIEW_LPI_BR_Demographics_BirthDate_To',date,8,0,'99/99/9999',0,'TFVIEW_LPI_BR_Demographics_Birth Date_To','',16 ]).
+attri_i('Tfview_lpi_br_demographics_birthdate',[ 'TFVIEW_LPI_BR_Demographics_BirthDate',date,8,0,'99/99/9999',0,'TFVIEW_LPI_BR_Demographics_Birth Date','',15 ]).
+attri_i('Tfview_lpi_br_demographics_sex_sel',[ 'TFVIEW_LPI_BR_Demographics_Sex_Sel',svchar,4000,0,'',0,'TFVIEW_LPI_BR_Demographics_Sex_Sel','',14 ]).
+attri_i('Tfview_lpi_br_demographics_sex',[ 'TFVIEW_LPI_BR_Demographics_Sex',svchar,4000,0,'',0,'TFVIEW_LPI_BR_Demographics_Sex','',13 ]).
+attri_i('Tfview_lpi_br_information_patientno_sel',[ 'TFVIEW_LPI_BR_Information_PatientNo_Sel',svchar,4000,0,'',0,'TFVIEW_LPI_BR_Information_Patient No_Sel','',12 ]).
+attri_i('Tfview_lpi_br_information_patientno',[ 'TFVIEW_LPI_BR_Information_PatientNo',svchar,4000,0,'',0,'TFVIEW_LPI_BR_Information_Patient No','',11 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,'Security Functionality Keys','',10 ]).
+attri_i('Wwpcontext',[ 'WWPContext',o('WWPBaseObjects\WWPContext'),0,0,'',0,'WWPContext','',9 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,'Is Authorized','',8 ]).
+ 
+table_i(71,[ 'VIEW_LASTEST_PATIENT_INFO',[ 519,520,522,523,524 ],view_lastest_patient_info,view_lastest_patient_info ]).
+ 
+index_i(71,[ 'IVIEW_LASTEST_PATIENT_INFO',u,[ 520 ],'IVIEW_LASTEST_PATIENT_INFO' ]).
+index_i(71,[ '',a,[ 519 ],'' ]).
+index_i(71,[ '5',a,[ 522 ],'' ]).
+index_i(71,[ '7',a,[ 524 ],'' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+map_i(71,i,'IVIEW_LASTEST_PATIENT_INFO',[ 'IVIEW_LASTEST_PATIENT_INFO' ]).
+map_i(71,a,524,[ 'VIEW_LPI_BR_Demographics_Ethnic' ]).
+map_i(71,a,523,[ 'VIEW_LPI_BR_Demographics_BirthDate' ]).
+map_i(71,a,522,[ 'VIEW_LPI_BR_Demographics_Sex' ]).
+map_i(71,a,521,[ 'VIEW_LPI_BR_Encounter_AdmitDate' ]).
+map_i(71,a,520,[ 'VIEW_LPI_BR_Information_ID' ]).
+map_i(71,a,519,[ 'VIEW_LPI_BR_Information_PatientNo' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(90,[ 'WWPSecFunctionalityKey' ]).
+ 
+ 
+break_i(3,nvg,2,[ 519 ],[ [ 519 ],[],[] ]).
+break_i(2,nvg,1,[ 519 ],[ [ 519 ],[ 519,523,524,522,520 ],[] ]).
+break_i(5,nvg,4,[ 522 ],[ [ 522 ],[],[] ]).
+break_i(4,nvg,1,[ 522 ],[ [ 522 ],[ 519,523,524,522,520 ],[] ]).
+break_i(7,nvg,6,[ 524 ],[ [ 524 ],[],[] ]).
+break_i(6,nvg,1,[ 524 ],[ [ 524 ],[ 519,523,524,522,520 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,26).
+b_group_i(1,2,lit,0,27,71).
+b_group_i(1,3,lit,0,72,2).
+b_group_i(1,4,nvg,2,77,77).
+b_group_i(2,1,lit,0,78,78).
+b_group_i(2,2,nvg,3,85,85).
+b_group_i(3,1,lit,0,86,86).
+b_group_i(2,3,lit,0,89,82).
+b_group_i(1,5,lit,0,99,104).
+b_group_i(1,6,lit,0,105,24).
+b_group_i(1,7,nvg,4,110,110).
+b_group_i(4,1,lit,0,111,111).
+b_group_i(4,2,nvg,5,118,118).
+b_group_i(5,1,lit,0,119,119).
+b_group_i(4,3,lit,0,122,115).
+b_group_i(1,8,lit,0,132,137).
+b_group_i(1,9,lit,0,138,46).
+b_group_i(1,10,nvg,6,143,143).
+b_group_i(6,1,lit,0,144,144).
+b_group_i(6,2,nvg,7,151,151).
+b_group_i(7,1,lit,0,152,152).
+b_group_i(6,3,lit,0,155,148).
+b_group_i(1,11,lit,0,165,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[]).
+b_line_i(3,1,1,cmd,0,[]).
+b_line_i(4,1,1,cmd,0,[ t('',107,0,0),t('Options',23,0,0),t(=,10,0,0),t([ [ svchar,200,0 ],[ t('(',0,4,15),t(')',4,4,16) ],y ],46,0,0) ]).
+b_line_i(5,1,1,cmd,0,[ t('',107,0,0),t('Optionsdesc',23,0,0),t(=,10,0,0),t([ [ svchar,200,0 ],[ t('(',0,5,19),t(')',4,5,20) ],y ],46,0,0) ]).
+b_line_i(6,1,1,cmd,0,[ t('',107,0,0),t('Optionindexes',23,0,0),t(=,10,0,0),t([ [ svchar,40,0 ],[ t('(',0,6,21),t(')',4,6,22) ],y ],46,0,0) ]).
+b_line_i(7,1,1,cmd,0,[ t('',104,0,0),t(o(1,'WWPBaseObjects\LoadWWPContext'),28,0,1),t('Wwpcontext',23,0,22) ]).
+b_line_i(8,1,1,cmd,0,[]).
+b_line_i(9,1,1,cmd,0,[ t('',145,0,0),t('''LOADGRIDSTATE''',3,9,4) ]).
+b_line_i(10,1,1,cmd,0,[ t('',152,0,0) ]).
+b_line_i(11,1,1,cmd,0,[ t('',153,0,0),t('upper(',1,11,16),t('Ddoname',23,0,7),t(')',4,0,25),t(=,10,0,27),t('''DDO_VIEW_LPI_BR_INFORMATION_PATIENTNO''',3,11,29) ]).
+b_line_i(12,1,1,cmd,0,[ t('',145,0,0),t('''LOADVIEW_LPI_BR_INFORMATION_PATIENTNOOPTIONS''',3,12,6) ]).
+b_line_i(13,1,1,cmd,0,[ t('',153,0,0),t('upper(',1,13,16),t('Ddoname',23,0,7),t(')',4,0,25),t(=,10,0,27),t('''DDO_VIEW_LPI_BR_DEMOGRAPHICS_SEX''',3,13,29) ]).
+b_line_i(14,1,1,cmd,0,[ t('',145,0,0),t('''LOADVIEW_LPI_BR_DEMOGRAPHICS_SEXOPTIONS''',3,14,6) ]).
+b_line_i(15,1,1,cmd,0,[ t('',153,0,0),t('upper(',1,15,16),t('Ddoname',23,0,7),t(')',4,0,25),t(=,10,0,27),t('''DDO_VIEW_LPI_BR_DEMOGRAPHICS_ETHNIC''',3,15,29) ]).
+b_line_i(16,1,1,cmd,0,[ t('',145,0,0),t('''LOADVIEW_LPI_BR_DEMOGRAPHICS_ETHNICOPTIONS''',3,16,6) ]).
+b_line_i(17,1,1,cmd,0,[ t('',154,0,0) ]).
+b_line_i(18,1,1,cmd,0,[]).
+b_line_i(19,1,1,cmd,0,[ t('',107,0,0),t('Optionsjson',23,0,0),t(=,10,0,0),t([ t('Options',23,0,0),t('tojson(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(20,1,1,cmd,0,[ t('',107,0,0),t('Optionsdescjson',23,0,0),t(=,10,0,0),t([ t('Optionsdesc',23,0,0),t('tojson(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(21,1,1,cmd,0,[ t('',107,0,0),t('Optionindexesjson',23,0,0),t(=,10,0,0),t([ t('Optionindexes',23,0,0),t('tojson(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(22,1,1,cmd,0,[]).
+b_line_i(23,1,1,cmd,0,[]).
+b_line_i(24,1,1,cmd,0,[]).
+b_line_i(25,1,1,cmd,0,[]).
+b_line_i(26,1,1,cmd,0,[ t('',143,0,0),t('''LOADGRIDSTATE''',3,26,5) ]).
+b_line_i(27,1,2,cmd,0,[]).
+b_line_i(28,1,2,cmd,0,[]).
+b_line_i(29,1,2,cmd,0,[]).
+b_line_i(30,1,2,cmd,0,[]).
+b_line_i(31,1,2,cmd,0,[ t('',109,0,0),t([ t('Session',23,31,5),t('get(',1,31,14) ],31,31,14),t('"BR_InformationListGridState"',3,31,19),t(')',4,0,49),t(=,10,0,51),t('""',3,31,53) ]).
+b_line_i(32,1,2,cmd,0,[ t('',107,0,0),t([ t('Gridstate',23,32,3),t('fromxml(',1,32,14) ],31,32,3),t('udp(',1,32,37),t(o(1,'WWPBaseObjects\LoadGridState'),28,32,23),t(',',7,0,0),t('"BR_InformationListGridState"',3,32,42),t(')',4,0,0),t(')',4,0,73) ]).
+b_line_i(33,1,2,cmd,0,[ t('',110,0,0) ]).
+b_line_i(34,1,2,cmd,0,[ t('',107,0,0),t([ t('Gridstate',23,34,3),t('fromxml(',1,34,14) ],31,34,3),t([ t('Session',23,34,23),t('get(',1,34,32) ],31,34,32),t('"BR_InformationListGridState"',3,34,37),t(')',4,0,67),t(')',4,0,68) ]).
+b_line_i(35,1,2,cmd,0,[ t('',111,0,0) ]).
+b_line_i(36,1,2,cmd,0,[]).
+b_line_i(37,1,2,cmd,0,[ t('',107,0,0),t('GXV1',23,0,0),t(=,10,0,0),t(1,3,0,0) ]).
+b_line_i([ 37,2 ],1,2,cmd,0,[ t('',114,0,0),t('GXV1',23,0,0),t(<=,10,0,0),t([ t('Gridstate',23,37,31),t('Filtervalues',3,37,42),t('Count',3,37,0) ],29,37,0) ]).
+b_line_i([ 37,3 ],1,2,cmd,0,[ t('',107,0,0),t('Gridstatefiltervalue',23,0,0),t(=,10,0,0),t([ t([ t('Gridstate',23,0,0),t('Filtervalues',3,0,0) ],29,0,0),t('item(',1,0,0) ],31,0,0),t('GXV1',23,0,0),t(')',4,0,0) ]).
+b_line_i(38,1,2,cmd,1,[ t('',152,1,0) ]).
+b_line_i(39,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,39,9),t('Name',3,39,31) ],29,39,31),t(=,10,1,36),t('"VIEW_LPI_BR_INFORMATION_PATIENTNO"',3,39,38) ]).
+b_line_i(40,1,2,cmd,1,[ t('',107,1,0),t('View_lpi_br_information_patientno',23,40,5),t(=,10,40,5),t([ t('Gridstatefiltervalue',23,40,52),t('Value',3,40,74) ],29,40,74) ]).
+b_line_i(41,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,41,9),t('Name',3,41,31) ],29,41,31),t(=,10,1,36),t('"VIEW_LPI_BR_DEMOGRAPHICS_BIRTHDATE"',3,41,38) ]).
+b_line_i(42,1,2,cmd,1,[ t('',107,1,0),t('View_lpi_br_demographics_birthdate',23,42,5),t(=,10,42,5),t('ctod(',1,42,5),t([ t('Gridstatefiltervalue',23,42,53),t('Value',3,42,75) ],29,42,75),t(')',4,1,80) ]).
+b_line_i(43,1,2,cmd,1,[ t('',107,1,0),t('View_lpi_br_demographics_birthdateoperator',23,1,0),t(=,10,1,0),t([ t('Gridstatefiltervalue',23,1,0),t('Operator',3,1,0) ],29,1,0) ]).
+b_line_i(44,1,2,cmd,1,[ t('',107,1,0),t('View_lpi_br_demographics_birthdate_to',23,44,5),t(=,10,44,5),t('ctod(',1,44,5),t([ t('Gridstatefiltervalue',23,44,56),t('Valueto',3,44,78) ],29,44,78),t(')',4,1,85) ]).
+b_line_i(45,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,45,9),t('Name',3,45,31) ],29,45,31),t(=,10,1,36),t('"VIEW_LPI_BR_DEMOGRAPHICS_ETHNIC"',3,45,38) ]).
+b_line_i(46,1,2,cmd,1,[ t('',107,1,0),t('View_lpi_br_demographics_ethnic',23,46,5),t(=,10,46,5),t([ t('Gridstatefiltervalue',23,46,50),t('Value',3,46,72) ],29,46,72) ]).
+b_line_i(47,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,47,9),t('Name',3,47,31) ],29,47,31),t(=,10,1,36),t('"VIEW_LPI_BR_DEMOGRAPHICS_SEX"',3,47,38) ]).
+b_line_i(48,1,2,cmd,1,[ t('',107,1,0),t('View_lpi_br_demographics_sex',23,48,5),t(=,10,48,5),t([ t('Gridstatefiltervalue',23,48,47),t('Value',3,48,69) ],29,48,69) ]).
+b_line_i(49,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,49,9),t('Name',3,49,31) ],29,49,31),t(=,10,1,36),t('"TFVIEW_LPI_BR_INFORMATION_PATIENTNO"',3,49,38) ]).
+b_line_i(50,1,2,cmd,1,[ t('',107,1,0),t('Tfview_lpi_br_information_patientno',23,50,5),t(=,10,50,5),t([ t('Gridstatefiltervalue',23,50,54),t('Value',3,50,76) ],29,50,76) ]).
+b_line_i(51,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,51,9),t('Name',3,51,31) ],29,51,31),t(=,10,1,36),t('"TFVIEW_LPI_BR_INFORMATION_PATIENTNO_SEL"',3,51,38) ]).
+b_line_i(52,1,2,cmd,1,[ t('',107,1,0),t('Tfview_lpi_br_information_patientno_sel',23,52,5),t(=,10,52,5),t([ t('Gridstatefiltervalue',23,52,58),t('Value',3,52,80) ],29,52,80) ]).
+b_line_i(53,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,53,9),t('Name',3,53,31) ],29,53,31),t(=,10,1,36),t('"TFVIEW_LPI_BR_DEMOGRAPHICS_SEX"',3,53,38) ]).
+b_line_i(54,1,2,cmd,1,[ t('',107,1,0),t('Tfview_lpi_br_demographics_sex',23,54,5),t(=,10,54,5),t([ t('Gridstatefiltervalue',23,54,49),t('Value',3,54,71) ],29,54,71) ]).
+b_line_i(55,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,55,9),t('Name',3,55,31) ],29,55,31),t(=,10,1,36),t('"TFVIEW_LPI_BR_DEMOGRAPHICS_SEX_SEL"',3,55,38) ]).
+b_line_i(56,1,2,cmd,1,[ t('',107,1,0),t('Tfview_lpi_br_demographics_sex_sel',23,56,5),t(=,10,56,5),t([ t('Gridstatefiltervalue',23,56,53),t('Value',3,56,75) ],29,56,75) ]).
+b_line_i(57,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,57,9),t('Name',3,57,31) ],29,57,31),t(=,10,1,36),t('"TFVIEW_LPI_BR_DEMOGRAPHICS_BIRTHDATE"',3,57,38) ]).
+b_line_i(58,1,2,cmd,1,[ t('',107,1,0),t('Tfview_lpi_br_demographics_birthdate',23,58,5),t(=,10,58,5),t('ctod(',1,58,5),t([ t('Gridstatefiltervalue',23,58,55),t('Value',3,58,77) ],29,58,77),t(')',4,1,82) ]).
+b_line_i(59,1,2,cmd,1,[ t('',107,1,0),t('Tfview_lpi_br_demographics_birthdate_to',23,59,5),t(=,10,59,5),t('ctod(',1,59,5),t([ t('Gridstatefiltervalue',23,59,58),t('Valueto',3,59,80) ],29,59,80),t(')',4,1,87) ]).
+b_line_i(60,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,60,9),t('Name',3,60,31) ],29,60,31),t(=,10,1,36),t('"TFVIEW_LPI_BR_DEMOGRAPHICS_ETHNIC"',3,60,38) ]).
+b_line_i(61,1,2,cmd,1,[ t('',107,1,0),t('Tfview_lpi_br_demographics_ethnic',23,61,5),t(=,10,61,5),t([ t('Gridstatefiltervalue',23,61,52),t('Value',3,61,74) ],29,61,74) ]).
+b_line_i(62,1,2,cmd,1,[ t('',153,1,0),t([ t('Gridstatefiltervalue',23,62,9),t('Name',3,62,31) ],29,62,31),t(=,10,1,36),t('"TFVIEW_LPI_BR_DEMOGRAPHICS_ETHNIC_SEL"',3,62,38) ]).
+b_line_i(63,1,2,cmd,1,[ t('',107,1,0),t('Tfview_lpi_br_demographics_ethnic_sel',23,63,5),t(=,10,63,5),t([ t('Gridstatefiltervalue',23,63,56),t('Value',3,63,78) ],29,63,78) ]).
+b_line_i(64,1,2,cmd,1,[ t('',154,1,0) ]).
+b_line_i([ 65,1 ],1,2,cmd,1,[ t('',107,1,0),t('GXV1',23,1,0),t(=,10,1,0),t('GXV1',23,1,0),t(+,5,1,0),t(1,3,1,0) ]).
+b_line_i([ 65,2 ],1,2,cmd,1,[ t('',115,1,0) ]).
+b_line_i(66,1,2,cmd,2,[]).
+b_line_i(67,1,2,cmd,2,[]).
+b_line_i(68,1,2,cmd,2,[]).
+b_line_i(69,1,2,cmd,2,[ t('',144,2,0) ]).
+b_line_i(70,1,2,cmd,2,[]).
+b_line_i(71,1,2,cmd,2,[ t('',143,2,0),t('''LOADVIEW_LPI_BR_INFORMATION_PATIENTNOOPTIONS''',3,71,5) ]).
+b_line_i(72,1,3,cmd,2,[]).
+b_line_i(73,1,3,cmd,2,[]).
+b_line_i(74,1,3,cmd,2,[]).
+b_line_i(75,1,3,cmd,2,[ t('',107,2,0),t('Tfview_lpi_br_information_patientno',23,2,0),t(=,10,2,0),t('Searchtxt',23,2,0) ]).
+b_line_i(76,1,3,cmd,2,[ t('',107,2,0),t([ t('Tfview_lpi_br_information_patientno_sel',23,76,2),t('setempty(',1,76,43) ],31,76,2),t(')',4,2,53) ]).
+b_line_i([ 76,1 ],1,3,cmd,78,[ t('',107,78,0),t('BR_InformationListDS_1_View_lpi_br_information_patientno',23,0,0),t(=,10,0,0),t('View_lpi_br_information_patientno',23,0,30) ]).
+b_line_i([ 76,2 ],1,3,cmd,78,[ t('',107,78,0),t('BR_InformationListDS_2_View_lpi_br_demographics_birthdate',23,0,0),t(=,10,0,0),t('View_lpi_br_demographics_birthdate',23,0,66) ]).
+b_line_i([ 76,3 ],1,3,cmd,78,[ t('',107,78,0),t('BR_InformationListDS_3_View_lpi_br_demographics_birthdate_to',23,0,0),t(=,10,0,0),t('View_lpi_br_demographics_birthdate_to',23,0,103) ]).
+b_line_i([ 76,4 ],1,3,cmd,78,[ t('',107,78,0),t('BR_InformationListDS_4_View_lpi_br_demographics_ethnic',23,0,0),t(=,10,0,0),t('View_lpi_br_demographics_ethnic',23,0,143) ]).
+b_line_i([ 76,5 ],1,3,cmd,78,[ t('',107,78,0),t('BR_InformationListDS_5_View_lpi_br_demographics_sex',23,0,0),t(=,10,0,0),t('View_lpi_br_demographics_sex',23,0,177) ]).
+b_line_i([ 76,6 ],1,3,cmd,78,[ t('',107,78,0),t('BR_InformationListDS_6_Tfview_lpi_br_information_patientno',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_information_patientno',23,0,208) ]).
+b_line_i([ 76,7 ],1,3,cmd,78,[ t('',107,78,0),t('BR_InformationListDS_7_Tfview_lpi_br_information_patientno_sel',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_information_patientno_sel',23,0,253) ]).
+b_line_i([ 76,8 ],1,3,cmd,78,[ t('',107,78,0),t('BR_InformationListDS_8_Tfview_lpi_br_demographics_sex',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_demographics_sex',23,0,295) ]).
+b_line_i([ 76,9 ],1,3,cmd,78,[ t('',107,78,0),t('BR_InformationListDS_9_Tfview_lpi_br_demographics_sex_sel',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_demographics_sex_sel',23,0,328) ]).
+b_line_i([ 76,10 ],1,3,cmd,78,[ t('',107,78,0),t('BR_InformationListDS_10_Tfview_lpi_br_demographics_birthdate',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_demographics_birthdate',23,0,365) ]).
+b_line_i([ 76,11 ],1,3,cmd,78,[ t('',107,78,0),t('BR_InformationListDS_11_Tfview_lpi_br_demographics_birthdate_to',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_demographics_birthdate_to',23,0,404) ]).
+b_line_i([ 76,12 ],1,3,cmd,78,[ t('',107,78,0),t('BR_InformationListDS_12_Tfview_lpi_br_demographics_ethnic',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_demographics_ethnic',23,0,446) ]).
+b_line_i([ 76,13 ],1,3,cmd,78,[ t('',107,78,0),t('BR_InformationListDS_13_Tfview_lpi_br_demographics_ethnic_sel',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_demographics_ethnic_sel',23,0,489) ]).
+b_line_i(77,2,1,cmd,78,[ t('',121,77,0),t('ORDER',39,77,14),t(519,2,77,20) ]).
+b_line_i(78,2,1,cmd,78,[]).
+b_line_i(80,2,1,cmd,78,[]).
+b_line_i(81,2,1,cmd,78,[]).
+b_line_i(83,2,1,cmd,78,[]).
+b_line_i(84,2,1,cmd,78,[ t('',107,78,0),t('Count',23,78,0),t(=,10,78,0),t('0',3,78,0) ]).
+b_line_i(85,3,1,cmd,86,[ t('',121,85,0),t('ORDER',39,85,16),t(519,2,85,22) ]).
+b_line_i(86,3,1,cmd,86,[]).
+b_line_i(87,3,1,cmd,86,[ t('',107,86,0),t('Count',23,86,0),t(=,10,86,0),t('Count',23,86,0),t(+,5,86,0),t('1',3,86,0) ]).
+b_line_i(88,3,1,cmd,86,[ t('',128,86,0) ]).
+b_line_i(89,2,3,cmd,82,[ t('',109,82,0),t('.NOT.',8,82,6),t('null(',1,89,46),t(519,2,82,12),t(')',4,82,55) ]).
+b_line_i(90,2,3,cmd,82,[ t('',107,82,0),t('Option',23,82,0),t(=,10,82,0),t(519,2,82,0) ]).
+b_line_i(91,2,3,cmd,82,[]).
+b_line_i(92,2,3,cmd,82,[ t('',107,82,0),t([ t('Options',23,92,4),t('add(',1,92,13) ],31,92,4),t('Option',23,82,18),t(')',4,82,25) ]).
+b_line_i(93,2,3,cmd,82,[ t('',107,82,0),t([ t('Optionindexes',23,93,4),t('add(',1,93,19) ],31,93,4),t('trim(',1,82,24),t('toformattedstring(',1,93,37),t('Count',23,82,30),t(')',4,82,56),t(')',4,82,57),t(')',4,82,58) ]).
+b_line_i(94,2,3,cmd,82,[ t('',111,82,0) ]).
+b_line_i(95,2,3,cmd,82,[ t('',109,82,0),t([ t('Options',23,95,6),t('Count',3,95,15) ],29,95,15),t(=,10,82,21),t('50',3,82,23) ]).
+b_line_i(96,2,3,cmd,82,[ t('',139,82,0) ]).
+b_line_i(97,2,3,cmd,82,[ t('',111,82,0) ]).
+b_line_i(98,2,3,cmd,82,[ t('',128,82,0) ]).
+b_line_i(99,1,5,cmd,24,[]).
+b_line_i(100,1,5,cmd,24,[]).
+b_line_i(101,1,5,cmd,24,[]).
+b_line_i(102,1,5,cmd,24,[ t('',144,24,0) ]).
+b_line_i(103,1,5,cmd,24,[]).
+b_line_i(104,1,5,cmd,24,[ t('',143,24,0),t('''LOADVIEW_LPI_BR_DEMOGRAPHICS_SEXOPTIONS''',3,104,5) ]).
+b_line_i(105,1,6,cmd,24,[]).
+b_line_i(106,1,6,cmd,24,[]).
+b_line_i(107,1,6,cmd,24,[]).
+b_line_i(108,1,6,cmd,24,[ t('',107,24,0),t('Tfview_lpi_br_demographics_sex',23,24,0),t(=,10,24,0),t('Searchtxt',23,24,0) ]).
+b_line_i(109,1,6,cmd,24,[ t('',107,24,0),t([ t('Tfview_lpi_br_demographics_sex_sel',23,109,2),t('setempty(',1,109,38) ],31,109,2),t(')',4,24,48) ]).
+b_line_i([ 109,1 ],1,6,cmd,111,[ t('',107,111,0),t('BR_InformationListDS_1_View_lpi_br_information_patientno',23,0,0),t(=,10,0,0),t('View_lpi_br_information_patientno',23,0,30) ]).
+b_line_i([ 109,2 ],1,6,cmd,111,[ t('',107,111,0),t('BR_InformationListDS_2_View_lpi_br_demographics_birthdate',23,0,0),t(=,10,0,0),t('View_lpi_br_demographics_birthdate',23,0,66) ]).
+b_line_i([ 109,3 ],1,6,cmd,111,[ t('',107,111,0),t('BR_InformationListDS_3_View_lpi_br_demographics_birthdate_to',23,0,0),t(=,10,0,0),t('View_lpi_br_demographics_birthdate_to',23,0,103) ]).
+b_line_i([ 109,4 ],1,6,cmd,111,[ t('',107,111,0),t('BR_InformationListDS_4_View_lpi_br_demographics_ethnic',23,0,0),t(=,10,0,0),t('View_lpi_br_demographics_ethnic',23,0,143) ]).
+b_line_i([ 109,5 ],1,6,cmd,111,[ t('',107,111,0),t('BR_InformationListDS_5_View_lpi_br_demographics_sex',23,0,0),t(=,10,0,0),t('View_lpi_br_demographics_sex',23,0,177) ]).
+b_line_i([ 109,6 ],1,6,cmd,111,[ t('',107,111,0),t('BR_InformationListDS_6_Tfview_lpi_br_information_patientno',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_information_patientno',23,0,208) ]).
+b_line_i([ 109,7 ],1,6,cmd,111,[ t('',107,111,0),t('BR_InformationListDS_7_Tfview_lpi_br_information_patientno_sel',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_information_patientno_sel',23,0,253) ]).
+b_line_i([ 109,8 ],1,6,cmd,111,[ t('',107,111,0),t('BR_InformationListDS_8_Tfview_lpi_br_demographics_sex',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_demographics_sex',23,0,295) ]).
+b_line_i([ 109,9 ],1,6,cmd,111,[ t('',107,111,0),t('BR_InformationListDS_9_Tfview_lpi_br_demographics_sex_sel',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_demographics_sex_sel',23,0,328) ]).
+b_line_i([ 109,10 ],1,6,cmd,111,[ t('',107,111,0),t('BR_InformationListDS_10_Tfview_lpi_br_demographics_birthdate',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_demographics_birthdate',23,0,365) ]).
+b_line_i([ 109,11 ],1,6,cmd,111,[ t('',107,111,0),t('BR_InformationListDS_11_Tfview_lpi_br_demographics_birthdate_to',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_demographics_birthdate_to',23,0,404) ]).
+b_line_i([ 109,12 ],1,6,cmd,111,[ t('',107,111,0),t('BR_InformationListDS_12_Tfview_lpi_br_demographics_ethnic',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_demographics_ethnic',23,0,446) ]).
+b_line_i([ 109,13 ],1,6,cmd,111,[ t('',107,111,0),t('BR_InformationListDS_13_Tfview_lpi_br_demographics_ethnic_sel',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_demographics_ethnic_sel',23,0,489) ]).
+b_line_i(110,4,1,cmd,111,[ t('',121,110,0),t('ORDER',39,110,14),t(522,2,110,20) ]).
+b_line_i(111,4,1,cmd,111,[]).
+b_line_i(113,4,1,cmd,111,[]).
+b_line_i(114,4,1,cmd,111,[]).
+b_line_i(116,4,1,cmd,111,[]).
+b_line_i(117,4,1,cmd,111,[ t('',107,111,0),t('Count',23,111,0),t(=,10,111,0),t('0',3,111,0) ]).
+b_line_i(118,5,1,cmd,119,[ t('',121,118,0),t('ORDER',39,118,16),t(522,2,118,22) ]).
+b_line_i(119,5,1,cmd,119,[]).
+b_line_i(120,5,1,cmd,119,[ t('',107,119,0),t('Count',23,119,0),t(=,10,119,0),t('Count',23,119,0),t(+,5,119,0),t('1',3,119,0) ]).
+b_line_i(121,5,1,cmd,119,[ t('',128,119,0) ]).
+b_line_i(122,4,3,cmd,115,[ t('',109,115,0),t('.NOT.',8,115,6),t('null(',1,122,41),t(522,2,115,12),t(')',4,115,50) ]).
+b_line_i(123,4,3,cmd,115,[ t('',107,115,0),t('Option',23,115,0),t(=,10,115,0),t(522,2,115,0) ]).
+b_line_i(124,4,3,cmd,115,[]).
+b_line_i(125,4,3,cmd,115,[ t('',107,115,0),t([ t('Options',23,125,4),t('add(',1,125,13) ],31,125,4),t('Option',23,115,18),t(')',4,115,25) ]).
+b_line_i(126,4,3,cmd,115,[ t('',107,115,0),t([ t('Optionindexes',23,126,4),t('add(',1,126,19) ],31,126,4),t('trim(',1,115,24),t('toformattedstring(',1,126,37),t('Count',23,115,30),t(')',4,115,56),t(')',4,115,57),t(')',4,115,58) ]).
+b_line_i(127,4,3,cmd,115,[ t('',111,115,0) ]).
+b_line_i(128,4,3,cmd,115,[ t('',109,115,0),t([ t('Options',23,128,6),t('Count',3,128,15) ],29,128,15),t(=,10,115,21),t('50',3,115,23) ]).
+b_line_i(129,4,3,cmd,115,[ t('',139,115,0) ]).
+b_line_i(130,4,3,cmd,115,[ t('',111,115,0) ]).
+b_line_i(131,4,3,cmd,115,[ t('',128,115,0) ]).
+b_line_i(132,1,8,cmd,46,[]).
+b_line_i(133,1,8,cmd,46,[]).
+b_line_i(134,1,8,cmd,46,[]).
+b_line_i(135,1,8,cmd,46,[ t('',144,46,0) ]).
+b_line_i(136,1,8,cmd,46,[]).
+b_line_i(137,1,8,cmd,46,[ t('',143,46,0),t('''LOADVIEW_LPI_BR_DEMOGRAPHICS_ETHNICOPTIONS''',3,137,5) ]).
+b_line_i(138,1,9,cmd,46,[]).
+b_line_i(139,1,9,cmd,46,[]).
+b_line_i(140,1,9,cmd,46,[]).
+b_line_i(141,1,9,cmd,46,[ t('',107,46,0),t('Tfview_lpi_br_demographics_ethnic',23,46,0),t(=,10,46,0),t('Searchtxt',23,46,0) ]).
+b_line_i(142,1,9,cmd,46,[ t('',107,46,0),t([ t('Tfview_lpi_br_demographics_ethnic_sel',23,142,2),t('setempty(',1,142,41) ],31,142,2),t(')',4,46,51) ]).
+b_line_i([ 142,1 ],1,9,cmd,144,[ t('',107,144,0),t('BR_InformationListDS_1_View_lpi_br_information_patientno',23,0,0),t(=,10,0,0),t('View_lpi_br_information_patientno',23,0,30) ]).
+b_line_i([ 142,2 ],1,9,cmd,144,[ t('',107,144,0),t('BR_InformationListDS_2_View_lpi_br_demographics_birthdate',23,0,0),t(=,10,0,0),t('View_lpi_br_demographics_birthdate',23,0,66) ]).
+b_line_i([ 142,3 ],1,9,cmd,144,[ t('',107,144,0),t('BR_InformationListDS_3_View_lpi_br_demographics_birthdate_to',23,0,0),t(=,10,0,0),t('View_lpi_br_demographics_birthdate_to',23,0,103) ]).
+b_line_i([ 142,4 ],1,9,cmd,144,[ t('',107,144,0),t('BR_InformationListDS_4_View_lpi_br_demographics_ethnic',23,0,0),t(=,10,0,0),t('View_lpi_br_demographics_ethnic',23,0,143) ]).
+b_line_i([ 142,5 ],1,9,cmd,144,[ t('',107,144,0),t('BR_InformationListDS_5_View_lpi_br_demographics_sex',23,0,0),t(=,10,0,0),t('View_lpi_br_demographics_sex',23,0,177) ]).
+b_line_i([ 142,6 ],1,9,cmd,144,[ t('',107,144,0),t('BR_InformationListDS_6_Tfview_lpi_br_information_patientno',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_information_patientno',23,0,208) ]).
+b_line_i([ 142,7 ],1,9,cmd,144,[ t('',107,144,0),t('BR_InformationListDS_7_Tfview_lpi_br_information_patientno_sel',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_information_patientno_sel',23,0,253) ]).
+b_line_i([ 142,8 ],1,9,cmd,144,[ t('',107,144,0),t('BR_InformationListDS_8_Tfview_lpi_br_demographics_sex',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_demographics_sex',23,0,295) ]).
+b_line_i([ 142,9 ],1,9,cmd,144,[ t('',107,144,0),t('BR_InformationListDS_9_Tfview_lpi_br_demographics_sex_sel',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_demographics_sex_sel',23,0,328) ]).
+b_line_i([ 142,10 ],1,9,cmd,144,[ t('',107,144,0),t('BR_InformationListDS_10_Tfview_lpi_br_demographics_birthdate',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_demographics_birthdate',23,0,365) ]).
+b_line_i([ 142,11 ],1,9,cmd,144,[ t('',107,144,0),t('BR_InformationListDS_11_Tfview_lpi_br_demographics_birthdate_to',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_demographics_birthdate_to',23,0,404) ]).
+b_line_i([ 142,12 ],1,9,cmd,144,[ t('',107,144,0),t('BR_InformationListDS_12_Tfview_lpi_br_demographics_ethnic',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_demographics_ethnic',23,0,446) ]).
+b_line_i([ 142,13 ],1,9,cmd,144,[ t('',107,144,0),t('BR_InformationListDS_13_Tfview_lpi_br_demographics_ethnic_sel',23,0,0),t(=,10,0,0),t('Tfview_lpi_br_demographics_ethnic_sel',23,0,489) ]).
+b_line_i(143,6,1,cmd,144,[ t('',121,143,0),t('ORDER',39,143,14),t(524,2,143,20) ]).
+b_line_i(144,6,1,cmd,144,[]).
+b_line_i(146,6,1,cmd,144,[]).
+b_line_i(147,6,1,cmd,144,[]).
+b_line_i(149,6,1,cmd,144,[]).
+b_line_i(150,6,1,cmd,144,[ t('',107,144,0),t('Count',23,144,0),t(=,10,144,0),t('0',3,144,0) ]).
+b_line_i(151,7,1,cmd,152,[ t('',121,151,0),t('ORDER',39,151,16),t(524,2,151,22) ]).
+b_line_i(152,7,1,cmd,152,[]).
+b_line_i(153,7,1,cmd,152,[ t('',107,152,0),t('Count',23,152,0),t(=,10,152,0),t('Count',23,152,0),t(+,5,152,0),t('1',3,152,0) ]).
+b_line_i(154,7,1,cmd,152,[ t('',128,152,0) ]).
+b_line_i(155,6,3,cmd,148,[ t('',109,148,0),t('.NOT.',8,148,6),t('null(',1,155,44),t(524,2,148,12),t(')',4,148,53) ]).
+b_line_i(156,6,3,cmd,148,[ t('',107,148,0),t('Option',23,148,0),t(=,10,148,0),t(524,2,148,0) ]).
+b_line_i(157,6,3,cmd,148,[]).
+b_line_i(158,6,3,cmd,148,[ t('',107,148,0),t([ t('Options',23,158,4),t('add(',1,158,13) ],31,158,4),t('Option',23,148,18),t(')',4,148,25) ]).
+b_line_i(159,6,3,cmd,148,[ t('',107,148,0),t([ t('Optionindexes',23,159,4),t('add(',1,159,19) ],31,159,4),t('trim(',1,148,24),t('toformattedstring(',1,159,37),t('Count',23,148,30),t(')',4,148,56),t(')',4,148,57),t(')',4,148,58) ]).
+b_line_i(160,6,3,cmd,148,[ t('',111,148,0) ]).
+b_line_i(161,6,3,cmd,148,[ t('',109,148,0),t([ t('Options',23,161,6),t('Count',3,161,15) ],29,161,15),t(=,10,148,21),t('50',3,148,23) ]).
+b_line_i(162,6,3,cmd,148,[ t('',139,148,0) ]).
+b_line_i(163,6,3,cmd,148,[ t('',111,148,0) ]).
+b_line_i(164,6,3,cmd,148,[ t('',128,148,0) ]).
+b_line_i(165,1,11,cmd,68,[]).
+b_line_i(166,1,11,cmd,68,[]).
+b_line_i(167,1,11,cmd,68,[]).
+b_line_i(168,1,11,cmd,68,[ t('',144,68,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(45,519) ],'; poor performance may be noticed',[ ' in group starting at line ','85','' ],'.' ])).
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(45,522) ],'; poor performance may be noticed',[ ' in group starting at line ','118','' ],'.' ])).
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(45,524) ],'; poor performance may be noticed',[ ' in group starting at line ','151','' ],'.' ])).
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(45,519,'ExternalName','VIEW_LPI_BR_Information_PatientNo',d).
+att_prop_i(45,519,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,519,'EmptyAsNull','Yes',d).
+att_prop_i(45,519,idBasedOn,'',d).
+att_prop_i(45,519,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,519,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,519,'AttRegEx','',d).
+att_prop_i(45,519,'AttValidationFailedMsg','',d).
+att_prop_i(45,519,'FullName','VIEW_LPI_BR_Information_PatientNo',v).
+att_prop_i(45,522,'ExternalName','VIEW_LPI_BR_Demographics_Sex',d).
+att_prop_i(45,522,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,522,'EmptyAsNull','Yes',d).
+att_prop_i(45,522,idBasedOn,'',d).
+att_prop_i(45,522,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,522,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,522,'AttRegEx','',d).
+att_prop_i(45,522,'AttValidationFailedMsg','',d).
+att_prop_i(45,522,'FullName','VIEW_LPI_BR_Demographics_Sex',v).
+att_prop_i(45,524,'ExternalName','VIEW_LPI_BR_Demographics_Ethnic',d).
+att_prop_i(45,524,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,524,'EmptyAsNull','Yes',d).
+att_prop_i(45,524,idBasedOn,'',d).
+att_prop_i(45,524,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,524,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(45,524,'AttRegEx','',d).
+att_prop_i(45,524,'AttValidationFailedMsg','',d).
+att_prop_i(45,524,'FullName','VIEW_LPI_BR_Demographics_Ethnic',v).
+att_prop_i(45,520,'ExternalName','VIEW_LPI_BR_Information_ID',d).
+att_prop_i(45,520,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,520,'EmptyAsNull','Yes',d).
+att_prop_i(45,520,idBasedOn,'',d).
+att_prop_i(45,520,'AUTONUMBER','0',d).
+att_prop_i(45,520,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,520,'AttRegEx','',d).
+att_prop_i(45,520,'AttValidationFailedMsg','',d).
+att_prop_i(45,520,'FullName','VIEW_LPI_BR_Information_ID',v).
+att_prop_i(45,523,'ExternalName','VIEW_LPI_BR_Demographics_BirthDate',d).
+att_prop_i(45,523,'ExternalNamespace','DataAnalysisPlatform',d).
+att_prop_i(45,523,'EmptyAsNull','Yes',d).
+att_prop_i(45,523,idBasedOn,'',d).
+att_prop_i(45,523,'ATT_INITIAL_VALUE','',d).
+att_prop_i(45,523,'AttRegEx','',d).
+att_prop_i(45,523,'AttValidationFailedMsg','',d).
+att_prop_i(45,523,idDATEFORMAT,idDATEFORMAT_LONG,v).
+att_prop_i(45,523,'FullName','VIEW_LPI_BR_Demographics_BirthDate',v).
+ 
+ 
+tbl_att_prop_i(45,71,519,'AllowNulls',n).
+tbl_att_prop_i(45,71,520,'AllowNulls',n).
+tbl_att_prop_i(45,71,522,'AllowNulls',n).
+tbl_att_prop_i(45,71,523,'AllowNulls',n).
+tbl_att_prop_i(45,71,524,'AllowNulls',n).
+ 
+var_prop_i(45,'Securityfunctionalitykeys',idBasedOn,90,v).
+var_prop_i(45,'Tfview_lpi_br_information_patientno',idBasedOn,'',v).
+var_prop_i(45,'Tfview_lpi_br_information_patientno_sel',idBasedOn,'',v).
+var_prop_i(45,'Tfview_lpi_br_demographics_sex',idBasedOn,'',v).
+var_prop_i(45,'Tfview_lpi_br_demographics_sex_sel',idBasedOn,'',v).
+var_prop_i(45,'Tfview_lpi_br_demographics_birthdate',idBasedOn,'',v).
+var_prop_i(45,'Tfview_lpi_br_demographics_birthdate_to',idBasedOn,'',v).
+var_prop_i(45,'Tfview_lpi_br_demographics_ethnic',idBasedOn,'',v).
+var_prop_i(45,'Tfview_lpi_br_demographics_ethnic_sel',idBasedOn,'',v).
+var_prop_i(45,'View_lpi_br_demographics_birthdate_to',idBasedOn,'',v).
+var_prop_i(45,'View_lpi_br_demographics_birthdate',idBasedOn,'',v).
+var_prop_i(45,'Obr_information_id',idBasedOn,'',v).
+var_prop_i(45,'View_lpi_br_demographics_birthdate',idBasedOn,'',v).
+var_prop_i(45,'View_lpi_br_demographics_birthdate_to',idBasedOn,'',v).
+var_prop_i(45,'Tfview_lpi_br_information_patientno',idBasedOn,'',v).
+var_prop_i(45,'Tfview_lpi_br_information_patientno_sel',idBasedOn,'',v).
+var_prop_i(45,'Tfview_lpi_br_demographics_sex',idBasedOn,'',v).
+var_prop_i(45,'Tfview_lpi_br_demographics_sex_sel',idBasedOn,'',v).
+var_prop_i(45,'Tfview_lpi_br_demographics_birthdate',idBasedOn,'',v).
+var_prop_i(45,'Tfview_lpi_br_demographics_birthdate_to',idBasedOn,'',v).
+var_prop_i(45,'Tfview_lpi_br_demographics_ethnic',idBasedOn,'',v).
+var_prop_i(45,'Tfview_lpi_br_demographics_ethnic_sel',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,43,0 ],name,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,43,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 26,43,0 ],'ObjName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ObjDesc','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalName','WWPContext').
+struct_dt_i([ 26,43,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 26,47,0 ],name,'WWPBaseObjects\WWPGridState').
+struct_dt_i([ 26,47,0 ],namespace,'DataAnalysisPlatform').
+struct_dt_i([ 26,47,0 ],'ObjName','WWPGridState').
+struct_dt_i([ 26,47,0 ],'ObjDesc','Grid State').
+struct_dt_i([ 26,47,0 ],'ExternalName','WWPGridState').
+struct_dt_i([ 26,47,0 ],'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_i([ 26,47,79 ],name,'FilterValue').
+struct_dt_i([ 26,47,79 ],namespace,'DataAnalysisPlatform.WWPGridState').
+struct_dt_i([ 26,47,80 ],name,'DynamicFilter').
+struct_dt_i([ 26,47,80 ],namespace,'DataAnalysisPlatform.WWPGridState').
+struct_dt_i([ 26,43,0 ],fullname,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,47,0 ],fullname,'WWPBaseObjects\WWPGridState').
+struct_dt_i([ 26,47,79 ],fullname,'WWPBaseObjects\WWPGridState.FilterValue').
+struct_dt_i([ 26,47,80 ],fullname,'WWPBaseObjects\WWPGridState.DynamicFilter').
+struct_dt_i([ 26,43,0 ],modified,yes).
+struct_dt_i([ 26,47,0 ],modified,yes).
+struct_dt_i([ 26,47,79 ],modified,yes).
+struct_dt_i([ 26,47,80 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,43,0 ],1,name,'Userid').
+struct_dt_elem_i([ 26,43,0 ],1,camelname,'UserId').
+struct_dt_elem_i([ 26,43,0 ],1,length,4).
+struct_dt_elem_i([ 26,43,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],1,sign,0).
+struct_dt_elem_i([ 26,43,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalName','UserId').
+struct_dt_elem_i([ 26,43,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],2,name,'Userguid').
+struct_dt_elem_i([ 26,43,0 ],2,camelname,'UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,length,500).
+struct_dt_elem_i([ 26,43,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],2,type,[ 13,500,0 ]).
+struct_dt_elem_i([ 26,43,0 ],2,pic,'').
+struct_dt_elem_i([ 26,43,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalName','UserGUID').
+struct_dt_elem_i([ 26,43,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],3,name,'Username').
+struct_dt_elem_i([ 26,43,0 ],3,camelname,'UserName').
+struct_dt_elem_i([ 26,43,0 ],3,length,100).
+struct_dt_elem_i([ 26,43,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],3,pic,'').
+struct_dt_elem_i([ 26,43,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalName','UserName').
+struct_dt_elem_i([ 26,43,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],4,name,'Usertype').
+struct_dt_elem_i([ 26,43,0 ],4,camelname,'UserType').
+struct_dt_elem_i([ 26,43,0 ],4,length,4).
+struct_dt_elem_i([ 26,43,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],4,sign,0).
+struct_dt_elem_i([ 26,43,0 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalName','UserType').
+struct_dt_elem_i([ 26,43,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],5,name,'Userdisplayname').
+struct_dt_elem_i([ 26,43,0 ],5,camelname,'UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,length,100).
+struct_dt_elem_i([ 26,43,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],5,pic,'').
+struct_dt_elem_i([ 26,43,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalName','UserDisplayName').
+struct_dt_elem_i([ 26,43,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],6,name,'Userproviderid').
+struct_dt_elem_i([ 26,43,0 ],6,camelname,'UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,basedon,69).
+struct_dt_elem_i([ 26,43,0 ],6,length,18).
+struct_dt_elem_i([ 26,43,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],6,sign,0).
+struct_dt_elem_i([ 26,43,0 ],6,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,43,0 ],6,pic,'ZZZZZZZZZZZZZZZZZZ').
+struct_dt_elem_i([ 26,43,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalName','UserProviderID').
+struct_dt_elem_i([ 26,43,0 ],6,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],7,name,'Userprovidername').
+struct_dt_elem_i([ 26,43,0 ],7,camelname,'UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,length,100).
+struct_dt_elem_i([ 26,43,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,43,0 ],7,pic,'').
+struct_dt_elem_i([ 26,43,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalName','UserProviderName').
+struct_dt_elem_i([ 26,43,0 ],7,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],8,name,'Currenttnum').
+struct_dt_elem_i([ 26,43,0 ],8,camelname,currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,length,4).
+struct_dt_elem_i([ 26,43,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],8,sign,0).
+struct_dt_elem_i([ 26,43,0 ],8,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,43,0 ],8,pic,'ZZZ9').
+struct_dt_elem_i([ 26,43,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalName',currentTNum).
+struct_dt_elem_i([ 26,43,0 ],8,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],8,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],8,'JsonName','').
+struct_dt_elem_i([ 26,43,0 ],9,name,'Clientip').
+struct_dt_elem_i([ 26,43,0 ],9,camelname,'ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,length,40).
+struct_dt_elem_i([ 26,43,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,43,0 ],9,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,43,0 ],9,pic,'').
+struct_dt_elem_i([ 26,43,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalName','ClientIP').
+struct_dt_elem_i([ 26,43,0 ],9,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,43,0 ],9,soaptype,'').
+struct_dt_elem_i([ 26,43,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,43,0 ],9,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],1,name,'Currentpage').
+struct_dt_elem_i([ 26,47,0 ],1,camelname,'CurrentPage').
+struct_dt_elem_i([ 26,47,0 ],1,length,4).
+struct_dt_elem_i([ 26,47,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],1,sign,0).
+struct_dt_elem_i([ 26,47,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,47,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,47,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],1,'ExternalName','CurrentPage').
+struct_dt_elem_i([ 26,47,0 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],2,name,'Orderedby').
+struct_dt_elem_i([ 26,47,0 ],2,camelname,'OrderedBy').
+struct_dt_elem_i([ 26,47,0 ],2,length,4).
+struct_dt_elem_i([ 26,47,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],2,sign,0).
+struct_dt_elem_i([ 26,47,0 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,47,0 ],2,pic,'ZZZ9').
+struct_dt_elem_i([ 26,47,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],2,'ExternalName','OrderedBy').
+struct_dt_elem_i([ 26,47,0 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],3,name,'Ordereddsc').
+struct_dt_elem_i([ 26,47,0 ],3,camelname,'OrderedDsc').
+struct_dt_elem_i([ 26,47,0 ],3,length,4).
+struct_dt_elem_i([ 26,47,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],3,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,47,0 ],3,pic,'').
+struct_dt_elem_i([ 26,47,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],3,'ExternalName','OrderedDsc').
+struct_dt_elem_i([ 26,47,0 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],4,name,'Hidingsearch').
+struct_dt_elem_i([ 26,47,0 ],4,camelname,'HidingSearch').
+struct_dt_elem_i([ 26,47,0 ],4,length,1).
+struct_dt_elem_i([ 26,47,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],4,sign,0).
+struct_dt_elem_i([ 26,47,0 ],4,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 26,47,0 ],4,pic,'9').
+struct_dt_elem_i([ 26,47,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],4,'ExternalName','HidingSearch').
+struct_dt_elem_i([ 26,47,0 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],5,name,'Pagesize').
+struct_dt_elem_i([ 26,47,0 ],5,camelname,'PageSize').
+struct_dt_elem_i([ 26,47,0 ],5,length,10).
+struct_dt_elem_i([ 26,47,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,47,0 ],5,type,[ 13,10,0 ]).
+struct_dt_elem_i([ 26,47,0 ],5,pic,'').
+struct_dt_elem_i([ 26,47,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,47,0 ],5,'ExternalName','PageSize').
+struct_dt_elem_i([ 26,47,0 ],5,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,47,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,47,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],6,name,'Filtervalues').
+struct_dt_elem_i([ 26,47,0 ],6,camelname,'FilterValues').
+struct_dt_elem_i([ 26,47,0 ],6,type,[ [ 26,47,79 ],0,0 ]).
+struct_dt_elem_i([ 26,47,0 ],6,pic,'').
+struct_dt_elem_i([ 26,47,0 ],6,collection,'True').
+struct_dt_elem_i([ 26,47,0 ],6,'ObjName','FilterValues').
+struct_dt_elem_i([ 26,47,0 ],6,'ObjDesc','Filter Values').
+struct_dt_elem_i([ 26,47,0 ],6,'CollectionItemName','FilterValue').
+struct_dt_elem_i([ 26,47,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],6,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,47,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],6,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,47,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],6,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,47,79 ],1,name,'Name').
+struct_dt_elem_i([ 26,47,79 ],1,camelname,'Name').
+struct_dt_elem_i([ 26,47,79 ],1,length,128).
+struct_dt_elem_i([ 26,47,79 ],1,decimals,0).
+struct_dt_elem_i([ 26,47,79 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,47,79 ],1,pic,'').
+struct_dt_elem_i([ 26,47,79 ],1,collection,'False').
+struct_dt_elem_i([ 26,47,79 ],1,'ExternalName','Name').
+struct_dt_elem_i([ 26,47,79 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,79 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,47,79 ],1,'XmlName','').
+struct_dt_elem_i([ 26,47,79 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,79 ],1,soaptype,'').
+struct_dt_elem_i([ 26,47,79 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,79 ],1,'JsonName','').
+struct_dt_elem_i([ 26,47,79 ],2,name,'Value').
+struct_dt_elem_i([ 26,47,79 ],2,camelname,'Value').
+struct_dt_elem_i([ 26,47,79 ],2,length,100).
+struct_dt_elem_i([ 26,47,79 ],2,decimals,0).
+struct_dt_elem_i([ 26,47,79 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,47,79 ],2,pic,'').
+struct_dt_elem_i([ 26,47,79 ],2,collection,'False').
+struct_dt_elem_i([ 26,47,79 ],2,'ExternalName','Value').
+struct_dt_elem_i([ 26,47,79 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,79 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,47,79 ],2,'XmlName','').
+struct_dt_elem_i([ 26,47,79 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,79 ],2,soaptype,'').
+struct_dt_elem_i([ 26,47,79 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,79 ],2,'JsonName','').
+struct_dt_elem_i([ 26,47,79 ],3,name,'Operator').
+struct_dt_elem_i([ 26,47,79 ],3,camelname,'Operator').
+struct_dt_elem_i([ 26,47,79 ],3,length,4).
+struct_dt_elem_i([ 26,47,79 ],3,decimals,0).
+struct_dt_elem_i([ 26,47,79 ],3,sign,0).
+struct_dt_elem_i([ 26,47,79 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,47,79 ],3,pic,'ZZZ9').
+struct_dt_elem_i([ 26,47,79 ],3,collection,'False').
+struct_dt_elem_i([ 26,47,79 ],3,'ExternalName','Operator').
+struct_dt_elem_i([ 26,47,79 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,79 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,47,79 ],3,'XmlName','').
+struct_dt_elem_i([ 26,47,79 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,79 ],3,soaptype,'').
+struct_dt_elem_i([ 26,47,79 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,79 ],3,'JsonName','').
+struct_dt_elem_i([ 26,47,79 ],4,name,'Valueto').
+struct_dt_elem_i([ 26,47,79 ],4,camelname,'ValueTo').
+struct_dt_elem_i([ 26,47,79 ],4,length,100).
+struct_dt_elem_i([ 26,47,79 ],4,decimals,0).
+struct_dt_elem_i([ 26,47,79 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,47,79 ],4,pic,'').
+struct_dt_elem_i([ 26,47,79 ],4,collection,'False').
+struct_dt_elem_i([ 26,47,79 ],4,'ExternalName','ValueTo').
+struct_dt_elem_i([ 26,47,79 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,79 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,47,79 ],4,'XmlName','').
+struct_dt_elem_i([ 26,47,79 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,79 ],4,soaptype,'').
+struct_dt_elem_i([ 26,47,79 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,79 ],4,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],7,name,'Dynamicfilters').
+struct_dt_elem_i([ 26,47,0 ],7,camelname,'DynamicFilters').
+struct_dt_elem_i([ 26,47,0 ],7,type,[ [ 26,47,80 ],0,0 ]).
+struct_dt_elem_i([ 26,47,0 ],7,pic,'').
+struct_dt_elem_i([ 26,47,0 ],7,collection,'True').
+struct_dt_elem_i([ 26,47,0 ],7,'ObjName','DynamicFilters').
+struct_dt_elem_i([ 26,47,0 ],7,'ObjDesc','Dynamic Filters').
+struct_dt_elem_i([ 26,47,0 ],7,'CollectionItemName','DynamicFilter').
+struct_dt_elem_i([ 26,47,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,47,0 ],7,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,47,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,0 ],7,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,47,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,47,0 ],7,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,47,80 ],1,name,'Selected').
+struct_dt_elem_i([ 26,47,80 ],1,camelname,'Selected').
+struct_dt_elem_i([ 26,47,80 ],1,length,128).
+struct_dt_elem_i([ 26,47,80 ],1,decimals,0).
+struct_dt_elem_i([ 26,47,80 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,47,80 ],1,pic,'').
+struct_dt_elem_i([ 26,47,80 ],1,collection,'False').
+struct_dt_elem_i([ 26,47,80 ],1,'ExternalName','Selected').
+struct_dt_elem_i([ 26,47,80 ],1,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,80 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,47,80 ],1,'XmlName','').
+struct_dt_elem_i([ 26,47,80 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,80 ],1,soaptype,'').
+struct_dt_elem_i([ 26,47,80 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,80 ],1,'JsonName','').
+struct_dt_elem_i([ 26,47,80 ],2,name,'Value').
+struct_dt_elem_i([ 26,47,80 ],2,camelname,'Value').
+struct_dt_elem_i([ 26,47,80 ],2,length,100).
+struct_dt_elem_i([ 26,47,80 ],2,decimals,0).
+struct_dt_elem_i([ 26,47,80 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,47,80 ],2,pic,'').
+struct_dt_elem_i([ 26,47,80 ],2,collection,'False').
+struct_dt_elem_i([ 26,47,80 ],2,'ExternalName','Value').
+struct_dt_elem_i([ 26,47,80 ],2,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,80 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,47,80 ],2,'XmlName','').
+struct_dt_elem_i([ 26,47,80 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,80 ],2,soaptype,'').
+struct_dt_elem_i([ 26,47,80 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,80 ],2,'JsonName','').
+struct_dt_elem_i([ 26,47,80 ],3,name,'Operator').
+struct_dt_elem_i([ 26,47,80 ],3,camelname,'Operator').
+struct_dt_elem_i([ 26,47,80 ],3,length,4).
+struct_dt_elem_i([ 26,47,80 ],3,decimals,0).
+struct_dt_elem_i([ 26,47,80 ],3,sign,0).
+struct_dt_elem_i([ 26,47,80 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,47,80 ],3,pic,'ZZZ9').
+struct_dt_elem_i([ 26,47,80 ],3,collection,'False').
+struct_dt_elem_i([ 26,47,80 ],3,'ExternalName','Operator').
+struct_dt_elem_i([ 26,47,80 ],3,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,80 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,47,80 ],3,'XmlName','').
+struct_dt_elem_i([ 26,47,80 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,80 ],3,soaptype,'').
+struct_dt_elem_i([ 26,47,80 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,80 ],3,'JsonName','').
+struct_dt_elem_i([ 26,47,80 ],4,name,'Valueto').
+struct_dt_elem_i([ 26,47,80 ],4,camelname,'ValueTo').
+struct_dt_elem_i([ 26,47,80 ],4,length,100).
+struct_dt_elem_i([ 26,47,80 ],4,decimals,0).
+struct_dt_elem_i([ 26,47,80 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,47,80 ],4,pic,'').
+struct_dt_elem_i([ 26,47,80 ],4,collection,'False').
+struct_dt_elem_i([ 26,47,80 ],4,'ExternalName','ValueTo').
+struct_dt_elem_i([ 26,47,80 ],4,'ExternalNamespace','DataAnalysisPlatform').
+struct_dt_elem_i([ 26,47,80 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,47,80 ],4,'XmlName','').
+struct_dt_elem_i([ 26,47,80 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,47,80 ],4,soaptype,'').
+struct_dt_elem_i([ 26,47,80 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,47,80 ],4,'JsonName','').
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,15,'WWPBASEOBJECTS\LOADWWPCONTEXT',[ [ o('WWPBaseObjects\WWPContext'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+pgm_parm_i(proc,18,'WWPBASEOBJECTS\LOADGRIDSTATE',[ [ svchar,120,0,0 ],[ svchar,1000,0,0 ] ],[ [ 'UserCustomKey',in,[] ],[ 'UserCustomValue',out,[] ] ]).
+ 
+pgm_callprotocol_i(proc,159,'BR_INFORMATIONLISTGETFILTERDATA','INTERNAL').
+pgm_callprotocol_i(proc,15,'WWPBASEOBJECTS\LOADWWPCONTEXT','INTERNAL').
+pgm_callprotocol_i(proc,18,'WWPBASEOBJECTS\LOADGRIDSTATE','INTERNAL').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

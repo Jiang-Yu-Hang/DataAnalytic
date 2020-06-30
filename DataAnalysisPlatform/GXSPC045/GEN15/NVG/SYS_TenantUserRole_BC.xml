@@ -1,0 +1,106 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_0-127771</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>55</ObjId>
+<ObjName>SYS_TenantUserRole_BC</ObjName>
+<ObjDesc>SYS_Tenant User Role</ObjDesc>
+<ObjPgmName>SYS_TenantUserRole_BC</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>56</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>56</TableId>
+<TableName>SYS_TENANTUSERROLE</TableName>
+<Description>SYS_Tenant User Role</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>56</TableId>
+<TableName>SYS_TENANTUSERROLE</TableName>
+<Description>SYS_Tenant User Role</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>370</AttriId>
+<AttriName>SYS_TenantUserRoleUserRoleID</AttriName>
+<Description>SYS_Tenant User Role User Role ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>56</TableId>
+<TableName>SYS_TENANTUSERROLE</TableName>
+<Description>SYS_Tenant User Role</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>370</AttriId>
+<AttriName>SYS_TenantUserRoleUserRoleID</AttriName>
+<Description>SYS_Tenant User Role User Role ID</Description></Attribute>
+<Attribute>
+<AttriId>434</AttriId>
+<AttriName>SYS_TenantUserRoleRoleID</AttriName>
+<Description>SYS_Tenant User Role Role ID</Description></Attribute>
+<Attribute>
+<AttriId>433</AttriId>
+<AttriName>SYS_TenantUserRoleUserID</AttriName>
+<Description>SYS_Tenant User Role User ID</Description></Attribute>
+<Attribute>
+<AttriId>441</AttriId>
+<AttriName>SYS_TenantUserRoleTenantCode</AttriName>
+<Description>SYS_Tenant User Role Tenant Code</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>56</TableId>
+<TableName>SYS_TENANTUSERROLE</TableName>
+<Description>SYS_Tenant User Role</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>434</AttriId>
+<AttriName>SYS_TenantUserRoleRoleID</AttriName>
+<Description>SYS_Tenant User Role Role ID</Description></Attribute>
+<Attribute>
+<AttriId>433</AttriId>
+<AttriName>SYS_TenantUserRoleUserID</AttriName>
+<Description>SYS_Tenant User Role User ID</Description></Attribute>
+<Attribute>
+<AttriId>441</AttriId>
+<AttriName>SYS_TenantUserRoleTenantCode</AttriName>
+<Description>SYS_Tenant User Role Tenant Code</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>56</TableId>
+<TableName>SYS_TENANTUSERROLE</TableName>
+<Description>SYS_Tenant User Role</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

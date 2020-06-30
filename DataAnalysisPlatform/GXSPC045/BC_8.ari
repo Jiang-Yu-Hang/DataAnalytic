@@ -1,0 +1,4 @@
+bc_dt_elem_i([ 0,8,0 ],'Br_behaviorid',allownulls,no).
+bc_dt_elem_i([ 0,8,0 ],'Br_encounterid',allownulls,no).
+bc_dt_elem_i([ 0,8,0 ],'Br_information_patientno',readonly,yes).
+ 

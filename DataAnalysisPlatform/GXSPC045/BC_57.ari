@@ -1,0 +1,5 @@
+bc_dt_elem_i([ 0,57,0 ],'Sys_loglogid',allownulls,no).
+bc_dt_elem_i([ 0,57,0 ],'Sys_logtitle',allownulls,no).
+bc_dt_elem_i([ 0,57,0 ],'Sys_logcreator',allownulls,no).
+bc_dt_elem_i([ 0,57,0 ],'Sys_logcreatetime',allownulls,no).
+ 

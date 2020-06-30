@@ -1,0 +1,3 @@
+bc_dt_elem_i([ 0,42,0 ],'Userid',allownulls,no).
+bc_dt_elem_i([ 0,42,0 ],'Roleid',allownulls,no).
+ 
